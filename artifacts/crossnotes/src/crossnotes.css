@@ -1,0 +1,1180 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Bricolage+Grotesque:wght@400;600;700;800&display=swap');
+
+/* ─── STRUCTURAL TOKENS ──────────────────────────────────────────── */
+:root {
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body:    'Nunito', sans-serif;
+
+  /* Radii — generous for clay */
+  --r-xs:   10px;
+  --r-sm:   14px;
+  --r:      22px;
+  --r-lg:   28px;
+  --r-xl:   36px;
+  --r-pill: 999px;
+
+  /* Layout */
+  --bottom-nav-h: 80px;   /* floating pill needs more breathing room */
+  --top-nav-h:    58px;
+  --content-max:  640px;
+}
+
+/* ─── LIGHT MODE PALETTE — scoped to .cn-body ────────────────────── */
+.cn-body {
+  /* Backgrounds */
+  --bg:        #ede8ff;
+  --bg-card:   #ffffff;
+  --bg-card-2: #f4f0ff;
+  --bg-input:  #ede8ff;
+  --text:        #1a1035;
+  --text-muted:  #6b6590;
+  --text-subtle: #a09bc0;
+  --divider:     rgba(120, 90, 200, 0.12);
+
+  /* Primary — deep crimson, slightly warmer */
+  --primary:        hsl(0, 72%, 30%);
+  --primary-hover:  hsl(0, 72%, 24%);
+  --primary-light:  #fce8e8;
+  --primary-border: #f9a8a8;
+  --primary-shadow: hsl(0, 72%, 16%);   /* solid offset shadow color */
+
+  /* Accent */
+  --gold:        hsl(43, 90%, 50%);
+  --gold-light:  #fffbeb;
+  --gold-border: #fde68a;
+  --green:       #16a34a;
+  --green-light: #f0fdf4;
+  --red-light:   #fef2f2;
+  --red:         #dc2626;
+
+  /* Subject palette — more saturated for clay pop */
+  --science-bg:     #ffd6eb; --science-border: #f9a8d4; --science-shadow: #be185d;
+  --math-bg:        #d0e8ff; --math-border:    #93c5fd; --math-shadow:    #1d4ed8;
+  --lang-bg:        #ffe4c8; --lang-border:    #fdba74; --lang-shadow:    #c2410c;
+  --social-bg:      #ccf5e0; --social-border:  #86efac; --social-shadow:  #15803d;
+  --violet-bg:      #e8e0ff; --violet-border:  #c4b5fd; --violet-shadow:  #6d28d9;
+  --blue-bg:        #d0e8ff; --blue-border:    #93c5fd; --blue-shadow:    #1d4ed8;
+
+  /* ── Clay shadow system ── */
+  /* White/neutral cards: lavender-tinted solid offset + soft ambient + top inset highlight */
+  --shadow-card:
+    0 5px 0 rgba(120, 90, 200, 0.22),
+    0 14px 36px rgba(80, 60, 160, 0.1),
+    inset 0 2px 0 rgba(255, 255, 255, 0.9),
+    inset 2px 0 0 rgba(255, 255, 255, 0.4);
+
+  --shadow-card-hover:
+    0 8px 0 rgba(120, 90, 200, 0.28),
+    0 20px 44px rgba(80, 60, 160, 0.14),
+    inset 0 2px 0 rgba(255, 255, 255, 0.95),
+    inset 2px 0 0 rgba(255, 255, 255, 0.5);
+
+  /* Ghost buttons: same family, lighter */
+  --shadow-ghost:
+    0 4px 0 rgba(120, 90, 200, 0.18),
+    0 8px 20px rgba(80, 60, 160, 0.08),
+    inset 0 2px 0 rgba(255, 255, 255, 0.85);
+
+  /* Nav: lifts off the screen bottom */
+  --shadow-nav:
+    0 6px 0 rgba(100, 70, 180, 0.2),
+    0 16px 40px rgba(80, 50, 160, 0.15),
+    inset 0 2px 0 rgba(255, 255, 255, 0.92);
+
+  /* Primary button */
+  --shadow-btn:        0 5px 0 var(--primary-shadow), 0 10px 24px rgba(139, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.18);
+  --shadow-btn-active: 0 0px 0 var(--primary-shadow), inset 0 2px 0 rgba(255, 255, 255, 0.18);
+}
+
+/* ─── DARK MODE ──────────────────────────────────────────────────── */
+.cn-body.dark-mode, .dark-mode .cn-body {
+  --bg:        #100d20;
+  --bg-card:   #1e1a34;
+  --bg-card-2: #261f3e;
+  --bg-input:  #1e1a34;
+  --text:        #ece8ff;
+  --text-muted:  #9890c0;
+  --text-subtle: #6860a0;
+  --divider:     rgba(255, 255, 255, 0.08);
+
+  --primary:        hsl(0, 70%, 62%);
+  --primary-hover:  hsl(0, 70%, 70%);
+  --primary-light:  #2d1515;
+  --primary-border: #5a2020;
+  --primary-shadow: hsl(0, 80%, 8%);
+
+  --gold-light:  #1f1a00;
+  --gold-border: #5a4a00;
+  --green-light: #0a1f10;
+  --red-light:   #1f0a0a;
+
+  --science-bg:  #33112a; --science-border: #7c2550; --science-shadow: #000000;
+  --math-bg:     #0e1a33; --math-border:    #1e3a80; --math-shadow:    #000000;
+  --lang-bg:     #261408; --lang-border:    #6a3010; --lang-shadow:    #000000;
+  --social-bg:   #081a10; --social-border:  #145228; --social-shadow:  #000000;
+  --violet-bg:   #1a0e3e; --violet-border:  #3d2575; --violet-shadow:  #000000;
+  --blue-bg:     #0e1a33; --blue-border:    #1e3a80; --blue-shadow:    #000000;
+
+  /* Dark clay: glow-edge shadows instead of solid offset, cards still read as raised */
+  --shadow-card:
+    0 4px 0 rgba(0, 0, 0, 0.6),
+    0 12px 32px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.07);
+
+  --shadow-card-hover:
+    0 7px 0 rgba(0, 0, 0, 0.65),
+    0 18px 40px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.07),
+    inset 0 1px 0 rgba(255, 255, 255, 0.09);
+
+  --shadow-ghost:
+    0 4px 0 rgba(0, 0, 0, 0.45),
+    0 8px 20px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+
+  --shadow-nav:
+    0 -2px 0 rgba(255, 255, 255, 0.04),
+    0 8px 0 rgba(0, 0, 0, 0.6),
+    0 -16px 48px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+
+  --shadow-btn:        0 5px 0 rgba(0, 0, 0, 0.5), 0 10px 24px rgba(139, 0, 0, 0.35), inset 0 2px 0 rgba(255, 255, 255, 0.12);
+  --shadow-btn-active: 0 0px 0 rgba(0, 0, 0, 0.5), inset 0 2px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* ─── BASE ───────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Bug fix: the decorative blobs below use position:fixed with negative
+   left/bottom offsets (e.g. left:-10vw) to bleed off-screen. Some mobile
+   WebKit/Chrome builds still count fixed elements with negative offsets
+   toward the page's horizontal scrollable area, which lets the viewport
+   drift sideways (often after an address-bar collapse/scroll) — clipping
+   text on one edge and revealing background on the other. Locking overflow
+   on the root elements stops that drift regardless of the blobs' offsets. */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+#root {
+  overflow-x: hidden;
+}
+
+.cn-body {
+  font-family: var(--font-body);
+  /* Gradient lavender background, fixed so it doesn't scroll */
+  background: linear-gradient(145deg, #e8e0ff 0%, #f0e8ff 35%, #fce8f5 65%, #e8f0ff 100%);
+  background-attachment: fixed;
+  color: var(--text);
+  min-height: 100svh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Dark mode had a real bug here: only the CSS *variables* were redefined for
+   dark mode below, but this base gradient used hardcoded light hex values
+   that never changed — so "dark mode" kept the cheerful lavender/pink
+   daytime gradient behind everything. Give it an actual dark gradient. */
+.cn-body.dark-mode, .dark-mode .cn-body {
+  background: linear-gradient(145deg, #120c26 0%, #170f2c 35%, #1f0f22 65%, #0d1226 100%);
+}
+
+/* Soft floating blobs behind content for depth */
+.cn-body::before {
+  content: '';
+  position: fixed;
+  top: -15vh;
+  left: -10vw;
+  width: 55vw;
+  height: 55vw;
+  max-width: 480px;
+  max-height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(180, 150, 255, 0.28) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+.cn-body::after {
+  content: '';
+  position: fixed;
+  bottom: -12vh;
+  right: -8vw;
+  width: 50vw;
+  height: 50vw;
+  max-width: 420px;
+  max-height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 160, 220, 0.2) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Dark mode blobs */
+.cn-body.dark-mode::before {
+  background: radial-gradient(circle, rgba(80, 50, 160, 0.3) 0%, transparent 70%);
+}
+.cn-body.dark-mode::after {
+  background: radial-gradient(circle, rgba(120, 20, 80, 0.2) 0%, transparent 70%);
+}
+
+/* Ensure all page content sits above the blobs */
+.cn-body > * { position: relative; z-index: 1; }
+
+.font-display { font-family: var(--font-display); }
+
+/* ─── TOP HEADER — clay-lifted ───────────────────────────────────── */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: var(--top-nav-h);
+  background: var(--bg-card);
+  box-shadow:
+    0 4px 0 rgba(120, 90, 200, 0.18),
+    0 8px 24px rgba(80, 60, 160, 0.09),
+    inset 0 -1px 0 rgba(120, 90, 200, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  gap: 12px;
+}
+.dark-mode .app-header {
+  box-shadow:
+    0 4px 0 rgba(0, 0, 0, 0.5),
+    0 8px 24px rgba(0, 0, 0, 0.4),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.app-header-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text);
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.app-header-back {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: var(--r-pill);
+  transition: color 0.15s, background 0.15s;
+  font-family: var(--font-body);
+}
+.app-header-back:hover {
+  color: var(--text);
+  background: var(--bg-card-2);
+}
+
+.app-header-icon-btn {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: var(--bg-card-2);
+  color: var(--text-muted);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, transform 0.15s;
+  box-shadow: 0 2px 0 rgba(120, 90, 200, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.app-header-icon-btn:hover {
+  background: var(--bg-input);
+  color: var(--text);
+  transform: translateY(-1px);
+}
+.dark-mode .app-header-icon-btn {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.app-header-coins {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: var(--r-pill);
+  border: none;
+  background: var(--gold-light);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+  box-shadow: 0 2px 0 rgba(180, 130, 0, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  white-space: nowrap;
+}
+.app-header-coins:hover {
+  background: var(--gold-border);
+  transform: translateY(-1px);
+}
+.dark-mode .app-header-coins {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.avatar-btn {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: var(--primary);
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.15s;
+  font-family: var(--font-body);
+  box-shadow: 0 3px 0 var(--primary-shadow), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.avatar-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 var(--primary-shadow), 0 8px 20px rgba(139, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.avatar-initial { color: var(--primary); font-weight: 800; font-size: 15px; }
+
+/* ─── BOTTOM NAV — floating clay pill ────────────────────────────── */
+.bottom-nav {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  height: 64px;
+  background: var(--bg-card);
+  box-shadow: var(--shadow-nav);
+  border-radius: var(--r-pill);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 8px;
+  z-index: 50;
+}
+
+.bottom-nav-tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 6px 4px;
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: var(--r-pill);
+  transition: color 0.15s, background 0.15s, transform 0.15s;
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 700;
+  min-height: 48px;
+}
+.bottom-nav-tab:hover {
+  background: var(--bg-card-2);
+  transform: translateY(-2px);
+}
+.bottom-nav-tab.active {
+  color: var(--primary);
+}
+
+/* ─── CLAY CARD ──────────────────────────────────────────────────── */
+.clay-card {
+  background: var(--bg-card);
+  border-radius: var(--r);
+  border: none;   /* no hairline — shadows do the job */
+  box-shadow: var(--shadow-card);
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.18s ease;
+}
+a .clay-card:hover,
+.clay-card.hoverable:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card-hover);
+}
+a .clay-card:active,
+.clay-card.hoverable:active {
+  transform: translateY(2px);
+  box-shadow: var(--shadow-ghost);
+}
+
+/* ─── BUTTONS ────────────────────────────────────────────────────── */
+.clay-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px;
+  padding: 13px 26px;
+  border-radius: var(--r-pill);
+  font-family: var(--font-body) !important;
+  font-weight: 800 !important;
+  font-size: 14px;
+  border: none !important;
+  cursor: pointer;
+  user-select: none;
+  /* Subtle vertical gradient gives clay volume */
+  background: linear-gradient(180deg, hsl(0, 72%, 34%) 0%, var(--primary) 100%) !important;
+  color: #fff !important;
+  box-shadow: var(--shadow-btn);
+  transition: transform 0.1s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.1s ease;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.clay-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 0 var(--primary-shadow), 0 14px 28px rgba(139, 0, 0, 0.25), inset 0 2px 0 rgba(255, 255, 255, 0.18);
+}
+.clay-btn:active:not(:disabled) {
+  transform: translateY(5px);
+  box-shadow: var(--shadow-btn-active);
+}
+.clay-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Ghost / secondary clay button */
+.clay-btn-ghost {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px;
+  padding: 11px 20px;
+  border-radius: var(--r-pill);
+  font-family: var(--font-body) !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+  border: none !important;
+  cursor: pointer;
+  user-select: none;
+  background: var(--bg-card) !important;
+  color: var(--text) !important;
+  box-shadow: var(--shadow-ghost);
+  transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.12s ease,
+              background 0.15s ease;
+  white-space: nowrap;
+}
+.clay-btn-ghost:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: var(--bg-card-2) !important;
+  box-shadow:
+    0 6px 0 rgba(120, 90, 200, 0.22),
+    0 12px 28px rgba(80, 60, 160, 0.12),
+    inset 0 2px 0 rgba(255, 255, 255, 0.9);
+}
+.clay-btn-ghost:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 rgba(120, 90, 200, 0.18), inset 0 2px 0 rgba(255, 255, 255, 0.85);
+}
+.clay-btn-ghost:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* ─── PROGRESS BAR ───────────────────────────────────────────────── */
+.clay-progress {
+  height: 12px;
+  background: var(--bg-card-2);
+  border-radius: var(--r-pill);
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+.clay-progress-fill {
+  height: 100%;
+  border-radius: var(--r-pill);
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.xp-bar {
+  background: linear-gradient(90deg, var(--primary), hsl(20, 90%, 55%));
+  box-shadow: 0 0 10px rgba(249, 115, 22, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* ─── BADGES ─────────────────────────────────────────────────────── */
+.badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  padding: 3px 10px; border-radius: var(--r-pill);
+  font-size: 11px; font-weight: 800; letter-spacing: 0.02em;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+.badge-done     { background: #d1fae5; color: #065f46; }
+.badge-revision { background: #fef3c7; color: #92400e; }
+.badge-progress { background: #dbeafe; color: #1e40af; }
+.badge-new      { background: var(--bg-card-2); color: var(--text-muted); }
+
+.dark-mode .badge { box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05); }
+.dark-mode .badge-done     { background: #064e3b; color: #6ee7b7; }
+.dark-mode .badge-revision { background: #451a03; color: #fcd34d; }
+.dark-mode .badge-progress { background: #1e3a5f; color: #93c5fd; }
+
+/* ─── CHIPS ──────────────────────────────────────────────────────── */
+.xp-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 4px 12px; border-radius: var(--r-pill);
+  background: #fef3c7; color: #92400e;
+  font-size: 12px; font-weight: 800;
+  box-shadow: 0 2px 0 #d97706, inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.dark-mode .xp-chip {
+  background: #1f1a00; color: #fbbf24;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.streak-chip {
+  display: inline-flex; align-items: center; gap: 3px;
+  padding: 4px 12px; border-radius: var(--r-pill);
+  background: #fff7ed; color: #c2410c;
+  font-size: 12px; font-weight: 800;
+  box-shadow: 0 2px 0 #ea580c, inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.dark-mode .streak-chip {
+  background: #1c0a00; color: #fb923c;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* ─── RANK COLORS ────────────────────────────────────────────────── */
+.rank-gold   { color: #d97706; }
+.rank-silver { color: #9ca3af; }
+.rank-bronze { color: #b45309; }
+
+/* ─── 3D FLIP CARD ───────────────────────────────────────────────── */
+.perspective-1000    { perspective: 1000px; }
+.transform-style-3d  { transform-style: preserve-3d; }
+.backface-hidden     { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.rotate-y-180        { transform: rotateY(180deg); }
+
+/* ─── MISC ───────────────────────────────────────────────────────── */
+.tilt-left  { transform: rotate(-1.2deg); }
+.tilt-right { transform: rotate(1.2deg); }
+/* Keep tilt but still allow hover lift */
+a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3px); }
+
+.streak-fire { filter: drop-shadow(0 0 6px #f97316); display: inline-block; }
+.grayscale   { filter: grayscale(1); }
+.sticky-note-right { transform: rotate(1.5deg); box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.18); }
+
+/* ─── ANIMATIONS ─────────────────────────────────────────────────── */
+@keyframes spin     { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes slide-up { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-in  { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pulse    { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+@keyframes clay-pop {
+  0%   { transform: scale(0.92); }
+  60%  { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+@keyframes sheet-pop {
+  0%   { transform: scale(0.85) translateY(16px); opacity: 0; }
+  60%  { transform: scale(1.02) translateY(-2px); opacity: 1; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+.animate-spin  { animation: spin 1s linear infinite; }
+.animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+.slide-up      { animation: slide-up 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+.fade-in       { animation: fade-in  0.25s ease forwards; }
+.clay-pop      { animation: clay-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+.sheet-pop     { animation: sheet-pop 0.32s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+
+/* ─── OVERVIEW POPUP (short "what you'll learn" sheet, not a full page) ── */
+.overview-backdrop {
+  /* This is portalled straight into <body>, outside .cn-body — so it can't
+     inherit --bg-card/--text/etc from the scoped palette blocks above.
+     Redeclare the subset this sheet actually needs, right here, so
+     var(--bg-card) etc. always resolve instead of silently failing. */
+  --bg-card:        #ffffff;
+  --bg-card-2:      #f4f0ff;
+  --text:           #1a1035;
+  --text-muted:     #6b6590;
+  --divider:        rgba(120, 90, 200, 0.12);
+  --primary:        hsl(0, 72%, 30%);
+  --primary-light:  #fce8e8;
+  --primary-border: #f9a8a8;
+
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 10, 35, 0.45);
+  backdrop-filter: blur(2px);
+  z-index: 200;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: fade-in 0.2s ease forwards;
+}
+.overview-backdrop.dark-mode {
+  --bg-card:        #1e1a34;
+  --bg-card-2:      #261f3e;
+  --text:           #ece8ff;
+  --text-muted:     #9890c0;
+  --divider:        rgba(255, 255, 255, 0.08);
+  --primary:        hsl(0, 70%, 62%);
+  --primary-light:  #2d1515;
+  --primary-border: #5a2020;
+}
+.overview-sheet {
+  width: 100%;
+  max-width: 520px;
+  max-height: 78vh;
+  overflow-y: auto;
+  background: var(--bg-card);
+  border-radius: 28px 28px 0 0;
+  border: 2px solid var(--divider);
+  border-bottom: none;
+  box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px 24px;
+  transform-origin: bottom center;
+}
+.overview-sheet-handle {
+  width: 40px;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--divider);
+  margin: 0 auto 14px;
+}
+
+/* ─── LAYOUT HELPERS ─────────────────────────────────────────────── */
+.page-content {
+  flex: 1;
+  width: 100%;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  /* Extra bottom padding for the floating pill nav */
+  padding: 16px 16px calc(var(--bottom-nav-h) + 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.page-content-wide {
+  flex: 1;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px 16px calc(var(--bottom-nav-h) + 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.immersive-content {
+  flex: 1;
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 16px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ─── SECTION HEADER ─────────────────────────────────────────────── */
+.section-header {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 17px;
+  color: var(--text);
+  margin: 0;
+}
+
+/* ─── STATS STRIP ────────────────────────────────────────────────── */
+.stats-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.stat-card {
+  background: var(--bg-card);
+  border-radius: var(--r);
+  padding: 14px 8px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+/* Slight asymmetry — each stat card nudges a hair differently */
+.stat-card:nth-child(1) { transform: rotate(-0.5deg); }
+.stat-card:nth-child(2) { transform: translateY(-2px); }
+.stat-card:nth-child(3) { transform: rotate(0.5deg); }
+
+/* ─── CHAPTER ACTIONS (Notes / Cards / Quiz row) ────────────────────
+   Base .clay-btn-ghost padding (11px 20px) was beating the inline
+   px-2 Tailwind utility in the cascade, so 3 buttons + icons + gaps
+   didn't fit inside the row (esp. after the pl-14 offset) and
+   overflowed horizontally on narrow phones. Give this row its own
+   scoped rules with real shrinking instead of relying on utility
+   classes fighting the base button style. */
+.chapter-actions {
+  display: flex;
+  gap: 6px;
+  padding-left: 56px; /* mirrors the old pl-14 offset under the badge */
+  min-width: 0;
+}
+.chapter-actions-link {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.chapter-actions-btn {
+  width: 100%;
+  padding: 10px 6px !important;
+  gap: 4px !important;
+  font-size: 12px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 380px) {
+  .chapter-actions { padding-left: 44px; gap: 4px; }
+  .chapter-actions-btn { padding: 9px 4px !important; font-size: 11px !important; }
+}
+
+/* ─── CHAPTER ROW ────────────────────────────────────────────────── */
+.chapter-row {
+  background: var(--bg-card);
+  border-radius: var(--r);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.18s ease;
+}
+.chapter-row:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+/* ─── LEADERBOARD ────────────────────────────────────────────────── */
+.leaderboard-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: var(--r-sm);
+  transition: background 0.15s;
+}
+.leaderboard-row.me {
+  background: var(--primary-light);
+  box-shadow: inset 0 0 0 2px var(--primary-border);
+}
+.leaderboard-row:not(.me):nth-child(odd) { background: var(--bg-card-2); }
+
+/* ─── NOTE CARD ──────────────────────────────────────────────────── */
+.note-card {
+  background: var(--bg-card);
+  border-radius: var(--r);
+  padding: 20px;
+  box-shadow: var(--shadow-card);
+}
+.note-card.important {
+  background: var(--primary-light);
+  box-shadow:
+    0 5px 0 rgba(200, 80, 80, 0.25),
+    0 12px 28px rgba(180, 60, 60, 0.1),
+    inset 0 2px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* ─── INLINE CODE ────────────────────────────────────────────────── */
+.cn-code {
+  font-size: 12px;
+  padding: 1px 6px;
+  border-radius: var(--r-xs);
+  background: var(--bg-card-2);
+  color: var(--text-muted);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+  font-family: Menlo, monospace;
+}
+
+/* ─── OPTION BUTTON (Quiz) ───────────────────────────────────────── */
+.option-btn {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px 16px;
+  border-radius: var(--r) !important;
+  border: none !important;
+  background: var(--bg-card) !important;
+  color: var(--text) !important;
+  text-align: left;
+  font-family: var(--font-body) !important;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: var(--shadow-ghost);
+  transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.12s ease,
+              background 0.12s ease;
+  width: 100%;
+}
+.option-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+  background: var(--bg-card-2) !important;
+}
+.option-btn:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 rgba(120, 90, 200, 0.15);
+}
+.option-btn.selected {
+  background: var(--primary-light) !important;
+  color: var(--primary) !important;
+  box-shadow: 0 4px 0 rgba(200, 80, 80, 0.28), 0 10px 24px rgba(180, 60, 60, 0.12), inset 0 2px 0 rgba(255, 255, 255, 0.8) !important;
+}
+.option-btn.correct {
+  background: #d1fae5 !important;
+  color: #065f46 !important;
+  box-shadow: 0 4px 0 #6ee7b7, 0 10px 20px rgba(16, 185, 129, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.8) !important;
+}
+.option-btn.wrong {
+  background: #fee2e2 !important;
+  color: #991b1b !important;
+  box-shadow: 0 4px 0 #fca5a5, 0 10px 20px rgba(239, 68, 68, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.8) !important;
+}
+
+.dark-mode .option-btn {
+  background: var(--bg-card-2) !important;
+}
+.dark-mode .option-btn.correct {
+  background: #064e3b !important;
+  color: #6ee7b7 !important;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+}
+.dark-mode .option-btn.wrong {
+  background: #450a0a !important;
+  color: #fca5a5 !important;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+}
+
+/* ─── DASHBOARD SPECIFICS ────────────────────────────────────────── */
+.streak-ring {
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  background: #fff7ed;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  box-shadow:
+    0 4px 0 #fed7aa,
+    0 8px 20px rgba(249, 115, 22, 0.2),
+    inset 0 2px 0 rgba(255, 255, 255, 0.9);
+}
+.dark-mode .streak-ring {
+  background: #1c0a00;
+  box-shadow:
+    0 4px 0 rgba(0, 0, 0, 0.6),
+    0 8px 20px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.level-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 3px 12px; border-radius: var(--r-pill);
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--font-display); font-size: 11px; font-weight: 700;
+  box-shadow: 0 2px 0 var(--primary-shadow), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.continue-card {
+  background: linear-gradient(135deg, hsl(0, 72%, 34%) 0%, hsl(15, 80%, 42%) 100%);
+  border-radius: var(--r-lg);
+  padding: 18px;
+  color: #fff;
+  border: none;
+  box-shadow:
+    0 6px 0 hsl(0, 72%, 14%),
+    0 14px 32px rgba(139, 0, 0, 0.28),
+    inset 0 2px 0 rgba(255, 255, 255, 0.2),
+    inset 2px 0 0 rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.15s ease;
+  font-family: var(--font-body);
+}
+.continue-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 9px 0 hsl(0, 72%, 14%),
+    0 20px 40px rgba(139, 0, 0, 0.32),
+    inset 0 2px 0 rgba(255, 255, 255, 0.22);
+}
+.continue-card:active {
+  transform: translateY(4px);
+  box-shadow:
+    0 2px 0 hsl(0, 72%, 14%),
+    0 4px 12px rgba(139, 0, 0, 0.2),
+    inset 0 2px 0 rgba(255, 255, 255, 0.18);
+}
+
+/* Subject quick-cards on Dashboard — colored, clay-lifted */
+.subject-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.subject-quick-card {
+  border-radius: var(--r-lg);
+  padding: 16px 14px;
+  display: flex; flex-direction: column; gap: 8px;
+  /* No border — shadow carries the depth */
+  border: none !important;
+  cursor: pointer;
+  /* Dark neutral offset shadow works on any colored background */
+  box-shadow:
+    0 5px 0 rgba(0, 0, 0, 0.16),
+    0 12px 28px rgba(0, 0, 0, 0.1),
+    inset 0 2px 0 rgba(255, 255, 255, 0.75);
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.18s ease;
+  text-align: left;
+  background: inherit;
+}
+.subject-quick-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 8px 0 rgba(0, 0, 0, 0.18),
+    0 18px 36px rgba(0, 0, 0, 0.13),
+    inset 0 2px 0 rgba(255, 255, 255, 0.8);
+}
+.subject-quick-card:active {
+  transform: translateY(3px);
+  box-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.16),
+    inset 0 2px 0 rgba(255, 255, 255, 0.6);
+}
+/* Slight alternating tilt for the "placed by hand" look */
+.subject-quick-card:nth-child(odd)  { transform: rotate(-0.8deg); }
+.subject-quick-card:nth-child(even) { transform: rotate(0.6deg) translateY(-2px); }
+.subject-quick-card:nth-child(odd):hover  { transform: rotate(-0.8deg) translateY(-3px); }
+.subject-quick-card:nth-child(even):hover { transform: rotate(0.6deg) translateY(-5px); }
+.subject-quick-card:nth-child(odd):active  { transform: rotate(-0.8deg) translateY(3px); }
+.subject-quick-card:nth-child(even):active { transform: rotate(0.6deg) translateY(1px); }
+
+/* Dark-mode colored subject cards: slightly desaturated so they don't vibrate */
+.dark-mode .subject-quick-card {
+  box-shadow:
+    0 5px 0 rgba(0, 0, 0, 0.6),
+    0 12px 28px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* ─── TOUCH-DEVICE FIX: kill "sticky hover" card overlap ─────────────
+   Phones don't have real hover — after a tap, :hover can stay "on"
+   since there's no mouse to trigger mouseleave. Every card/button here
+   lifts with translateY() on hover, so a stuck hover state made a row
+   look like it was floating up and overlapping the row underneath it
+   (this is what was happening in the Subject > chapter list). Turning
+   the lift off for touch/coarse-pointer devices fixes it everywhere
+   this pattern is used, not just the chapter list. */
+@media (hover: none), (pointer: coarse) {
+  .app-header-back:hover,
+  .app-header-icon-btn:hover,
+  .app-header-coins:hover,
+  .avatar-btn:hover,
+  .bottom-nav-tab:hover,
+  a .clay-card:hover,
+  .clay-card.hoverable:hover,
+  .clay-btn:hover:not(:disabled),
+  .clay-btn-ghost:hover:not(:disabled),
+  a:hover .tilt-left,
+  a:hover .tilt-right,
+  .chapter-row:hover,
+  .option-btn:hover:not(:disabled),
+  .continue-card:hover,
+  .subject-quick-card:hover {
+    transform: none !important;
+  }
+  .subject-quick-card:nth-child(odd):hover  { transform: rotate(-0.8deg) !important; }
+  .subject-quick-card:nth-child(even):hover { transform: rotate(0.6deg) !important; }
+}
+
+/* Extra breathing room + isolation between stacked chapter rows so any
+   remaining shadow/lift never visually bleeds into a neighbour. */
+.chapter-row {
+  isolation: isolate;
+  position: relative;
+}
+.chapter-row + .chapter-row {
+  margin-top: 2px;
+}
+
+/* ─── EXAM RULES CARD (Question Paper notes) ─────────────────────── */
+.rules-card {
+  background: var(--bg-card);
+  border-radius: var(--r);
+  padding: 16px;
+  box-shadow: var(--shadow-card);
+  border: 2px dashed var(--primary-border);
+}
+.rules-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.rules-card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: var(--r-pill);
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 0 var(--primary-shadow);
+}
+.rules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+.rules-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: var(--r-sm);
+  background: var(--bg-card-2);
+}
+.rules-list-number {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--primary-light);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 800;
+  font-family: var(--font-display);
+}
+.rules-list-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.45;
+  padding-top: 1px;
+}
+
+/* ─── SUBTYPE TAGS (Notes header — pulled straight from the JSON) ──── */
+.subtype-tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.subtype-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: var(--r-pill);
+  background: var(--bg-card-2);
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 700;
+  border: 1px solid var(--divider);
+}
+
+/* ─── ANSWER CHIPS (fill-in-the-blank word bank, shown not quizzed) ── */
+.answer-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+.answer-chip {
+  padding: 6px 14px;
+  border-radius: var(--r-pill);
+  font-size: 12.5px;
+  font-weight: 700;
+  border: 2px solid var(--divider);
+  background: var(--bg-card-2);
+  color: var(--text-muted);
+}
+.answer-chip.is-correct {
+  border-color: #16a34a;
+  background: #dcfce7;
+  color: #166534;
+}
+.dark-mode .answer-chip.is-correct {
+  background: #064e3b;
+  color: #6ee7b7;
+}
+.fill-blank-target {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  margin: 0 4px;
+  padding: 2px 10px;
+  border-radius: 8px;
+  font-weight: 800;
+  border: 2px solid #16a34a;
+  background: #dcfce7;
+  color: #166534;
+}
+.dark-mode .fill-blank-target {
+  background: #064e3b;
+  color: #6ee7b7;
+}
+.match-pair-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: var(--r-sm);
+  background: var(--bg-card-2);
+}
+.match-pair-arrow { color: var(--primary); flex-shrink: 0; }
+
+/* ─── QUIZ PROGRESS DOTS ──────────────────────────────────────────── */
+.quiz-dots {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+.quiz-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--divider);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.25s ease;
+}
+.quiz-dot.is-current {
+  width: 20px;
+  border-radius: 4px;
+  background: var(--primary);
+}
+.quiz-dot.is-correct { background: #16a34a; }
+.quiz-dot.is-wrong { background: var(--red, #dc2626); }
+.quiz-dot.pop { animation: quiz-dot-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1); }
+@keyframes quiz-dot-pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.6); }
+  100% { transform: scale(1); }
+}
+
+@keyframes quiz-slide-in {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.quiz-slide-in { animation: quiz-slide-in 0.28s cubic-bezier(0.22, 1, 0.36, 1); }
+
+.true-false-btn-lg {
+  flex: 1;
+  padding: 18px 12px;
+  border-radius: var(--r);
+  font-size: 16px;
+  font-weight: 800;
+  border: 2px solid var(--divider);
+  background: var(--bg-card-2);
+  color: var(--text);
+  transition: transform 0.12s ease;
+}

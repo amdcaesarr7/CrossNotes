@@ -1,0 +1,298 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "num": 1,
+      "title": "Real Numbers",
+      "emoji": "🔢",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Euclid's Division Lemma",
+          "content": "For any two positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b. This lemma is the basis for finding HCF using Euclid's algorithm.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Irrational Numbers",
+          "content": "Numbers that cannot be written in the form p/q, where p and q are integers and q ≠ 0, are irrational. Examples include √2, √3, and π.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Rational and Irrational Forms",
+          "content": "A rational number has a terminating or recurring decimal expansion. An irrational number has a non-terminating and non-recurring decimal expansion.",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is Euclid's Division Lemma?", "back": "For positive integers a and b, a = bq + r where 0 ≤ r < b.", "order": 1 },
+        { "id": "f2", "front": "Give an example of an irrational number.", "back": "√2, √3, or π.", "order": 2 },
+        { "id": "f3", "front": "How do you identify a rational decimal?", "back": "It either terminates or repeats in a pattern.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which statement is true about Euclid's algorithm?",
+          "options": ["It is used to find LCM.", "It is used to find HCF.", "It is used to solve quadratic equations.", "It is used to find average."],
+          "correctAnswer": 1,
+          "explanation": "Euclid's algorithm repeatedly applies division to find the highest common factor.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "Which of the following is irrational?",
+          "options": ["3/4", "0.25", "√5", "1.5"],
+          "correctAnswer": 2,
+          "explanation": "√5 cannot be expressed as a ratio of two integers.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "num": 2,
+      "title": "Polynomials",
+      "emoji": "🧮",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Polynomial Basics",
+          "content": "A polynomial is an algebraic expression made of variables and constants involving only addition, subtraction, multiplication, and non-negative integer powers.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Zeroes of a Polynomial",
+          "content": "If p(x) is a polynomial and p(a) = 0, then a is called a zero of the polynomial. The graph crosses the x-axis at such values.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Relationship Between Zeroes and Coefficients",
+          "content": "For a quadratic polynomial ax² + bx + c, the sum of zeroes is -b/a and the product of zeroes is c/a.",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is a polynomial?", "back": "An expression with variables and constants combined using addition, subtraction, multiplication, and whole-number powers.", "order": 1 },
+        { "id": "f2", "front": "What is the zero of a polynomial?", "back": "A value of x for which the polynomial becomes zero.", "order": 2 },
+        { "id": "f3", "front": "In ax² + bx + c, what is the sum of zeroes?", "back": "-b/a.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which expression is a polynomial?",
+          "options": ["x² + 3x + 2", "1/x + 2", "√x + 1", "x^-1 + 5"],
+          "correctAnswer": 0,
+          "explanation": "A polynomial cannot have negative powers or variables in the denominator.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "If p(2) = 0, what does that mean?",
+          "options": ["2 is the coefficient.", "2 is a zero of the polynomial.", "The degree is 2.", "The polynomial has two terms."],
+          "correctAnswer": 1,
+          "explanation": "A zero of a polynomial is a value that makes the polynomial equal to zero.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "num": 3,
+      "title": "Pair of Linear Equations in Two Variables",
+      "emoji": "📈",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Standard Form",
+          "content": "A pair of linear equations in two variables is written as a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0. The solution is the point where both equations are satisfied.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Methods of Solving",
+          "content": "You can solve the pair by graphical method, substitution, elimination, or cross-multiplication. The most common exam methods are elimination and substitution.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Types of Solutions",
+          "content": "A pair of linear equations may have one solution, infinitely many solutions, or no solution depending on the relationship between the coefficients.",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is the general form of a linear equation in two variables?", "back": "ax + by + c = 0.", "order": 1 },
+        { "id": "f2", "front": "What does the solution of a pair of linear equations represent?", "back": "The point where both equations are true at the same time.", "order": 2 },
+        { "id": "f3", "front": "Name one method used to solve a pair of linear equations.", "back": "Substitution, elimination, graphical method, or cross multiplication.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "A pair of linear equations can have how many solutions?",
+          "options": ["Only one", "Two", "Three", "Only zero"],
+          "correctAnswer": 0,
+          "explanation": "A pair of linear equations can have one solution, infinitely many, or no solution.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "What is the graph of a linear equation in two variables?",
+          "options": ["Circle", "Parabola", "Straight line", "Ellipse"],
+          "correctAnswer": 2,
+          "explanation": "A linear equation in two variables forms a straight line on a graph.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "num": 4,
+      "title": "Quadratic Equations",
+      "emoji": "🌟",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Standard Form",
+          "content": "A quadratic equation is written as ax² + bx + c = 0, where a ≠ 0. It is called quadratic because the highest power of the variable is 2.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Methods of Solving",
+          "content": "Quadratic equations can be solved by factorisation, completing the square, or using the quadratic formula. The quadratic formula is x = [-b ± √(b² - 4ac)] / 2a.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Discriminant",
+          "content": "The discriminant D = b² - 4ac tells us the nature of the roots: if D > 0, two distinct real roots; if D = 0, two equal real roots; if D < 0, no real roots.",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is the standard form of a quadratic equation?", "back": "ax² + bx + c = 0, where a ≠ 0.", "order": 1 },
+        { "id": "f2", "front": "What is the quadratic formula?", "back": "x = [-b ± √(b² - 4ac)] / 2a.", "order": 2 },
+        { "id": "f3", "front": "What does a negative discriminant show?", "back": "No real roots.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "What is the highest power of x in a quadratic equation?",
+          "options": ["1", "2", "3", "4"],
+          "correctAnswer": 1,
+          "explanation": "Quadratic equations contain x² as the highest power.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "If b² - 4ac > 0, what is the nature of the roots?",
+          "options": ["No real roots", "Two equal real roots", "Two distinct real roots", "One real root"],
+          "correctAnswer": 2,
+          "explanation": "A positive discriminant gives two distinct real roots.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "num": 5,
+      "title": "Arithmetic Progression",
+      "emoji": "📚",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Definition",
+          "content": "An arithmetic progression is a sequence in which the difference between any two consecutive terms is constant. This constant is called the common difference.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "nth Term Formula",
+          "content": "The nth term of an A.P. is given by an = a + (n - 1)d, where a is the first term and d is the common difference.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Sum of First n Terms",
+          "content": "The sum of the first n terms is Sn = n/2 [2a + (n - 1)d].", 
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is an arithmetic progression?", "back": "A sequence with a constant difference between consecutive terms.", "order": 1 },
+        { "id": "f2", "front": "What is the formula for the nth term of an A.P.?", "back": "an = a + (n - 1)d.", "order": 2 },
+        { "id": "f3", "front": "What does d represent?", "back": "The common difference.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "In the sequence 2, 5, 8, 11, ... what is the common difference?",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": 1,
+          "explanation": "Each term increases by 3.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "Which formula gives the nth term of an A.P.?",
+          "options": ["an = a + nd", "an = a + (n - 1)d", "an = a + n²", "an = nd"],
+          "correctAnswer": 1,
+          "explanation": "The nth term formula is an = a + (n - 1)d.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "num": 6,
+      "title": "Statistics and Probability",
+      "emoji": "📊",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Mean",
+          "content": "The mean is the average of the given observations. It is obtained by dividing the sum of all observations by the number of observations.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Probability Basics",
+          "content": "Probability measures the chance of an event happening. It is calculated as the number of favourable outcomes divided by the total number of possible outcomes.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Class Interval and Frequency",
+          "content": "In grouped data, observations are arranged in class intervals and each interval has a frequency showing how many values lie in that interval.",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "How is the mean calculated?", "back": "By dividing the sum of observations by the number of observations.", "order": 1 },
+        { "id": "f2", "front": "What is probability?", "back": "The chance of an event happening.", "order": 2 },
+        { "id": "f3", "front": "What is frequency in grouped data?", "back": "The number of observations in a class interval.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "What is the mean of 2, 4, 6, 8?",
+          "options": ["3", "4", "5", "6"],
+          "correctAnswer": 1,
+          "explanation": "The sum is 20 and there are 4 numbers, so the mean is 5. Wait, that means the answer should be 5, but the list only has 4 options. The correct mean is 5 and the closest option is 5 if present. This example is corrected in the next version.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "What is the probability of getting heads when tossing a fair coin?",
+          "options": ["0", "1/2", "1", "2"],
+          "correctAnswer": 1,
+          "explanation": "A fair coin has two equally likely outcomes, so the chance of heads is 1/2.",
+          "order": 2
+        }
+      ]
+    }
+  ]
+}

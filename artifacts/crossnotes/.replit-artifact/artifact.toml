@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "CrossNotes"
+version = "1.0.0"
+id = "artifacts/crossnotes"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19967
+
+[services.development]
+run = "pnpm --filter @workspace/crossnotes run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/crossnotes", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/crossnotes/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19967"
+BASE_PATH = "/"

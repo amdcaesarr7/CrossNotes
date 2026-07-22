@@ -1,0 +1,31 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "num": 1,
+      "title": "Life Processes",
+      "emoji": "🌿",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Nutrition",
+          "content": "Life processes include nutrition, respiration, transportation, and excretion. These processes help living beings survive and maintain homeostasis.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What are life processes?", "back": "Processes necessary for an organism to stay alive, such as nutrition and respiration.", "order": 1 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which is a life process?",
+          "options": ["Reading", "Nutrition", "Sleeping", "Watching"],
+          "correctAnswer": 1,
+          "explanation": "Nutrition is one of the essential life processes.",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

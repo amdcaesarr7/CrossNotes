@@ -1,0 +1,31 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "num": 1,
+      "title": "Grammar Basics",
+      "emoji": "📖",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Parts of Speech",
+          "content": "Words are grouped into parts of speech such as nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is a noun?", "back": "A noun names a person, place, thing, or idea — basically anything you could point at, or almost point at.", "order": 1 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which word is a noun?",
+          "options": ["run", "quickly", "school", "beautiful"],
+          "correctAnswer": 2,
+          "explanation": "School is the name of a place, so it's a noun — sorry, no way around going there.",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

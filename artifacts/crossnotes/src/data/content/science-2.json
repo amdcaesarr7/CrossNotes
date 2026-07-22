@@ -1,0 +1,1701 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "num": 1,
+      "title": "Heredity and Evolution",
+      "emoji": "🧬",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter covers the principles of heredity, including the transfer of genetic information from DNA to mRNA (transcription) and translation, the concept of mutations, and the process of speciation. It also discusses evolution, including Darwin's theory of natural selection, Lamarckism, and the evidence for evolution from fossils and anatomy.",
+        "youWillLearn": [
+          "Define heredity, transcription, translation, translocation, mutation, and species.",
+          "Understand the central dogma of molecular biology.",
+          "Explain Darwin's theory of natural selection and its objections.",
+          "Describe the importance of fossils and carbon dating in studying evolution.",
+          "Understand the concept of vestigial organs and their significance."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Central Dogma",
+          "content": "Information about protein synthesis is present in DNA. As per this information, proteins are produced by DNA through RNA molecules. This is called central dogma.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Transcription",
+          "content": "The process of synthesis of mRNA as per the nucleotide sequence present in DNA is called transcription. The nucleotide sequence on mRNA is complementary to that of the single DNA strand used in synthesis. Instead of thymine, mRNA possesses uracil.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Translation",
+          "content": "The process of bringing tRNA possessing anticodon that is complementary to the codon on mRNA for protein synthesis is called translation.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Mutation",
+          "content": "Sudden and drastic change that occurs in the genetic material is called mutation.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Species",
+          "content": "The group of organisms that can produce fertile individuals through natural reproduction is called species.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Speciation",
+          "content": "The process of formation of new species from earlier ones is called speciation. Speciation depends upon factors like genetic variation, geographical changes, reproductive changes, and geographical or reproductive isolation for a long period.",
+          "important": true
+        },
+        {
+          "id": "n7",
+          "type": "paragraph",
+          "title": "Vestigial organs",
+          "content": "Vestigial organs are the organs which are present in the body but are non-functional or reduced in size. In human beings, appendicitis, tail-bone or coccyx, wisdom teeth and body hair are some examples of vestigial organs. These organs were functional in our ancestors but are of no use in the present human body.",
+          "important": true
+        },
+        {
+          "id": "n8",
+          "type": "paragraph",
+          "title": "Fossils",
+          "content": "Fossils are the impressions and remnants of organisms that lived in the past. They are formed when organisms get buried due to natural calamities and their remains are preserved underground. Study of fossils helps researchers understand the characteristics of organisms that existed in the past. Carbon dating method helps in finding out the exact age of the fossil.",
+          "important": true
+        },
+        {
+          "id": "n9",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "______ is a connecting link between Annelida and Arthropoda. (A) Duck-billed platypus (B) Peripatus (C) Lungfish (D) Whale. (B)",
+            "Transfer of information from molecule of DNA to mRNA is called ______ process. (A) translocation (B) translocation (C) transcription (D) mutation. (C)",
+            "The proof for the fact that protein synthesis occurs through ______ was given by George Beadle and Edward Tatum. (A) genes (B) cells (C) tissues (D) amino acid. (A)",
+            "Evolution means ______. (A) gradual development (B) exchanges (C) transcription (D) differentiation. (A)",
+            "The causality behind sudden changes was understood due to ______ principle of Hugo de Vries. (A) transcription (B) translocation (C) translation (D) mutation. (D)",
+            "About 10 thousand years ago, ______ started to practise agriculture. (A) Gorilla (B) white man (C) Ramapithecus (D) Austroalopithecus. (B)",
+            "______ can be considered as the first example of wise man. (A) Australopithecus (B) Ramapithecus (C) Cro Magnon (D) Neanderthal man. (D)",
+            "The process by which the gene in the nucleoside suddenly changes its position is called ______. (A) translation (B) translocation (C) mutation (D) transfer. (C)",
+            "Walter Sutton observed the paired chromosomes in the cells of ______. (A) monkey (B) cockroach (C) grasshopper (D) housefly. (C)",
+            "______ is pioneer of the modern genetics. (A) Charles Darwin (B) Gregor Mendel (C) Hargobind Khurana (D) Walter Sutton. (B)",
+            "Francois Jacob and Jack Monod proposed a model for process of ______ synthesis with the help of DNA in bacterial cells. (A) protein (B) lipid (C) chromosome (D) nucleus. (A)",
+            "Genes are carried via ______. (A) cells (B) chromosomes (C) mitochondria (D) Golgi body. (B)"
+          ]
+        },
+        {
+          "id": "n10",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Mesozoic era was dominated by variety of mammals. (False)",
+            "Theory of natural selection was given by Charles Darwin. (True)",
+            "Humans walking with erect posture were confined to Africa only during prehistoric period. (False)",
+            "Dr. Hargobind Khorana was awarded Nobel prize for his invention and publication in the journal Radio Carbon. (False)",
+            "It seems that vertebrates have been already originated from vertebrates. (False)",
+            "Industrial society was established about 200 years ago. (True)",
+            "It takes thousands of years for a functionless structure to disappear. (True)"
+          ]
+        },
+        {
+          "id": "n11",
+          "type": "list",
+          "title": "Find the odd one out",
+          "ordered": false,
+          "items": [
+            "Newlands, Moseley, Dobereiner, Mendeleev. (Moseley - brought out the importance of atomic number, while the others tried to classify the elements on the basis of atomic mass.)"
+          ]
+        },
+        {
+          "id": "n12",
+          "type": "fill_blank",
+          "title": "Complete the correlation",
+          "content": "Dobereiner : Triad : : Newlands' law : ___",
+          "blanks": ["Octaves"]
+        },
+        {
+          "id": "n13",
+          "type": "fill_blank",
+          "title": "Complete the correlation",
+          "content": "Solid : Iodine : : ___ : Bromine",
+          "blanks": ["Liquid"]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "What is meant by the central dogma of molecular biology?",
+          "back": "The process of protein synthesis from DNA through RNA. Information in DNA is transcribed into mRNA, which is then translated into a protein."
+        },
+        {
+          "id": "f2",
+          "front": "Define transcription.",
+          "back": "The process of synthesis of mRNA according to the nucleotide sequence present on DNA."
+        },
+        {
+          "id": "f3",
+          "front": "What is a mutation?",
+          "back": "A sudden and drastic change that occurs in the genetic material."
+        },
+        {
+          "id": "f4",
+          "front": "What are vestigial organs? Give one example.",
+          "back": "Organs that are present in the body but are non-functional or reduced in size, e.g., the tail-bone (coccyx) in humans."
+        },
+        {
+          "id": "f5",
+          "front": "What method is used to determine the age of fossils?",
+          "back": "Carbon dating method."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "______ is a connecting link between Annelida and Arthropoda.",
+          "options": ["Duck-billed platypus", "Peripatus", "Lungfish", "Whale"],
+          "correctAnswer": 1,
+          "explanation": "Peripatus shows characteristics of both Annelida and Arthropoda.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "Transfer of information from molecule of DNA to mRNA is called ______ process.",
+          "options": ["translocation", "translation", "transcription", "mutation"],
+          "correctAnswer": 2,
+          "explanation": "The process of mRNA synthesis from DNA is called transcription.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "The causality behind sudden changes was understood due to ______ principle of Hugo de Vries.",
+          "options": ["transcription", "translocation", "translation", "mutation"],
+          "correctAnswer": 3,
+          "explanation": "Hugo de Vries proposed the mutation theory of evolution.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "______ is pioneer of the modern genetics.",
+          "options": ["Charles Darwin", "Gregor Mendel", "Hargobind Khurana", "Walter Sutton"],
+          "correctAnswer": 1,
+          "explanation": "Gregor Mendel is known as the father of modern genetics.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "Genes are carried via ______.",
+          "options": ["cells", "chromosomes", "mitochondria", "Golgi body"],
+          "correctAnswer": 1,
+          "explanation": "Genes are located on chromosomes.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "num": 2,
+      "title": "Life Processes in Living Organisms - Part 1",
+      "emoji": "🧫",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter covers the life processes occurring at the cellular level, focusing on respiration. It explains the steps of glycolysis, the Krebs cycle, and the electron transport chain, and compares aerobic and anaerobic respiration. The chapter also covers the importance of vitamins and the role of ATP as the energy currency of the cell.",
+        "youWillLearn": [
+          "Define cellular respiration, aerobic respiration, and anaerobic respiration.",
+          "Understand the process of glycolysis and its products.",
+          "Explain the Krebs cycle and its role in energy production.",
+          "Calculate the number of ATP molecules produced from one glucose molecule.",
+          "Understand the role of vitamins in the body."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Cellular respiration",
+          "content": "Oxidation of glucose and other food components which takes place inside the cell in presence or absence of oxygen, is known as cellular respiration.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Aerobic respiration",
+          "content": "Cellular respiration taking place in presence of oxygen is known as aerobic respiration.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Anaerobic respiration",
+          "content": "Cellular respiration taking place in absence of oxygen is known as anaerobic respiration. It occurs in two steps: glycolysis and fermentation.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Glycolysis",
+          "content": "The process of glycolysis takes place in the cytoplasm of the cell. One molecule of glucose is gradually oxidized step by step forming two molecules of each pyruvic acid, ATP, NADH, and water. Of these, pyruvate or pyruvic acid takes part in the further reactions.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "paragraph",
+          "title": "ATP - Energy Currency of the Cell",
+          "content": "ATP is called the energy currency of the cell. After complete oxidation of a glucose molecule, 38 number of ATP molecules are formed. In aerobic respiration, 38 ATP molecules are formed, while in anaerobic respiration, only 2 ATP molecules are formed.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Vitamins",
+          "content": "Vitamins are a group of heterogeneous compounds which are essential for proper operation of the body. They are required in small amounts and must be obtained from food. Vitamin B1 is chemically Riboflavin, Vitamin B2 is Nicotinamide, Vitamin B12 is Cyanocobalamine, and Vitamin B5 is Pantothenic acid.",
+          "important": true
+        },
+        {
+          "id": "n7",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "Somatic and stem cells undergo ______ division. (A) meiosis (B) mitosis (C) budding (D) cloning. (B)",
+            "The spindle fibers start appearing from ______ stage of karyokinesis. (A) prophase (B) metaphase (C) anaphase (D) telophase. (B)",
+            "In mitotic division, nuclear membrane completely disappears in ______ phase. (A) telophase (B) prophase (C) metaphase (D) anaphase. (C)",
+            "All chromosomes are arranged parallel to equatorial plane of cell in ______ phase of mitosis. (A) prophase (B) metaphase (C) anaphase (D) telophase. (B)",
+            "______ bones contain ______ amino acids. (A) Melanin (B) Haemoglobin (C) Osein (D) Insulin. (C)",
+            "Glycolysis and ______ are two steps of anaerobic respiration. (A) Krebs cycle (B) Electron transfer chain reaction (C) Fermentation (D) Reduction. (C)",
+            "Chemically vitamin B1 is ______. (A) Riboflavin (B) Nicotinamide (C) Cyanocobalamine (D) Pantothenic acid. (A)",
+            "______ ATP molecules are formed during aerobic respiration, while ______ ATP molecules are formed during anaerobic respiration. (A) 30, 15 (B) 2, 38 (C) 38, 2 (D) 36, 4. (C)",
+            "The process of glycolysis occurs in ______. (A) cytoplasm (B) mitochondria (C) nucleus (D) cell membrane. (A)",
+            "ATP is called ______ of the cell. (A) energy currency (B) combustion, fuel (C) storage of glucose (D) protein depot. (A)",
+            "Our muscle cells perform ______ type of respiration, during exercise. (A) aerobic (B) anaerobic (C) cellular (D) all the above. (B)"
+          ]
+        },
+        {
+          "id": "n8",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Oxidation of proteins is carried out in aerobic respiration. (False)",
+            "Molecules of pyruvic acid formed in the glycolysis are converted into molecules of acetyl coenzymes. (True)",
+            "Excess of ATP molecules obtained from proteins are not stored in the body. (False)",
+            "Proteins of animal origin are called first class proteins. (True)",
+            "The disease related with the deficient synthesis of insulin is heart disease. (False)"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "Define cellular respiration.",
+          "back": "Oxidation of glucose and other food components which takes place inside the cell in presence or absence of oxygen."
+        },
+        {
+          "id": "f2",
+          "front": "Where does glycolysis take place in the cell?",
+          "back": "In the cytoplasm."
+        },
+        {
+          "id": "f3",
+          "front": "How many ATP molecules are formed from one glucose molecule during complete aerobic respiration?",
+          "back": "38 ATP molecules."
+        },
+        {
+          "id": "f4",
+          "front": "What is ATP called?",
+          "back": "The energy currency of the cell."
+        },
+        {
+          "id": "f5",
+          "front": "What is the name of the process of formation of glucose through non-carbohydrate sources?",
+          "back": "Gluconeogenesis."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "Somatic and stem cells undergo ______ division.",
+          "options": ["meiosis", "mitosis", "budding", "cloning"],
+          "correctAnswer": 1,
+          "explanation": "Somatic cells undergo mitosis for growth and repair.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "The process of glycolysis occurs in ______.",
+          "options": ["cytoplasm", "mitochondria", "nucleus", "cell membrane"],
+          "correctAnswer": 0,
+          "explanation": "Glycolysis occurs in the cytoplasm of the cell.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "______ ATP molecules are formed during aerobic respiration, while ______ ATP molecules are formed during anaerobic respiration.",
+          "options": ["30, 15", "2, 38", "38, 2", "36, 4"],
+          "correctAnswer": 2,
+          "explanation": "Aerobic respiration yields 38 ATP, while anaerobic respiration yields only 2 ATP.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "ATP is called ______ of the cell.",
+          "options": ["energy currency", "combustion, fuel", "storage of glucose", "protein depot"],
+          "correctAnswer": 0,
+          "explanation": "ATP is the main energy currency of the cell.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "Our muscle cells perform ______ type of respiration, during exercise.",
+          "options": ["aerobic", "anaerobic", "cellular", "all the above"],
+          "correctAnswer": 1,
+          "explanation": "Muscle cells perform anaerobic respiration during strenuous exercise, producing lactic acid.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "num": 3,
+      "title": "Life Processes in Living Organisms - Part 2",
+      "emoji": "🌸",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter covers reproduction in organisms, both asexual and sexual. It describes various modes of asexual reproduction like budding, fragmentation, and spore formation, as well as the process of sexual reproduction in plants and animals. It also discusses modern reproductive technologies like IVF.",
+        "youWillLearn": [
+          "Differentiate between asexual and sexual reproduction.",
+          "Describe various methods of asexual reproduction with examples.",
+          "Explain the structure of a flower and the process of pollination.",
+          "Understand the process of double fertilization in plants.",
+          "Describe the human female reproductive system and the menstrual cycle.",
+          "Explain modern reproductive technologies like IVF."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Asexual Reproduction",
+          "content": "Reproduction that occurs with the help of somatic cells is called asexual reproduction. Only one parent is necessary. This reproduction occurs with the help of mitosis only. The new individual formed is genetically identical to the parent. Asexual reproduction occurs by various methods like binary fission, multiple fission, budding, fragmentation, regeneration, vegetative propagation, and spore production.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Sexual Reproduction",
+          "content": "Male and female gametes are necessary for sexual reproduction. This reproduction occurs in two steps: first, the formation of haploid gametes by meiosis, and then the fertilization of these haploid gametes to form a diploid zygote.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Pollination",
+          "content": "Transfer of pollen grains from anther to the stigma is called pollination.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Endosperm",
+          "content": "Endosperm is the nourishing substance formed by the union of the second male gamete with two polar nuclei at the time of fertilization in plants.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Menopause",
+          "content": "Stoppage of functioning of female reproductive system due to lack of synthesis of hormones due to advancing age is called menopause.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "paragraph",
+          "title": "IVF (In Vitro Fertilization)",
+          "content": "In Vitro Fertilization is the technique in which fertilization is brought about outside the female body but in the test-tube and the embryo is implanted in the uterus of the woman. This technique is used for couples with fertility problems.",
+          "important": true
+        },
+        {
+          "id": "n7",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "Divya and Priya are twins in your class. They belong to ______ twins type. (A) monozygotic (B) dizygotic (C) somate (D) none of the above. (B)",
+            "The length of a sperm is about ______ micrometers. (A) 400 (B) 3 (C) 60 (D) 600. (C)",
+            "Body breaks up into several fragments and each fragment begins to live as a new individual. This is ______ type of reproduction. (A) regeneration (B) fragmentation (C) binary fission (D) budding. (B)",
+            "In humans, sperm production occurs in the organs ______. (A) prostate gland (B) testis (C) ovaries (D) Cooper's gland. (B)",
+            "Type of sexual reproduction is ______. (A) fragmentation (B) regeneration (C) gamete formation (D) budding. (C)",
+            "______ type of reproduction occurs without fusion of gametes. (A) Asexual (B) Sexual (C) Fertilization (D) Gamete formation. (A)",
+            "Pollen grains are formed by ______ division in locules of anthers. (A) mitosis (B) meiosis (C) fragmentation (D) regeneration. (B)",
+            "Vegetative propagation is performed with the help of ______ in sweet potato. (A) root (B) stem (C) leaf (D) flower. (A)",
+            "Longitudinal binary fission is seen in ______. (A) Paramecium (B) Euglena (C) Amoeba (D) Spirogyra. (B)",
+            "Yeast performs asexual reproduction by ______. (A) fragmentation (B) budding (C) binary fission (D) regeneration. (B)",
+            "Carrot and radish undergo ______ with the help of their roots. (A) vegetative propagation (B) fragmentation (C) budding (D) regeneration. (A)",
+            "Syphilis is caused due to ______. (A) virus (B) protozoan (C) worms (D) bacteria. (D)",
+            "Progesterone is secreted from ______. (A) corpus albicans (B) corpus luteum (C) testis (D) uterus. (B)"
+          ]
+        },
+        {
+          "id": "n8",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "During unfavourable conditions multiple fission is performed by amoeba. (True)",
+            "There is need of rest along with special personal hygiene during phase of menstruation. (True)",
+            "There is glucose sugar in semen. (False)",
+            "The pollen grains from anthers fall on stigma of carpel. (True)",
+            "Prokaryotes show fission which occurs either by mitosis or meiosis. (True)"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "Define asexual reproduction.",
+          "back": "Reproduction that occurs with the help of somatic cells, involving only one parent and occurring through mitosis."
+        },
+        {
+          "id": "f2",
+          "front": "What is pollination?",
+          "back": "The transfer of pollen grains from the anther to the stigma of a carpel."
+        },
+        {
+          "id": "f3",
+          "front": "What is the function of the endosperm in a plant seed?",
+          "back": "To provide nourishment to the developing embryo."
+        },
+        {
+          "id": "f4",
+          "front": "What is menopause?",
+          "back": "The stoppage of the functioning of the female reproductive system due to a lack of hormones with advancing age."
+        },
+        {
+          "id": "f5",
+          "front": "What does IVF stand for?",
+          "back": "In Vitro Fertilization."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "Body breaks up into several fragments and each fragment begins to live as a new individual. This is ______ type of reproduction.",
+          "options": ["regeneration", "fragmentation", "binary fission", "budding"],
+          "correctAnswer": 1,
+          "explanation": "Fragmentation is a type of asexual reproduction where the body breaks into fragments, each growing into a new individual.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "In humans, sperm production occurs in the organs ______.",
+          "options": ["prostate gland", "testis", "ovaries", "Cooper's gland"],
+          "correctAnswer": 1,
+          "explanation": "Sperm production occurs in the testes.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "______ type of reproduction occurs without fusion of gametes.",
+          "options": ["Asexual", "Sexual", "Fertilization", "Gamete formation"],
+          "correctAnswer": 0,
+          "explanation": "Asexual reproduction does not involve the fusion of gametes.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "Vegetative propagation is performed with the help of ______ in sweet potato.",
+          "options": ["root", "stem", "leaf", "flower"],
+          "correctAnswer": 0,
+          "explanation": "Sweet potato reproduces vegetatively through its roots.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "Progesterone is secreted from ______.",
+          "options": ["corpus albicans", "corpus luteum", "testis", "uterus"],
+          "correctAnswer": 1,
+          "explanation": "The corpus luteum secretes the hormone progesterone.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "num": 4,
+      "title": "Environmental Management",
+      "emoji": "🌍",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter covers environmental management, focusing on biodiversity, its levels, and the importance of conservation. It discusses the types of threatened species and the factors affecting the environment. The chapter also highlights the importance of environmental conservation and the role of individuals in protecting the environment.",
+        "youWillLearn": [
+          "Define biodiversity and explain its three levels.",
+          "Identify and differentiate between endangered, rare, vulnerable, and indeterminate species.",
+          "Understand the factors affecting the environment.",
+          "Explain the importance of environmental conservation.",
+          "Describe the role of sacred groves in conservation."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Biodiversity",
+          "content": "Biodiversity is documented on the following three levels: genetic diversity, species diversity, and ecosystem diversity. Genetic diversity is the diversity seen among organisms of the same species due to genetic differences. Species diversity is the difference between the different species. Ecosystem diversity is the diversity in ecosystems in one region.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Threatened Species",
+          "content": "Threatened species are of four main types: endangered species, rare species, vulnerable species, and indeterminate species. Endangered species are those whose numbers are declining and habitat is shrinking rapidly. Rare species have considerably declined numbers and are endemic. Vulnerable species are those that are likely to become endangered if conservation measures are not implemented. Indeterminate species are those whose exact status is not known.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Environmental Conservation",
+          "content": "Due to natural and man-made causes, there are many environmental problems on the earth. To save these organisms and maintain environmental balance, there is a need for environmental conservation. The Government has formulated acts and rules for environmental conservation. People's participation in the conservation movement is essential.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Sacred Groves",
+          "content": "Sacred groves are the sanctuaries conserved by the society and not by the government forest department. These are community-protected areas that have been preserved for generations due to religious and cultural beliefs.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "Which gas is mainly responsible for global warming? (A) Carbon dioxide (B) Oxygen (C) Nitrogen (D) Hydrogen. (A)",
+            "Which type of pollution causes genetic changes? (A) Radioactive pollution (B) Air pollution (C) Water pollution (D) Soil pollution. (A)",
+            "Which sanctuary of Assam is under threat due to damage and indiscriminate use of water? (A) Tadoba (B) Kaziranga (C) Manas (D) Sundarbans. (C)",
+            "Giant squirrel is an example of ______ threatened species. (A) endangered (B) rare (C) vulnerable (D) indeterminate. (D)",
+            "The apex consumer is ______. (A) eagle (B) frog (C) snake (D) Grasshopper. (A)",
+            "Basic Zoological unit to study the ecology is termed as ______. (A) environment (B) niche (C) ecologist (D) food chain. (B)",
+            "______ from Manas sanctuary in Assam is under threat. (A) One-horned rhino (B) Lion (C) Musk deer (D) Giant squirrel/Shekhru. (A)",
+            "World Biodiversity Day is celebrated on ______ every year. (A) 22nd April (B) 5th June (C) 16th September (D) 22nd May. (D)",
+            "Maintaining record of ______ knowledge is very necessary. (A) modern (B) mythical (C) social (D) traditional. (D)",
+            "As per ______ trading of rare animals has been completely banned. (A) clause 49A (B) clause 49B (C) clause 49C (D) all the above. (A)",
+            "\"Sanctuaries\" conserved by the society and not by the government forest department are called ______. (A) park (B) resort (C) sacred grove (D) God's garden. (C)",
+            "At present ______ % sensitive biodiversity spots are already destroyed. (A) 50% (B) 70% (C) 86% (D) 90%. (C)"
+          ]
+        },
+        {
+          "id": "n6",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Many frogs visit rice field to feed upon rice. (False)",
+            "Environmental pollution is unnecessary and severe acceptance change in the surrounding environment. (True)",
+            "There are clusters of thick forests only in Western Ghats of India. (False)",
+            "Flow of nutrients in an ecosystem is unidirectional. (False)",
+            "80 highly sensitive biodiversity spots are reported all over the world. (False)"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "What are the three levels of biodiversity?",
+          "back": "Genetic diversity, species diversity, and ecosystem diversity."
+        },
+        {
+          "id": "f2",
+          "front": "What is an endangered species?",
+          "back": "A species whose numbers are declining and habitat is shrinking rapidly, and which may become extinct if conservation measures are not taken."
+        },
+        {
+          "id": "f3",
+          "front": "What is a sacred grove?",
+          "back": "A sanctuary conserved by the society and not by the government forest department, often due to religious or cultural beliefs."
+        },
+        {
+          "id": "f4",
+          "front": "When is World Biodiversity Day celebrated?",
+          "back": "22nd May."
+        },
+        {
+          "id": "f5",
+          "front": "Name one threatened species found in Manas sanctuary, Assam.",
+          "back": "One-horned rhino."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "Which gas is mainly responsible for global warming?",
+          "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+          "correctAnswer": 0,
+          "explanation": "Carbon dioxide is a major greenhouse gas that contributes to global warming.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "Which type of pollution causes genetic changes?",
+          "options": ["Radioactive pollution", "Air pollution", "Water pollution", "Soil pollution"],
+          "correctAnswer": 0,
+          "explanation": "Radioactive pollution can cause mutations in genes.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "World Biodiversity Day is celebrated on ______ every year.",
+          "options": ["22nd April", "5th June", "16th September", "22nd May"],
+          "correctAnswer": 3,
+          "explanation": "World Biodiversity Day is celebrated on 22nd May.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "\"Sanctuaries\" conserved by the society and not by the government forest department are called ______.",
+          "options": ["park", "resort", "sacred grove", "God's garden"],
+          "correctAnswer": 2,
+          "explanation": "These community-conserved areas are known as sacred groves.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "At present ______ % sensitive biodiversity spots are already destroyed.",
+          "options": ["50%", "70%", "86%", "90%"],
+          "correctAnswer": 2,
+          "explanation": "Approximately 86% of sensitive biodiversity spots have been destroyed.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "num": 5,
+      "title": "Towards Green Energy",
+      "emoji": "☀️",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter introduces the concept of green energy and contrasts it with conventional energy sources. It covers various sources of green energy like solar, wind, hydroelectric, and geothermal energy, and discusses their advantages and limitations. The chapter also explains the working of solar cells and power plants.",
+        "youWillLearn": [
+          "Define green energy and its importance.",
+          "Compare conventional and non-conventional sources of energy.",
+          "Explain the working of solar cells and solar panels.",
+          "Understand the advantages and limitations of hydroelectric, wind, and solar energy.",
+          "Describe the process of energy generation in nuclear power plants."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Renewable Energy",
+          "content": "Renewable energy is energy produced from sources that do not deplete or can be replenished within a human's lifetime. Examples include wind, solar, geothermal, biomass, and hydroelectric power. Most renewable energy is derived directly or indirectly from the sun.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Conventional Sources of Energy",
+          "content": "Conventional sources of energy (like coal, oil, and natural gas) are largely polluting and release a lot of carbon through emissions. They are not eco-friendly and are non-renewable.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Non-Conventional Sources of Energy",
+          "content": "Non-conventional sources of energy (like solar, wind, hydroelectric, and geothermal) are renewable and eco-friendly. They do not cause pollution and are sustainable in the long run.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Advantages of Hydroelectric Power",
+          "content": "Hydroelectric energy does not cause pollution. Generation of hydroelectric energy does not involve burning of fossil fuels. If sufficient water storage is available, electricity generation can be done as per requirement.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Limitations of Wind Energy",
+          "content": "The installation of windmills to produce electricity from wind energy depends upon the wind velocity available at the site of installation and geographical factors. If these factors are not suitable, the use of wind energy is limited.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Advantages and Limitations of Solar Energy",
+          "content": "Advantages: Solar energy is eco-friendly, does not create pollution, and is a boundless source. Limitations: Solar energy is available only when the sun is in the sky, so it has to be stored in batteries. In rainy season and in cloudy conditions, solar power generation suffers.",
+          "important": true
+        },
+        {
+          "id": "n7",
+          "type": "paragraph",
+          "title": "Nuclear Power",
+          "content": "In nuclear power plants, the energy is generated through nuclear fission chain reactions of Uranium-235. Each released neutron further causes fission of 3 Uranium atoms, and uncontrolled reactions can cause hazardous accidents. Nuclear waste requires very safe disposal.",
+          "important": true
+        },
+        {
+          "id": "n8",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "Incomplete combustion of fuels leads to formation of ______. (A) carbon monoxide (B) carbon dioxide (C) chloroflurocarbon (D) hydrogen sulphide. (A)",
+            "Water reservoir possesses ______. (A) nuclear (B) thermal (C) atomic (D) potential. (D)",
+            "In thermal power plants, the ______ energy in the coal is converted into electrical energy through several steps. (A) solar (B) Nuclear (C) thermal (D) chemical. (D)",
+            "The hydroelectric capacity of Koyna dam is ______. (A) 2400 MW (B) 1960 MW (C) 1900 MW (D) 1960 MW. (B)",
+            "Which of the following is not the source of green energy? (A) Wind (B) Natural gas (C) Sunlight (D) Fossil fuel. (D)",
+            "Which is the most abundant and renewable energy? (A) Thermal power (B) Solar energy (C) Fossil fuels (D) Atomic power. (B)",
+            "Solar cells are made of a special type of material called semiconductor such as ______. (A) silicon (B) uranium (C) borosilicate (D) hydrogen. (A)",
+            "Burning of coal may cause serious health problems related to ______ systems. (A) digestive (B) respiratory (C) nervous (D) excretory. (B)",
+            "Which of the following is used in solar cooker to harvest the solar energy? (A) Solar panels (B) Silicon cell (C) Mirrors (D) Glass lid. (C)",
+            "At ______ in Andhra Pradesh, power plant based on natural gas has been installed. (A) Hyderabad (B) Visakhapatnam (C) Samalkot (D) Kakinada. (C)",
+            "An accident in nuclear power plant happens. It may release ______ that can cause fatalities. (A) radiations (B) heat (C) sound (D) light. (A)"
+          ]
+        },
+        {
+          "id": "n9",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "In thermal power plants, the turbines work on solar energy. (False)",
+            "The power available from the solar cell is AC. (False)",
+            "Turbine is used to rotate the magnet in a generator. (True)",
+            "In nuclear power plants, the chain reactions cannot be controlled. (False)",
+            "How to dispose the nuclear waste safely is a big challenge before the scientists. (True)"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "What is renewable energy?",
+          "back": "Energy produced from sources that do not deplete or can be replenished within a human's lifetime, e.g., solar, wind."
+        },
+        {
+          "id": "f2",
+          "front": "What is the source of energy in a hydroelectric power plant?",
+          "back": "The potential energy of water stored in a dam is converted to kinetic energy, which rotates turbines to generate electricity."
+        },
+        {
+          "id": "f3",
+          "front": "What are the limitations of wind energy?",
+          "back": "Its availability depends on wind velocity and geographical factors."
+        },
+        {
+          "id": "f4",
+          "front": "What is one major advantage of solar energy?",
+          "back": "It is eco-friendly and does not create pollution."
+        },
+        {
+          "id": "f5",
+          "front": "What type of material is used to make solar cells?",
+          "back": "Semiconductor material like silicon."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "Incomplete combustion of fuels leads to formation of ______.",
+          "options": ["carbon monoxide", "carbon dioxide", "chlorofluorocarbon", "hydrogen sulphide"],
+          "correctAnswer": 0,
+          "explanation": "Incomplete combustion of fuels produces carbon monoxide, a poisonous gas.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "Which of the following is not the source of green energy?",
+          "options": ["Wind", "Natural gas", "Sunlight", "Fossil fuel"],
+          "correctAnswer": 1,
+          "explanation": "Natural gas is a fossil fuel and is not a source of green energy.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "Solar cells are made of a special type of material called semiconductor such as ______.",
+          "options": ["silicon", "uranium", "borosilicate", "hydrogen"],
+          "correctAnswer": 0,
+          "explanation": "Silicon is commonly used as a semiconductor material in solar cells.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "At ______ in Andhra Pradesh, power plant based on natural gas has been installed.",
+          "options": ["Hyderabad", "Visakhapatnam", "Samalkot", "Kakinada"],
+          "correctAnswer": 2,
+          "explanation": "A natural gas power plant is located at Samalkot in Andhra Pradesh.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "An accident in nuclear power plant happens. It may release ______ that can cause fatalities.",
+          "options": ["radiations", "heat", "sound", "light"],
+          "correctAnswer": 0,
+          "explanation": "Nuclear accidents release harmful radiations.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "num": 6,
+      "title": "Animal Classification",
+      "emoji": "🐾",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter covers the classification of animals based on their characteristics, including symmetry, body organization, and the presence of a coelom. It discusses various phyla from Porifera to Chordata and their key features. The chapter also explains the importance of classification in understanding animal diversity.",
+        "youWillLearn": [
+          "Understand the basis of animal classification.",
+          "Define key terms like coelom, symmetry, and grades of organization.",
+          "Identify the characteristics of major phyla including Porifera, Cnidaria, Platyhelminthes, Annelida, Arthropoda, Mollusca, Echinodermata, and Chordata.",
+          "Classify animals into their respective phyla and classes based on given characteristics."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Animal Classification",
+          "content": "Classification of animals is the system of arranging animals into groups based on their similarities and differences. Classification helps in identifying animals, understanding their relationships, and studying their evolution. The animal kingdom is divided into many phyla based on characteristics like symmetry, body organization, coelom, and presence of a notochord.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Symmetry in Animals",
+          "content": "Symmetry is the arrangement of body parts around a central axis. There are three types of symmetry: (1) Asymmetrical: no symmetry in any plane, e.g., Amoeba. (2) Radially symmetrical: body can be divided into two equal halves by any plane passing through the central axis, e.g., Hydra, Starfish. (3) Bilaterally symmetrical: body can be divided into two equal halves by only one median plane, e.g., Human, Cockroach.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Grades of Organization",
+          "content": "Grades of organization refer to the complexity of body structure. (1) Protoplasmic grade: single cell performs all functions, e.g., Amoeba. (2) Cellular grade: cells are arranged in loose aggregates, e.g., Porifera. (3) Tissue grade: cells are organized into tissues, e.g., Cnidaria. (4) Organ grade: tissues are organized into organs, e.g., Platyhelminthes. (5) Organ-system grade: organs work together in organ systems, e.g., higher animals.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Coelom",
+          "content": "Coelom is a body cavity between the body wall and internal organs. Based on the presence of coelom, animals are classified into: (1) Acoelomate: no coelom, e.g., Platyhelminthes. (2) Pseudocoelomate: false coelom, e.g., Aschelminthes. (3) Eucoelomate: true coelom lined by mesoderm, e.g., Annelida, Arthropoda, Mollusca, Echinodermata, and Chordata.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "______ is a cold blooded animal. (A) Bat (B) Snake (C) Rabbit (D) Elephant. (B)",
+            "Calcareous spines are present on the body of ______ animal. (A) fish (B) snail (C) sponge (D) star fish. (D)",
+            "Human being belongs to ______ class. (A) Mammalia (B) Amphibia (C) Reptilia (D) Cyclostomata. (A)",
+            "Animal with bilateral symmetry is ______. (A) Star fish (B) human (C) Paramecium (D) Amoeba. (B)",
+            "Animals attached to substratum are called ______ animals. (A) sessile (B) sedentary (C) lame (D) motionless. (B)",
+            "______ is second largest phylum in animal kingdom. (A) Mollusca (B) Arthropoda (C) Porifera (D) Platyhelminthes. (A)",
+            "Body cavity between the body and internal organs is called ______. (A) gastrocool (B) enteron (C) coelom (D) coac. (C)",
+            "Due to which similar characteristics honey bee and cockroach are included in the same phylum? (A) Wings (B) Three pair of legs (C) Jointed appendages (D) Antenna. (C)",
+            "Flat worms have ______ type of body organization. (A) cellular grade (B) protoplasmic (C) tissue-organ (D) organ-grade. (C)",
+            "All the animals in the porifera phylum have ______ body. (A) asymmetrical (B) radially symmetrical (C) bilaterally symmetrical (D) all the three. (A)",
+            "Which of the following is not in phylum Cnidaria? (A) Hydra (B) Sea anemone (C) Star fish (D) Physalia. (C)"
+          ]
+        },
+        {
+          "id": "n6",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Greek philosopher Linnaeus was the first to give the animal classification. (False)",
+            "Planet Earth has highest number of animals from phylum Arthropoda. (True)",
+            "Animals belonging to phylum Echinodermata perform locomotion with the help of tube-feet. (True)",
+            "Herdmania has notochord in only tall region and hence it is called Urochordate. (True)",
+            "Alligator is an amphibian. (False)",
+            "Only mammals are homothermic animals. (False)"
+          ]
+        },
+        {
+          "id": "n7",
+          "type": "list",
+          "title": "Find the odd one out",
+          "ordered": false,
+          "items": [
+            "Physalia, Hyalomma, Euphorbia, Spongilla. (Physalia - belongs to phylum Coelenterata, Others are Poriferans.)",
+            "Amphioxus, Hemidactylus, Doliolum, Oikopleura. (Amphioxus - is Cephalochordata, all the remaining are Urochordates.)",
+            "Frog, Tortoise, Toad, Salamander. (Tortoise - is a reptile, the remaining are amphibians.)",
+            "Tube feet, Setae, Parapodia, Suckers. (Tube feet - are locomotive organs of Echinoderms, the remaining are locomotive organs of Annelids.)"
+          ]
+        },
+        {
+          "id": "n8",
+          "type": "fill_blank",
+          "title": "Complete the correlation",
+          "content": "Acoelomate : Porifera : Pseudocoelomate : ___",
+          "blanks": ["Aschelminthes"]
+        },
+        {
+          "id": "n9",
+          "type": "fill_blank",
+          "title": "Complete the correlation",
+          "content": "Shark : Cartilaginous : : Rohu : ___",
+          "blanks": ["Bony"]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "What is the largest phylum in the animal kingdom?",
+          "back": "Arthropoda."
+        },
+        {
+          "id": "f2",
+          "front": "What are the locomotory organs of animals belonging to phylum Annelida?",
+          "back": "Parapodia and setae."
+        },
+        {
+          "id": "f3",
+          "front": "What type of symmetry do animals belonging to phylum Porifera have?",
+          "back": "Asymmetrical body."
+        },
+        {
+          "id": "f4",
+          "front": "What is a coelom?",
+          "back": "The body cavity between the body wall and internal organs."
+        },
+        {
+          "id": "f5",
+          "front": "Which class of animals are homothermic?",
+          "back": "Mammalia and Aves."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "______ is a cold blooded animal.",
+          "options": ["Bat", "Snake", "Rabbit", "Elephant"],
+          "correctAnswer": 1,
+          "explanation": "Snakes are cold-blooded reptiles.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "Calcareous spines are present on the body of ______ animal.",
+          "options": ["fish", "snail", "sponge", "star fish"],
+          "correctAnswer": 3,
+          "explanation": "Starfish have calcareous spines on their body.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "Human being belongs to ______ class.",
+          "options": ["Mammalia", "Amphibia", "Reptilia", "Cyclostomata"],
+          "correctAnswer": 0,
+          "explanation": "Humans belong to class Mammalia.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "Which of the following is not in phylum Cnidaria?",
+          "options": ["Hydra", "Sea anemone", "Star fish", "Physalia"],
+          "correctAnswer": 2,
+          "explanation": "Starfish belongs to phylum Echinodermata, not Cnidaria.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "Body cavity between the body and internal organs is called ______.",
+          "options": ["gastrocool", "enteron", "coelom", "coac"],
+          "correctAnswer": 2,
+          "explanation": "The body cavity is called the coelom.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "num": 7,
+      "title": "Introduction to Microbiology",
+      "emoji": "🔬",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter introduces microbiology and the role of microorganisms in various industries. It covers the production of beverages, dairy products, and the use of microbes for bioremediation. The chapter also discusses the importance of probiotics and the microbial processes involved in the production of useful substances.",
+        "youWillLearn": [
+          "Understand the role of microbes in food production (bread, cheese, yoghurt, beverages).",
+          "Explain the process of fermentation and its applications.",
+          "Describe the use of microbes in bioremediation.",
+          "Define probiotics and their health benefits.",
+          "Identify microbial enzymes and their uses."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Microorganisms",
+          "content": "Microorganisms are tiny organisms that are not visible to the naked eye. They play a crucial role in various industries, including food production, medicine, and environmental cleaning. Microbiology is the study of these microorganisms.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Fermentation and Beverages",
+          "content": "Fermentation is a metabolic process that converts sugar to acids, gases, or alcohol. It is used in the production of various beverages. Cider is obtained by fermentation of apple juice. Wine is produced by the fermentation of grapes using Saccharomyces cerevisiae.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Probiotics",
+          "content": "Probiotics are live microorganisms that provide health benefits when consumed. Bacteria like Lactobacillus acidophilus, Bifidobacterium bifidum, and Streptococcus thermophilus are commonly used as probiotics. They help in maintaining gut health.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Cheese Production",
+          "content": "Cheese is made from cow's milk. The steps in the process of cheese manufacture include: (1) Chemical and microbiological testing of milk. (2) Addition of bacteria like Lactobacillus lactis, Lactobacillus cremoris, and Streptococcus thermophilus. (3) Fermentation to form yoghurt-like substance. (4) Removal of water (whey). (5) Addition of enzyme rennet to make it denser. (6) Cutting, washing, salting, and mixing of essential microbes and flavours. (7) Pressing and ripening.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Bioremediation",
+          "content": "Bioremediation is the process of removing dangerous or poisonous substances from the environment using biological organisms. When microbes are used, it is called microbial remediation. Pseudomonas bacteria are useful for cleaning hydrocarbon and oil pollutants from soil and water.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Microbial Enzymes",
+          "content": "Microbial enzymes are active at low temperature, pH, and pressure. Due to this property, energy is saved and costly cross-proof instruments need not be used. Enzymes obtained by microbial process are mixed with detergents for better cleaning at lower temperatures.",
+          "important": true
+        },
+        {
+          "id": "n7",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "______ beverage is obtained by fermentation of apple juice. (A) Cider (B) Wine (C) Coffee (D) Cocoa. (A)",
+            "Chemically, vinegar is 4% ______. (A) Gluconic acid (B) Amino acid (C) Citric acid (D) Acetic acid. (D)",
+            "Microbe used in baking industry is ______. (A) Saccharomyces cerevisiae (B) Lactobacillus (C) Aspergillus oryzae (D) Pseudomonas. (A)",
+            "Microbe used in preparation of wine and cider is ______. (A) Saccharomyces cerevisiae (B) Lactobacillus (C) Aspergillus oryzae (D) Pseudomonas. (A)",
+            "Effective antibiotic against tuberculosis is ______. (A) Penicillin (B) Rifamycin (C) Streptomycin (D) Tetracycline. (B)"
+          ]
+        },
+        {
+          "id": "n8",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Due to taking probiotics in diet, useful bacteria in the intestine are destroyed. (False)",
+            "For production of milk products, bacteria in milk must be used. (True)",
+            "Rennet obtained from alimentary canal of human beings is used in production of cheese. (False)",
+            "Salts which can be used as supplement of calcium and iron are obtained from lactic acid. (False)",
+            "Soya sauce is produced with the help of fungus Aspergillus oryzae. (True)"
+          ]
+        },
+        {
+          "id": "n9",
+          "type": "list",
+          "title": "Find the odd one out",
+          "ordered": false,
+          "items": [
+            "Lactobacillus acidophilus, Lactobacillus cuset, Bifidobacterium bifidum, Streptococcus thermophilus. (Streptococcus thermophilus - All others are bacteria producing probiotics.)",
+            "Lactobacillus lactis, Bifidobacterium bifidum, Lactobacillus cremoris, Streptococcus thermophilus. (Bifidobacterium bifidum - All others are bacteria used in cheese production.)",
+            "Bifidobacterium, Aspergillus niger, Saccharomyces cerevisiae, Lactobacillus delbrueckii. (Saccharomyces cerevisiae - All others are microbes used for making organic acids.)",
+            "Dark chocolate, Miso soup, Water, Corn syrup. (Water - All others are probiotic products.)"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "What is the chemical formula of acetic acid (vinegar)?",
+          "back": "CH3COOH."
+        },
+        {
+          "id": "f2",
+          "front": "Which microbe is used in the baking industry?",
+          "back": "Saccharomyces cerevisiae."
+        },
+        {
+          "id": "f3",
+          "front": "What is bioremediation?",
+          "back": "The process of removing dangerous or poisonous substances from the environment using biological organisms."
+        },
+        {
+          "id": "f4",
+          "front": "Name one bacterium used in cheese production.",
+          "back": "Lactobacillus lactis, Lactobacillus cremoris, or Streptococcus thermophilus."
+        },
+        {
+          "id": "f5",
+          "front": "What is the function of probiotics?",
+          "back": "They help in maintaining gut health."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "______ beverage is obtained by fermentation of apple juice.",
+          "options": ["Cider", "Wine", "Coffee", "Cocoa"],
+          "correctAnswer": 0,
+          "explanation": "Cider is produced by the fermentation of apple juice.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "Chemically, vinegar is 4% ______.",
+          "options": ["Gluconic acid", "Amino acid", "Citric acid", "Acetic acid"],
+          "correctAnswer": 3,
+          "explanation": "Vinegar contains 4% acetic acid.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "Microbe used in baking industry is ______.",
+          "options": ["Saccharomyces cerevisiae", "Lactobacillus", "Aspergillus oryzae", "Pseudomonas"],
+          "correctAnswer": 0,
+          "explanation": "Saccharomyces cerevisiae (baker's yeast) is used in baking.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "Effective antibiotic against tuberculosis is ______.",
+          "options": ["Penicillin", "Rifamycin", "Streptomycin", "Tetracycline"],
+          "correctAnswer": 1,
+          "explanation": "Rifamycin is an effective antibiotic against tuberculosis.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "Soya sauce is produced with the help of fungus ______.",
+          "options": ["Aspergillus niger", "Saccharomyces cerevisiae", "Aspergillus oryzae", "Lactobacillus"],
+          "correctAnswer": 2,
+          "explanation": "Soya sauce is produced using the fungus Aspergillus oryzae.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "num": 8,
+      "title": "Cell Biology and Biotechnology",
+      "emoji": "🧪",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter covers the applications of cell biology and biotechnology. It discusses genetically modified crops, DNA fingerprinting, cloning, gene therapy, and stem cell technology. It also covers the production of vaccines, antibiotics, and the use of biofertilizers.",
+        "youWillLearn": [
+          "Define biotechnology and its applications.",
+          "Explain genetically modified crops and give examples.",
+          "Understand the concept of DNA fingerprinting and its uses.",
+          "Define cloning and gene therapy.",
+          "Describe the uses of stem cells."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Biotechnology",
+          "content": "Biotechnology is the technology that brings about artificial genetic changes and hybridization in organisms for human welfare. It has applications in agriculture, medicine, and industry.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Genetically Modified Crops",
+          "content": "Crops having desired characters are developed by integrating a foreign gene with their genome. Such crops have a modified genome and are known as genetically modified crops. Examples include BT Cotton, BT Brinjal, and Golden Rice.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "DNA Fingerprinting",
+          "content": "DNA fingerprinting is a technique used to identify individuals by analyzing their DNA. It is mainly useful in forensic sciences to solve crimes and identify criminals. The Centre for DNA Fingerprinting and Diagnostics is located in Hyderabad, India.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Cloning",
+          "content": "Cloning is the process of producing an exact replica of any cell, organ, or entire organism.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Gene Therapy",
+          "content": "Gene therapy is the treatment of genetic disorders present in the somatic cells.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Stem Cells",
+          "content": "Stem cells are undifferentiated cells that can differentiate into specialized cells. They are used in regenerative therapy to replace damaged or functionless cells in conditions like diabetes, myocardial infarction, Alzheimer's disease, and Parkinson's disease.",
+          "important": true
+        },
+        {
+          "id": "n7",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "DNA fingerprinting is mainly useful in forensic sciences. (True)",
+            "Various essential elements like N, E K are removed and hence become unavailable to the crops due to earthworms and fungi. (False)",
+            "We do not have any tradition that cures the diseases with the help of natural resources. (False)",
+            "Earlier, insulin was being collected from the pancreas of horses. (True)",
+            "Malaria arises due to genetic changes in hepatocytes. (False)"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "What is biotechnology?",
+          "back": "Technology that brings about artificial genetic changes and hybridization in organisms for human welfare."
+        },
+        {
+          "id": "f2",
+          "front": "What is a genetically modified crop?",
+          "back": "A crop that has been developed by integrating a foreign gene with its genome to obtain desired characters."
+        },
+        {
+          "id": "f3",
+          "front": "What is DNA fingerprinting used for?",
+          "back": "Forensic science, for identifying individuals and solving crimes."
+        },
+        {
+          "id": "f4",
+          "front": "What is cloning?",
+          "back": "Producing an exact replica of any cell, organ, or entire organism."
+        },
+        {
+          "id": "f5",
+          "front": "What is gene therapy?",
+          "back": "Treatment of genetic disorders present in the somatic cells."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "DNA fingerprinting is mainly useful in ______.",
+          "options": ["agriculture", "forensic sciences", "medicine", "industry"],
+          "correctAnswer": 1,
+          "explanation": "DNA fingerprinting is primarily used in forensic sciences.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "Earlier, insulin was being collected from the pancreas of ______.",
+          "options": ["horses", "cows", "sheep", "pigs"],
+          "correctAnswer": 0,
+          "explanation": "Insulin was earlier collected from the pancreas of horses.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "Which of the following is a genetically modified crop?",
+          "options": ["BT Cotton", "Wheat", "Rice", "Maize"],
+          "correctAnswer": 0,
+          "explanation": "BT Cotton is a genetically modified crop.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "What is the process of producing an exact replica of any cell called?",
+          "options": ["Gene therapy", "Cloning", "Hybridization", "Mutation"],
+          "correctAnswer": 1,
+          "explanation": "Producing an exact replica is called cloning.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "Which of the following is a use of stem cells?",
+          "options": ["Regenerative therapy", "Food production", "Fuel production", "Textile production"],
+          "correctAnswer": 0,
+          "explanation": "Stem cells are used in regenerative therapy.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch9",
+      "num": 9,
+      "title": "Social Health",
+      "emoji": "❤️",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter discusses the concept of social health, factors affecting it, and the impact of addiction and technology. It covers mental and psychological disorders, the importance of exercise and yoga, and the role of peer groups and social media in shaping behavior.",
+        "youWillLearn": [
+          "Define social health and its importance.",
+          "Identify factors affecting social health.",
+          "Understand the impact of addiction on health.",
+          "Explain the importance of exercise, yoga, and meditation.",
+          "Describe the effects of excessive use of social media and technology."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Social Health",
+          "content": "Social health is the ability to interact and form meaningful relationships with others. It is influenced by factors like food, water, shelter, education, transport, cleanliness, and the social and political conditions of the surrounding environment.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Factors Affecting Social Health",
+          "content": "Factors affecting social health include: (1) Good amenities like food, water, shelter, clothing, medicines, and medical help. (2) Equal opportunities for education and cleanliness. (3) Social and political conditions that are free from criminal influences. (4) Availability of playgrounds and sports clubs for overall development. (5) Absence of addiction and criminal tendencies. (6) Having a large number of friends and relatives, proper use of time, trust in others, and respect for others.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Addiction",
+          "content": "Addiction is the continuous consumption of harmful substances like tobacco, alcohol, and drugs. Tobacco chewing is injurious to health as it contains nicotine, which has a bad impact on the nervous system and heart. It can cause cancer of the oral cavity, pharynx, and lungs.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "Effects of Alcoholism",
+          "content": "Consuming liquor becomes an addiction for a long term. Due to alcohol, the efficiency of the nervous system, especially the brain, is affected. Other vital organs such as kidneys and liver are adversely affected. The alcoholic person lacks rational thinking and faces social, mental, and physical problems.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Importance of Exercise, Yoga, and Meditation",
+          "content": "Exercise, yoga, and meditation are ways to reduce mental and physical stress. Yoga includes various asanas and pranayamas, good food, and discipline of the body and mind. Deep breathing and yoga sleep can help in building health. Meditation helps in concentration and bringing positivity to the mind, especially for students.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "______ helps to improve concentration in the studies. (A) Meditation (B) Music (C) Dancing (D) Laughing. (A)",
+            "Alcohol consumption mainly affects ______ system. (A) Respiratory (B) Nervous (C) Digestive (D) Circulatory. (B)",
+            "Person continuously using computers and the internet become ______. (A) courageous (B) timid (C) solitary (D) criminal. (C)",
+            "Our ______ has been changed to some extent in the age of technology. (A) life style (B) habit (C) circumstance (D) passion. (A)",
+            "______ influence is stronger in case of adolescents. (A) Teachers (B) Father's (C) Relator's (D) Peer group. (D)",
+            "Most of the temporarily interacting drugs are of ______. (A) easy availability (B) expensive quality (C) animal origin (D) plant origin. (D)",
+            "Liquor is produced from ______. (A) alcohol (B) methane (C) cyanide (D) spinach. (A)",
+            "______ is the organization that runs programs in various schools in Mumbai to empower the children living in urban areas. (A) Green peace (B) Salamon Mumbai Foundation (C) Tata Trust (D) Laughter club. (B)"
+          ]
+        },
+        {
+          "id": "n7",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "To take selfie on the road is the invitation for accident. (True)",
+            "Tobacco containing substances cannot cause cancer of mouth and lungs. (False)",
+            "Children who watch cartoon films may imitate the characters of those films. (True)",
+            "Laughing too much can cause stress. (False)",
+            "It is a masculine character to tease girls. (False)"
+          ]
+        },
+        {
+          "id": "n8",
+          "type": "list",
+          "title": "Find the odd one out",
+          "ordered": false,
+          "items": [
+            "Diabetes, Anaemia, Leukaemia, Thalassemia. (Diabetes - All others are diseases concerned with blood cells.)",
+            "Drying, Salting, Cooking, Soaking with sugar. (Cooking - All others are food preservation methods.)",
+            "DDT, malathion, chloropyrghos, neem leaves. (Neem leaves - All others are chemical insecticides.)",
+            "Bacillus churlingemensis, Rhizobium, Azotobacter, Anabena. (Bacillus churlingemensis - All others are biofertilizers.)",
+            "Transport facilities, Social security, Counseling, Toleres. (Counseling - All others are factors affecting social health. Counseling is the positive measure for mental health.)",
+            "Aadhaar card, PAN card, Greeting card, Credit card. (Greeting card - All others are important cards of personal use.)",
+            "What's app, Instagram, Facebook, Textbook. (Textbook - All others are social media.)",
+            "Tobacco, Laughter club, Alcoholism, Drug abuse. (Laughter club - All others are addictions.)"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "Define social health.",
+          "back": "The ability to interact and form meaningful relationships with others."
+        },
+        {
+          "id": "f2",
+          "front": "Name one factor that affects social health.",
+          "back": "Availability of good amenities like food, water, shelter, and medical help."
+        },
+        {
+          "id": "f3",
+          "front": "What is addiction?",
+          "back": "The continuous consumption of harmful substances like tobacco, alcohol, and drugs."
+        },
+        {
+          "id": "f4",
+          "front": "Why is tobacco chewing injurious to health?",
+          "back": "It contains nicotine, which has a bad impact on the nervous system and heart, and can cause cancer."
+        },
+        {
+          "id": "f5",
+          "front": "What are the benefits of yoga and meditation?",
+          "back": "They reduce mental and physical stress, improve concentration, and bring positivity to the mind."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "______ helps to improve concentration in the studies.",
+          "options": ["Meditation", "Music", "Dancing", "Laughing"],
+          "correctAnswer": 0,
+          "explanation": "Meditation helps in improving concentration.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "Alcohol consumption mainly affects ______ system.",
+          "options": ["Respiratory", "Nervous", "Digestive", "Circulatory"],
+          "correctAnswer": 1,
+          "explanation": "Alcohol primarily affects the nervous system.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "Person continuously using computers and the internet become ______.",
+          "options": ["courageous", "timid", "solitary", "criminal"],
+          "correctAnswer": 2,
+          "explanation": "Excessive use of computers and the internet can lead to social isolation.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "______ influence is stronger in case of adolescents.",
+          "options": ["Teachers", "Father's", "Relator's", "Peer group"],
+          "correctAnswer": 3,
+          "explanation": "Peer group influence is strongest during adolescence.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "Most of the temporarily interacting drugs are of ______.",
+          "options": ["easy availability", "expensive quality", "animal origin", "plant origin"],
+          "correctAnswer": 3,
+          "explanation": "Most temporarily interacting drugs are of plant origin.",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "num": 10,
+      "title": "Disaster Management",
+      "emoji": "⚠️",
+      "kind": "chapter",
+      "overview": {
+        "summary": "This chapter covers the concept of disaster management, including both natural and man-made disasters. It discusses the objectives of disaster management, the role of disaster management authorities, the importance of first aid, and the measures to be taken during different types of disasters.",
+        "youWillLearn": [
+          "Define disaster and its types.",
+          "Understand the objectives of disaster management.",
+          "Explain the importance of first aid and mock drills.",
+          "Describe pre-disaster and post-disaster management activities.",
+          "Identify the symbols used for hazardous materials and their meanings."
+        ]
+      },
+      "notes": [
+        {
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Disaster",
+          "content": "Disaster is an incidence that occurs suddenly causing heavy damage to life and property. Disasters can be natural (e.g., flood, earthquake, drought, landslide, volcano) or man-made (e.g., war, bomb explosion, gas leakage, terrorism).",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "type": "paragraph",
+          "title": "Disaster Management",
+          "content": "Disaster management involves either prevention of disasters or creating preparedness to face them. The action plans are prepared for managing disasters after studying different aspects such as preventive measures, rehabilitation, and reconstruction plans. Disaster management is tackled by executing action plans in steps like preparations, preparedness, action during actual disaster, response, resurgence, and restoration.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Objectives of Disaster Management",
+          "content": "The objectives of disaster management are: (1) To save human life from disasters. (2) To supply essential commodities to the affected people. (3) To bring back the conditions of affected people to normalcy. (4) To rehabilitate the affected and displaced victims. (5) To develop capability to face future disasters.",
+          "important": true
+        },
+        {
+          "id": "n4",
+          "type": "paragraph",
+          "title": "First Aid",
+          "content": "First aid is the immediate help given to a sick or injured person until full medical treatment is available. It is essential to get training in first aid so that we can help victims during disasters and save lives before medical help arrives.",
+          "important": true
+        },
+        {
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Mock Drill",
+          "content": "Mock drill is the practice to check whether there is preparedness for dealing with the sudden attack of a disaster. It is done by creating virtual situations that simulate the disaster. The reaction time and execution of rescue plans are observed. This helps in understanding the efficacy of the system and preparing for future disasters.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "One must keep the accident victim in same condition till medical help arrives. (False)",
+            "Toxic gas leakage is an unknown man-made disaster. (True)",
+            "Mock drill is done for virtual situation of disaster. (True)"
+          ]
+        },
+        {
+          "id": "n7",
+          "type": "list",
+          "title": "Find the odd one out",
+          "ordered": false,
+          "items": [
+            "Earthquake, Flooding, Tsunami, War. (War - All others are natural disasters.)",
+            "Drought, Bomb explosion, Forest fire, Floods. (Bomb explosion - All others are natural disasters.)",
+            "Bomb explosion, Rape, Gas leakage, Tsunami. (Tsunami - All others are man-made disasters.)",
+            "Forest fire, Snow storms, Drought, Meteorite. (Forest fire - All others are atmospheric disasters.)",
+            "Plague, Locusts, Snakebite, Weeds. (Weeds - All others are animal-borne disasters.)"
+          ]
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "f1",
+          "front": "Define a disaster.",
+          "back": "An incidence that occurs suddenly causing heavy damage to life and property."
+        },
+        {
+          "id": "f2",
+          "front": "What is the main objective of disaster management?",
+          "back": "To save human life from disasters and to rehabilitate affected people."
+        },
+        {
+          "id": "f3",
+          "front": "Why is first aid training essential?",
+          "back": "To help victims during disasters and save lives before medical help arrives."
+        },
+        {
+          "id": "f4",
+          "front": "What is a mock drill?",
+          "back": "Practice to check preparedness for dealing with a disaster by simulating virtual situations."
+        },
+        {
+          "id": "f5",
+          "front": "Give an example of a man-made disaster.",
+          "back": "War, bomb explosion, gas leakage, or terrorism."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "qType": "mcq",
+          "question": "Toxic gas leakage is an example of a ______ disaster.",
+          "options": ["natural", "man-made", "geological", "atmospheric"],
+          "correctAnswer": 1,
+          "explanation": "Toxic gas leakage is a man-made disaster.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "qType": "mcq",
+          "question": "Mock drill is done for ______ situation of disaster.",
+          "options": ["actual", "virtual", "past", "future"],
+          "correctAnswer": 1,
+          "explanation": "Mock drill is done for a virtual situation of a disaster.",
+          "order": 2
+        },
+        {
+          "id": "q3",
+          "qType": "mcq",
+          "question": "Which of the following is a natural disaster?",
+          "options": ["War", "Bomb explosion", "Earthquake", "Gas leakage"],
+          "correctAnswer": 2,
+          "explanation": "Earthquake is a natural disaster.",
+          "order": 3
+        },
+        {
+          "id": "q4",
+          "qType": "mcq",
+          "question": "What is the first step in disaster management?",
+          "options": ["Rehabilitation", "Preparedness", "Response", "Restoration"],
+          "correctAnswer": 1,
+          "explanation": "Preparedness is the first step in disaster management.",
+          "order": 4
+        },
+        {
+          "id": "q5",
+          "qType": "mcq",
+          "question": "Which of the following is NOT a type of threatened species?",
+          "options": ["Endangered", "Rare", "Vulnerable", "Extinct"],
+          "correctAnswer": 3,
+          "explanation": "Extinct is a category beyond threatened; the four types are endangered, rare, vulnerable, and indeterminate.",
+          "order": 5
+        }
+      ]
+    }
+  ]
+}

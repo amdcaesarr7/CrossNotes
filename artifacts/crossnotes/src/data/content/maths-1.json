@@ -1,0 +1,298 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "num": 1,
+      "title": "Real Numbers",
+      "emoji": "🔢",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Euclid's Division Lemma",
+          "content": "For any two positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b. This lemma is the basis for finding HCF using Euclid's algorithm.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Irrational Numbers",
+          "content": "Numbers that cannot be written in the form p/q, where p and q are integers and q ≠ 0, are irrational. Examples include √2, √3, and π.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Rational and Irrational Forms",
+          "content": "A rational number has a terminating or recurring decimal expansion. An irrational number has a non-terminating and non-recurring decimal expansion.",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is Euclid's Division Lemma? (say it fast three times)", "back": "For positive integers a and b, a = bq + r where 0 ≤ r < b.", "order": 1 },
+        { "id": "f2", "front": "Name a number that goes on forever and never repeats", "back": "√2, √3, or π — the universe's way of never giving you a clean answer.", "order": 2 },
+        { "id": "f3", "front": "How do you spot a rational decimal in the wild?", "back": "It either terminates or repeats in a pattern. If it's just chaos forever, it's irrational.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which statement is true about Euclid's algorithm?",
+          "options": ["It is used to find LCM.", "It is used to find HCF.", "It is used to solve quadratic equations.", "It is used to find average."],
+          "correctAnswer": 1,
+          "explanation": "Euclid's algorithm repeatedly applies division to find the highest common factor — Euclid figured this out a very long time before calculators existed.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "Which of the following is irrational?",
+          "options": ["3/4", "0.25", "√5", "1.5"],
+          "correctAnswer": 2,
+          "explanation": "√5 cannot be expressed as a ratio of two integers — it just refuses to cooperate.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "num": 2,
+      "title": "Polynomials",
+      "emoji": "🧮",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Polynomial Basics",
+          "content": "A polynomial is an algebraic expression made of variables and constants involving only addition, subtraction, multiplication, and non-negative integer powers.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Zeroes of a Polynomial",
+          "content": "If p(x) is a polynomial and p(a) = 0, then a is called a zero of the polynomial. The graph crosses the x-axis at such values.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Degree of a Polynomial",
+          "content": "The degree of a polynomial is the highest power of the variable in the expression. It determines the maximum number of zeroes the polynomial can have.",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is a polynomial?", "back": "An expression with variables and constants, using only addition, subtraction, multiplication, and whole-number powers.", "order": 1 },
+        { "id": "f2", "front": "What's a zero of a polynomial? (not just 'a low score')", "back": "A value of x that makes the polynomial equal to zero.", "order": 2 },
+        { "id": "f3", "front": "What does the degree of a polynomial actually tell you?", "back": "The highest power in the expression — and the max number of zeroes it can have.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which of these is a polynomial?",
+          "options": ["x² + 3x + 2", "1/x + 2", "√x + 1", "x⁻¹ + 5"],
+          "correctAnswer": 0,
+          "explanation": "Only expressions with whole-number powers count. The rest broke the rules and got disqualified.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "Which statement about zeroes of a polynomial is correct?",
+          "options": ["A zero always equals 1", "A zero is where p(x) = 0", "A zero is the same as the degree", "Polynomials cannot have zeroes"],
+          "correctAnswer": 1,
+          "explanation": "A zero is simply where the polynomial's value hits zero — nothing more dramatic than that.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "num": 3,
+      "title": "Pair of Linear Equations in Two Variables",
+      "emoji": "📈",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "What Makes a Linear Equation",
+          "content": "An equation of the form ax + by + c = 0, where a and b are not both zero, is a linear equation in two variables. Its graph is always a straight line.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Graphical Method",
+          "content": "Two linear equations can be solved by plotting both lines. If they intersect at one point, that point is the unique solution.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Types of Solutions",
+          "content": "A pair of linear equations can have a unique solution (lines intersect), no solution (lines are parallel), or infinitely many solutions (lines coincide).",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What shape does a linear equation always draw?", "back": "A straight line — no curves allowed.", "order": 1 },
+        { "id": "f2", "front": "Two lines are parallel — how many solutions does that pair have?", "back": "Zero. They're never going to meet, no matter how far you extend them.", "order": 2 },
+        { "id": "f3", "front": "Two lines are actually the same line — how many solutions?", "back": "Infinitely many. They agree on literally everything.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "If two lines intersect at exactly one point, the pair of equations has:",
+          "options": ["No solution", "One unique solution", "Infinite solutions", "Two solutions"],
+          "correctAnswer": 1,
+          "explanation": "One meeting point means exactly one solution — the lines agree on exactly one thing and move on with their lives.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "Parallel lines that never meet represent:",
+          "options": ["A unique solution", "No solution", "Infinite solutions", "A curved graph"],
+          "correctAnswer": 1,
+          "explanation": "Parallel lines never intersect, so there's no common solution — the mathematical version of two people who just don't agree.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "num": 4,
+      "title": "Quadratic Equations",
+      "emoji": "➗",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Standard Form",
+          "content": "A quadratic equation is of the form ax² + bx + c = 0, where a ≠ 0. It is called quadratic because the highest power of x is 2.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "The Quadratic Formula",
+          "content": "The roots of ax² + bx + c = 0 are given by x = (-b ± √(b² - 4ac)) / 2a. This works for every quadratic equation, no exceptions.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Nature of Roots (Discriminant)",
+          "content": "The discriminant D = b² - 4ac tells you the nature of the roots: D > 0 gives two real roots, D = 0 gives one repeated real root, D < 0 gives no real roots.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What makes an equation 'quadratic'?", "back": "The highest power of x is 2 — that's the entire requirement.", "order": 1 },
+        { "id": "f2", "front": "Discriminant is negative. What now?", "back": "No real roots. The equation has quietly given up on reality.", "order": 2 },
+        { "id": "f3", "front": "Recite the quadratic formula from memory (yes, really)", "back": "x = (-b ± √(b² - 4ac)) / 2a — tattoo-it-on-your-brain material for board exams.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "In ax² + bx + c = 0, what condition must 'a' satisfy?",
+          "options": ["a = 0", "a ≠ 0", "a = 1", "a < 0"],
+          "correctAnswer": 1,
+          "explanation": "If a = 0, the x² term vanishes and it stops being quadratic entirely — it just becomes a regular linear equation in disguise.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "If the discriminant D = 0, the equation has:",
+          "options": ["Two distinct real roots", "No real roots", "One repeated real root", "Infinite roots"],
+          "correctAnswer": 2,
+          "explanation": "D = 0 means both roots land on exactly the same value — one root, just showing up twice.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "num": 5,
+      "title": "Arithmetic Progression",
+      "emoji": "🔁",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "What is an AP?",
+          "content": "An Arithmetic Progression (AP) is a sequence where each term after the first is obtained by adding a fixed number, called the common difference (d), to the previous term.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "nth Term Formula",
+          "content": "The nth term of an AP is given by aₙ = a + (n - 1)d, where a is the first term and d is the common difference.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Sum of n Terms",
+          "content": "The sum of the first n terms of an AP is Sₙ = n/2 [2a + (n - 1)d].",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What's the one thing that makes a sequence an AP?", "back": "A constant common difference between consecutive terms — same gap, every single time.", "order": 1 },
+        { "id": "f2", "front": "How do you find the nth term without listing every term before it?", "back": "aₙ = a + (n - 1)d — no counting required.", "order": 2 },
+        { "id": "f3", "front": "Formula for the sum of the first n terms?", "back": "Sₙ = n/2 [2a + (n - 1)d] — your shortcut out of adding 50 numbers by hand.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "In an AP, the difference between consecutive terms is:",
+          "options": ["Always increasing", "Always the same", "Always zero", "Random"],
+          "correctAnswer": 1,
+          "explanation": "A constant common difference is the entire definition of an AP — that's the one rule it never breaks.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "The formula aₙ = a + (n - 1)d is used to find:",
+          "options": ["The sum of an AP", "The common difference", "The nth term of an AP", "The first term"],
+          "correctAnswer": 2,
+          "explanation": "This formula jumps straight to the nth term — no need to write out every term before it like it's 1990.",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "num": 6,
+      "title": "Statistics and Probability",
+      "emoji": "🎲",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Mean, Median, Mode",
+          "content": "Mean is the average of all observations, median is the middle value when data is arranged in order, and mode is the most frequently occurring value.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Basic Probability",
+          "content": "Probability of an event = (Number of favourable outcomes) / (Total number of possible outcomes). Probability always lies between 0 and 1.",
+          "important": true
+        },
+        {
+          "id": "n3",
+          "title": "Cumulative Frequency",
+          "content": "Cumulative frequency is the running total of frequencies up to a certain class interval, used to find the median in grouped data.",
+          "important": false
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "Which measure of central tendency can get wrecked by one extreme outlier?", "back": "Mean — one billionaire in the data and suddenly the 'average' income looks amazing.", "order": 1 },
+        { "id": "f2", "front": "Can probability ever be greater than 1?", "back": "Never. If your answer is above 1, you made an arithmetic mistake somewhere.", "order": 2 },
+        { "id": "f3", "front": "What's cumulative frequency actually for?", "back": "A running total of frequencies, used to find the median in grouped data.", "order": 3 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which of these values must always lie between 0 and 1?",
+          "options": ["Mean", "Median", "Mode", "Probability"],
+          "correctAnswer": 3,
+          "explanation": "Probability is capped between 0 (impossible) and 1 (certain) — no event is ever '150% likely,' no matter how confident you feel before an exam.",
+          "order": 1
+        },
+        {
+          "id": "q2",
+          "question": "The most frequently occurring value in a data set is called the:",
+          "options": ["Mean", "Median", "Mode", "Range"],
+          "correctAnswer": 2,
+          "explanation": "Mode is just the popularity contest winner of the data set — whichever value shows up the most.",
+          "order": 2
+        }
+      ]
+    }
+  ]
+}

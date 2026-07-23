@@ -5,25 +5,44 @@
       "emoji": "📄",
       "entries": [
         {
-          "id": "geo-pp-2023-jul-en",
-          "title": "July 2023 Question Paper (English Medium)",
+          "id": "geo-pp-2024-mar-en",
+          "title": "March 2024 Question Paper (English Medium)",
           "kind": "past_paper",
-          "year": 2023,
+          "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/papers/geography/2023-july-en.pdf",
-          "status": "verified",
-          "linkedChapterId": "ch1"
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_669_5f1bd990d6.pdf",
+          "status": "verified"
         },
         {
-          "id": "geo-pp-2023-mar-en",
-          "title": "March 2023 Question Paper (English Medium)",
+          "id": "geo-pp-2024-jul-en",
+          "title": "July 2024 Question Paper (English Medium)",
           "kind": "past_paper",
-          "year": 2023,
+          "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/papers/geography/2023-march-en.pdf",
-          "status": "unverified"
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_434_f89d7a814d.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geo-pp-2025-mar-en",
+          "title": "March 2025 Question Paper (English Medium)",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_869_f4621bb88e.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geo-pp-2025-jul-en",
+          "title": "July 2025 Question Paper (English Medium)",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_734_72dcb829b6.pdf",
+          "status": "verified"
         }
       ]
     },
@@ -33,11 +52,11 @@
       "entries": [
         {
           "id": "geo-textbook-official",
-          "title": "Maharashtra State Board Std. X Geography Textbook (eBalbharati)",
+          "title": "Geography Textbook",
           "kind": "textbook",
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "https://ebalbharati.in/en/",
+          "sourceUrl": "https://ebooks.ebalbharati.in/pdfs/1003020011.pdf",
           "status": "verified"
         }
       ]
@@ -51,8 +70,8 @@
           "title": "DIKSHA: Population & Density explainer",
           "kind": "open_resource",
           "license": "CC BY-SA",
-          "sourceUrl": "https://diksha.gov.in/",
-          "status": "unverified"
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528261465899008254502",
+          "status": "verified"
         }
       ]
     },

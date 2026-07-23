@@ -3,7 +3,7 @@
     {
       "id": "ch1",
       "num": 1,
-      "title": "paper",
+      "title": "Board's Question Paper: July 2023 (With Full Solution and Marking Scheme)",
       "emoji": "📝",
       "overview": {
         "summary": "This is the complete Maharashtra Board Std. X Geography question paper from July 2023, reproduced with the full official marking scheme and model solutions. It covers Q.1 (MCQs), Q.2 (matching), Q.3 (one-sentence answers), Q.4 (map work on India/Brazil), Q.5 (geographical reasons), Q.6 (graph work), and Q.7 (detailed answers), spanning topics from India-Brazil comparisons, wildlife, population density, tourism, and historical background.",
@@ -124,38 +124,38 @@
         },
         {
           "id": "n12",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(1) Brazil's famous dance (Ch. 2)",
-          "question": "The country Brazil is famous for which type of dance?",
-          "qnaAnswer": "The country Brazil is famous for Samba dance."
+          "content": "The country Brazil is famous for Samba dance.",
+          "important": true
         },
         {
           "id": "n13",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(2) 'Go West' Policy (Ch. 7)",
-          "question": "Name the country which is promoting “Go West” Policy.",
-          "qnaAnswer": "The name of the country promoting “Go West” policy is Brazil."
+          "content": "The name of the country promoting “Go West” policy is Brazil.",
+          "important": true
         },
         {
           "id": "n14",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(3) Young population (Ch. 2)",
-          "question": "Which country has a high proportion of young population?",
-          "qnaAnswer": "India has a high proportion of young population."
+          "content": "India has a high proportion of young population.",
+          "important": true
         },
         {
           "id": "n15",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(4) Largest delta (Ch. 3)",
-          "question": "Write the name of the largest delta of the world.",
-          "qnaAnswer": "The name of the largest delta of the world is Sundarban."
+          "content": "The name of the largest delta of the world is Sundarban.",
+          "important": true
         },
         {
           "id": "n16",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(5) Time zones in Brazil (Ch. 9)",
-          "question": "How many ‘Time Zones’ are considered in Brazil?",
-          "qnaAnswer": "Four time zones are considered in Brazil."
+          "content": "Four time zones are considered in Brazil.",
+          "important": true
         },
         {
           "id": "n17",
@@ -189,38 +189,38 @@
         },
         {
           "id": "n21",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(1) Highest density state",
-          "question": "Name the state in Brazil with highest density of population.",
-          "qnaAnswer": "The state in Brazil with highest density of population is Rio de Janeiro/Sao Paulo."
+          "content": "The state in Brazil with highest density of population is Rio de Janeiro/Sao Paulo.",
+          "important": true
         },
         {
           "id": "n22",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(2) Roraima State density",
-          "question": "What is the density of population in Roraima State?",
-          "qnaAnswer": "The density of population in Roraima state is less than 50 per sq. km."
+          "content": "The density of population in Roraima state is less than 50 per sq. km.",
+          "important": true
         },
         {
           "id": "n23",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(3) Low-density eastern coast state",
-          "question": "Write the name of any one state having population density less than 50 on the eastern coast of Brazil.",
-          "qnaAnswer": "The name of the state having population density less than 50 on the eastern coast of Brazil is Bahia/Rio Grande Do Sul."
+          "content": "The name of the state having population density less than 50 on the eastern coast of Brazil is Bahia/Rio Grande Do Sul.",
+          "important": true
         },
         {
           "id": "n24",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(4) Ceara State density",
-          "question": "How much is the density of population in Ceara State?",
-          "qnaAnswer": "The density of population in Ceara state is 51 to 100 per sq. km."
+          "content": "The density of population in Ceara state is 51 to 100 per sq. km.",
+          "important": true
         },
         {
           "id": "n25",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(5) Brasilia density",
-          "question": "What is the density of population in Brasilia?",
-          "qnaAnswer": "The density of population in Brasilia is more than 300 per sq. km."
+          "content": "The density of population in Brasilia is more than 300 per sq. km.",
+          "important": true
         },
         {
           "id": "n26",
@@ -289,24 +289,24 @@
         },
         {
           "id": "n33",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(1) Least tourists year",
-          "question": "Which year had the least number of tourists?",
-          "qnaAnswer": "The year 1995 had the least number of tourists."
+          "content": "The year 1995 had the least number of tourists.",
+          "important": true
         },
         {
           "id": "n34",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(2) Increase from 2010 to 2015",
-          "question": "The number of tourists had increased by how many lakhs between 2010 to 2015?",
-          "qnaAnswer": "The number of tourists had increased by 78 lakh between 2010 and 2015."
+          "content": "The number of tourists had increased by 78 lakh between 2010 and 2015.",
+          "important": true
         },
         {
           "id": "n35",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(3) Tourists in 2005",
-          "question": "What was the number of International tourists in 2005?",
-          "qnaAnswer": "The number of international tourists in 2005 was 26 lakh."
+          "content": "The number of international tourists in 2005 was 26 lakh.",
+          "important": true
         },
         {
           "id": "n36",
@@ -315,45 +315,45 @@
         },
         {
           "id": "n37",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(1) Graph type",
-          "question": "What type of graph is shown here?",
-          "qnaAnswer": "Joint bar graph is shown here."
+          "content": "Joint bar graph is shown here.",
+          "important": true
         },
         {
           "id": "n38",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(2) What the graph shows",
-          "question": "What does the graph show?",
-          "qnaAnswer": "The graph shows contribution of tourism in GDP and percentage of population engaged in tourism."
+          "content": "The graph shows contribution of tourism in GDP and percentage of population engaged in tourism.",
+          "important": true
         },
         {
           "id": "n39",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(3) Larger GDP share from tourism",
-          "question": "Which country's tourism has a large share in the contribution towards GDP?",
-          "qnaAnswer": "Brazil's tourism has a large share in the contribution towards GDP."
+          "content": "Brazil's tourism has a large share in the contribution towards GDP.",
+          "important": true
         },
         {
           "id": "n40",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(4) Larger tourism workforce, lower GDP share",
-          "question": "Which country has a larger population engaged in tourism sector but contributes lesser in GDP?",
-          "qnaAnswer": "India has a larger population engaged in tourism sector but contributes lesser in GDP."
+          "content": "India has a larger population engaged in tourism sector but contributes lesser in GDP.",
+          "important": true
         },
         {
           "id": "n41",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(5) India's tourism GDP contribution",
-          "question": "In India, how much percent is the contribution of tourism in its GDP?",
-          "qnaAnswer": "In India the contribution of tourism in its GDP is 7.9%."
+          "content": "In India the contribution of tourism in its GDP is 7.9%.",
+          "important": true
         },
         {
           "id": "n42",
-          "type": "qna",
+          "type": "paragraph",
           "title": "(6) Brazil's population in tourism",
-          "question": "How much percent of Brazilian population is contributing in its tourism industry?",
-          "qnaAnswer": "8.2% of Brazilian population is contributing in its tourism industry."
+          "content": "8.2% of Brazilian population is contributing in its tourism industry.",
+          "important": true
         },
         {
           "id": "n43",
@@ -496,7 +496,7 @@
           "order": 5
         }
       ],
-      "kind": "Board's Question Paper: July 2023 (With Full Solution and Marking Scheme)"
+      "kind": "paper"
     },
     {
       "id": "ch2",
@@ -1471,18 +1471,18 @@
           "id": "n3"
         },
         {
-          "type": "qna",
+          "id": "n4",
+          "type": "paragraph",
           "title": "(1) States in Brazil, north to south",
-          "question": "Complete the chain (correct sequence) — The states in Brazil from north to south: Para – Amapa – Sao Paulo – Santa Catarina",
-          "qnaAnswer": "The states in Brazil from north to south direction: Amapa – Para – Sao Paulo – Santa Catarina.",
-          "id": "n4"
+          "content": "The states in Brazil from north to south direction: Amapa – Para – Sao Paulo – Santa Catarina.",
+          "important": true
         },
         {
-          "type": "qna",
+          "id": "n5",
+          "type": "paragraph",
           "title": "(2) States in India, south to north",
-          "question": "Complete the chain (correct sequence) — The states in India from south to north: Jammu and Kashmir – Maharashtra – Kerala – Karnataka",
-          "qnaAnswer": "The states in India from south to north direction: Kerala – Karnataka – Maharashtra – Jammu and Kashmir.",
-          "id": "n5"
+          "content": "The states in India from south to north direction: Kerala – Karnataka – Maharashtra – Jammu and Kashmir.",
+          "important": true
         },
         {
           "type": "heading",
@@ -1490,18 +1490,18 @@
           "id": "n6"
         },
         {
-          "type": "qna",
+          "id": "n7",
+          "type": "paragraph",
           "title": "(1) Physiographic divisions of Brazil, NE to SE",
-          "question": "Complete the chain (correct sequence) — Physiographic divisions of Brazil from northeast to southeast: Brazilian Highlands – The Great Escarpment – Guyana Highlands – Amazon Plains",
-          "qnaAnswer": "Physiographic divisions of Brazil from northeast to southeast: Guyana Highlands – Amazon Plains – Brazilian Highlands – The Great Escarpment.",
-          "id": "n7"
+          "content": "Physiographic divisions of Brazil from northeast to southeast: Guyana Highlands – Amazon Plains – Brazilian Highlands – The Great Escarpment.",
+          "important": true
         },
         {
-          "type": "qna",
+          "id": "n8",
+          "type": "paragraph",
           "title": "(2) Physiographic divisions of India, north to south",
-          "question": "Complete the chain (correct sequence) — Physiographic divisions of India from north to south: Deccan Plateau – The Vindhyas – The Himalaya – The Northern Plains",
-          "qnaAnswer": "Physiographic divisions of India from north to south: The Himalayas – The Northern Plains – The Vindhyas – Deccan Plateau.",
-          "id": "n8"
+          "content": "Physiographic divisions of India from north to south: The Himalayas – The Northern Plains – The Vindhyas – Deccan Plateau.",
+          "important": true
         }
       ],
       "flashcards": [
@@ -2782,16 +2782,18 @@
           "id": "n3"
         },
         {
-          "type": "qna",
-          "question": "What is field visit?",
-          "qnaAnswer": "Collecting geographical and cultural information by actually paying a visit to a particular place is called 'field visit'.",
-          "id": "n4"
+          "id": "n4",
+          "type": "paragraph",
+          "title": "What is field visit?",
+          "content": "Collecting geographical and cultural information by actually paying a visit to a particular place is called 'field visit'.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "What types of information of a field can be collected by field visit?",
-          "qnaAnswer": "Geographical, social, economic, historical, cultural, etc. types of information of a field can be collected by field visit.",
-          "id": "n5"
+          "id": "n5",
+          "type": "paragraph",
+          "title": "What types of information of a field can be collected by field visit?",
+          "content": "Geographical, social, economic, historical, cultural, etc. types of information of a field can be collected by field visit.",
+          "important": true
         },
         {
           "type": "heading",
@@ -2799,52 +2801,60 @@
           "id": "n6"
         },
         {
-          "type": "qna",
-          "question": "Areawise, which is the largest state in India?",
-          "qnaAnswer": "Areawise, Rajasthan is the largest state in India.",
-          "id": "n7"
+          "id": "n7",
+          "type": "paragraph",
+          "title": "Areawise, which is the largest state in India?",
+          "content": "Areawise, Rajasthan is the largest state in India.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "In which Hemispheres is India situated?",
-          "qnaAnswer": "India is situated in both the Northern Hemisphere and the Eastern Hemisphere.",
-          "id": "n8"
+          "id": "n8",
+          "type": "paragraph",
+          "title": "In which Hemispheres is India situated?",
+          "content": "India is situated in both the Northern Hemisphere and the Eastern Hemisphere.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "In which Hemispheres is Brazil situated?",
-          "qnaAnswer": "Brazil is situated in the Northern, Southern and Western Hemispheres.",
-          "id": "n9"
+          "id": "n9",
+          "type": "paragraph",
+          "title": "In which Hemispheres is Brazil situated?",
+          "content": "Brazil is situated in the Northern, Southern and Western Hemispheres.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which parallels of latitude pass through Brazil?",
-          "qnaAnswer": "Equator and Tropic of Capricorn pass through Brazil.",
-          "id": "n10"
+          "id": "n10",
+          "type": "paragraph",
+          "title": "Which parallels of latitude pass through Brazil?",
+          "content": "Equator and Tropic of Capricorn pass through Brazil.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Brazil is mainly located in which hemisphere?",
-          "qnaAnswer": "Brazil is mainly located in southern hemisphere.",
-          "id": "n11"
+          "id": "n11",
+          "type": "paragraph",
+          "title": "Brazil is mainly located in which hemisphere?",
+          "content": "Brazil is mainly located in southern hemisphere.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which is the popular sport of Brazil?",
-          "qnaAnswer": "Football is the popular sport of Brazil.",
-          "id": "n12"
+          "id": "n12",
+          "type": "paragraph",
+          "title": "Which is the popular sport of Brazil?",
+          "content": "Football is the popular sport of Brazil.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "How many union territories are there in India?",
-          "qnaAnswer": "There are eight union territories in India.",
-          "id": "n13"
+          "id": "n13",
+          "type": "paragraph",
+          "title": "How many union territories are there in India?",
+          "content": "There are eight union territories in India.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "By which name is the southernmost point of India known?",
-          "qnaAnswer": "The southernmost point of India is known as Indira Point.",
-          "id": "n14"
+          "id": "n14",
+          "type": "paragraph",
+          "title": "By which name is the southernmost point of India known?",
+          "content": "The southernmost point of India is known as Indira Point.",
+          "important": true
         },
         {
           "type": "heading",
@@ -2852,52 +2862,60 @@
           "id": "n15"
         },
         {
-          "type": "qna",
-          "question": "Which is the highest peak in Brazil?",
-          "qnaAnswer": "Pico de Neblina is the highest peak in Brazil.",
-          "id": "n16"
+          "id": "n16",
+          "type": "paragraph",
+          "title": "Which is the highest peak in Brazil?",
+          "content": "Pico de Neblina is the highest peak in Brazil.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which major river systems are included in Himalayan drainage?",
-          "qnaAnswer": "Sindhu river system and Ganga river system are included in Himalayan drainage.",
-          "id": "n17"
+          "id": "n17",
+          "type": "paragraph",
+          "title": "Which major river systems are included in Himalayan drainage?",
+          "content": "Sindhu river system and Ganga river system are included in Himalayan drainage.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "From where does Ganga river originate?",
-          "qnaAnswer": "Ganga river originates at Bhagirathi (at Gangotri) from Alaknanda glacier.",
-          "id": "n18"
+          "id": "n18",
+          "type": "paragraph",
+          "title": "From where does Ganga river originate?",
+          "content": "Ganga river originates at Bhagirathi (at Gangotri) from Alaknanda glacier.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "By which names is the desert region of Rajasthan known?",
-          "qnaAnswer": "The desert region of Rajasthan is known as 'Thar desert' or 'Marusthali'.",
-          "id": "n19"
+          "id": "n19",
+          "type": "paragraph",
+          "title": "By which names is the desert region of Rajasthan known?",
+          "content": "The desert region of Rajasthan is known as 'Thar desert' or 'Marusthali'.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Through which states does river Kaveri flow?",
-          "qnaAnswer": "River Kaveri flows through the states of Karnataka and Tamil Nadu.",
-          "id": "n20"
+          "id": "n20",
+          "type": "paragraph",
+          "title": "Through which states does river Kaveri flow?",
+          "content": "River Kaveri flows through the states of Karnataka and Tamil Nadu.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "From where does Amazon river originate?",
-          "qnaAnswer": "Amazon river originates from the eastern slopes of Andes Mountains in Peru.",
-          "id": "n21"
+          "id": "n21",
+          "type": "paragraph",
+          "title": "From where does Amazon river originate?",
+          "content": "Amazon river originates from the eastern slopes of Andes Mountains in Peru.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "How many kilometres of a coastline does India have?",
-          "qnaAnswer": "India has a coastline of about 7500 kilometres.",
-          "id": "n22"
+          "id": "n22",
+          "type": "paragraph",
+          "title": "How many kilometres of a coastline does India have?",
+          "content": "India has a coastline of about 7500 kilometres.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "How many kilometres of a coastline does Brazil have?",
-          "qnaAnswer": "Brazil has a coastline of about 7400 kilometres.",
-          "id": "n23"
+          "id": "n23",
+          "type": "paragraph",
+          "title": "How many kilometres of a coastline does Brazil have?",
+          "content": "Brazil has a coastline of about 7400 kilometres.",
+          "important": true
         },
         {
           "type": "heading",
@@ -2905,40 +2923,46 @@
           "id": "n24"
         },
         {
-          "type": "qna",
-          "question": "What is rainshadow region in Brazil called?",
-          "qnaAnswer": "Rainshadow region in Brazil is called as 'Drought Quadrilateral'.",
-          "id": "n25"
+          "id": "n25",
+          "type": "paragraph",
+          "title": "What is rainshadow region in Brazil called?",
+          "content": "Rainshadow region in Brazil is called as 'Drought Quadrilateral'.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which type of climate is found to the south of the Tropic of Capricorn in Brazil?",
-          "qnaAnswer": "Temperate type of climate is found to the south of the Tropic of Capricorn in Brazil.",
-          "id": "n26"
+          "id": "n26",
+          "type": "paragraph",
+          "title": "Which type of climate is found to the south of the Tropic of Capricorn in Brazil",
+          "content": "Temperate type of climate is found to the south of the Tropic of Capricorn in Brazil.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "In which part of Brazil does less variations in temperature found?",
-          "qnaAnswer": "Less variations in temperature is found in the equatorial region at coastal part in Brazil.",
-          "id": "n27"
+          "id": "n27",
+          "type": "paragraph",
+          "title": "In which part of Brazil does less variations in temperature found?",
+          "content": "Less variations in temperature is found in the equatorial region at coastal part in Brazil.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "What is the average rainfall in the Amazon river basin?",
-          "qnaAnswer": "The average rainfall in the Amazon river basin is about 2000 mm.",
-          "id": "n28"
+          "id": "n28",
+          "type": "paragraph",
+          "title": "What is the average rainfall in the Amazon river basin?",
+          "content": "The average rainfall in the Amazon river basin is about 2000 mm.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "By which name is the northeast part of Brazil known?",
-          "qnaAnswer": "The northeast part of Brazil is known as 'Drought Quadrilateral'.",
-          "id": "n29"
+          "id": "n29",
+          "type": "paragraph",
+          "title": "By which name is the northeast part of Brazil known?",
+          "content": "The northeast part of Brazil is known as 'Drought Quadrilateral'.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which form of rain is found in Himalayan region?",
-          "qnaAnswer": "Orographic type of rain is found in Himalayan region.",
-          "id": "n30"
+          "id": "n30",
+          "type": "paragraph",
+          "title": "Which form of rain is found in Himalayan region?",
+          "content": "Orographic type of rain is found in Himalayan region.",
+          "important": true
         },
         {
           "type": "heading",
@@ -2946,28 +2970,32 @@
           "id": "n31"
         },
         {
-          "type": "qna",
-          "question": "Which is the national animal of India?",
-          "qnaAnswer": "Tiger is the national animal of India.",
-          "id": "n32"
+          "id": "n32",
+          "type": "paragraph",
+          "title": "Which is the national animal of India?",
+          "content": "Tiger is the national animal of India.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "For which animal is the state of West Bengal famous?",
-          "qnaAnswer": "The state of West Bengal is famous for tiger.",
-          "id": "n33"
+          "id": "n33",
+          "type": "paragraph",
+          "title": "For which animal is the state of West Bengal famous?",
+          "content": "The state of West Bengal is famous for tiger.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which region of Brazil receives rainfall throughout the year?",
-          "qnaAnswer": "Equatorial region of Brazil receives rainfall throughout the year.",
-          "id": "n34"
+          "id": "n34",
+          "type": "paragraph",
+          "title": "Which region of Brazil receives rainfall throughout the year?",
+          "content": "Equatorial region of Brazil receives rainfall throughout the year.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "By which name are the rainforests in Brazil known as?",
-          "qnaAnswer": "Rainforests in Brazil are known as 'lungs of the world'.",
-          "id": "n35"
+          "id": "n35",
+          "type": "paragraph",
+          "title": "By which name are the rainforests in Brazil known as?",
+          "content": "Rainforests in Brazil are known as 'lungs of the world'.",
+          "important": true
         },
         {
           "type": "heading",
@@ -2975,28 +3003,32 @@
           "id": "n36"
         },
         {
-          "type": "qna",
-          "question": "What is sex ratio?",
-          "qnaAnswer": "Sex ratio is the number of females per 1000 males in population.",
-          "id": "n37"
+          "id": "n37",
+          "type": "paragraph",
+          "title": "What is sex ratio?",
+          "content": "Sex ratio is the number of females per 1000 males in population.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "What is average life expectancy?",
-          "qnaAnswer": "Average life expectancy is the number of years a person could expect to live since its birth.",
-          "id": "n38"
+          "id": "n38",
+          "type": "paragraph",
+          "title": "What is average life expectancy?",
+          "content": "Average life expectancy is the number of years a person could expect to live since its birth.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "How many per cent of the world's total land is occupied by India?",
-          "qnaAnswer": "Nearly 2.41 per cent of the world's total land is occupied by India.",
-          "id": "n39"
+          "id": "n39",
+          "type": "paragraph",
+          "title": "How many per cent of the world's total land is occupied by India?",
+          "content": "Nearly 2.41 per cent of the world's total land is occupied by India.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "How many per cent of the world's total population is in India?",
-          "qnaAnswer": "Nearly 17.5 per cent of the world's total population is in India.",
-          "id": "n40"
+          "id": "n40",
+          "type": "paragraph",
+          "title": "How many per cent of the world's total population is in India?",
+          "content": "Nearly 17.5 per cent of the world's total population is in India.",
+          "important": true
         },
         {
           "type": "heading",
@@ -3004,46 +3036,53 @@
           "id": "n41"
         },
         {
-          "type": "qna",
-          "question": "Which factors lead to variety of settlements?",
-          "qnaAnswer": "The factors like climate, availability of water, slope of land, fertility of land, level of development, etc. lead to variety of settlements.",
-          "id": "n42"
+          "id": "n42",
+          "type": "paragraph",
+          "title": "Which factors lead to variety of settlements?",
+          "content": "The factors like climate, availability of water, slope of land, fertility of land, level of development, etc. lead to variety of settlements.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which type of settlements are found in the North Indian Plains?",
-          "qnaAnswer": "Nucleated settlements are found in the North Indian Plains.",
-          "id": "n43"
+          "id": "n43",
+          "type": "paragraph",
+          "title": "Which type of settlements are found in the North Indian Plains?",
+          "content": "Nucleated settlements are found in the North Indian Plains.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which is the most urbanized state in India?",
-          "qnaAnswer": "Goa is the most urbanized state in India.",
-          "id": "n44"
+          "id": "n44",
+          "type": "paragraph",
+          "title": "Which is the most urbanized state in India?",
+          "content": "Goa is the most urbanized state in India.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "What type of settlements are found in the central part of India?",
-          "qnaAnswer": "Dispersed settlements are found in the central part of India.",
-          "id": "n45"
+          "id": "n45",
+          "type": "paragraph",
+          "title": "What type of settlements are found in the central part of India?",
+          "content": "Dispersed settlements are found in the central part of India.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "In which river basins in India are the nucleated settlements seen?",
-          "qnaAnswer": "The nucleated settlements in India are seen in the river basins of Ganga, Narmada, Godavari, Kaveri, etc.",
-          "id": "n46"
+          "id": "n46",
+          "type": "paragraph",
+          "title": "In which river basins in India are the nucleated settlements seen?",
+          "content": "The nucleated settlements in India are seen in the river basins of Ganga, Narmada, Godavari, Kaveri, etc.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which rivers meet near Manaus in Brazil?",
-          "qnaAnswer": "Negro river and Amazon river meet near Manaus in Brazil.",
-          "id": "n47"
+          "id": "n47",
+          "type": "paragraph",
+          "title": "Which rivers meet near Manaus in Brazil?",
+          "content": "Negro river and Amazon river meet near Manaus in Brazil.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which type of settlements are found in the southeastern part of Brazil?",
-          "qnaAnswer": "Nucleated settlements are found in the southeastern part of Brazil.",
-          "id": "n48"
+          "id": "n48",
+          "type": "paragraph",
+          "title": "Which type of settlements are found in the southeastern part of Brazil?",
+          "content": "Nucleated settlements are found in the southeastern part of Brazil.",
+          "important": true
         },
         {
           "type": "heading",
@@ -3051,46 +3090,53 @@
           "id": "n49"
         },
         {
-          "type": "qna",
-          "question": "Which currency is mainly used for international trade?",
-          "qnaAnswer": "US dollar is the currency mainly used for international trade.",
-          "id": "n50"
+          "id": "n50",
+          "type": "paragraph",
+          "title": "Which currency is mainly used for international trade?",
+          "content": "US dollar is the currency mainly used for international trade.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "What type of agriculture is mainly practised in India?",
-          "qnaAnswer": "Subsistence agriculture is mainly practised in India.",
-          "id": "n51"
+          "id": "n51",
+          "type": "paragraph",
+          "title": "What type of agriculture is mainly practised in India?",
+          "content": "Subsistence agriculture is mainly practised in India.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which type of economy exists in Brazil?",
-          "qnaAnswer": "Mixed economy exists in Brazil.",
-          "id": "n52"
+          "id": "n52",
+          "type": "paragraph",
+          "title": "Which type of economy exists in Brazil?",
+          "content": "Mixed economy exists in Brazil.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "At which places in India is the fresh water fishing carried out?",
-          "qnaAnswer": "In India, the fresh water fishing is carried out in rivers, canals, irrigation channels, tanks, ponds, lakes, etc.",
-          "id": "n53"
+          "id": "n53",
+          "type": "paragraph",
+          "title": "At which places in India is the fresh water fishing carried out?",
+          "content": "In India, the fresh water fishing is carried out in rivers, canals, irrigation channels, tanks, ponds, lakes, etc.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which countries are the major trading partners of Brazil?",
-          "qnaAnswer": "Germany, USA, Canada, Italy, Argentina, Saudi, India, etc. countries are the major trading partners of Brazil.",
-          "id": "n54"
+          "id": "n54",
+          "type": "paragraph",
+          "title": "Which countries are the major trading partners of Brazil?",
+          "content": "Germany, USA, Canada, Italy, Argentina, Saudi, India, etc. countries are the major trading partners of Brazil.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which countries are the major trading partners of India?",
-          "qnaAnswer": "UK, USA, Germany, Japan, China, Russia, Brazil, etc. countries are the major trading partners of India.",
-          "id": "n55"
+          "id": "n55",
+          "type": "paragraph",
+          "title": "Which countries are the major trading partners of India?",
+          "content": "UK, USA, Germany, Japan, China, Russia, Brazil, etc. countries are the major trading partners of India.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which type of occupations give a boost to the development of a country's economy?",
-          "qnaAnswer": "Tertiary type of occupations give a boost to the development of a country's economy.",
-          "id": "n56"
+          "id": "n56",
+          "type": "paragraph",
+          "title": "Which type of occupations give a boost to the development of a country's economy",
+          "content": "Tertiary type of occupations give a boost to the development of a country's economy.",
+          "important": true
         },
         {
           "type": "heading",
@@ -3098,28 +3144,32 @@
           "id": "n57"
         },
         {
-          "type": "qna",
-          "question": "Which longitude in India is considered as Indian Standard Time?",
-          "qnaAnswer": "82° 30' E longitude in India is considered as Indian Standard Time.",
-          "id": "n58"
+          "id": "n58",
+          "type": "paragraph",
+          "title": "Which longitude in India is considered as Indian Standard Time?",
+          "content": "82° 30' E longitude in India is considered as Indian Standard Time.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "For what purposes do foreign tourists visit India?",
-          "qnaAnswer": "Foreign tourists visit India for exploring Indian heritage and culture, to carry our adventurous or business activities and to receive health services, etc.",
-          "id": "n59"
+          "id": "n59",
+          "type": "paragraph",
+          "title": "For what purposes do foreign tourists visit India?",
+          "content": "Foreign tourists visit India for exploring Indian heritage and culture, to carry our adventurous or business activities and to receive health services, etc.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Which is the cheapest mode of transport?",
-          "qnaAnswer": "Waterways is the cheapest mode of transport.",
-          "id": "n60"
+          "id": "n60",
+          "type": "paragraph",
+          "title": "Which is the cheapest mode of transport?",
+          "content": "Waterways is the cheapest mode of transport.",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "Through which city does the standard time meridian of India pass?",
-          "qnaAnswer": "The standard time meridian of India passes through Allahabad city.",
-          "id": "n61"
+          "id": "n61",
+          "type": "paragraph",
+          "title": "Through which city does the standard time meridian of India pass?",
+          "content": "The standard time meridian of India passes through Allahabad city.",
+          "important": true
         }
       ],
       "flashcards": [
@@ -3883,28 +3933,16 @@
           "id": "n3"
         },
         {
-          "type": "true_false",
-          "statement": "During field visit, vegetation is not the indicator of difference in precipitation.",
-          "answer": false,
-          "id": "n4"
-        },
-        {
-          "type": "true_false",
-          "statement": "During field visit, the information can be obtained by interviewing local people.",
-          "answer": true,
-          "id": "n5"
-        },
-        {
-          "type": "true_false",
-          "statement": "Regions and necessities influence the difference in the means of livelihood.",
-          "answer": true,
-          "id": "n6"
-        },
-        {
-          "type": "true_false",
-          "statement": "Vegetation is an indicator of difference in precipitation.",
-          "answer": true,
-          "id": "n7"
+          "id": "n4",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "During field visit, vegetation is not the indicator of difference in precipitation. (False)",
+            "During field visit, the information can be obtained by interviewing local people. (True)",
+            "Regions and necessities influence the difference in the means of livelihood. (True)",
+            "Vegetation is an indicator of difference in precipitation. (True)"
+          ]
         },
         {
           "type": "heading",
@@ -3912,34 +3950,17 @@
           "id": "n8"
         },
         {
-          "type": "true_false",
-          "statement": "Brazil is mainly located in the Southern Hemisphere.",
-          "answer": true,
-          "id": "n9"
-        },
-        {
-          "type": "true_false",
-          "statement": "Tropic of Capricorn passes through the middle of India.",
-          "answer": false,
-          "id": "n10"
-        },
-        {
-          "type": "true_false",
-          "statement": "The longitudinal extent of Brazil is less than India.",
-          "answer": false,
-          "id": "n11"
-        },
-        {
-          "type": "true_false",
-          "statement": "Equator passes through the northern part of Brazil.",
-          "answer": true,
-          "id": "n12"
-        },
-        {
-          "type": "true_false",
-          "statement": "Brazil has a coastline along the Pacific Ocean.",
-          "answer": false,
-          "id": "n13"
+          "id": "n9",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Brazil is mainly located in the Southern Hemisphere. (True)",
+            "Tropic of Capricorn passes through the middle of India. (False)",
+            "The longitudinal extent of Brazil is less than India. (False)",
+            "Equator passes through the northern part of Brazil. (True)",
+            "Brazil has a coastline along the Pacific Ocean. (False)"
+          ]
         },
         {
           "type": "heading",
@@ -3947,34 +3968,17 @@
           "id": "n14"
         },
         {
-          "type": "true_false",
-          "statement": "The river Ganga originates from the Yamunotri glacier.",
-          "answer": false,
-          "id": "n15"
-        },
-        {
-          "type": "true_false",
-          "statement": "River Sutlej is a major tributary of river Indus.",
-          "answer": true,
-          "id": "n16"
-        },
-        {
-          "type": "true_false",
-          "statement": "Sundarbans is the largest delta region in the world.",
-          "answer": true,
-          "id": "n17"
-        },
-        {
-          "type": "true_false",
-          "statement": "The slope of Punjab plains is towards east.",
-          "answer": false,
-          "id": "n18"
-        },
-        {
-          "type": "true_false",
-          "statement": "The Great Escarpment is located in the Northern part of Brazil.",
-          "answer": false,
-          "id": "n19"
+          "id": "n15",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "The river Ganga originates from the Yamunotri glacier. (False)",
+            "River Sutlej is a major tributary of river Indus. (True)",
+            "Sundarbans is the largest delta region in the world. (True)",
+            "The slope of Punjab plains is towards east. (False)",
+            "The Great Escarpment is located in the Northern part of Brazil. (False)"
+          ]
         },
         {
           "type": "heading",
@@ -3982,46 +3986,19 @@
           "id": "n20"
         },
         {
-          "type": "true_false",
-          "statement": "The fact that Brazil lies on the equator affects its climate in a big way.",
-          "answer": true,
-          "id": "n21"
-        },
-        {
-          "type": "true_false",
-          "statement": "India and Brazil have the same seasons at the same time.",
-          "answer": false,
-          "id": "n22"
-        },
-        {
-          "type": "true_false",
-          "statement": "India faces tropical cyclones frequently.",
-          "answer": true,
-          "id": "n23"
-        },
-        {
-          "type": "true_false",
-          "statement": "Brazil gets a lot of rainfall because of the southwest monsoon winds.",
-          "answer": false,
-          "id": "n24"
-        },
-        {
-          "type": "true_false",
-          "statement": "In Mumbai, the average temperature in the month of May is around 15°C.",
-          "answer": false,
-          "id": "n25"
-        },
-        {
-          "type": "true_false",
-          "statement": "Manous city in Brazil receives the highest rainfall in the month of March.",
-          "answer": true,
-          "id": "n26"
-        },
-        {
-          "type": "true_false",
-          "statement": "Temperature in Ganganagar in Rajasthan soars to 30°C in June.",
-          "answer": false,
-          "id": "n27"
+          "id": "n21",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "The fact that Brazil lies on the equator affects its climate in a big way. (True)",
+            "India and Brazil have the same seasons at the same time. (False)",
+            "India faces tropical cyclones frequently. (True)",
+            "Brazil gets a lot of rainfall because of the southwest monsoon winds. (False)",
+            "In Mumbai, the average temperature in the month of May is around 15°C. (False)",
+            "Manous city in Brazil receives the highest rainfall in the month of March. (True)",
+            "Temperature in Ganganagar in Rajasthan soars to 30°C in June. (False)"
+          ]
         },
         {
           "type": "heading",
@@ -4029,16 +4006,14 @@
           "id": "n28"
         },
         {
-          "type": "true_false",
-          "statement": "Brazil does not have the large number of vegetation species in the world.",
-          "answer": false,
-          "id": "n29"
-        },
-        {
-          "type": "true_false",
-          "statement": "Wildlife in India is decreasing day by day.",
-          "answer": true,
-          "id": "n30"
+          "id": "n29",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Brazil does not have the large number of vegetation species in the world. (False)",
+            "Wildlife in India is decreasing day by day. (True)"
+          ]
         },
         {
           "type": "heading",
@@ -4046,52 +4021,20 @@
           "id": "n31"
         },
         {
-          "type": "true_false",
-          "statement": "The western part of Brazil is densely populated.",
-          "answer": false,
-          "id": "n32"
-        },
-        {
-          "type": "true_false",
-          "statement": "In India, population is very unevenly distributed.",
-          "answer": true,
-          "id": "n33"
-        },
-        {
-          "type": "true_false",
-          "statement": "Literacy rate is higher in Brazil than India.",
-          "answer": true,
-          "id": "n34"
-        },
-        {
-          "type": "true_false",
-          "statement": "In Brazil, people prefer living in the southeast as compared to the northeast.",
-          "answer": true,
-          "id": "n35"
-        },
-        {
-          "type": "true_false",
-          "statement": "The life expectancy of Indians is decreasing.",
-          "answer": false,
-          "id": "n36"
-        },
-        {
-          "type": "true_false",
-          "statement": "The north-western part of India is densely populated.",
-          "answer": false,
-          "id": "n37"
-        },
-        {
-          "type": "true_false",
-          "statement": "West Bengal state of India is sparsely populated.",
-          "answer": false,
-          "id": "n38"
-        },
-        {
-          "type": "true_false",
-          "statement": "Acre state of Brazil is sparsely populated.",
-          "answer": true,
-          "id": "n39"
+          "id": "n32",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "The western part of Brazil is densely populated. (False)",
+            "In India, population is very unevenly distributed. (True)",
+            "Literacy rate is higher in Brazil than India. (True)",
+            "In Brazil, people prefer living in the southeast as compared to the northeast. (True)",
+            "The life expectancy of Indians is decreasing. (False)",
+            "The north-western part of India is densely populated. (False)",
+            "West Bengal state of India is sparsely populated. (False)",
+            "Acre state of Brazil is sparsely populated. (True)"
+          ]
         },
         {
           "type": "heading",
@@ -4099,34 +4042,17 @@
           "id": "n40"
         },
         {
-          "type": "true_false",
-          "statement": "Nucleated settlements are found on the Himalayan slopes.",
-          "answer": false,
-          "id": "n41"
-        },
-        {
-          "type": "true_false",
-          "statement": "Nucleated settlements are found on Vindhyan Plateau.",
-          "answer": true,
-          "id": "n42"
-        },
-        {
-          "type": "true_false",
-          "statement": "Tea is cultivated on a large scale in the fertile land of Sao Paulo.",
-          "answer": false,
-          "id": "n43"
-        },
-        {
-          "type": "true_false",
-          "statement": "Northeastern region of Brazil is a region of heavy rainfall.",
-          "answer": false,
-          "id": "n44"
-        },
-        {
-          "type": "true_false",
-          "statement": "The climate in the equatorial dense forest region in Brazil is healthy.",
-          "answer": false,
-          "id": "n45"
+          "id": "n41",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Nucleated settlements are found on the Himalayan slopes. (False)",
+            "Nucleated settlements are found on Vindhyan Plateau. (True)",
+            "Tea is cultivated on a large scale in the fertile land of Sao Paulo. (False)",
+            "Northeastern region of Brazil is a region of heavy rainfall. (False)",
+            "The climate in the equatorial dense forest region in Brazil is healthy. (False)"
+          ]
         },
         {
           "type": "heading",
@@ -4134,40 +4060,18 @@
           "id": "n46"
         },
         {
-          "type": "true_false",
-          "statement": "Like the Indian economy, the Brazilian economy is also of mixed type.",
-          "answer": true,
-          "id": "n47"
-        },
-        {
-          "type": "true_false",
-          "statement": "Compared to Brazil, the national income of India is high.",
-          "answer": true,
-          "id": "n48"
-        },
-        {
-          "type": "true_false",
-          "statement": "Compared to Brazil, the national per capita income of India is high.",
-          "answer": false,
-          "id": "n49"
-        },
-        {
-          "type": "true_false",
-          "statement": "In Brazil, fishing is carried out on a large scale in fresh water.",
-          "answer": false,
-          "id": "n50"
-        },
-        {
-          "type": "true_false",
-          "statement": "In India, the state of Rajasthan is famous for Cuddapah.",
-          "answer": false,
-          "id": "n51"
-        },
-        {
-          "type": "true_false",
-          "statement": "Jute industry is concentrated in the state of West Bengal.",
-          "answer": true,
-          "id": "n52"
+          "id": "n47",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Like the Indian economy, the Brazilian economy is also of mixed type. (True)",
+            "Compared to Brazil, the national income of India is high. (True)",
+            "Compared to Brazil, the national per capita income of India is high. (False)",
+            "In Brazil, fishing is carried out on a large scale in fresh water. (False)",
+            "In India, the state of Rajasthan is famous for Cuddapah. (False)",
+            "Jute industry is concentrated in the state of West Bengal. (True)"
+          ]
         },
         {
           "type": "heading",
@@ -4175,28 +4079,16 @@
           "id": "n53"
         },
         {
-          "type": "true_false",
-          "statement": "Ecotourism is being developed in Brazil.",
-          "answer": true,
-          "id": "n54"
-        },
-        {
-          "type": "true_false",
-          "statement": "Tourism is a visible trade.",
-          "answer": false,
-          "id": "n55"
-        },
-        {
-          "type": "true_false",
-          "statement": "Brazil's time zone is ahead of India's time.",
-          "answer": false,
-          "id": "n56"
-        },
-        {
-          "type": "true_false",
-          "statement": "The development of tourism in India has begun recently.",
-          "answer": true,
-          "id": "n57"
+          "id": "n54",
+          "type": "list",
+          "title": "True or False Statements",
+          "ordered": false,
+          "items": [
+            "Ecotourism is being developed in Brazil. (True)",
+            "Tourism is a visible trade. (False)",
+            "Brazil's time zone is ahead of India's time. (False)",
+            "The development of tourism in India has begun recently. (True)"
+          ]
         }
       ],
       "flashcards": [
@@ -4763,16 +4655,18 @@
           "id": "n3"
         },
         {
-          "type": "qna",
-          "question": "A type of rainfall that occurs again in Chennai and other southern regions of India.",
-          "qnaAnswer": "Retreating monsoon (rainfall)",
-          "id": "n4"
+          "id": "n4",
+          "type": "paragraph",
+          "title": "A type of rainfall that occurs again in Chennai and other southern regions of In",
+          "content": "Retreating monsoon (rainfall)",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "A type of rainfall that occurs in the equatorial region due to high temperature.",
-          "qnaAnswer": "Convectional rainfall",
-          "id": "n5"
+          "id": "n5",
+          "type": "paragraph",
+          "title": "A type of rainfall that occurs in the equatorial region due to high temperature.",
+          "content": "Convectional rainfall",
+          "important": true
         },
         {
           "type": "heading",
@@ -4780,16 +4674,18 @@
           "id": "n6"
         },
         {
-          "type": "qna",
-          "question": "A type of forest in Brazil that is known as 'lungs of the world'.",
-          "qnaAnswer": "Evergreen forests",
-          "id": "n7"
+          "id": "n7",
+          "type": "paragraph",
+          "title": "A type of forest in Brazil that is known as 'lungs of the world'.",
+          "content": "Evergreen forests",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "A type of agriculture in Brazil resulting into loss of shelter for animals.",
-          "qnaAnswer": "Roka",
-          "id": "n8"
+          "id": "n8",
+          "type": "paragraph",
+          "title": "A type of agriculture in Brazil resulting into loss of shelter for animals.",
+          "content": "Roka",
+          "important": true
         },
         {
           "type": "heading",
@@ -4797,16 +4693,18 @@
           "id": "n9"
         },
         {
-          "type": "qna",
-          "question": "A type of transport mode that has dense network in the northern part of India.",
-          "qnaAnswer": "Railway",
-          "id": "n10"
+          "id": "n10",
+          "type": "paragraph",
+          "title": "A type of transport mode that has dense network in the northern part of India.",
+          "content": "Railway",
+          "important": true
         },
         {
-          "type": "qna",
-          "question": "A type of tourism that maintains the balance of environment.",
-          "qnaAnswer": "Ecotourism",
-          "id": "n11"
+          "id": "n11",
+          "type": "paragraph",
+          "title": "A type of tourism that maintains the balance of environment.",
+          "content": "Ecotourism",
+          "important": true
         }
       ],
       "flashcards": [

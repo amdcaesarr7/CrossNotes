@@ -62,47 +62,33 @@
         {
           "id": "n7",
           "type": "qna",
-          "title": "State Newton's universal law of gravitation.",
+          "title": "State Newton's universal law of gravitation",
           "question": "State Newton's universal law of gravitation.",
           "qnaAnswer": "Every object in the Universe attracts every other object with a definite force. This force is directly proportional to the product of the masses of the two objects and inversely proportional to the square of the distance between them."
         },
         {
           "id": "n8",
           "type": "qna",
-          "title": "Express Newton's law of gravitation in mathematical form.",
+          "title": "Express Newton's law mathematically",
           "question": "Express Newton's law of gravitation in mathematical form.",
-          "qnaAnswer": "F = G * (m1 * m2) / r², where G is the universal gravitational constant."
+          "qnaAnswer": "F = G × (m₁ × m₂) / r², where G is the universal gravitational constant."
         },
         {
           "id": "n9",
           "type": "qna",
-          "title": "Determine the SI unit of G.",
-          "question": "Determine the SI unit of the universal constant of gravitation from the formula for the gravitational force between two particles.",
-          "qnaAnswer": "N m² / kg²"
+          "title": "Factors affecting g",
+          "question": "Explain the factors affecting the value of g.",
+          "qnaAnswer": "The factors affecting the value of g are the shape of the earth, altitude, and depth below the earth's surface:\n\n1. The earth is not perfectly spherical; it is flat at the poles and bulging at the equator. g is maximum at the poles (9.832 m/s²) and minimum at the equator (9.78 m/s²).\n\n2. As height (h) above the earth's surface increases, the value of g decreases. It varies as 1/(R+h)².\n\n3. As depth below the earth's surface increases, the value of g decreases and finally becomes zero at the centre of the earth."
         },
         {
           "id": "n10",
           "type": "qna",
-          "title": "Define G.",
-          "question": "Define G (universal gravitational constant).",
-          "qnaAnswer": "G is the constant of proportionality in Newton's law of gravitation. Its value is the same everywhere in the universe."
+          "title": "Kepler's Laws",
+          "question": "State Kepler's laws of planetary motion.",
+          "qnaAnswer": "Kepler's first law: The orbit of a planet is an ellipse with the Sun at one of the foci.\n\nKepler's second law: The line joining the planet and the Sun sweeps equal areas in equal intervals of time.\n\nKepler's third law: The square of the period of revolution of a planet around the Sun is directly proportional to the cube of the mean distance of the planet from the Sun."
         },
         {
           "id": "n11",
-          "type": "qna",
-          "title": "Will the value of g be the same everywhere on the surface of the earth?",
-          "question": "Will the value of g be the same everywhere on the surface of the earth? Justify your answer.",
-          "qnaAnswer": "No. The earth is not exactly spherical in shape. The equatorial radius is greater than the polar radius. Thus, the value of g is highest at the poles and lowest at the equator."
-        },
-        {
-          "id": "n12",
-          "type": "qna",
-          "title": "Explain the factors affecting the value of g.",
-          "question": "Explain the factors affecting the value of g.",
-          "qnaAnswer": "The factors affecting the value of g are the shape of the earth, altitude, and depth below the earth's surface. (1) The earth is not perfectly spherical; g is maximum at the poles and minimum at the equator. (2) As height above the earth's surface increases, the value of g decreases. (3) As depth below the earth's surface increases, the value of g decreases and finally becomes zero at the centre of the earth."
-        },
-        {
-          "id": "n13",
           "type": "list",
           "title": "True or False Statements",
           "ordered": false,
@@ -117,79 +103,65 @@
           ]
         },
         {
-          "id": "n14",
+          "id": "n12",
           "type": "match_column",
-          "title": "Match the following: Escape velocity",
+          "title": "Match the following",
           "left": ["Escape velocity"],
           "right": ["√(GM/R)", "√(2GM/R)"],
           "answerKey": [1]
         },
         {
-          "id": "n15",
-          "type": "paragraph",
-          "title": "Kepler's first law",
-          "content": "The orbit of a planet is an ellipse with the Sun at one of the foci.",
-          "important": true
+          "id": "n13",
+          "type": "table",
+          "title": "Distinguish Between: Mass and Weight",
+          "headers": ["Mass", "Weight"],
+          "rows": [
+            ["The mass of a body is the amount of matter present in it.", "The weight of a body is the force with which the earth attracts it."],
+            ["It has magnitude, but not direction (scalar quantity).", "It has both magnitude and direction (vector quantity)."],
+            ["It does not change from place to place.", "It changes from place to place as g changes."],
+            ["It can never be zero.", "It can be zero in space or at the centre of the earth."]
+          ]
         },
         {
-          "id": "n16",
-          "type": "paragraph",
-          "title": "Kepler's second law",
-          "content": "The line joining the planet and the Sun sweeps equal areas in equal intervals of time.",
-          "important": true
-        },
-        {
-          "id": "n17",
-          "type": "paragraph",
-          "title": "Kepler's third law",
-          "content": "The square of the period of revolution of a planet around the Sun is directly proportional to the cube of the mean distance of the planet from the Sun.",
-          "important": true
-        },
-        {
-          "id": "n18",
+          "id": "n14",
           "type": "qna",
-          "title": "State Kepler's laws of planetary motion.",
-          "question": "State the laws related to the orbit of a planet moving around the Sun.",
-          "qnaAnswer": "Kepler's first law: The orbit of a planet is an ellipse with the Sun at one of the foci. Kepler's second law: The line joining the planet and the Sun sweeps equal areas in equal intervals of time. Kepler's third law: The square of the period of revolution of a planet around the Sun is directly proportional to the cube of the mean distance of the planet from the Sun."
+          "title": "Solved Numerical: Ages Problem",
+          "question": "The sum of the present ages of Manish and Savita is 31 years. Manish's age 3 years ago was 4 times the age of Savita at that time. Find their present ages.",
+          "qnaAnswer": "Let Manish's present age be x years and Savita's present age be y years.\n\nFrom the first condition: x + y = 31 ...(1)\n\n3 years ago: Manish's age = (x - 3), Savita's age = (y - 3)\n\nFrom the second condition: x - 3 = 4(y - 3)\n∴ x - 3 = 4y - 12\n∴ x - 4y = -9 ...(2)\n\nSubtracting equation (2) from equation (1):\n(x + y) - (x - 4y) = 31 - (-9)\n5y = 40\n∴ y = 8\n\nSubstituting y = 8 in equation (1):\nx + 8 = 31\n∴ x = 23\n\nTherefore, Manish is 23 years old and Savita is 8 years old."
         },
         {
-          "id": "n19",
-          "type": "paragraph",
-          "title": "Free fall",
-          "content": "When an object falls towards the earth under the influence of the earth's gravitational force alone, it is said to be in free fall.",
-          "important": true
+          "id": "n15",
+          "type": "qna",
+          "title": "Solved Numerical: Cramer's Rule",
+          "question": "Solve the following simultaneous equations using Cramer's rule: 3x - 4y = 1 and 4x - 3y = 6.",
+          "qnaAnswer": "D = 3×(-3) - 4×(-4) = -9 + 16 = 7\nDₓ = 1×(-3) - 6×(-4) = -3 + 24 = 21\nDᵧ = 3×6 - 4×1 = 18 - 4 = 14\n\nx = Dₓ/D = 21/7 = 3\ny = Dᵧ/D = 14/7 = 2\n\nSolution: (x, y) = (3, 2)"
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "State Newton's universal law of gravitation in one line.",
-          "back": "Every object attracts every other object with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
-          "order": 1
+          "back": "Every object attracts every other object with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them."
         },
         {
           "id": "f2",
           "front": "Where on earth is g maximum, and what's its value?",
-          "back": "At the poles, g ≈ 9.832 m/s²",
-          "order": 2
+          "back": "At the poles, g ≈ 9.832 m/s²"
         },
         {
           "id": "f3",
           "front": "What is escape velocity from Earth?",
-          "back": "About 11.2 km/s",
-          "order": 3
+          "back": "About 11.2 km/s"
         },
         {
           "id": "f4",
           "front": "Why does weight change from place to place but mass doesn't?",
-          "back": "Mass measures the amount of matter (constant); weight = mg depends on g, which varies with location",
-          "order": 4
+          "back": "Mass measures the amount of matter (constant); weight = mg depends on g, which varies with location"
         },
         {
           "id": "f5",
           "front": "What is centripetal force?",
-          "back": "The force on a body in uniform circular motion, directed towards the centre of the circle",
-          "order": 5
+          "back": "The force on a body in uniform circular motion, directed towards the centre of the circle"
         }
       ],
       "quiz": [
@@ -301,13 +273,34 @@
         },
         {
           "id": "n7",
-          "type": "paragraph",
-          "title": "Characteristics of a homologous series",
-          "content": "In a homologous series while going in an increasing order of the length of carbon chain (a) one methylene unit (-CH2-) is added (b) the molecular mass increases by 14 u (c) number of carbon atoms increases by one. Chemical properties show similarity due to the same functional group.",
-          "important": true
+          "type": "qna",
+          "title": "Dobereiner's law of triads",
+          "question": "State Dobereiner's law of triads.",
+          "qnaAnswer": "Dobereiner grouped elements with similar properties into sets of three (triads) such that the atomic mass of the middle element was approximately the average of the other two."
         },
         {
           "id": "n8",
+          "type": "qna",
+          "title": "Newlands' law of octaves",
+          "question": "State Newlands' law of octaves.",
+          "qnaAnswer": "Newlands' law of octaves states that when the elements are arranged in the order of their increasing atomic masses, every eighth element has properties similar to those of the first."
+        },
+        {
+          "id": "n9",
+          "type": "qna",
+          "title": "Mendeleev's periodic law",
+          "question": "State Mendeleev's periodic law.",
+          "qnaAnswer": "The physical and chemical properties of elements are a periodic function of their atomic masses."
+        },
+        {
+          "id": "n10",
+          "type": "qna",
+          "title": "Modern periodic law",
+          "question": "State the modern periodic law.",
+          "qnaAnswer": "The chemical and physical properties of elements are a periodic function of their atomic numbers."
+        },
+        {
+          "id": "n11",
           "type": "list",
           "title": "True or False Statements",
           "ordered": false,
@@ -323,152 +316,89 @@
           ]
         },
         {
-          "id": "n9",
-          "type": "qna",
-          "title": "State Dobereiner's law of triads.",
-          "question": "State Dobereiner's law of triads.",
-          "qnaAnswer": "Dobereiner grouped elements with similar properties into sets of three (triads) such that the atomic mass of the middle element was approximately the average of the other two."
-        },
-        {
-          "id": "n10",
-          "type": "qna",
-          "title": "Calculate atomic mass of sodium from a triad.",
-          "question": "In Dobereiner's triad containing Li, Na, K, if the atomic masses of lithium and potassium are 6.9 and 39.1, then what is the atomic mass of sodium?",
-          "qnaAnswer": "The atomic mass of sodium is equal to the average of the atomic masses of Li and K, i.e. (6.9 + 39.1)/2 = 46/2 = 23."
-        },
-        {
-          "id": "n11",
-          "type": "qna",
-          "title": "State Newlands' law of octaves.",
-          "question": "State Newlands' law of octaves.",
-          "qnaAnswer": "Newlands' law of octaves states that when the elements are arranged in the order of their increasing atomic masses, every eighth element has properties similar to those of the first."
-        },
-        {
           "id": "n12",
-          "type": "qna",
-          "title": "State Mendeleev's periodic law.",
-          "question": "State Mendeleev's periodic law.",
-          "qnaAnswer": "The physical and chemical properties of elements are a periodic function of their atomic masses."
+          "type": "list",
+          "title": "Find the Odd One Out",
+          "ordered": false,
+          "items": [
+            "Newlands, Moseley, Dobereiner, Mendeleev. (Moseley - brought out the importance of atomic number, while the others tried to classify the elements on the basis of atomic mass.)",
+            "Fluorine, Sulphur, Bromine, Iodine. (Sulphur - is a nonmetal. Others are halogens.)",
+            "Sodium, Aluminium, Chlorine, Carbon. (Carbon - belongs to the second row, while the others belong to the third row.)"
+          ]
         },
         {
           "id": "n13",
-          "type": "qna",
-          "title": "State the modern periodic law.",
-          "question": "State the modern periodic law.",
-          "qnaAnswer": "The chemical and physical properties of elements are a periodic function of their atomic numbers."
-        },
-        {
-          "id": "n14",
-          "type": "qna",
-          "title": "What is meant by the modern periodic table?",
-          "question": "What is meant by the modern periodic table?",
-          "qnaAnswer": "The classification of elements resulting from an arrangement of the elements in an increasing order of their atomic numbers is the modern periodic table."
-        },
-        {
-          "id": "n15",
-          "type": "qna",
-          "title": "Define period.",
-          "question": "Define period.",
-          "qnaAnswer": "The horizontal row of the elements in the periodic table of the elements is called a period."
-        },
-        {
-          "id": "n16",
-          "type": "qna",
-          "title": "Define group.",
-          "question": "Define group.",
-          "qnaAnswer": "The vertical column of elements in the periodic table of the elements is called a group."
-        },
-        {
-          "id": "n17",
-          "type": "qna",
-          "title": "Describe the structure of the modern periodic table.",
-          "question": "Describe the structure of the modern periodic table.",
-          "qnaAnswer": "In the modern periodic table, the elements are arranged in the order of their increasing atomic number. There are seven horizontal rows called periods and eighteen vertical columns (1 to 18) called groups. On the basis of the electronic configuration, the elements are divided into four blocks: s-block, p-block, d-block, and f-block. The s-block contains groups 1 and 2. The groups 13 to 18 constitute the p-block. Groups 3 to 12 constitute the d-block (transition elements), while the lanthanide and actinide series at the bottom form the f-block."
-        },
-        {
-          "id": "n18",
-          "type": "qna",
-          "title": "Define atomic size and its trend in a period and group.",
-          "question": "Define atomic size. How does it vary in a period and a group?",
-          "qnaAnswer": "The distance between the centre of the atom and the outermost shell of the atom is called the atomic radius. In a group, while going down a group, the atomic size goes on increasing because newer shells are successively added. While going from left to right within a period, the atomic radius goes on decreasing due to the increased nuclear charge pulling the electrons towards the nucleus."
-        },
-        {
-          "id": "n19",
-          "type": "qna",
-          "title": "Explain the trends in metallic and nonmetallic properties in a period and group.",
-          "question": "Discuss the trends in the variation of metallic and nonmetallic properties in a period and in a group.",
-          "qnaAnswer": "Metallic character (electropositivity) increases while going down a group because a new shell is added, increasing the distance between the nucleus and the valence electrons. Nonmetallic character (electronegativity) increases while going from left to right within a period because the effective nuclear charge increases, making it harder to lose electrons."
-        },
-        {
-          "id": "n20",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Solid : Iodine : : ___ : Bromine",
           "blanks": ["Liquid"]
         },
         {
-          "id": "n21",
+          "id": "n14",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Dobereiner : Triad : : Newlands' law : ___",
           "blanks": ["Octaves"]
         },
         {
-          "id": "n22",
+          "id": "n15",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Mendeleev's periodic table : Atomic mass : Modern periodic table : ___",
           "blanks": ["Atomic number"]
         },
         {
-          "id": "n23",
+          "id": "n16",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Group-1 : Alkali metals : : ___ : Halogens",
           "blanks": ["Group-17"]
         },
         {
-          "id": "n24",
-          "type": "list",
-          "title": "Find the odd one out",
-          "ordered": false,
-          "items": [
-            "Newlands, Moseley, Dobereiner, Mendeleev. (Moseley - brought out the importance of atomic number, while the others tried to classify elements on the basis of atomic mass.)",
-            "Fluorine, Sulphur, Bromine, Iodine. (Sulphur - is a nonmetal. Others are halogens.)",
-            "Sodium, Aluminium, Chlorine, Carbon. (Carbon - belongs to the second row, while the others belong to the third row.)"
+          "id": "n17",
+          "type": "table",
+          "title": "Distinguish Between: Mendeleev's and Modern Periodic Table",
+          "headers": ["Mendeleev's Periodic Table", "Modern Periodic Table"],
+          "rows": [
+            ["Elements are arranged in order of increasing atomic weights.", "Elements are arranged in order of increasing atomic numbers."],
+            ["Position of an element is based on its properties and atomic weight.", "Position of an element is based on its electronic configuration."],
+            ["There are 8 groups in this table.", "There are 18 groups in this table."],
+            ["Isotopes do not find separate places in this table.", "Isotopes of an element can be placed at the same place as their atomic number is the same."]
           ]
+        },
+        {
+          "id": "n18",
+          "type": "qna",
+          "title": "Solved: Atomic mass of sodium in triad",
+          "question": "In Dobereiner's triad containing Li, Na, K, if the atomic masses of lithium and potassium are 6.9 and 39.1, then what is the atomic mass of sodium?",
+          "qnaAnswer": "The atomic mass of sodium is equal to the average of the atomic masses of Li and K:\n= (6.9 + 39.1)/2\n= 46/2\n= 23\n\nThe atomic mass of sodium is 23."
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "State Dobereiner's Law of Triads with one example.",
-          "back": "The atomic mass of the middle element in a triad is roughly the average of the other two, e.g. Li, Na, K",
-          "order": 1
+          "back": "The atomic mass of the middle element in a triad is roughly the average of the other two, e.g. Li, Na, K"
         },
         {
           "id": "f2",
           "front": "What is Newlands' Law of Octaves?",
-          "back": "Every eighth element (by increasing atomic mass) has properties similar to the first",
-          "order": 2
+          "back": "Every eighth element (by increasing atomic mass) has properties similar to the first"
         },
         {
           "id": "f3",
           "front": "State the Modern Periodic Law.",
-          "back": "Physical and chemical properties of elements are a periodic function of their atomic numbers",
-          "order": 3
+          "back": "Physical and chemical properties of elements are a periodic function of their atomic numbers"
         },
         {
           "id": "f4",
           "front": "What is a 'period' in the periodic table?",
-          "back": "A horizontal row of elements",
-          "order": 4
+          "back": "A horizontal row of elements"
         },
         {
           "id": "f5",
           "front": "Why are zero-group elements called noble gases?",
-          "back": "Their outermost electron shell is completely filled, making them stable and unreactive",
-          "order": 5
+          "back": "Their outermost electron shell is completely filled, making them stable and unreactive"
         }
       ],
       "quiz": [
@@ -587,13 +517,27 @@
         },
         {
           "id": "n8",
-          "type": "paragraph",
-          "title": "Combustion of coal in air",
-          "content": "Combustion of coal in air is a combination reaction. Carbon combines with oxygen to form CO₂.",
-          "important": true
+          "type": "qna",
+          "title": "Types of Chemical Reactions",
+          "question": "Identify the type of chemical reaction given below:\n(a) CuSO₄ + Fe → FeSO₄ + Cu\n(b) 2Mg + O₂ → 2MgO\n(c) 2KClO₃ → 2KCl + 3O₂↑",
+          "qnaAnswer": "(a) Displacement reaction\n(b) Combination reaction\n(c) Decomposition reaction"
         },
         {
           "id": "n9",
+          "type": "qna",
+          "title": "Balanced Equation: H₂S₂O₇ + H₂O",
+          "question": "Write the balanced equation for: H₂S₂O₇(l) + H₂O(l) → H₂SO₄(l)",
+          "qnaAnswer": "Step 1: Rewrite the given equation:\nH₂S₂O₇(l) + H₂O(l) → H₂SO₄(l)\n\nStep 2: Count atoms:\nReactants: H=4, S=2, O=8\nProducts: H=2, S=1, O=4\n\nStep 3: Balance by using 2 as coefficient for H₂SO₄:\nH₂S₂O₇ + H₂O → 2H₂SO₄\n\nNow: Reactants: H=4, S=2, O=8; Products: H=4, S=2, O=8\n\nBalanced equation: H₂S₂O₇(l) + H₂O(l) → 2H₂SO₄(l)"
+        },
+        {
+          "id": "n10",
+          "type": "qna",
+          "title": "Balanced Equation: H₂SO₄ + NaOH",
+          "question": "Write the balanced equation for: H₂SO₄(aq) + NaOH(aq) → Na₂SO₄(aq) + H₂O(l)",
+          "qnaAnswer": "Step 1: Rewrite the given equation:\nH₂SO₄(aq) + NaOH(aq) → Na₂SO₄(aq) + H₂O(l)\n\nStep 2: Balance sodium atoms by using 2 as coefficient for NaOH:\nH₂SO₄ + 2NaOH → Na₂SO₄ + H₂O\n\nStep 3: Balance hydrogen atoms by using 2 as coefficient for H₂O:\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n\nBalanced equation: H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l)"
+        },
+        {
+          "id": "n11",
           "type": "list",
           "title": "True or False Statements",
           "ordered": false,
@@ -610,91 +554,7 @@
           ]
         },
         {
-          "id": "n10",
-          "type": "qna",
-          "title": "What is meant by a chemical change?",
-          "question": "What do you understand by a chemical change?",
-          "qnaAnswer": "The change in which a substance or substances are converted into new substance or substances, possessing properties altogether different from the original ones, is called a chemical change. The original substance cannot be recovered by any simple means. This change is permanent."
-        },
-        {
-          "id": "n11",
-          "type": "qna",
-          "title": "What is meant by a chemical reaction?",
-          "question": "What is meant by a chemical reaction?",
-          "qnaAnswer": "A process in which some substances undergo bond breaking and are formed into new substances by formation of new bonds is called a chemical reaction."
-        },
-        {
           "id": "n12",
-          "type": "qna",
-          "title": "Explain reactant and product.",
-          "question": "Explain the term reactant and product giving examples.",
-          "qnaAnswer": "The substance which undergoes bond breaking while taking part in a chemical reaction is called a reactant. The substance formed as a result of a chemical reaction by formation of new bonds is called a product. Example: C (coal) + O₂ (oxygen) → CO₂ (carbon dioxide). Here, C and O₂ are reactants, and CO₂ is the product."
-        },
-        {
-          "id": "n13",
-          "type": "qna",
-          "title": "What is meant by a decomposition reaction?",
-          "question": "What is meant by a decomposition reaction?",
-          "qnaAnswer": "The chemical reaction in which two or more products are formed from a single reactant is called a decomposition reaction."
-        },
-        {
-          "id": "n14",
-          "type": "qna",
-          "title": "What is meant by a displacement reaction?",
-          "question": "What is meant by a displacement reaction?",
-          "qnaAnswer": "The reaction in which the place of the ion of a less reactive element in a compound is taken by another more reactive element by formation of its own ions, is called a displacement reaction."
-        },
-        {
-          "id": "n15",
-          "type": "qna",
-          "title": "What is meant by a double displacement reaction?",
-          "question": "What is meant by a double displacement reaction?",
-          "qnaAnswer": "The reaction in which the ions in the reactants are exchanged to form a precipitate is called a double displacement reaction."
-        },
-        {
-          "id": "n16",
-          "type": "qna",
-          "title": "Explain endothermic and exothermic reactions.",
-          "question": "Explain the following terms with examples: (i) Endothermic reaction (ii) Exothermic reaction.",
-          "qnaAnswer": "(i) Endothermic reaction: The reaction in which heat is absorbed. Example: KNO₃(s) + H₂O(l) + Heat → KNO₃(aq). (ii) Exothermic reaction: The reaction in which heat is given out. Example: NaOH(s) + H₂O(l) → NaOH(aq) + Heat."
-        },
-        {
-          "id": "n17",
-          "type": "qna",
-          "title": "Define oxidation and reduction.",
-          "question": "Define: (i) Oxidation reaction (ii) Reduction reaction.",
-          "qnaAnswer": "Oxidation reaction: The chemical reaction in which a reactant combines with oxygen or loses hydrogen to form the product. Reduction reaction: The chemical reaction in which a reactant gains hydrogen and loses oxygen to form the product."
-        },
-        {
-          "id": "n18",
-          "type": "qna",
-          "title": "Define oxidant and reductant.",
-          "question": "What do you mean by oxidant and reductant? Explain with suitable examples.",
-          "qnaAnswer": "Oxidant: The chemical substance which brings about an oxidation reaction by making oxygen available. Example: In the combustion of carbon, oxygen is an oxidant. Reductant: The chemical substance which brings about reduction by making hydrogen available. Example: In the preparation of methane from carbon, hydrogen is a reductant."
-        },
-        {
-          "id": "n19",
-          "type": "qna",
-          "title": "What is a redox reaction?",
-          "question": "What is a redox reaction? Explain with a suitable example.",
-          "qnaAnswer": "The reaction which involves simultaneous oxidation and reduction is called an oxidation-reduction or redox reaction. Example: CuO(s) + H₂(g) → Cu(s) + H₂O. In this reaction, oxygen is removed from copper oxide (reduction of CuO) and hydrogen accepts oxygen to form water (oxidation of H₂)."
-        },
-        {
-          "id": "n20",
-          "type": "qna",
-          "title": "What is corrosion?",
-          "question": "What is corrosion?",
-          "qnaAnswer": "The slow process of decay or oxidation of metals due to various components of the atmosphere is known as corrosion. Iron rusts and a reddish layer is collected on it. This is corrosion of iron."
-        },
-        {
-          "id": "n21",
-          "type": "qna",
-          "title": "What is rancidity?",
-          "question": "Define rancidity.",
-          "qnaAnswer": "When oil or fat or left over cooking oil for making foodstuff undergoes oxidation if stored for a long time, it is found to have a foul odour. This process is called rancidity."
-        },
-        {
-          "id": "n22",
           "type": "list",
           "title": "Balanced Chemical Equations",
           "ordered": true,
@@ -714,57 +574,57 @@
           ]
         },
         {
-          "id": "n23",
+          "id": "n13",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "2H₂ + O₂ → 2H₂O : Combination reaction : : 2HgO → 2Hg + O₂ : ___",
           "blanks": ["Decomposition reaction"]
         },
         {
-          "id": "n24",
+          "id": "n14",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "CuI₂ : Brown : : AgCl : ___",
           "blanks": ["White"]
         },
         {
-          "id": "n25",
-          "type": "fill_blank",
-          "title": "Complete the correlation",
-          "content": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂ : Oxidation : : CuO + H₂ → Cu + H₂O : ___",
-          "blanks": ["Reduction"]
+          "id": "n15",
+          "type": "table",
+          "title": "Match the Columns",
+          "headers": ["Reactants", "Products", "Type of Chemical Reaction"],
+          "rows": [
+            ["BaCl₂(aq) + ZnSO₄(aq)", "BaSO₄↓ + ZnCl₂(aq)", "Double displacement"],
+            ["2AgCl(s)", "2Ag(s) + Cl₂(g)", "Decomposition"],
+            ["CuSO₄(aq) + Fe(s)", "FeSO₄(aq) + Cu(s)", "Displacement"],
+            ["H₂O(l) + CO₂(g)", "H₂CO₃(aq)", "Combination"]
+          ]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "Define a decomposition reaction.",
-          "back": "A reaction in which two or more products are formed from a single reactant",
-          "order": 1
+          "back": "A reaction in which two or more products are formed from a single reactant"
         },
         {
           "id": "f2",
           "front": "What is a redox reaction?",
-          "back": "A reaction where oxidation and reduction occur simultaneously",
-          "order": 2
+          "back": "A reaction where oxidation and reduction occur simultaneously"
         },
         {
           "id": "f3",
           "front": "Give the chemical formula of rust.",
-          "back": "Fe₂O₃·H₂O (hydrated ferric oxide)",
-          "order": 3
+          "back": "Fe₂O₃·H₂O (hydrated ferric oxide)"
         },
         {
           "id": "f4",
           "front": "What is rancidity?",
-          "back": "The foul smell/taste that develops when oils or fats oxidise on long storage",
-          "order": 4
+          "back": "The foul smell/taste that develops when oils or fats oxidise on long storage"
         },
         {
           "id": "f5",
           "front": "Give an example of an exothermic reaction.",
-          "back": "NaOH(s) + H₂O(l) → NaOH(aq) + Heat",
-          "order": 5
+          "back": "NaOH(s) + H₂O(l) → NaOH(aq) + Heat"
         }
       ],
       "quiz": [
@@ -884,7 +744,7 @@
         {
           "id": "n8",
           "type": "qna",
-          "title": "Define electric power.",
+          "title": "Define electric power",
           "question": "Define electric power.",
           "qnaAnswer": "Electric power is the electric work done per unit time. It is the time rate at which electric energy is used."
         },
@@ -898,21 +758,21 @@
         {
           "id": "n10",
           "type": "qna",
-          "title": "State the right hand thumb rule.",
+          "title": "State the right hand thumb rule",
           "question": "State the right hand thumb rule.",
           "qnaAnswer": "Imagine that you have held a current-carrying straight conductor in your right hand in such a way that your thumb points in the direction of the current. Then turn your fingers around the conductor. The direction of the fingers is the direction of the magnetic lines of force produced by the current."
         },
         {
           "id": "n11",
           "type": "qna",
-          "title": "Write Fleming's left hand rule.",
+          "title": "Write Fleming's left hand rule",
           "question": "Write Fleming's left hand rule.",
           "qnaAnswer": "The left hand thumb, index finger and middle finger are stretched so as to be perpendicular to each other. If the index finger is in the direction of the magnetic field, and the middle finger points the direction of the current, then the direction of the thumb is the direction of the force on the conductor."
         },
         {
           "id": "n12",
           "type": "qna",
-          "title": "Write Fleming's right hand rule.",
+          "title": "Write Fleming's right hand rule",
           "question": "Write Fleming's right hand rule.",
           "qnaAnswer": "Stretch the thumb, the index finger and the middle finger of the right hand in such a way that they are perpendicular to each other. The thumb indicates the direction of the motion of the conductor, the index finger the direction of the magnetic field, and the middle finger shows the direction of the induced current."
         },
@@ -925,20 +785,6 @@
         },
         {
           "id": "n14",
-          "type": "qna",
-          "title": "State Faraday's law of induction.",
-          "question": "State Faraday's law of induction.",
-          "qnaAnswer": "Whenever the number of magnetic lines of force passing through a coil changes, a current is induced in the coil."
-        },
-        {
-          "id": "n15",
-          "type": "qna",
-          "title": "State the uses/applications of an electric motor.",
-          "question": "State the uses/applications of an electric motor.",
-          "qnaAnswer": "(1) In domestic appliances such as a mixer, a blender, a refrigerator and washing machine. (2) In an electric fan, a hair dryer, a record player, a tape recorder and a blower. (3) In an electric car, a rolling mill, an electric crane, an electric lift, a pump, a computer and an electric train."
-        },
-        {
-          "id": "n16",
           "type": "list",
           "title": "True or False Statements",
           "ordered": false,
@@ -949,43 +795,57 @@
           ]
         },
         {
-          "id": "n17",
+          "id": "n15",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Resistance : The ohm : : Potential difference : ___",
           "blanks": ["The volt"]
+        },
+        {
+          "id": "n16",
+          "type": "table",
+          "title": "Distinguish Between: Electric Motor and Electric Generator",
+          "headers": ["Electric Motor", "Electric Generator"],
+          "rows": [
+            ["A battery is used to pass a current through the coil.", "A battery is not used."],
+            ["A current-carrying coil is set into rotation due to the magnetic field.", "A potential difference and hence a current is produced when the coil is set into rotation by an external agent."],
+            ["Split rings are used.", "Rings used in an AC generator are not split."],
+            ["Electric energy is converted into mechanical energy.", "Mechanical energy is converted into electric energy."]
+          ]
+        },
+        {
+          "id": "n17",
+          "type": "qna",
+          "title": "Solved Numerical: Electric Power",
+          "question": "Two tungsten bulbs of wattage 50 W and 60 W work on 220 V potential difference. If they are connected in parallel, how much current will flow in the main conductor?",
+          "qnaAnswer": "Data: P₁ = 50 W, P₂ = 60 W, V = 220 V, I = ?\n\nP = VI ∴ I = P/V\n\nI₁ = P₁/V = 50/220\nI₂ = P₂/V = 60/220\n\nCurrent in main conductor (parallel connection):\nI = I₁ + I₂ = (50+60)/220 = 110/220 = 0.5 A\n\nAns: 0.5 A"
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "What is the SI unit of electric power?",
-          "back": "Watt (W) = 1 joule/second",
-          "order": 1
+          "back": "Watt (W) = 1 joule/second"
         },
         {
           "id": "f2",
           "front": "How much energy is 1 kWh in joules?",
-          "back": "3.6 × 10⁶ J",
-          "order": 2
+          "back": "3.6 × 10⁶ J"
         },
         {
           "id": "f3",
           "front": "Which rule gives the magnetic field direction around a straight conductor?",
-          "back": "The Right Hand Thumb Rule",
-          "order": 3
+          "back": "The Right Hand Thumb Rule"
         },
         {
           "id": "f4",
           "front": "Fleming's Left Hand Rule is used for what device?",
-          "back": "Electric motors",
-          "order": 4
+          "back": "Electric motors"
         },
         {
           "id": "f5",
           "front": "Why is Nichrome used in heating coils instead of pure metal?",
-          "back": "High resistivity and resists oxidation at high temperatures",
-          "order": 5
+          "back": "High resistivity and resists oxidation at high temperatures"
         }
       ],
       "quiz": [
@@ -1090,28 +950,28 @@
         {
           "id": "n6",
           "type": "qna",
-          "title": "Define latent heat of fusion.",
+          "title": "Define latent heat of fusion",
           "question": "Define latent heat of fusion.",
           "qnaAnswer": "When a solid is converted into liquid at constant temperature (melting point of the substance), the amount of heat absorbed by it is called the latent heat of fusion."
         },
         {
           "id": "n7",
           "type": "qna",
-          "title": "Define specific latent heat of fusion.",
+          "title": "Define specific latent heat of fusion",
           "question": "What is specific latent heat of fusion?",
           "qnaAnswer": "The amount of heat energy absorbed at constant temperature by a unit mass of solid to convert into liquid phase is called the specific latent heat of fusion."
         },
         {
           "id": "n8",
           "type": "qna",
-          "title": "Define boiling point.",
+          "title": "Define boiling point",
           "question": "Define boiling point of a liquid.",
           "qnaAnswer": "The constant temperature at which a liquid transforms into gaseous state is called the boiling point of the liquid."
         },
         {
           "id": "n9",
           "type": "qna",
-          "title": "Explain the role of anomalous behaviour of water in preserving aquatic life.",
+          "title": "Anomalous behaviour of water",
           "question": "Explain the role of anomalous behaviour of water in preserving aquatic life in regions of cold climate.",
           "qnaAnswer": "In cold regions, during winter, water at the surfaces of lakes and ponds cools to 4°C and sinks. As the surface water cools below 4°C, it expands and remains at the surface, eventually freezing into ice. Ice is a bad conductor of heat, so the layer of ice at the surface does not allow transfer of heat from the water to the atmosphere. The water below the ice remains at 4°C, allowing fish and other aquatic animals and plants to survive."
         },
@@ -1132,38 +992,40 @@
           "title": "Complete the correlation",
           "content": "Temperature : Physical quantity : : Conduction, Convection, Radiation : ___",
           "blanks": ["Modes of transfer of heat"]
+        },
+        {
+          "id": "n12",
+          "type": "qna",
+          "title": "Solved Numerical: Heat Energy",
+          "question": "How much heat energy is necessary to raise the temperature of 5 kg of water from 20°C to 100°C?",
+          "qnaAnswer": "Data: m = 5 kg, ΔT = 100°C - 20°C = 80°C, c = 1 kcal/kg·°C\n\nHeat energy necessary = mcΔT\n= 5 × 1 × 80\n= 400 kcal\n\nAns: 400 kcal"
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "What is latent heat of fusion?",
-          "back": "Heat absorbed when a solid converts to liquid at constant temperature",
-          "order": 1
+          "back": "Heat absorbed when a solid converts to liquid at constant temperature"
         },
         {
           "id": "f2",
           "front": "At what temperature is the density of water maximum?",
-          "back": "4°C",
-          "order": 2
+          "back": "4°C"
         },
         {
           "id": "f3",
           "front": "Why are steam burns worse than boiling water burns?",
-          "back": "Steam releases an extra ~540 cal/g of latent heat on contact with skin",
-          "order": 3
+          "back": "Steam releases an extra ~540 cal/g of latent heat on contact with skin"
         },
         {
           "id": "f4",
           "front": "What apparatus demonstrates the anomalous expansion of water?",
-          "back": "Hope's apparatus",
-          "order": 4
+          "back": "Hope's apparatus"
         },
         {
           "id": "f5",
           "front": "Why can aquatic life survive under frozen lakes?",
-          "back": "Ice (a poor conductor) insulates the water below, which stays at ~4°C",
-          "order": 5
+          "back": "Ice (a poor conductor) insulates the water below, which stays at ~4°C"
         }
       ],
       "quiz": [
@@ -1277,47 +1139,40 @@
         {
           "id": "n7",
           "type": "qna",
-          "title": "Define refraction of light.",
+          "title": "Define refraction of light",
           "question": "Define refraction of light.",
           "qnaAnswer": "The change in the direction of propagation of light when it passes obliquely from one transparent medium to another is called refraction of light."
         },
         {
           "id": "n8",
           "type": "qna",
-          "title": "Define dispersion of light.",
+          "title": "Define dispersion of light",
           "question": "Define dispersion of light.",
           "qnaAnswer": "The separation of light into its component colours while it is passing through a medium is called dispersion."
         },
         {
           "id": "n9",
           "type": "qna",
-          "title": "Define total internal reflection and critical angle.",
+          "title": "Total internal reflection and critical angle",
           "question": "Explain the terms total internal reflection and critical angle.",
           "qnaAnswer": "When light travels from a denser to a rarer medium beyond the critical angle, it undergoes total internal reflection instead of refracting out. The critical angle is the angle of incidence in the denser medium for which the angle of refraction in the rarer medium is exactly 90°."
         },
         {
           "id": "n10",
           "type": "qna",
-          "title": "Explain advanced sunrise and delayed sunset.",
+          "title": "Advanced sunrise and delayed sunset",
           "question": "Explain advanced sunrise and delayed sunset.",
           "qnaAnswer": "Sunlight bends towards the normal as it enters earth's denser atmosphere from space. This atmospheric refraction causes the sun to appear slightly higher than its actual position. Hence, we see the sun a little before actual sunrise (advanced sunrise) and for some time after actual sunset (delayed sunset). This increases the duration of the day by about four minutes."
         },
         {
           "id": "n11",
           "type": "qna",
-          "title": "Explain why stars twinkle but planets don't.",
+          "title": "Stars twinkle but planets don't",
           "question": "Stars twinkle but we do not see the twinkling of planets. Why?",
           "qnaAnswer": "Stars are distant point sources of light. The refractive index of air changes continuously, causing a continuous change in the apparent position and brightness of the star, making it twinkle. Planets are relatively closer and appear as extended sources (a collection of many point sources). The changes in brightness of these points average out, so planets do not twinkle."
         },
         {
           "id": "n12",
-          "type": "qna",
-          "title": "Describe the formation of a rainbow.",
-          "question": "Explain how a rainbow is formed.",
-          "qnaAnswer": "A rainbow is formed due to the combined effect of refraction, dispersion, and total internal reflection of sunlight by water droplets in the atmosphere. Sunlight enters a water droplet, undergoes refraction and dispersion, is internally reflected, and then refracted again as it leaves the droplet. This separates sunlight into its seven colours, with red on the outer edge and violet on the inner edge of the rainbow."
-        },
-        {
-          "id": "n13",
           "type": "list",
           "title": "True or False Statements",
           "ordered": false,
@@ -1328,38 +1183,40 @@
             "In a material medium, the speed of light depends on the frequency of light. (True)",
             "The velocity of light is different in different media. (True)"
           ]
+        },
+        {
+          "id": "n13",
+          "type": "qna",
+          "title": "Solved Numerical: Refractive Index",
+          "question": "If the speed of light in a medium is 1.5 × 10⁸ m/s, what is the absolute refractive index of the medium? (Speed of light in vacuum = 3 × 10⁸ m/s)",
+          "qnaAnswer": "Data: v = 1.5 × 10⁸ m/s, c = 3 × 10⁸ m/s\n\nn = c/v = (3 × 10⁸)/(1.5 × 10⁸) = 2\n\nAns: The absolute refractive index of the medium is 2."
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "Define refraction of light.",
-          "back": "The change in direction of light passing obliquely from one transparent medium to another",
-          "order": 1
+          "back": "The change in direction of light passing obliquely from one transparent medium to another"
         },
         {
           "id": "f2",
           "front": "Which colour deviates least in a glass prism's spectrum?",
-          "back": "Red",
-          "order": 2
+          "back": "Red"
         },
         {
           "id": "f3",
           "front": "What is the critical angle?",
-          "back": "The angle of incidence (denser medium) for which the angle of refraction is exactly 90°",
-          "order": 3
+          "back": "The angle of incidence (denser medium) for which the angle of refraction is exactly 90°"
         },
         {
           "id": "f4",
           "front": "Why do stars twinkle but planets don't?",
-          "back": "Stars are point sources affected by air's changing refractive index; planets are extended sources so it averages out",
-          "order": 4
+          "back": "Stars are point sources affected by air's changing refractive index; planets are extended sources so it averages out"
         },
         {
           "id": "f5",
           "front": "Name the three optical phenomena forming a rainbow.",
-          "back": "Refraction, dispersion, and total internal reflection",
-          "order": 5
+          "back": "Refraction, dispersion, and total internal reflection"
         }
       ],
       "quiz": [
@@ -1486,19 +1343,12 @@
         {
           "id": "n9",
           "type": "qna",
-          "title": "Write a note on persistence of vision.",
+          "title": "Persistence of vision",
           "question": "Write a note on persistence of vision.",
           "qnaAnswer": "The sensation of an image on the retina persists for about 1/16th of a second after the object is removed. This effect is known as the persistence of vision. It is due to this persistence that we continue to see an object for a short while after it is removed. An example is seeing a circle of red light when a burning stick of incense is moved fast in a circle."
         },
         {
           "id": "n10",
-          "type": "qna",
-          "title": "Define power of a lens and state its SI unit.",
-          "question": "Define the power of a lens and state its SI unit.",
-          "qnaAnswer": "The power of a lens is the reciprocal of its focal length, P = 1/f, where f is in metres. Its SI unit is the dioptre (D). A convex lens has positive power and a concave lens has negative power."
-        },
-        {
-          "id": "n11",
           "type": "list",
           "title": "True or False Statements",
           "ordered": false,
@@ -1511,50 +1361,64 @@
           ]
         },
         {
-          "id": "n12",
+          "id": "n11",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Torch : Concave lens : : Camera : ___",
           "blanks": ["Convex lens"]
         },
         {
-          "id": "n13",
+          "id": "n12",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Nearsightedness : Elongated eyeball : : Farsightedness : ___",
           "blanks": ["Flattened eyeball"]
+        },
+        {
+          "id": "n13",
+          "type": "table",
+          "title": "Distinguish Between: Concave Lens and Convex Lens",
+          "headers": ["Concave Lens", "Convex Lens"],
+          "rows": [
+            ["Has its surfaces curved inwards.", "Has its surfaces puffed up outwards."],
+            ["Is thicker at the edges than in the middle.", "Is thicker in the middle than at the edges."],
+            ["Can form only a virtual image.", "Can form a real image as well as a virtual image."],
+            ["Can form only a diminished image.", "Can form a magnified, diminished or the same sized image depending on the position of the object."]
+          ]
+        },
+        {
+          "id": "n14",
+          "type": "qna",
+          "title": "Solved Numerical: Power of Lens",
+          "question": "The power of a convex lens of focal length 20 cm is:",
+          "qnaAnswer": "Data: f = 20 cm = 0.20 m\n\nP = 1/f = 1/0.20 = +5.0 D\n\nAns: The power of the convex lens is +5.0 D."
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "Which lens corrects myopia?",
-          "back": "Concave lens",
-          "order": 1
+          "back": "Concave lens"
         },
         {
           "id": "f2",
           "front": "Which lens corrects hypermetropia?",
-          "back": "Convex lens",
-          "order": 2
+          "back": "Convex lens"
         },
         {
           "id": "f3",
           "front": "Why is a bifocal lens needed in old age sometimes?",
-          "back": "When a person has both myopia and hypermetropia together",
-          "order": 3
+          "back": "When a person has both myopia and hypermetropia together"
         },
         {
           "id": "f4",
           "front": "What is persistence of vision?",
-          "back": "The image stays on the retina for about 1/16 second after the object is removed",
-          "order": 4
+          "back": "The image stays on the retina for about 1/16 second after the object is removed"
         },
         {
           "id": "f5",
           "front": "Formula for power of a lens?",
-          "back": "P = 1/f (f in metres), in dioptres (D)",
-          "order": 5
+          "back": "P = 1/f (f in metres), in dioptres (D)"
         }
       ],
       "quiz": [
@@ -1660,30 +1524,30 @@
         {
           "id": "n6",
           "type": "qna",
-          "title": "Explain the reactivity series of metals.",
+          "title": "Reactivity series of metals",
           "question": "Explain the reactivity series of the metals.",
-          "qnaAnswer": "The arrangement of metals in decreasing order of their reactivity in the form of a series is called the reactivity or activity series. Highly reactive metals (e.g., Na, K, Ca, Al) are obtained by electrolytic reduction. Moderately reactive metals (e.g., Fe, Zn, Pb, Cu) are obtained from their oxides. Less reactive metals (e.g., Au, Ag, Cu) occur in free state or are obtained by heating their ores in air."
+          "qnaAnswer": "The arrangement of metals in decreasing order of their reactivity in the form of a series is called the reactivity or activity series. The most reactive metal is placed at the top and the least reactive at the bottom.\n\nClassification of metals based on reactivity:\n1. Highly reactive metals: Na, K, Ca, Al — obtained by electrolytic reduction.\n2. Moderately reactive metals: Fe, Zn, Pb, Cu — obtained from their oxides.\n3. Less reactive metals: Au, Ag, Cu — occur in free state or obtained by heating their ores in air."
         },
         {
           "id": "n7",
           "type": "qna",
-          "title": "Why is sodium kept in kerosene?",
+          "title": "Why sodium is kept in kerosene?",
           "question": "Why is sodium always kept in kerosene?",
           "qnaAnswer": "Sodium reacts so vigorously with atmospheric oxygen that it catches fire if kept in the open. It does not react with kerosene and sinks in it. Hence, to protect sodium and prevent accidental fires, it is always kept in kerosene."
         },
         {
           "id": "n8",
           "type": "qna",
-          "title": "Why are cryolite and fluorspar added to the electrolytic mixture for alumina?",
-          "question": "Why are cryolite (Na3AlF6) and fluorspar (CaF2) added to the electrolytic mixture containing pure alumina?",
+          "title": "Why cryolite and fluorspar are added",
+          "question": "Why are cryolite (Na₃AlF₆) and fluorspar (CaF₂) added to the electrolytic mixture containing pure alumina?",
           "qnaAnswer": "Alumina has a very high melting point (>2000°C). Cryolite and fluorspar lower the fusion temperature of the mixture from 2000°C to 1000°C, saving electrical energy. They also increase the conductivity and the mobility of the fused mixture."
         },
         {
           "id": "n9",
           "type": "qna",
-          "title": "Describe the froth floatation process.",
+          "title": "Froth floatation process",
           "question": "Describe the froth floatation method.",
-          "qnaAnswer": "In this method, the finely ground mineral is put into a big tank containing water and vegetable oil (like pine oil). Pressurised air is blown through the mixture, forming froth. Sulphide minerals get wetted by the oil and float with the froth, while gangue particles are wetted by water and settle down. This method is used for the concentration of ores like zinc blende (ZnS) and copper pyrite (CuFeS2)."
+          "qnaAnswer": "In this method, the finely ground mineral is put into a big tank containing water and vegetable oil (like pine oil). Pressurised air is blown through the mixture, forming froth. Sulphide minerals get wetted by the oil and float with the froth, while gangue particles are wetted by water and settle down. This method is used for the concentration of ores like zinc blende (ZnS) and copper pyrite (CuFeS₂)."
         },
         {
           "id": "n10",
@@ -1694,7 +1558,7 @@
             "Ionic compounds are soluble in kerosine. (False)",
             "Ionic compounds in the solid state conduct electricity. (False)",
             "Electrolysis is used to obtain pure metals from impure metals. (True)",
-            "Aquaregia is a mixture of conc. HCl and conc. HNO3 in the ratio of 1 : 3. (False)",
+            "Aquaregia is a mixture of conc. HCl and conc. HNO₃ in the ratio of 1 : 3. (False)",
             "Mercury, silver and gold are very reactive metals. (False)",
             "In electroplating, a metal is coated with another metal using electrolysis. (True)",
             "Corrosion of metals can be stopped by detaching the air from metals. (True)"
@@ -1713,38 +1577,49 @@
           "title": "Complete the correlation",
           "content": "Tinning : Tin : : Galvanizing : ___",
           "blanks": ["Zinc"]
+        },
+        {
+          "id": "n13",
+          "type": "list",
+          "title": "Name the Following",
+          "ordered": false,
+          "items": [
+            "Two highly reactive metals: Sodium and potassium.",
+            "A metal which does not react with cold water but reacts with steam: Aluminium.",
+            "Two metals used for making cooking vessels: Copper and aluminium.",
+            "The process of heating sulphide ore to high temperature in excess air: Roasting.",
+            "The process of heating carbonate ore to high temperature in limited air: Calcination.",
+            "The device used for grinding an ore: Grinding mill.",
+            "Compounds added to lower the fusion temperature: Cryolite and fluorspar.",
+            "An alloy of copper and zinc: Brass."
+          ]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "What is roasting (in metallurgy)?",
-          "back": "Heating a sulphide ore to high temperature in excess of air",
-          "order": 1
+          "back": "Heating a sulphide ore to high temperature in excess of air"
         },
         {
           "id": "f2",
           "front": "What is calcination?",
-          "back": "Heating a carbonate ore to high temperature in limited air",
-          "order": 2
+          "back": "Heating a carbonate ore to high temperature in limited air"
         },
         {
           "id": "f3",
           "front": "What is galvanizing?",
-          "back": "Coating iron/steel with zinc to prevent rusting",
-          "order": 3
+          "back": "Coating iron/steel with zinc to prevent rusting"
         },
         {
           "id": "f4",
           "front": "Why is sodium stored in kerosene?",
-          "back": "It reacts violently with air/moisture but not with kerosene",
-          "order": 4
+          "back": "It reacts violently with air/moisture but not with kerosene"
         },
         {
           "id": "f5",
           "front": "What is an alloy? Give an example.",
-          "back": "A homogeneous mixture of metals; e.g. brass = copper + zinc",
-          "order": 5
+          "back": "A homogeneous mixture of metals; e.g. brass = copper + zinc"
         }
       ],
       "quiz": [
@@ -1865,35 +1740,35 @@
         {
           "id": "n8",
           "type": "qna",
-          "title": "What is meant by catenation power?",
+          "title": "Catenation",
           "question": "What is meant by catenation power?",
           "qnaAnswer": "Carbon has a unique ability to form strong covalent bonds with other carbon atoms; this results in the formation of big molecules. This property of carbon is called catenation power."
         },
         {
           "id": "n9",
           "type": "qna",
-          "title": "What is meant by a covalent bond?",
+          "title": "Covalent bond",
           "question": "What is meant by a covalent bond? Explain with an example.",
           "qnaAnswer": "The chemical bond formed by sharing of two valence electrons between the two atoms is called a covalent bond. Example: Two hydrogen atoms share their electrons with each other to form an H₂ molecule. One covalent bond is formed between two hydrogen atoms by sharing of two electrons."
         },
         {
           "id": "n10",
           "type": "qna",
-          "title": "Explain the term structural isomerism.",
+          "title": "Structural isomerism",
           "question": "Explain the term structural isomerism with an example.",
           "qnaAnswer": "The phenomenon in which compounds having different structural formulae have the same molecular formula is called structural isomerism. Example: Butane (C₄H₁₀) can exist as n-butane (straight chain) and isobutane (branched chain)."
         },
         {
           "id": "n11",
           "type": "qna",
-          "title": "Explain the term hetero atom.",
+          "title": "Hetero atom",
           "question": "Explain the term hetero atom in a carbon compound with an example.",
           "qnaAnswer": "Carbon compounds are formed by bonds of carbon with other elements such as halogens, oxygen, nitrogen, and sulphur. The atoms of these elements substitute one or more hydrogen atoms in the hydrocarbon chain. The atom of the element which is substituted for hydrogen is referred to as a hetero atom. Example: In chloromethane (CH₃Cl), chlorine is the hetero atom."
         },
         {
           "id": "n12",
           "type": "qna",
-          "title": "What is a homologous series?",
+          "title": "Homologous series",
           "question": "What is meant by a homologous series?",
           "qnaAnswer": "A homologous series is a series of compounds with the same functional group, each successive member differing by one -CH₂- unit (14u). Example: Alkanes (CH₄, C₂H₆, C₃H₈...). Characteristics include similarity in chemical properties and a gradation in physical properties."
         },
@@ -1919,38 +1794,62 @@
           "title": "Complete the correlation",
           "content": "Alkene : C=C : : Alkyne : ___",
           "blanks": ["C≡C"]
+        },
+        {
+          "id": "n15",
+          "type": "list",
+          "title": "Name the Following",
+          "ordered": false,
+          "items": [
+            "The number of double bonds in benzene: Three.",
+            "The functional group in ether: -O-",
+            "The functional group in halogen: -X (-Cl, -Br, -I)",
+            "The higher homologue of hexane: Heptane (C₇H₁₆).",
+            "A nomenclature system based on the structure of compounds and accepted worldwide: IUPAC.",
+            "IUPAC name of sodium acetate: Sodium ethanoate.",
+            "The main component of natural gas: Methane.",
+            "Two oxidising compounds: Potassium permanganate, Potassium dichromate."
+          ]
+        },
+        {
+          "id": "n16",
+          "type": "table",
+          "title": "Distinguish Between: Saturated and Unsaturated Hydrocarbons",
+          "headers": ["Saturated Hydrocarbons", "Unsaturated Hydrocarbons"],
+          "rows": [
+            ["Carbon atoms are linked to each other only by single covalent bonds.", "Carbon to carbon double or triple bonds are present."],
+            ["They contain only a single bond.", "They contain carbon to carbon double or triple bonds."],
+            ["They are chemically less reactive.", "They are chemically more reactive."],
+            ["Substitution reaction is a characteristic property.", "Addition reaction is a characteristic property."],
+            ["Their general formula is CₙH₂ₙ₊₂.", "Their general formula is CₙH₂ₙ or CₙH₂ₙ₋₂."]
+          ]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "What is catenation?",
-          "back": "Carbon's ability to form strong covalent bonds with other carbon atoms, forming long chains/rings",
-          "order": 1
+          "back": "Carbon's ability to form strong covalent bonds with other carbon atoms, forming long chains/rings"
         },
         {
           "id": "f2",
           "front": "Define a homologous series.",
-          "back": "A series of compounds with the same functional group, each differing by one −CH₂− unit",
-          "order": 2
+          "back": "A series of compounds with the same functional group, each differing by one −CH₂− unit"
         },
         {
           "id": "f3",
           "front": "What is an alkyne? Give an example.",
-          "back": "A hydrocarbon with a carbon-carbon triple bond, e.g. ethyne",
-          "order": 3
+          "back": "A hydrocarbon with a carbon-carbon triple bond, e.g. ethyne"
         },
         {
           "id": "f4",
           "front": "What is saponification?",
-          "back": "An ester reacting with NaOH to give an alcohol and soap",
-          "order": 4
+          "back": "An ester reacting with NaOH to give an alcohol and soap"
         },
         {
           "id": "f5",
           "front": "What is structural isomerism?",
-          "back": "Different structural formulae sharing the same molecular formula",
-          "order": 5
+          "back": "Different structural formulae sharing the same molecular formula"
         }
       ],
       "quiz": [
@@ -2087,38 +1986,60 @@
           "title": "Why are geostationary satellites not useful for polar studies?",
           "question": "Why are geostationary satellites not useful for studies of polar regions?",
           "qnaAnswer": "A geostationary satellite revolves in the equatorial plane of the earth. It does not fly above the polar regions. Hence, geostationary satellites are not useful for studies of polar regions."
+        },
+        {
+          "id": "n11",
+          "type": "list",
+          "title": "Multiple Choice Questions",
+          "ordered": false,
+          "items": [
+            "The astronomical object closest to us is in our galaxy. (A) Mars (B) Venus (C) Jupiter (D) Moon. Ans: (D)",
+            "The functioning of the satellite launch vehicle is based on: (A) Newton's first law (B) Newton's second law (C) Newton's third law (D) Newton's universal law of gravitation. Ans: (C)",
+            "______ is a satellite launch vehicle. (A) PSLV (B) GSAT (C) IRNSS (D) INSAT. Ans: (A)",
+            "The height of a medium earth orbit above the surface of the earth is: (A) 1500 km (B) 250 km (C) 45000 km (D) 25000 km. Ans: (D)",
+            "The minimum velocity of the spacecraft to escape from the earth's gravitational force must be: (A) 112 km/s (B) 11.2 km/s (C) 1.12 km/s (D) 0.112 km/s. Ans: (B)"
+          ]
+        },
+        {
+          "id": "n12",
+          "type": "fill_blank",
+          "title": "Complete the correlation",
+          "content": "INSAT : Weather satellite : : IRS : ___",
+          "blanks": ["Earth observation satellite"]
+        },
+        {
+          "id": "n13",
+          "type": "fill_blank",
+          "title": "Complete the correlation",
+          "content": "IRNSS : Direction showing satellite : : INSAT : ___",
+          "blanks": ["Weather satellite"]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
           "front": "What is space debris?",
-          "back": "Non-essential objects like used launcher parts and defunct satellites orbiting earth",
-          "order": 1
+          "back": "Non-essential objects like used launcher parts and defunct satellites orbiting earth"
         },
         {
           "id": "f2",
           "front": "Which was the first artificial satellite, and who launched it?",
-          "back": "Sputnik, launched by Russia (USSR)",
-          "order": 2
+          "back": "Sputnik, launched by Russia (USSR)"
         },
         {
           "id": "f3",
           "front": "On which of Newton's laws does a satellite launch vehicle depend?",
-          "back": "Newton's third law of motion",
-          "order": 3
+          "back": "Newton's third law of motion"
         },
         {
           "id": "f4",
           "front": "Why aren't geostationary satellites useful for studying polar regions?",
-          "back": "They orbit only in the equatorial plane, giving poor coverage of the poles",
-          "order": 4
+          "back": "They orbit only in the equatorial plane, giving poor coverage of the poles"
         },
         {
           "id": "f5",
           "front": "Minimum escape velocity needed for a spacecraft to leave earth's gravity?",
-          "back": "About 11.2 km/s",
-          "order": 5
+          "back": "About 11.2 km/s"
         }
       ],
       "quiz": [

@@ -5,43 +5,43 @@
       "emoji": "📄",
       "entries": [
         {
-          "id": "geo-pp-2024-mar-en",
+          "id": "eng-pp-2024-mar-en",
           "title": "March 2024 Question Paper (English Medium)",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_669_5f1bd990d6.pdf",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_580_4d38f71f2f.pdf",
           "status": "verified"
         },
         {
-          "id": "geo-pp-2024-jul-en",
+          "id": "eng-pp-2024-jul-en",
           "title": "July 2024 Question Paper (English Medium)",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_434_f89d7a814d.pdf",
+          "sourceUrl": "https://blr1.digitaloceanspaces.com/state-board-strapi-upload/n_382_1ca06d79bc.pdf",
           "status": "verified"
         },
         {
-          "id": "geo-pp-2025-mar-en",
+          "id": "eng-pp-2025-mar-en",
           "title": "March 2025 Question Paper (English Medium)",
           "kind": "past_paper",
           "year": 2025,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_869_f4621bb88e.pdf",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_580_4d38f71f2f.pdf",
           "status": "verified"
         },
         {
-          "id": "geo-pp-2025-jul-en",
+          "id": "eng-pp-2025-jul-en",
           "title": "July 2025 Question Paper (English Medium)",
           "kind": "past_paper",
           "year": 2025,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_734_72dcb829b6.pdf",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_682_bffcfb79e8.pdf",
           "status": "verified"
         }
       ]

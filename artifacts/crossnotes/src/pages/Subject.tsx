@@ -265,7 +265,7 @@ export default function Subject() {
                 ) : regular.length === 0 ? (
                   <div className="clay-card p-8 text-center" style={{ color: 'var(--text-muted)' }}>
                     <p className="text-3xl mb-2">😴</p>
-                    <p className="font-bold">No chapters yet. Riveting.</p>
+                    <p className="font-bold">No chapters yet. He just had One J*b</p>
                     <p className="text-sm mt-1">Drop a <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">{slug}.json</code> into <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">src/data/content/</code></p>
                   </div>
                 ) : (

@@ -1,8 +1,80 @@
 {
   "subsections": {
-    "subsec1": {},
-    "subsec2": {},
-    "subsec3": {},
+    "subsec1": {
+      "title": "Past Board Papers",
+      "emoji": "📄",
+      "entries": [
+        {
+          "id": "his-pp-2024-mar-en",
+          "title": "March 2024 Question Paper ",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_661_3ad578a02b.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "his-pp-2024-jul-en",
+          "title": "July 2024 Question Paper ",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_426_1d869bbdb4.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "his-pp-2025-mar-en",
+          "title": "March 2025 Question Paper ",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_861_2c2b8c1079.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "his-pp-2025-jul-en",
+          "title": "July 2025 Question Paper ",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_726_a90a6370b7.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec2": {
+      "title": "Official Textbook",
+      "emoji": "📘",
+      "entries": [
+        {
+          "id": "his-textbook-official",
+          "title": "History Textbook",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Textbook/history.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec3": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": [
+        {
+          "id": "geo-diksha-population",
+          "title": "DIKSHA: History",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528261465899008254502",
+          "status": "Browse your way"
+        }
+      ]
+    },
     "subsec4": {},
     "subsec5": {}
   }

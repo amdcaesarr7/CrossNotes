@@ -51,8 +51,8 @@
       "emoji": "📘",
       "entries": [
         {
-          "id": "geo-textbook-official",
-          "title": "Geography Textbook",
+          "id": "eng-textbook-official",
+          "title": "English Textbook",
           "kind": "textbook",
           "medium": "English",
           "license": "Public/Government",
@@ -66,16 +66,29 @@
       "emoji": "🌐",
       "entries": [
         {
-          "id": "geo-diksha-population",
-          "title": "DIKSHA: Population & Density explainer",
+          "id": "eng-diksha",
+          "title": "DIKSHA: English",
           "kind": "open_resource",
           "license": "CC BY-SA",
-          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528261465899008254502",
-          "status": "verified"
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528047013011456246981",
+          "status": "Browse your way"
         }
       ]
     },
-    "subsec4": {},
+    "subsec4": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": [
+        {
+          "id": "eng-diksha-grammar",
+          "title": "DIKSHA: English Grammar",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528047013011456246981",
+          "status": "Browse Your way"
+        }
+      ]
+    },
     "subsec5": {}
   }
 }

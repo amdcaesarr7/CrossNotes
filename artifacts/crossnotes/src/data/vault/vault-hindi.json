@@ -2,8 +2,37 @@
   "subsections": {
     "subsec1": {},
     "subsec2": {},
-    "subsec3": {},
-    "subsec4": {},
+    "subsec3": {
+      
+      "title": "Official Textbook",
+      "emoji": "📘",
+      "entries": [
+        {
+          "id": "hin-textbook-official",
+          "title": "Hindi Textbook",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Textbook/hindi.pdf",
+          "status": "verified"
+        }
+      ]
+    
+    },
+    "subsec4": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": [
+        {
+          "id": "hin-diksha-grammar",
+          "title": "DIKSHA: Hindi Grammar",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528047013011456246981",
+          "status": "Browse Your way"
+        }
+      ]
+    },
     "subsec5": {}
   }
 }

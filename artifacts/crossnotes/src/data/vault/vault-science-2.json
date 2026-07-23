@@ -1,8 +1,80 @@
 {
   "subsections": {
-    "subsec1": {},
-    "subsec2": {},
-    "subsec3": {},
+    "subsec1": {
+      "title": "Past Board Papers",
+      "emoji": "📄",
+      "entries": [
+        {
+          "id": "sci2-pp-2024-mar-en",
+          "title": "March 2024 Question Paper ",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_653_77d7d03682.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "sci2-pp-2024-jul-en",
+          "title": "July 2024 Question Paper ",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_418_550e4e8380.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "sci2-pp-2025-mar-en",
+          "title": "March 2025 Question Paper ",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_853_36ff6720c6.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "sci2-pp-2025-jul-en",
+          "title": "July 2025 Question Paper ",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_718_2b83e96466.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec2": {
+      "title": "Official Textbook",
+      "emoji": "📘",
+      "entries": [
+        {
+          "id": "sci2-textbook-official",
+          "title": "Science-2 Textbook",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Textbook/science-2.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec3": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": [
+        {
+          "id": "sci2-diksha",
+          "title": "DIKSHA: Science-2",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528046915780608246876",
+          "status": "Browse your way"
+        }
+      ]
+    },
     "subsec4": {},
     "subsec5": {}
   }

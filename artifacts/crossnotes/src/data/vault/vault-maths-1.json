@@ -1,8 +1,80 @@
 {
   "subsections": {
-    "subsec1": {},
-    "subsec2": {},
-    "subsec3": {},
+    "subsec1": {
+      "title": "Past Board Papers",
+      "emoji": "📄",
+      "entries": [
+        {
+          "id": "math1-pp-2024-mar-en",
+          "title": "March 2024 Question Paper ",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_619_5ab4a798b6.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "math1-pp-2024-jul-en",
+          "title": "July 2024 Question Paper ",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_384_28b9937653.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "math1-pp-2025-mar-en",
+          "title": "March 2025 Question Paper ",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_819_146b96b0bf.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "math1-pp-2025-jul-en",
+          "title": "July 2025 Question Paper ",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Government OS",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_684_5a1ffd168d.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec2": {
+      "title": "Official Textbook",
+      "emoji": "📘",
+      "entries": [
+        {
+          "id": "math1-textbook-official",
+          "title": "Maths-1 Textbook",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Textbook/maths-1.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec3": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": [
+        {
+          "id": "math1-diksha",
+          "title": "DIKSHA: Maths-1",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528209248108544252091",
+          "status": "Browse your way"
+        }
+      ]
+    },
     "subsec4": {},
     "subsec5": {}
   }

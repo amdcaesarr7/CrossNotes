@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
-import { BookOpen, Flame, Trophy, Target, Zap, ChevronRight, LogIn, Star, Snowflake, BellRing, X, Coins } from 'lucide-react';
+import { BookOpen, Flame, Trophy, Target, Zap, ChevronRight, LogIn, Star, Snowflake, BellRing, X, Coins, ShieldCheck } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useUserProfile, useAllUserProgress, useLeaderboard, getLevel, MAX_STREAK_FREEZES } from '@/hooks/useFirestore';
@@ -322,6 +322,18 @@ export default function Dashboard() {
             ))}
           </div>
         </section>
+
+        {/* ── Vault entry point ── */}
+        <Link href="/vault">
+          <div className="clay-card hoverable p-4 flex items-center gap-4 cursor-pointer" style={{ background: 'var(--bg-card-2)', borderColor: 'var(--divider)' }}>
+            <ShieldCheck size={28} style={{ color: 'var(--primary)' }} className="shrink-0" />
+            <div className="flex-1 min-w-0">
+              <h3 className="font-display font-bold text-base leading-tight" style={{ color: 'var(--text)' }}>The Vault</h3>
+              <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>Official board papers, textbook links & open resources</p>
+            </div>
+            <ChevronRight size={18} style={{ color: 'var(--text-muted)' }} className="shrink-0" />
+          </div>
+        </Link>
 
         {/* ── Leaderboard preview ── */}
         <section>

@@ -1,0 +1,62 @@
+{
+  "subsections": {
+    "subsec1": {
+      "title": "Past Board Papers",
+      "emoji": "📄",
+      "entries": [
+        {
+          "id": "geo-pp-2023-jul-en",
+          "title": "July 2023 Question Paper (English Medium)",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/papers/geography/2023-july-en.pdf",
+          "status": "verified",
+          "linkedChapterId": "ch1"
+        },
+        {
+          "id": "geo-pp-2023-mar-en",
+          "title": "March 2023 Question Paper (English Medium)",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/papers/geography/2023-march-en.pdf",
+          "status": "unverified"
+        }
+      ]
+    },
+    "subsec2": {
+      "title": "Official Textbook",
+      "emoji": "📘",
+      "entries": [
+        {
+          "id": "geo-textbook-official",
+          "title": "Maharashtra State Board Std. X Geography Textbook (eBalbharati)",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "https://ebalbharati.in/en/",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec3": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": [
+        {
+          "id": "geo-diksha-population",
+          "title": "DIKSHA: Population & Density explainer",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/",
+          "status": "unverified"
+        }
+      ]
+    },
+    "subsec4": {},
+    "subsec5": {}
+  }
+}

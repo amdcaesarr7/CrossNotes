@@ -9,6 +9,8 @@ import { Toaster } from 'sonner';
 import Dashboard  from '@/pages/Dashboard';
 import Home       from '@/pages/Home';       // Subjects list
 import Subject    from '@/pages/Subject';
+import Vault        from '@/pages/Vault';
+import VaultSubject from '@/pages/VaultSubject';
 import Notes      from '@/pages/Notes';
 import Flashcards from '@/pages/Flashcards';
 import Quiz       from '@/pages/Quiz';
@@ -33,6 +35,8 @@ export default function App() {
                     <Route path="/"                        component={Dashboard}  />
                     <Route path="/subjects"                component={Home}       />
                     <Route path="/subject/:slug"           component={Subject}    />
+                    <Route path="/vault"                   component={Vault}       />
+                    <Route path="/vault/:slug"              component={VaultSubject} />
                     <Route path="/notes/:slug/:chapterId"  component={Notes}      />
                     <Route path="/flashcards/:slug/:chapterId" component={Flashcards} />
                     <Route path="/quiz/:slug/:chapterId"   component={Quiz}       />

@@ -1,0 +1,29 @@
+{
+  "subsections": {
+    "subsec1": {
+      "title": "Study Assets",
+      "emoji": "🗂️",
+      "entries": [
+        {
+          "id": "gen-formula-sheet-all",
+          "title": "All-Subjects Formula & Facts Cheat Sheet",
+          "kind": "study_asset",
+          "license": "Sunny's own compilation",
+          "sourceUrl": "/vault/study-assets/general/all-subjects-cheat-sheet.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "gen-exam-tips",
+          "title": "Board Exam Day: Time Management & Answer-Writing Tips",
+          "kind": "study_asset",
+          "sourceUrl": "/vault/study-assets/general/exam-day-tips.pdf",
+          "status": "unverified"
+        }
+      ]
+    },
+    "subsec2": {},
+    "subsec3": {},
+    "subsec4": {},
+    "subsec5": {}
+  }
+}

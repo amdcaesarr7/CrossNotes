@@ -43,7 +43,7 @@ export default function Vault() {
           <ShieldCheck size={20} style={{ color: 'var(--primary)', flexShrink: 0, marginTop: 1 }} />
           <p className="text-sm font-semibold" style={{ color: 'var(--text)' }}>
             Official, legally-clean reference material — real board papers, official textbook links,
-            and open resources. Not Sunny's notes, the real thing.
+            and open resources. Not Caesar's notes, the real thing.
           </p>
         </div>
 

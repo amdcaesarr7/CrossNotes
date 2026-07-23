@@ -5,7 +5,7 @@
  *
  * Subsections are FIXED SLOTS (subsec1..subsec5), not a variable array.
  * That's deliberate: it lets a subject's vault file always have the same
- * shape, so Sunny can add content to an empty slot later without touching
+ * shape, so Caesar can add content to an empty slot later without touching
  * any code. A slot renders only if it has a non-empty `entries` array —
  * `{}` or `{ "entries": [] }` both mean "skip this slot".
  */

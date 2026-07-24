@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
-import { HelpCircle, ClipboardList, GitBranch } from 'lucide-react';
-import type { StaticNote, DiagramBranch } from '@/hooks/useContent';
+import { HelpCircle, ClipboardList } from 'lucide-react';
+import type { StaticNote } from '@/hooks/useContent';
 
 /** One note can be the original plain title+content card, or a rich
  *  study block (fill_blank, match_column, true_false, qna, list, table,
@@ -79,9 +79,6 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
 
     case 'rules':
       return <RulesBlock note={note} index={index} />;
-
-    case 'diagram':
-      return <DiagramBlock note={note} index={index} />;
 
     case 'paragraph':
     default:
@@ -258,58 +255,6 @@ function RulesBlock({ note, index }: { note: StaticNote; index: number }) {
             </div>
           ))}
         </div>
-      )}
-    </div>
-  );
-}
-
-// ---- Diagram (root node + up to 9 branches) ----
-// Built for classification/branching content — e.g. "Types of X", "Causes of
-// Y". `branches` is a fixed-feel 9-slot array, but a slot only renders if
-// its value is non-null: `null` (or a missing/blank entry) is skipped
-// entirely, so JSON can always declare 9 slots and only fill in the ones
-// that matter without leaving gaps in the layout. Pure CSS flex-wrap, no
-// absolute positioning — so it reflows cleanly instead of breaking on
-// narrow phones or when a label wraps to two lines.
-
-function normalizeDiagramBranch(entry: DiagramBranch | string | null | undefined): DiagramBranch | null {
-  if (entry === null || entry === undefined) return null; // the "don't render" case
-  if (typeof entry === 'string') {
-    const label = entry.trim();
-    return label.length > 0 ? { label } : null;
-  }
-  if (!entry.label || !entry.label.trim()) return null;
-  return entry;
-}
-
-function DiagramBlock({ note, index }: { note: StaticNote; index: number }) {
-  const rootLabel = note.diagramRoot ?? note.title ?? 'Diagram';
-  const branches = (note.branches ?? [])
-    .slice(0, 9) // configured for up to 9 branches
-    .map(normalizeDiagramBranch)
-    .filter((b): b is DiagramBranch => b !== null);
-
-  return (
-    <div id={`note-${note.id}`} className="diagram-card">
-      <div className="rules-card-header">
-        <GitBranch size={18} style={{ color: 'var(--primary)' }} />
-        <span className="rules-card-badge">Diagram</span>
-      </div>
-
-      <div className="diagram-root">{rootLabel}</div>
-
-      {branches.length > 0 && (
-        <>
-          <div className="diagram-stem" aria-hidden="true" />
-          <div className={`diagram-branches${branches.length > 1 ? ' diagram-branches-multi' : ''}`}>
-            {branches.map((b, i) => (
-              <div key={i} className="diagram-branch">
-                <span className="diagram-branch-label">{b.label}</span>
-                {b.note && <span className="diagram-branch-note">{b.note}</span>}
-              </div>
-            ))}
-          </div>
-        </>
       )}
     </div>
   );

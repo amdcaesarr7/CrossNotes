@@ -19,14 +19,7 @@ export type { SubjectMeta };
 // no discriminated-union boilerplate to fight with.
 export type NoteBlockType =
   | "paragraph" | "heading" | "list" | "table"
-  | "fill_blank" | "match_column" | "true_false" | "qna" | "rules" | "diagram";
-
-/** One branch of a "diagram" block. Can also just be a plain string (shorthand
- *  for { label } with no sub-note). */
-export interface DiagramBranch {
-  label: string;
-  note?: string; // optional short sub-line under the branch label
-}
+  | "fill_blank" | "match_column" | "true_false" | "qna" | "rules";
 
 export interface StaticNote {
   id: string;
@@ -62,16 +55,6 @@ export interface StaticNote {
 
   // type: "rules" — numbered official instructions (e.g. board paper rules)
   rules?: string[];
-
-  // type: "diagram" — a root node with up to 9 branches. `title` (or
-  // `diagramRoot` if you want it distinct from the card title) is the
-  // centre node. Provide up to 9 entries in `branches` — a slot that is
-  // `null` (or just omitted, leaving fewer than 9 entries) is skipped
-  // entirely and never renders, so a fixed 9-slot array can be filled in
-  // partially without leaving empty boxes on screen. Each entry is either
-  // a plain string or a { label, note? } object.
-  diagramRoot?: string;
-  branches?: (DiagramBranch | string | null)[];
 }
 
 export interface StaticChapterOverview {

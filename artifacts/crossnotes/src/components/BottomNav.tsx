@@ -1,12 +1,12 @@
-import { Home, BookOpen, BarChart2, Trophy, Store } from 'lucide-react';
+import { Home, BookOpen, BarChart2, Trophy, ShieldCheck } from 'lucide-react';
 import { Link, useLocation } from 'wouter';
 
 const TABS = [
-  { path: '/',            label: 'Home',     Icon: Home     },
-  { path: '/subjects',   label: 'Study',    Icon: BookOpen  },
-  { path: '/progress',  label: 'Progress', Icon: BarChart2 },
-  { path: '/shop',       label: 'Shop',     Icon: Store     },
-  { path: '/leaderboard', label: 'Ranks',  Icon: Trophy    },
+  { path: '/',            label: 'Home',     Icon: Home       },
+  { path: '/subjects',   label: 'Study',    Icon: BookOpen    },
+  { path: '/vault',      label: 'Vault',    Icon: ShieldCheck },
+  { path: '/progress',  label: 'Progress', Icon: BarChart2   },
+  { path: '/leaderboard', label: 'Ranks',  Icon: Trophy      },
 ];
 
 export default function BottomNav() {

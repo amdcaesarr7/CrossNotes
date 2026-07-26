@@ -1,5 +1,5 @@
 import { Link } from 'wouter';
-import { Trophy, Target, Flame, Zap, BookOpen, Layers, LogIn, Snowflake } from 'lucide-react';
+import { Trophy, Target, Flame, Zap, BookOpen, Layers, LogIn, Snowflake, Coins, ChevronRight } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useUserProfile, useAllUserProgress, getLevel, MAX_STREAK_FREEZES } from '@/hooks/useFirestore';
@@ -15,6 +15,7 @@ export default function Progress() {
 
   const loading = profileLoading || progressLoading;
   const xp     = profile?.xp ?? 0;
+  const coins  = profile?.coins ?? 0;
   const streak = profile?.streak ?? 0;
   const streakFreezes = profile?.streakFreezes ?? 0;
   const { level, levelName, nextXp } = getLevel(xp);
@@ -84,6 +85,18 @@ export default function Progress() {
                 </div>
               </div>
             </div>
+
+            {/* ── Shop entry point ── */}
+            <Link href="/shop">
+              <div className="clay-card hoverable p-4 flex items-center gap-4 cursor-pointer" style={{ background: 'var(--gold-light)', borderColor: 'var(--gold-border)' }}>
+                <Coins size={28} style={{ color: 'var(--gold)' }} className="shrink-0" />
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-display font-bold text-base leading-tight" style={{ color: 'var(--text)' }}>Shop</h3>
+                  <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{coins} coins · Spend on XP potions, streak freezes & nickname tags</p>
+                </div>
+                <ChevronRight size={18} style={{ color: 'var(--text-muted)' }} className="shrink-0" />
+              </div>
+            </Link>
 
             {/* Stats strip */}
             <div className="stats-strip">

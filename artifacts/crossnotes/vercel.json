@@ -1,0 +1,9 @@
+{
+  "framework": null,
+  "installCommand": "pnpm install --frozen-lockfile=false",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist/public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

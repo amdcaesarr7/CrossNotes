@@ -1,0 +1,2 @@
+- [CrossNotes Replit decoupling](crossnotes-replit-decoupling.md) — vite.config pattern for conditional Replit plugins; mockup-sandbox excluded from root build.
+- [CrossNotes Firebase wiring](crossnotes-firebase.md) — all pages wired to Firestore; write helpers store subjectSlug in progress docs for routing.

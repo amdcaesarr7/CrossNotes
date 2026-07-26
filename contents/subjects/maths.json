@@ -1,0 +1,72 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "num": 1,
+      "title": "Real Numbers",
+      "emoji": "🔢",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Euclid's Division Lemma",
+          "content": "For any two positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b. This lemma is the basis for finding HCF using Euclid's algorithm.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Irrational Numbers",
+          "content": "Numbers that cannot be written in the form p/q, where p and q are integers, are irrational. Examples include √2, √3, and π.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is Euclid's Division Lemma?", "back": "For positive integers a and b, a = bq + r where 0 ≤ r < b.", "order": 1 },
+        { "id": "f2", "front": "Give an example of an irrational number.", "back": "√2, √3, or π.", "order": 2 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which method is used to find HCF?",
+          "options": ["Long division", "Euclid's algorithm", "Factorisation", "Average method"],
+          "correctAnswer": 1,
+          "explanation": "Euclid's algorithm is used to find the highest common factor.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "num": 2,
+      "title": "Polynomials",
+      "emoji": "🧮",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Polynomial Basics",
+          "content": "A polynomial is an algebraic expression involving variables and constants with non-negative integer powers.",
+          "important": true
+        },
+        {
+          "id": "n2",
+          "title": "Zeroes of a Polynomial",
+          "content": "If p(a) = 0, then a is called a zero of the polynomial.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What is a polynomial?", "back": "An expression with variables and constants using addition, subtraction, multiplication and whole-number powers.", "order": 1 },
+        { "id": "f2", "front": "What is the zero of a polynomial?", "back": "A value that makes the polynomial equal to zero.", "order": 2 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Which of these is a polynomial?",
+          "options": ["x² + 3x + 2", "1/x + 2", "√x + 1", "x^-1 + 5"],
+          "correctAnswer": 0,
+          "explanation": "Only expressions with whole-number powers are polynomials.",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

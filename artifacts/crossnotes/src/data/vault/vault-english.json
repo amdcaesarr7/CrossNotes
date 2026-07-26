@@ -1,0 +1,94 @@
+{
+  "subsections": {
+    "subsec1": {
+      "title": "Past Board Papers",
+      "emoji": "📄",
+      "entries": [
+        {
+          "id": "eng-pp-2024-mar-en",
+          "title": "March 2024 Question Paper (English Medium)",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_580_4d38f71f2f.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "eng-pp-2024-jul-en",
+          "title": "July 2024 Question Paper (English Medium)",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "https://blr1.digitaloceanspaces.com/state-board-strapi-upload/n_382_1ca06d79bc.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "eng-pp-2025-mar-en",
+          "title": "March 2025 Question Paper (English Medium)",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_580_4d38f71f2f.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "eng-pp-2025-jul-en",
+          "title": "July 2025 Question Paper (English Medium)",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_682_bffcfb79e8.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec2": {
+      "title": "Official Textbook",
+      "emoji": "📘",
+      "entries": [
+        {
+          "id": "eng-textbook-official",
+          "title": "English Textbook",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Textbook/english.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec3": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": [
+        {
+          "id": "eng-diksha",
+          "title": "DIKSHA: English",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528047013011456246981",
+          "status": "Browse your way"
+        }
+      ]
+    },
+    "subsec4": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": [
+        {
+          "id": "eng-diksha-grammar",
+          "title": "DIKSHA: English Grammar",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528047013011456246981",
+          "status": "Browse Your way"
+        }
+      ]
+    },
+    "subsec5": {}
+  }
+}

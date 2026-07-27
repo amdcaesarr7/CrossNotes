@@ -403,55 +403,48 @@
         {
           "id": "f1",
           "front": "Type of Government in India and Brazil",
-          "back": "Republic",
-          "order": 1
+          "back": "Republic"
         },
         {
           "id": "f2",
           "front": "Brazil's rank by area in the world",
-          "back": "5th largest",
-          "order": 2
+          "back": "5th largest"
         },
         {
           "id": "f3",
           "front": "Species found in Assam's swamps/marshes",
-          "back": "One-horned rhinoceros",
-          "order": 3
+          "back": "One-horned rhinoceros"
         },
         {
           "id": "f4",
           "front": "Brazil's top export commodity",
-          "back": "Coffee",
-          "order": 4
+          "back": "Coffee"
         },
         {
           "id": "f5",
           "front": "Capital of Brazil",
-          "back": "Brasilia",
-          "order": 5
+          "back": "Brasilia"
         },
         {
           "id": "f6",
           "front": "Dance Brazil is famous for",
-          "back": "Samba",
-          "order": 6
+          "back": "Samba"
         },
         {
           "id": "f7",
           "front": "Largest delta in the world",
-          "back": "Sundarban delta",
-          "order": 7
+          "back": "Sundarban delta"
         },
         {
           "id": "f8",
           "front": "Why fewer natural ports on India's east coast",
-          "back": "It's a coast of emergence with deltas from eastward rivers, making it shallow/sediment-covered vs. the deeper, estuary-forming west coast",
-          "order": 8
+          "back": "It's a coast of emergence with deltas from eastward rivers, making it shallow/sediment-covered vs. the deeper, estuary-forming west coast"
         }
       ],
       "quiz": [
         {
           "id": "q1",
+          "qType": "mcq",
           "question": "India and Brazil have which type of Government?",
           "options": [
             "Military",
@@ -465,6 +458,7 @@
         },
         {
           "id": "q2",
+          "qType": "mcq",
           "question": "With reference to area, Brazil stands ___ in the world.",
           "options": [
             "Fifth",
@@ -478,6 +472,7 @@
         },
         {
           "id": "q3",
+          "qType": "mcq",
           "question": "Which animal is found in the swampy and marshy lands of Assam?",
           "options": [
             "Anaconda",
@@ -491,6 +486,7 @@
         },
         {
           "id": "q4",
+          "qType": "mcq",
           "question": "Brazil is the largest exporter of which commodity in the world?",
           "options": [
             "Tea",
@@ -504,6 +500,7 @@
         },
         {
           "id": "q5",
+          "qType": "mcq",
           "question": "What type of graph shows 'Tourism and Economy (2016)' comparing India and Brazil?",
           "options": [
             "Pie chart",
@@ -668,50 +665,42 @@
         {
           "id": "f1",
           "front": "Tool used for knowing directions on a field visit",
-          "back": "Compass",
-          "order": 1
+          "back": "Compass"
         },
         {
           "id": "f2",
           "front": "India's southernmost point",
-          "back": "Indira Point",
-          "order": 2
+          "back": "Indira Point"
         },
         {
           "id": "f3",
           "front": "Total length of India's coastline",
-          "back": "7,500 km",
-          "order": 3
+          "back": "7,500 km"
         },
         {
           "id": "f4",
           "front": "What Brazil's rainforests are called",
-          "back": "The 'lungs of the world'",
-          "order": 4
+          "back": "The 'lungs of the world'"
         },
         {
           "id": "f5",
           "front": "Sex ratio definition",
-          "back": "Number of females per thousand males in a region",
-          "order": 5
+          "back": "Number of females per thousand males in a region"
         },
         {
           "id": "f6",
           "front": "State with least urbanisation in Brazil",
-          "back": "Para",
-          "order": 6
+          "back": "Para"
         },
         {
           "id": "f7",
           "front": "State producing salt on a large scale in India",
-          "back": "Gujarat",
-          "order": 7
+          "back": "Gujarat"
         },
         {
           "id": "f8",
           "front": "Most common mode of transport in Brazil",
-          "back": "Roadways",
-          "order": 8
+          "back": "Roadways"
         },
         {
           "id": "f9",
@@ -757,6 +746,7 @@
       "quiz": [
         {
           "id": "q1",
+          "qType": "mcq",
           "question": "_____ is used for knowing directions.",
           "options": [
             "Scale",
@@ -770,6 +760,7 @@
         },
         {
           "id": "q2",
+          "qType": "mcq",
           "question": "_____ is not an essential material of field visit.",
           "options": [
             "Notebook",
@@ -783,6 +774,7 @@
         },
         {
           "id": "q3",
+          "qType": "mcq",
           "question": "We should carry _____ for a field visit to collect information.",
           "options": [
             "chair",
@@ -796,6 +788,7 @@
         },
         {
           "id": "q4",
+          "qType": "mcq",
           "question": "India's southernmost point is known as _____.",
           "options": [
             "Lakshadweep",
@@ -809,6 +802,7 @@
         },
         {
           "id": "q5",
+          "qType": "mcq",
           "question": "India is located in the _____ hemispheres of the earth.",
           "options": [
             "Northern and Eastern",
@@ -822,6 +816,7 @@
         },
         {
           "id": "q6",
+          "qType": "mcq",
           "question": "_____ these two countries in South America do not share their border with Brazil.",
           "options": [
             "Chile – Ecuador",
@@ -835,6 +830,7 @@
         },
         {
           "id": "q7",
+          "qType": "mcq",
           "question": "Brazil is famous for _____ dance.",
           "options": [
             "Samba",
@@ -848,6 +844,7 @@
         },
         {
           "id": "q8",
+          "qType": "mcq",
           "question": "Arabian Sea is located to the _____ of India.",
           "options": [
             "east",
@@ -861,6 +858,7 @@
         },
         {
           "id": "q9",
+          "qType": "mcq",
           "question": "Brazil is covered mainly by _____.",
           "options": [
             "highlands",
@@ -874,6 +872,7 @@
         },
         {
           "id": "q10",
+          "qType": "mcq",
           "question": "Like Brazil, India too has _____.",
           "options": [
             "high mountains",
@@ -887,6 +886,7 @@
         },
         {
           "id": "q11",
+          "qType": "mcq",
           "question": "Amazon is a large river in the world. Near its mouth _____.",
           "options": [
             "deltaic regions are found",
@@ -900,6 +900,7 @@
         },
         {
           "id": "q12",
+          "qType": "mcq",
           "question": "The total coastline of India is _____ km long.",
           "options": [
             "7,100",
@@ -913,6 +914,7 @@
         },
         {
           "id": "q13",
+          "qType": "mcq",
           "question": "The Lakshadweep Islands of the Arabian Sea are _____.",
           "options": [
             "made from the part separated from the mainland",
@@ -926,6 +928,7 @@
         },
         {
           "id": "q14",
+          "qType": "mcq",
           "question": "India's climate is of _____ type.",
           "options": [
             "humid",
@@ -939,6 +942,7 @@
         },
         {
           "id": "q15",
+          "qType": "mcq",
           "question": "Brazil gets rainfall from south-east and north-east _____ winds.",
           "options": [
             "monsoon",
@@ -952,6 +956,7 @@
         },
         {
           "id": "q16",
+          "qType": "mcq",
           "question": "In Brazil, _____ receives orographic rainfall.",
           "options": [
             "Guyana Highlands",
@@ -965,6 +970,7 @@
         },
         {
           "id": "q17",
+          "qType": "mcq",
           "question": "As the _____ extent of Brazil is more, there is a variety in climatic conditions.",
           "options": [
             "equatorial",
@@ -978,6 +984,7 @@
         },
         {
           "id": "q18",
+          "qType": "mcq",
           "question": "Teak is mainly found in the _____ type of forest.",
           "options": [
             "coastal",
@@ -991,6 +998,7 @@
         },
         {
           "id": "q19",
+          "qType": "mcq",
           "question": "The evergreen rainforests in Brazil are called _____.",
           "options": [
             "Mediterranean forest",
@@ -1004,6 +1012,7 @@
         },
         {
           "id": "q20",
+          "qType": "mcq",
           "question": "In the swampy areas of Pantanal, huge _____ are found.",
           "options": [
             "Piranhas/Condor",
@@ -1017,6 +1026,7 @@
         },
         {
           "id": "q21",
+          "qType": "mcq",
           "question": "In the mixed forests at foothills of Himalayas _____ trees are found in plenty.",
           "options": [
             "Sal",
@@ -1030,6 +1040,7 @@
         },
         {
           "id": "q22",
+          "qType": "mcq",
           "question": "In India, thorny vegetation is found in the state of _____.",
           "options": [
             "Maharashtra",
@@ -1043,6 +1054,7 @@
         },
         {
           "id": "q23",
+          "qType": "mcq",
           "question": "_____ forests are seen in the northernmost part of India.",
           "options": [
             "Thorny",
@@ -1056,6 +1068,7 @@
         },
         {
           "id": "q24",
+          "qType": "mcq",
           "question": "_____ trees are found in the coastal forests in India.",
           "options": [
             "Deodar",
@@ -1069,6 +1082,7 @@
         },
         {
           "id": "q25",
+          "qType": "mcq",
           "question": "Sex ratio means the number of females per _____ males in a region.",
           "options": [
             "hundred",
@@ -1082,6 +1096,7 @@
         },
         {
           "id": "q26",
+          "qType": "mcq",
           "question": "Populationwise, India is _____ largest country in the world.",
           "options": [
             "first",
@@ -1095,6 +1110,7 @@
         },
         {
           "id": "q27",
+          "qType": "mcq",
           "question": "Brazil is the _____ populated country in the South American continent.",
           "options": [
             "less",
@@ -1108,6 +1124,7 @@
         },
         {
           "id": "q28",
+          "qType": "mcq",
           "question": "Populationwise, Brazil is _____ largest country in the world.",
           "options": [
             "second",
@@ -1121,6 +1138,7 @@
         },
         {
           "id": "q29",
+          "qType": "mcq",
           "question": "With reference to area, India stands _____ in the world.",
           "options": [
             "fifth",
@@ -1134,6 +1152,7 @@
         },
         {
           "id": "q30",
+          "qType": "mcq",
           "question": "On the distribution of population _____ factor affects.",
           "options": [
             "physiographic",
@@ -1147,6 +1166,7 @@
         },
         {
           "id": "q31",
+          "qType": "mcq",
           "question": "The concentration of settlements is related to _____ major factor.",
           "options": [
             "proximity to the sea",
@@ -1160,6 +1180,7 @@
         },
         {
           "id": "q32",
+          "qType": "mcq",
           "question": "In Narmada valley _____ type of settlements are found.",
           "options": [
             "linear",
@@ -1173,6 +1194,7 @@
         },
         {
           "id": "q33",
+          "qType": "mcq",
           "question": "In northeastern part of Brazil, _____ type of settlements are found.",
           "options": [
             "nucleated",
@@ -1186,6 +1208,7 @@
         },
         {
           "id": "q34",
+          "qType": "mcq",
           "question": "Dispersed settlements are found _____ in India.",
           "options": [
             "near the rivers",
@@ -1199,6 +1222,7 @@
         },
         {
           "id": "q35",
+          "qType": "mcq",
           "question": "Concentrated settlements are found in Narmada Valley because of _____.",
           "options": [
             "forested land",
@@ -1212,6 +1236,7 @@
         },
         {
           "id": "q36",
+          "qType": "mcq",
           "question": "_____ state has the least urbanisation in Brazil.",
           "options": [
             "Para",
@@ -1225,6 +1250,7 @@
         },
         {
           "id": "q37",
+          "qType": "mcq",
           "question": "The economies of India and Brazil are of the _____ type.",
           "options": [
             "underdeveloped/undeveloped",
@@ -1238,6 +1264,7 @@
         },
         {
           "id": "q38",
+          "qType": "mcq",
           "question": "In India, salt is produced on a large scale in the state of _____.",
           "options": [
             "Gujarat",
@@ -1251,6 +1278,7 @@
         },
         {
           "id": "q39",
+          "qType": "mcq",
           "question": "India's per capita income is less than Brazil due to _____.",
           "options": [
             "low national income",
@@ -1264,6 +1292,7 @@
         },
         {
           "id": "q40",
+          "qType": "mcq",
           "question": "The economy of Brazil is mainly dependent on the _____ activities there.",
           "options": [
             "primary",
@@ -1277,6 +1306,7 @@
         },
         {
           "id": "q41",
+          "qType": "mcq",
           "question": "Brazil is the largest exporter of _____ in the world.",
           "options": [
             "mineral oil",
@@ -1290,6 +1320,7 @@
         },
         {
           "id": "q42",
+          "qType": "mcq",
           "question": "In India, the railway network is relatively less dense in the state of _____.",
           "options": [
             "Uttar Pradesh",
@@ -1303,6 +1334,7 @@
         },
         {
           "id": "q43",
+          "qType": "mcq",
           "question": "In Brazil _____ a southwest flowing river is used for waterways.",
           "options": [
             "Puraguaco",
@@ -1316,6 +1348,7 @@
         },
         {
           "id": "q44",
+          "qType": "mcq",
           "question": "In Brazil, the telecommunication services are not well expanded in the _____ region.",
           "options": [
             "southern",
@@ -1329,6 +1362,7 @@
         },
         {
           "id": "q45",
+          "qType": "mcq",
           "question": "The most common method of transportation in Brazil is _____.",
           "options": [
             "airways",
@@ -1342,6 +1376,7 @@
         },
         {
           "id": "q46",
+          "qType": "mcq",
           "question": "_____ have been important in the growth of the Indian economy.",
           "options": [
             "Waterways",
@@ -1355,129 +1390,129 @@
         },
         {
           "id": "q47",
-          "qType": "fill_blank",
-          "question": "Fill in the blank.",
-          "sentence": "Brazil is divided almost into two equal halves by the ___.",
-          "wordBank": [
+          "qType": "mcq",
+          "question": "Fill in the blank: Brazil is divided almost into two equal halves by the ___.",
+          "options": [
             "Equator",
             "Tropic of Capricorn",
             "Prime Meridian",
             "International Date Line"
           ],
-          "correctWord": "Equator",
-          "options": [],
           "correctAnswer": 0,
           "explanation": "The Equator (0° latitude) passes through northern Brazil, splitting most of the country's landmass roughly in half.",
           "order": 47
         },
         {
           "id": "q48",
-          "qType": "fill_blank",
-          "question": "Fill in the blank.",
-          "sentence": "The currency of Brazil is the ___.",
-          "wordBank": [
+          "qType": "mcq",
+          "question": "Fill in the blank: The currency of Brazil is the ___.",
+          "options": [
             "Real",
             "Peso",
             "Rupee",
             "Dollar"
           ],
-          "correctWord": "Real",
-          "options": [],
           "correctAnswer": 0,
           "explanation": "Brazil's official currency is the Brazilian Real (BRL).",
           "order": 48
         },
         {
           "id": "q49",
-          "qType": "fill_blank",
-          "question": "Fill in the blank.",
-          "sentence": "India's national animal is the ___.",
-          "wordBank": [
+          "qType": "mcq",
+          "question": "Fill in the blank: India's national animal is the ___.",
+          "options": [
             "Tiger",
             "Lion",
             "Elephant",
             "Peacock"
           ],
-          "correctWord": "Tiger",
-          "options": [],
           "correctAnswer": 0,
           "explanation": "The Bengal Tiger was declared India's national animal in 1973.",
           "order": 49
         },
         {
           "id": "q50",
-          "qType": "true_false",
-          "question": "True or False.",
-          "statement": "India follows a Federal Presidential form of government, just like Brazil.",
-          "answer": false,
-          "options": [],
-          "correctAnswer": 0,
+          "qType": "mcq",
+          "question": "True or False: India follows a Federal Presidential form of government, just like Brazil.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
           "explanation": "India is a Parliamentary Democratic Republic; Brazil is a Federal Presidential Republic — the two systems differ.",
           "order": 50
         },
         {
           "id": "q51",
-          "qType": "true_false",
-          "question": "True or False.",
-          "statement": "The Amazon is the largest river system in Brazil.",
-          "answer": true,
-          "options": [],
+          "qType": "mcq",
+          "question": "True or False: The Amazon is the largest river system in Brazil.",
+          "options": [
+            "True",
+            "False"
+          ],
           "correctAnswer": 0,
           "explanation": "The Amazon River carries the largest discharge of any river in the world and dominates Brazil's drainage.",
           "order": 51
         },
         {
           "id": "q52",
-          "qType": "true_false",
-          "question": "True or False.",
-          "statement": "Gujarat produces salt on a large scale in India.",
-          "answer": true,
-          "options": [],
+          "qType": "mcq",
+          "question": "True or False: Gujarat produces salt on a large scale in India.",
+          "options": [
+            "True",
+            "False"
+          ],
           "correctAnswer": 0,
           "explanation": "Gujarat's coastal salt pans (e.g. Rann of Kachchh) make it India's leading salt-producing state.",
           "order": 52
         },
         {
-          "id": "q53",
-          "qType": "match",
-          "question": "Match the country with its capital.",
-          "left": [
-            "India",
-            "Brazil"
-          ],
-          "right": [
+          "id": "q53_1",
+          "qType": "mcq",
+          "question": "Match the country with its capital. — India",
+          "options": [
             "Brasília",
             "New Delhi"
           ],
-          "answerKey": [
-            1,
-            0
-          ],
-          "options": [],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "India's capital is New Delhi; Brazil's capital is Brasília.",
           "order": 53
         },
         {
-          "id": "q54",
-          "qType": "match",
-          "question": "Match the country with its form of government.",
-          "left": [
-            "India",
-            "Brazil"
+          "id": "q53_2",
+          "qType": "mcq",
+          "question": "Match the country with its capital. — Brazil",
+          "options": [
+            "Brasília",
+            "New Delhi"
           ],
-          "right": [
+          "correctAnswer": 0,
+          "explanation": "India's capital is New Delhi; Brazil's capital is Brasília.",
+          "order": 54
+        },
+        {
+          "id": "q54_1",
+          "qType": "mcq",
+          "question": "Match the country with its form of government. — India",
+          "options": [
             "Federal Presidential Republic",
             "Sovereign Socialist Secular Democratic Republic"
           ],
-          "answerKey": [
-            1,
-            0
+          "correctAnswer": 1,
+          "explanation": "India: Sovereign Socialist Secular Democratic Republic (Parliamentary). Brazil: Federal Presidential Republic.",
+          "order": 55
+        },
+        {
+          "id": "q54_2",
+          "qType": "mcq",
+          "question": "Match the country with its form of government. — Brazil",
+          "options": [
+            "Federal Presidential Republic",
+            "Sovereign Socialist Secular Democratic Republic"
           ],
-          "options": [],
           "correctAnswer": 0,
           "explanation": "India: Sovereign Socialist Secular Democratic Republic (Parliamentary). Brazil: Federal Presidential Republic.",
-          "order": 54
+          "order": 56
         }
       ]
     },
@@ -1555,26 +1590,22 @@
         {
           "id": "f1",
           "front": "Brazilian states north to south (of the four given)",
-          "back": "Amapa – Para – Sao Paulo – Santa Catarina",
-          "order": 1
+          "back": "Amapa – Para – Sao Paulo – Santa Catarina"
         },
         {
           "id": "f2",
           "front": "Indian states south to north (of the four given)",
-          "back": "Kerala – Karnataka – Maharashtra – Jammu and Kashmir",
-          "order": 2
+          "back": "Kerala – Karnataka – Maharashtra – Jammu and Kashmir"
         },
         {
           "id": "f3",
           "front": "Brazil's physiographic divisions, NE to SE",
-          "back": "Guyana Highlands – Amazon Plains – Brazilian Highlands – The Great Escarpment",
-          "order": 3
+          "back": "Guyana Highlands – Amazon Plains – Brazilian Highlands – The Great Escarpment"
         },
         {
           "id": "f4",
           "front": "India's physiographic divisions, north to south",
-          "back": "The Himalayas – The Northern Plains – The Vindhyas – Deccan Plateau",
-          "order": 4
+          "back": "The Himalayas – The Northern Plains – The Vindhyas – Deccan Plateau"
         }
       ],
       "quiz": []
@@ -1652,37 +1683,33 @@
         {
           "id": "f1",
           "front": "Correct group of Brazilian states",
-          "back": "Sao Paulo, Amazonas, Mato Grosso",
-          "order": 1
+          "back": "Sao Paulo, Amazonas, Mato Grosso"
         },
         {
           "id": "f2",
           "front": "Correct group of Indian states",
-          "back": "Madhya Pradesh, Sikkim, Telangana",
-          "order": 2
+          "back": "Madhya Pradesh, Sikkim, Telangana"
         },
         {
           "id": "f3",
           "front": "Correct group of rivers in India",
-          "back": "Sutlej, Sabarmati, Narmada",
-          "order": 3
+          "back": "Sutlej, Sabarmati, Narmada"
         },
         {
           "id": "f4",
           "front": "Brazil's physiographic divisions (correct group)",
-          "back": "Guyana Highlands, Amazon River Basin, The Great Escarpment",
-          "order": 4
+          "back": "Guyana Highlands, Amazon River Basin, The Great Escarpment"
         },
         {
           "id": "f5",
           "front": "North-flowing rivers of Brazil",
-          "back": "Juruika, Xingu, Aragua",
-          "order": 5
+          "back": "Juruika, Xingu, Aragua"
         }
       ],
       "quiz": [
         {
           "id": "q1",
+          "qType": "mcq",
           "question": "Identify the correct group: The states in Brazil.",
           "options": [
             "Parana, Punjab, Acre",
@@ -1695,6 +1722,7 @@
         },
         {
           "id": "q2",
+          "qType": "mcq",
           "question": "Identify the correct group: The states in India.",
           "options": [
             "Maharashtra, Gujarat, Amapa",
@@ -1707,6 +1735,7 @@
         },
         {
           "id": "q3",
+          "qType": "mcq",
           "question": "Identify the correct group: The rivers in India.",
           "options": [
             "Yamuna, Ghaghara, Nigro",
@@ -1719,6 +1748,7 @@
         },
         {
           "id": "q4",
+          "qType": "mcq",
           "question": "Identify the correct group: The physiographic divisions of Brazil.",
           "options": [
             "Guyana Highlands, Amazon River Basin, The Great Escarpment",
@@ -1731,6 +1761,7 @@
         },
         {
           "id": "q5",
+          "qType": "mcq",
           "question": "Identify the correct group: These rivers of Brazil are north flowing.",
           "options": [
             "Juruika, Xingu, Aragua",
@@ -1743,6 +1774,7 @@
         },
         {
           "id": "q6",
+          "qType": "mcq",
           "question": "Identify the correct group: Airports in Brazil.",
           "options": [
             "Curitiba, Mumbai, Pune",
@@ -1755,6 +1787,7 @@
         },
         {
           "id": "q7",
+          "qType": "mcq",
           "question": "Identify the correct group: Ports in India.",
           "options": [
             "Mumbai, Goa, Kolkata",
@@ -2018,38 +2051,32 @@
         {
           "id": "f1",
           "front": "Densely populated state in Brazil",
-          "back": "Sao Paulo",
-          "order": 1
+          "back": "Sao Paulo"
         },
         {
           "id": "f2",
           "front": "Sparsely populated state in India",
-          "back": "Uttarakhand",
-          "order": 2
+          "back": "Uttarakhand"
         },
         {
           "id": "f3",
           "front": "Popular game of Brazil",
-          "back": "Football",
-          "order": 3
+          "back": "Football"
         },
         {
           "id": "f4",
           "front": "Rainshadow region example",
-          "back": "Drought Quadrilateral (Brazil)",
-          "order": 4
+          "back": "Drought Quadrilateral (Brazil)"
         },
         {
           "id": "f5",
           "front": "Swampy region example",
-          "back": "Pantanal",
-          "order": 5
+          "back": "Pantanal"
         },
         {
           "id": "f6",
           "front": "Trans-Amazonian Highway is an example of",
-          "back": "Major Highways",
-          "order": 6
+          "back": "Major Highways"
         }
       ],
       "quiz": []
@@ -2189,31 +2216,28 @@
         {
           "id": "f1",
           "front": "Odd one out: Notebook, Camera, Map, Microscope",
-          "back": "Microscope (not a field visit item)",
-          "order": 1
+          "back": "Microscope (not a field visit item)"
         },
         {
           "id": "f2",
           "front": "Odd one out: Nepal, Bhutan, Pakistan, Suriname",
-          "back": "Suriname (not a neighbour of India)",
-          "order": 2
+          "back": "Suriname (not a neighbour of India)"
         },
         {
           "id": "f3",
           "front": "Odd one out: Brazil, India, China, Saudi Arabia (BRICS)",
-          "back": "Saudi Arabia (not a BRICS founding member here)",
-          "order": 3
+          "back": "Saudi Arabia (not a BRICS founding member here)"
         },
         {
           "id": "f4",
           "front": "Odd one out: Juruika, Purus, Xingu, Aragua (north-flowing)",
-          "back": "Purus (does not flow north)",
-          "order": 4
+          "back": "Purus (does not flow north)"
         }
       ],
       "quiz": [
         {
           "id": "q1",
+          "qType": "mcq",
           "question": "Identify the odd man out: Main purpose of field visit.",
           "options": [
             "Geographical",
@@ -2227,6 +2251,7 @@
         },
         {
           "id": "q2",
+          "qType": "mcq",
           "question": "Identify the odd man out: Item required for field visit.",
           "options": [
             "Notebook",
@@ -2240,6 +2265,7 @@
         },
         {
           "id": "q3",
+          "qType": "mcq",
           "question": "Identify the odd man out: States in India.",
           "options": [
             "Madhya Pradesh",
@@ -2253,6 +2279,7 @@
         },
         {
           "id": "q4",
+          "qType": "mcq",
           "question": "Identify the odd man out: Neighbouring countries of India.",
           "options": [
             "Nepal",
@@ -2266,6 +2293,7 @@
         },
         {
           "id": "q5",
+          "qType": "mcq",
           "question": "Identify the odd man out: Coastal states in Brazil.",
           "options": [
             "Rio de Janeiro",
@@ -2279,6 +2307,7 @@
         },
         {
           "id": "q6",
+          "qType": "mcq",
           "question": "Identify the odd man out: North flowing rivers in Brazil.",
           "options": [
             "Juruika",
@@ -2292,6 +2321,7 @@
         },
         {
           "id": "q7",
+          "qType": "mcq",
           "question": "Identify the odd man out: The states of Brazil in which spread of Brazilian Highlands is found.",
           "options": [
             "Amapa",
@@ -2305,6 +2335,7 @@
         },
         {
           "id": "q8",
+          "qType": "mcq",
           "question": "Identify the odd man out: Tributary of river Amazon.",
           "options": [
             "Paru river",
@@ -2318,6 +2349,7 @@
         },
         {
           "id": "q9",
+          "qType": "mcq",
           "question": "Identify the odd man out: Region with very high rainfall in India.",
           "options": [
             "Western part of Rajasthan",
@@ -2331,6 +2363,7 @@
         },
         {
           "id": "q10",
+          "qType": "mcq",
           "question": "Identify the odd man out: State/Union Territory with low rainfall in India.",
           "options": [
             "Gujarat",
@@ -2344,6 +2377,7 @@
         },
         {
           "id": "q11",
+          "qType": "mcq",
           "question": "Identify the odd man out: Forest type of Brazil.",
           "options": [
             "Thorny bush type vegetation",
@@ -2357,6 +2391,7 @@
         },
         {
           "id": "q12",
+          "qType": "mcq",
           "question": "Identify the odd man out: With reference to flora of India.",
           "options": [
             "Deodar",
@@ -2370,6 +2405,7 @@
         },
         {
           "id": "q13",
+          "qType": "mcq",
           "question": "Identify the odd man out: Animals found in the Peninsular region of India.",
           "options": [
             "Indian Bisons",
@@ -2383,6 +2419,7 @@
         },
         {
           "id": "q14",
+          "qType": "mcq",
           "question": "Identify the odd man out: Favourable factors affecting population distribution.",
           "options": [
             "Nearness to sea",
@@ -2396,6 +2433,7 @@
         },
         {
           "id": "q15",
+          "qType": "mcq",
           "question": "Identify the odd man out: Sparsely populated states in India.",
           "options": [
             "Uttar Pradesh",
@@ -2409,6 +2447,7 @@
         },
         {
           "id": "q16",
+          "qType": "mcq",
           "question": "Identify the odd man out: The concentration of settlements is related to the following major factor.",
           "options": [
             "Desert region",
@@ -2422,6 +2461,7 @@
         },
         {
           "id": "q17",
+          "qType": "mcq",
           "question": "Identify the odd man out: Highly urbanized states in Brazil.",
           "options": [
             "Para",
@@ -2435,6 +2475,7 @@
         },
         {
           "id": "q18",
+          "qType": "mcq",
           "question": "Identify the odd man out: Crops in Brazil.",
           "options": [
             "Cocoa",
@@ -2448,6 +2489,7 @@
         },
         {
           "id": "q19",
+          "qType": "mcq",
           "question": "Identify the odd man out: Commercial crop of Brazil.",
           "options": [
             "Coffee",
@@ -2461,6 +2503,7 @@
         },
         {
           "id": "q20",
+          "qType": "mcq",
           "question": "Identify the odd man out: Salt producing state in India.",
           "options": [
             "Gujarat",
@@ -2474,6 +2517,7 @@
         },
         {
           "id": "q21",
+          "qType": "mcq",
           "question": "Identify the odd man out: Members of BRICS.",
           "options": [
             "Brazil",
@@ -2573,19 +2617,18 @@
         {
           "id": "f1",
           "front": "Correct order of field visit preparation",
-          "back": "Selection of place → Pre-preparation → Visit → Report writing",
-          "order": 1
+          "back": "Selection of place → Pre-preparation → Visit → Report writing"
         },
         {
           "id": "f2",
           "front": "Cause of Brazil's Drought Quadrilateral",
-          "back": "Great Escarpment blocks sea winds → effect reduces beyond it → NE Brazil gets minimum rainfall → arid leeward region forms",
-          "order": 2
+          "back": "Great Escarpment blocks sea winds → effect reduces beyond it → NE Brazil gets minimum rainfall → arid leeward region forms"
         }
       ],
       "quiz": [
         {
           "id": "q1",
+          "qType": "mcq",
           "question": "Arrange in correct sequence: Preparing for field visit",
           "options": [
             "(B), (D), (A), (C)",
@@ -2599,6 +2642,7 @@
         },
         {
           "id": "q2",
+          "qType": "mcq",
           "question": "Arrange in correct sequence: Drought Quadrilateral in Brazil",
           "options": [
             "(B), (D), (A), (C)",
@@ -2612,6 +2656,7 @@
         },
         {
           "id": "q3",
+          "qType": "mcq",
           "question": "Arrange in correct sequence: Population distribution in Ganga River Basin",
           "options": [
             "(B), (C), (D), (A)",
@@ -2625,6 +2670,7 @@
         },
         {
           "id": "q4",
+          "qType": "mcq",
           "question": "Arrange in correct sequence: 'Go West' policy in Brazil",
           "options": [
             "(A), (B), (C), (D)",
@@ -2724,26 +2770,22 @@
         {
           "id": "f1",
           "front": "Western coastal region of India is linked to",
-          "back": "Comparatively narrower coast – Estuaries",
-          "order": 1
+          "back": "Comparatively narrower coast – Estuaries"
         },
         {
           "id": "f2",
           "front": "Savannah vegetation in Brazil is linked to",
-          "back": "Rain resistant grass – Brazilian Highlands",
-          "order": 2
+          "back": "Rain resistant grass – Brazilian Highlands"
         },
         {
           "id": "f3",
           "front": "81–100% urban population band example",
-          "back": "Chandigarh – NCR of Delhi",
-          "order": 3
+          "back": "Chandigarh – NCR of Delhi"
         },
         {
           "id": "f4",
           "front": "Brazil's main food crop and region",
-          "back": "Corn – Central part",
-          "order": 4
+          "back": "Corn – Central part"
         }
       ],
       "quiz": []
@@ -2843,26 +2885,22 @@
         {
           "id": "f1",
           "front": "Maharashtra's correct region in India",
-          "back": "Western region (not eastern)",
-          "order": 1
+          "back": "Western region (not eastern)"
         },
         {
           "id": "f2",
           "front": "French Guiana's correct direction from Brazil",
-          "back": "North (not east)",
-          "order": 2
+          "back": "North (not east)"
         },
         {
           "id": "f3",
           "front": "Region of India with comparatively high rainfall",
-          "back": "Southern region (not northern)",
-          "order": 3
+          "back": "Southern region (not northern)"
         },
         {
           "id": "f4",
           "front": "Brazil region with scanty rainfall",
-          "back": "North east region (not Amazon river basin)",
-          "order": 4
+          "back": "North east region (not Amazon river basin)"
         }
       ],
       "quiz": []
@@ -3311,38 +3349,32 @@
         {
           "id": "f1",
           "front": "Highest peak in Brazil",
-          "back": "Pico de Neblina",
-          "order": 1
+          "back": "Pico de Neblina"
         },
         {
           "id": "f2",
           "front": "India's coastline length",
-          "back": "About 7,500 km",
-          "order": 2
+          "back": "About 7,500 km"
         },
         {
           "id": "f3",
           "front": "What Brazil's rainforests are called",
-          "back": "'Lungs of the world'",
-          "order": 3
+          "back": "'Lungs of the world'"
         },
         {
           "id": "f4",
           "front": "Most urbanized state in India",
-          "back": "Goa",
-          "order": 4
+          "back": "Goa"
         },
         {
           "id": "f5",
           "front": "India's Standard Time meridian city",
-          "back": "Allahabad (82°30' E)",
-          "order": 5
+          "back": "Allahabad (82°30' E)"
         },
         {
           "id": "f6",
           "front": "Cheapest mode of transport",
-          "back": "Waterways",
-          "order": 6
+          "back": "Waterways"
         }
       ],
       "quiz": []
@@ -4034,26 +4066,22 @@
         {
           "id": "f1",
           "front": "Main tributaries of river Ganga (name 3)",
-          "back": "Yamuna, Ghaghara, Gandak",
-          "order": 1
+          "back": "Yamuna, Ghaghara, Gandak"
         },
         {
           "id": "f2",
           "front": "Densely populated states in Brazil (name 2)",
-          "back": "Sao Paulo, Rio de Janeiro",
-          "order": 2
+          "back": "Sao Paulo, Rio de Janeiro"
         },
         {
           "id": "f3",
           "front": "Major exports of India (name 3)",
-          "back": "Tea, Cotton, Iron ore",
-          "order": 3
+          "back": "Tea, Cotton, Iron ore"
         },
         {
           "id": "f4",
           "front": "Major ports in Brazil (name 2)",
-          "back": "Rio Grande, Santos/Rio de Janeiro",
-          "order": 4
+          "back": "Rio Grande, Santos/Rio de Janeiro"
         }
       ],
       "quiz": []
@@ -4270,31 +4298,28 @@
         {
           "id": "f1",
           "front": "True or False: Sundarbans is the largest delta region in the world",
-          "back": "True",
-          "order": 1
+          "back": "True"
         },
         {
           "id": "f2",
           "front": "True or False: Brazil gets rainfall due to southwest monsoon winds",
-          "back": "False — Brazil is affected by trade winds, not the monsoon",
-          "order": 2
+          "back": "False — Brazil is affected by trade winds, not the monsoon"
         },
         {
           "id": "f3",
           "front": "True or False: Literacy rate is higher in Brazil than India",
-          "back": "True",
-          "order": 3
+          "back": "True"
         },
         {
           "id": "f4",
           "front": "True or False: Jute industry is concentrated in West Bengal",
-          "back": "True",
-          "order": 4
+          "back": "True"
         }
       ],
       "quiz": [
         {
           "id": "q1",
+          "qType": "mcq",
           "question": "True or False: During field visit, vegetation is not the indicator of difference in precipitation.",
           "options": [
             "True",
@@ -4306,6 +4331,7 @@
         },
         {
           "id": "q2",
+          "qType": "mcq",
           "question": "True or False: During field visit, the information can be obtained by interviewing local people.",
           "options": [
             "True",
@@ -4317,6 +4343,7 @@
         },
         {
           "id": "q3",
+          "qType": "mcq",
           "question": "True or False: Regions and necessities influence the difference in the means of livelihood.",
           "options": [
             "True",
@@ -4328,6 +4355,7 @@
         },
         {
           "id": "q4",
+          "qType": "mcq",
           "question": "True or False: Vegetation is an indicator of difference in precipitation.",
           "options": [
             "True",
@@ -4339,6 +4367,7 @@
         },
         {
           "id": "q5",
+          "qType": "mcq",
           "question": "True or False: Brazil is mainly located in the Southern Hemisphere.",
           "options": [
             "True",
@@ -4350,6 +4379,7 @@
         },
         {
           "id": "q6",
+          "qType": "mcq",
           "question": "True or False: Tropic of Capricorn passes through the middle of India.",
           "options": [
             "True",
@@ -4361,6 +4391,7 @@
         },
         {
           "id": "q7",
+          "qType": "mcq",
           "question": "True or False: The longitudinal extent of Brazil is less than India.",
           "options": [
             "True",
@@ -4372,6 +4403,7 @@
         },
         {
           "id": "q8",
+          "qType": "mcq",
           "question": "True or False: Equator passes through the northern part of Brazil.",
           "options": [
             "True",
@@ -4383,6 +4415,7 @@
         },
         {
           "id": "q9",
+          "qType": "mcq",
           "question": "True or False: Brazil has a coastline along the Pacific Ocean.",
           "options": [
             "True",
@@ -4394,6 +4427,7 @@
         },
         {
           "id": "q10",
+          "qType": "mcq",
           "question": "True or False: The river Ganga originates from the Yamunotri glacier.",
           "options": [
             "True",
@@ -4405,6 +4439,7 @@
         },
         {
           "id": "q11",
+          "qType": "mcq",
           "question": "True or False: River Sutlej is a major tributary of river Indus.",
           "options": [
             "True",
@@ -4416,6 +4451,7 @@
         },
         {
           "id": "q12",
+          "qType": "mcq",
           "question": "True or False: Sundarbans is the largest delta region in the world.",
           "options": [
             "True",
@@ -4427,6 +4463,7 @@
         },
         {
           "id": "q13",
+          "qType": "mcq",
           "question": "True or False: The slope of Punjab plains is towards east.",
           "options": [
             "True",
@@ -4438,6 +4475,7 @@
         },
         {
           "id": "q14",
+          "qType": "mcq",
           "question": "True or False: The Great Escarpment is located in the Northern part of Brazil.",
           "options": [
             "True",
@@ -4449,6 +4487,7 @@
         },
         {
           "id": "q15",
+          "qType": "mcq",
           "question": "True or False: The fact that Brazil lies on the equator affects its climate in a big way.",
           "options": [
             "True",
@@ -4460,6 +4499,7 @@
         },
         {
           "id": "q16",
+          "qType": "mcq",
           "question": "True or False: India and Brazil have the same seasons at the same time.",
           "options": [
             "True",
@@ -4471,6 +4511,7 @@
         },
         {
           "id": "q17",
+          "qType": "mcq",
           "question": "True or False: India faces tropical cyclones frequently.",
           "options": [
             "True",
@@ -4482,6 +4523,7 @@
         },
         {
           "id": "q18",
+          "qType": "mcq",
           "question": "True or False: Brazil gets a lot of rainfall because of the southwest monsoon winds.",
           "options": [
             "True",
@@ -4493,6 +4535,7 @@
         },
         {
           "id": "q19",
+          "qType": "mcq",
           "question": "True or False: In Mumbai, the average temperature in the month of May is around 15°C.",
           "options": [
             "True",
@@ -4504,6 +4547,7 @@
         },
         {
           "id": "q20",
+          "qType": "mcq",
           "question": "True or False: Manous city in Brazil receives the highest rainfall in the month of March.",
           "options": [
             "True",
@@ -4515,6 +4559,7 @@
         },
         {
           "id": "q21",
+          "qType": "mcq",
           "question": "True or False: Temperature in Ganganagar in Rajasthan soars to 30°C in June.",
           "options": [
             "True",
@@ -4526,6 +4571,7 @@
         },
         {
           "id": "q22",
+          "qType": "mcq",
           "question": "True or False: Brazil does not have the large number of vegetation species in the world.",
           "options": [
             "True",
@@ -4537,6 +4583,7 @@
         },
         {
           "id": "q23",
+          "qType": "mcq",
           "question": "True or False: Wildlife in India is decreasing day by day.",
           "options": [
             "True",
@@ -4548,6 +4595,7 @@
         },
         {
           "id": "q24",
+          "qType": "mcq",
           "question": "True or False: The western part of Brazil is densely populated.",
           "options": [
             "True",
@@ -4559,6 +4607,7 @@
         },
         {
           "id": "q25",
+          "qType": "mcq",
           "question": "True or False: In India, population is very unevenly distributed.",
           "options": [
             "True",
@@ -4570,6 +4619,7 @@
         },
         {
           "id": "q26",
+          "qType": "mcq",
           "question": "True or False: Literacy rate is higher in Brazil than India.",
           "options": [
             "True",
@@ -4581,6 +4631,7 @@
         },
         {
           "id": "q27",
+          "qType": "mcq",
           "question": "True or False: In Brazil, people prefer living in the southeast as compared to the northeast.",
           "options": [
             "True",
@@ -4592,6 +4643,7 @@
         },
         {
           "id": "q28",
+          "qType": "mcq",
           "question": "True or False: The life expectancy of Indians is decreasing.",
           "options": [
             "True",
@@ -4603,6 +4655,7 @@
         },
         {
           "id": "q29",
+          "qType": "mcq",
           "question": "True or False: The north-western part of India is densely populated.",
           "options": [
             "True",
@@ -4614,6 +4667,7 @@
         },
         {
           "id": "q30",
+          "qType": "mcq",
           "question": "True or False: West Bengal state of India is sparsely populated.",
           "options": [
             "True",
@@ -4625,6 +4679,7 @@
         },
         {
           "id": "q31",
+          "qType": "mcq",
           "question": "True or False: Acre state of Brazil is sparsely populated.",
           "options": [
             "True",
@@ -4636,6 +4691,7 @@
         },
         {
           "id": "q32",
+          "qType": "mcq",
           "question": "True or False: Nucleated settlements are found on the Himalayan slopes.",
           "options": [
             "True",
@@ -4647,6 +4703,7 @@
         },
         {
           "id": "q33",
+          "qType": "mcq",
           "question": "True or False: Nucleated settlements are found on Vindhyan Plateau.",
           "options": [
             "True",
@@ -4658,6 +4715,7 @@
         },
         {
           "id": "q34",
+          "qType": "mcq",
           "question": "True or False: Tea is cultivated on a large scale in the fertile land of Sao Paulo.",
           "options": [
             "True",
@@ -4669,6 +4727,7 @@
         },
         {
           "id": "q35",
+          "qType": "mcq",
           "question": "True or False: Northeastern region of Brazil is a region of heavy rainfall.",
           "options": [
             "True",
@@ -4680,6 +4739,7 @@
         },
         {
           "id": "q36",
+          "qType": "mcq",
           "question": "True or False: The climate in the equatorial dense forest region in Brazil is healthy.",
           "options": [
             "True",
@@ -4691,6 +4751,7 @@
         },
         {
           "id": "q37",
+          "qType": "mcq",
           "question": "True or False: Like the Indian economy, the Brazilian economy is also of mixed type.",
           "options": [
             "True",
@@ -4702,6 +4763,7 @@
         },
         {
           "id": "q38",
+          "qType": "mcq",
           "question": "True or False: Compared to Brazil, the national income of India is high.",
           "options": [
             "True",
@@ -4713,6 +4775,7 @@
         },
         {
           "id": "q39",
+          "qType": "mcq",
           "question": "True or False: Compared to Brazil, the national per capita income of India is high.",
           "options": [
             "True",
@@ -4724,6 +4787,7 @@
         },
         {
           "id": "q40",
+          "qType": "mcq",
           "question": "True or False: In Brazil, fishing is carried out on a large scale in fresh water.",
           "options": [
             "True",
@@ -4735,6 +4799,7 @@
         },
         {
           "id": "q41",
+          "qType": "mcq",
           "question": "True or False: In India, the state of Rajasthan is famous for Cuddapah.",
           "options": [
             "True",
@@ -4746,6 +4811,7 @@
         },
         {
           "id": "q42",
+          "qType": "mcq",
           "question": "True or False: Jute industry is concentrated in the state of West Bengal.",
           "options": [
             "True",
@@ -4757,6 +4823,7 @@
         },
         {
           "id": "q43",
+          "qType": "mcq",
           "question": "True or False: Ecotourism is being developed in Brazil.",
           "options": [
             "True",
@@ -4768,6 +4835,7 @@
         },
         {
           "id": "q44",
+          "qType": "mcq",
           "question": "True or False: Tourism is a visible trade.",
           "options": [
             "True",
@@ -4779,6 +4847,7 @@
         },
         {
           "id": "q45",
+          "qType": "mcq",
           "question": "True or False: Brazil's time zone is ahead of India's time.",
           "options": [
             "True",
@@ -4790,6 +4859,7 @@
         },
         {
           "id": "q46",
+          "qType": "mcq",
           "question": "True or False: The development of tourism in India has begun recently.",
           "options": [
             "True",
@@ -4895,26 +4965,22 @@
         {
           "id": "f1",
           "front": "Rainfall type in Chennai region in retreating monsoon season",
-          "back": "Retreating monsoon rainfall",
-          "order": 1
+          "back": "Retreating monsoon rainfall"
         },
         {
           "id": "f2",
           "front": "Rainfall type in equatorial regions due to high heat",
-          "back": "Convectional rainfall",
-          "order": 2
+          "back": "Convectional rainfall"
         },
         {
           "id": "f3",
           "front": "Brazilian shifting agriculture causing habitat loss",
-          "back": "Roka",
-          "order": 3
+          "back": "Roka"
         },
         {
           "id": "f4",
           "front": "Tourism that maintains environmental balance",
-          "back": "Ecotourism",
-          "order": 4
+          "back": "Ecotourism"
         }
       ],
       "quiz": []
@@ -5201,26 +5267,22 @@
         {
           "id": "f1",
           "front": "Sex ratio of India vs Brazil (2011)",
-          "back": "India: 947 (unfavourable for females); Brazil: 1090 (favourable for females)",
-          "order": 1
+          "back": "India: 947 (unfavourable for females); Brazil: 1090 (favourable for females)"
         },
         {
           "id": "f2",
           "front": "Urbanisation rate: India vs Brazil (2011)",
-          "back": "India: 31.2%; Brazil: 84.6%",
-          "order": 2
+          "back": "India: 31.2%; Brazil: 84.6%"
         },
         {
           "id": "f3",
           "front": "Which coast of India has estuaries vs deltas",
-          "back": "Western coast — estuaries; Eastern coast — deltas",
-          "order": 3
+          "back": "Western coast — estuaries; Eastern coast — deltas"
         },
         {
           "id": "f4",
           "front": "Internet access: India vs Brazil",
-          "back": "India: ~30% of population; Brazil: more than 45%",
-          "order": 4
+          "back": "India: ~30% of population; Brazil: more than 45%"
         }
       ],
       "quiz": []
@@ -5490,32 +5552,27 @@
         {
           "id": "f1",
           "front": "India's latitudinal extent",
-          "back": "8°4' N to 37°6' N",
-          "order": 1
+          "back": "8°4' N to 37°6' N"
         },
         {
           "id": "f2",
           "front": "Brazil's coastline length",
-          "back": "Approximately 7,400 km",
-          "order": 2
+          "back": "Approximately 7,400 km"
         },
         {
           "id": "f3",
           "front": "Youngest range of the Himalayas",
-          "back": "Shivalik range",
-          "order": 3
+          "back": "Shivalik range"
         },
         {
           "id": "f4",
           "front": "Why 'Go West' policy was promoted in Brazil",
-          "back": "To reduce concentration of settlements in the south/southeast and ease regional imbalance",
-          "order": 4
+          "back": "To reduce concentration of settlements in the south/southeast and ease regional imbalance"
         },
         {
           "id": "f5",
           "front": "When is Census conducted in India vs Brazil",
-          "back": "India: start of the decade (2001, 2011); Brazil: end of the decade (2000, 2010)",
-          "order": 5
+          "back": "India: start of the decade (2001, 2011); Brazil: end of the decade (2000, 2010)"
         }
       ],
       "quiz": []

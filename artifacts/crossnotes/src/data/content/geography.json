@@ -5,7 +5,7 @@
       "num": 1,
       "title": "Board's Question Paper: July 2023 (With Full Solution and Marking Scheme)",
       "emoji": "📝",
-      "kind": "paper",
+      "kind": "chapter",
       "overview": {
         "summary": "This is the complete Maharashtra Board Std. X Geography question paper from July 2023, reproduced with the full official marking scheme and model solutions. It covers Q.1 (MCQs), Q.2 (matching), Q.3 (one-sentence answers), Q.4 (map work on India/Brazil), Q.5 (geographical reasons), Q.6 (graph work), and Q.7 (detailed answers), spanning topics from India-Brazil comparisons, wildlife, population density, tourism, and historical background.",
         "youWillLearn": [
@@ -20,16 +20,18 @@
       "notes": [
         {
           "id": "n1",
-          "type": "heading",
-          "content": "Exam Format & General Instructions"
+          "type": "paragraph",
+          "title": "Exam Format & General Instructions",
+          "content": "Exam Format & General Instructions",
+          "important": false
         },
         {
           "id": "n2",
-          "type": "rules",
+          "type": "list",
           "title": "Time and Marks",
-          "content": "Time : 2 Hours] [Max. Marks : 40",
-          "important": true,
-          "rules": [
+          "ordered": false,
+          "items": [
+            "Time : 2 Hours] [Max. Marks : 40",
             "All questions/activities are compulsory.",
             "Figures to the right indicate full marks.",
             "For Q. No. 4 (A) use supplied outline map of India/Brazil and tie it to the main answer-book.",
@@ -42,8 +44,10 @@
         },
         {
           "id": "n3",
-          "type": "heading",
-          "content": "Q. 1 — Choose the Correct Options and Rewrite the Sentences (4 Marks)"
+          "type": "paragraph",
+          "title": "Q. 1 — Choose the Correct Options and Rewrite the Sentences (4 Marks)",
+          "content": "Q. 1 — Choose the Correct Options and Rewrite the Sentences (4 Marks)",
+          "important": false
         },
         {
           "id": "n4",
@@ -89,14 +93,15 @@
         },
         {
           "id": "n9",
-          "type": "heading",
-          "content": "Q. 2 — Match the Correct Pairs (4 Marks)"
+          "type": "paragraph",
+          "title": "Q. 2 — Match the Correct Pairs (4 Marks)",
+          "content": "Q. 2 — Match the Correct Pairs (4 Marks)",
+          "important": false
         },
         {
           "id": "n10",
           "type": "match_column",
-          "title": "Q.2 Matching",
-          "instructions": "Match each item in Column A with its correct pair in Column B.",
+          "title": "Q.2 Matching — Match each item in Column A with its correct pair in Column B.",
           "left": [
             "Highlands (Ch. 3)",
             "Field visit (Ch. 1)",
@@ -120,8 +125,10 @@
         },
         {
           "id": "n11",
-          "type": "heading",
-          "content": "Q. 3 — Answer in One Sentence Each (Any Four) (4 Marks)"
+          "type": "paragraph",
+          "title": "Q. 3 — Answer in One Sentence Each (Any Four) (4 Marks)",
+          "content": "Q. 3 — Answer in One Sentence Each (Any Four) (4 Marks)",
+          "important": false
         },
         {
           "id": "n12",
@@ -160,8 +167,10 @@
         },
         {
           "id": "n17",
-          "type": "heading",
-          "content": "Q. 4 (A) — Mark the Following in the Outline Map of India (Any Four) (4 Marks)"
+          "type": "paragraph",
+          "title": "Q. 4 (A) — Mark the Following in the Outline Map of India (Any Four) (4 Marks)",
+          "content": "Q. 4 (A) — Mark the Following in the Outline Map of India (Any Four) (4 Marks)",
+          "important": false
         },
         {
           "id": "n18",
@@ -185,8 +194,10 @@
         },
         {
           "id": "n20",
-          "type": "heading",
-          "content": "Q. 4 (B) — Observe the Map of Brazil and Answer (Any Four) (Ch. 6) (4 Marks)"
+          "type": "paragraph",
+          "title": "Q. 4 (B) — Observe the Map of Brazil and Answer (Any Four) (Ch. 6) (4 Marks)",
+          "content": "Q. 4 (B) — Observe the Map of Brazil and Answer (Any Four) (Ch. 6) (4 Marks)",
+          "important": false
         },
         {
           "id": "n21",
@@ -225,8 +236,10 @@
         },
         {
           "id": "n26",
-          "type": "heading",
-          "content": "Q. 5 — Give Geographical Reasons (Any Two) (6 Marks)"
+          "type": "paragraph",
+          "title": "Q. 5 — Give Geographical Reasons (Any Two) (6 Marks)",
+          "content": "Q. 5 — Give Geographical Reasons (Any Two) (6 Marks)",
+          "important": false
         },
         {
           "id": "n27",
@@ -254,8 +267,10 @@
         },
         {
           "id": "n31",
-          "type": "heading",
-          "content": "Q. 6 (A) — Prepare a Line Graph and Answer (Ch. 9) (6 Marks)"
+          "type": "paragraph",
+          "title": "Q. 6 (A) — Prepare a Line Graph and Answer (Ch. 9) (6 Marks)",
+          "content": "Q. 6 (A) — Prepare a Line Graph and Answer (Ch. 9) (6 Marks)",
+          "important": false
         },
         {
           "id": "n32",
@@ -311,8 +326,10 @@
         },
         {
           "id": "n36",
-          "type": "heading",
-          "content": "Q. 6 (B) — Observe the Graph and Answer: Tourism and Economy, 2016 (Ch. 9) (6 Marks)"
+          "type": "paragraph",
+          "title": "Q. 6 (B) — Observe the Graph and Answer: Tourism and Economy, 2016 (Ch. 9) (6 Marks)",
+          "content": "Q. 6 (B) — Observe the Graph and Answer: Tourism and Economy, 2016 (Ch. 9) (6 Marks)",
+          "important": false
         },
         {
           "id": "n37",
@@ -358,8 +375,10 @@
         },
         {
           "id": "n43",
-          "type": "heading",
-          "content": "Q. 7 — Answer in Detail (Any Two) (8 Marks)"
+          "type": "paragraph",
+          "title": "Q. 7 — Answer in Detail (Any Two) (8 Marks)",
+          "content": "Q. 7 — Answer in Detail (Any Two) (8 Marks)",
+          "important": false
         },
         {
           "id": "n44",
@@ -515,9 +534,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 1: Choose the Correct Options (Q.1, 4 Marks)",
           "content": "Question Set 1: Choose the Correct Options (Q.1, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -526,9 +547,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 1: Field Visit",
           "content": "Chapter 1: Field Visit",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -537,9 +560,11 @@
           "id": "n4"
         },
         {
-          "type": "heading",
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n5"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -548,9 +573,11 @@
           "id": "n6"
         },
         {
-          "type": "heading",
+          "id": "n7",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n7"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -559,9 +586,11 @@
           "id": "n8"
         },
         {
-          "type": "heading",
+          "id": "n9",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate",
           "content": "Chapter 4: Climate",
-          "id": "n9"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -570,9 +599,11 @@
           "id": "n10"
         },
         {
-          "type": "heading",
+          "id": "n11",
+          "type": "paragraph",
+          "title": "Chapter 5: Natural Vegetation and Wildlife",
           "content": "Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n11"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -581,9 +612,11 @@
           "id": "n12"
         },
         {
-          "type": "heading",
+          "id": "n13",
+          "type": "paragraph",
+          "title": "Chapter 6: Population",
           "content": "Chapter 6: Population",
-          "id": "n13"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -592,9 +625,11 @@
           "id": "n14"
         },
         {
-          "type": "heading",
+          "id": "n15",
+          "type": "paragraph",
+          "title": "Chapter 7: Human Settlements",
           "content": "Chapter 7: Human Settlements",
-          "id": "n15"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -603,9 +638,11 @@
           "id": "n16"
         },
         {
-          "type": "heading",
+          "id": "n17",
+          "type": "paragraph",
+          "title": "Chapter 8: Economy and Occupations",
           "content": "Chapter 8: Economy and Occupations",
-          "id": "n17"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -614,9 +651,11 @@
           "id": "n18"
         },
         {
-          "type": "heading",
+          "id": "n19",
+          "type": "paragraph",
+          "title": "Chapter 9: Tourism, Transport and Communication",
           "content": "Chapter 9: Tourism, Transport and Communication",
-          "id": "n19"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -1457,9 +1496,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 2: Identify the Correlation and Complete the Chain (Q.1, 4 Marks)",
           "content": "Question Set 2: Identify the Correlation and Complete the Chain (Q.1, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -1468,9 +1509,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n3"
+          "important": false
         },
         {
           "id": "n4",
@@ -1487,9 +1530,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n6"
+          "important": false
         },
         {
           "id": "n7",
@@ -1551,9 +1596,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 3: Identify the Correct Group (Q.1, 4 Marks)",
           "content": "Question Set 3: Identify the Correct Group (Q.1, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -1562,9 +1609,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -1573,9 +1622,11 @@
           "id": "n4"
         },
         {
-          "type": "heading",
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n5"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -1584,9 +1635,11 @@
           "id": "n6"
         },
         {
-          "type": "heading",
+          "id": "n7",
+          "type": "paragraph",
+          "title": "Chapter 9: Tourism, Transport and Communication",
           "content": "Chapter 9: Tourism, Transport and Communication",
-          "id": "n7"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -1730,9 +1783,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 4: Match the Correct Pairs (Q.2, 4 Marks)",
           "content": "Question Set 4: Match the Correct Pairs (Q.2, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -1741,14 +1796,15 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "(1) Chapter 1: Field Visit",
           "content": "(1) Chapter 1: Field Visit",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "match_column",
-          "title": "Matching",
-          "instructions": "Match each item in Column A with its correct pair in Column B.",
+          "title": "Matching — Match each item in Column A with its correct pair in Column B.",
           "left": [
             "Field visit",
             "Notebook",
@@ -1771,14 +1827,15 @@
           "id": "n4"
         },
         {
-          "type": "heading",
+          "id": "n5",
+          "type": "paragraph",
+          "title": "(2) Chapter 2: Location and Extent",
           "content": "(2) Chapter 2: Location and Extent",
-          "id": "n5"
+          "important": false
         },
         {
           "type": "match_column",
-          "title": "Matching",
-          "instructions": "Match each item in Column A with its correct pair in Column B.",
+          "title": "Matching — Match each item in Column A with its correct pair in Column B.",
           "left": [
             "Football",
             "Brazil",
@@ -1801,14 +1858,15 @@
           "id": "n6"
         },
         {
-          "type": "heading",
+          "id": "n7",
+          "type": "paragraph",
+          "title": "(3) Chapter 3: Physiography and Drainage",
           "content": "(3) Chapter 3: Physiography and Drainage",
-          "id": "n7"
+          "important": false
         },
         {
           "type": "match_column",
-          "title": "Matching",
-          "instructions": "Match each item in Column A with its correct pair in Column B.",
+          "title": "Matching — Match each item in Column A with its correct pair in Column B.",
           "left": [
             "Plain region",
             "Swampy region",
@@ -1831,14 +1889,15 @@
           "id": "n8"
         },
         {
-          "type": "heading",
+          "id": "n9",
+          "type": "paragraph",
+          "title": "(4) Chapter 4: Climate",
           "content": "(4) Chapter 4: Climate",
-          "id": "n9"
+          "important": false
         },
         {
           "type": "match_column",
-          "title": "Matching",
-          "instructions": "Match each item in Column A with its correct pair in Column B.",
+          "title": "Matching — Match each item in Column A with its correct pair in Column B.",
           "left": [
             "Climate of India",
             "Rajasthan",
@@ -1861,14 +1920,15 @@
           "id": "n10"
         },
         {
-          "type": "heading",
+          "id": "n11",
+          "type": "paragraph",
+          "title": "(5) Chapter 5: Natural Vegetation and Wildlife",
           "content": "(5) Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n11"
+          "important": false
         },
         {
           "type": "match_column",
-          "title": "Matching",
-          "instructions": "Match each item in Column A with its correct pair in Column B.",
+          "title": "Matching — Match each item in Column A with its correct pair in Column B.",
           "left": [
             "Thorny and bush type vegetation",
             "Deciduous forests",
@@ -1892,14 +1952,15 @@
           "id": "n12"
         },
         {
-          "type": "heading",
+          "id": "n13",
+          "type": "paragraph",
+          "title": "(6) Chapter 6: Population",
           "content": "(6) Chapter 6: Population",
-          "id": "n13"
+          "important": false
         },
         {
           "type": "match_column",
-          "title": "Matching",
-          "instructions": "Match each item in Column A with its correct pair in Column B.",
+          "title": "Matching — Match each item in Column A with its correct pair in Column B.",
           "left": [
             "Densely populated state in Brazil",
             "Sparsely populated state in India",
@@ -1922,14 +1983,15 @@
           "id": "n14"
         },
         {
-          "type": "heading",
+          "id": "n15",
+          "type": "paragraph",
+          "title": "(7) Chapter 9: Tourism, Transport and Communication",
           "content": "(7) Chapter 9: Tourism, Transport and Communication",
-          "id": "n15"
+          "important": false
         },
         {
           "type": "match_column",
-          "title": "Matching",
-          "instructions": "Match each item in Column A with its correct pair in Column B.",
+          "title": "Matching — Match each item in Column A with its correct pair in Column B.",
           "left": [
             "Trans-Amazonian Highway",
             "Road transport",
@@ -2006,9 +2068,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 5: Identify the Odd Man Out (Q.2, 4 Marks)",
           "content": "Question Set 5: Identify the Odd Man Out (Q.2, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2017,9 +2081,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 1: Field Visit",
           "content": "Chapter 1: Field Visit",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2028,9 +2094,11 @@
           "id": "n4"
         },
         {
-          "type": "heading",
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n5"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2039,9 +2107,11 @@
           "id": "n6"
         },
         {
-          "type": "heading",
+          "id": "n7",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n7"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2050,9 +2120,11 @@
           "id": "n8"
         },
         {
-          "type": "heading",
+          "id": "n9",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate",
           "content": "Chapter 4: Climate",
-          "id": "n9"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2061,9 +2133,11 @@
           "id": "n10"
         },
         {
-          "type": "heading",
+          "id": "n11",
+          "type": "paragraph",
+          "title": "Chapter 5: Natural Vegetation and Wildlife",
           "content": "Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n11"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2072,9 +2146,11 @@
           "id": "n12"
         },
         {
-          "type": "heading",
+          "id": "n13",
+          "type": "paragraph",
+          "title": "Chapter 6: Population",
           "content": "Chapter 6: Population",
-          "id": "n13"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2083,9 +2159,11 @@
           "id": "n14"
         },
         {
-          "type": "heading",
+          "id": "n15",
+          "type": "paragraph",
+          "title": "Chapter 7: Human Settlements",
           "content": "Chapter 7: Human Settlements",
-          "id": "n15"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2094,9 +2172,11 @@
           "id": "n16"
         },
         {
-          "type": "heading",
+          "id": "n17",
+          "type": "paragraph",
+          "title": "Chapter 8: Economy and Occupations",
           "content": "Chapter 8: Economy and Occupations",
-          "id": "n17"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2424,9 +2504,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 6: Arrange the Sentences (Q.2, 4 Marks)",
           "content": "Question Set 6: Arrange the Sentences (Q.2, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2435,9 +2517,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 1: Field Visit — Preparing for field visit",
           "content": "Chapter 1: Field Visit — Preparing for field visit",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2446,9 +2530,11 @@
           "id": "n4"
         },
         {
-          "type": "heading",
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate — Drought Quadrilateral in Brazil",
           "content": "Chapter 4: Climate — Drought Quadrilateral in Brazil",
-          "id": "n5"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2457,9 +2543,11 @@
           "id": "n6"
         },
         {
-          "type": "heading",
+          "id": "n7",
+          "type": "paragraph",
+          "title": "Chapter 6: Population — Population distribution in Ganga River Basin",
           "content": "Chapter 6: Population — Population distribution in Ganga River Basin",
-          "id": "n7"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2468,9 +2556,11 @@
           "id": "n8"
         },
         {
-          "type": "heading",
+          "id": "n9",
+          "type": "paragraph",
+          "title": "Chapter 7: Human Settlements — 'Go West' policy in Brazil",
           "content": "Chapter 7: Human Settlements — 'Go West' policy in Brazil",
-          "id": "n9"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2565,9 +2655,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 7: Complete the Series (Q.2, 4 Marks)",
           "content": "Question Set 7: Complete the Series (Q.2, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2576,9 +2668,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "(1) Chapter 3: Physiography and Drainage",
           "content": "(1) Chapter 3: Physiography and Drainage",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2587,9 +2681,11 @@
           "id": "n4"
         },
         {
-          "type": "heading",
+          "id": "n5",
+          "type": "paragraph",
+          "title": "(2) Chapter 5: Natural Vegetation and Wildlife",
           "content": "(2) Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n5"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2598,9 +2694,11 @@
           "id": "n6"
         },
         {
-          "type": "heading",
+          "id": "n7",
+          "type": "paragraph",
+          "title": "(3) Chapter 7: Human Settlements",
           "content": "(3) Chapter 7: Human Settlements",
-          "id": "n7"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2609,9 +2707,11 @@
           "id": "n8"
         },
         {
-          "type": "heading",
+          "id": "n9",
+          "type": "paragraph",
+          "title": "(4) Chapter 8: Economy and Occupations",
           "content": "(4) Chapter 8: Economy and Occupations",
-          "id": "n9"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2664,9 +2764,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 8: Identify the Incorrect Pair (Q.2, 4 Marks)",
           "content": "Question Set 8: Identify the Incorrect Pair (Q.2, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2675,9 +2777,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2704,9 +2808,11 @@
           "id": "n7"
         },
         {
-          "type": "heading",
+          "id": "n8",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate",
           "content": "Chapter 4: Climate",
-          "id": "n8"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2775,9 +2881,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 9: Answer in One Sentence (Q.3, 4 Marks)",
           "content": "Question Set 9: Answer in One Sentence (Q.3, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -2786,9 +2894,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 1: Field Visit",
           "content": "Chapter 1: Field Visit",
-          "id": "n3"
+          "important": false
         },
         {
           "id": "n4",
@@ -2805,9 +2915,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n6"
+          "important": false
         },
         {
           "id": "n7",
@@ -2866,9 +2978,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n15",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n15"
+          "important": false
         },
         {
           "id": "n16",
@@ -2927,9 +3041,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n24",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate",
           "content": "Chapter 4: Climate",
-          "id": "n24"
+          "important": false
         },
         {
           "id": "n25",
@@ -2974,9 +3090,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n31",
+          "type": "paragraph",
+          "title": "Chapter 5: Natural Vegetation and Wildlife",
           "content": "Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n31"
+          "important": false
         },
         {
           "id": "n32",
@@ -3007,9 +3125,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n36",
+          "type": "paragraph",
+          "title": "Chapter 6: Population",
           "content": "Chapter 6: Population",
-          "id": "n36"
+          "important": false
         },
         {
           "id": "n37",
@@ -3040,9 +3160,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n41",
+          "type": "paragraph",
+          "title": "Chapter 7: Human Settlements",
           "content": "Chapter 7: Human Settlements",
-          "id": "n41"
+          "important": false
         },
         {
           "id": "n42",
@@ -3094,9 +3216,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n49",
+          "type": "paragraph",
+          "title": "Chapter 8: Economy and Occupations",
           "content": "Chapter 8: Economy and Occupations",
-          "id": "n49"
+          "important": false
         },
         {
           "id": "n50",
@@ -3148,9 +3272,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n57",
+          "type": "paragraph",
+          "title": "Chapter 9: Tourism, Transport and Communication",
           "content": "Chapter 9: Tourism, Transport and Communication",
-          "id": "n57"
+          "important": false
         },
         {
           "id": "n58",
@@ -3235,9 +3361,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 10: Name the Following (Q.3, 4 Marks)",
           "content": "Question Set 10: Name the Following (Q.3, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -3246,9 +3374,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "list",
@@ -3304,9 +3434,11 @@
           "id": "n7"
         },
         {
-          "type": "heading",
+          "id": "n8",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n8"
+          "important": false
         },
         {
           "type": "list",
@@ -3359,9 +3491,11 @@
           "id": "n12"
         },
         {
-          "type": "heading",
+          "id": "n13",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate",
           "content": "Chapter 4: Climate",
-          "id": "n13"
+          "important": false
         },
         {
           "type": "list",
@@ -3430,9 +3564,11 @@
           "id": "n19"
         },
         {
-          "type": "heading",
+          "id": "n20",
+          "type": "paragraph",
+          "title": "Chapter 5: Natural Vegetation and Wildlife",
           "content": "Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n20"
+          "important": false
         },
         {
           "type": "list",
@@ -3547,9 +3683,11 @@
           "id": "n28"
         },
         {
-          "type": "heading",
+          "id": "n29",
+          "type": "paragraph",
+          "title": "Chapter 6: Population",
           "content": "Chapter 6: Population",
-          "id": "n29"
+          "important": false
         },
         {
           "type": "list",
@@ -3615,9 +3753,11 @@
           "id": "n34"
         },
         {
-          "type": "heading",
+          "id": "n35",
+          "type": "paragraph",
+          "title": "Chapter 7: Human Settlements",
           "content": "Chapter 7: Human Settlements",
-          "id": "n35"
+          "important": false
         },
         {
           "type": "list",
@@ -3661,9 +3801,11 @@
           "id": "n38"
         },
         {
-          "type": "heading",
+          "id": "n39",
+          "type": "paragraph",
+          "title": "Chapter 8: Economy and Occupations",
           "content": "Chapter 8: Economy and Occupations",
-          "id": "n39"
+          "important": false
         },
         {
           "type": "list",
@@ -3830,9 +3972,11 @@
           "id": "n50"
         },
         {
-          "type": "heading",
+          "id": "n51",
+          "type": "paragraph",
+          "title": "Chapter 9: Tourism, Transport and Communication",
           "content": "Chapter 9: Tourism, Transport and Communication",
-          "id": "n51"
+          "important": false
         },
         {
           "type": "list",
@@ -3928,9 +4072,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 11: Say Right or Wrong (Q.3, 4 Marks)",
           "content": "Question Set 11: Say Right or Wrong (Q.3, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -3939,9 +4085,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 1: Field Visit",
           "content": "Chapter 1: Field Visit",
-          "id": "n3"
+          "important": false
         },
         {
           "id": "n4",
@@ -3956,9 +4104,11 @@
           ]
         },
         {
-          "type": "heading",
+          "id": "n8",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n8"
+          "important": false
         },
         {
           "id": "n9",
@@ -3974,9 +4124,11 @@
           ]
         },
         {
-          "type": "heading",
+          "id": "n14",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n14"
+          "important": false
         },
         {
           "id": "n15",
@@ -3992,9 +4144,11 @@
           ]
         },
         {
-          "type": "heading",
+          "id": "n20",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate",
           "content": "Chapter 4: Climate",
-          "id": "n20"
+          "important": false
         },
         {
           "id": "n21",
@@ -4012,9 +4166,11 @@
           ]
         },
         {
-          "type": "heading",
+          "id": "n28",
+          "type": "paragraph",
+          "title": "Chapter 5: Natural Vegetation and Wildlife",
           "content": "Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n28"
+          "important": false
         },
         {
           "id": "n29",
@@ -4027,9 +4183,11 @@
           ]
         },
         {
-          "type": "heading",
+          "id": "n31",
+          "type": "paragraph",
+          "title": "Chapter 6: Population",
           "content": "Chapter 6: Population",
-          "id": "n31"
+          "important": false
         },
         {
           "id": "n32",
@@ -4048,9 +4206,11 @@
           ]
         },
         {
-          "type": "heading",
+          "id": "n40",
+          "type": "paragraph",
+          "title": "Chapter 7: Human Settlements",
           "content": "Chapter 7: Human Settlements",
-          "id": "n40"
+          "important": false
         },
         {
           "id": "n41",
@@ -4066,9 +4226,11 @@
           ]
         },
         {
-          "type": "heading",
+          "id": "n46",
+          "type": "paragraph",
+          "title": "Chapter 8: Economy and Occupations",
           "content": "Chapter 8: Economy and Occupations",
-          "id": "n46"
+          "important": false
         },
         {
           "id": "n47",
@@ -4085,9 +4247,11 @@
           ]
         },
         {
-          "type": "heading",
+          "id": "n53",
+          "type": "paragraph",
+          "title": "Chapter 9: Tourism, Transport and Communication",
           "content": "Chapter 9: Tourism, Transport and Communication",
-          "id": "n53"
+          "important": false
         },
         {
           "id": "n54",
@@ -4651,9 +4815,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 12: Identify the Type (Q.3, 4 Marks)",
           "content": "Question Set 12: Identify the Type (Q.3, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -4662,9 +4828,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate",
           "content": "Chapter 4: Climate",
-          "id": "n3"
+          "important": false
         },
         {
           "id": "n4",
@@ -4681,9 +4849,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Chapter 5: Natural Vegetation and Wildlife",
           "content": "Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n6"
+          "important": false
         },
         {
           "id": "n7",
@@ -4700,9 +4870,11 @@
           "important": true
         },
         {
-          "type": "heading",
+          "id": "n9",
+          "type": "paragraph",
+          "title": "Chapter 9: Tourism, Transport and Communication",
           "content": "Chapter 9: Tourism, Transport and Communication",
-          "id": "n9"
+          "important": false
         },
         {
           "id": "n10",
@@ -4761,9 +4933,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 13: Differentiate Between (Q.3, 4 Marks)",
           "content": "Question Set 13: Differentiate Between (Q.3, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -4772,9 +4946,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "table",
@@ -4796,9 +4972,11 @@
           "id": "n4"
         },
         {
-          "type": "heading",
+          "id": "n5",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n5"
+          "important": false
         },
         {
           "type": "table",
@@ -4858,9 +5036,11 @@
           "id": "n8"
         },
         {
-          "type": "heading",
+          "id": "n9",
+          "type": "paragraph",
+          "title": "Chapter 5: Natural Vegetation and Wildlife",
           "content": "Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n9"
+          "important": false
         },
         {
           "type": "table",
@@ -4882,9 +5062,11 @@
           "id": "n10"
         },
         {
-          "type": "heading",
+          "id": "n11",
+          "type": "paragraph",
+          "title": "Chapter 6: Population",
           "content": "Chapter 6: Population",
-          "id": "n11"
+          "important": false
         },
         {
           "type": "table",
@@ -4906,9 +5088,11 @@
           "id": "n12"
         },
         {
-          "type": "heading",
+          "id": "n13",
+          "type": "paragraph",
+          "title": "Chapter 7: Human Settlements",
           "content": "Chapter 7: Human Settlements",
-          "id": "n13"
+          "important": false
         },
         {
           "type": "table",
@@ -4949,9 +5133,11 @@
           "id": "n15"
         },
         {
-          "type": "heading",
+          "id": "n16",
+          "type": "paragraph",
+          "title": "Chapter 9: Tourism, Transport and Communication",
           "content": "Chapter 9: Tourism, Transport and Communication",
-          "id": "n16"
+          "important": false
         },
         {
           "type": "table",
@@ -4992,9 +5178,11 @@
           "id": "n18"
         },
         {
-          "type": "heading",
+          "id": "n19",
+          "type": "paragraph",
+          "title": "Additional Important Questions for Self-Practice",
           "content": "Additional Important Questions for Self-Practice",
-          "id": "n19"
+          "important": false
         },
         {
           "type": "list",
@@ -5052,9 +5240,11 @@
       },
       "notes": [
         {
-          "type": "heading",
+          "id": "n1",
+          "type": "paragraph",
+          "title": "Question Set 14: Write Short Notes (Q.3, 4 Marks)",
           "content": "Question Set 14: Write Short Notes (Q.3, 4 Marks)",
-          "id": "n1"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5063,9 +5253,11 @@
           "id": "n2"
         },
         {
-          "type": "heading",
+          "id": "n3",
+          "type": "paragraph",
+          "title": "Chapter 1: Field Visit",
           "content": "Chapter 1: Field Visit",
-          "id": "n3"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5080,9 +5272,11 @@
           "id": "n5"
         },
         {
-          "type": "heading",
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Chapter 2: Location and Extent",
           "content": "Chapter 2: Location and Extent",
-          "id": "n6"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5103,9 +5297,11 @@
           "id": "n9"
         },
         {
-          "type": "heading",
+          "id": "n10",
+          "type": "paragraph",
+          "title": "Chapter 3: Physiography and Drainage",
           "content": "Chapter 3: Physiography and Drainage",
-          "id": "n10"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5150,9 +5346,11 @@
           "id": "n17"
         },
         {
-          "type": "heading",
+          "id": "n18",
+          "type": "paragraph",
+          "title": "Chapter 4: Climate",
           "content": "Chapter 4: Climate",
-          "id": "n18"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5161,9 +5359,11 @@
           "id": "n19"
         },
         {
-          "type": "heading",
+          "id": "n20",
+          "type": "paragraph",
+          "title": "Chapter 5: Natural Vegetation and Wildlife",
           "content": "Chapter 5: Natural Vegetation and Wildlife",
-          "id": "n20"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5190,9 +5390,11 @@
           "id": "n24"
         },
         {
-          "type": "heading",
+          "id": "n25",
+          "type": "paragraph",
+          "title": "Chapter 6: Population",
           "content": "Chapter 6: Population",
-          "id": "n25"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5207,9 +5409,11 @@
           "id": "n27"
         },
         {
-          "type": "heading",
+          "id": "n28",
+          "type": "paragraph",
+          "title": "Chapter 7: Human Settlements",
           "content": "Chapter 7: Human Settlements",
-          "id": "n28"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5218,9 +5422,11 @@
           "id": "n29"
         },
         {
-          "type": "heading",
+          "id": "n30",
+          "type": "paragraph",
+          "title": "Chapter 8: Economy and Occupations",
           "content": "Chapter 8: Economy and Occupations",
-          "id": "n30"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5235,9 +5441,11 @@
           "id": "n32"
         },
         {
-          "type": "heading",
+          "id": "n33",
+          "type": "paragraph",
+          "title": "Chapter 9: Tourism, Transport and Communication",
           "content": "Chapter 9: Tourism, Transport and Communication",
-          "id": "n33"
+          "important": false
         },
         {
           "type": "paragraph",
@@ -5258,9 +5466,11 @@
           "id": "n36"
         },
         {
-          "type": "heading",
+          "id": "n37",
+          "type": "paragraph",
+          "title": "Additional Important Questions for Self-Practice",
           "content": "Additional Important Questions for Self-Practice",
-          "id": "n37"
+          "important": false
         },
         {
           "type": "list",

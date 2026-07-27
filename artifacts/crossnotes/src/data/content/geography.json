@@ -520,7 +520,7 @@
     {
       "id": "ch2",
       "num": 2,
-      "title": "Question Set 1: Choose the Correct Options",
+      "title": "Chapter 2: Choose the Correct Options",
       "emoji": "✅",
       "kind": "chapter",
       "overview": {
@@ -1484,7 +1484,7 @@
     {
       "id": "ch3",
       "num": 3,
-      "title": "Question Set 2: Identify the Correlation and Complete the Chain",
+      "title": "Chapter 3: Identify the Correlation and Complete the Chain",
       "emoji": "🔗",
       "kind": "chapter",
       "overview": {
@@ -1582,7 +1582,7 @@
     {
       "id": "ch4",
       "num": 4,
-      "title": "Question Set 3: Identify the Correct Group",
+      "title": "Chapter 4: Identify the Correct Group",
       "emoji": "📌",
       "kind": "chapter",
       "overview": {
@@ -1770,7 +1770,7 @@
     {
       "id": "ch5",
       "num": 5,
-      "title": "Question Set 4: Match the Correct Pairs",
+      "title": "Chapter 5: Match the Correct Pairs",
       "emoji": "🧩",
       "kind": "chapter",
       "overview": {
@@ -2057,7 +2057,7 @@
     {
       "id": "ch6",
       "num": 6,
-      "title": "Question Set 5: Identify the Odd Man Out",
+      "title": "Chapter 6: Identify the Odd Man Out",
       "emoji": "🔍",
       "kind": "chapter",
       "overview": {
@@ -2490,7 +2490,7 @@
     {
       "id": "ch7",
       "num": 7,
-      "title": "Question Set 6: Arrange the Sentences",
+      "title": "Chapter 7: Arrange the Sentences",
       "emoji": "🔢",
       "kind": "chapter",
       "overview": {
@@ -2641,7 +2641,7 @@
     {
       "id": "ch8",
       "num": 8,
-      "title": "Question Set 7: Complete the Series",
+      "title": "Chapter 8: Complete the Series",
       "emoji": "🔗",
       "kind": "chapter",
       "overview": {
@@ -2751,7 +2751,7 @@
     {
       "id": "ch9",
       "num": 9,
-      "title": "Question Set 8: Identify the Incorrect Pair",
+      "title": "Chapter 9: Identify the Incorrect Pair",
       "emoji": "⚠️",
       "kind": "chapter",
       "overview": {
@@ -2870,7 +2870,7 @@
     {
       "id": "ch10",
       "num": 10,
-      "title": "Question Set 9: Answer in One Sentence",
+      "title": "Chapter 10: Answer in One Sentence",
       "emoji": "❓",
       "kind": "chapter",
       "overview": {
@@ -3350,7 +3350,7 @@
     {
       "id": "ch11",
       "num": 11,
-      "title": "Question Set 10: Name the Following",
+      "title": "Chapter 11: Name the Following",
       "emoji": "📋",
       "kind": "chapter",
       "overview": {
@@ -4061,7 +4061,7 @@
     {
       "id": "ch12",
       "num": 12,
-      "title": "Question Set 11: Say Right or Wrong",
+      "title": "Chapter 12: Say Right or Wrong",
       "emoji": "✅",
       "kind": "chapter",
       "overview": {
@@ -4804,7 +4804,7 @@
     {
       "id": "ch13",
       "num": 13,
-      "title": "Question Set 12: Identify the Type",
+      "title": "Chapter 13: Identify the Type",
       "emoji": "🏷️",
       "kind": "chapter",
       "overview": {
@@ -4922,7 +4922,7 @@
     {
       "id": "ch14",
       "num": 14,
-      "title": "Question Set 13: Differentiate Between",
+      "title": "Chapter 14: Differentiate Between",
       "emoji": "⚖️",
       "kind": "chapter",
       "overview": {
@@ -5228,7 +5228,7 @@
     {
       "id": "ch15",
       "num": 15,
-      "title": "Question Set 14: Write Short Notes",
+      "title": "Chapter 15: Write Short Notes",
       "emoji": "📝",
       "kind": "chapter",
       "overview": {

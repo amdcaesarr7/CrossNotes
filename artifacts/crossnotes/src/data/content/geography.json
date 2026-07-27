@@ -7,7 +7,7 @@
       "emoji": "🔍",
       "kind": "chapter",
       "overview": {
-        "summary": "A field visit is a geographical study conducted by actually visiting a location to collect first-hand information about its geographical, social, economic, historical, and cultural aspects. This chapter covers the purpose, preparation, essential items, precautions, and how to manage litter during such a visit.",
+        "summary": "A field visit is a geographical study conducted by actually visiting a location to collect first-hand information about its geographical, social, economic, historical, and cultural aspects.\nThis chapter covers the purpose, preparation, essential items, precautions, and how to manage litter during such a visit.",
         "youWillLearn": [
           "Define field visit and its purpose.",
           "Identify the items to carry for a field visit.",
@@ -21,7 +21,7 @@
           "id": "n1",
           "type": "paragraph",
           "title": "What is Field Visit?",
-          "content": "Collecting geographical and cultural information by actually paying a visit to a particular place is called 'field visit'. Its purpose includes geographical, historical, cultural, and social studies.",
+          "content": "Collecting geographical and cultural information by actually paying a visit to a particular place is called 'field visit'.\nIts purpose includes geographical, historical, cultural, and social studies.",
           "important": true
         },
         {
@@ -56,14 +56,14 @@
           "type": "qna",
           "title": "How to Manage Litter During Field Visit?",
           "question": "How will you manage the litter during the field visit?",
-          "qnaAnswer": "We can manage litter by: 1) Carrying containers/bags/dustbins to collect litter. 2) Informing everyone not to dump trash/waste on the field. 3) Creating awareness about cleanliness using charts, banners, or street plays. 4) Informing and requesting local corporations to take remedial actions against litter/waste dumps."
+          "qnaAnswer": "We can manage litter by:\n1) Carrying containers/bags/dustbins to collect litter.\n2) Informing everyone not to dump trash/waste on the field.\n3) Creating awareness about cleanliness using charts, banners, or street plays.\n4) Informing and requesting local corporations to take remedial actions against litter/waste dumps."
         },
         {
           "id": "n5",
           "type": "qna",
           "title": "Precautions During Field Visit",
           "question": "What precautions will you take continuously during a field visit?",
-          "qnaAnswer": "We will: 1) Ensure the safety of oneself and others, carrying an identity card, first aid box, etc. for emergencies. 2) Strictly obey the instructions given by teachers. 3) Try to gather information about local circumstances by conversing with local people. 4) Ensure that one does not harm the environment in any way."
+          "qnaAnswer": "We will:\n1) Ensure the safety of oneself and others, carrying an identity card, first aid box, etc. for emergencies.\n2) Strictly obey the instructions given by teachers.\n3) Try to gather information about local circumstances by conversing with local people.\n4) Ensure that one does not harm the environment in any way."
         },
         {
           "id": "n6",
@@ -87,7 +87,7 @@
         {
           "id": "f3",
           "front": "List three essential items for a field visit.",
-          "back": "1) Notebook and pen, 2) Compass, 3) Questionnaire."
+          "back": "1) Notebook and pen,\n2) Compass,\n3) Questionnaire."
         },
         {
           "id": "f4",
@@ -121,7 +121,7 @@
             "Camera"
           ],
           "correctAnswer": 2,
-          "explanation": "A bar chart is a method of presenting data and is not an essential item to carry on a field visit itself. Items like a notebook, map, and camera are directly useful for collection and observation.",
+          "explanation": "A bar chart is a method of presenting data and is not an essential item to carry on a field visit itself.\nItems like a notebook, map, and camera are directly useful for collection and observation.",
           "order": 2
         },
         {
@@ -149,7 +149,7 @@
             "Cultural"
           ],
           "correctAnswer": 2,
-          "explanation": "The main purposes are geographical, historical, cultural, and social studies. Entertainment is not the primary objective.",
+          "explanation": "The main purposes are geographical, historical, cultural, and social studies.\nEntertainment is not the primary objective.",
           "order": 4
         }
       ]
@@ -161,7 +161,7 @@
       "emoji": "🌍",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter examines the geographical location and extent of India and Brazil. It covers their latitudinal and longitudinal positions, hemispheres, neighboring countries, major cities, and unique geographical characteristics, highlighting the differences between the two nations.",
+        "summary": "This chapter examines the geographical location and extent of India and Brazil.\nIt covers their latitudinal and longitudinal positions, hemispheres, neighboring countries, major cities, and unique geographical characteristics, highlighting the differences between the two nations.",
         "youWillLearn": [
           "Describe the location and extent of India.",
           "Describe the location and extent of Brazil.",
@@ -175,14 +175,14 @@
           "id": "n1",
           "type": "paragraph",
           "title": "Location of India",
-          "content": "India is located in the Northern and Eastern Hemispheres. Its mainland extends from 8°4' N to 37°6' N latitude and 68°7' E to 97°25' E longitude. Tropic of Cancer passes through its center. The southernmost point of India is Indira Point.",
+          "content": "India is located in the Northern and Eastern Hemispheres.\nIts mainland extends from 8°4' N to 37°6' N latitude and 68°7' E to 97°25' E longitude.\nTropic of Cancer passes through its center.\nThe southernmost point of India is Indira Point.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
           "title": "Location of Brazil",
-          "content": "Brazil is located in the Northern, Southern, and Western Hemispheres. Its latitudinal extent is from 5°15' N to 33°45' S and longitudinal extent is from 34°45' W to 73°48' W. The Equator passes through the northern part of Brazil and the Tropic of Capricorn passes through the southern part.",
+          "content": "Brazil is located in the Northern, Southern, and Western Hemispheres.\nIts latitudinal extent is from 5°15' N to 33°45' S and longitudinal extent is from 34°45' W to 73°48' W.\nThe Equator passes through the northern part of Brazil and the Tropic of Capricorn passes through the southern part.",
           "important": true
         },
         {
@@ -209,14 +209,14 @@
           "type": "qna",
           "title": "Historical Background of India",
           "question": "Explain the historical background of India.",
-          "qnaAnswer": "India was under British rule for about one and a half centuries and got independence on 15th August 1947. It follows a federal parliamentary republic government. After facing challenges like wars and famines, India has become a major developing country and a key global market, often looked upon as a young country due to its high proportion of youth."
+          "qnaAnswer": "India was under British rule for about one and a half centuries and got independence on 15th August 1947.\nIt follows a federal parliamentary republic government.\nAfter facing challenges like wars and famines, India has become a major developing country and a key global market.\nIndia is often looked upon as a young country due to its high proportion of youth."
         },
         {
           "id": "n5",
           "type": "qna",
           "title": "Historical Background of Brazil",
           "question": "Explain the historical background of Brazil.",
-          "qnaAnswer": "Brazil was under Portuguese rule for over three centuries and gained independence on 7th September 1922. It had a military government from 1930 to 1985 and has since had a federal presidential republic. After overcoming financial difficulties in the late 20th century, Brazil is seen as a significant contributor to global economic growth."
+          "qnaAnswer": "Brazil was under Portuguese rule for over three centuries and gained independence on 7th September 1922.\nIt had a military government from 1930 to 1985 and has since had a federal presidential republic.\nAfter overcoming financial difficulties in the late 20th century, Brazil is seen as a significant contributor to global economic growth."
         },
         {
           "id": "n6",
@@ -242,14 +242,14 @@
           "type": "qna",
           "title": "Why is India Looked Upon as a Young Country?",
           "question": "Why is India looked upon as a young country?",
-          "qnaAnswer": "1) In India, the percentage of working people (young people) in the population is greater than the non-working population. 2) The percentage of working people in India's population is nearly 51%. 3) The percentage of non-working population (children and senior citizens) is lesser, giving India a demographic advantage."
+          "qnaAnswer": "1) In India, the percentage of working people (young people) in the population is greater than the non-working population.\n2) The percentage of working people in India's population is nearly 51%.\n3) The percentage of non-working population (children and senior citizens) is lesser, giving India a demographic advantage."
         },
         {
           "id": "n8",
           "type": "qna",
           "title": "Why is Brazil Called 'Coffee Pot' of the World?",
           "question": "Why is Brazil called 'coffee pot' of the world?",
-          "qnaAnswer": "1) Brazil ranks first in the world in terms of coffee production. 2) It produces nearly 40% of the total coffee production of the world. 3) It is the largest exporter of coffee."
+          "qnaAnswer": "1) Brazil ranks first in the world in terms of coffee production.\n2) It produces nearly 40% of the total coffee production of the world.\n3) It is the largest exporter of coffee."
         },
         {
           "id": "n9",
@@ -324,7 +324,7 @@
             "Presidential"
           ],
           "correctAnswer": 2,
-          "explanation": "India is a federal parliamentary republic, and Brazil is a federal presidential republic. The common type among them is 'Republic'.",
+          "explanation": "India is a federal parliamentary republic, and Brazil is a federal presidential republic.\nThe common type among them is 'Republic'.",
           "order": 1
         },
         {
@@ -366,7 +366,7 @@
             "Suriname"
           ],
           "correctAnswer": 2,
-          "explanation": "Chile and Ecuador do not share a border with Brazil. Brazil borders every South American country except Chile and Ecuador.",
+          "explanation": "Chile and Ecuador do not share a border with Brazil.\nBrazil borders every South American country except Chile and Ecuador.",
           "order": 4
         }
       ]
@@ -378,7 +378,7 @@
       "emoji": "🏔️",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter explores the physical divisions, landforms, and drainage systems of India and Brazil. It covers the Himalayan mountains, plains, plateaus, coastal regions, and the major rivers of both countries.",
+        "summary": "This chapter explores the physical divisions, landforms, and drainage systems of India and Brazil.\nIt covers the Himalayan mountains, plains, plateaus, coastal regions, and the major rivers of both countries.",
         "youWillLearn": [
           "Identify the major physiographic divisions of India.",
           "Identify the major physiographic divisions of Brazil.",
@@ -392,14 +392,14 @@
           "id": "n1",
           "type": "paragraph",
           "title": "Physiographic Divisions of India",
-          "content": "India has five major physiographic divisions: The Himalayas, the North Indian Plains, the Peninsula (Deccan Plateau), the Coastal Plains, and the Island groups (Lakshadweep and Andaman & Nicobar).",
+          "content": "India has five major physiographic divisions:\n1) The Himalayas\n2) The North Indian Plains\n3) The Peninsula (Deccan Plateau)\n4) The Coastal Plains\n5) The Island groups (Lakshadweep and Andaman & Nicobar).",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
           "title": "Physiographic Divisions of Brazil",
-          "content": "Brazil's major physiographic divisions include the Guyana Highlands in the north, the Amazon River Basin (plains), the Brazilian Highlands (Brazilian Shield/Plateau) in the south, the Great Escarpment, and the coastal regions.",
+          "content": "Brazil's major physiographic divisions include:\n1) The Guyana Highlands in the north\n2) The Amazon River Basin (plains)\n3) The Brazilian Highlands (Brazilian Shield/Plateau) in the south\n4) The Great Escarpment\n5) The coastal regions.",
           "important": true
         },
         {
@@ -449,21 +449,21 @@
           "type": "qna",
           "title": "Why Are There Fewer Natural Ports on India's Eastern Coast?",
           "question": "There are fewer natural ports on the eastern coast of India.",
-          "qnaAnswer": "1) The eastern coast is a coast of emergence, formed by the depositional work of rivers. 2) Eastward flowing rivers form deltas, making the coast shallow and difficult for ships to navigate. 3) The western coast is a coast of submergence, with deeper waters, favoring the development of natural ports."
+          "qnaAnswer": "1) The eastern coast is a coast of emergence, formed by the depositional work of rivers.\n2) Eastward flowing rivers form deltas, making the coast shallow and difficult for ships to navigate.\n3) The western coast is a coast of submergence, with deeper waters, favoring the development of natural ports."
         },
         {
           "id": "n6",
           "type": "qna",
           "title": "Why Do Most Himalayan Rivers Have a Perennial Nature?",
           "question": "Most of the Himalayan rivers are perennial in nature.",
-          "qnaAnswer": "1) Most Himalayan rivers originate in the snow-covered southern heights of the Himalayan range. 2) These rivers are well-fed by rains during the rainy season through the southwesterly monsoon winds. 3) They are also fed by the melting of snow during summer, ensuring a continuous flow throughout the year."
+          "qnaAnswer": "1) Most Himalayan rivers originate in the snow-covered southern heights of the Himalayan range.\n2) These rivers are well-fed by rains during the rainy season through the southwesterly monsoon winds.\n3) They are also fed by the melting of snow during summer, ensuring a continuous flow throughout the year."
         },
         {
           "id": "n7",
           "type": "qna",
           "title": "Why Are There No West-Flowing Rivers in Brazil?",
           "question": "There are no west-flowing rivers in Brazil.",
-          "qnaAnswer": "1) Most rivers in Brazil originate from the Brazilian Highlands. 2) The altitude of the Brazilian Highlands gradually decreases from the south to the north and from the west to the east. 3) As a result, most rivers flow towards the northern and eastern directions to meet the Atlantic Ocean."
+          "qnaAnswer": "1) Most rivers in Brazil originate from the Brazilian Highlands.\n2) The altitude of the Brazilian Highlands gradually decreases from the south to the north and from the west to the east.\n3) As a result, most rivers flow towards the northern and eastern directions to meet the Atlantic Ocean."
         },
         {
           "id": "n8",
@@ -514,12 +514,12 @@
         {
           "id": "f1",
           "front": "What are the five major physiographic divisions of India?",
-          "back": "The Himalayas, The North Indian Plains, The Peninsula, The Coastal Plains, and The Island groups."
+          "back": "1) The Himalayas,\n2) The North Indian Plains,\n3) The Peninsula,\n4) The Coastal Plains,\n5) The Island groups."
         },
         {
           "id": "f2",
           "front": "What are the major physiographic divisions of Brazil?",
-          "back": "Guyana Highlands, Amazon River Basin, Brazilian Highlands, The Great Escarpment, and coastal regions."
+          "back": "1) Guyana Highlands,\n2) Amazon River Basin,\n3) Brazilian Highlands,\n4) The Great Escarpment,\n5) Coastal regions."
         },
         {
           "id": "f3",
@@ -603,7 +603,7 @@
       "emoji": "☀️",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter compares and contrasts the climates of India and Brazil. It discusses the factors affecting climate, types of rainfall, seasonal variations, and the influence of geographic features like the Himalayas and the Great Escarpment.",
+        "summary": "This chapter compares and contrasts the climates of India and Brazil.\nIt discusses the factors affecting climate, types of rainfall, seasonal variations, and the influence of geographic features like the Himalayas and the Great Escarpment.",
         "youWillLearn": [
           "Explain the factors affecting the climate of India.",
           "Explain the factors affecting the climate of Brazil.",
@@ -617,14 +617,14 @@
           "id": "n1",
           "type": "paragraph",
           "title": "Climate of India",
-          "content": "India has a monsoon type of climate. Factors include the Tropic of Cancer, the Himalayas, the Indian Ocean, and the Southwest and Northeast monsoon winds. There are four major seasons: Winter, Summer, Southwest Monsoon, and Retreating Monsoon.",
+          "content": "India has a monsoon type of climate.\nFactors include the Tropic of Cancer, the Himalayas, the Indian Ocean, and the Southwest and Northeast monsoon winds.\nThere are four major seasons: Winter, Summer, Southwest Monsoon, and Retreating Monsoon.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
           "title": "Climate of Brazil",
-          "content": "Brazil has a tropical climate, with variations due to its latitudinal extent. The Equator passes through the north, resulting in hot, humid conditions in the Amazon Basin. The southern part, near the Tropic of Capricorn, experiences more temperate conditions. Factors include latitude, the Brazilian Highlands, and the Great Escarpment.",
+          "content": "Brazil has a tropical climate, with variations due to its latitudinal extent.\nThe Equator passes through the north, resulting in hot, humid conditions in the Amazon Basin.\nThe southern part, near the Tropic of Capricorn, experiences more temperate conditions.\nFactors include latitude, the Brazilian Highlands, and the Great Escarpment.",
           "important": true
         },
         {
@@ -632,28 +632,28 @@
           "type": "qna",
           "title": "What is a 'Drought Quadrilateral'?",
           "question": "What is a rainshadow region in Brazil called?",
-          "qnaAnswer": "The rainshadow region in Brazil is called the 'Drought Quadrilateral'. It is located in the northeastern part of the country, receiving very little rainfall because the Great Escarpment and Brazilian Highlands block the moisture-laden trade winds."
+          "qnaAnswer": "The rainshadow region in Brazil is called the 'Drought Quadrilateral'.\nIt is located in the northeastern part of the country, receiving very little rainfall because the Great Escarpment and Brazilian Highlands block the moisture-laden trade winds."
         },
         {
           "id": "n4",
           "type": "qna",
           "title": "Why Do Tropical Cyclones Occur Rarely in Brazil?",
           "question": "Tropical cyclones occur rarely in Brazil.",
-          "qnaAnswer": "1) In the northern coastal region near the equator, differences in temperature are negligible. 2) Winds in this region move vertically. 3) The convergence zone of the trade winds is weak in this region. These conditions are not favorable for the formation of tropical cyclones."
+          "qnaAnswer": "1) In the northern coastal region near the equator, differences in temperature are negligible.\n2) Winds in this region move vertically.\n3) The convergence zone of the trade winds is weak in this region.\nThese conditions are not favorable for the formation of tropical cyclones."
         },
         {
           "id": "n5",
           "type": "qna",
           "title": "Why Does India Receive Precipitation from Northeast Monsoon Winds Too?",
           "question": "India receives precipitation from the northeast monsoon winds too.",
-          "qnaAnswer": "1) India receives most of its precipitation from the southwest monsoon winds. 2) These winds are obstructed by the Himalayas and start their return journey. 3) In their return journey, they blow from northeast to southwest, bringing retreating monsoon (northeast monsoon) and causing rainfall in regions like Tamil Nadu."
+          "qnaAnswer": "1) India receives most of its precipitation from the southwest monsoon winds.\n2) These winds are obstructed by the Himalayas and start their return journey.\n3) In their return journey, they blow from northeast to southwest, bringing retreating monsoon (northeast monsoon) and causing rainfall in regions like Tamil Nadu."
         },
         {
           "id": "n6",
           "type": "qna",
           "title": "Why is the Average Annual Temperature in India Generally High?",
           "question": "The average annual temperature in India is generally high.",
-          "qnaAnswer": "1) The Tropic of Cancer passes through the middle of India. 2) India is included in the tropical region. 3) In winters, temperatures drop below 0°C in some parts, but during summers, temperatures can rise up to 50°C in some parts, resulting in a generally high average annual temperature."
+          "qnaAnswer": "1) The Tropic of Cancer passes through the middle of India.\n2) India is included in the tropical region.\n3) In winters, temperatures drop below 0°C in some parts, but during summers, temperatures can rise up to 50°C in some parts, resulting in a generally high average annual temperature."
         },
         {
           "id": "n7",
@@ -782,7 +782,7 @@
       "emoji": "🌿",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter covers the rich biodiversity of India and Brazil, exploring different types of forests, vegetation, and animal species. It highlights the unique ecosystems like the Amazon rainforest ('lungs of the world') and India's diverse wildlife, and discusses the environmental issues they face.",
+        "summary": "This chapter covers the rich biodiversity of India and Brazil, exploring different types of forests, vegetation, and animal species.\nIt highlights the unique ecosystems like the Amazon rainforest ('lungs of the world') and India's diverse wildlife, and discusses the environmental issues they face.",
         "youWillLearn": [
           "Identify the major types of forests and vegetation in India.",
           "Identify the major types of forests and vegetation in Brazil.",
@@ -796,14 +796,14 @@
           "id": "n1",
           "type": "paragraph",
           "title": "Natural Vegetation of India",
-          "content": "India has diverse natural vegetation including Tropical Evergreen forests (Western Ghats, NE India), Deciduous forests (most of India), Thorny and bush vegetation (Rajasthan), Coastal forests (Sundari trees), and Himalayan forests (coniferous and mixed).",
+          "content": "India has diverse natural vegetation including:\n1) Tropical Evergreen forests (Western Ghats, NE India)\n2) Deciduous forests (most of India)\n3) Thorny and bush vegetation (Rajasthan)\n4) Coastal forests (Sundari trees)\n5) Himalayan forests (coniferous and mixed).",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
           "title": "Natural Vegetation of Brazil",
-          "content": "Brazil's vegetation includes the vast Amazon Rainforests (Equatorial/evergreen), Hot Deciduous forests, Savanna (Brazilian Highlands), Thorny shrubs (Drought Quadrilateral), and Grasslands (Pampas in the south).",
+          "content": "Brazil's vegetation includes:\n1) The vast Amazon Rainforests (Equatorial/evergreen)\n2) Hot Deciduous forests\n3) Savanna (Brazilian Highlands)\n4) Thorny shrubs (Drought Quadrilateral)\n5) Grasslands (Pampas in the south).",
           "important": true
         },
         {
@@ -811,14 +811,14 @@
           "type": "qna",
           "title": "Why are Rainforests in Brazil Called the 'Lungs of the World'?",
           "question": "The evergreen rainforests in Brazil are called the 'lungs of the world'.",
-          "qnaAnswer": "1) The rainforests draw in a large amount of carbon dioxide and breathe out oxygen. 2) They act as a major carbon sink, absorbing harmful greenhouse gases. 3) They provide a significant portion of the world's oxygen, helping to maintain the global oxygen balance."
+          "qnaAnswer": "1) The rainforests draw in a large amount of carbon dioxide and breathe out oxygen.\n2) They act as a major carbon sink, absorbing harmful greenhouse gases.\n3) They provide a significant portion of the world's oxygen, helping to maintain the global oxygen balance."
         },
         {
           "id": "n4",
           "type": "qna",
           "title": "Why is Wildlife in India Decreasing Day by Day?",
           "question": "Wildlife in India is decreasing day by day.",
-          "qnaAnswer": "1) Deforestation for shelter and firewood leads to loss of habitat. 2) Pollution due to increased urbanization threatens many species. 3) Illegal smuggling and hunting of animals. 4) Shifting cultivation like Jhum clears large forest areas, destroying animal shelters."
+          "qnaAnswer": "1) Deforestation for shelter and firewood leads to loss of habitat.\n2) Pollution due to increased urbanization threatens many species.\n3) Illegal smuggling and hunting of animals.\n4) Shifting cultivation like Jhum clears large forest areas, destroying animal shelters."
         },
         {
           "id": "n5",
@@ -972,7 +972,7 @@
       "emoji": "👥",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter discusses the population characteristics of India and Brazil, including distribution, density, growth rates, sex ratio, life expectancy, and literacy rates. It analyzes the factors affecting population distribution and compares the demographic profiles of the two countries.",
+        "summary": "This chapter discusses the population characteristics of India and Brazil, including distribution, density, growth rates, sex ratio, life expectancy, and literacy rates.\nIt analyzes the factors affecting population distribution and compares the demographic profiles of the two countries.",
         "youWillLearn": [
           "Define and compare population density and distribution.",
           "Understand the concepts of sex ratio, life expectancy, and literacy.",
@@ -986,14 +986,14 @@
           "id": "n1",
           "type": "paragraph",
           "title": "Population Distribution in India",
-          "content": "India's population is unevenly distributed. The Ganga plains (Uttar Pradesh, Bihar, West Bengal) are densely populated due to fertile land, availability of water, and developed agriculture and industries. The northern mountainous regions and the Thar desert are sparsely populated.",
+          "content": "India's population is unevenly distributed.\nThe Ganga plains (Uttar Pradesh, Bihar, West Bengal) are densely populated due to fertile land, availability of water, and developed agriculture and industries.\nThe northern mountainous regions and the Thar desert are sparsely populated.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
           "title": "Population Distribution in Brazil",
-          "content": "Brazil's population is also unevenly distributed. The southeastern coastal states (Sao Paulo, Rio de Janeiro) are densely populated due to favorable climate, availability of resources, and industrial development. The Amazon river basin in the north is sparsely populated due to dense forests, unhealthy climate, and lack of accessibility.",
+          "content": "Brazil's population is also unevenly distributed.\nThe southeastern coastal states (Sao Paulo, Rio de Janeiro) are densely populated due to favorable climate, availability of resources, and industrial development.\nThe Amazon river basin in the north is sparsely populated due to dense forests, unhealthy climate, and lack of accessibility.",
           "important": true
         },
         {
@@ -1020,14 +1020,14 @@
           "type": "qna",
           "title": "Why is India's Density of Population High?",
           "question": "India's density of population is high.",
-          "qnaAnswer": "1) India occupies only 2.41% of the world's total land area. 2) It has nearly 17.58% of the world's total population. 3) This means there are more people per unit area of land compared to most other countries, resulting in high population density."
+          "qnaAnswer": "1) India occupies only 2.41% of the world's total land area.\n2) It has nearly 17.58% of the world's total population.\n3) This means there are more people per unit area of land compared to most other countries, resulting in high population density."
         },
         {
           "id": "n5",
           "type": "qna",
           "title": "Why is Population an Important Resource?",
           "question": "Population is an important resource.",
-          "qnaAnswer": "1) A country's economic and social development depends on the quantity and quality of its population. 2) A balanced population provides the workforce needed for productivity. 3) If a country has an optimum and skilled population, its economic growth and development speeds up. 4) It is the human resource that drives a nation's progress."
+          "qnaAnswer": "1) A country's economic and social development depends on the quantity and quality of its population.\n2) A balanced population provides the workforce needed for productivity.\n3) If a country has an optimum and skilled population, its economic growth and development speeds up.\n4) It is the human resource that drives a nation's progress."
         },
         {
           "id": "n6",
@@ -1144,7 +1144,7 @@
       "emoji": "🏘️",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter examines the patterns, types, and distribution of human settlements in India and Brazil. It discusses factors like water availability, topography, and development that influence settlement types, including nucleated, linear, and dispersed settlements.",
+        "summary": "This chapter examines the patterns, types, and distribution of human settlements in India and Brazil.\nIt discusses factors like water availability, topography, and development that influence settlement types, including nucleated, linear, and dispersed settlements.",
         "youWillLearn": [
           "Define and identify different types of human settlements.",
           "Explain the factors influencing settlement patterns.",
@@ -1158,21 +1158,21 @@
           "id": "n1",
           "type": "paragraph",
           "title": "Types of Human Settlements",
-          "content": "Human settlements are classified into types based on their shape and pattern. Common types include Nucleated (clustered), Linear (along a road or river), Dispersed (scattered), and Star-shaped.",
+          "content": "Human settlements are classified into types based on their shape and pattern.\nCommon types include:\n1) Nucleated (clustered)\n2) Linear (along a road or river)\n3) Dispersed (scattered)\n4) Star-shaped.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
           "title": "Settlements in India",
-          "content": "In India, nucleated settlements are common in the river basins (Ganga, Narmada) and North Indian plains. Dispersed settlements are found in hilly areas (Himalayan slopes), dense forests, and the Thar desert. Rural settlements are more numerous than urban ones.",
+          "content": "In India, nucleated settlements are common in the river basins (Ganga, Narmada) and North Indian plains.\nDispersed settlements are found in hilly areas (Himalayan slopes), dense forests, and the Thar desert.\nRural settlements are more numerous than urban ones.",
           "important": true
         },
         {
           "id": "n3",
           "type": "paragraph",
           "title": "Settlements in Brazil",
-          "content": "Brazil's southeastern coastal region has nucleated settlements due to favorable conditions. The Amazon river basin has dispersed settlements due to dense forests and unhealthy climate. The northeastern region has sparse settlements. The 'Go West' policy was introduced to reduce regional imbalance.",
+          "content": "Brazil's southeastern coastal region has nucleated settlements due to favorable conditions.\nThe Amazon river basin has dispersed settlements due to dense forests and unhealthy climate.\nThe northeastern region has sparse settlements.\nThe 'Go West' policy was introduced to reduce regional imbalance.",
           "important": true
         },
         {
@@ -1199,14 +1199,14 @@
           "type": "qna",
           "title": "What is the 'Go West' Policy?",
           "question": "Explain the 'Go West' policy in Brazil.",
-          "qnaAnswer": "1) Rapid urbanization in the south and southeastern regions led to a high concentration of people. 2) The rate of urbanization is low in western and northern parts. 3) To avoid concentration only in specific regions and to reduce regional imbalance, the Brazilian government promoted the 'Go West' policy to encourage settlement and development in these underdeveloped areas."
+          "qnaAnswer": "1) Rapid urbanization in the south and southeastern regions led to a high concentration of people.\n2) The rate of urbanization is low in western and northern parts.\n3) To avoid concentration only in specific regions and to reduce regional imbalance, the Brazilian government promoted the 'Go West' policy to encourage settlement and development in these underdeveloped areas."
         },
         {
           "id": "n6",
           "type": "qna",
           "title": "Why is the Majority of Brazil's Population Found in Eastern Coastal Areas?",
           "question": "In Brazil, the majority of the population is found in the eastern coastal areas.",
-          "qnaAnswer": "1) Initial settlements were found in the eastern coastal areas. 2) The region has plenty of water, natural resources, minerals, transport, and regular power supply. 3) Due to these favorable factors, agriculture, trade, and industries are well-developed, attracting a large population."
+          "qnaAnswer": "1) Initial settlements were found in the eastern coastal areas.\n2) The region has plenty of water, natural resources, minerals, transport, and regular power supply.\n3) Due to these favorable factors, agriculture, trade, and industries are well-developed, attracting a large population."
         },
         {
           "id": "n7",
@@ -1304,7 +1304,7 @@
       "emoji": "⚙️",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter explores the economic structure and primary occupations of India and Brazil. It covers agriculture, mining, fishing, industries, and trade, comparing the two developing economies.",
+        "summary": "This chapter explores the economic structure and primary occupations of India and Brazil.\nIt covers agriculture, mining, fishing, industries, and trade, comparing the two developing economies.",
         "youWillLearn": [
           "Compare the economic types of India and Brazil.",
           "Understand the importance of agriculture in both economies.",
@@ -1318,14 +1318,14 @@
           "id": "n1",
           "type": "paragraph",
           "title": "Economy of India and Brazil",
-          "content": "Both India and Brazil have developing economies (mixed economy type). They are major players in global markets. Agriculture is a significant sector, but the tertiary sector (services) is growing rapidly and contributing the most to their GDPs.",
+          "content": "Both India and Brazil have developing economies (mixed economy type).\nThey are major players in global markets.\nAgriculture is a significant sector, but the tertiary sector (services) is growing rapidly and contributing the most to their GDPs.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
           "title": "Key Crops and Exports",
-          "content": "Brazil is the world's largest exporter of coffee ('coffee pot of the world'). Other major crops include soyabean, sugarcane, corn, and cacao. India is a major producer of spices, tea, and cotton, and is a significant exporter of tea and spices.",
+          "content": "Brazil is the world's largest exporter of coffee ('coffee pot of the world').\nOther major crops include soyabean, sugarcane, corn, and cacao.\nIndia is a major producer of spices, tea, and cotton, and is a significant exporter of tea and spices.",
           "important": true
         },
         {
@@ -1333,21 +1333,21 @@
           "type": "qna",
           "title": "Why is Brazil Called the 'Coffee Pot' of the World?",
           "question": "Why is Brazil called the 'coffee pot' of the world?",
-          "qnaAnswer": "1) Brazil ranks first in the world in coffee production. 2) It produces nearly 40% of the world's total coffee. 3) It is the largest exporter of coffee."
+          "qnaAnswer": "1) Brazil ranks first in the world in coffee production.\n2) It produces nearly 40% of the world's total coffee.\n3) It is the largest exporter of coffee."
         },
         {
           "id": "n4",
           "type": "qna",
           "title": "Per Capita Land Availability",
           "question": "Per capita land availability is more in Brazil as compared to India.",
-          "qnaAnswer": "1) Brazil has a much larger total area (85,15,770 sq. km) compared to India (32,87,263 sq. km). 2) Brazil has a much smaller population (approx. 20 crores) compared to India (approx. 130 crores). 3) This combination of more land and less population results in a higher per capita land availability in Brazil."
+          "qnaAnswer": "1) Brazil has a much larger total area (85,15,770 sq. km) compared to India (32,87,263 sq. km).\n2) Brazil has a much smaller population (approx. 20 crores) compared to India (approx. 130 crores).\n3) This combination of more land and less population results in a higher per capita land availability in Brazil."
         },
         {
           "id": "n5",
           "type": "qna",
           "title": "Why Has Mining Not Developed in the Western Part of Brazil?",
           "question": "Why has mining not developed in the western part of Brazil?",
-          "qnaAnswer": "1) There are comparatively fewer mineral deposits in western Brazil. 2) The area is covered by the Amazon River Basin with dense rainforests, making it inaccessible. 3) The density of human settlement is very low, reducing demand. 4) Transport facilities are poorly developed in this area."
+          "qnaAnswer": "1) There are comparatively fewer mineral deposits in western Brazil.\n2) The area is covered by the Amazon River Basin with dense rainforests, making it inaccessible.\n3) The density of human settlement is very low, reducing demand.\n4) Transport facilities are poorly developed in this area."
         },
         {
           "id": "n6",
@@ -1462,7 +1462,7 @@
       "emoji": "✈️",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter covers the essential infrastructure of transport, communication, and tourism in India and Brazil. It discusses their networks, major ports and airports, standard time, and the significance of tourism for both economies.",
+        "summary": "This chapter covers the essential infrastructure of transport, communication, and tourism in India and Brazil.\nIt discusses their networks, major ports and airports, standard time, and the significance of tourism for both economies.",
         "youWillLearn": [
           "Identify the major modes of transport in India and Brazil.",
           "Describe the transport network and its regional patterns.",
@@ -1476,14 +1476,14 @@
           "id": "n1",
           "type": "paragraph",
           "title": "Transport in India",
-          "content": "India has a dense road and railway network, especially in the North Indian Plains. Major ports include Mumbai, Kolkata, and Chennai, and major airports include Delhi, Mumbai, and Bengaluru. Railways have been crucial for economic growth.",
+          "content": "India has a dense road and railway network, especially in the North Indian Plains.\nMajor ports include Mumbai, Kolkata, and Chennai, and major airports include Delhi, Mumbai, and Bengaluru.\nRailways have been crucial for economic growth.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
           "title": "Transport in Brazil",
-          "content": "Brazil's transport network includes the Trans-Amazonian Highway (major highways), significant roadways, and railways in the southeast. Major ports include Manaus, Rio de Janeiro, and Salvador. Road transport is the most common method.",
+          "content": "Brazil's transport network includes the Trans-Amazonian Highway (major highways), significant roadways, and railways in the southeast.\nMajor ports include Manaus, Rio de Janeiro, and Salvador.\nRoad transport is the most common method.",
           "important": true
         },
         {
@@ -1491,7 +1491,7 @@
           "type": "qna",
           "title": "Why is There a Dense Railway Network in the North Indian Plains?",
           "question": "A dense network of railways has developed in the North Indian Plains.",
-          "qnaAnswer": "1) The North Indian Plains are low-lying and flat, making construction easy. 2) High population density creates high demand for passenger transport. 3) Well-developed agriculture, trade, commerce, and industries create a high demand for freight transport."
+          "qnaAnswer": "1) The North Indian Plains are low-lying and flat, making construction easy.\n2) High population density creates high demand for passenger transport.\n3) Well-developed agriculture, trade, commerce, and industries create a high demand for freight transport."
         },
         {
           "id": "n4",
@@ -1517,24 +1517,31 @@
           "type": "qna",
           "title": "Brazil's Time Zones",
           "question": "How many time zones are considered in Brazil?",
-          "qnaAnswer": "Four time zones are considered in Brazil. The official time is BRT (Brasilia Time), which is GMT-3. The easternmost part is ahead by up to 180 minutes."
+          "qnaAnswer": "Four time zones are considered in Brazil.\nThe official time is BRT (Brasilia Time), which is GMT-3.\nThe easternmost part is ahead by up to 180 minutes."
         },
         {
           "id": "n6",
           "type": "qna",
           "title": "What is the Indian Standard Time (IST)?",
           "question": "Which longitude in India is considered as Indian Standard Time?",
-          "qnaAnswer": "82°30' E longitude is considered as the Indian Standard Time (IST). It passes through the city of Allahabad. India is 5 hours 30 minutes ahead of GMT."
+          "qnaAnswer": "82°30' E longitude is considered as the Indian Standard Time (IST).\nIt passes through the city of Allahabad.\nIndia is 5 hours 30 minutes ahead of GMT."
         },
         {
           "id": "n7",
+          "type": "qna",
+          "title": "Why Does Brazil Attract Many International Tourists?",
+          "question": "Brazil attracts a lot of international tourists.",
+          "qnaAnswer": "Brazil attracts tourists due to:\n1) White and clean sand beaches.\n2) Attractive seacoasts.\n3) Beautiful islands.\n4) Evergreen, deep, dense rainforests in Amazon river basin.\n5) Variety of Animal and birds species.\n6) Gardens and Parks.\n7) Cities like Brasilia, Rio de Janeiro, Sao Paulo.\n8) Manaus port and football stadium."
+        },
+        {
+          "id": "n8",
           "type": "fill_blank",
           "title": "Key Fact",
           "content": "In India, the railway network is relatively less dense in the state of ___.",
           "blanks": ["Rajasthan"]
         },
         {
-          "id": "n8",
+          "id": "n9",
           "type": "fill_blank",
           "title": "Key Fact (Brazil)",
           "content": "The most common method of transportation in Brazil is ___.",

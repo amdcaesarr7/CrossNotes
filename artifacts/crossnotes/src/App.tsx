@@ -17,7 +17,6 @@ import Quiz       from '@/pages/Quiz';
 import Progress   from '@/pages/Progress';
 import Leaderboard from '@/pages/Leaderboard';
 import Shop       from '@/pages/Shop';
-import Settings   from '@/pages/Settings';
 import NotFound   from '@/pages/not-found';
 import FeedbackButton from '@/components/FeedbackButton';
 
@@ -45,7 +44,6 @@ export default function App() {
                     <Route path="/progress"                component={Progress}   />
                     <Route path="/leaderboard"             component={Leaderboard} />
                     <Route path="/shop"                    component={Shop}       />
-                    <Route path="/settings"                component={Settings}   />
                     <Route                                 component={NotFound}   />
                   </Switch>
                   <FeedbackButton />

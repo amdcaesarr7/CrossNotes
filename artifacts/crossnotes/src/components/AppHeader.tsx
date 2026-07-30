@@ -1,4 +1,4 @@
-import { BookOpen, Moon, Sun, Volume2, VolumeX, Coins } from 'lucide-react';
+import { BookOpen, Moon, Sun, Volume2, VolumeX, Coins, Settings } from 'lucide-react';
 import { Link } from 'wouter';
 import { motion } from 'framer-motion';
 import { useAuth } from '@/contexts/AuthContext';
@@ -90,6 +90,17 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
         >
           {isDark ? <Sun size={18} /> : <Moon size={18} />}
         </motion.button>
+        <Link href="/settings">
+          <motion.button
+            className="app-header-icon-btn"
+            aria-label="Settings"
+            title="Settings"
+            whileTap={!prefersReducedMotion ? { scale: 0.92 } : {}}
+            transition={!prefersReducedMotion ? { duration: 0.08 } : {}}
+          >
+            <Settings size={18} />
+          </motion.button>
+        </Link>
         <motion.button
           onClick={handleAvatar}
           className="avatar-btn"

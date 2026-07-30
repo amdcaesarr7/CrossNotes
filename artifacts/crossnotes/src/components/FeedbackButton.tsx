@@ -27,13 +27,14 @@ export default function FeedbackButton() {
       {/* Floating Feedback Button — claymorphic fixed position */}
       <motion.button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-24 right-4 w-14 h-14 rounded-full flex items-center justify-center shadow-lg z-40 group"
+        className="fixed bottom-24 right-4 w-14 h-14 rounded-full flex items-center justify-center z-40 group"
         style={{
           background: 'var(--primary)',
           color: '#fff',
-          boxShadow: 'var(--shadow-btn)',
+          boxShadow: '0 8px 16px rgba(0, 0, 0, 0.15), inset -2px -2px 4px rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(255, 255, 255, 0.2)',
         }}
-        whileTap={!prefersReducedMotion ? { scale: 0.85 } : {}}
+        whileTap={!prefersReducedMotion ? { scale: 0.85, boxShadow: '0 4px 8px rgba(0, 0, 0, 0.15), inset -1px -1px 2px rgba(0, 0, 0, 0.1)' } : {}}
         whileHover={!prefersReducedMotion ? { scale: 1.08 } : {}}
         transition={!prefersReducedMotion ? { duration: 0.15 } : {}}
         title="Send feedback and suggestions"
@@ -64,7 +65,13 @@ export default function FeedbackButton() {
 
           {/* Modal Card */}
           <motion.div
-            className="relative clay-card p-6 w-full md:w-96 flex flex-col gap-5 max-h-[80vh] overflow-y-auto"
+            className="relative w-full md:w-96 flex flex-col gap-5 max-h-[80vh] overflow-y-auto rounded-2xl"
+            style={{
+              background: isDark ? 'var(--bg-card)' : '#ffffff',
+              border: `2px solid ${isDark ? 'var(--divider)' : 'var(--divider)'}`,
+              boxShadow: '0 20px 40px rgba(0, 0, 0, 0.2), inset -2px -2px 6px rgba(255, 255, 255, 0.15)',
+              padding: '24px',
+            }}
             onClick={(e) => e.stopPropagation()}
             initial={!prefersReducedMotion ? { opacity: 0, y: 50 } : {}}
             animate={!prefersReducedMotion ? { opacity: 1, y: 0 } : {}}

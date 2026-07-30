@@ -2,17 +2,21 @@ import { useState } from 'react';
 import { RotateCcw, Loader2 } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { markFlashcardsCompleted } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticFlashcards } from '@/hooks/useContent';
 import { sfx } from '@/lib/sfx';
 import { celebrateActivityResult } from '@/lib/celebrate';
+import { claySpringConfig, stampLand } from '@/lib/animations';
+import { useMotion } from '@/hooks/useMotion';
 import AppHeader from '@/components/AppHeader';
 import '../crossnotes.css';
 
 export default function Flashcards() {
-  const { isDark } = useTheme();
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [known, setKnown] = useState(0);
@@ -94,9 +98,11 @@ export default function Flashcards() {
                 <span className="text-green-600">{known} ✓</span>
               </div>
               <div className="clay-progress h-2.5">
-                <div
+                <motion.div
                   className="clay-progress-fill"
-                  style={{ width: `${progress}%`, background: `var(--${colorKey}-shadow)`, transition: 'width 0.4s ease' }}
+                  style={{ background: `var(--${colorKey}-shadow)` }}
+                  animate={{ width: `${progress}%` }}
+                  transition={!prefersReducedMotion ? { duration: 0.4, ease: 'easeOut' } : {}}
                 />
               </div>
             </div>
@@ -139,42 +145,74 @@ export default function Flashcards() {
             </p>
 
             {/* Verdict */}
-            <div
+            <motion.div
               className="grid grid-cols-2 gap-3"
-              style={{ opacity: isFlipped ? 1 : 0, pointerEvents: isFlipped ? 'auto' : 'none', transform: isFlipped ? 'none' : 'translateY(12px)', transition: 'opacity 0.25s, transform 0.25s' }}
+              initial={!prefersReducedMotion ? { opacity: 0, y: 12 } : {}}
+              animate={isFlipped && !prefersReducedMotion ? { opacity: 1, y: 0 } : isFlipped ? {} : { opacity: 0, y: 12 }}
+              transition={!prefersReducedMotion ? { duration: 0.3, delay: 0.15 } : {}}
+              style={{ pointerEvents: isFlipped ? 'auto' : 'none' }}
             >
-              <button
+              <motion.button
                 onClick={e => { e.stopPropagation(); handleResult(false); }}
                 className="clay-btn-ghost py-4 text-sm font-bold"
                 style={{ background: 'var(--red-light)', color: 'var(--red)', borderColor: '#fca5a5' }}
+                whileTap={!prefersReducedMotion ? { scale: 0.94 } : {}}
+                transition={!prefersReducedMotion ? { duration: 0.1 } : {}}
               >
                 Still confused ✗
-              </button>
-              <button
+              </motion.button>
+              <motion.button
                 onClick={e => { e.stopPropagation(); handleResult(true); }}
                 className="clay-btn-ghost py-4 text-sm font-bold"
                 style={{ background: 'var(--green-light)', color: 'var(--green)', borderColor: '#86efac' }}
+                whileTap={!prefersReducedMotion ? { scale: 0.94 } : {}}
+                transition={!prefersReducedMotion ? { duration: 0.1 } : {}}
               >
                 Got it! ✓
-              </button>
-            </div>
+              </motion.button>
+            </motion.div>
           </>
         ) : (
-          <div className="clay-card p-8 flex flex-col items-center text-center gap-5">
-            <span className="text-6xl">🎯</span>
-            <h2 className="font-display font-black text-3xl" style={{ color: 'var(--text)' }}>Session Done!</h2>
-            <div className="flex items-center gap-8">
-              <div>
+          <motion.div
+            className="clay-card p-8 flex flex-col items-center text-center gap-5"
+            initial={!prefersReducedMotion ? { scale: 0.7, opacity: 0 } : {}}
+            animate={!prefersReducedMotion ? { scale: 1, opacity: 1 } : {}}
+            transition={!prefersReducedMotion ? { duration: 0.5, ...claySpringConfig, delay: 0.2 } : {}}
+          >
+            <motion.span
+              className="text-6xl"
+              initial={!prefersReducedMotion ? { scale: 0 } : {}}
+              animate={!prefersReducedMotion ? { scale: 1 } : {}}
+              transition={!prefersReducedMotion ? { delay: 0.3, duration: 0.3, ...claySpringConfig } : {}}
+            >
+              🎯
+            </motion.span>
+            <motion.h2
+              className="font-display font-black text-3xl"
+              style={{ color: 'var(--text)' }}
+              initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+              transition={!prefersReducedMotion ? { delay: 0.4, duration: 0.3 } : {}}
+            >
+              Session Done!
+            </motion.h2>
+            <motion.div
+              className="flex items-center gap-8"
+              initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+              transition={!prefersReducedMotion ? { delay: 0.5, duration: 0.3 } : {}}
+            >
+              <motion.div initial={!prefersReducedMotion ? { opacity: 0, x: -8 } : {}} animate={!prefersReducedMotion ? { opacity: 1, x: 0 } : {}} transition={!prefersReducedMotion ? { delay: 0.5, duration: 0.3 } : {}}>
                 <div className="font-black text-3xl text-green-600">{known}</div>
                 <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>Got it</div>
-              </div>
+              </motion.div>
               <div className="w-px h-10" style={{ background: 'var(--divider)' }} />
-              <div>
+              <motion.div initial={!prefersReducedMotion ? { opacity: 0, x: 8 } : {}} animate={!prefersReducedMotion ? { opacity: 1, x: 0 } : {}} transition={!prefersReducedMotion ? { delay: 0.55, duration: 0.3 } : {}}>
                 <div className="font-black text-3xl" style={{ color: 'var(--red)' }}>{confused}</div>
                 <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>Confused</div>
-              </div>
-            </div>
-            {!user && <p className="text-sm font-bold" style={{ color: 'var(--text-muted)' }}>Sign in to save your +20 XP!</p>}
+              </motion.div>
+            </motion.div>
+            {!user && <motion.p className="text-sm font-bold" style={{ color: 'var(--text-muted)' }} initial={!prefersReducedMotion ? { opacity: 0 } : {}} animate={!prefersReducedMotion ? { opacity: 1 } : {}} transition={!prefersReducedMotion ? { delay: 0.6, duration: 0.3 } : {}}>Sign in to save your +20 XP!</motion.p>}
             <div className="flex flex-col gap-3 w-full mt-2">
               <button onClick={reset} className="clay-btn-ghost py-3 flex items-center justify-center gap-2">
                 <RotateCcw size={16} /> Redo
@@ -183,7 +221,7 @@ export default function Flashcards() {
                 <button className="clay-btn w-full py-3">Take the Quiz →</button>
               </Link>
             </div>
-          </div>
+          </motion.div>
         )}
       </main>
     </div>

@@ -1,8 +1,12 @@
-import { useState } from 'react';
+import { useState, useEffect as useEffectReact } from 'react';
+import React from 'react';
 import { Link } from 'wouter';
 import { BookOpen, Flame, Trophy, Target, Zap, ChevronRight, LogIn, Star, Snowflake, BellRing, X, Coins, ShieldCheck } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTheme } from '@/contexts/ThemeContext';
+import { claySpringConfig } from '@/lib/animations';
+import { useMotion } from '@/hooks/useMotion';
 import { useUserProfile, useAllUserProgress, useLeaderboard, getLevel, MAX_STREAK_FREEZES } from '@/hooks/useFirestore';
 import { getPotion } from '@/data/potions';
 import PotionIcon from '@/components/PotionIcon';
@@ -35,7 +39,8 @@ function isToday(timestamp: unknown) {
 }
 
 export default function Dashboard() {
-  const { isDark } = useTheme();
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const { user, signInWithGoogle } = useAuth();
   const subjects = useStaticSubjects();
   const { profile, loading: profileLoading } = useUserProfile(user?.uid);
@@ -57,6 +62,14 @@ export default function Dashboard() {
   const [bannerDismissed, setBannerDismissed] = useState(() => {
     try { return localStorage.getItem('cn-reminder-banner-dismissed') === 'true'; } catch { return false; }
   });
+  const [coinBounceKey, setCoinBounceKey] = useState(coins);
+  
+  // Trigger coin bounce when coins change
+  useEffectReact(() => {
+    if (coins !== coinBounceKey) {
+      setCoinBounceKey(coins);
+    }
+  }, [coins, coinBounceKey]);
   const showReminderBanner = !!user && isNotificationSupported() && !getReminderPreference() && !bannerDismissed;
   const dismissBanner = () => {
     setBannerDismissed(true);
@@ -135,7 +148,12 @@ export default function Dashboard() {
                 <span className="text-sm font-bold" style={{ color: 'var(--text-muted)' }}>{xp} / {nextXp} XP</span>
               </div>
               <div className="clay-progress h-3">
-                <div className="clay-progress-fill xp-bar" style={{ width: `${xpPct}%` }} />
+                <motion.div
+                  className="clay-progress-fill xp-bar"
+                  animate={{ scaleX: xpPct / 100 }}
+                  transition={!prefersReducedMotion ? { type: 'spring', damping: 20, mass: 0.5 } : {}}
+                  style={{ originX: 0, scaleX: xpPct / 100 }}
+                />
               </div>
               {studiedToday && (
                 <p className="text-xs font-bold text-green-600 flex items-center gap-1">
@@ -144,9 +162,15 @@ export default function Dashboard() {
               )}
               <Link href="/shop">
                 <div className="flex items-center justify-between mt-1 pt-2" style={{ borderTop: '1px solid var(--divider)' }}>
-                  <span className="text-xs font-bold flex items-center gap-1.5" style={{ color: 'var(--gold)' }}>
+                  <motion.span
+                    key={coinBounceKey}
+                    className="text-xs font-bold flex items-center gap-1.5"
+                    style={{ color: 'var(--gold)' }}
+                    animate={!prefersReducedMotion ? { scale: [1, 1.15, 1] } : {}}
+                    transition={!prefersReducedMotion ? { duration: 0.4, ...claySpringConfig } : {}}
+                  >
                     <Coins size={14} /> {coins} coins
-                  </span>
+                  </motion.span>
                   <span className="text-xs font-bold" style={{ color: 'var(--primary)' }}>Visit Shop →</span>
                 </div>
               </Link>
@@ -190,22 +214,29 @@ export default function Dashboard() {
 
         {/* ── Stats strip ── */}
         {user && (
-          <div className="stats-strip">
-            <div className="stat-card">
-              <div className="font-display font-black text-2xl" style={{ color: 'var(--primary)' }}>{doneCount}</div>
-              <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>Done</div>
-            </div>
-            <div className="stat-card">
-              <div className="font-display font-black text-2xl" style={{ color: '#d97706' }}>{xp}</div>
-              <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>Total XP</div>
-            </div>
-            <div className="stat-card">
-              <div className="font-display font-black text-2xl" style={{ color: avgScore !== null && avgScore >= 70 ? '#16a34a' : avgScore !== null ? '#dc2626' : 'var(--text-muted)' }}>
-                {avgScore !== null ? `${avgScore}%` : '—'}
-              </div>
-              <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>Quiz Avg</div>
-            </div>
-          </div>
+          <motion.div
+            className="stats-strip"
+            initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+            animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+            transition={!prefersReducedMotion ? { staggerChildren: 0.08, delayChildren: 0 } : {}}
+          >
+            {[
+              { value: doneCount, label: 'Done', color: 'var(--primary)' },
+              { value: xp, label: 'Total XP', color: '#d97706' },
+              { value: avgScore !== null ? `${avgScore}%` : '—', label: 'Quiz Avg', color: avgScore !== null && avgScore >= 70 ? '#16a34a' : avgScore !== null ? '#dc2626' : 'var(--text-muted)' },
+            ].map((stat, i) => (
+              <motion.div
+                key={i}
+                className="stat-card"
+                initial={!prefersReducedMotion ? { opacity: 0, y: 12 } : {}}
+                animate={!prefersReducedMotion ? { opacity: 1, y: 0 } : {}}
+                transition={!prefersReducedMotion ? { duration: 0.35, ease: 'easeOut' } : {}}
+              >
+                <div className="font-display font-black text-2xl" style={{ color: stat.color }}>{stat.value}</div>
+                <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>{stat.label}</div>
+              </motion.div>
+            ))}
+          </motion.div>
         )}
 
         {/* ── Continue learning ── */}
@@ -217,7 +248,13 @@ export default function Dashboard() {
             <section>
               <h2 className="section-header mb-3">Continue Learning</h2>
               <Link href={`/${nextStep}/${p.subjectSlug}/${chapId}`}>
-                <button className="continue-card w-full">
+                <motion.button
+                  className="continue-card w-full"
+                  initial={!prefersReducedMotion ? { scale: 0.92, opacity: 0 } : {}}
+                  animate={!prefersReducedMotion ? { scale: 1, opacity: 1 } : {}}
+                  whileTap={!prefersReducedMotion ? { y: -2 } : {}}
+                  transition={!prefersReducedMotion ? { duration: 0.35, ...claySpringConfig } : {}}
+                >
                   <div className="flex items-center justify-between">
                     <div>
                       <div className="text-xs font-bold opacity-75 mb-1 uppercase tracking-wider">{p.subjectSlug?.replace(/-/g, ' ')}</div>
@@ -232,7 +269,7 @@ export default function Dashboard() {
                       style={{ background: '#fff', width: `${(p.notesRead ? 33 : 0) + (p.flashcardsCompleted ? 33 : 0) + (p.quizCompleted ? 34 : 0)}%`, transition: 'width 0.5s' }}
                     />
                   </div>
-                </button>
+                </motion.button>
               </Link>
             </section>
           );
@@ -296,31 +333,43 @@ export default function Dashboard() {
             </Link>
           </div>
 
-          <div className="subject-grid">
-            {liveSubjects.map(s => (
+          <motion.div
+            className="subject-grid"
+            initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+            animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+            transition={!prefersReducedMotion ? { staggerChildren: 0.05, delayChildren: 0.15 } : {}}
+          >
+            {liveSubjects.map((s, i) => (
               <Link key={s.id} href={`/subject/${s.slug}`}>
-                <div
+                <motion.div
                   className="subject-quick-card"
                   style={{ background: `var(--${s.color}-bg)`, borderColor: `var(--${s.color}-border)` }}
+                  initial={!prefersReducedMotion ? { opacity: 0, scale: 0.88 } : {}}
+                  animate={!prefersReducedMotion ? { opacity: 1, scale: 1 } : {}}
+                  whileTap={!prefersReducedMotion ? { scale: 0.96 } : {}}
+                  transition={!prefersReducedMotion ? { duration: 0.35, ease: 'easeOut' } : {}}
                 >
                   <span className="text-3xl">{s.emoji}</span>
                   <span className="font-display font-bold text-sm leading-tight" style={{ color: 'var(--text)' }}>{s.name}</span>
                   <ChevronRight size={14} style={{ color: `var(--${s.color}-shadow)`, marginTop: 2 }} />
-                </div>
+                </motion.div>
               </Link>
             ))}
-            {lockedSubjects.slice(0, 4 - liveSubjects.length).map(s => (
-              <div
+            {lockedSubjects.slice(0, 4 - liveSubjects.length).map((s, i) => (
+              <motion.div
                 key={s.id}
                 className="subject-quick-card opacity-40"
                 style={{ background: `var(--${s.color}-bg)`, borderColor: `var(--${s.color}-border)`, cursor: 'default' }}
+                initial={!prefersReducedMotion ? { opacity: 0, scale: 0.88 } : {}}
+                animate={!prefersReducedMotion ? { opacity: 0.4, scale: 1 } : {}}
+                transition={!prefersReducedMotion ? { duration: 0.35, ease: 'easeOut', delay: (liveSubjects.length + i) * 0.05 + 0.15 } : {}}
               >
                 <span className="text-3xl">{s.emoji}</span>
                 <span className="font-display font-bold text-sm leading-tight" style={{ color: 'var(--text)' }}>{s.name}</span>
                 <span className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>🔒 Soon</span>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </section>
 
         {/* ── Vault entry point ── */}

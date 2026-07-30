@@ -1,9 +1,11 @@
 import { BookOpen, Moon, Sun, Volume2, VolumeX, Coins } from 'lucide-react';
 import { Link } from 'wouter';
+import { motion } from 'framer-motion';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useSound } from '@/contexts/SoundContext';
 import { useUserProfile } from '@/hooks/useFirestore';
+import { useMotion } from '@/hooks/useMotion';
 
 interface AppHeaderProps {
   title?: string;
@@ -13,7 +15,8 @@ interface AppHeaderProps {
 
 export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps) {
   const { user, signInWithGoogle, logout, isFirebaseReady } = useAuth();
-  const { isDark, toggleDark } = useTheme();
+  const { isDark, toggleDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const { soundOn, toggleSound } = useSound();
   const { profile } = useUserProfile(user?.uid);
   const coins = profile?.coins ?? 0;
@@ -57,31 +60,42 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
         )}
         {user && (
           <Link href="/shop">
-            <button className="app-header-coins" title={`${coins} coins — visit the Shop`}>
+            <motion.button
+              className="app-header-coins"
+              title={`${coins} coins — visit the Shop`}
+              whileTap={!prefersReducedMotion ? { scale: 0.92 } : {}}
+              transition={!prefersReducedMotion ? { duration: 0.08 } : {}}
+            >
               <Coins size={14} style={{ color: 'var(--gold)' }} />
               <span>{coins}</span>
-            </button>
+            </motion.button>
           </Link>
         )}
-        <button
+        <motion.button
           onClick={toggleSound}
           className="app-header-icon-btn"
           aria-label={soundOn ? 'Mute sound effects' : 'Unmute sound effects'}
           title={soundOn ? 'Sound on' : 'Sound off'}
+          whileTap={!prefersReducedMotion ? { scale: 0.92 } : {}}
+          transition={!prefersReducedMotion ? { duration: 0.08 } : {}}
         >
           {soundOn ? <Volume2 size={18} /> : <VolumeX size={18} />}
-        </button>
-        <button
+        </motion.button>
+        <motion.button
           onClick={toggleDark}
           className="app-header-icon-btn"
           aria-label={isDark ? 'Light mode' : 'Dark mode'}
+          whileTap={!prefersReducedMotion ? { scale: 0.92 } : {}}
+          transition={!prefersReducedMotion ? { duration: 0.08 } : {}}
         >
           {isDark ? <Sun size={18} /> : <Moon size={18} />}
-        </button>
-        <button
+        </motion.button>
+        <motion.button
           onClick={handleAvatar}
           className="avatar-btn"
           title={user ? `${user.displayName} — tap to sign out` : 'Sign in with Google'}
+          whileTap={!prefersReducedMotion ? { scale: 0.88 } : {}}
+          transition={!prefersReducedMotion ? { duration: 0.08 } : {}}
         >
           {user?.photoURL ? (
             <img src={user.photoURL} alt={user.displayName ?? ''} className="w-full h-full object-cover" />
@@ -92,7 +106,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
               <path d="M15 3H19a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H15" /><polyline points="10 17 15 12 10 7" /><line x1="15" y1="12" x2="3" y2="12" />
             </svg>
           )}
-        </button>
+        </motion.button>
       </div>
     </header>
   );

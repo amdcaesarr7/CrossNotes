@@ -1,14 +1,18 @@
 import { Link } from 'wouter';
 import { Trophy, Target, Flame, Zap, BookOpen, Layers, LogIn, Snowflake, Coins, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
+import { claySpringConfig } from '@/lib/animations';
+import { useMotion } from '@/hooks/useMotion';
 import { useUserProfile, useAllUserProgress, getLevel, MAX_STREAK_FREEZES } from '@/hooks/useFirestore';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
 
 export default function Progress() {
-  const { isDark } = useTheme();
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const { user, signInWithGoogle } = useAuth();
   const { profile, loading: profileLoading } = useUserProfile(user?.uid);
   const { progressMap, loading: progressLoading } = useAllUserProgress(user?.uid);
@@ -81,7 +85,12 @@ export default function Progress() {
                   <span>{xp} XP</span><span>{nextXp} XP</span>
                 </div>
                 <div className="clay-progress h-3.5">
-                  <div className="clay-progress-fill xp-bar" style={{ width: `${xpPct}%` }} />
+                  <motion.div
+                    className="clay-progress-fill xp-bar"
+                    animate={{ scaleX: xpPct / 100 }}
+                    transition={!prefersReducedMotion ? { type: 'spring', damping: 20, mass: 0.5 } : {}}
+                    style={{ originX: 0, scaleX: xpPct / 100 }}
+                  />
                 </div>
               </div>
             </div>
@@ -99,28 +108,49 @@ export default function Progress() {
             </Link>
 
             {/* Stats strip */}
-            <div className="stats-strip">
-              <div className="stat-card">
-                <div className="font-display font-black text-2xl" style={{ color: 'var(--primary)' }}>{completedChapters}</div>
-                <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>Completed</div>
-              </div>
-              <div className="stat-card">
-                <div className="font-display font-black text-2xl text-amber-500">{revisionChapters}</div>
-                <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>Need Revision</div>
-              </div>
-              <div className="stat-card">
-                <div className="font-display font-black text-2xl text-blue-500">{inProgressChapters}</div>
-                <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>In Progress</div>
-              </div>
-            </div>
+            <motion.div
+              className="stats-strip"
+              initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+              transition={!prefersReducedMotion ? { staggerChildren: 0.08, delayChildren: 0 } : {}}
+            >
+              {[
+                { value: completedChapters, label: 'Completed', color: 'var(--primary)' },
+                { value: revisionChapters, label: 'Need Revision', color: '#f59e0b' },
+                { value: inProgressChapters, label: 'In Progress', color: '#3b82f6' },
+              ].map((stat, i) => (
+                <motion.div
+                  key={i}
+                  className="stat-card"
+                  initial={!prefersReducedMotion ? { opacity: 0, y: 12 } : {}}
+                  animate={!prefersReducedMotion ? { opacity: 1, y: 0 } : {}}
+                  transition={!prefersReducedMotion ? { duration: 0.35, ease: 'easeOut' } : {}}
+                >
+                  <div className="font-display font-black text-2xl" style={{ color: stat.color }}>{stat.value}</div>
+                  <div className="text-xs font-bold mt-0.5" style={{ color: 'var(--text-muted)' }}>{stat.label}</div>
+                </motion.div>
+              ))}
+            </motion.div>
 
             {/* Weak chapters */}
             {weakChapters.length > 0 && (
               <section>
                 <h2 className="section-header mb-3">🎯 Revise These</h2>
-                <div className="flex flex-col gap-3">
+                <motion.div
+                  className="flex flex-col gap-3"
+                  initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+                  animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+                  transition={!prefersReducedMotion ? { staggerChildren: 0.06, delayChildren: 0.15 } : {}}
+                >
                   {weakChapters.map(([chapterId, p]) => (
-                    <div key={chapterId} className="clay-card p-4" style={{ borderColor: '#fcd34d', background: 'var(--gold-light)' }}>
+                    <motion.div
+                      key={chapterId}
+                      className="clay-card p-4"
+                      style={{ borderColor: '#fcd34d', background: 'var(--gold-light)' }}
+                      initial={!prefersReducedMotion ? { opacity: 0, x: -12 } : {}}
+                      animate={!prefersReducedMotion ? { opacity: 1, x: 0 } : {}}
+                      transition={!prefersReducedMotion ? { duration: 0.3, ease: 'easeOut' } : {}}
+                    >
                       <div className="flex items-start justify-between gap-3 mb-3">
                         <div>
                           <p className="text-xs font-black uppercase tracking-wider" style={{ color: '#92400e' }}>
@@ -135,9 +165,9 @@ export default function Progress() {
                       <Link href={`/notes/${p.subjectSlug}/${chapterId}`}>
                         <button className="clay-btn-ghost w-full text-sm py-2.5">📖 Revise Now</button>
                       </Link>
-                    </div>
+                    </motion.div>
                   ))}
-                </div>
+                </motion.div>
               </section>
             )}
 

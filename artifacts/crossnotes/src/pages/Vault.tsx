@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
 import { ChevronRight, ShieldCheck } from 'lucide-react';
 import { Link } from 'wouter';
+import { motion } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
+import { claySpringConfig } from '@/lib/animations';
+import { useMotion } from '@/hooks/useMotion';
 import { useStaticSubjects } from '@/hooks/useContent';
 import { loadVisibleSubsections } from '@/hooks/useVault';
 import AppHeader from '@/components/AppHeader';
@@ -11,7 +14,8 @@ import '../crossnotes.css';
 const GENERAL_SHELF = { slug: 'general', name: 'General', emoji: '🗂️', color: 'gold', description: "Study assets that aren't tied to one subject" };
 
 export default function Vault() {
-  const { isDark } = useTheme();
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const subjects = useStaticSubjects();
   const [shelvesWithContent, setShelvesWithContent] = useState<Set<string> | null>(null);
 
@@ -64,12 +68,21 @@ export default function Vault() {
               </p>
             </div>
           ) : (
-            <div className="flex flex-col gap-3">
+            <motion.div
+              className="flex flex-col gap-3"
+              initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+              transition={!prefersReducedMotion ? { staggerChildren: 0.1, delayChildren: 0.1 } : {}}
+            >
               {liveShelves.map(s => (
                 <Link key={s.slug} href={`/vault/${s.slug}`}>
-                  <div
+                  <motion.div
                     className="clay-card hoverable flex items-center gap-4 p-4 cursor-pointer"
                     style={{ background: `var(--${s.color}-bg)`, borderColor: `var(--${s.color}-border)` }}
+                    initial={!prefersReducedMotion ? { opacity: 0, y: 8, scale: 0.94 } : {}}
+                    animate={!prefersReducedMotion ? { opacity: 1, y: 0, scale: 1 } : {}}
+                    whileTap={!prefersReducedMotion ? { scale: 0.96 } : {}}
+                    transition={!prefersReducedMotion ? { duration: 0.4, ease: 'easeOut' } : {}}
                   >
                     <span className="text-4xl">{s.emoji}</span>
                     <div className="flex-1 min-w-0">
@@ -77,10 +90,10 @@ export default function Vault() {
                       {s.description && <p className="text-xs mt-0.5 truncate" style={{ color: 'var(--text-muted)' }}>{s.description}</p>}
                     </div>
                     <ChevronRight size={20} style={{ color: `var(--${s.color}-shadow)`, flexShrink: 0 }} />
-                  </div>
+                  </motion.div>
                 </Link>
               ))}
-            </div>
+            </motion.div>
           )}
         </section>
       </main>

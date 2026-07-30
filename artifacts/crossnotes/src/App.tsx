@@ -18,6 +18,7 @@ import Progress   from '@/pages/Progress';
 import Leaderboard from '@/pages/Leaderboard';
 import Shop       from '@/pages/Shop';
 import NotFound   from '@/pages/not-found';
+import FeedbackButton from '@/components/FeedbackButton';
 
 const queryClient = new QueryClient();
 
@@ -45,6 +46,7 @@ export default function App() {
                     <Route path="/shop"                    component={Shop}       />
                     <Route                                 component={NotFound}   />
                   </Switch>
+                  <FeedbackButton />
                 </ErrorBoundary>
               </WouterRouter>
               <Toaster richColors position="top-center" />

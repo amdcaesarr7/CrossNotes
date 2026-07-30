@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ChevronRight, RotateCcw, Loader2 } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { saveQuizScore } from '@/hooks/useFirestore';
@@ -9,6 +10,8 @@ import { useStaticSubject, useStaticChapter, useStaticQuiz, type StaticQuizQuest
 import { sfx } from '@/lib/sfx';
 import { fireConfetti } from '@/lib/confetti';
 import { celebrateActivityResult } from '@/lib/celebrate';
+import { claySpringConfig, clayVariants, gleeRotate, checkmarkSpin, stampLand, shake } from '@/lib/animations';
+import { useMotion } from '@/hooks/useMotion';
 import AppHeader from '@/components/AppHeader';
 import '../crossnotes.css';
 
@@ -62,7 +65,8 @@ function isCorrect(qType: string, answer: QuizAnswer, q: StaticQuizQuestion): bo
 }
 
 export default function Quiz() {
-  const { isDark } = useTheme();
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const [idx, setIdx]           = useState(0);
   const [answer, setAnswer]     = useState<QuizAnswer>(null);
   const [revealed, setRevealed] = useState(false);
@@ -179,20 +183,35 @@ export default function Quiz() {
                   const gotIt = scores[i];
                   const isPast = i < idx;
                   const isNow = i === idx;
+                  const shouldPop = isPast && justPopped && i === idx - 1;
                   const cls = [
                     'quiz-dot',
                     isNow ? 'is-current' : '',
                     isPast && gotIt === true ? 'is-correct' : '',
                     isPast && gotIt === false ? 'is-wrong' : '',
-                    isPast && justPopped && i === idx - 1 ? 'pop' : '',
                   ].filter(Boolean).join(' ');
-                  return <span key={i} className={cls} />;
+                  return (
+                    <motion.span
+                      key={i}
+                      className={cls}
+                      animate={shouldPop && !prefersReducedMotion ? { rotate: [0, 4, -4, 0], scale: [1, 1.12, 1] } : {}}
+                      transition={shouldPop && !prefersReducedMotion ? { duration: 0.35, ...claySpringConfig } : {}}
+                    />
+                  );
                 })}
               </div>
             </div>
 
             {/* Question — keyed on idx + qType so it slides in fresh each time */}
-            <div key={`${idx}-${qType}`} className="quiz-slide-in flex flex-col gap-3">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={`${idx}-${qType}`}
+                className="flex flex-col gap-3"
+                initial={!prefersReducedMotion ? { opacity: 0, y: 16 } : {}}
+                animate={!prefersReducedMotion ? { opacity: 1, y: 0 } : {}}
+                exit={!prefersReducedMotion ? { opacity: 0, y: -8, scale: 0.96 } : {}}
+                transition={!prefersReducedMotion ? { duration: 0.28, ease: 'easeOut' } : {}}
+              >
               <div className="clay-card p-5">
                 <p className="text-xs font-black uppercase tracking-wider mb-2" style={{ color: 'var(--primary)' }}>
                   Q{idx + 1} {qType !== 'mcq' && <span className="subtype-tag" style={{ marginLeft: 6 }}>
@@ -216,14 +235,21 @@ export default function Quiz() {
                       cls += ' selected';
                     }
                     return (
-                      <button key={i} className={cls} onClick={() => !revealed && setAnswer(i)} disabled={revealed}>
+                      <motion.button
+                        key={i}
+                        className={cls}
+                        onClick={() => !revealed && setAnswer(i)}
+                        disabled={revealed}
+                        whileTap={!prefersReducedMotion ? { scale: 0.98 } : {}}
+                        transition={!prefersReducedMotion ? { duration: 0.1 } : {}}
+                      >
                         <span className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-black shrink-0" style={{ background: 'var(--bg-card-2)', color: 'var(--text-muted)' }}>
                           {String.fromCharCode(65 + i)}
                         </span>
                         <span className="flex-1">{opt}</span>
-                        {revealed && i === q.correctAnswer && <span className="text-green-600 shrink-0">✓</span>}
+                        {revealed && i === q.correctAnswer && <motion.span className="text-green-600 shrink-0" initial={!prefersReducedMotion ? { scale: 0, rotate: -180 } : {}} animate={!prefersReducedMotion ? { scale: 1, rotate: 0 } : {}} transition={!prefersReducedMotion ? { duration: 0.3, ...claySpringConfig } : {}}>✓</motion.span>}
                         {revealed && i === answer && i !== q.correctAnswer && <span className="shrink-0" style={{ color: 'var(--red)' }}>✗</span>}
-                      </button>
+                      </motion.button>
                     );
                   })}
                 </div>
@@ -237,11 +263,14 @@ export default function Quiz() {
                     const showCorrect = revealed && v === q.answer;
                     const showWrong = revealed && isSelected && v !== q.answer;
                     return (
-                      <button
+                      <motion.button
                         key={String(v)}
                         className="true-false-btn-lg"
                         disabled={revealed}
                         onClick={() => !revealed && setAnswer(v)}
+                        whileTap={!prefersReducedMotion ? { scale: 0.95 } : {}}
+                        whileHover={!prefersReducedMotion && typeof window !== 'undefined' && !('ontouchstart' in window) ? { scale: 1.03 } : {}}
+                        transition={!prefersReducedMotion ? { duration: 0.1 } : {}}
                         style={{
                           borderColor: showCorrect ? '#16a34a' : showWrong ? '#dc2626' : isSelected ? 'var(--primary)' : 'var(--divider)',
                           background: showCorrect ? '#dcfce7' : showWrong ? '#fee2e2' : isSelected ? 'var(--primary-light)' : 'var(--bg-card-2)',
@@ -250,7 +279,7 @@ export default function Quiz() {
                         }}
                       >
                         {v ? 'True' : 'False'} {showCorrect ? '✓' : showWrong ? '✗' : ''}
-                      </button>
+                      </motion.button>
                     );
                   })}
                 </div>
@@ -264,11 +293,13 @@ export default function Quiz() {
                     const showCorrect = revealed && word.trim().toLowerCase() === (q.correctWord ?? '').trim().toLowerCase();
                     const showWrong = revealed && isSelected && !showCorrect;
                     return (
-                      <button
+                      <motion.button
                         key={i}
                         disabled={revealed}
                         onClick={() => !revealed && setAnswer(word)}
                         className={`answer-chip${showCorrect ? ' is-correct' : ''}`}
+                        whileTap={!prefersReducedMotion ? { scale: 0.92 } : {}}
+                        transition={!prefersReducedMotion ? { duration: 0.1 } : {}}
                         style={{
                           borderColor: showWrong ? '#dc2626' : isSelected && !revealed ? 'var(--primary)' : undefined,
                           background: showWrong ? '#fee2e2' : isSelected && !revealed ? 'var(--primary-light)' : undefined,
@@ -278,8 +309,8 @@ export default function Quiz() {
                           cursor: revealed ? 'default' : 'pointer',
                         }}
                       >
-                        {word}{showCorrect ? ' ✓' : showWrong ? ' ✗' : ''}
-                      </button>
+                        {word}{showCorrect ? <motion.span initial={!prefersReducedMotion ? { scale: 0 } : {}} animate={!prefersReducedMotion ? { scale: 1 } : {}} transition={!prefersReducedMotion ? { duration: 0.3, ...claySpringConfig } : {}}> ✓</motion.span> : showWrong ? ' ✗' : ''}
+                      </motion.button>
                     );
                   })}
                 </div>
@@ -304,7 +335,8 @@ export default function Quiz() {
                   <p className="text-sm font-semibold" style={{ color: 'var(--text)' }}>{q.explanation}</p>
                 </div>
               )}
-            </div>
+              </motion.div>
+            </AnimatePresence>
 
             {/* Action */}
             <div className="sticky bottom-4">
@@ -322,13 +354,37 @@ export default function Quiz() {
           </>
         ) : (
           /* Results */
-          <div className="clay-card p-8 flex flex-col items-center text-center gap-4">
-            <span className="text-6xl">{emoji}</span>
-            <div>
-              <div className="font-display font-black text-5xl" style={{ color }}>{grade}</div>
-              <div className="text-lg font-bold mt-1" style={{ color: 'var(--text)' }}>{correctCount}/{total} correct · {scorePct}%</div>
-            </div>
-            <p className="font-semibold" style={{ color: 'var(--text-muted)' }}>{msg}</p>
+          <motion.div
+            className="clay-card p-8 flex flex-col items-center text-center gap-4"
+            initial={!prefersReducedMotion ? { scale: 0.6, opacity: 0, y: 20 } : {}}
+            animate={!prefersReducedMotion ? { scale: 1, opacity: 1, y: 0 } : {}}
+            transition={!prefersReducedMotion ? { duration: 0.5, damping: 15, ...claySpringConfig } : {}}
+          >
+            <motion.span
+              className="text-6xl"
+              initial={!prefersReducedMotion ? { scale: 0 } : {}}
+              animate={!prefersReducedMotion ? { scale: 1 } : {}}
+              transition={!prefersReducedMotion ? { delay: 0.15, duration: 0.3, ...claySpringConfig } : {}}
+            >
+              {emoji}
+            </motion.span>
+            <motion.div
+              initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+              transition={!prefersReducedMotion ? { delay: 0.25, duration: 0.3 } : {}}
+            >
+              <motion.div className="font-display font-black text-5xl" style={{ color }} initial={!prefersReducedMotion ? { y: 4 } : {}} animate={!prefersReducedMotion ? { y: 0 } : {}} transition={!prefersReducedMotion ? { delay: 0.3, duration: 0.3 } : {}}>{grade}</motion.div>
+              <motion.div className="text-lg font-bold mt-1" style={{ color: 'var(--text)' }} initial={!prefersReducedMotion ? { opacity: 0 } : {}} animate={!prefersReducedMotion ? { opacity: 1 } : {}} transition={!prefersReducedMotion ? { delay: 0.35, duration: 0.3 } : {}}>{correctCount}/{total} correct · {scorePct}%</motion.div>
+            </motion.div>
+            <motion.p
+              className="font-semibold"
+              style={{ color: 'var(--text-muted)' }}
+              initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+              transition={!prefersReducedMotion ? { delay: 0.4, duration: 0.3 } : {}}
+            >
+              {msg}
+            </motion.p>
 
             {saving && <p className="text-sm font-bold" style={{ color: 'var(--text-muted)' }}>Saving score…</p>}
             {!user && <p className="text-sm font-bold" style={{ color: 'var(--text-muted)' }}>Sign in to save your score & earn XP!</p>}
@@ -344,7 +400,7 @@ export default function Quiz() {
                 <button className="clay-btn w-full py-3">Next Chapter →</button>
               </Link>
             </div>
-          </div>
+          </motion.div>
         )}
       </main>
     </div>

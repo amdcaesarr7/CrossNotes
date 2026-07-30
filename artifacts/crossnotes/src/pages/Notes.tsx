@@ -2,8 +2,11 @@ import { useState } from 'react';
 import { Loader2, CheckCircle2, LayoutList, FileText, PenSquare, Shuffle, ToggleLeft, HelpCircle } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
+import { motion } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
+import { claySpringConfig } from '@/lib/animations';
+import { useMotion } from '@/hooks/useMotion';
 import { markNotesRead } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticNotes } from '@/hooks/useContent';
 import { celebrateActivityResult } from '@/lib/celebrate';
@@ -23,7 +26,8 @@ const SUBTYPE_META: Record<string, { label: string; icon: typeof PenSquare }> = 
 };
 
 export default function Notes() {
-  const { isDark } = useTheme();
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const [marked, setMarked] = useState(false);
   const [marking, setMarking] = useState(false);
 
@@ -97,32 +101,67 @@ export default function Notes() {
           </div>
         ) : (
           <>
-            {notes.map((note, i) => (
-              <NoteBlockRenderer key={note.id} note={note} index={i} />
-            ))}
+            <motion.div
+              initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+              transition={!prefersReducedMotion ? { staggerChildren: 0.06, delayChildren: 0 } : {}}
+            >
+              {notes.map((note, i) => (
+                <motion.div
+                  key={note.id}
+                  initial={!prefersReducedMotion ? { opacity: 0, y: 12 } : {}}
+                  animate={!prefersReducedMotion ? { opacity: 1, y: 0 } : {}}
+                  transition={!prefersReducedMotion ? { duration: 0.35, ease: 'easeOut' } : {}}
+                >
+                  <NoteBlockRenderer note={note} index={i} />
+                </motion.div>
+              ))}
+            </motion.div>
 
             {/* Next steps */}
-            <div className="clay-card p-4 flex flex-col gap-3">
+            <motion.div
+              className="clay-card p-4 flex flex-col gap-3"
+              initial={!prefersReducedMotion ? { opacity: 0, y: 12 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1, y: 0 } : {}}
+              transition={!prefersReducedMotion ? { delay: 0.1 + notes.length * 0.06, duration: 0.35 } : {}}
+            >
               <p className="font-display font-bold text-base" style={{ color: 'var(--text)' }}>{isPaper ? 'Reviewed the paper?' : 'Finished reading?'}</p>
               <div className="flex gap-2">
                 <Link href={`/flashcards/${slug}/${chapterId}`} className="flex-1">
-                  <button className="clay-btn-ghost w-full text-sm py-2.5">🃏 Flashcards</button>
+                  <motion.button
+                    className="clay-btn-ghost w-full text-sm py-2.5"
+                    whileTap={!prefersReducedMotion ? { scale: 0.95 } : {}}
+                    transition={!prefersReducedMotion ? { duration: 0.1 } : {}}
+                  >
+                    🃏 Flashcards
+                  </motion.button>
                 </Link>
                 <Link href={`/quiz/${slug}/${chapterId}`} className="flex-1">
-                  <button className="clay-btn w-full text-sm py-2.5 flex items-center gap-1.5 justify-center">
+                  <motion.button
+                    className="clay-btn w-full text-sm py-2.5 flex items-center gap-1.5 justify-center"
+                    whileTap={!prefersReducedMotion ? { scale: 0.95 } : {}}
+                    transition={!prefersReducedMotion ? { duration: 0.1 } : {}}
+                  >
                     <LayoutList size={15} /> Quiz
-                  </button>
+                  </motion.button>
                 </Link>
               </div>
-            </div>
+            </motion.div>
 
             {/* Mark as read — sticky */}
-            <div className="sticky bottom-4">
-              <button
+            <motion.div
+              className="sticky bottom-4"
+              initial={!prefersReducedMotion ? { opacity: 0, y: 20 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1, y: 0 } : {}}
+              transition={!prefersReducedMotion ? { delay: 0.15 + notes.length * 0.06, duration: 0.35, ...claySpringConfig } : {}}
+            >
+              <motion.button
                 onClick={handleMark}
                 disabled={marked || marking}
                 className="clay-btn w-full py-4 text-base flex items-center justify-center gap-2"
                 style={marked ? { background: '#15803d', boxShadow: '0 3px 0 rgba(0,0,0,0.25)' } : {}}
+                whileTap={!prefersReducedMotion && !marked ? { scale: 0.95 } : {}}
+                transition={!prefersReducedMotion ? { duration: 0.1 } : {}}
               >
                 {marking
                   ? <Loader2 size={18} style={{ animation: 'spin 1s linear infinite' }} />
@@ -130,8 +169,8 @@ export default function Notes() {
                   ? <><CheckCircle2 size={18} /> Done! +10 XP earned</>
                   : <><CheckCircle2 size={18} /> Mark as Read · +10 XP</>
                 }
-              </button>
-            </div>
+              </motion.button>
+            </motion.div>
           </>
         )}
       </main>

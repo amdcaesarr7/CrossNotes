@@ -1,6 +1,9 @@
 import { Wifi, BookOpen, Target, Star, Flame, Tag } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
+import { claySpringConfig } from '@/lib/animations';
+import { useMotion } from '@/hooks/useMotion';
 import { useLeaderboard, getLevel } from '@/hooks/useFirestore';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
@@ -10,6 +13,8 @@ function PodiumCard({ entry, rank }: {
   entry: { uid: string; displayName: string | null; photoURL: string | null; xp: number; streak: number; nickname?: string | null };
   rank: 1 | 2 | 3;
 }) {
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const { levelName } = getLevel(entry.xp);
   const styles: Record<1|2|3, { border: string; bg: string; accent: string; h: string }> = {
     1: { border: '#fbbf24', bg: 'var(--gold-light)', accent: '#92400e', h: '130px' },
@@ -17,8 +22,14 @@ function PodiumCard({ entry, rank }: {
     3: { border: '#fb923c', bg: '#fff7ed', accent: '#9a3412', h: '90px' },
   };
   const s = styles[rank];
+  const delays = { 1: 0.2, 2: 0, 3: 0.1 };
   return (
-    <div className="flex-1 flex flex-col items-center gap-2">
+    <motion.div
+      className="flex-1 flex flex-col items-center gap-2"
+      initial={!prefersReducedMotion ? { scale: 0.6, opacity: 0, y: 20 } : {}}
+      animate={!prefersReducedMotion ? { scale: 1, opacity: 1, y: 0 } : {}}
+      transition={!prefersReducedMotion ? { delay: delays[rank], duration: 0.5, ...claySpringConfig } : {}}
+    >
       {/* Avatar */}
       <div className="relative">
         <div
@@ -59,12 +70,13 @@ function PodiumCard({ entry, rank }: {
         <div className="font-display font-black text-base mt-1" style={{ color: 'var(--text)' }}>{entry.xp} XP</div>
         <div className="text-xs font-bold mt-0.5" style={{ color: '#c2410c' }}>{entry.streak}🔥</div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 export default function LeaderboardPage() {
-  const { isDark } = useTheme();
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const { user } = useAuth();
   const { entries, loading } = useLeaderboard();
 
@@ -116,12 +128,23 @@ export default function LeaderboardPage() {
             )}
 
             {/* Full list */}
-            <div className="clay-card p-2 flex flex-col gap-0.5">
+            <motion.div
+              className="clay-card p-2 flex flex-col gap-0.5"
+              initial={!prefersReducedMotion ? { opacity: 0 } : {}}
+              animate={!prefersReducedMotion ? { opacity: 1 } : {}}
+              transition={!prefersReducedMotion ? { staggerChildren: 0.04, delayChildren: 0.3 } : {}}
+            >
               {entries.map((entry, i) => {
                 const { levelName } = getLevel(entry.xp);
                 const isMe = entry.uid === user?.uid;
                 return (
-                  <div key={entry.uid} className={`leaderboard-row${isMe ? ' me' : ''}`}>
+                  <motion.div
+                    key={entry.uid}
+                    className={`leaderboard-row${isMe ? ' me' : ''}`}
+                    initial={!prefersReducedMotion ? { opacity: 0, x: -12 } : {}}
+                    animate={!prefersReducedMotion ? { opacity: 1, x: 0 } : {}}
+                    transition={!prefersReducedMotion ? { duration: 0.3, ease: 'easeOut' } : {}}
+                  >
                     <div className="flex items-center gap-3">
                       <span
                         className={`font-display font-black text-sm w-7 text-center shrink-0 ${i === 0 ? 'rank-gold' : i === 1 ? 'rank-silver' : i === 2 ? 'rank-bronze' : ''}`}
@@ -156,10 +179,10 @@ export default function LeaderboardPage() {
                       <span className="font-display font-bold text-sm" style={{ color: 'var(--primary)' }}>{entry.xp}</span>
                       <span className="text-xs" style={{ color: 'var(--text-muted)' }}>XP</span>
                     </div>
-                  </div>
+                  </motion.div>
                 );
               })}
-            </div>
+            </motion.div>
           </>
         )}
       </main>

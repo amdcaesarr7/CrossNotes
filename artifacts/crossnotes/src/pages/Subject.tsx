@@ -2,8 +2,11 @@ import { useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams } from 'wouter';
 import { BookOpen, Layers, LayoutList, Loader2, AlertTriangle, ChevronRight, X, Sparkles, FileText } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
+import { claySpringConfig } from '@/lib/animations';
+import { useMotion } from '@/hooks/useMotion';
 import { useUserProgress } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapters, type StaticChapter } from '@/hooks/useContent';
 import AppHeader from '@/components/AppHeader';
@@ -99,6 +102,8 @@ function ChapterOverviewSheet({ chapter, slug, onClose }: { chapter: StaticChapt
 }
 
 function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: string; uid?: string }) {
+  const { isDark, prefersReducedMotion } = useTheme();
+  const { getVariants } = useMotion();
   const { progress } = useUserProgress(uid, chapter.id);
   const status = chapterStatus(progress);
   const hasContent = chapter.notes.length > 0 || chapter.flashcards.length > 0 || chapter.quiz.length > 0;
@@ -107,15 +112,16 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
   const emojiOrNum = chapter.emoji || `${chapter.num}`;
 
   return (
-    <div
-      className="chapter-row"
-      style={hasContent ? { cursor: 'pointer' } : undefined}
-      role={hasContent ? 'button' : undefined}
-      tabIndex={hasContent ? 0 : undefined}
-      onClick={() => hasContent && setShowOverview(true)}
-      onKeyDown={(e) => { if (hasContent && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); setShowOverview(true); } }}
-    >
-      <div className="flex items-center gap-3">
+    <>
+      <div
+        className="chapter-row"
+        style={hasContent ? { cursor: 'pointer' } : undefined}
+        role={hasContent ? 'button' : undefined}
+        tabIndex={hasContent ? 0 : undefined}
+        onClick={() => hasContent && setShowOverview(true)}
+        onKeyDown={(e) => { if (hasContent && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); setShowOverview(true); } }}
+      >
+        <div className="flex items-center gap-3">
         {/* Chapter number/emoji badge */}
         <div
           className="shrink-0 w-11 h-11 rounded-xl flex items-center justify-center font-display font-black text-lg border-2"
@@ -149,37 +155,11 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
             not the small buttons below, so give that a visible affordance */}
         {hasContent && <ChevronRight size={18} className="shrink-0" style={{ color: 'var(--text-muted)' }} />}
       </div>
-
-      {/* Action buttons — still here as a direct shortcut for anyone who wants
-          to skip straight to one, bypassing the overview popup. stopPropagation
-          so tapping a button doesn't ALSO open the overview underneath it. */}
-      {hasContent && (
-        <div className="chapter-actions" onClick={(e) => e.stopPropagation()}>
-          <Link href={`/notes/${slug}/${chapter.id}`} className="chapter-actions-link">
-            <button className="clay-btn-ghost chapter-actions-btn">
-              {chapter.kind === 'paper' ? <FileText size={14} /> : <BookOpen size={14} />} {chapter.kind === 'paper' ? 'Paper' : 'Notes'}
-            </button>
-          </Link>
-          <Link href={`/flashcards/${slug}/${chapter.id}`} className="chapter-actions-link">
-            <button className="clay-btn-ghost chapter-actions-btn">
-              <Layers size={14} /> Cards
-            </button>
-          </Link>
-          <Link href={`/quiz/${slug}/${chapter.id}`} className="chapter-actions-link">
-            <button
-              className="clay-btn-ghost chapter-actions-btn"
-              style={status !== 'done' ? { background: 'var(--primary-light)', borderColor: 'var(--primary-border)', color: 'var(--primary)' } : {}}
-            >
-              <LayoutList size={14} /> Quiz
-            </button>
-          </Link>
-        </div>
-      )}
-
-      {showOverview && (
-        <ChapterOverviewSheet chapter={chapter} slug={slug} onClose={() => setShowOverview(false)} />
-      )}
-    </div>
+      </div>
+    {showOverview && (
+      <ChapterOverviewSheet chapter={chapter} slug={slug} onClose={() => setShowOverview(false)} />
+    )}
+    </>
   );
 }
 

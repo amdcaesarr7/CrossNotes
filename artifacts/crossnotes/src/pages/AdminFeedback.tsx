@@ -215,7 +215,7 @@ export default function AdminFeedback() {
           </div>
         </section>
 
-        <p className="admin-feedback-footnote">This desk uses the same feedback records that students submit. Configure Firebase security rules before granting staff access in production.</p>
+        <p className="admin-feedback-footnote">Student submissions flow into this desk in real time. Use statuses and internal notes to keep each useful idea moving forward.</p>
       </main>
       <BottomNav />
     </div>

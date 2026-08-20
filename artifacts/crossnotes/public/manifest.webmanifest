@@ -1,0 +1,20 @@
+{
+  "name": "CrossNotes",
+  "short_name": "CrossNotes",
+  "description": "Maharashtra Board 10th study notes, flashcards, quizzes, and progress tracking.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ede8ff",
+  "theme_color": "#8f2e78",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

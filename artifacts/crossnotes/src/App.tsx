@@ -4,6 +4,9 @@ import { AuthProvider } from '@/contexts/AuthContext';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { SoundProvider } from '@/contexts/SoundContext';
 import ErrorBoundary from '@/components/ErrorBoundary';
+import AppInstallPrompt from '@/components/AppInstallPrompt';
+import FirstUseTour from '@/components/FirstUseTour';
+import MewCompanion from '@/components/MewCompanion';
 import { Toaster } from 'sonner';
 
 import Dashboard from '@/pages/Dashboard';
@@ -49,6 +52,9 @@ export default function App() {
                   </Switch>
                 </ErrorBoundary>
               </WouterRouter>
+              <FirstUseTour />
+              <AppInstallPrompt />
+              <MewCompanion />
               <Toaster richColors position="top-center" />
             </SoundProvider>
           </ThemeProvider>

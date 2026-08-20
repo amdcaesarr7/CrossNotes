@@ -166,8 +166,8 @@ export default function Dashboard() {
           <div className="clay-card p-4 flex items-center gap-3" style={{ background: 'var(--blue-light, #dbeafe)', borderColor: '#93c5fd' }}>
             <BellRing size={20} style={{ color: '#1d4ed8' }} className="shrink-0" />
             <div className="flex-1">
-              <p className="text-sm font-bold" style={{ color: 'var(--text)' }}>Never lose your streak</p>
-              <p className="text-xs font-semibold mt-0.5" style={{ color: 'var(--text-muted)' }}>Get an evening nudge if you haven't studied yet.</p>
+              <p className="text-sm font-bold" style={{ color: 'var(--text)' }}>Let Mew protect your streak</p>
+              <p className="text-xs font-semibold mt-0.5" style={{ color: 'var(--text-muted)' }}>Get an evening nudge when your study plan becomes purely theoretical.</p>
             </div>
             <button onClick={enableReminders} className="clay-btn-ghost text-xs py-2 px-3 shrink-0">Enable</button>
             <button onClick={dismissBanner} aria-label="Dismiss" className="shrink-0" style={{ color: 'var(--text-muted)' }}>

@@ -53,7 +53,7 @@ export default function Notes() {
   };
 
   const isPaper = chapter?.kind === 'paper';
-  const subtypesPresent = Array.from(new Set(notes.map(n => n.type).filter((t): t is string => !!t && t in SUBTYPE_META)));
+  const subtypesPresent = Array.from(new Set(notes.map(n => n.type).filter((t): t is Exclude<typeof t, undefined> => !!t && t in SUBTYPE_META)));
 
   return (
     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>

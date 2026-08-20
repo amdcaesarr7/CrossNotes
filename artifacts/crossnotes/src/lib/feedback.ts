@@ -50,6 +50,22 @@ function makeClientId() {
   return `feedback-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 }
 
+async function requestFeedbackAlert(feedback: Pick<FeedbackItem, 'id' | 'kind' | 'message' | 'userName' | 'createdAt'>) {
+  try {
+    const response = await fetch('/api/feedback-alert', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ feedback }),
+    });
+
+    if (!response.ok) {
+      console.info('Feedback alert was not accepted; the feedback record remains safely stored.');
+    }
+  } catch {
+    // Notification delivery is deliberately best-effort; it must never interrupt the feedback experience.
+  }
+}
+
 function normalizeFeedback(item: Partial<FeedbackItem> & { id?: string }): FeedbackItem {
   const clientId = typeof item.clientId === 'string' && item.clientId ? item.clientId : item.id ?? makeClientId();
   return {
@@ -144,6 +160,7 @@ export async function submitFeedback(submission: FeedbackSubmission): Promise<Fe
 
     const syncedItem = { ...queuedItem, id: remote.id, source: 'firestore' as const };
     replaceLocalItem(syncedItem);
+    void requestFeedbackAlert(syncedItem);
     return syncedItem;
   } catch {
     // The queue remains visible locally and can still be reviewed from this browser.

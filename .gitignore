@@ -10,6 +10,10 @@ out-tsc
 
 # dependencies
 node_modules
+functions/lib/
+functions/.env
+functions/.env.*
+!functions/.env.example
 
 # IDEs and editors
 /.idea
@@ -48,6 +52,8 @@ Thumbs.db
 .cache/
 .local/
 
-# Local notification-service credentials
-functions/.env
-functions/.secret.local
+# Local notification credentials
+.gmail_relay_secret
+artifacts/crossnotes/.env
+artifacts/crossnotes/.env.*
+!artifacts/crossnotes/.env.example

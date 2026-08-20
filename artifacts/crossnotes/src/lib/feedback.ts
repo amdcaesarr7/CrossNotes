@@ -16,6 +16,7 @@ export type FeedbackStatus = 'new' | 'in_review' | 'planned' | 'resolved' | 'arc
 
 export interface FeedbackItem {
   id: string;
+  clientId: string;
   kind: FeedbackKind;
   message: string;
   userId: string;
@@ -35,6 +36,7 @@ export interface FeedbackSubmission {
 }
 
 const STORAGE_KEY = 'crossnotes-feedback';
+const FEEDBACK_EVENT = 'crossnotes-feedback-changed';
 
 function isFeedbackKind(value: unknown): value is FeedbackKind {
   return value === 'idea' || value === 'bug' || value === 'encouragement';
@@ -44,9 +46,15 @@ function isFeedbackStatus(value: unknown): value is FeedbackStatus {
   return value === 'new' || value === 'in_review' || value === 'planned' || value === 'resolved' || value === 'archived';
 }
 
+function makeClientId() {
+  return `feedback-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+}
+
 function normalizeFeedback(item: Partial<FeedbackItem> & { id?: string }): FeedbackItem {
+  const clientId = typeof item.clientId === 'string' && item.clientId ? item.clientId : item.id ?? makeClientId();
   return {
-    id: item.id ?? `feedback-${Date.now()}`,
+    id: item.id ?? clientId,
+    clientId,
     kind: isFeedbackKind(item.kind) ? item.kind : 'idea',
     message: typeof item.message === 'string' ? item.message : '',
     userId: typeof item.userId === 'string' ? item.userId : 'guest',
@@ -59,13 +67,20 @@ function normalizeFeedback(item: Partial<FeedbackItem> & { id?: string }): Feedb
   };
 }
 
+function sortFeedback(items: FeedbackItem[]) {
+  return [...items].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+}
+
+function mergeFeedback(remoteItems: FeedbackItem[], localItems: FeedbackItem[]) {
+  const remoteClientIds = new Set(remoteItems.map((item) => item.clientId));
+  return sortFeedback([...remoteItems, ...localItems.filter((item) => !remoteClientIds.has(item.clientId))]);
+}
+
 export function readLocalFeedback(): FeedbackItem[] {
   try {
     const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]');
     if (!Array.isArray(raw)) return [];
-    return raw
-      .map((item) => normalizeFeedback(item))
-      .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+    return sortFeedback(raw.map((item) => normalizeFeedback(item)));
   } catch {
     return [];
   }
@@ -73,17 +88,32 @@ export function readLocalFeedback(): FeedbackItem[] {
 
 function writeLocalFeedback(items: FeedbackItem[]) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(items.map(({ source: _source, ...item }) => item).slice(0, 100)));
-    window.dispatchEvent(new Event('crossnotes-feedback-changed'));
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify(items.map(({ source: _source, ...item }) => item).slice(0, 100)),
+    );
+    window.dispatchEvent(new Event(FEEDBACK_EVENT));
   } catch {
-    // Storage failures should never interrupt a student's feedback submission.
+    // Local storage is only a resilience layer; its failure must not interrupt a submission.
   }
+}
+
+function replaceLocalItem(item: FeedbackItem) {
+  const localItems = readLocalFeedback();
+  const exists = localItems.some((entry) => entry.clientId === item.clientId);
+  writeLocalFeedback(
+    exists
+      ? localItems.map((entry) => entry.clientId === item.clientId ? item : entry)
+      : [item, ...localItems],
+  );
 }
 
 export async function submitFeedback(submission: FeedbackSubmission): Promise<FeedbackItem> {
   const now = new Date().toISOString();
-  const localItem = normalizeFeedback({
-    id: `feedback-${Date.now()}`,
+  const clientId = makeClientId();
+  const queuedItem = normalizeFeedback({
+    id: clientId,
+    clientId,
     kind: submission.kind,
     message: submission.message.trim(),
     userId: submission.userId ?? 'guest',
@@ -94,27 +124,30 @@ export async function submitFeedback(submission: FeedbackSubmission): Promise<Fe
     source: 'local',
   });
 
-  const localItems = readLocalFeedback();
-  writeLocalFeedback([localItem, ...localItems]);
-
-  if (!db) return localItem;
+  // The item is visible to the desk immediately on this device, then upgraded to its Firestore ID after sync.
+  replaceLocalItem(queuedItem);
+  if (!db) return queuedItem;
 
   try {
     const remote = await addDoc(collection(db, 'feedback'), {
-      kind: localItem.kind,
-      message: localItem.message,
-      userId: localItem.userId,
-      userName: localItem.userName,
-      status: localItem.status,
-      adminNote: localItem.adminNote,
-      createdAtClient: localItem.createdAt,
+      clientId: queuedItem.clientId,
+      kind: queuedItem.kind,
+      message: queuedItem.message,
+      userId: queuedItem.userId,
+      userName: queuedItem.userName,
+      status: queuedItem.status,
+      adminNote: queuedItem.adminNote,
+      createdAtClient: queuedItem.createdAt,
       createdAt: serverTimestamp(),
       updatedAt: serverTimestamp(),
     });
-    return { ...localItem, id: remote.id, source: 'firestore' };
+
+    const syncedItem = { ...queuedItem, id: remote.id, source: 'firestore' as const };
+    replaceLocalItem(syncedItem);
+    return syncedItem;
   } catch {
-    // Firestore might be unavailable or intentionally blocked for guests. The local item remains available to the feedback desk on this device.
-    return localItem;
+    // The queue remains visible locally and can still be reviewed from this browser.
+    return queuedItem;
   }
 }
 
@@ -124,17 +157,21 @@ export function useFeedbackItems() {
   const [syncing, setSyncing] = useState(false);
 
   useEffect(() => {
-    const refreshLocalItems = () => {
-      if (!db) setItems(readLocalFeedback());
+    const refreshFromLocal = () => {
+      setItems((currentItems) => {
+        const remoteItems = currentItems.filter((item) => item.source === 'firestore');
+        return mergeFeedback(remoteItems, readLocalFeedback());
+      });
     };
-    window.addEventListener('crossnotes-feedback-changed', refreshLocalItems);
-    window.addEventListener('storage', refreshLocalItems);
+
+    window.addEventListener(FEEDBACK_EVENT, refreshFromLocal);
+    window.addEventListener('storage', refreshFromLocal);
 
     if (!db) {
       setLoading(false);
       return () => {
-        window.removeEventListener('crossnotes-feedback-changed', refreshLocalItems);
-        window.removeEventListener('storage', refreshLocalItems);
+        window.removeEventListener(FEEDBACK_EVENT, refreshFromLocal);
+        window.removeEventListener('storage', refreshFromLocal);
       };
     }
 
@@ -150,7 +187,7 @@ export function useFeedbackItems() {
           updatedAt: entry.data().updatedAtClient,
           source: 'firestore',
         }));
-        setItems(remoteItems);
+        setItems(mergeFeedback(remoteItems, readLocalFeedback()));
         setLoading(false);
         setSyncing(false);
       },
@@ -163,8 +200,8 @@ export function useFeedbackItems() {
 
     return () => {
       unsubscribe();
-      window.removeEventListener('crossnotes-feedback-changed', refreshLocalItems);
-      window.removeEventListener('storage', refreshLocalItems);
+      window.removeEventListener(FEEDBACK_EVENT, refreshFromLocal);
+      window.removeEventListener('storage', refreshFromLocal);
     };
   }, []);
 
@@ -177,12 +214,9 @@ export async function updateFeedbackItem(
 ): Promise<FeedbackItem> {
   const updatedAt = new Date().toISOString();
   const updated = { ...item, ...patch, updatedAt };
+  replaceLocalItem(updated);
 
-  if (item.source === 'local' || !db) {
-    const localItems = readLocalFeedback().map((entry) => entry.id === item.id ? updated : entry);
-    writeLocalFeedback(localItems);
-    return updated;
-  }
+  if (item.source === 'local' || !db) return updated;
 
   await updateDoc(doc(db, 'feedback', item.id), {
     status: patch.status,
@@ -190,5 +224,6 @@ export async function updateFeedbackItem(
     updatedAtClient: updatedAt,
     updatedAt: serverTimestamp(),
   });
+
   return updated;
 }

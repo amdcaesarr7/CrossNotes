@@ -4,186 +4,215 @@
       "id": "ch1",
       "num": 1,
       "title": "Historiography: Development in the West",
-      "emoji": "📖",
+      "emoji": "📜",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter traces how the discipline of history-writing (historiography) developed in the West, from Enlightenment thinkers who insisted on rational, evidence-based history through to 19th- and 20th-century schools like the Annales School, Marxist historiography, feminist historiography, and Foucault's archaeology of knowledge.",
+        "summary": "This chapter explores the development of historiography in the Western world, covering key thinkers and their contributions to historical writing. It introduces various schools of thought including dialectics, Marxist, Subaltern, and Feminist historiography.",
         "youWillLearn": [
-          "What Dialectics means and who propounded it",
-          "How the Annales School broadened the scope of history",
-          "Why Voltaire is regarded as the founder of modern historiography",
-          "The four defining characteristics of modern historiography",
-          "Leopold von Ranke's insistence on original documents",
-          "How Karl Marx's 'Das Kapital' shaped Marxist historiography",
-          "The rise of Feminist Historiography and Michel Foucault's method"
+          "Identify the founders and key contributors to modern historiography.",
+          "Understand different schools of historical thought.",
+          "Explain the contributions of Georg Hegel, Karl Marx, Leopold von Ranke, and Simone de Beauvoir.",
+          "Recognize the different types of historiography like Subaltern and Feminist.",
+          "Understand the concept of dialectics and class struggle."
         ]
       },
       "notes": [
         {
           "id": "n1",
           "type": "paragraph",
-          "title": "Dialectics",
-          "content": "Dialectics is a method of analysis based on opposites (True-False, Good-Bad). To understand the true nature of an event or thing, one must understand its opposite as well. This concept was propounded by the German philosopher G.W.F. Hegel in his work 'Reason in History'.",
+          "title": "Introduction to Historiography",
+          "content": "Historiography is the study of the methods and principles of historical writing. It examines how history is written and the various perspectives that influence it.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
-          "title": "Annales School",
-          "content": "At the dawn of the 20th century, a new school of historiography arose in France called the 'Annales School', started by French historians. It argued that history is not only about political events, kings, wars, and diplomacy, but also about climate, common people, agriculture, trade, technology, communication, social divisions, and collective psychology.",
+          "title": "Georg Wilhelm Friedrich Hegel",
+          "content": "Hegel was a German philosopher known for his concept of dialectics. He wrote 'Reason in History'. He believed that history is a rational process and that the development of human consciousness is driven by dialectical reasoning.",
           "important": true
         },
         {
           "id": "n3",
           "type": "paragraph",
-          "title": "Voltaire as founder of modern historiography",
-          "content": "Voltaire is regarded as the founder of modern historiography because he was among the first to insist that history should be based on a scientific, rational, and critical examination of evidence rather than myths, and he broadened the scope of history beyond kings and wars to include culture and society.",
+          "title": "Karl Marx",
+          "content": "Karl Marx was a philosopher and historian who focused on class struggle. He believed that history is driven by economic factors and conflicts between different social classes. He wrote 'The Communist Manifesto' and 'Das Kapital'.",
           "important": true
         },
         {
           "id": "n4",
           "type": "paragraph",
-          "title": "Four characteristics of modern historiography",
-          "content": "1. The method is based on scientific principles and always forms relevant questions. 2. Neutral and impartial analysis of evidence without bias. 3. Use of original documents and cross-verification of sources. 4. Expansion of the scope of history to include economy, society, culture, and common people, not just kings and wars.",
+          "title": "Leopold von Ranke",
+          "content": "Ranke is considered the father of modern historiography. He emphasized the importance of examining historical documents minutely. His famous work is 'The Theory and Practice of History'. He believed history should be written as it actually happened.",
           "important": true
         },
         {
           "id": "n5",
           "type": "paragraph",
-          "title": "Leopold von Ranke",
-          "content": "Leopold von Ranke influenced 19th century historiography. He was against imaginative narration of history and insisted that historians must rely on original documents examined with the greatest care, since only this leads to the ultimate truth. His work is 'The Theory and Practice of History'.",
+          "title": "Simone de Beauvoir",
+          "content": "Simone de Beauvoir was a French feminist scholar who insisted on rethinking the male-dominated perspective in historiography. She argued for including women's perspectives in historical writing, giving rise to feminist historiography.",
           "important": true
         },
         {
           "id": "n6",
           "type": "paragraph",
-          "title": "Karl Marx and Das Kapital",
-          "content": "Karl Marx introduced the Marxist school of historiography, viewing history as shaped by class struggle and economic conditions rather than the actions of great individuals alone. His major work, 'Das Kapital', analyses capitalism and laid the foundation for economic/materialist interpretations of history.",
+          "title": "Voltaire - Founder of Modern Historiography",
+          "content": "It may be said that Voltaire was the founder of modern historiography. He emphasized writing history from a critical and rational perspective.",
           "important": true
         },
         {
           "id": "n7",
-          "type": "paragraph",
-          "title": "Feminist Historiography",
-          "content": "For a long period, male scholars dominated historical writing, so the role of women in history was neglected. French scholar Simone de Beauvoir insisted on including the women's perspective — their employment, role in trade unions, family life — giving rise to Feminist Historiography.",
-          "important": false
+          "type": "table",
+          "title": "Important Thinkers and Their Works",
+          "headers": [
+            "Thinker",
+            "Book/Contribution"
+          ],
+          "rows": [
+            [
+              "Georg Wilhelm Friedrich Hegel",
+              "Reason in History (Dialectics)"
+            ],
+            [
+              "Leopold von Ranke",
+              "The Theory and Practice of History"
+            ],
+            [
+              "Herodotus",
+              "The Histories"
+            ],
+            [
+              "Karl Marx",
+              "The Communist Manifesto / Das Kapital"
+            ],
+            [
+              "Simone de Beauvoir",
+              "Feminist approach in writing historiography"
+            ],
+            [
+              "Voltaire",
+              "Founder of modern historiography"
+            ]
+          ]
         },
         {
           "id": "n8",
-          "type": "paragraph",
-          "title": "Foucault's Archaeology of Knowledge",
-          "content": "Michel Foucault believed the prevailing method of arranging historical events only in chronological order was inadequate. He called his method 'the archaeology of knowledge', analysing the deeper structures and discourses underlying historical knowledge.",
-          "important": false
+          "type": "match_column",
+          "title": "Match the Pair",
+          "left": [
+            "Georg Wilhelm Friedrich Hegel",
+            "Leopold von Ranke",
+            "Herodotus",
+            "Karl Marx"
+          ],
+          "right": [
+            "Reason in History",
+            "The Theory and Practice of History",
+            "The Histories",
+            "Discourse on the Method",
+            "The History of India"
+          ],
+          "answerKey": [0, 1, 2, 3]
+        },
+        {
+          "id": "n9",
+          "type": "qna",
+          "title": "Feminist Historiography",
+          "question": "What is feminist historiography?",
+          "qnaAnswer": "Feminist historiography means writing history with a women's perspective. It emerged as a reaction to the dominance of male perspective in historical writing. Simone de Beauvoir insisted on including women's perspectives, making various aspects of women's lives like employment, trade union roles, and family life part of historiography."
+        },
+        {
+          "id": "n10",
+          "type": "qna",
+          "title": "Karl Marx's View on History",
+          "question": "Explain Karl Marx's perspective on history.",
+          "qnaAnswer": "Karl Marx believed that history was not about abstract ideas but about the fundamental needs of people. He argued that the means of production and class struggle are the driving forces of history. According to him, history is the history of class struggles, where one class exploits the rest of society."
+        },
+        {
+          "id": "n11",
+          "type": "fill_blank",
+          "title": "Key Terms",
+          "content": "It may be said that ___ was the founder of modern historiography.",
+          "blanks": ["Voltaire"]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
-          "front": "Who started the Annales School and where?",
-          "back": "French historians started it in France, at the dawn of the 20th century.",
-          "order": 1
+          "front": "Who is considered the founder of modern historiography?",
+          "back": "Voltaire is considered the founder of modern historiography."
         },
         {
           "id": "f2",
-          "front": "Who is called the founder of modern historiography?",
-          "back": "Voltaire",
-          "order": 2
+          "front": "What is dialectics?",
+          "back": "Dialectics is a method of reasoning and argumentation developed by Hegel, involving the process of thesis, antithesis, and synthesis."
         },
         {
           "id": "f3",
-          "front": "'The Theory and Practice of History' was written by whom?",
-          "back": "Leopold von Ranke",
-          "order": 3
+          "front": "What did Karl Marx believe drove history?",
+          "back": "Karl Marx believed that class struggle and economic factors were the driving forces of history."
         },
         {
           "id": "f4",
-          "front": "Which book did Karl Marx write?",
-          "back": "Das Kapital",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "Who propounded the concept of Dialectics?",
-          "back": "G.W.F. Hegel",
-          "order": 5
-        },
-        {
-          "id": "f6",
-          "front": "What did Foucault call his method?",
-          "back": "'The archaeology of knowledge'",
-          "order": 6
-        },
-        {
-          "id": "f7",
-          "front": "Who is associated with Feminist Historiography?",
-          "back": "Simone de Beauvoir",
-          "order": 7
+          "front": "What is feminist historiography?",
+          "back": "Writing history with a women's perspective, challenging the male-dominated narrative."
         }
       ],
       "quiz": [
         {
           "id": "q1",
-          "question": "It may be said that ______ was the founder of modern historiography.",
+          "qType": "mcq",
+          "question": "Who wrote 'Reason in History'?",
           "options": [
-            "Voltaire",
-            "René Descartes",
+            "Karl Marx",
+            "Georg Wilhelm Friedrich Hegel",
             "Leopold von Ranke",
-            "Karl Marx"
+            "Herodotus"
           ],
-          "correctAnswer": 0,
-          "explanation": "Voltaire pushed history toward a rational, evidence-based, secular study beyond kings and wars.",
+          "correctAnswer": 1,
+          "explanation": "Georg Wilhelm Friedrich Hegel wrote 'Reason in History' which explains his concept of dialectics.",
           "order": 1
         },
         {
           "id": "q2",
-          "question": "A new school of historiography arose in France known as the ______ School.",
+          "qType": "mcq",
+          "question": "Who emphasized the need to examine historical documents minutely?",
           "options": [
-            "Translation",
-            "Annales",
-            "Nationalism",
-            "Communist"
+            "Karl Marx",
+            "Simone de Beauvoir",
+            "Leopold von Ranke",
+            "Herodotus"
           ],
-          "correctAnswer": 1,
-          "explanation": "The Annales School broadened history to include society, economy, and culture.",
+          "correctAnswer": 2,
+          "explanation": "Leopold von Ranke is known for his methodology of examining historical documents in detail.",
           "order": 2
         },
         {
           "id": "q3",
-          "question": "Who wrote 'The Theory and Practice of History'?",
+          "qType": "mcq",
+          "question": "Who insisted on rethinking historiography from a women's perspective?",
           "options": [
+            "Simone de Beauvoir",
             "Karl Marx",
-            "Voltaire",
-            "Leopold von Ranke",
-            "Michel Foucault"
+            "Georg Hegel",
+            "Herodotus"
           ],
-          "correctAnswer": 2,
-          "explanation": "Ranke insisted history rely strictly on original documents.",
+          "correctAnswer": 0,
+          "explanation": "Simone de Beauvoir was a French feminist scholar who advocated for women's perspectives in history.",
           "order": 3
         },
         {
           "id": "q4",
-          "question": "Michel Foucault called his method:",
+          "qType": "mcq",
+          "question": "According to Karl Marx, what is the driving force of history?",
           "options": [
-            "Dialectics",
-            "The archaeology of knowledge",
-            "Annales method",
-            "Scientific narration"
+            "Great leaders",
+            "Class struggle",
+            "Divine intervention",
+            "Accidental events"
           ],
           "correctAnswer": 1,
-          "explanation": "Foucault rejected pure chronological ordering of history.",
+          "explanation": "Marx believed that class struggle between the bourgeoisie and the proletariat drives historical change.",
           "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "Das Kapital, the foundation of Marxist historiography, was written by:",
-          "options": [
-            "Hegel",
-            "Karl Marx",
-            "Ranke",
-            "Voltaire"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Marx's economic/class-struggle lens shaped an entire school of historiography.",
-          "order": 5
         }
       ]
     },
@@ -191,157 +220,145 @@
       "id": "ch2",
       "num": 2,
       "title": "Historiography: Indian Tradition",
-      "emoji": "🕉️",
+      "emoji": "🇮🇳",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter looks at how history has been written in the Indian tradition, covering Orientalist and Nationalist historiography, Subaltern History that centres marginalised voices, medieval Bakhar literature, and Dr. B.R. Ambedkar's contribution to writing Dalit history.",
+        "summary": "This chapter examines the Indian tradition of historiography, focusing on historians who wrote about India's past. It covers the works of Indian and British historians who documented Indian history.",
         "youWillLearn": [
-          "What Orientalist historiography focused on",
-          "The meaning and purpose of Subaltern History",
-          "How Nationalist historiography approached ancient India",
-          "What a Bakhar is and its role as a medieval historical document",
-          "Dr. B.R. Ambedkar's contribution to Subaltern History"
+          "Identify key Indian historians and their works.",
+          "Understand the contributions of British historians to Indian historiography.",
+          "Recognize the importance of different historical sources.",
+          "Appreciate the diverse perspectives in Indian historical writing."
         ]
       },
       "notes": [
         {
           "id": "n1",
           "type": "paragraph",
-          "title": "Orientalist Historiography",
-          "content": "Orientalists were Western scholars who felt curiosity, admiration and respect for the civilisations and countries of the East. They focused on Vedic tradition and Sanskrit literature and found similarities between Sanskrit and European languages. Sir William Jones, Friedrich Max Muller, and Edward Said were famous Orientalist scholars.",
+          "title": "Indian Historiography",
+          "content": "Indian historiography includes works by both Indian and British historians. Notable Indian historians include V.D. Savarkar, Damodar Kosambi, Ramchandra Guha, and Sharmila Rege, each representing different schools of thought.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
-          "title": "Subaltern History",
-          "content": "Subaltern means 'bottommost ranks'. Subaltern History develops the idea that history should be written starting from the bottommost ranks of society, considering folklore as a key source. Ranjit Guha, an Indian historian, played a major role in establishing it as an academic school, influenced by Antonio Gramsci's ideas.",
+          "title": "Nationalistic Historiography",
+          "content": "Nationalistic historiography focuses on India's struggle for independence and the nation's history from a nationalist perspective. V.D. Savarkar is associated with this school of thought.",
           "important": true
         },
         {
           "id": "n3",
           "type": "paragraph",
-          "title": "Nationalist Historiography",
-          "content": "Nationalist historiography tried to seek the golden era of Indian history, criticising British writers for a prejudiced portrayal of ancient India. In Maharashtra, it was inspired by Vishnushastri Chiplunkar. This historiography helped trigger the independence movement by restoring pride and self-esteem among Indian readers.",
+          "title": "Marxist Historiography",
+          "content": "Marxist historiography applies Marxist principles to analyze Indian history, focusing on class struggles and economic factors. Damodar Kosambi was a notable exponent of this approach.",
           "important": true
         },
         {
           "id": "n4",
           "type": "paragraph",
-          "title": "Bakhar",
-          "content": "Bakhar is an important type of historical document of the medieval period, containing eulogies of heroes and stories of historic events, battles, and lives of great men. Bakhars can be biographies of kings, dynastic histories, descriptions of events, or state administration accounts. 'Bhausahebanchi Bakhar' describes the Battle of Panipat; 'Sabhasad Bakhar' by Krishnaji Anant Sabhasad gives information about Chhatrapati Shivaji Maharaj's rule.",
+          "title": "Subaltern Historiography",
+          "content": "Subaltern historiography focuses on the history of the oppressed and marginalized groups, giving voice to those who are often excluded from mainstream historical narratives. Ranjit Guha is a key figure in this school, and similar thoughts were expressed by Mahatma Phule and Dr. Babasaheb Ambedkar.",
           "important": true
         },
         {
           "id": "n5",
           "type": "paragraph",
-          "title": "Contribution of Dr. B.R. Ambedkar to Subaltern History",
-          "content": "Dr. Babasaheb Ambedkar, in his two books 'Who Were the Shudras' and 'The Untouchables', wrote about the injustice done to the Dalits and their significant role in shaping the cultural and political aspects of India — anticipating Subaltern ideas even before the school was formally established. Mahatma Phule expressed similar thoughts in his book 'Gulamgiri', drawing attention to the exploitation of women, Shudras, and Atishudras in the name of religion.",
+          "title": "Feminist Historiography",
+          "content": "Feminist historiography in the Indian context focuses on women's contributions and perspectives. Sharmila Rege is associated with this approach, which seeks to correct male-dominated historical narratives.",
           "important": true
+        },
+        {
+          "id": "n6",
+          "type": "match_column",
+          "title": "Match the Pair",
+          "left": [
+            "Nationalistic Historiography",
+            "Marxist Historiography",
+            "Subaltern Historiography",
+            "Feminist Historiography"
+          ],
+          "right": [
+            "V.D. Savarkar",
+            "Damodar Kosambi",
+            "Ramchandra Guha",
+            "Sharmila Rege",
+            "Ranjit Guha"
+          ],
+          "answerKey": [0, 1, 2, 3]
+        },
+        {
+          "id": "n7",
+          "type": "table",
+          "title": "Indian Historians and Their Schools",
+          "headers": [
+            "School of Historiography",
+            "Historian"
+          ],
+          "rows": [
+            [
+              "Nationalistic Historiography",
+              "V.D. Savarkar"
+            ],
+            [
+              "Marxist Historiography",
+              "Damodar Kosambi"
+            ],
+            [
+              "Subaltern Historiography",
+              "Ranjit Guha / Ramchandra Guha"
+            ],
+            [
+              "Feminist Historiography",
+              "Sharmila Rege"
+            ]
+          ]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
-          "front": "What does 'Subaltern' mean?",
-          "back": "Bottommost ranks (of society)",
-          "order": 1
+          "front": "Who is associated with Nationalistic Historiography in India?",
+          "back": "V.D. Savarkar."
         },
         {
           "id": "f2",
-          "front": "Who established Subaltern history as an academic school?",
-          "back": "Ranjit Guha",
-          "order": 2
+          "front": "Who is a key figure in Marxist Historiography?",
+          "back": "Damodar Kosambi."
         },
         {
           "id": "f3",
-          "front": "Which battle does 'Bhausahebanchi Bakhar' describe?",
-          "back": "Battle of Panipat",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "Who inspired nationalistic writings in Maharashtra?",
-          "back": "Vishnushastri Chiplunkar",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "Name two books by Dr. B.R. Ambedkar relevant to Subaltern history.",
-          "back": "'Who Were the Shudras' and 'The Untouchables'",
-          "order": 5
-        },
-        {
-          "id": "f6",
-          "front": "Which book did Mahatma Phule write on exploitation of Shudras?",
-          "back": "'Gulamgiri'",
-          "order": 6
+          "front": "What does Subaltern Historiography focus on?",
+          "back": "The history of the oppressed and marginalized groups."
         }
       ],
       "quiz": [
         {
           "id": "q1",
-          "question": "'Bhausahebanchi Bakhar' describes the Battle of ______.",
+          "qType": "mcq",
+          "question": "Who is associated with Nationalistic Historiography?",
           "options": [
-            "Raigad",
-            "Panipat",
-            "Plassey",
-            "Vasai"
+            "V.D. Savarkar",
+            "Damodar Kosambi",
+            "Ramchandra Guha",
+            "Sharmila Rege"
           ],
-          "correctAnswer": 1,
-          "explanation": "It is one of the most cited Bakhars describing the Third Battle of Panipat.",
+          "correctAnswer": 0,
+          "explanation": "V.D. Savarkar is known for his nationalistic approach to Indian history.",
           "order": 1
         },
         {
           "id": "q2",
-          "question": "______, an Indian historian, played a major role in establishing subaltern history as an academic school.",
+          "qType": "mcq",
+          "question": "Which school of historiography focuses on the history of marginalized groups?",
           "options": [
-            "Comrade Sharad Patil",
-            "Ranjit Guha",
-            "Dharmanand Kosambi",
-            "R.C. Majumdar"
+            "Nationalistic",
+            "Marxist",
+            "Subaltern",
+            "Feminist"
           ],
-          "correctAnswer": 1,
-          "explanation": "Guha's work established Subaltern Studies as a recognised historiographical school.",
+          "correctAnswer": 2,
+          "explanation": "Subaltern historiography gives voice to oppressed and marginalized communities.",
           "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "The scholars who admired the civilisations of the East and focused on Vedic/Sanskrit tradition were called:",
-          "options": [
-            "Nationalists",
-            "Orientalists",
-            "Subalternists",
-            "Marxists"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Sir William Jones and Max Muller are famous Orientalist scholars.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "In Maharashtra, nationalistic historical writings were inspired by:",
-          "options": [
-            "Vishnushastri Chiplunkar",
-            "Bal Gangadhar Tilak",
-            "Lokmanya Tilak",
-            "M.G. Ranade"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Chiplunkar criticised the prejudiced colonial history of ancient India.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "Which of these is a type of historical document from the medieval period containing eulogies of heroes?",
-          "options": [
-            "Archive",
-            "Bakhar",
-            "Gazette",
-            "Inscription"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Bakhars are an important indigenous Indian source of medieval history.",
-          "order": 5
         }
       ]
     },
@@ -350,156 +367,113 @@
       "num": 3,
       "title": "Applied History",
       "emoji": "🏛️",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter introduces Applied (Public) History — using historical knowledge for present-day benefit — along with the roles of UNESCO and Archives in preserving heritage, why the history of technology matters, and key cultural heritage sites in Maharashtra.",
+        "summary": "This chapter explores the practical application of historical knowledge in fields like heritage management, tourism, and conservation. It discusses the importance of preserving and conserving historical artifacts and sites for future generations.",
         "youWillLearn": [
-          "What Applied History / Public History means",
-          "UNESCO's role in preserving natural and cultural heritage",
-          "What an Archive is and where India's National Archives is located",
-          "Why studying the history of technology is important",
-          "Major cultural heritage sites in Maharashtra"
+          "Understand the concept of applied history.",
+          "Explain the importance of archives and museums.",
+          "Identify methods of preserving and conserving heritage.",
+          "Recognize the role of UNESCO in heritage management.",
+          "Understand the need for trained professionals in conservation."
         ]
       },
       "notes": [
         {
           "id": "n1",
           "type": "paragraph",
-          "title": "Applied History / Public History",
-          "content": "Applied History, also known as Public History, is the field concerned with applying the knowledge of history for the benefit of people in contemporary and future times. It helps overcome misgivings about history's practicality, provides solutions to contemporary social issues, and connects people to history in everyday life. Srishti Institute of Art, Design and Technology, Bengaluru, has an independent 'Centre for Public History'.",
+          "title": "Applied History",
+          "content": "Applied history refers to the practical use of historical knowledge in various fields such as heritage management, tourism, archival science, and museum studies. It involves preserving, conserving, and presenting historical artifacts and sites.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
-          "title": "Role of UNESCO",
-          "content": "UNESCO, the global agency of the United Nations, announces directive principles for preservation and conservation of natural and cultural heritage. On the basis of these directives, it declares the World Heritage List of sites and traditions meeting the criteria.",
+          "title": "Archives",
+          "content": "A place where historical documents are preserved is called an 'Archive'. Many old documents, official records, films, and records of treaties are kept here. The National Archives of India in Delhi is the largest archive in Asia. Every state in India maintains its archives independently.",
           "important": true
         },
         {
           "id": "n3",
           "type": "paragraph",
-          "title": "Archives",
-          "content": "An Archive is a place where old documents, official records, treaties, and old films are preserved and stored. The National Archives of India is located in New Delhi. The National Film Archives of India, established in 1964, is located in Pune and serves as the media unit of the Ministry of Information and Broadcasting.",
+          "title": "Why Archives are Important",
+          "content": "Archives provide references to original documents, allowing for the study of historical events of a particular period. They help us understand the language and script used in a particular era, making them invaluable for historical research.",
           "important": true
         },
         {
           "id": "n4",
           "type": "paragraph",
-          "title": "Why study the history of technology",
-          "content": "It is essential to study the history of technology because it helps us understand the changes and causes behind developments in agricultural production, architecture, and engineering. Scientific discoveries and technological advancement are mutually dependent, and this knowledge helps understand mechanisation and its dependence on science.",
+          "title": "Vishwakosh (Encyclopaedia)",
+          "content": "A comprehensive encyclopaedia (Vishwakosh) contains information on all known subjects. It is an important medium for documenting and disseminating information. Two types exist: one covering all subjects (e.g., Encyclopaedia Britannica), and another focused on a single subject (e.g., Bharatiya Samskruti Kosh).",
           "important": true
         },
         {
           "id": "n5",
           "type": "paragraph",
-          "title": "Cultural heritage sites in Maharashtra",
-          "content": "Notable sites include Ajanta caves, Verul (Ellora) caves, Elephanta (Gharapuri) caves, and Chhatrapati Shivaji Maharaj Terminus (CSMT) railway station in Mumbai — a fine example of Indo-Gothic architecture and a UNESCO World Heritage Site.",
-          "important": false
+          "title": "Conservation and Preservation",
+          "content": "Only trained and qualified persons can undertake conservation and preservation tasks. The skill required for each task is different, and the procedures and precautions involved are specific. This ensures that historical artifacts and sites are protected for future generations.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "qna",
+          "title": "Why Only Trained Persons Can Handle Conservation?",
+          "question": "Only trained persons who are duly qualified can take up the tasks involved in the work of conservation and preservation.",
+          "qnaAnswer": "1) Historical research and conservation involve different tasks like collecting, preserving, and exhibiting sources. 2) The skill required for each task is different, and the procedure and precautions to be taken are also specific. 3) To ensure that artifacts and sites are protected correctly, only trained and qualified professionals should handle these responsibilities."
+        },
+        {
+          "id": "n7",
+          "type": "fill_blank",
+          "title": "Key Terms",
+          "content": "The National Archives of India is located in ___.",
+          "blanks": ["Delhi"]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
-          "front": "Applied History is also known as ______?",
-          "back": "Public History",
-          "order": 1
+          "front": "What is an archive?",
+          "back": "A place where historical documents, official records, films, and treaties are preserved."
         },
         {
           "id": "f2",
-          "front": "Which institute has a 'Centre for Public History'?",
-          "back": "Srishti Institute of Art, Design and Technology, Bengaluru",
-          "order": 2
+          "front": "Where is the National Archives of India located?",
+          "back": "In Delhi."
         },
         {
           "id": "f3",
-          "front": "Where is the National Archives of India?",
-          "back": "New Delhi",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "Where is the National Film Archives of India located?",
-          "back": "Pune, Maharashtra",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "Which global body announces the World Heritage List?",
-          "back": "UNESCO",
-          "order": 5
-        },
-        {
-          "id": "f6",
-          "front": "The earliest museum in the world was discovered in excavations at which city?",
-          "back": "Ur",
-          "order": 6
+          "front": "What is a Vishwakosh?",
+          "back": "A comprehensive encyclopaedia covering information on all known subjects."
         }
       ],
       "quiz": [
         {
           "id": "q1",
-          "question": "The earliest museum in the world was discovered in the excavations at the city of ______.",
+          "qType": "mcq",
+          "question": "What is an archive?",
           "options": [
-            "Delhi",
-            "Harappa",
-            "Ur",
-            "Kolkata"
+            "A place to study living organisms",
+            "A place where historical documents are preserved",
+            "A type of museum",
+            "A library of fiction books"
           ],
-          "correctAnswer": 2,
-          "explanation": "Ur, an ancient Mesopotamian city, had the earliest known museum.",
+          "correctAnswer": 1,
+          "explanation": "An archive is a place where historical documents and records are preserved for research.",
           "order": 1
         },
         {
           "id": "q2",
-          "question": "The National Archives of India is in ______.",
+          "qType": "mcq",
+          "question": "Where is the National Archives of India located?",
           "options": [
-            "New Delhi",
-            "Kolkata",
             "Mumbai",
+            "Kolkata",
+            "Delhi",
             "Chennai"
           ],
-          "correctAnswer": 0,
-          "explanation": "New Delhi houses India's National Archives.",
-          "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "Applied History/Public History primarily aims to:",
-          "options": [
-            "Only train professional historians",
-            "Apply history for the benefit of people in contemporary and future life",
-            "Replace archaeology",
-            "Only preserve ancient monuments"
-          ],
-          "correctAnswer": 1,
-          "explanation": "It connects history to everyday life and contemporary social planning.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "The World Heritage List is announced by:",
-          "options": [
-            "ASI",
-            "UNESCO",
-            "ICOMOS",
-            "UNO General Assembly"
-          ],
-          "correctAnswer": 1,
-          "explanation": "UNESCO sets directive principles and declares the list.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "The National Film Archives of India is located in:",
-          "options": [
-            "Mumbai",
-            "New Delhi",
-            "Pune",
-            "Kolkata"
-          ],
           "correctAnswer": 2,
-          "explanation": "It preserves rare Indian film records and is based in Pune.",
-          "order": 5
+          "explanation": "The National Archives of India is located in Delhi and is the largest archive in Asia.",
+          "order": 2
         }
       ]
     },
@@ -508,308 +482,193 @@
       "num": 4,
       "title": "History of Indian Arts",
       "emoji": "🎨",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter surveys the history of Indian arts, distinguishing Classical Art from Folk Art, and covering specific artistic traditions like Maratha painting, the Gandhara School, and Hemadpanti architecture, along with the role of art history experts in the art market.",
-        "youWillLearn": [
-          "The difference between Classical Art and Folk Art",
-          "Features of the Maratha style of painting",
-          "The Greek-Roman influenced Gandhara School of Art",
-          "The Hemadpanti style of architecture and its origins",
-          "Why art history experts are needed in the art market"
-        ]
+        "summary": "This chapter has been omitted from the syllabus for the year 2021-2022.",
+        "youWillLearn": []
       },
-      "notes": [
-        {
-          "id": "n1",
-          "type": "paragraph",
-          "title": "Classical Art vs Folk Art",
-          "content": "Classical Art follows codified rules and traditions passed through formal training (e.g. Bharatanatyam, Gandhara sculpture); ancient Indian texts mention sixty-four styles of Classical Art. Folk Art is a spontaneous, community-based tradition passed informally through generations (e.g. Warli painting), closely tied to daily life and local customs.",
-          "important": true
-        },
-        {
-          "id": "n2",
-          "type": "paragraph",
-          "title": "Maratha style of painting",
-          "content": "Developed in the latter half of the 17th century C.E., consisting of coloured paintings occurring as murals and miniatures used in manuscripts (e.g. Dnyaneshwari, Shivlilamrut). Influenced by Rajput and European styles. Murals can be seen in old wadas at Wai, Menavali, and Satara. They help us understand the lifestyle, attire, and customs of the era.",
-          "important": true
-        },
-        {
-          "id": "n3",
-          "type": "paragraph",
-          "title": "Gandhara School of Art",
-          "content": "The Gandhara School of Art arose in the 2nd century B.C.E. in the Afghanistan/North-West Frontier region, blending Greek-Roman and Indian styles. It used grey sandstone, mud, lime, and stucco, and its sculptures are known for anatomical accuracy, spatial depth, and foreshortening. Found at Taxila and Peshawar.",
-          "important": true
-        },
-        {
-          "id": "n4",
-          "type": "paragraph",
-          "title": "Hemadpanti style of architecture",
-          "content": "Hemadri Pandit, a Sanskrit scholar and architect during the Yadava dynasty (13th century), developed the Hemadpanti style. Temples of this style in Maharashtra (12th–13th century) have star-shaped outer walls with zigzag designs (creating alternating light and shadow) and are built without mortar using tenon-and-mortise joints. Examples: Ambreshwar temple (Ambarnath), Gondeshwar temple (Sinnar), Aundha Nagnath temple (Hingoli).",
-          "important": true
-        },
-        {
-          "id": "n5",
-          "type": "paragraph",
-          "title": "Why art history experts are needed in the art market",
-          "content": "There is an independent market for buying and selling art objects. An expert with deep understanding of art history is needed to authenticate, date, and value art works, since art is an independent and specialised branch of knowledge with many career opportunities.",
-          "important": false
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "f1",
-          "front": "Who developed the Hemadpanti architectural style?",
-          "back": "Hemadri Pandit, during the Yadava dynasty (13th century)",
-          "order": 1
-        },
-        {
-          "id": "f2",
-          "front": "The Maratha style of painting developed in which century?",
-          "back": "The latter half of the 17th century C.E.",
-          "order": 2
-        },
-        {
-          "id": "f3",
-          "front": "Which two influences shaped the Gandhara School of Art?",
-          "back": "Greek and Persian (Greco-Roman) influences",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "Which style of art was made popular by Jivya Somya Mashe?",
-          "back": "Warli style of painting",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "How many styles of Classical Art do ancient Indian texts mention?",
-          "back": "Sixty-four",
-          "order": 5
-        },
-        {
-          "id": "f6",
-          "front": "Name a Hemadpanti temple example.",
-          "back": "Gondeshwar temple at Sinnar (or Ambreshwar temple, Ambarnath)",
-          "order": 6
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "question": "Jivya Somya Mashe, an artist from Thane district, made ______ style of painting popular.",
-          "options": [
-            "Chitrakathi",
-            "Maratha",
-            "Warli",
-            "Classical"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Mashe was a Padma Shri-winning pioneer of Warli art.",
-          "order": 1
-        },
-        {
-          "id": "q2",
-          "question": "Ancient Indian texts mentioned ______ styles of Classical Art.",
-          "options": [
-            "Nine",
-            "Thirty-six",
-            "Sixty-four",
-            "Eighty-four"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Classical Indian art tradition recognised sixty-four codified styles.",
-          "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "During the reign of Mughal Emperor ______, the miniature style blending Indian and Persian art developed.",
-          "options": [
-            "Akbar",
-            "Aurangzeb",
-            "Jahangir",
-            "Babur"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Akbar's court patronised the fusion Mughal miniature style.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "Hemadpanti temples are characterised by walls built:",
-          "options": [
-            "Using only cement",
-            "Without mortar, using tenon and mortise joints",
-            "Entirely of wood",
-            "Using bricks only"
-          ],
-          "correctAnswer": 1,
-          "explanation": "This masonry technique is a defining feature of the Hemadpanti style.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "The Gandhara School of Art arose in the:",
-          "options": [
-            "1st century C.E.",
-            "2nd century B.C.E.",
-            "9th century C.E.",
-            "3rd century C.E."
-          ],
-          "correctAnswer": 1,
-          "explanation": "It emerged in the 2nd century B.C.E. with strong Greek influence.",
-          "order": 5
-        }
-      ]
+      "notes": [],
+      "flashcards": [],
+      "quiz": []
     },
     {
       "id": "ch5",
       "num": 5,
       "title": "Mass Media and History",
-      "emoji": "📰",
+      "emoji": "📺",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter examines the relationship between mass media and history — why society needs mass media, how newspapers fought for freedom of speech and independence, why historical knowledge matters for journalism, the origins of the Marathi press, and television's role as a historical medium.",
+        "summary": "This chapter explores the relationship between mass media and history, discussing how newspapers, radio, and television have evolved and influenced society. It covers the role of media in democracy and its importance as a historical source.",
         "youWillLearn": [
-          "Why mass media is essential to society",
-          "How newspapers supported the freedom struggle",
-          "Why historical knowledge is essential for newspaper writing",
-          "The origin of the Marathi press and 'Patrakar Din'",
-          "Television's role as an audio-visual historical medium"
+          "Identify the pioneers of print media in India.",
+          "Understand the history of radio and television in India.",
+          "Recognize newspapers as an important educational and informational medium.",
+          "Explain the role of media as the 'fourth pillar of democracy'.",
+          "Identify key figures in the development of Indian media."
         ]
       },
       "notes": [
         {
           "id": "n1",
           "type": "paragraph",
-          "title": "Why we need mass media",
-          "content": "Mass media (print, electronic, and new media) facilitates the free flow of information to all sections of society and brings the world closer. Editorials, columns, and supplements are essential parts of newspapers, giving readers a platform to voice opinions and helping strengthen democracy.",
+          "title": "Development of Newspapers in India",
+          "content": "The first English newspaper in India was started by James Augustus Hickey. 'Darpan' was the first newspaper in Marathi. 'Kesari' and 'Maratha' were started by Agarkar and Tilak. Newspapers are known as the 'fourth pillar of democracy'.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
-          "title": "Freedom of speech and newspapers",
-          "content": "Newspapers played a vital role in creating social awareness and generating the demand for independence from British rule. They advocated social reforms, criticised the British government's brutality, and gave political participation to the masses — making freedom of speech essential for a free press to function.",
+          "title": "Radio in India",
+          "content": "The Indian Broadcasting Company (IBC) was the first to broadcast daily programmes. It was later taken over and renamed the Indian State Broadcasting Service (ISBS), and on 8th June 1936, it was renamed 'All India Radio (AIR)'. The famous poet Pandit Narendra Sharma suggested the name 'Akashvani'. Its motto is 'Bahujanhiary Bahujansukhay'.",
           "important": true
         },
         {
           "id": "n3",
           "type": "paragraph",
-          "title": "Why knowledge of history is essential for newspaper articles",
-          "content": "Newspaper writers need historical knowledge to write informed articles, editorials, and reviews about ongoing events, since most current events have historical roots and context that help readers understand their significance.",
+          "title": "Television in India",
+          "content": "Television is an audio-visual medium. The first English news bulletin was broadcast on 23rd July 1927 from the Mumbai radio station. Television serves as both an educational and entertainment medium.",
           "important": true
         },
         {
           "id": "n4",
           "type": "paragraph",
-          "title": "Prabhat newspaper / early Marathi press",
-          "content": "Balshastri Jambhekar started the first Marathi newspaper, 'Darpan', on 6th January 1832 in Mumbai — this date is celebrated as 'Patrakar Din' (Journalists' Day) in Maharashtra. Other important newspapers included 'Prabhakar' (Bhau Mahajan), 'Dnyanoday', 'Induprakash' (supported widow remarriage), 'Deenbandhu' (represented the masses, started by Krishnarao Bhalekar), and 'Kesari' and 'Maratha' started by Agarkar and Tilak in 1881.",
+          "title": "Importance of Newspapers",
+          "content": "Newspapers report events that are interesting to the public but also cover important issues like war, global warming, education, and national elections. They have contributed significantly to literacy and the spread of democratic freedoms. They help shape opinions in the global village.",
           "important": true
         },
         {
           "id": "n5",
           "type": "paragraph",
-          "title": "Television as an audio-visual medium",
-          "content": "Television is an audio-visual medium that plays a major role in developing interest in history through documentaries and historical serials, reaching people who may not read. It broadcasts government and entertainment programmes and educates the masses effectively.",
+          "title": "Balshastri Jambhekar",
+          "content": "Balshastri Jambhekar started 'Digdarshan', the first monthly magazine in Marathi. He was a pioneer in Marathi journalism.",
           "important": true
+        },
+        {
+          "id": "n6",
+          "type": "paragraph",
+          "title": "'Shatpatre' Letters",
+          "content": "The letters 'Shatpatre' published in Prabhakar were written by Lokhitvadi (Gopal Hari Deshmukh). These letters were influential in shaping social reform in Maharashtra.",
+          "important": true
+        },
+        {
+          "id": "n7",
+          "type": "qna",
+          "title": "Why is Newspaper an Important Medium of Education and Information?",
+          "question": "Newspaper is an important medium of education and information.",
+          "qnaAnswer": "1) Newspapers report interesting events and also cover important issues like war, global warming, education, and national elections. 2) They have contributed to the spread of literacy and the concept of human rights and democratic freedoms. 3) They are integral to the development of democracy and help shape public opinion."
+        },
+        {
+          "id": "n8",
+          "type": "qna",
+          "title": "Akashvani Programmes",
+          "question": "Which programmes are broadcast by Akashvani?",
+          "qnaAnswer": "1) Initially, Akashvani broadcasted government programmes and schemes. 2) It later broadcasted various entertainment and literary programmes. 3) It presents programmes for creating awareness. 4) Special programmes are also broadcasted for farmers, workers, youth and women."
+        },
+        {
+          "id": "n9",
+          "type": "match_column",
+          "title": "Match the Pair",
+          "left": [
+            "James Augustus Hickey",
+            "First newspaper in Marathi",
+            "First English news bulletin",
+            "Akashvani name suggester"
+          ],
+          "right": [
+            "Started first English newspaper in India",
+            "Darpan",
+            "Broadcast from Mumbai in 1927",
+            "Pandit Narendra Sharma",
+            "Lokmanya Tilak"
+          ],
+          "answerKey": [0, 1, 2, 3]
+        },
+        {
+          "id": "n10",
+          "type": "fill_blank",
+          "title": "Key Terms",
+          "content": "___ started 'Digdarshan', the first monthly magazine in Marathi.",
+          "blanks": ["Balshastri Jambhekar"]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
-          "front": "Who started the first Marathi newspaper, and what was it called?",
-          "back": "Balshastri Jambhekar started 'Darpan' in 1832",
-          "order": 1
+          "front": "Who started the first English newspaper in India?",
+          "back": "James Augustus Hickey."
         },
         {
           "id": "f2",
-          "front": "Why is 6th January celebrated as Patrakar Din?",
-          "back": "It is Balshastri Jambhekar's birth date; he started the first Marathi newspaper on that day",
-          "order": 2
+          "front": "What is the motto of Akashvani?",
+          "back": "'Bahujanhiary Bahujansukhay'."
         },
         {
           "id": "f3",
-          "front": "Which two newspapers did Agarkar and Tilak start in 1881?",
-          "back": "'Kesari' and 'Maratha'",
-          "order": 3
+          "front": "Who suggested the name 'Akashvani'?",
+          "back": "Pandit Narendra Sharma."
         },
         {
           "id": "f4",
-          "front": "Which newspaper strongly supported widow remarriage?",
-          "back": "'Induprakash'",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "Television is described as what kind of medium?",
-          "back": "An audio-visual medium",
-          "order": 5
+          "front": "Which newspapers were started by Agarkar and Tilak?",
+          "back": "'Kesari' and 'Maratha'."
         }
       ],
       "quiz": [
         {
           "id": "q1",
-          "question": "Balshastri Jambhekar started the first newspaper in Marathi language called:",
+          "qType": "mcq",
+          "question": "The first English newspaper in India was started by:",
           "options": [
-            "Kesari",
-            "Darpan",
-            "Prabhakar",
-            "Dnyanoday"
+            "James Augustus Hickey",
+            "John Marshall",
+            "Lokmanya Tilak",
+            "Balshastri Jambhekar"
           ],
-          "correctAnswer": 1,
-          "explanation": "Darpan was started on 6th January 1832 in Mumbai.",
+          "correctAnswer": 0,
+          "explanation": "James Augustus Hickey started the first English newspaper in India.",
           "order": 1
         },
         {
           "id": "q2",
-          "question": "6th January is observed in Maharashtra as:",
+          "qType": "mcq",
+          "question": "Which is the first newspaper in Marathi?",
           "options": [
-            "Independence Day",
-            "Patrakar Din (Journalists' Day)",
-            "Republic Day",
-            "Teachers' Day"
+            "Deenbandhu",
+            "Prabhakar",
+            "Darpan",
+            "Kesari"
           ],
-          "correctAnswer": 1,
-          "explanation": "It marks Balshastri Jambhekar's birth date.",
+          "correctAnswer": 2,
+          "explanation": "'Darpan' was the first newspaper published in Marathi.",
           "order": 2
         },
         {
           "id": "q3",
-          "question": "'Kesari' and 'Maratha' newspapers were started in 1881 by:",
+          "qType": "mcq",
+          "question": "Television is considered a/an ______ medium.",
           "options": [
-            "Balshastri Jambhekar",
-            "Bhau Mahajan",
-            "Gopal Ganesh Agarkar and Bal Gangadhar Tilak",
-            "Krishnarao Bhalekar"
+            "Visual",
+            "Audio",
+            "Audio-visual",
+            "Printed"
           ],
           "correctAnswer": 2,
-          "explanation": "These played a key role in shaping nationalist opinion.",
+          "explanation": "Television is an audio-visual medium because it combines both sound and visuals.",
           "order": 3
         },
         {
           "id": "q4",
-          "question": "Knowledge of history is essential for newspaper articles because:",
+          "qType": "mcq",
+          "question": "Which newspapers are known as the 'fourth pillar of democracy'?",
           "options": [
-            "It makes articles longer",
-            "Historical context helps explain the significance of current events",
-            "It is required by law",
-            "It is unrelated to journalism"
+            "Magazines",
+            "Radio channels",
+            "Television channels",
+            "Newspapers"
           ],
-          "correctAnswer": 1,
-          "explanation": "Reporters and columnists rely on historical background for informed writing.",
+          "correctAnswer": 3,
+          "explanation": "Newspapers are considered the 'fourth pillar of democracy' due to their role in informing the public and holding power accountable.",
           "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "Television is best described as:",
-          "options": [
-            "A print medium",
-            "An audio-visual medium",
-            "A purely entertainment medium",
-            "An outdated medium"
-          ],
-          "correctAnswer": 1,
-          "explanation": "It combines sound and visuals, making history and news accessible widely.",
-          "order": 5
         }
       ]
     },
@@ -818,308 +677,233 @@
       "num": 6,
       "title": "Entertainment and History",
       "emoji": "🎭",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter explores entertainment as a historical subject, from the need for entertainment in daily life to Maharashtra's traditional performance forms — Dashavatar theatre, Bharud, and Powada — along with career opportunities in drama and cinema.",
-        "youWillLearn": [
-          "Why entertainment is a basic human need",
-          "What Dashavatar theatre depicts and where it is popular",
-          "Professional opportunities available in drama and cinema",
-          "What Bharud is and its association with Saint Eknath",
-          "What Powada is and the heroic themes it narrates"
-        ]
+        "summary": "This chapter has been omitted from the syllabus for the year 2021-2022.",
+        "youWillLearn": []
       },
-      "notes": [
-        {
-          "id": "n1",
-          "type": "paragraph",
-          "title": "Need for entertainment",
-          "content": "Entertainment provides relaxation and joy, relieving people from the stress and monotony of daily life, and traditions of entertainment (music, dance, drama) have existed since ancient times as a vital part of culture and community life.",
-          "important": true
-        },
-        {
-          "id": "n2",
-          "type": "paragraph",
-          "title": "Dashavatar theatre",
-          "content": "Dashavatar is a traditional folk theatre form of Maharashtra (especially the Konkan region) depicting the ten incarnations (avatars) of Lord Vishnu. In the 18th century, Shyamji Naik Kale started a 'Phad' (troupe) of Dashavatara artists that performed all over Maharashtra.",
-          "important": true
-        },
-        {
-          "id": "n3",
-          "type": "paragraph",
-          "title": "Professional opportunities in drama and cinema",
-          "content": "The field of drama and cinema offers professional opportunities such as acting, direction, screenwriting, cinematography, costume and set design, and production. Maharashtra holds a special place as the pioneer of the Indian film industry — Vishnudas Bhave was a pioneer of Marathi theatre, and Harishchandra Sakharam Bhatvadekar (Save Dada) was a pioneer of Indian cinema.",
-          "important": true
-        },
-        {
-          "id": "n4",
-          "type": "paragraph",
-          "title": "Bharud",
-          "content": "Bharud is a metaphorical devotional song composed by Saint Eknath, popular for its spiritual and ethical lessons, dramatic quality, humour, and easy rhythm. It was used to educate common people on various aspects of life.",
-          "important": true
-        },
-        {
-          "id": "n5",
-          "type": "paragraph",
-          "title": "Powada",
-          "content": "Powada is a dramatic narration alternating poetry and prosaic extracts, narrating the heroic deeds of men and women in a forceful, inspiring style. The famous Powada by poet Adnyandas describes the killing of Afzal Khan by Chhatrapati Shivaji Maharaj. Powadas were also composed on Umaji Naik, the Chapekar brothers, and were used during the Samyukta Maharashtra Movement to create public awareness.",
-          "important": true
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "f1",
-          "front": "What is Dashavatar?",
-          "back": "A traditional folk theatre form depicting the ten avatars of Vishnu",
-          "order": 1
-        },
-        {
-          "id": "f2",
-          "front": "Who composed Bharud?",
-          "back": "Saint Eknath",
-          "order": 2
-        },
-        {
-          "id": "f3",
-          "front": "What is a Powada?",
-          "back": "A dramatic narration of heroic deeds, alternating poetry and prose",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "Which famous Powada describes the killing of Afzal Khan?",
-          "back": "The Powada composed by poet Adnyandas",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "Who is considered the pioneer of Marathi theatre?",
-          "back": "Vishnudas Bhave",
-          "order": 5
-        },
-        {
-          "id": "f6",
-          "front": "Who started the Dashavatara Phad in the 18th century?",
-          "back": "Shyamji Naik Kale",
-          "order": 6
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "question": "In the 18th century, ______ started a Phad of Dashavatara artists that performed all over Maharashtra.",
-          "options": [
-            "Saint Gadge Maharaj",
-            "Adnyandas",
-            "Tulsidas",
-            "Shyamji Naik Kale"
-          ],
-          "correctAnswer": 3,
-          "explanation": "Shyamji Naik Kale organised touring Dashavatar troupes.",
-          "order": 1
-        },
-        {
-          "id": "q2",
-          "question": "The Powada composed on the killing of Afzal Khan is well known and was written by:",
-          "options": [
-            "Adnyandas",
-            "Tulsidas",
-            "Ramdas",
-            "Surdas"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Adnyandas was a contemporary poet of Chhatrapati Shivaji Maharaj.",
-          "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "Bharud, a metaphorical devotional song with spiritual lessons, was composed by:",
-          "options": [
-            "Saint Namdev",
-            "Saint Eknath",
-            "Saint Tukaram",
-            "Naradmuni"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Saint Eknath used Bharud to educate people through humour and drama.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "Who is regarded as the pioneer of Marathi theatre?",
-          "options": [
-            "Balgandharva",
-            "Vishnudas Bhave",
-            "P.L. Deshpande",
-            "V. Shantaram"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Vishnudas Bhave staged the first Marathi play, laying the foundation of Marathi theatre.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "Powadas were used during the Samyukta Maharashtra Movement mainly to:",
-          "options": [
-            "Entertain foreign tourists",
-            "Create public awareness",
-            "Teach classical music",
-            "Promote cinema"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Powadas mobilised public sentiment during the movement for a unified Marathi-speaking state.",
-          "order": 5
-        }
-      ]
+      "notes": [],
+      "flashcards": [],
+      "quiz": []
     },
     {
       "id": "ch7",
       "num": 7,
       "title": "Sports and History",
-      "emoji": "🏆",
+      "emoji": "🏏",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter connects sports with history — why sports matter, how toys and ancient games reflect a society's development, how globalisation transformed the sports economy, the legacy of hockey legend Major Dhyan Chand, and sports equipment in ancient India.",
+        "summary": "This chapter examines the historical development of sports in India and the world. It covers traditional Indian games, modern sports, and the cultural and historical significance of sports and toys.",
         "youWillLearn": [
-          "The importance of sports for physical and mental development",
-          "How toys reflect the history and technology of a society",
-          "How globalisation changed sports into a worldwide economy",
-          "Major Dhyan Chand's achievements as the 'Wizard of Hockey'",
-          "Evidence of sports equipment and games in ancient India"
+          "Identify the origins of the Olympic Games.",
+          "Recognize traditional Indian sports and games.",
+          "Understand the cultural significance of toys in history.",
+          "Identify key Indian sports personalities and their achievements.",
+          "Trace the development of toys and their importance in cultural history."
         ]
       },
       "notes": [
         {
           "id": "n1",
           "type": "paragraph",
-          "title": "Importance of sports",
-          "content": "Sports build physical and mental capability, enhance leadership qualities, help overcome sufferings and worries, and build a tenacious, strong body. They also develop courage, determination, and sportsmanship.",
+          "title": "Origins of the Olympic Games",
+          "content": "The ancient Olympic competitions used to be held at Olympia in Greece. These games had great historical and cultural significance in the ancient world.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
-          "title": "Toys and history",
-          "content": "Toys — items meant for children's entertainment and education — shed light on the history and technological development of a society, and reflect religious/cultural traditions. Clay toys found in archaeological excavations, an ivory doll found at Pompeii (Italy, 1st century C.E., proving Indo-Roman trade), and model forts made during Maharashtra's Diwali celebrations are examples of how toys reveal cultural history.",
+          "title": "National Game of India",
+          "content": "Hockey is the national game of India. The National Sports Day is celebrated on 29th August, the birth date of Major Dhyan Chand, who was honored with Padma Bhushan for his achievements in hockey.",
           "important": true
         },
         {
           "id": "n3",
           "type": "paragraph",
-          "title": "Globalisation of sports / sports economy",
-          "content": "The process of globalisation greatly influenced sports in the 20th–21st century. Television and media telecast matches worldwide, so fans everywhere — not just in participating countries — watch events like the Olympics, World Cups, and Asiad. This has significantly changed the structure of the sports economy: retired players become commentators, and commercial companies use matches for advertising.",
+          "title": "Traditional Indian Sports",
+          "content": "Traditional Indian sports include Mallakhamb (outdoor game based on physical skills), Water Polo (water sport), Skating (adventure ice sport), and Chess (indoor game). Wooden dolls made in Maharashtra are known as 'Thaki'. Other traditional games include Langadi, Kabaddi, Kho-Kho, Marbles, Lagori, Vitti-Dandu, Bhingari, Phugadi, and Zimma.",
           "important": true
         },
         {
           "id": "n4",
           "type": "paragraph",
-          "title": "Major Dhyan Chand",
-          "content": "Major Dhyan Chand, known as the 'Wizard of Hockey', was part of India's gold-medal-winning Olympic hockey teams in 1928 and 1932, and captained the team to gold at the 1936 Berlin Olympics. He was honoured with the Padma Bhushan in 1956. His birthday, 29th August, is celebrated as National Sports Day in India.",
+          "title": "Toys and Cultural History",
+          "content": "A tradition of making different types of toys for entertainment exists since ancient times. Toys give us an idea about cultural and religious development of that period. Clay models of forts and images of Chhatrapati Shivaji Maharaj are made during Diwali in Maharashtra. An ivory doll found at Pompeii sheds light on Indo-Roman trade. Games and toys are mentioned in Kathasaritsagara.",
           "important": true
         },
         {
           "id": "n5",
           "type": "paragraph",
-          "title": "Sports equipment and toys in ancient India",
-          "content": "The history of sports equipment dates to the epic age. Ancient Indian literature mentions games of dice, wrestling, and chariot racing. Indoor games like chess, carrom, and Bhatukli required equipment such as boards, dice, and pieces. Shudraka's Sanskrit play 'Mrichchhakatika' (meaning 'a clay cart') and the 'Kathasaritsagara' (describing flying, dancing, sound-making dolls) are literary sources for this history.",
-          "important": false
+          "title": "Key Sports Personalities",
+          "content": "Major Dhyan Chand was honored with Padma Bhushan. Sachin Tendulkar was honored with Bharat Ratna. Mary Kom was the first Indian female boxer to win a bronze medal in the Olympics. Khashaba Jadhav was also a notable Indian Olympic medalist.",
+          "important": true
+        },
+        {
+          "id": "n6",
+          "type": "paragraph",
+          "title": "Mirchchhakatika and Kathasaritsagara",
+          "content": "Shudraka wrote the play 'Mirchchhakatika' which means 'a clay cart'. An interesting description of games and toys is found in Kathasaritsagara.",
+          "important": true
+        },
+        {
+          "id": "n7",
+          "type": "match_column",
+          "title": "Match the Pair",
+          "left": [
+            "Mallakhamb",
+            "Water Polo",
+            "Skating",
+            "Chess"
+          ],
+          "right": [
+            "Outdoor game based on physical skills",
+            "Water sport",
+            "Adventure ice sports",
+            "Outdoor game",
+            "Indoor game"
+          ],
+          "answerKey": [0, 1, 2, 4]
+        },
+        {
+          "id": "n8",
+          "type": "qna",
+          "title": "How Toys Tell Us About Cultural History",
+          "question": "How can toys tell us about cultural history?",
+          "qnaAnswer": "1) Toys give us an idea about the cultural and religious development of that period. 2) Clay models of forts and clay images of Chhatrapati Shivaji Maharaj made during Diwali give us an idea about the structures of forts. 3) An ivory doll found at Pompeii sheds light on Indo-Roman trade and cultural relations. 4) The mention of games and toys in Kathasaritsagara gives us an idea about cultural history."
+        },
+        {
+          "id": "n9",
+          "type": "fill_blank",
+          "title": "Key Terms",
+          "content": "The wooden dolls made in Maharashtra are known as ___.",
+          "blanks": ["Thaki"]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
-          "front": "Who is called the 'Wizard of Hockey'?",
-          "back": "Major Dhyan Chand",
-          "order": 1
+          "front": "Where did the ancient Olympic competitions take place?",
+          "back": "Olympia, Greece."
         },
         {
           "id": "f2",
-          "front": "When is National Sports Day celebrated, and why?",
-          "back": "29th August — Major Dhyan Chand's birthday",
-          "order": 2
+          "front": "What is the national game of India?",
+          "back": "Hockey."
         },
         {
           "id": "f3",
-          "front": "What does 'Mrichchhakatika' mean, and who wrote it?",
-          "back": "'A clay cart'; written by Shudraka",
-          "order": 3
+          "front": "When is National Sports Day celebrated in India?",
+          "back": "29th August, the birth date of Major Dhyan Chand."
         },
         {
           "id": "f4",
-          "front": "Where was an ivory doll made by Indian craftsmen found, revealing ancient trade?",
-          "back": "Pompeii, Italy (1st century C.E., showing Indo-Roman trade)",
-          "order": 4
+          "front": "Which award was Major Dhyan Chand honored with?",
+          "back": "Padma Bhushan."
         },
         {
           "id": "f5",
-          "front": "What has globalisation done to the structure of the sports economy?",
-          "back": "Significantly changed it — worldwide telecasts, sponsorships, and commentary opportunities",
-          "order": 5
+          "front": "Which award was Sachin Tendulkar honored with?",
+          "back": "Bharat Ratna."
         }
       ],
       "quiz": [
         {
           "id": "q1",
-          "question": "Major Dhyan Chand captained the Indian hockey team to a gold medal at which Olympics?",
+          "qType": "mcq",
+          "question": "The ancient Olympic competitions used to be held at:",
           "options": [
-            "1928 Amsterdam",
-            "1932 Los Angeles",
-            "1936 Berlin",
-            "1948 London"
+            "Olympia, Greece",
+            "Rome",
+            "India",
+            "China"
           ],
-          "correctAnswer": 2,
-          "explanation": "He captained the gold-winning team at the 1936 Berlin Olympics.",
+          "correctAnswer": 0,
+          "explanation": "The ancient Olympic Games were held in Olympia, Greece.",
           "order": 1
         },
         {
           "id": "q2",
-          "question": "National Sports Day in India is celebrated on:",
+          "qType": "mcq",
+          "question": "Which is the national game of India?",
           "options": [
-            "15th August",
-            "29th August",
-            "2nd October",
-            "26th January"
+            "Hockey",
+            "Cricket",
+            "Football",
+            "Kabaddi"
           ],
-          "correctAnswer": 1,
-          "explanation": "It marks Dhyan Chand's birthday.",
+          "correctAnswer": 0,
+          "explanation": "Hockey is the national game of India.",
           "order": 2
         },
         {
           "id": "q3",
-          "question": "'Mrichchhakatika', a Sanskrit play whose name means 'a clay cart', was written by:",
+          "qType": "mcq",
+          "question": "The National Sports Day of India is celebrated on the birth date of:",
           "options": [
-            "Kalidasa",
-            "Shudraka",
-            "Bhavabhuti",
-            "Harshavardhana"
+            "Khashaba Jadhav",
+            "Sachin Tendulkar",
+            "Major Dhyan Chand",
+            "Bal J. Pandit"
           ],
-          "correctAnswer": 1,
-          "explanation": "It references a toy clay cart, linking sports/toy history to literature.",
+          "correctAnswer": 2,
+          "explanation": "National Sports Day is celebrated on 29th August, the birthday of Major Dhyan Chand.",
           "order": 3
         },
         {
           "id": "q4",
-          "question": "The ivory doll found in the excavations at Pompeii indicates:",
+          "qType": "mcq",
+          "question": "Who was the first Indian female boxer to win a bronze medal in Olympics?",
           "options": [
-            "Roman toy-making skills",
-            "Indo-Roman trade relations",
-            "Greek influence on India",
-            "Egyptian trade with Rome"
+            "P.V. Sindhu",
+            "Mary Kom",
+            "Geeta Phoghat",
+            "Saina Nehwal"
           ],
           "correctAnswer": 1,
-          "explanation": "The doll, made by Indian craftsmen, proves ancient trade contact between India and Rome.",
+          "explanation": "Mary Kom was the first Indian female boxer to win a bronze medal at the Olympics.",
           "order": 4
         },
         {
           "id": "q5",
-          "question": "Currently, the structure of the sports economy has significantly changed mainly due to:",
+          "qType": "mcq",
+          "question": "Chess is a/an ______ game.",
           "options": [
-            "Reduction in the number of players",
-            "The process of globalisation and media/television reach",
-            "Ban on international matches",
-            "Decline in fan interest"
+            "Outdoor",
+            "Water",
+            "Adventure ice",
+            "Indoor"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Chess is an indoor game played on a board.",
+          "order": 5
+        },
+        {
+          "id": "q6",
+          "qType": "mcq",
+          "question": "Who wrote the play 'Mirchchhakatika'?",
+          "options": [
+            "Harshvardhan",
+            "Shudraka",
+            "Bhavbhuti",
+            "Kalidas"
           ],
           "correctAnswer": 1,
-          "explanation": "Global broadcasting and advertising have transformed the sports economy.",
-          "order": 5
+          "explanation": "Shudraka wrote the play 'Mirchchhakatika' which means 'a clay cart'.",
+          "order": 6
+        },
+        {
+          "id": "q7",
+          "qType": "mcq",
+          "question": "An interesting description of games and toys is found in:",
+          "options": [
+            "Shakuntal",
+            "Panchatantra",
+            "Mirchchhakatika",
+            "Kathasaritsagar"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Kathasaritsagara contains an interesting description of games and toys.",
+          "order": 7
         }
       ]
     },
@@ -1127,151 +911,120 @@
       "id": "ch8",
       "num": 8,
       "title": "Tourism and History",
-      "emoji": "🧳",
+      "emoji": "✈️",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter studies tourism as a historical and economic activity — the different types of tourism, the growth of agro-tourism, tourism's role in generating employment, precautions needed when developing tourist destinations, and the rise of sports tourism.",
+        "summary": "This chapter explores the relationship between tourism and history, discussing different types of tourism and their historical significance. It covers the pioneers of tourism and the various purposes of tourism.",
         "youWillLearn": [
-          "The major types of tourism, including agro-tourism",
-          "How agro-tourism benefits rural and urban populations alike",
-          "How tourism generates employment across allied industries",
-          "Key precautions to take when developing tourist destinations",
-          "What sports tourism is and its 20th-century development"
+          "Identify the pioneers of modern tourism.",
+          "Understand the different types of tourism.",
+          "Explain the various purposes of tourism.",
+          "Recognize the historical significance of travel and tourism."
         ]
       },
       "notes": [
         {
           "id": "n1",
           "type": "paragraph",
-          "title": "Types of tourism",
-          "content": "Tourism is visiting distant regions for a specific purpose — fairs, festivals, pilgrimage, leisure, or natural beauty. Major types include Agro-tourism, Sports Tourism, Historical Tourism, Health Tourism, Religious/Cultural Tourism, and Local Tourism, each catering to a different interest of travellers.",
+          "title": "Pioneers of Tourism",
+          "content": "Thomas Cook established a travel agency selling tourist tickets. In Maharashtra, Gopal Neelkanth Dandekar used to arrange hiking tours to explore sights linked to Chhatrapati Shivaji Maharaj. The Chinese monk Yuan Shiwang traveled in India in 630 C.E. Hiuen Tsang was another famous Chinese traveler.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
-          "title": "Agro-tourism",
-          "content": "Agro-tourism (also called agri-tourism) is rapidly developing tourism aimed mainly at the urban population, who have little exposure to rural life and agriculture. It includes visits to farms, agricultural research centres, and universities, and even trips abroad (e.g. to Israel) to study advanced agricultural technology.",
+          "title": "Bhilar - Village of Books",
+          "content": "Near Mahabaleshwar, Bhilar is known as the 'Village of Books'. This is a unique initiative promoting tourism through literature and reading.",
           "important": true
         },
         {
           "id": "n3",
           "type": "paragraph",
-          "title": "Tourism and employment generation",
-          "content": "Tourism can generate employment because it boosts the handicraft and cottage industry, increases demand for allied industries (dairy, agro-produce supply), creates jobs for transport services (buses, taxis, auto-rickshaws), and supports travel agents, guides, and photographers.",
+          "title": "Purposes of Tourism",
+          "content": "Tourism has various purposes including visiting historical monuments, museums, pilgrim centres, beaches, mountain ranges, national parks, and industrial sites. Sports tourism, cultural tourism, and eco-tourism are popular forms of tourism.",
           "important": true
         },
         {
           "id": "n4",
           "type": "paragraph",
-          "title": "Precautions while developing tourism destinations",
-          "content": "1. Ensure safety of tourists and secure transport. 2. Provide good accommodation and reasonably good amenities. 3. Maintain clean washroom facilities on routes and at sites. 4. Provide pamphlets, guides, and maps, preferably in the tourist's own language. 5. Avoid vandalising historic sites, and involve trained experts for conservation without altering the site's original state.",
+          "title": "Famous Travelers in History",
+          "content": "Marco Polo, Thomas Cook, Benjamin of Tudela, and Gerardus Mercator were notable travelers who contributed to the development of tourism and exploration.",
           "important": true
         },
         {
           "id": "n5",
-          "type": "paragraph",
-          "title": "Sports tourism",
-          "content": "Sports tourism, developed in the 20th century, involves travelling to attend or participate in sporting events such as the Olympics, Wimbledon, World Chess Championship, international cricket tournaments, the Himalayan Car Rally (national level), or Maharashtra Kesari wrestling competitions (state level).",
-          "important": false
+          "type": "qna",
+          "title": "Explain the Purpose of Tourism",
+          "question": "Explain the purpose of tourism.",
+          "qnaAnswer": "1) To see historical monuments, forts, and cities discovered during excavations. 2) To visit pilgrim centres, sea beaches, mountain ranges, valleys, snow-capped peaks, and pristine jungles. 3) To visit special plateaus, museums, and places of natural beauty. 4) To see medicinal plants and avail of ayurvedic therapies. 5) To visit agricultural projects and research centres. 6) To watch sports events (sports tourism) or dance-music festivals (cultural tourism). 7) To attend film festivals, science seminars, international conferences, and literary events."
+        },
+        {
+          "id": "n6",
+          "type": "fill_blank",
+          "title": "Key Terms",
+          "content": "Near Mahabaleshwar, Bhilar is known as the 'Village of ___'.",
+          "blanks": ["Books"]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
-          "front": "What is Agro-tourism?",
-          "back": "Tourism involving visits to farms/agricultural centres, mainly for the urban population",
-          "order": 1
+          "front": "Who established the first travel agency selling tourist tickets?",
+          "back": "Thomas Cook."
         },
         {
           "id": "f2",
-          "front": "Who established a travel agency selling tourist tickets?",
-          "back": "Thomas Cook",
-          "order": 2
+          "front": "Where is the 'Village of Books' located?",
+          "back": "Bhilar, near Mahabaleshwar."
         },
         {
           "id": "f3",
-          "front": "Travelling to attend Maharashtra Kesari wrestling is an example of which type of tourism?",
-          "back": "Sports Tourism",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "Which organisation was formed in 1975 to boost tourism in Maharashtra?",
-          "back": "Maharashtra Tourism Development Corporation (MTDC)",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "Bhilar is known as the 'Village of ______'?",
-          "back": "Books",
-          "order": 5
+          "front": "Who arranged hiking tours in Maharashtra to explore sights linked to Chhatrapati Shivaji Maharaj?",
+          "back": "Gopal Neelkanth Dandekar."
         }
       ],
       "quiz": [
         {
           "id": "q1",
-          "question": "Thomas Cook established a travel agency selling ______.",
+          "qType": "mcq",
+          "question": "Thomas Cook established a travel agency selling:",
           "options": [
-            "handicrafts",
-            "toys",
-            "food items",
-            "tourist tickets"
+            "Handicrafts",
+            "Toys",
+            "Food items",
+            "Tourist tickets"
           ],
           "correctAnswer": 3,
-          "explanation": "Thomas Cook is credited as a pioneer of the modern travel agency business.",
+          "explanation": "Thomas Cook is known for pioneering the travel agency business by selling tourist tickets.",
           "order": 1
         },
         {
           "id": "q2",
-          "question": "Travelling to attend events like Maharashtra Kesari is known as:",
+          "qType": "mcq",
+          "question": "Near Mahabaleshwar, Bhilar is known as the 'Village of ____'.",
           "options": [
-            "Geographic Tourism",
-            "Health Tourism",
-            "Agro Tourism",
-            "Sports Tourism"
+            "Plants",
+            "Books",
+            "Mangoes",
+            "Pandits"
           ],
-          "correctAnswer": 3,
-          "explanation": "It falls under Sports Tourism, developed in the 20th century.",
+          "correctAnswer": 1,
+          "explanation": "Bhilar is known as the 'Village of Books', promoting literature and tourism.",
           "order": 2
         },
         {
           "id": "q3",
-          "question": "Agro-tourism is developing rapidly mainly to expose which population to rural/agricultural life?",
+          "qType": "mcq",
+          "question": "The Chinese monk who travelled in India in 630 C.E. was:",
           "options": [
-            "Rural population",
-            "Urban population",
-            "Foreign tourists only",
-            "Students only"
+            "Hiuen Tsang",
+            "Yuan Shiwang",
+            "Fa-Hien",
+            "Ho Chi Minh"
           ],
           "correctAnswer": 1,
-          "explanation": "Urban populations have limited exposure to farming and rural life.",
+          "explanation": "Yuan Shiwang traveled in India in 630 C.E.",
           "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "Tourism can generate employment opportunities because it boosts:",
-          "options": [
-            "Only the airline industry",
-            "Handicraft, cottage, transport, and hospitality-related industries",
-            "Only the film industry",
-            "Only foreign trade"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Tourism has wide-ranging economic linkages across many local industries.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "Which precaution should be taken while developing tourism destinations?",
-          "options": [
-            "Allow unrestricted commercial construction at heritage sites",
-            "Avoid vandalising historic sites and use trained experts for conservation",
-            "Restrict information to tourists",
-            "Ignore local amenities"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Conservation must be handled carefully by qualified experts to preserve authenticity.",
-          "order": 5
         }
       ]
     },
@@ -1280,909 +1033,189 @@
       "num": 9,
       "title": "Heritage Management",
       "emoji": "🏺",
+      "kind": "chapter",
       "overview": {
-        "summary": "This chapter covers heritage management — the roles of libraries, museums, and archives in preserving knowledge, how documents are conserved, why research journals are published, and the histories of landmark Indian museums like the Chhatrapati Shivaji Maharaj Vastu Sangrahalay and the Indian Museum, Kolkata.",
+        "summary": "This chapter focuses on the preservation and management of cultural and natural heritage. It discusses museums, world heritage sites, and the importance of conserving heritage for future generations.",
         "youWillLearn": [
-          "The distinct roles of libraries, museums, and archives",
-          "How documents are conserved and preserved",
-          "Why archives and libraries publish research journals",
-          "The history of the Chhatrapati Shivaji Maharaj Vastu Sangrahalay",
-          "Why the Indian Museum, Kolkata, is historically significant"
+          "Identify major museums in India and the world.",
+          "Understand the role of UNESCO in heritage management.",
+          "Recognize the importance of preserving cultural heritage.",
+          "Identify key figures in heritage conservation."
         ]
       },
       "notes": [
         {
           "id": "n1",
           "type": "paragraph",
-          "title": "Libraries and Museums",
-          "content": "Libraries are storehouses of knowledge and books; museums preserve and exhibit artefacts; documents not exhibited are preserved in Archives. Library Science is closely related to Management Science, Information Technology, and Education. All three institutions conserve, preserve, and disseminate historical heritage.",
+          "title": "Major Museums",
+          "content": "The Indian Museum in Kolkata is the first museum in India. The Chhatrapati Shivaji Maharaj Vastusamgrahalay was built to commemorate the visit of the Prince of Wales. The Louvre Museum in Paris houses the famous painting 'Mona Lisa' by Leonardo da Vinci.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
-          "title": "Conservation of documents",
-          "content": "Conservation of documents involves systematic collection, indexing, chemical preservation, and careful handling of manuscripts, old books, and artefacts. Only trained and duly qualified persons should undertake this work, as improper handling can permanently damage irreplaceable historical material.",
+          "title": "UNESCO and World Heritage",
+          "content": "UNESCO (United Nations Educational, Scientific and Cultural Organization) has given directives to preserve and conserve cultural and natural heritage for future generations. The Kas Plateau in Maharashtra is listed as a World Natural Heritage Site.",
           "important": true
         },
         {
           "id": "n3",
           "type": "paragraph",
-          "title": "Why archives and libraries publish research journals",
-          "content": "Archives and libraries publish research journals, pamphlets, leaflets, and posters to spread knowledge and information among people. Since all history books result from the diligent work of historians using these preserved sources, publishing helps make this heritage accessible and useful to the public.",
+          "title": "Famous Artists",
+          "content": "Leonardo da Vinci was the 16th-century artist who worked under the patronage of French King Francis I. His famous painting 'Mona Lisa' is housed in the Louvre Museum.",
           "important": true
         },
         {
           "id": "n4",
           "type": "paragraph",
-          "title": "Chhatrapati Shivaji Maharaj Vastu Sangrahalay",
-          "content": "In 1904, influential residents of Mumbai decided to build a museum to commemorate the visit of the Prince of Wales to India. Its foundation was laid in November 1905 and construction completed in 1922. Originally named 'Prince of Wales Museum of Western India', it was renamed 'Chhatrapati Shivaji Maharaj Vastu Sangrahalay' in 1998. Built in Indo-Gothic style, it is a Grade I heritage building with a collection of about 50,000 antiquities classified into Arts, Archaeology, and Natural History.",
+          "title": "Indian Museums",
+          "content": "The Government Museum, National Museum, and Chhatrapati Shivaji Maharaj Vastusamgrahalay are important museums in India. The Museum of Natural History in Switzerland houses more than 12 rare specimens of fossils.",
           "important": true
         },
         {
           "id": "n5",
           "type": "paragraph",
-          "title": "Indian Museum, Kolkata",
-          "content": "The Indian Museum at Kolkata is the first and oldest museum in India, housing important archaeological, art, and natural history collections.",
+          "title": "Important Encyclopaedias",
+          "content": "Important encyclopaedias include: Sangeetshastrakar va Kalavant Yancha Ithas (Lakshman Dattatray Joshi), Krantikarakantha Charitrakosh (S.R. Date), Svatantryasainik Charitrakosh (N.R. Phatak), and Bharatvarshiya Prachin Aitihasik Kosh (Raghunath Bhaskar Godbole).",
           "important": true
+        },
+        {
+          "id": "n6",
+          "type": "qna",
+          "title": "Ellora Caves - World Heritage Site",
+          "question": "Write information about the Ellora Caves.",
+          "qnaAnswer": "1) The picture is of the largest Indian rock-cut Hindu temple located in the Ellora cave. 2) This famous rock-cut Shiva temple was constructed during the reign of Rashtrakuta king Krishna I. 3) It is regarded as a world heritage site by UNESCO in 1983. 4) It bears testimony to the high-level skill attained by India in the art of sculpture and architecture."
+        },
+        {
+          "id": "n7",
+          "type": "match_column",
+          "title": "Match the Pair",
+          "left": [
+            "Louvre Museum",
+            "Indian Museum",
+            "Chhatrapati Shivaji Maharaj Vastusamgrahalay",
+            "Leonardo da Vinci"
+          ],
+          "right": [
+            "Mona Lisa",
+            "First museum in India",
+            "Built to commemorate Prince of Wales",
+            "Artist under French King Francis I",
+            "UNESCO"
+          ],
+          "answerKey": [0, 1, 2, 3]
+        },
+        {
+          "id": "n8",
+          "type": "fill_blank",
+          "title": "Key Terms",
+          "content": "The ___ in Kolkata is the first museum in India.",
+          "blanks": ["Indian Museum"]
+        },
+        {
+          "id": "n9",
+          "type": "fill_blank",
+          "title": "Key Terms",
+          "content": "The Kas Plateau is included in the List of ___ Heritage.",
+          "blanks": ["World Natural"]
         }
       ],
       "flashcards": [
         {
           "id": "f1",
-          "front": "Which is the first museum in India, located in Kolkata?",
-          "back": "Indian Museum",
-          "order": 1
+          "front": "Where is the Indian Museum located?",
+          "back": "Kolkata."
         },
         {
           "id": "f2",
-          "front": "What was the Chhatrapati Shivaji Maharaj Vastu Sangrahalay originally named?",
-          "back": "'Prince of Wales Museum of Western India'",
-          "order": 2
+          "front": "Which famous painting by Leonardo da Vinci is housed in the Louvre Museum?",
+          "back": "Mona Lisa."
         },
         {
           "id": "f3",
-          "front": "In which year was it renamed to its current name?",
-          "back": "1998",
-          "order": 3
+          "front": "Which organization gives directives for preserving cultural and natural heritage?",
+          "back": "UNESCO."
         },
         {
           "id": "f4",
-          "front": "In what architectural style is the Vastu Sangrahalay built?",
-          "back": "Indo-Gothic style",
-          "order": 4
+          "front": "Which plateau in Maharashtra is a World Natural Heritage site?",
+          "back": "Kas Plateau."
         },
         {
           "id": "f5",
-          "front": "Where are non-exhibited manuscripts and documents typically preserved?",
-          "back": "In Archives",
-          "order": 5
+          "front": "Where is the Museum of Natural History that houses more than 12 rare fossil specimens?",
+          "back": "Switzerland."
         }
       ],
       "quiz": [
         {
           "id": "q1",
-          "question": "______ at Kolkata is the first museum in India.",
+          "qType": "mcq",
+          "question": "Which museum in India is the first museum?",
           "options": [
             "Government Museum",
             "National Museum",
-            "Chhatrapati Shivaji Maharaj Vastusangrahalay",
+            "Chhatrapati Shivaji Maharaj Vastusamgrahalay",
             "Indian Museum"
           ],
           "correctAnswer": 3,
-          "explanation": "The Indian Museum, Kolkata, is India's oldest and first museum.",
+          "explanation": "The Indian Museum in Kolkata is the first museum in India.",
           "order": 1
         },
         {
           "id": "q2",
-          "question": "The Chhatrapati Shivaji Maharaj Vastu Sangrahalay was originally built to commemorate:",
+          "qType": "mcq",
+          "question": "The Chhatrapati Shivaji Maharaj Vastusamgrahalay was built to commemorate the visit of:",
           "options": [
-            "India's independence",
-            "The visit of the Prince of Wales to India",
-            "Chhatrapati Shivaji Maharaj's coronation",
-            "The founding of Mumbai"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Its construction began in 1905 to mark this royal visit; it was renamed in 1998.",
-          "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "Why is it essential that only trained persons handle conservation and preservation work?",
-          "options": [
-            "It is a legal formality only",
-            "Untrained handling can permanently damage irreplaceable historical materials",
-            "It is cheaper that way",
-            "There is no real reason"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Historical artefacts and manuscripts are fragile and irreplaceable.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "Archives and libraries publish research journals and pamphlets mainly to:",
-          "options": [
-            "Generate revenue only",
-            "Spread knowledge and historical information among people",
-            "Replace museums",
-            "Avoid preservation work"
-          ],
-          "correctAnswer": 1,
-          "explanation": "This makes preserved heritage accessible and useful to the wider public.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "The Chhatrapati Shivaji Maharaj Vastu Sangrahalay's collection of about 50,000 antiquities is classified into three categories:",
-          "options": [
-            "Coins, Weapons, Paintings",
-            "Arts, Archaeology, and Natural History",
-            "Manuscripts, Sculptures, Textiles",
-            "Ancient, Medieval, Modern"
-          ],
-          "correctAnswer": 1,
-          "explanation": "These three categories organise the museum's vast collection.",
-          "order": 5
-        }
-      ]
-    },
-    {
-      "id": "ch10",
-      "num": 10,
-      "title": "Working of the Constitution",
-      "emoji": "⚖️",
-      "overview": {
-        "summary": "This chapter examines how the Indian Constitution functions in practice — the Right to Information Act, the characteristics of good governance, the policy of reservation of seats, measures for women's empowerment, and the decentralisation of power to local self-government.",
-        "youWillLearn": [
-          "The purpose and impact of the RTI Act, 2005",
-          "The key characteristics of good governance",
-          "The rationale behind the Policy of Reservation of Seats",
-          "Legal measures aimed at empowering women",
-          "Why decentralisation of power is essential to democracy"
-        ]
-      },
-      "notes": [
-        {
-          "id": "n1",
-          "type": "paragraph",
-          "title": "Right to Information (RTI), 2005",
-          "content": "The RTI Act came into force in 2005 to make government transparent and reduce secrecy in its working. Transparency and accountability are hallmarks of good governance. RTI strengthens the relationship of trust between citizens and government by empowering citizens to question and access information about government activities.",
-          "important": true
-        },
-        {
-          "id": "n2",
-          "type": "paragraph",
-          "title": "Characteristics of Good Governance",
-          "content": "Good governance is characterised by transparency, accountability, rule of law, responsiveness, and participation of citizens. Since the year 2000, the approach towards democratic reforms shifted to being 'rights-based' — citizens now have the Right to Information, Right to Education, and Food Security as legal rights, not mere government favours, which has strengthened Indian democracy.",
-          "important": true
-        },
-        {
-          "id": "n3",
-          "type": "paragraph",
-          "title": "Policy of Reservation of Seats",
-          "content": "The Policy of Reservation of Seats is meant for sections of society deprived of educational and employment opportunities for a long period — Scheduled Castes, Scheduled Tribes, Other Backward Classes, and women. The 73rd and 74th Constitutional Amendments reserved 33% of seats for women in local self-governing institutions (Panchayats/Municipalities); this has been raised to 50% in Maharashtra and several other states, including reserved posts of Sarpanch and Mayor.",
-          "important": true
-        },
-        {
-          "id": "n4",
-          "type": "paragraph",
-          "title": "Empowerment of women",
-          "content": "Besides reservation of seats, laws like the Dowry Prohibition Act, the Domestic Violence Prohibition Act, laws against sexual harassment, and equal share in the property of father and husband have been enacted to empower women and protect their dignity and self-development.",
-          "important": true
-        },
-        {
-          "id": "n5",
-          "type": "paragraph",
-          "title": "Decentralisation of power",
-          "content": "The essence of democracy lies in the decentralisation of power — devolving authority from the central and state governments to local self-government institutions (Panchayats, Municipalities), enabling greater citizen participation and more responsive governance at the grassroots level.",
-          "important": true
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "f1",
-          "front": "In which year did the RTI Act come into force?",
-          "back": "2005",
-          "order": 1
-        },
-        {
-          "id": "f2",
-          "front": "What percentage of seats are reserved for women in local self-government in Maharashtra?",
-          "back": "50%",
-          "order": 2
-        },
-        {
-          "id": "f3",
-          "front": "Which amendments reserved 33% seats for women in local bodies?",
-          "back": "73rd and 74th Constitutional Amendments",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "Since which year has the approach to democratic reforms become 'rights-based'?",
-          "back": "2000",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "Name one law protecting women against domestic abuse.",
-          "back": "Domestic Violence Prohibition Act",
-          "order": 5
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "question": "In Maharashtra, ______ seats are reserved for women in local self-governing institutions.",
-          "options": [
-            "25%",
-            "30%",
-            "40%",
-            "50%"
+            "King George I",
+            "Queen Elizabeth",
+            "Prince Charles",
+            "Prince of Wales"
           ],
           "correctAnswer": 3,
-          "explanation": "Maharashtra raised the reservation from the constitutional 33% to 50%.",
-          "order": 1
-        },
-        {
-          "id": "q2",
-          "question": "Which law created a favourable environment for women to secure freedom and self-development, as per the chapter?",
-          "options": [
-            "Right to Information Act",
-            "Dowry Prohibition Act",
-            "Food Security Act",
-            "None of the above"
-          ],
-          "correctAnswer": 1,
-          "explanation": "The Dowry Prohibition Act protects women from exploitation related to dowry.",
+          "explanation": "The museum was built to commemorate the visit of the Prince of Wales.",
           "order": 2
         },
         {
           "id": "q3",
-          "question": "The essence of democracy is:",
+          "qType": "mcq",
+          "question": "Louvre Museum has in its collection the painting _______ by Leonardo da Vinci.",
           "options": [
-            "universal adult franchise",
-            "decentralisation of power",
-            "policy of reservation of seats",
-            "judicial decisions"
+            "Napoleon",
+            "Mona Lisa",
+            "Hans Sloan",
+            "George II"
           ],
           "correctAnswer": 1,
-          "explanation": "Decentralisation brings governance closer to the people.",
+          "explanation": "The Louvre Museum houses the famous painting 'Mona Lisa' by Leonardo da Vinci.",
           "order": 3
         },
         {
           "id": "q4",
-          "question": "The RTI Act was passed mainly to:",
+          "qType": "mcq",
+          "question": "UNESCO has given directives to preserve heritage for:",
           "options": [
-            "Increase government secrecy",
-            "Make government transparent and reduce secrecy",
-            "Reduce citizen participation",
-            "Abolish local self-government"
+            "Economic benefits",
+            "Future generations",
+            "Political purposes",
+            "Immediate gain"
           ],
           "correctAnswer": 1,
-          "explanation": "RTI builds trust between citizens and government through transparency.",
+          "explanation": "UNESCO focuses on preserving cultural and natural heritage for the benefit of future generations.",
           "order": 4
         },
         {
           "id": "q5",
-          "question": "The Policy of Reservation of Seats is meant for sections of society that were:",
+          "qType": "mcq",
+          "question": "The Museum of Natural History which houses more than 12 rare specimens of fossils is in:",
           "options": [
-            "Given excess opportunities",
-            "Deprived of educational and employment opportunities for a long period",
-            "Already fully empowered",
-            "Not part of Indian society"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Reservation aims to correct historical social and economic injustice.",
-          "order": 5
-        }
-      ]
-    },
-    {
-      "id": "ch11",
-      "num": 11,
-      "title": "The Electoral Process",
-      "emoji": "🗳️",
-      "overview": {
-        "summary": "This chapter details the electoral process in India — the functions of the Election Commission, the Code of Conduct, the shift from ballot boxes to EVMs, the composition and independence of the Election Commission, and the challenges of conducting free and fair elections.",
-        "youWillLearn": [
-          "The key functions of the Election Commission",
-          "What the Code of Conduct requires of parties and candidates",
-          "How voting evolved from ballot boxes to EVMs",
-          "The composition and independence of the Election Commission",
-          "Major challenges in conducting free and fair elections"
-        ]
-      },
-      "notes": [
-        {
-          "id": "n1",
-          "type": "paragraph",
-          "title": "Functions of the Election Commission",
-          "content": "The Election Commission (i) prepares and updates the voters' list, (ii) decides the election schedule and process, (iii) scrutinises candidates' applications, (iv) conducts free and fair elections, (v) gives or withdraws recognition to political parties and allots election symbols, and (vi) resolves election-related disputes, including ordering re-elections when needed.",
-          "important": true
-        },
-        {
-          "id": "n2",
-          "type": "paragraph",
-          "title": "Code of Conduct",
-          "content": "The Code of Conduct is the set of rules that the government, political parties, candidates, and voters must follow before and during elections, enforced by the Election Commission from the announcement of elections till the declaration of results. It curbs malpractices (e.g. distributing gifts, appealing on caste/religious lines) and gives voters confidence in the fairness of elections. Even the government cannot break these rules.",
-          "important": true
-        },
-        {
-          "id": "n3",
-          "type": "paragraph",
-          "title": "Journey from ballot boxes to EVM machines",
-          "content": "From the first election in 1951-52 until 1999, voting was done using ballot boxes (20 lakh boxes used in the first election); voters stamped next to a candidate's name. Electronic Voting Machines (EVMs) were first used experimentally in 1998 in a few seats in Rajasthan, Madhya Pradesh, and Delhi, and were used at all polling booths nationwide from the 2004 general elections. EVMs save paper (protecting the environment), enable faster results, allow the NOTA option, and are easier for disabled (Divyanga) voters.",
-          "important": true
-        },
-        {
-          "id": "n4",
-          "type": "paragraph",
-          "title": "Composition and independence of the Election Commission",
-          "content": "The Election Commission consists of one Chief Election Commissioner and two other Election Commissioners, all appointed by the President. Sukumar Sen was independent India's first Chief Election Commissioner. Commissioners cannot be easily removed for political reasons, and separate financial provisions protect the Commission's independence from government control.",
-          "important": true
-        },
-        {
-          "id": "n5",
-          "type": "paragraph",
-          "title": "Challenges in conducting free and fair elections",
-          "content": "Challenges include managing a huge geographical area and electorate, stopping the misuse of money and muscle power, barring candidates with criminal backgrounds, conducting elections despite political criminalisation, and preventing election-related violence.",
-          "important": false
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "f1",
-          "front": "Who appoints the Election Commissioners?",
-          "back": "The President of India",
-          "order": 1
-        },
-        {
-          "id": "f2",
-          "front": "Who was independent India's first Chief Election Commissioner?",
-          "back": "Sukumar Sen",
-          "order": 2
-        },
-        {
-          "id": "f3",
-          "front": "Which committee of the Election Commission creates constituencies?",
-          "back": "The Delimitation Commission/Committee",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "In which year were EVMs used at all polling booths nationwide?",
-          "back": "2004",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "What voting option lets a voter reject all candidates?",
-          "back": "NOTA (None Of The Above)",
-          "order": 5
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "question": "The Election Commissioner is appointed by the:",
-          "options": [
-            "President",
-            "Prime Minister",
-            "Speaker of Lok Sabha",
-            "Vice President"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The President appoints the Chief Election Commissioner and other commissioners.",
-          "order": 1
-        },
-        {
-          "id": "q2",
-          "question": "______ was appointed as the first Chief Election Commissioner of independent India.",
-          "options": [
-            "Dr. Rajendra Prasad",
-            "T.N. Sheshan",
-            "Sukumar Sen",
-            "Neela Satyanarayan"
+            "England",
+            "France",
+            "Switzerland",
+            "USA"
           ],
           "correctAnswer": 2,
-          "explanation": "Sukumar Sen oversaw India's first general elections in 1951-52.",
-          "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "Constituencies are created by the ______ committee of the Election Commission.",
-          "options": [
-            "Selection",
-            "Delimitation",
-            "Voting",
-            "Timetable"
-          ],
-          "correctAnswer": 1,
-          "explanation": "The Delimitation Commission redraws constituencies based on population changes.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "The first elections in India were held in:",
-          "options": [
-            "1948-49",
-            "1949-50",
-            "1950-51",
-            "1951-52"
-          ],
-          "correctAnswer": 3,
-          "explanation": "India's first general elections used ballot boxes.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "One advantage of the EVM over the ballot box is that it:",
-          "options": [
-            "Requires more paper",
-            "Saves paper and enables faster declaration of results",
-            "Slows down the counting process",
-            "Cannot be used by disabled voters"
-          ],
-          "correctAnswer": 1,
-          "explanation": "EVMs are environmentally friendly and speed up result declaration.",
-          "order": 5
-        }
-      ]
-    },
-    {
-      "id": "ch12",
-      "num": 12,
-      "title": "Political Parties",
-      "emoji": "🏳️",
-      "overview": {
-        "summary": "This chapter studies India's political party system — the distinction between National and Regional parties, how the party system has changed since independence, the roots of regionalism, the Shiv Sena as an example of a regional party, and the difference between ideology and agenda.",
-        "youWillLearn": [
-          "How National Parties differ from Regional Parties",
-          "How India's party system changed after 1977",
-          "What regionalism is and why regional parties emerge",
-          "The Shiv Sena as a case study of a regional party",
-          "The difference between a party's ideology and its agenda"
-        ]
-      },
-      "notes": [
-        {
-          "id": "n1",
-          "type": "paragraph",
-          "title": "National Parties vs Regional Parties",
-          "content": "A National Party functions at the national level and is recognised by the Election Commission based on the percentage of votes secured and seats won in Parliament/Assembly across multiple states. A Regional Party has influence limited mainly to one state or region (e.g. Shiromani Akali Dal in Punjab, Shiv Sena in Maharashtra) but may still contest and win seats in national politics.",
-          "important": true
-        },
-        {
-          "id": "n2",
-          "type": "paragraph",
-          "title": "Changing nature of the party system in India",
-          "content": "After independence, the Indian National Congress was the dominant party at the Centre and in states (one-party dominance). In 1977, opposition parties united into a coalition and defeated Congress, introducing the two-party system's importance over one-party rule. After the 1989 elections, one-party dominance ended, regional parties gained importance, and coalition governments became common both at the Centre and in states.",
-          "important": true
-        },
-        {
-          "id": "n3",
-          "type": "paragraph",
-          "title": "Regionalism and regional parties",
-          "content": "India's physical, linguistic, and cultural diversity gives people a strong affinity for their own region, language, and traditions — this is called Regionalism. After independence, regional identity led to demands for separate states; over time, regional parties shifted from demanding separation to demanding autonomy, and later to seeking better representation and development within the Union.",
-          "important": true
-        },
-        {
-          "id": "n4",
-          "type": "paragraph",
-          "title": "Shiv Sena as a regional party example",
-          "content": "The Shiv Sena was founded in 1966 to fight for the cause of Marathi-speaking people and the preservation of the Marathi language. It became the ruling party in Maharashtra with the BJP in 1995, and this strategic tie-up helped it extend its influence into national politics.",
-          "important": false
-        },
-        {
-          "id": "n5",
-          "type": "paragraph",
-          "title": "Difference between ideology and agenda",
-          "content": "The ideology of a party is its broad, foundational set of political-economic beliefs (e.g. socialism, secularism), while its agenda is the specific, often short-term, list of issues and promises it campaigns on for a particular election.",
-          "important": false
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "f1",
-          "front": "In which year was the Shiv Sena founded?",
-          "back": "1966",
-          "order": 1
-        },
-        {
-          "id": "f2",
-          "front": "What ended one-party dominance in Indian politics?",
-          "back": "The 1989 elections",
-          "order": 2
-        },
-        {
-          "id": "f3",
-          "front": "What is Regionalism?",
-          "back": "An affinity for one's own region, language, and traditions arising from India's diversity",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "Name one regional party in Punjab.",
-          "back": "Shiromani Akali Dal",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "What is the difference between ideology and agenda?",
-          "back": "Ideology is a party's broad belief system; agenda is its specific election-time programme",
-          "order": 5
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "question": "What changes have taken place in the nature of political parties in India since independence?",
-          "options": [
-            "One-party dominance continues unchanged",
-            "One-party dominance gave way to coalition and multi-party politics after 1977 and 1989",
-            "Only regional parties have ever existed",
-            "Political parties were banned after independence"
-          ],
-          "correctAnswer": 1,
-          "explanation": "The 1977 coalition and the 1989 elections marked major shifts away from Congress dominance.",
-          "order": 1
-        },
-        {
-          "id": "q2",
-          "question": "The Shiv Sena was founded in 1966 mainly to:",
-          "options": [
-            "Support the national government",
-            "Fight for the cause of Marathi-speaking people and Marathi language",
-            "Promote agricultural reforms",
-            "Oppose the Election Commission"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Its founding objective centred on Marathi identity and language.",
-          "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "Shiromani Akali Dal is recognised by the Election Commission as a:",
-          "options": [
-            "National Party",
-            "Regional Party",
-            "Independent candidate",
-            "Not a party"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Its influence is limited mainly to Punjab.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "What changes have been seen in the role of regional parties over time?",
-          "options": [
-            "They demanded separation, then autonomy, then representation/development within the Union",
-            "They have remained unchanged since independence",
-            "They immediately became national parties",
-            "They were banned after 1980"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Regional party demands evolved from separatism to seeking autonomy and development.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "India has a:",
-          "options": [
-            "One-party system",
-            "Two-party system",
-            "Multi-party system",
-            "No-party system"
-          ],
-          "correctAnswer": 2,
-          "explanation": "India recognises multiple national and regional parties.",
-          "order": 5
-        }
-      ]
-    },
-    {
-      "id": "ch13",
-      "num": 13,
-      "title": "Social and Political Movements",
-      "emoji": "✊",
-      "overview": {
-        "summary": "This chapter surveys major social and political movements in India — Tribal, Labour, Consumer, Environmental, and Farmers' movements — and the issues, milestones, and reforms each has driven.",
-        "youWillLearn": [
-          "The causes and course of the Tribal Movement",
-          "How industrialisation gave rise to the Labour Movement",
-          "The origins and aims of the Consumer Movement",
-          "The role of Environment Movements like Chipko and Appiko",
-          "The key demands of the Farmers' Movement"
-        ]
-      },
-      "notes": [
-        {
-          "id": "n1",
-          "type": "paragraph",
-          "title": "Tribal Movement",
-          "content": "Tribal groups such as the Kolam (Chota Nagpur), Gond (Odisha), Koli, Bhilla and Ramoshi (Maharashtra), and Santhal and Munda (Bihar) revolted against the British. Even after independence, their livelihood problems — especially the right to collect forest produce and cultivate forest land — remained unresolved, keeping the Tribal Movement active in many parts of India.",
-          "important": true
-        },
-        {
-          "id": "n2",
-          "type": "paragraph",
-          "title": "Labour Movement",
-          "content": "Industrialisation in the late 19th century (textile mills, railway companies) created a large labour force and consequent labour issues. The All India Trade Union Congress was established in 1920 to address these problems. The movement was most effective from the 1960s to the 1980s, but lost momentum afterward, with globalisation dealing it a final blow.",
-          "important": true
-        },
-        {
-          "id": "n3",
-          "type": "paragraph",
-          "title": "Consumer Movement",
-          "content": "The Consumer Movement in India gained momentum after the Consumer Protection Act was passed in 1986. It treats every member of society as a consumer, aiming to protect people from adulteration, overpricing, and fraud in weights and measures.",
-          "important": true
-        },
-        {
-          "id": "n4",
-          "type": "paragraph",
-          "title": "Role of Environment Movements",
-          "content": "Environment movements (e.g. Chipko Movement, Appiko Movement, Van Mahotsav in India) create public awareness about environmental balance through media, work to stop river pollution, protect biodiversity and forests, reduce harmful chemical use, and press for the creation of green spaces.",
-          "important": true
-        },
-        {
-          "id": "n5",
-          "type": "paragraph",
-          "title": "Farmers' Movement",
-          "content": "The farmers' movement addresses issues like fair prices for produce, farm loans/debt relief, and access to irrigation and modern technology. The Green Revolution aimed at increasing agricultural production, but since its benefits did not fully reach poor farmers, farmer movements continued to press for change.",
-          "important": false
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "f1",
-          "front": "In which year was the All India Trade Union Congress established?",
-          "back": "1920",
-          "order": 1
-        },
-        {
-          "id": "f2",
-          "front": "In which year was the Consumer Protection Act passed?",
-          "back": "1986",
-          "order": 2
-        },
-        {
-          "id": "f3",
-          "front": "Name two tribal groups involved in the Tribal Movement.",
-          "back": "Any two of: Kolam, Gond, Koli, Bhilla, Ramoshi, Santhal, Munda",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "Name two environment movements in India.",
-          "back": "Chipko Movement and Appiko Movement (or Van Mahotsav)",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "What was the main demand of the Tribal Movement?",
-          "back": "Right to collect forest produce and cultivate forest land",
-          "order": 5
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "question": "The All India Trade Union Congress was established in:",
-          "options": [
-            "1899",
-            "1920",
-            "1947",
-            "1986"
-          ],
-          "correctAnswer": 1,
-          "explanation": "It was formed to address labour issues arising from industrialisation.",
-          "order": 1
-        },
-        {
-          "id": "q2",
-          "question": "The Consumer Movement in India gained momentum after the passing of the:",
-          "options": [
-            "Right to Information Act",
-            "Consumer Protection Act, 1986",
-            "Dowry Prohibition Act",
-            "Factories Act"
-          ],
-          "correctAnswer": 1,
-          "explanation": "This Act gave legal backing to consumer rights and protection.",
-          "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "The main unresolved demand of Tribal communities even after independence relates to:",
-          "options": [
-            "Voting rights",
-            "Right to forest land and forest produce",
-            "Reservation in Parliament only",
-            "Access to television"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Livelihood rights over forest resources remain a central tribal demand.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "Which of these is an environmental movement active in India?",
-          "options": [
-            "Narmada Bachao Andolan / Chipko Movement",
-            "Non-Cooperation Movement",
-            "Quit India Movement",
-            "Swadeshi Movement"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Chipko is a classic Indian environmental movement protecting forests.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "The Labour/Trade Union Movement in India lost momentum mainly after the 1980s due to:",
-          "options": [
-            "Government bans",
-            "Globalisation",
-            "Lack of workers",
-            "New labour laws only"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Globalisation changed industrial structures and weakened union movements.",
-          "order": 5
-        }
-      ]
-    },
-    {
-      "id": "ch14",
-      "num": 14,
-      "title": "Challenges faced by Indian Democracy",
-      "emoji": "🚩",
-      "overview": {
-        "summary": "This chapter looks at the major challenges confronting Indian democracy — terrorism, Left-wing extremism (Naxalism), corruption — along with the measures being taken to strengthen democracy and improve transparency in the political process.",
-        "youWillLearn": [
-          "How terrorism destabilises society and democratic participation",
-          "The origins and trajectory of Left-wing extremism (Naxalism)",
-          "The extent and impact of corruption in India's public sector",
-          "Measures being taken to strengthen Indian democracy",
-          "Judicial efforts to bring transparency to the political process"
-        ]
-      },
-      "notes": [
-        {
-          "id": "n1",
-          "type": "paragraph",
-          "title": "Terrorism",
-          "content": "Terrorism creates instability in society, reduces people's participation in the democratic process, and increases religious conflict due to rising communalism. It seizes people's minds with fear, reducing their tolerance and hindering democratic development.",
-          "important": true
-        },
-        {
-          "id": "n2",
-          "type": "paragraph",
-          "title": "Left-wing Extremism (Naxalism)",
-          "content": "Naxalism began as a movement against injustice done to landless farmers and tribals, but it later lost its original focus and turned violent, with Naxalite groups attacking police and army forces and opposing the government through violent means — making it a major challenge to Indian democracy.",
-          "important": true
-        },
-        {
-          "id": "n3",
-          "type": "paragraph",
-          "title": "Corruption",
-          "content": "Corruption — dishonest conduct for personal gain by people in positions of influence — is reported to be very high in India's public sector and at the administrative level. It includes bogus voting, bribing voters, and misuse of power. Corruption delays government work, reduces the government's efficiency, and creates distrust and dissatisfaction among people about the entire governmental system, weakening confidence in democracy.",
-          "important": true
-        },
-        {
-          "id": "n4",
-          "type": "paragraph",
-          "title": "Measures to strengthen democracy",
-          "content": "Measures include: maintaining an independent Election Commission for free and fair elections, enacting stringent laws against criminalisation of politics and corruption, courts barring corrupt or criminally-accused persons from the political process, promoting decentralisation of power, and ensuring continuous, alert citizen participation in democratic life.",
-          "important": true
-        },
-        {
-          "id": "n5",
-          "type": "paragraph",
-          "title": "Efforts for transparency in the political process",
-          "content": "The Judiciary in India makes conscious efforts to bring transparency to the political process — for instance, by disqualifying candidates with criminal backgrounds and enforcing anti-corruption laws strictly, thereby helping restore public trust in democratic institutions.",
-          "important": false
-        }
-      ],
-      "flashcards": [
-        {
-          "id": "f1",
-          "front": "What was Naxalism originally started against?",
-          "back": "Injustice done to landless farmers and tribals",
-          "order": 1
-        },
-        {
-          "id": "f2",
-          "front": "Name two examples of corruption in the electoral process.",
-          "back": "Bogus voting and bribing voters",
-          "order": 2
-        },
-        {
-          "id": "f3",
-          "front": "Which institution is credited with making efforts for transparency in the political process?",
-          "back": "The Judiciary",
-          "order": 3
-        },
-        {
-          "id": "f4",
-          "front": "What does increased communalism lead to?",
-          "back": "Increased religious conflict",
-          "order": 4
-        },
-        {
-          "id": "f5",
-          "front": "Which policy did the Government of India adopt to make democracy meaningful, as per the chapter?",
-          "back": "Decentralisation of power",
-          "order": 5
-        }
-      ],
-      "quiz": [
-        {
-          "id": "q1",
-          "question": "In order to make democracy meaningful, the Government of India adopted:",
-          "options": [
-            "internal party elections",
-            "public welfare schemes",
-            "decentralisation of power",
-            "protection of democratic values"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Decentralisation brings power closer to citizens, strengthening democracy.",
-          "order": 1
-        },
-        {
-          "id": "q2",
-          "question": "The Naxalite movement began to remove injustice done to:",
-          "options": [
-            "workers and dalits",
-            "middle and lower class",
-            "poor and common class",
-            "landless farmers and tribals"
-          ],
-          "correctAnswer": 3,
-          "explanation": "It later turned violent and lost its original focus.",
-          "order": 2
-        },
-        {
-          "id": "q3",
-          "question": "The ______ in India is making conscious efforts to make the political process transparent.",
-          "options": [
-            "Parliament",
-            "Government",
-            "Judiciary",
-            "Political parties"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Courts have disqualified corrupt/criminally-accused candidates.",
-          "order": 3
-        },
-        {
-          "id": "q4",
-          "question": "Due to an increase in ______, there is an increase in religious conflict.",
-          "options": [
-            "communalism",
-            "terrorism",
-            "corruption",
-            "casteism"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Communalism fuels religious tension and undermines social harmony.",
-          "order": 4
-        },
-        {
-          "id": "q5",
-          "question": "Corruption weakens Indian democracy mainly because it:",
-          "options": [
-            "Increases government efficiency",
-            "Creates distrust and dissatisfaction among people about the government",
-            "Has no effect on governance",
-            "Only affects the private sector"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Corruption erodes public confidence and slows down governance.",
+          "explanation": "The Museum of Natural History in Switzerland houses more than 12 rare specimens of fossils.",
           "order": 5
         }
       ]

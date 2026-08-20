@@ -1,30 +1,18 @@
-declare const process: { env: Record<string, string | undefined> };
-
-type FeedbackKind = 'idea' | 'bug' | 'encouragement';
-
-type AlertFeedback = {
-  id?: unknown;
-  kind?: unknown;
-  message?: unknown;
-  userName?: unknown;
-  createdAt?: unknown;
-};
-
 const MAX_MESSAGE_LENGTH = 600;
 const REQUEST_FRESHNESS_MS = 5 * 60 * 1000;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX_REQUESTS = 6;
-const recentRequests = new Map<string, { startedAt: number; count: number }>();
+const recentRequests = new Map();
 
-function readText(value: unknown): string {
+function readText(value) {
   return typeof value === 'string' ? value.trim() : '';
 }
 
-function isFeedbackKind(value: unknown): value is FeedbackKind {
+function isFeedbackKind(value) {
   return value === 'idea' || value === 'bug' || value === 'encouragement';
 }
 
-function allowedOrigin(request: { headers: Record<string, string | string[] | undefined> }): string | null {
+function allowedOrigin(request) {
   const configuredOrigin = readText(process.env.ALERT_ALLOWED_ORIGIN);
   const origin = readText(request.headers.origin);
   const forwardedHost = readText(request.headers['x-forwarded-host']);
@@ -36,13 +24,13 @@ function allowedOrigin(request: { headers: Record<string, string | string[] | un
   return null;
 }
 
-function requestIp(request: { headers: Record<string, string | string[] | undefined> }): string {
+function requestIp(request) {
   const forwarded = readText(request.headers['x-forwarded-for']);
   if (forwarded) return forwarded.split(',')[0].trim();
   return readText(request.headers['x-real-ip']) || 'unknown';
 }
 
-function withinRateLimit(ip: string): boolean {
+function withinRateLimit(ip) {
   const now = Date.now();
   const current = recentRequests.get(ip);
   const activeWindow = current && now - current.startedAt < RATE_LIMIT_WINDOW_MS;
@@ -53,24 +41,24 @@ function withinRateLimit(ip: string): boolean {
   return true;
 }
 
-function validFeedback(value: AlertFeedback): value is Required<Pick<AlertFeedback, 'kind' | 'message' | 'createdAt'>> & AlertFeedback {
-  const message = readText(value.message);
-  const submittedAt = new Date(readText(value.createdAt)).getTime();
-  return isFeedbackKind(value.kind)
+function validFeedback(value) {
+  const message = readText(value?.message);
+  const submittedAt = new Date(readText(value?.createdAt)).getTime();
+  return isFeedbackKind(value?.kind)
     && message.length > 0
     && message.length <= MAX_MESSAGE_LENGTH
     && Number.isFinite(submittedAt)
     && Math.abs(Date.now() - submittedAt) <= REQUEST_FRESHNESS_MS;
 }
 
-function alertText(feedback: AlertFeedback): string {
+function alertText(feedback) {
   const kind = isFeedbackKind(feedback.kind) ? feedback.kind : 'feedback';
   const sender = readText(feedback.userName) || 'A CrossNotes learner';
   const message = readText(feedback.message).slice(0, MAX_MESSAGE_LENGTH);
   return `New CrossNotes ${kind} feedback from ${sender}:\n\n${message}\n\nReview it in the CrossNotes Feedback Desk.`;
 }
 
-export default async function handler(request: any, response: any) {
+export default async function handler(request, response) {
   if (request.method !== 'POST') {
     response.setHeader('Allow', 'POST');
     response.status(405).json({ error: 'Method not allowed.' });
@@ -85,8 +73,8 @@ export default async function handler(request: any, response: any) {
   response.setHeader('Access-Control-Allow-Origin', origin);
   response.setHeader('Vary', 'Origin');
 
-  const feedback = request.body?.feedback as AlertFeedback | undefined;
-  if (!feedback || !validFeedback(feedback)) {
+  const feedback = request.body?.feedback;
+  if (!validFeedback(feedback)) {
     response.status(400).json({ error: 'A recent, valid feedback item is required.' });
     return;
   }
@@ -116,9 +104,9 @@ export default async function handler(request: any, response: any) {
       }),
     });
     const relayRawBody = await relayResponse.text();
-    let relayBody: { messageId?: string; error?: string } = {};
+    let relayBody = {};
     try {
-      relayBody = JSON.parse(relayRawBody) as { messageId?: string; error?: string };
+      relayBody = JSON.parse(relayRawBody);
     } catch {
       // Preserve a generic HTTP error if the relay cannot return a structured response.
     }

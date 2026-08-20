@@ -350,10 +350,13 @@ html, body {
 /* ─── BOTTOM NAV — floating clay pill ────────────────────────────── */
 .bottom-nav {
   position: fixed;
-  bottom: 16px;
-  left: 16px;
-  right: 16px;
+  bottom: max(16px, env(safe-area-inset-bottom, 0px));
+  left: 50%;
+  right: auto;
+  width: min(calc(100% - 32px), 672px);
+  transform: translateX(-50%);
   height: 64px;
+
   background: var(--bg-card);
   box-shadow: var(--shadow-nav);
   border-radius: var(--r-pill);

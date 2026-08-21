@@ -347,6 +347,52 @@ html, body {
 }
 .avatar-initial { color: var(--primary); font-weight: 800; font-size: 15px; }
 
+/* Claymorphic profile menu: a lifted personal control surface with Progress as the first action. */
+.account-menu {
+  width: min(264px, calc(100vw - 24px));
+  padding: 8px !important;
+  border: none !important;
+  border-radius: 18px !important;
+  background: var(--bg-card) !important;
+  color: var(--text) !important;
+  box-shadow:
+    10px 12px 24px rgba(80, 60, 160, 0.16),
+    -5px -5px 12px rgba(255, 255, 255, 0.75),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.78) !important;
+}
+.dark-mode .account-menu {
+  box-shadow:
+    10px 12px 24px rgba(0, 0, 0, 0.42),
+    -3px -3px 10px rgba(255, 255, 255, 0.04),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.05) !important;
+}
+.account-menu-label { display: grid; gap: 2px; padding: 10px 10px 9px !important; }
+.account-menu-name { color: var(--text); font-size: 13px; font-weight: 800; line-height: 1.25; }
+.account-menu-email { color: var(--text-muted); font-size: 11px; font-weight: 600; line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.account-menu [data-radix-popper-content-wrapper] { z-index: 70; }
+.account-menu-item { min-height: 40px; padding: 0 !important; border-radius: 12px !important; color: var(--text-muted) !important; font-family: var(--font-body); font-size: 13px; font-weight: 800; }
+.account-menu-item > a, .account-menu-item > span { width: 100%; height: 40px; display: flex; align-items: center; gap: 9px; padding: 0 10px; text-decoration: none; color: inherit; }
+.account-menu-item:focus, .account-menu-item:hover { background: var(--bg-card-2) !important; color: var(--primary) !important; }
+.account-progress-item { color: var(--primary) !important; box-shadow: inset 2px 2px 5px rgba(120, 90, 200, 0.11), inset -1px -1px 3px rgba(255, 255, 255, 0.72); }
+.account-progress-item > a { color: inherit; }
+.account-signout-item { color: var(--red) !important; padding: 0 10px !important; }
+.account-menu [data-radix-dropdown-menu-separator] { margin: 6px 4px !important; background: var(--divider) !important; }
+.account-settings-trigger[data-state='open'] { background: var(--bg-card-2) !important; color: var(--primary) !important; }
+.account-settings-menu {
+  width: min(248px, calc(100vw - 28px));
+  padding: 7px !important;
+  border: 1px solid rgba(120, 90, 200, 0.09) !important;
+  border-radius: 17px !important;
+  background: var(--bg-card) !important;
+  box-shadow: 7px 8px 18px rgba(107, 84, 174, 0.18), -4px -4px 12px rgba(255, 255, 255, 0.82), inset 1px 1px 0 rgba(255, 255, 255, 0.92) !important;
+}
+.account-settings-heading { padding: 7px 8px 6px !important; color: var(--text-subtle) !important; font-family: var(--font-body); font-size: 10px !important; font-weight: 850 !important; letter-spacing: 0.07em; text-transform: uppercase; }
+.account-setting-toggle { min-height: 42px; padding: 0 10px !important; border-radius: 12px !important; color: var(--text-muted) !important; font-family: var(--font-body); font-size: 12px; font-weight: 800; }
+.account-setting-toggle:hover, .account-setting-toggle:focus { background: var(--bg-card-2) !important; color: var(--primary) !important; }
+.account-setting-toggle svg { color: var(--primary); }
+.dark-mode .account-settings-menu { border-color: rgba(255,255,255,0.06) !important; box-shadow: 7px 8px 18px rgba(0,0,0,.34), -2px -2px 8px rgba(255,255,255,.035), inset 1px 1px 0 rgba(255,255,255,.04) !important; }
+@media (max-width: 480px) { .account-settings-menu { width: min(230px, calc(100vw - 20px)); } }
+
 /* ─── BOTTOM NAV — floating clay pill ────────────────────────────── */
 .bottom-nav {
   position: fixed;

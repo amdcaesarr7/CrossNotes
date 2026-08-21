@@ -96,7 +96,6 @@ export function maybeShowStudyReminder(studiedToday: boolean) {
     new Notification('Mew is protecting your streak.', {
       body: "It is getting late and today’s study session is still theoretical. Two minutes counts.",
       tag: 'cn-streak-reminder',
-      renotify: false,
     });
   } catch {
     /* browser notifications are best-effort only */
@@ -134,7 +133,6 @@ export function maybeShowMewAwayNotification(reason: MewNudgeReason) {
     new Notification(copy.title, {
       body: copy.body,
       tag: `cn-mew-${reason}`,
-      renotify: false,
     });
   } catch {
     /* browser notifications are best-effort only */

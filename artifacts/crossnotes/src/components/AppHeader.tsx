@@ -1,3 +1,4 @@
+/** Claymorphic account control: Progress belongs in the tactile profile menu, not in persistent navigation. */
 import { useEffect, useState } from 'react';
 import { Link } from 'wouter';
 import {
@@ -15,6 +16,9 @@ import {
   Send,
   CheckCircle2,
   Sparkles,
+  BarChart3,
+  Settings2,
+  LogOut,
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
@@ -22,6 +26,17 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useSound } from '@/contexts/SoundContext';
 import { useUserProfile } from '@/hooks/useFirestore';
 import { submitFeedback, type FeedbackKind } from '@/lib/feedback';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 
 interface AppHeaderProps {
   title?: string;
@@ -51,12 +66,8 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  const handleAvatar = () => {
-    if (user) {
-      if (window.confirm(`Signed in as ${user.displayName}.\n\nSign out?`)) logout();
-    } else {
-      signInWithGoogle();
-    }
+  const handleSignOut = () => {
+    if (user && window.confirm(`Signed in as ${user.displayName}.\n\nSign out?`)) logout();
   };
 
   useEffect(() => {
@@ -145,17 +156,55 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
           <button onClick={toggleDark} className="app-header-icon-btn" aria-label={isDark ? 'Light mode' : 'Dark mode'}>
             {isDark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
-          <button onClick={handleAvatar} className="avatar-btn" title={user ? `${user.displayName} — tap to sign out` : 'Sign in with Google'}>
-            {user?.photoURL ? (
-              <img src={user.photoURL} alt={user.displayName ?? ''} className="w-full h-full object-cover" />
-            ) : user ? (
-              <span className="avatar-initial">{user.displayName?.charAt(0) ?? '?'}</span>
-            ) : (
+          {user ? (
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button className="avatar-btn" aria-label={`Open ${user.displayName ?? 'account'} menu`} title="Open account menu">
+                  {user.photoURL ? (
+                    <img src={user.photoURL} alt={user.displayName ?? ''} className="w-full h-full object-cover" />
+                  ) : (
+                    <span className="avatar-initial">{user.displayName?.charAt(0) ?? '?'}</span>
+                  )}
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent side="bottom" align="end" sideOffset={10} className="account-menu">
+                <DropdownMenuLabel className="account-menu-label">
+                  <span className="account-menu-name">{user.displayName ?? 'Scholar'}</span>
+                  <span className="account-menu-email">{user.email ?? 'Your CrossNotes account'}</span>
+                </DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem asChild className="account-menu-item account-progress-item">
+                  <Link href="/progress"><BarChart3 size={17} /> <span>Progress</span></Link>
+                </DropdownMenuItem>
+                <DropdownMenuSub>
+                  <DropdownMenuSubTrigger className="account-menu-item account-settings-trigger">
+                    <Settings2 size={17} /> <span>Settings</span>
+                  </DropdownMenuSubTrigger>
+                  <DropdownMenuSubContent className="account-settings-menu" sideOffset={10} alignOffset={-6}>
+                    <DropdownMenuLabel className="account-settings-heading">Quick settings</DropdownMenuLabel>
+                    <DropdownMenuItem className="account-setting-toggle" onSelect={toggleDark}>
+                      {isDark ? <Sun size={16} /> : <Moon size={16} />}
+                      <span>{isDark ? 'Use light appearance' : 'Use dark appearance'}</span>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem className="account-setting-toggle" onSelect={toggleSound}>
+                      {soundOn ? <Volume2 size={16} /> : <VolumeX size={16} />}
+                      <span>{soundOn ? 'Sound effects on' : 'Sound effects off'}</span>
+                    </DropdownMenuItem>
+                  </DropdownMenuSubContent>
+                </DropdownMenuSub>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem className="account-menu-item account-signout-item" onSelect={handleSignOut}>
+                  <LogOut size={17} /> <span>Sign out</span>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          ) : (
+            <button onClick={signInWithGoogle} className="avatar-btn" title="Sign in with Google" aria-label="Sign in with Google">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M15 3H19a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H15" /><polyline points="10 17 15 12 10 7" /><line x1="15" y1="12" x2="3" y2="12" />
               </svg>
-            )}
-          </button>
+            </button>
+          )}
         </div>
       </header>
 

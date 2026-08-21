@@ -1,11 +1,11 @@
-import { Home, BookOpen, BarChart2, Trophy, ShieldCheck } from 'lucide-react';
+/** Claymorphic persistent navigation keeps primary study routes visible; Progress is accessed from the account menu. */
+import { Home, BookOpen, Trophy, ShieldCheck } from 'lucide-react';
 import { Link, useLocation } from 'wouter';
 
 const TABS = [
   { path: '/',            label: 'Home',     Icon: Home       },
   { path: '/subjects',   label: 'Study',    Icon: BookOpen    },
   { path: '/vault',      label: 'Vault',    Icon: ShieldCheck },
-  { path: '/progress',  label: 'Progress', Icon: BarChart2   },
   { path: '/leaderboard', label: 'Ranks',  Icon: Trophy      },
 ];
 

@@ -7,6 +7,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useUserProgress } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapters, type StaticChapter } from '@/hooks/useContent';
 import AppHeader from '@/components/AppHeader';
+import { isImportedSolution } from '@/lib/importedSolutions';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
 
@@ -102,7 +103,7 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
   const { progress } = useUserProgress(uid, chapter.id);
   const status = chapterStatus(progress);
   const hasContent = chapter.notes.length > 0 || chapter.flashcards.length > 0 || chapter.quiz.length > 0;
-  const solutionCount = chapter.notes.filter(note => note.type === 'markdown').length;
+  const solutionCount = chapter.notes.filter(isImportedSolution).length;
   const hasFlashcards = chapter.flashcards.length > 0;
   const hasQuiz = chapter.quiz.length > 0;
   const [showOverview, setShowOverview] = useState(false);
@@ -217,7 +218,7 @@ export default function Subject() {
   }
 
   const colorKey = subject.color || 'violet';
-  const solutionSetCount = chapters.reduce((count, chapter) => count + chapter.notes.filter(note => note.type === 'markdown').length, 0);
+  const solutionSetCount = chapters.reduce((count, chapter) => count + chapter.notes.filter(isImportedSolution).length, 0);
 
   return (
     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>

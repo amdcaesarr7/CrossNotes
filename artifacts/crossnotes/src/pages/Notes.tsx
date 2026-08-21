@@ -8,6 +8,7 @@ import { markNotesRead } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticNotes } from '@/hooks/useContent';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import NoteBlockRenderer from '@/components/NoteBlockRenderer';
+import { isImportedSolution } from '@/lib/importedSolutions';
 import AppHeader from '@/components/AppHeader';
 import '../crossnotes.css';
 
@@ -53,7 +54,7 @@ export default function Notes() {
   };
 
   const isPaper = chapter?.kind === 'paper';
-  const isSolutionLibrary = notes.some(note => note.type === 'markdown');
+  const isSolutionLibrary = notes.some(isImportedSolution);
   const hasFlashcards = (chapter?.flashcards.length ?? 0) > 0;
   const hasQuiz = (chapter?.quiz.length ?? 0) > 0;
   const subtypesPresent = Array.from(new Set(notes.map(n => n.type).filter((t): t is Exclude<typeof t, undefined> => !!t && t in SUBTYPE_META)));

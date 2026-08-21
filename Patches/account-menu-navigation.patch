@@ -1,0 +1,349 @@
+From 147f527e76aee3402eaba1a6056dd7c07a4f923a Mon Sep 17 00:00:00 2001
+From: Caesar <caesar.anwarr791@gmail.com>
+Date: Fri, 21 Aug 2026 11:08:33 +0000
+Subject: [PATCH] Move progress into account menu
+
+---
+ .../crossnotes/src/components/AppHeader.tsx   | 123 +++++++++++++++---
+ .../crossnotes/src/components/BottomNav.tsx   |   3 +-
+ artifacts/crossnotes/src/crossnotes.css       | 113 +++++++++++++++-
+ artifacts/crossnotes/src/lib/notifications.ts |   2 -
+ 4 files changed, 214 insertions(+), 27 deletions(-)
+
+diff --git a/artifacts/crossnotes/src/components/AppHeader.tsx b/artifacts/crossnotes/src/components/AppHeader.tsx
+index f483992..43a58eb 100644
+--- a/artifacts/crossnotes/src/components/AppHeader.tsx
++++ b/artifacts/crossnotes/src/components/AppHeader.tsx
+@@ -1,4 +1,4 @@
+-import { useEffect, useState } from 'react';
++import { useEffect, useRef, useState } from 'react';
+ import { Link } from 'wouter';
+ import {
+   BookOpen,
+@@ -15,6 +15,11 @@ import {
+   Send,
+   CheckCircle2,
+   Sparkles,
++  BarChart3,
++  Settings2,
++  ChevronDown,
++  LogOut,
++  UserRound,
+ } from 'lucide-react';
+ import { toast } from 'sonner';
+ import { useAuth } from '@/contexts/AuthContext';
+@@ -50,15 +55,43 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
+   const [feedbackKind, setFeedbackKind] = useState<FeedbackKind>('idea');
+   const [message, setMessage] = useState('');
+   const [submitted, setSubmitted] = useState(false);
++  const [accountOpen, setAccountOpen] = useState(false);
++  const [settingsOpen, setSettingsOpen] = useState(false);
++  const accountMenuRef = useRef<HTMLDivElement>(null);
++
++  const closeAccountMenu = () => {
++    setAccountOpen(false);
++    setSettingsOpen(false);
++  };
+ 
+   const handleAvatar = () => {
+-    if (user) {
+-      if (window.confirm(`Signed in as ${user.displayName}.\n\nSign out?`)) logout();
+-    } else {
++    if (!user) {
+       signInWithGoogle();
++      return;
+     }
++    setAccountOpen((open) => !open);
+   };
+ 
++  useEffect(() => {
++    if (!accountOpen) return;
++
++    const onPointerDown = (event: MouseEvent) => {
++      if (accountMenuRef.current && !accountMenuRef.current.contains(event.target as Node)) {
++        closeAccountMenu();
++      }
++    };
++    const onKeyDown = (event: KeyboardEvent) => {
++      if (event.key === 'Escape') closeAccountMenu();
++    };
++
++    document.addEventListener('mousedown', onPointerDown);
++    document.addEventListener('keydown', onKeyDown);
++    return () => {
++      document.removeEventListener('mousedown', onPointerDown);
++      document.removeEventListener('keydown', onKeyDown);
++    };
++  }, [accountOpen]);
++
+   useEffect(() => {
+     if (!feedbackOpen) return;
+     const onKeyDown = (event: KeyboardEvent) => {
+@@ -139,23 +172,73 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
+             <MessageSquareText size={17} />
+             <span className="hidden sm:inline">Feedback</span>
+           </button>
+-          <button onClick={toggleSound} className="app-header-icon-btn" aria-label={soundOn ? 'Mute sound effects' : 'Unmute sound effects'} title={soundOn ? 'Sound on' : 'Sound off'}>
+-            {soundOn ? <Volume2 size={18} /> : <VolumeX size={18} />}
+-          </button>
+-          <button onClick={toggleDark} className="app-header-icon-btn" aria-label={isDark ? 'Light mode' : 'Dark mode'}>
+-            {isDark ? <Sun size={18} /> : <Moon size={18} />}
+-          </button>
+-          <button onClick={handleAvatar} className="avatar-btn" title={user ? `${user.displayName} — tap to sign out` : 'Sign in with Google'}>
+-            {user?.photoURL ? (
+-              <img src={user.photoURL} alt={user.displayName ?? ''} className="w-full h-full object-cover" />
+-            ) : user ? (
+-              <span className="avatar-initial">{user.displayName?.charAt(0) ?? '?'}</span>
+-            ) : (
+-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+-                <path d="M15 3H19a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H15" /><polyline points="10 17 15 12 10 7" /><line x1="15" y1="12" x2="3" y2="12" />
+-              </svg>
++          <div className="account-menu-wrap" ref={accountMenuRef}>
++            <button
++              onClick={handleAvatar}
++              className="avatar-btn"
++              aria-label={user ? 'Open account menu' : 'Sign in with Google'}
++              aria-haspopup={user ? 'menu' : undefined}
++              aria-expanded={user ? accountOpen : undefined}
++              title={user ? `${user.displayName} — account menu` : 'Sign in with Google'}
++            >
++              {user?.photoURL ? (
++                <img src={user.photoURL} alt={user.displayName ?? ''} className="w-full h-full object-cover" />
++              ) : user ? (
++                <span className="avatar-initial">{user.displayName?.charAt(0) ?? '?'}</span>
++              ) : (
++                <UserRound size={17} />
++              )}
++            </button>
++
++            {user && accountOpen && (
++              <div className="account-menu" role="menu" aria-label="Account menu">
++                <div className="account-menu-profile">
++                  <span className="account-menu-profile-icon"><UserRound size={16} /></span>
++                  <span>
++                    <strong>{user.displayName || 'CrossNotes learner'}</strong>
++                    <small>{user.email || 'Your study space'}</small>
++                  </span>
++                </div>
++
++                <Link href="/progress" className="account-menu-item" onClick={closeAccountMenu}>
++                  <BarChart3 size={17} />
++                  <span>Progress</span>
++                </Link>
++
++                <button
++                  type="button"
++                  className={`account-menu-item account-menu-settings${settingsOpen ? ' expanded' : ''}`}
++                  onClick={() => setSettingsOpen((open) => !open)}
++                  aria-expanded={settingsOpen}
++                >
++                  <Settings2 size={17} />
++                  <span>Settings</span>
++                  <ChevronDown size={15} className="account-menu-chevron" />
++                </button>
++
++                {settingsOpen && (
++                  <div className="account-settings-panel">
++                    <button type="button" className="account-setting-toggle" onClick={toggleDark}>
++                      <span className="account-setting-icon">{isDark ? <Sun size={15} /> : <Moon size={15} />}</span>
++                      <span><strong>Appearance</strong><small>{isDark ? 'Dark mode on' : 'Light mode on'}</small></span>
++                      <em>{isDark ? 'Light' : 'Dark'}</em>
++                    </button>
++                    <button type="button" className="account-setting-toggle" onClick={toggleSound}>
++                      <span className="account-setting-icon">{soundOn ? <Volume2 size={15} /> : <VolumeX size={15} />}</span>
++                      <span><strong>Study sounds</strong><small>{soundOn ? 'Sounds are on' : 'Sounds are off'}</small></span>
++                      <em>{soundOn ? 'On' : 'Off'}</em>
++                    </button>
++                  </div>
++                )}
++
++                <div className="account-menu-divider" />
++                <button type="button" className="account-menu-item account-menu-logout" onClick={() => { closeAccountMenu(); logout(); }}>
++                  <LogOut size={17} />
++                  <span>Sign out</span>
++                </button>
++              </div>
+             )}
+-          </button>
++          </div>
+         </div>
+       </header>
+ 
+diff --git a/artifacts/crossnotes/src/components/BottomNav.tsx b/artifacts/crossnotes/src/components/BottomNav.tsx
+index 41ac4cc..ca95b0f 100644
+--- a/artifacts/crossnotes/src/components/BottomNav.tsx
++++ b/artifacts/crossnotes/src/components/BottomNav.tsx
+@@ -1,11 +1,10 @@
+-import { Home, BookOpen, BarChart2, Trophy, ShieldCheck } from 'lucide-react';
++import { Home, BookOpen, Trophy, ShieldCheck } from 'lucide-react';
+ import { Link, useLocation } from 'wouter';
+ 
+ const TABS = [
+   { path: '/',            label: 'Home',     Icon: Home       },
+   { path: '/subjects',   label: 'Study',    Icon: BookOpen    },
+   { path: '/vault',      label: 'Vault',    Icon: ShieldCheck },
+-  { path: '/progress',  label: 'Progress', Icon: BarChart2   },
+   { path: '/leaderboard', label: 'Ranks',  Icon: Trophy      },
+ ];
+ 
+diff --git a/artifacts/crossnotes/src/crossnotes.css b/artifacts/crossnotes/src/crossnotes.css
+index 418d612..d14a4d1 100644
+--- a/artifacts/crossnotes/src/crossnotes.css
++++ b/artifacts/crossnotes/src/crossnotes.css
+@@ -345,7 +345,113 @@ html, body {
+   transform: translateY(-2px);
+   box-shadow: 0 5px 0 var(--primary-shadow), 0 8px 20px rgba(139, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+ }
+-.avatar-initial { color: var(--primary); font-weight: 800; font-size: 15px; }
++.avatar-initial { color: #fff; font-weight: 800; font-size: 15px; }
++
++/* ─── ACCOUNT MENU — profile shortcuts in a raised clay popover ─── */
++.account-menu-wrap { position: relative; }
++.account-menu {
++  position: absolute;
++  top: calc(100% + 11px);
++  right: -2px;
++  z-index: 80;
++  width: min(300px, calc(100vw - 28px));
++  padding: 10px;
++  border-radius: 24px;
++  background: color-mix(in srgb, var(--bg-card) 94%, white);
++  box-shadow: 10px 12px 25px rgba(64, 46, 122, 0.16), -5px -5px 16px rgba(255, 255, 255, 0.82), inset 0 1px 0 rgba(255, 255, 255, 0.9);
++  animation: account-menu-rise 0.18s cubic-bezier(0.34, 1.56, 0.64, 1) both;
++}
++.dark-mode .account-menu {
++  background: color-mix(in srgb, var(--bg-card) 94%, #151026);
++  box-shadow: 10px 12px 25px rgba(0, 0, 0, 0.4), -3px -3px 10px rgba(255, 255, 255, 0.035), inset 0 1px 0 rgba(255, 255, 255, 0.05);
++}
++.account-menu-profile {
++  display: flex;
++  align-items: center;
++  gap: 10px;
++  padding: 8px 9px 13px;
++  color: var(--text);
++}
++.account-menu-profile-icon,
++.account-setting-icon {
++  display: inline-flex;
++  align-items: center;
++  justify-content: center;
++  flex: 0 0 auto;
++  border-radius: 12px;
++}
++.account-menu-profile-icon {
++  width: 32px;
++  height: 32px;
++  background: var(--violet-bg);
++  color: var(--violet-shadow);
++  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72), 0 2px 0 color-mix(in srgb, var(--violet-shadow) 20%, transparent);
++}
++.account-menu-profile > span:last-child { min-width: 0; display: grid; gap: 2px; }
++.account-menu-profile strong,
++.account-menu-profile small,
++.account-setting-toggle strong,
++.account-setting-toggle small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
++.account-menu-profile strong { font-size: 13px; font-weight: 850; }
++.account-menu-profile small { color: var(--text-muted); font-size: 11px; font-weight: 650; }
++.account-menu-item {
++  width: 100%;
++  min-height: 43px;
++  display: flex;
++  align-items: center;
++  gap: 10px;
++  padding: 0 11px;
++  border: 0;
++  border-radius: 15px;
++  background: transparent;
++  color: var(--text);
++  font-family: var(--font-body);
++  font-size: 13px;
++  font-weight: 800;
++  text-decoration: none;
++  text-align: left;
++  cursor: pointer;
++  transition: transform 0.15s, background 0.15s, color 0.15s;
++}
++.account-menu-item:hover { background: var(--bg-card-2); transform: translateX(-2px); }
++.account-menu-item:focus-visible,
++.account-setting-toggle:focus-visible { outline: 3px solid color-mix(in srgb, var(--primary) 35%, transparent); outline-offset: 2px; }
++.account-menu-settings .account-menu-chevron { margin-left: auto; transition: transform 0.18s ease; }
++.account-menu-settings.expanded .account-menu-chevron { transform: rotate(180deg); }
++.account-settings-panel {
++  display: grid;
++  gap: 6px;
++  margin: 2px 0 7px;
++  padding: 8px;
++  border-radius: 17px;
++  background: var(--bg-card-2);
++  box-shadow: inset 2px 2px 5px rgba(83, 61, 150, 0.08), inset -2px -2px 5px rgba(255, 255, 255, 0.72);
++}
++.account-setting-toggle {
++  min-width: 0;
++  display: grid;
++  grid-template-columns: 30px minmax(0, 1fr) auto;
++  align-items: center;
++  gap: 8px;
++  padding: 7px;
++  border: 0;
++  border-radius: 12px;
++  background: transparent;
++  color: var(--text);
++  font-family: var(--font-body);
++  text-align: left;
++  cursor: pointer;
++}
++.account-setting-toggle:hover { background: var(--bg-card); }
++.account-setting-icon { width: 30px; height: 30px; background: var(--bg-card); color: var(--primary); box-shadow: var(--shadow-ghost); }
++.account-setting-toggle > span:nth-child(2) { min-width: 0; display: grid; gap: 1px; }
++.account-setting-toggle strong { font-size: 11px; font-weight: 850; }
++.account-setting-toggle small { color: var(--text-muted); font-size: 10px; font-weight: 650; }
++.account-setting-toggle em { padding: 4px 6px; border-radius: var(--r-pill); background: var(--violet-bg); color: var(--violet-shadow); font-size: 10px; font-style: normal; font-weight: 850; }
++.account-menu-divider { height: 1px; margin: 6px 4px; background: color-mix(in srgb, var(--text-muted) 18%, transparent); }
++.account-menu-logout { color: var(--red); }
++.account-menu-logout:hover { background: var(--red-light); }
++@keyframes account-menu-rise { from { opacity: 0; transform: translateY(-7px) scale(0.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+ 
+ /* ─── BOTTOM NAV — floating clay pill ────────────────────────────── */
+ .bottom-nav {
+@@ -1406,6 +1512,7 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
+ @keyframes feedback-rise { from { opacity: 0; transform: translateY(15px) scale(0.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
+ @media (max-width: 520px) {
+   .feedback-launcher { width: 36px; padding: 0; }
++  .account-menu { right: -7px; top: calc(100% + 10px); }
+   .feedback-modal { padding: 28px 19px 21px; border-radius: 30px; }
+   .feedback-kind-grid { grid-template-columns: 1fr; gap: 8px; margin-top: 20px; }
+   .feedback-kind { min-height: 0; flex-direction: row; align-items: center; gap: 11px; padding: 11px; }
+@@ -1414,8 +1521,8 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
+   .feedback-privacy { max-width: 132px; }
+ }
+ @media (prefers-reduced-motion: reduce) {
+-  .feedback-overlay, .feedback-modal { animation: none; }
+-  .feedback-launcher, .feedback-kind, .feedback-close { transition: none; }
++  .feedback-overlay, .feedback-modal, .account-menu { animation: none; }
++  .feedback-launcher, .feedback-kind, .feedback-close, .account-menu-item, .account-menu-chevron { transition: none; }
+ }
+ 
+ /* ─── ADMIN FEEDBACK DESK ───────────────────────────────────────── */
+diff --git a/artifacts/crossnotes/src/lib/notifications.ts b/artifacts/crossnotes/src/lib/notifications.ts
+index f4c73dd..2a3f84d 100644
+--- a/artifacts/crossnotes/src/lib/notifications.ts
++++ b/artifacts/crossnotes/src/lib/notifications.ts
+@@ -96,7 +96,6 @@ export function maybeShowStudyReminder(studiedToday: boolean) {
+     new Notification('Mew is protecting your streak.', {
+       body: "It is getting late and today’s study session is still theoretical. Two minutes counts.",
+       tag: 'cn-streak-reminder',
+-      renotify: false,
+     });
+   } catch {
+     /* browser notifications are best-effort only */
+@@ -134,7 +133,6 @@ export function maybeShowMewAwayNotification(reason: MewNudgeReason) {
+     new Notification(copy.title, {
+       body: copy.body,
+       tag: `cn-mew-${reason}`,
+-      renotify: false,
+     });
+   } catch {
+     /* browser notifications are best-effort only */
+-- 
+2.43.0
+

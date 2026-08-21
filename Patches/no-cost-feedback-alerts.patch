@@ -1,0 +1,600 @@
+From 01c4a668a4964acca599c6b1cd485b3884897cb9 Mon Sep 17 00:00:00 2001
+From: Caesar <caesar.anwarr791@gmail.com>
+Date: Thu, 20 Aug 2026 17:31:20 +0000
+Subject: [PATCH] Add no-cost feedback email alerts
+
+---
+ .gitignore                                    |  12 +-
+ artifacts/crossnotes/.env.example             |   9 ++
+ artifacts/crossnotes/api/feedback-alert.ts    | 135 ++++++++++++++++++
+ artifacts/crossnotes/gmail-relay/Code.gs      |  70 +++++++++
+ artifacts/crossnotes/gmail-relay/README.md    |  24 ++++
+ .../crossnotes/gmail-relay/setup_status.md    |   9 ++
+ artifacts/crossnotes/src/lib/feedback.ts      |  17 +++
+ artifacts/crossnotes/src/pages/Notes.tsx      |   2 +-
+ no_cost_alert_options.md                      |  72 ++++++++++
+ no_cost_alerting_research.md                  |  68 +++++++++
+ pnpm-lock.yaml                                |  20 ++-
+ 11 files changed, 428 insertions(+), 10 deletions(-)
+ create mode 100644 artifacts/crossnotes/api/feedback-alert.ts
+ create mode 100644 artifacts/crossnotes/gmail-relay/Code.gs
+ create mode 100644 artifacts/crossnotes/gmail-relay/README.md
+ create mode 100644 artifacts/crossnotes/gmail-relay/setup_status.md
+ create mode 100644 no_cost_alert_options.md
+ create mode 100644 no_cost_alerting_research.md
+
+diff --git a/.gitignore b/.gitignore
+index 8664d4e..1ff1aa7 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -10,6 +10,10 @@ out-tsc
+ 
+ # dependencies
+ node_modules
++functions/lib/
++functions/.env
++functions/.env.*
++!functions/.env.example
+ 
+ # IDEs and editors
+ /.idea
+@@ -48,6 +52,8 @@ Thumbs.db
+ .cache/
+ .local/
+ 
+-# Local notification-service credentials
+-functions/.env
+-functions/.secret.local
++# Local notification credentials
++.gmail_relay_secret
++artifacts/crossnotes/.env
++artifacts/crossnotes/.env.*
++!artifacts/crossnotes/.env.example
+diff --git a/artifacts/crossnotes/.env.example b/artifacts/crossnotes/.env.example
+index c02aa7a..fc981d7 100644
+--- a/artifacts/crossnotes/.env.example
++++ b/artifacts/crossnotes/.env.example
+@@ -40,3 +40,12 @@ VITE_FIREBASE_APP_ID=your_app_id
+ #     }
+ #   }
+ # }
++
++# Server-only Vercel Function configuration. Never prefix these with VITE_ and never expose them in frontend code.
++# No-cost email delivery through the support.crossnotes@gmail.com Apps Script relay.
++GMAIL_RELAY_URL=
++GMAIL_RELAY_SECRET=
++NOTIFICATION_EMAIL_TO=caesar.anwarr91@gmail.com
++
++# Explicit production-origin allow-list (for example, https://cross-notes-crossnotes-i2u7.vercel.app).
++ALERT_ALLOWED_ORIGIN=
+diff --git a/artifacts/crossnotes/api/feedback-alert.ts b/artifacts/crossnotes/api/feedback-alert.ts
+new file mode 100644
+index 0000000..e0e786b
+--- /dev/null
++++ b/artifacts/crossnotes/api/feedback-alert.ts
+@@ -0,0 +1,135 @@
++declare const process: { env: Record<string, string | undefined> };
++
++type FeedbackKind = 'idea' | 'bug' | 'encouragement';
++
++type AlertFeedback = {
++  id?: unknown;
++  kind?: unknown;
++  message?: unknown;
++  userName?: unknown;
++  createdAt?: unknown;
++};
++
++const MAX_MESSAGE_LENGTH = 600;
++const REQUEST_FRESHNESS_MS = 5 * 60 * 1000;
++const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
++const RATE_LIMIT_MAX_REQUESTS = 6;
++const recentRequests = new Map<string, { startedAt: number; count: number }>();
++
++function readText(value: unknown): string {
++  return typeof value === 'string' ? value.trim() : '';
++}
++
++function isFeedbackKind(value: unknown): value is FeedbackKind {
++  return value === 'idea' || value === 'bug' || value === 'encouragement';
++}
++
++function allowedOrigin(request: { headers: Record<string, string | string[] | undefined> }): string | null {
++  const configuredOrigin = readText(process.env.ALERT_ALLOWED_ORIGIN);
++  const origin = readText(request.headers.origin);
++  const forwardedHost = readText(request.headers['x-forwarded-host']);
++  const host = forwardedHost || readText(request.headers.host);
++
++  if (configuredOrigin) return origin === configuredOrigin ? configuredOrigin : null;
++  if (host && origin === `https://${host}`) return origin;
++  if (host?.startsWith('localhost') && origin === `http://${host}`) return origin;
++  return null;
++}
++
++function requestIp(request: { headers: Record<string, string | string[] | undefined> }): string {
++  const forwarded = readText(request.headers['x-forwarded-for']);
++  if (forwarded) return forwarded.split(',')[0].trim();
++  return readText(request.headers['x-real-ip']) || 'unknown';
++}
++
++function withinRateLimit(ip: string): boolean {
++  const now = Date.now();
++  const current = recentRequests.get(ip);
++  const activeWindow = current && now - current.startedAt < RATE_LIMIT_WINDOW_MS;
++  const count = activeWindow ? current.count : 0;
++  if (count >= RATE_LIMIT_MAX_REQUESTS) return false;
++
++  recentRequests.set(ip, { startedAt: activeWindow ? current.startedAt : now, count: count + 1 });
++  return true;
++}
++
++function validFeedback(value: AlertFeedback): value is Required<Pick<AlertFeedback, 'kind' | 'message' | 'createdAt'>> & AlertFeedback {
++  const message = readText(value.message);
++  const submittedAt = new Date(readText(value.createdAt)).getTime();
++  return isFeedbackKind(value.kind)
++    && message.length > 0
++    && message.length <= MAX_MESSAGE_LENGTH
++    && Number.isFinite(submittedAt)
++    && Math.abs(Date.now() - submittedAt) <= REQUEST_FRESHNESS_MS;
++}
++
++function alertText(feedback: AlertFeedback): string {
++  const kind = isFeedbackKind(feedback.kind) ? feedback.kind : 'feedback';
++  const sender = readText(feedback.userName) || 'A CrossNotes learner';
++  const message = readText(feedback.message).slice(0, MAX_MESSAGE_LENGTH);
++  return `New CrossNotes ${kind} feedback from ${sender}:\n\n${message}\n\nReview it in the CrossNotes Feedback Desk.`;
++}
++
++export default async function handler(request: any, response: any) {
++  if (request.method !== 'POST') {
++    response.setHeader('Allow', 'POST');
++    response.status(405).json({ error: 'Method not allowed.' });
++    return;
++  }
++
++  const origin = allowedOrigin(request);
++  if (!origin) {
++    response.status(403).json({ error: 'This request origin is not allowed.' });
++    return;
++  }
++  response.setHeader('Access-Control-Allow-Origin', origin);
++  response.setHeader('Vary', 'Origin');
++
++  const feedback = request.body?.feedback as AlertFeedback | undefined;
++  if (!feedback || !validFeedback(feedback)) {
++    response.status(400).json({ error: 'A recent, valid feedback item is required.' });
++    return;
++  }
++  if (!withinRateLimit(requestIp(request))) {
++    response.status(429).json({ error: 'Too many feedback alerts requested. Please try again shortly.' });
++    return;
++  }
++
++  const relayUrl = readText(process.env.GMAIL_RELAY_URL);
++  const relaySecret = readText(process.env.GMAIL_RELAY_SECRET);
++  const emailTo = readText(process.env.NOTIFICATION_EMAIL_TO);
++  if (!relayUrl || !relaySecret || !emailTo) {
++    console.error('CrossNotes Gmail relay settings are incomplete.');
++    response.status(503).json({ error: 'Feedback was saved, but alerts are temporarily unavailable.' });
++    return;
++  }
++
++  try {
++    const relayResponse = await fetch(relayUrl, {
++      method: 'POST',
++      headers: { 'Content-Type': 'application/json' },
++      body: JSON.stringify({
++        secret: relaySecret,
++        to: emailTo,
++        subject: `New CrossNotes ${feedback.kind} feedback`,
++        text: alertText(feedback),
++      }),
++    });
++    const relayRawBody = await relayResponse.text();
++    let relayBody: { messageId?: string; error?: string } = {};
++    try {
++      relayBody = JSON.parse(relayRawBody) as { messageId?: string; error?: string };
++    } catch {
++      // Preserve a generic HTTP error if the relay cannot return a structured response.
++    }
++
++    if (!relayResponse.ok || relayBody.error) {
++      throw new Error(relayBody.error || `Gmail relay returned HTTP ${relayResponse.status}.`);
++    }
++
++    response.status(202).json({ status: 'accepted', delivery: 'email' });
++  } catch (error) {
++    console.error('CrossNotes feedback email alert failed.', error);
++    response.status(502).json({ error: 'Feedback was saved, but the email alert could not be delivered.' });
++  }
++}
+diff --git a/artifacts/crossnotes/gmail-relay/Code.gs b/artifacts/crossnotes/gmail-relay/Code.gs
+new file mode 100644
+index 0000000..222a4e4
+--- /dev/null
++++ b/artifacts/crossnotes/gmail-relay/Code.gs
+@@ -0,0 +1,70 @@
++/**
++ * CrossNotes Gmail Relay
++ *
++ * Deploy this Apps Script as a web app that executes as support.crossnotes@gmail.com.
++ * Store RELAY_SECRET and ALLOWED_RECIPIENT in Script Properties before deployment.
++ */
++
++const MAX_SUBJECT_LENGTH = 180;
++const MAX_BODY_LENGTH = 10000;
++
++function doGet() {
++  return jsonResponse({ ok: true, service: 'crossnotes-gmail-relay' });
++}
++
++function doPost(event) {
++  try {
++    const payload = JSON.parse(event && event.postData && event.postData.contents || '{}');
++    const properties = PropertiesService.getScriptProperties();
++    const expectedSecret = String(properties.getProperty('RELAY_SECRET') || '');
++    const allowedRecipient = String(properties.getProperty('ALLOWED_RECIPIENT') || '').trim().toLowerCase();
++    const suppliedSecret = String(payload.secret || '');
++    const recipient = String(payload.to || '').trim().toLowerCase();
++    const subject = String(payload.subject || '').trim();
++    const text = String(payload.text || '').trim();
++
++    if (!expectedSecret || !allowedRecipient) {
++      throw new Error('Relay configuration is incomplete.');
++    }
++    if (!safeEquals(suppliedSecret, expectedSecret)) {
++      return jsonResponse({ ok: false, error: 'Unauthorized relay request.' });
++    }
++    if (recipient !== allowedRecipient) {
++      return jsonResponse({ ok: false, error: 'Recipient is not permitted.' });
++    }
++    if (!subject || !text || subject.length > MAX_SUBJECT_LENGTH || text.length > MAX_BODY_LENGTH) {
++      return jsonResponse({ ok: false, error: 'Invalid email payload.' });
++    }
++    if (MailApp.getRemainingDailyQuota() < 1) {
++      return jsonResponse({ ok: false, error: 'Gmail relay daily quota is exhausted.' });
++    }
++
++    const messageId = MailApp.sendEmail({
++      to: recipient,
++      subject,
++      body: text,
++      name: 'CrossNotes Support',
++      replyTo: 'support.crossnotes@gmail.com',
++    });
++
++    return jsonResponse({ ok: true, messageId: String(messageId || '') });
++  } catch (error) {
++    console.error(error);
++    return jsonResponse({ ok: false, error: 'Gmail relay delivery failed.' });
++  }
++}
++
++function jsonResponse(payload) {
++  return ContentService
++    .createTextOutput(JSON.stringify(payload))
++    .setMimeType(ContentService.MimeType.JSON);
++}
++
++function safeEquals(left, right) {
++  if (left.length !== right.length) return false;
++  let mismatch = 0;
++  for (let index = 0; index < left.length; index += 1) {
++    mismatch |= left.charCodeAt(index) ^ right.charCodeAt(index);
++  }
++  return mismatch === 0;
++}
+diff --git a/artifacts/crossnotes/gmail-relay/README.md b/artifacts/crossnotes/gmail-relay/README.md
+new file mode 100644
+index 0000000..95fb997
+--- /dev/null
++++ b/artifacts/crossnotes/gmail-relay/README.md
+@@ -0,0 +1,24 @@
++# CrossNotes Gmail Relay
++
++This Google Apps Script relay lets the Vercel feedback-alert endpoint send message alerts through `support.crossnotes@gmail.com` without a paid Firebase Function or an email-provider domain.
++
++## Secure setup
++
++Create a standalone Google Apps Script project while signed in as `support.crossnotes@gmail.com`, replace its default file with `Code.gs`, and set these **Script Properties** before deployment:
++
++| Property | Value |
++| --- | --- |
++| `RELAY_SECRET` | A long random value known only to the Vercel production environment and this script. |
++| `ALLOWED_RECIPIENT` | `caesar.anwarr91@gmail.com` |
++
++Deploy the script through **Deploy → New deployment → Web app**. Configure it to execute as **Me** and grant access only at the minimum level that allows the Vercel server to invoke the endpoint. The script never belongs in frontend code, and its URL or secret must not be embedded in the client application.
++
++Copy the `/exec` web-app URL into the Vercel environment variable `GMAIL_RELAY_URL`, and copy the identical random value into `GMAIL_RELAY_SECRET`. The Vercel endpoint sends only to the fixed `ALLOWED_RECIPIENT`; the relay rejects all other recipients.
++
++## Authorization
++
++The first deployment will request permission to send email through the Gmail account. This is expected: the relay uses Apps Script `MailApp` to send the feedback notification. Review the authorization prompt before allowing it. The Google account’s documented consumer quota is 100 email recipients per day; check the Google Apps Script quota documentation if usage rises.
++
++## Behavior
++
++The relay validates a shared secret, allows only the designated recipient, enforces modest subject/body limits, checks remaining Gmail quota, and returns a JSON result to Vercel. The Vercel endpoint records `notification.delivery = "email"` in the related Firestore feedback record only after the relay accepts the send.
+diff --git a/artifacts/crossnotes/gmail-relay/setup_status.md b/artifacts/crossnotes/gmail-relay/setup_status.md
+new file mode 100644
+index 0000000..6d0c107
+--- /dev/null
++++ b/artifacts/crossnotes/gmail-relay/setup_status.md
+@@ -0,0 +1,9 @@
++# Gmail relay setup status
++
++The Google Apps Script project **CrossNotes Gmail Relay** was created under **support.crossnotes@gmail.com**.
++
++- Apps Script project ID: `1Z76Sa9rgb31od4Jj6BXQLIyPmGYY5aZ2VOr7LFlsdZAAniqmyBsyBi6m`
++- Source: `Code.gs` was inserted into the project.
++- Remaining setup: set `RELAY_SECRET` and `ALLOWED_RECIPIENT` script properties, deploy as a web app, and approve the Gmail-send OAuth scope.
++
++The corrected `Code.gs` now validates in the Apps Script editor: the selectable function changed to `doGet`, confirming that the syntax error was removed. The official web-app deployment URL remains unchanged, but a fresh deployment version is still required after the source/runtime changes. The two required script properties are `RELAY_SECRET` and `ALLOWED_RECIPIENT`; the settings UI presents an **Add script property** control below the visible general-settings area.
+diff --git a/artifacts/crossnotes/src/lib/feedback.ts b/artifacts/crossnotes/src/lib/feedback.ts
+index cc675aa..84f0223 100644
+--- a/artifacts/crossnotes/src/lib/feedback.ts
++++ b/artifacts/crossnotes/src/lib/feedback.ts
+@@ -50,6 +50,22 @@ function makeClientId() {
+   return `feedback-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+ }
+ 
++async function requestFeedbackAlert(feedback: Pick<FeedbackItem, 'id' | 'kind' | 'message' | 'userName' | 'createdAt'>) {
++  try {
++    const response = await fetch('/api/feedback-alert', {
++      method: 'POST',
++      headers: { 'Content-Type': 'application/json' },
++      body: JSON.stringify({ feedback }),
++    });
++
++    if (!response.ok) {
++      console.info('Feedback alert was not accepted; the feedback record remains safely stored.');
++    }
++  } catch {
++    // Notification delivery is deliberately best-effort; it must never interrupt the feedback experience.
++  }
++}
++
+ function normalizeFeedback(item: Partial<FeedbackItem> & { id?: string }): FeedbackItem {
+   const clientId = typeof item.clientId === 'string' && item.clientId ? item.clientId : item.id ?? makeClientId();
+   return {
+@@ -144,6 +160,7 @@ export async function submitFeedback(submission: FeedbackSubmission): Promise<Fe
+ 
+     const syncedItem = { ...queuedItem, id: remote.id, source: 'firestore' as const };
+     replaceLocalItem(syncedItem);
++    void requestFeedbackAlert(syncedItem);
+     return syncedItem;
+   } catch {
+     // The queue remains visible locally and can still be reviewed from this browser.
+diff --git a/artifacts/crossnotes/src/pages/Notes.tsx b/artifacts/crossnotes/src/pages/Notes.tsx
+index 84e2eb6..ae1d310 100644
+--- a/artifacts/crossnotes/src/pages/Notes.tsx
++++ b/artifacts/crossnotes/src/pages/Notes.tsx
+@@ -53,7 +53,7 @@ export default function Notes() {
+   };
+ 
+   const isPaper = chapter?.kind === 'paper';
+-  const subtypesPresent = Array.from(new Set(notes.map(n => n.type).filter((t): t is string => !!t && t in SUBTYPE_META)));
++  const subtypesPresent = Array.from(new Set(notes.map(n => n.type).filter((t): t is Exclude<typeof t, undefined> => !!t && t in SUBTYPE_META)));
+ 
+   return (
+     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>
+diff --git a/no_cost_alert_options.md b/no_cost_alert_options.md
+new file mode 100644
+index 0000000..fed5550
+--- /dev/null
++++ b/no_cost_alert_options.md
+@@ -0,0 +1,72 @@
++# No-Cost Alert Options for CrossNotes Feedback
++
++## Decision summary
++
++The existing feedback form, real-time Firestore sync, admin desk, and analytics can remain exactly as they are on Firebase’s no-cost Spark plan. The blocked component is only the Firestore-triggered notification function: Firebase permits local emulation on any plan, but requires the Blaze plan to deploy Cloud Functions.[1] The practical no-cost replacement is to move **submission-time notification delivery** to the already Vercel-hosted CrossNotes app, while keeping Firestore as the feedback system of record.
++
++> **Important Instagram constraint:** An automated Instagram alert cannot be guaranteed for every feedback item on any plan. Meta requires the recipient to message `@crossnotes.fr` first, exposes the recipient’s IGSID only through the inbound webhook, and permits the app to respond for 24 hours after that message.[2] This is a platform rule, not a Firebase limitation.
++
++| Option | What it delivers | Ongoing cost | Main conditions | Fit for CrossNotes |
++| --- | --- | ---: | --- | --- |
++| **A. Vercel endpoint + Resend Free** | Immediate email for every valid feedback submission; Instagram only if Meta’s 24-hour eligibility exists | $0 within free allowances | Resend key, a verified sender, Vercel server-side environment variables, request validation and rate limit | **Best overall** |
++| **B. Vercel endpoint + Apps Script/Gmail relay** | Immediate email from `support.crossnotes@gmail.com`; optional Meta DM under the same 24-hour rule | $0 within Gmail quota | Protected Apps Script endpoint; service account owner authorization; server-side secret | **Best if you want the existing Gmail address** |
++| **C. Vercel endpoint + Brevo Free** | Immediate email, with a higher daily free limit | $0 within free allowance | Brevo API key and sender verification; branded free-plan messages | Good alternative if volume grows |
++| **D. Email-only immediate notification** | Reliable email, no automatic Instagram dependency | $0 | Choose A, B, or C | **Safest simple route** |
++| **E. Vercel daily poll** | A daily digest only | $0 | Cannot be real-time; Hobby cron runs at most once/day | Not recommended for alerts |
++| **F. Wait for Firebase upgrade** | Original Firestore-triggered DM-first design | Not no-cost plan; usage may remain within free quotas after upgrade | Billing account and secrets | Defer until affordable |
++
++## Option A — Vercel endpoint with Resend Free
++
++CrossNotes can add a protected Vercel serverless endpoint, for example `/api/feedback-alert`. The existing feedback submit flow would call this endpoint **after** successfully writing the feedback record to Firestore. The server—not the browser—would hold the Resend API key, format the alert, and send it to `caesar.anwarr91@gmail.com`. The endpoint would reject unauthenticated or malformed requests and rate-limit submissions to prevent quota abuse.
++
++Vercel’s Hobby tier currently includes one million function invocations and four active CPU hours per month for personal, non-commercial projects.[3] Vercel explicitly recommends email providers’ HTTP APIs rather than SMTP in serverless functions, and says provider credentials must remain server-side.[4] Resend’s Free plan currently allows 3,000 emails per month, capped at 100 per day.[5]
++
++This route can also host the Meta webhook at `/api/instagram-webhook`. If `@caesar.anwar` messages `@crossnotes.fr`, the webhook can record the IGSID and allow a DM attempt only while Meta’s response window remains open. If there is no eligible conversation—or Meta rejects the message—the endpoint sends email instead. This preserves the user’s DM-first preference where Meta permits it, without promising a delivery Meta forbids.[2]
++
++| Strengths | Limitations |
++| --- | --- |
++| Immediate alert, good delivery diagnostics, clean HTTP architecture | Requires a Resend account, API key, and verified sender identity |
++| No Firebase billing upgrade | Cannot ensure Instagram delivery outside Meta’s 24-hour window |
++| Uses the existing Vercel deployment path | Vercel Hobby is intended for personal/non-commercial use |
++
++## Option B — Vercel endpoint with the existing Gmail account
++
++A Google Apps Script web app can receive a server-to-server request from the Vercel endpoint and send email through `MailApp` as `support.crossnotes@gmail.com`. Google documents that a web app can process POST requests through `doPost`, and Apps Script can execute as the deployer.[6] A consumer Gmail account may send up to 100 recipient emails per day through Apps Script; a Workspace account has a substantially higher documented quota.[7]
++
++This is the only no-cost route that naturally sends from the existing Gmail account without buying or verifying a custom email domain. The weak point is operational: the Apps Script URL cannot safely be called from browser code, since that would expose its shared secret. The Vercel endpoint must be the only caller, and it must authenticate each request. Apps Script also offers less provider-side delivery visibility than a transactional-email service.
++
++| Strengths | Limitations |
++| --- | --- |
++| Uses `support.crossnotes@gmail.com` directly | Requires an additional relay and careful shared-secret handling |
++| No separate email-provider subscription | Fewer delivery logs and lower resilience than a transactional provider |
++| Sufficient for a small feedback volume | Same Meta eligibility limitation for Instagram |
++
++## Option C — Vercel endpoint with Brevo Free
++
++Brevo’s no-cost plan allows 300 email sends per day but places a Brevo badge on messages, and it does not include Instagram DMs.[8] It is useful if feedback volume could exceed Resend’s 100-email daily cap and the branding is acceptable. It still uses exactly the same Vercel endpoint design and still requires a server-side API key and sender validation.
++
++## What should not be used
++
++A browser-only solution is not safe: it would disclose the email or Meta credential to every visitor. A Vercel Hobby cron job is also unsuitable for feedback alerts, because it can run only once daily and has imprecise timing on the free plan.[9] Finally, no solution should scrape Instagram or automate the Instagram website with a password; the official Meta API is the appropriate path and still imposes the conversation window.[2]
++
++## Recommendation
++
++Choose **Option A: Vercel endpoint + Resend Free**, with **email as the guaranteed alert channel** and **Instagram as a conditional second channel** when an eligible `@crossnotes.fr` conversation exists. It is the cleanest architecture, works at feedback-submission time, preserves your existing app, and avoids Firebase billing.
++
++If using the `support.crossnotes@gmail.com` sender is more important than email-provider diagnostics, choose **Option B** instead. I would not recommend polling, browser-based credentials, or treating Instagram as the primary guaranteed alert channel.
++
++## Required next inputs
++
++The implementation can be completed after you choose **A** or **B**. For A, create a free Resend account, verify an approved sender, and securely add the generated API key to Vercel’s production environment settings. For B, authorize a Google Apps Script web app under `support.crossnotes@gmail.com`; its deployed endpoint will be protected behind a server-held secret. In both cases, the Meta token and webhook configuration can be added later to enable conditional Instagram delivery.
++
++## References
++
++[1]: https://firebase.google.com/docs/functions/get-started "Firebase — Get started: write, test, and deploy your first functions"
++[2]: https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api "Meta for Developers — Send Messages"
++[3]: https://vercel.com/docs/plans/hobby "Vercel — Hobby Plan"
++[4]: https://vercel.com/kb/guide/sending-emails-from-an-application-on-vercel "Vercel — Sending Emails from an application on Vercel"
++[5]: https://resend.com/pricing "Resend — Pricing"
++[6]: https://developers.google.com/apps-script/guides/web "Google — Apps Script Web Apps"
++[7]: https://developers.google.com/apps-script/guides/services/quotas "Google — Apps Script quotas"
++[8]: https://help.brevo.com/hc/en-us/articles/208580669-FAQs-What-are-the-limits-of-the-Free-plan "Brevo — Free plan limits"
++[9]: https://vercel.com/docs/cron-jobs/usage-and-pricing "Vercel — Cron Jobs usage and pricing"
+diff --git a/no_cost_alerting_research.md b/no_cost_alerting_research.md
+new file mode 100644
+index 0000000..8f01c4d
+--- /dev/null
++++ b/no_cost_alerting_research.md
+@@ -0,0 +1,68 @@
++# Verified constraints for no-cost feedback alerts
++
++## Firebase
++
++Firebase’s official Cloud Functions guide states that functions can be emulated in any Firebase project but require the Blaze pricing plan for deployment. The official pricing-plan documentation likewise lists Cloud Functions access under Blaze and confirms that Spark projects cannot make new deployments of Cloud Functions.
++
++Implication for CrossNotes: the existing Firestore-triggered Instagram-first/email-fallback function cannot be deployed while `crossnotes-6767` remains on Spark. The app’s existing Firestore feedback flow can remain on its present free quota.
++
++Sources:
++
++1. Firebase, “Get started: write, test, and deploy your first functions” — https://firebase.google.com/docs/functions/get-started
++2. Firebase, “Firebase pricing plans” — https://firebase.google.com/docs/projects/billing/firebase-pricing-plans
++
++## Vercel Hobby
++
++Vercel’s official Hobby-plan documentation lists 1,000,000 function invocations and 4 active CPU hours per month at no cost for personal, non-commercial projects. Its email guidance confirms that a Vercel Function can send email through a provider HTTP API; it advises retaining credentials on the server, awaiting each send, and rate-limiting public endpoints. A Vercel Function can be invoked synchronously by the CrossNotes feedback form, which makes an immediate email alert technically feasible without Firebase Functions.
++
++Vercel’s free cron option is not suitable for near-real-time fallback polling: it is limited to one execution per day and can be late by up to 59 minutes.
++
++Implication for CrossNotes: a Vercel API endpoint can provide immediate email notification at submission time if the deployment qualifies as a personal/non-commercial Hobby project, but it cannot provide a reliable automated Instagram notification without a Meta access token, an eligible IGSID, and the platform messaging window. It must include origin/authentication validation and rate limiting to prevent abuse.
++
++Sources:
++
++3. Vercel, “Vercel Hobby Plan” — https://vercel.com/docs/plans/hobby
++4. Vercel, “Sending Emails from an application on Vercel” — https://vercel.com/kb/guide/sending-emails-from-an-application-on-vercel
++5. Vercel, “Usage & Pricing for Cron Jobs” — https://vercel.com/docs/cron-jobs/usage-and-pricing
++
++## Transactional email providers
++
++For an immediate Vercel-based email endpoint, several providers offer zero-cost allowances:
++
++| Provider | Free allowance | Important limitation |
++| --- | --- | --- |
++| Resend | 3,000 emails/month, 100/day | Requires API key and a verified sender/domain for professional delivery. |
++| Brevo | 300 emails/day | Adds a “Sent with Brevo” badge on the free plan. Its free plan does not include Instagram DMs. |
++| MailerSend | 500 emails/month, 100/day | Account approval and one verified sending domain are required. |
++
++Implication for CrossNotes: **Resend plus a protected Vercel endpoint** is the simplest no-cost email route for expected low feedback volume. Brevo is a viable choice if the higher daily allowance matters more than unbranded presentation.
++
++Sources:
++
++6. Resend, “Pricing” — https://resend.com/pricing
++7. Brevo, “FAQs - What are the limits of the Free plan?” — https://help.brevo.com/hc/en-us/articles/208580669-FAQs-What-are-the-limits-of-the-Free-plan
++8. MailerSend, “Plans, features and limits” — https://www.mailersend.com/help/plans-features-and-limits
++
++## Instagram messaging
++
++Meta’s official Instagram Messaging documentation confirms that an Instagram user must initiate a conversation with the professional account before the app can send a message, and the app has only 24 hours to respond. The recipient identifier is an Instagram-scoped ID supplied through an incoming messaging webhook; a public handle cannot be substituted. The official webhook documentation confirms that messaging events are delivered to a public HTTP endpoint, and that apps must meet permission/access and publishing requirements for full webhook coverage.
++
++Implication for CrossNotes: no free or paid service can lawfully guarantee an Instagram DM for every feedback submission. A no-cost Vercel HTTPS endpoint can host Meta’s verification and inbound-message webhook, capture the eligible recipient IGSID, and send a DM only when the recipient has messaged `@crossnotes.fr` within Meta’s permitted 24-hour response window. Email must remain the reliable primary/fallback notification channel.
++
++Sources:
++
++9. Meta for Developers, “Send Messages” — https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api
++10. Meta for Developers, “Webhooks for Instagram Messaging” — https://developers.facebook.com/documentation/business-messaging/instagram-messaging/webhooks
++11. Vercel, “Setting Up Webhooks” — https://vercel.com/docs/webhooks
++
++## Gmail through Google Apps Script
++
++Google Apps Script web apps can expose a `doPost` HTTP endpoint and execute as the script owner. Its MailApp service can send email without accessing the Gmail inbox. Google documents a daily quota of 100 recipient emails for consumer Gmail accounts and 1,500 for Google Workspace accounts.
++
++Implication for CrossNotes: the existing `support.crossnotes@gmail.com` account could serve as the sender through a protected Apps Script relay, avoiding an external email provider. However, its public web-app endpoint must be protected with a high-entropy shared secret and request validation; it has fewer delivery diagnostics and lower operational robustness than a dedicated transactional provider. Do not invoke it directly from public browser code because the shared secret would be exposed.
++
++Sources:
++
++12. Google, “Web Apps” — https://developers.google.com/apps-script/guides/web
++13. Google, “Quotas for Google Services” — https://developers.google.com/apps-script/guides/services/quotas
++14. Google, “Class MailApp” — https://developers.google.com/apps-script/reference/mail/mail-app
+diff --git a/pnpm-lock.yaml b/pnpm-lock.yaml
+index 218ca7a..45d8add 100644
+--- a/pnpm-lock.yaml
++++ b/pnpm-lock.yaml
+@@ -180,7 +180,7 @@ importers:
+         version: 2.8.6
+       drizzle-orm:
+         specifier: 'catalog:'
+-        version: 0.45.2(@types/pg@8.20.0)(pg@8.22.0)
++        version: 0.45.2(@opentelemetry/api@1.9.1)(@types/pg@8.20.0)(pg@8.22.0)
+       express:
+         specifier: ^5.2.1
+         version: 5.2.1
+@@ -431,10 +431,10 @@ importers:
+     dependencies:
+       drizzle-orm:
+         specifier: 'catalog:'
+-        version: 0.45.2(@types/pg@8.20.0)(pg@8.22.0)
++        version: 0.45.2(@opentelemetry/api@1.9.1)(@types/pg@8.20.0)(pg@8.22.0)
+       drizzle-zod:
+         specifier: ^0.8.3
+-        version: 0.8.3(drizzle-orm@0.45.2(@types/pg@8.20.0)(pg@8.22.0))(zod@3.25.76)
++        version: 0.8.3(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@types/pg@8.20.0)(pg@8.22.0))(zod@3.25.76)
+       pg:
+         specifier: ^8.22.0
+         version: 8.22.0
+@@ -825,6 +825,10 @@ packages:
+   '@jridgewell/trace-mapping@0.3.31':
+     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+ 
++  '@opentelemetry/api@1.9.1':
++    resolution: {integrity: sha512-gLyJlPHPZYdAk1JENA9LeHejZe1Ti77/pTeFm/nMXmQH/HFZlcS/O2XJB+L8fkbrNSqhdtlvjBVjxwUYanNH5Q==}
++    engines: {node: '>=8.0.0'}
++
+   '@orval/angular@8.18.0':
+     resolution: {integrity: sha512-H8g9BLSwtKVa9vh43PGq/y3n9ATYPP6nm9or9j7zJ9GuTxVYxsu/eLET5tC1dkYNjr0urUgmOSm1QVNex5ALUQ==}
+ 
+@@ -3691,6 +3695,9 @@ snapshots:
+       '@jridgewell/resolve-uri': 3.1.2
+       '@jridgewell/sourcemap-codec': 1.5.5
+ 
++  '@opentelemetry/api@1.9.1':
++    optional: true
++
+   '@orval/angular@8.18.0(typescript@5.9.3)':
+     dependencies:
+       '@orval/core': 8.18.0(typescript@5.9.3)
+@@ -4972,14 +4979,15 @@ snapshots:
+       esbuild: 0.27.3
+       tsx: 4.22.4
+ 
+-  drizzle-orm@0.45.2(@types/pg@8.20.0)(pg@8.22.0):
++  drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@types/pg@8.20.0)(pg@8.22.0):
+     optionalDependencies:
++      '@opentelemetry/api': 1.9.1
+       '@types/pg': 8.20.0
+       pg: 8.22.0
+ 
+-  drizzle-zod@0.8.3(drizzle-orm@0.45.2(@types/pg@8.20.0)(pg@8.22.0))(zod@3.25.76):
++  drizzle-zod@0.8.3(drizzle-orm@0.45.2(@opentelemetry/api@1.9.1)(@types/pg@8.20.0)(pg@8.22.0))(zod@3.25.76):
+     dependencies:
+-      drizzle-orm: 0.45.2(@types/pg@8.20.0)(pg@8.22.0)
++      drizzle-orm: 0.45.2(@opentelemetry/api@1.9.1)(@types/pg@8.20.0)(pg@8.22.0)
+       zod: 3.25.76
+ 
+   dunder-proto@1.0.1:
+-- 
+2.43.0
+

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Loader2, CheckCircle2, LayoutList, FileText, PenSquare, Shuffle, ToggleLeft, HelpCircle } from 'lucide-react';
+import { Loader2, CheckCircle2, LayoutList, FileText, PenSquare, Shuffle, ToggleLeft, HelpCircle, Sparkles, Target } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -53,6 +53,9 @@ export default function Notes() {
   };
 
   const isPaper = chapter?.kind === 'paper';
+  const isSolutionLibrary = notes.some(note => note.type === 'markdown');
+  const hasFlashcards = (chapter?.flashcards.length ?? 0) > 0;
+  const hasQuiz = (chapter?.quiz.length ?? 0) > 0;
   const subtypesPresent = Array.from(new Set(notes.map(n => n.type).filter((t): t is Exclude<typeof t, undefined> => !!t && t in SUBTYPE_META)));
 
   return (
@@ -68,7 +71,14 @@ export default function Notes() {
           <h1 className="font-display font-black text-xl leading-tight" style={{ color: 'var(--text)' }}>
             {chapter?.title ?? 'Loading…'}
           </h1>
-          {subtypesPresent.length > 0 && (
+                    {isSolutionLibrary ? (
+            <div className="solution-study-strip" aria-label={`${notes.length} worked solution sets`}>
+              <span className="solution-study-icon"><Sparkles size={15} /></span>
+              <span><strong>{notes.length}</strong> worked solution sets</span>
+              <span className="solution-study-divider" />
+              <span className="solution-study-meta"><Target size={13} /> Questions + methods</span>
+            </div>
+          ) : subtypesPresent.length > 0 && (
             <div className="subtype-tag-row">
               {subtypesPresent.map(t => {
                 const meta = SUBTYPE_META[t];
@@ -81,6 +91,7 @@ export default function Notes() {
               })}
             </div>
           )}
+
         </div>
 
         {loading ? (
@@ -101,20 +112,26 @@ export default function Notes() {
               <NoteBlockRenderer key={note.id} note={note} index={i} />
             ))}
 
-            {/* Next steps */}
-            <div className="clay-card p-4 flex flex-col gap-3">
-              <p className="font-display font-bold text-base" style={{ color: 'var(--text)' }}>{isPaper ? 'Reviewed the paper?' : 'Finished reading?'}</p>
-              <div className="flex gap-2">
-                <Link href={`/flashcards/${slug}/${chapterId}`} className="flex-1">
-                  <button className="clay-btn-ghost w-full text-sm py-2.5">🃏 Flashcards</button>
-                </Link>
-                <Link href={`/quiz/${slug}/${chapterId}`} className="flex-1">
-                  <button className="clay-btn w-full text-sm py-2.5 flex items-center gap-1.5 justify-center">
-                    <LayoutList size={15} /> Quiz
-                  </button>
-                </Link>
+            {/* Next steps — only show real study modes that actually contain content. */}
+            {(hasFlashcards || hasQuiz) && (
+              <div className="clay-card p-4 flex flex-col gap-3">
+                <p className="font-display font-bold text-base" style={{ color: 'var(--text)' }}>{isPaper ? 'Reviewed the paper?' : 'Ready for recall?'}</p>
+                <div className="flex gap-2">
+                  {hasFlashcards && (
+                    <Link href={`/flashcards/${slug}/${chapterId}`} className="flex-1">
+                      <button className="clay-btn-ghost w-full text-sm py-2.5">🃏 Flashcards</button>
+                    </Link>
+                  )}
+                  {hasQuiz && (
+                    <Link href={`/quiz/${slug}/${chapterId}`} className="flex-1">
+                      <button className="clay-btn w-full text-sm py-2.5 flex items-center gap-1.5 justify-center">
+                        <LayoutList size={15} /> Quiz
+                      </button>
+                    </Link>
+                  )}
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Mark as read — sticky */}
             <div className="sticky bottom-4">
@@ -127,8 +144,8 @@ export default function Notes() {
                 {marking
                   ? <Loader2 size={18} style={{ animation: 'spin 1s linear infinite' }} />
                   : marked
-                  ? <><CheckCircle2 size={18} /> Done! +10 XP earned</>
-                  : <><CheckCircle2 size={18} /> Mark as Read · +10 XP</>
+                  ? <><CheckCircle2 size={18} /> Locked in! +10 XP earned</>
+                  : <><CheckCircle2 size={18} /> {isSolutionLibrary ? 'Finish this solution set' : 'Mark as Read'} · +10 XP</>
                 }
               </button>
             </div>

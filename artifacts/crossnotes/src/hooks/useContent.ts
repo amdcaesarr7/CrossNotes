@@ -19,7 +19,7 @@ export type { SubjectMeta };
 // no discriminated-union boilerplate to fight with.
 export type NoteBlockType =
   | "paragraph" | "heading" | "list" | "table"
-  | "fill_blank" | "match_column" | "true_false" | "qna" | "rules" | "diagram";
+  | "fill_blank" | "match_column" | "true_false" | "qna" | "rules" | "diagram" | "markdown";
 
 /** One branch of a "diagram" block. Can also just be a plain string (shorthand
  *  for { label } with no sub-note). */
@@ -34,6 +34,7 @@ export interface StaticNote {
   title?: string;
   content?: string;          // plain text; for fill_blank, the sentence with ___ placeholders
   important?: boolean;
+  sourceUrl?: string;         // original solution page, used by imported board solutions
 
   // type: "list"
   items?: string[];

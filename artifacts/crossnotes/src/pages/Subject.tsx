@@ -102,6 +102,9 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
   const { progress } = useUserProgress(uid, chapter.id);
   const status = chapterStatus(progress);
   const hasContent = chapter.notes.length > 0 || chapter.flashcards.length > 0 || chapter.quiz.length > 0;
+  const solutionCount = chapter.notes.filter(note => note.type === 'markdown').length;
+  const hasFlashcards = chapter.flashcards.length > 0;
+  const hasQuiz = chapter.quiz.length > 0;
   const [showOverview, setShowOverview] = useState(false);
 
   const emojiOrNum = chapter.emoji || `${chapter.num}`;
@@ -136,8 +139,9 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
             {status === 'needs_revision' && <span className="badge badge-revision">⚠ Revise</span>}
             {status === 'in_progress' && <span className="badge badge-progress">▶ In Progress</span>}
             {status === 'not_started' && !hasContent && <span className="badge badge-new">🔒 Coming soon</span>}
-            {status === 'not_started' && hasContent && <span className="badge badge-new">New</span>}
+                        {status === 'not_started' && hasContent && <span className="badge badge-new">{solutionCount ? `${solutionCount} sets` : 'New'}</span>}
             {progress?.quizPct !== undefined && (
+
               <span className="badge" style={progress.quizPct < 70 ? { background: '#fee2e2', color: '#b91c1c', borderColor: '#fca5a5' } : { background: 'var(--bg-card-2)', color: 'var(--text-muted)', borderColor: 'var(--divider)' }}>
                 {progress.quizPct}%
               </span>
@@ -154,26 +158,31 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
           to skip straight to one, bypassing the overview popup. stopPropagation
           so tapping a button doesn't ALSO open the overview underneath it. */}
       {hasContent && (
-        <div className="chapter-actions" onClick={(e) => e.stopPropagation()}>
+                <div className={`chapter-actions${!hasFlashcards && !hasQuiz ? ' is-single' : ''}`} onClick={(e) => e.stopPropagation()}>
           <Link href={`/notes/${slug}/${chapter.id}`} className="chapter-actions-link">
-            <button className="clay-btn-ghost chapter-actions-btn">
-              {chapter.kind === 'paper' ? <FileText size={14} /> : <BookOpen size={14} />} {chapter.kind === 'paper' ? 'Paper' : 'Notes'}
+            <button className={`clay-btn-ghost chapter-actions-btn${solutionCount ? ' is-solution-cta' : ''}`}>
+              {chapter.kind === 'paper' ? <FileText size={14} /> : <BookOpen size={14} />} {chapter.kind === 'paper' ? 'Paper' : solutionCount ? `Open ${solutionCount} solution sets` : 'Notes'}
             </button>
           </Link>
-          <Link href={`/flashcards/${slug}/${chapter.id}`} className="chapter-actions-link">
-            <button className="clay-btn-ghost chapter-actions-btn">
-              <Layers size={14} /> Cards
-            </button>
-          </Link>
-          <Link href={`/quiz/${slug}/${chapter.id}`} className="chapter-actions-link">
-            <button
-              className="clay-btn-ghost chapter-actions-btn"
-              style={status !== 'done' ? { background: 'var(--primary-light)', borderColor: 'var(--primary-border)', color: 'var(--primary)' } : {}}
-            >
-              <LayoutList size={14} /> Quiz
-            </button>
-          </Link>
+          {hasFlashcards && (
+            <Link href={`/flashcards/${slug}/${chapter.id}`} className="chapter-actions-link">
+              <button className="clay-btn-ghost chapter-actions-btn">
+                <Layers size={14} /> Cards
+              </button>
+            </Link>
+          )}
+          {hasQuiz && (
+            <Link href={`/quiz/${slug}/${chapter.id}`} className="chapter-actions-link">
+              <button
+                className="clay-btn-ghost chapter-actions-btn"
+                style={status !== 'done' ? { background: 'var(--primary-light)', borderColor: 'var(--primary-border)', color: 'var(--primary)' } : {}}
+              >
+                <LayoutList size={14} /> Quiz
+              </button>
+            </Link>
+          )}
         </div>
+
       )}
 
       {showOverview && (
@@ -208,6 +217,7 @@ export default function Subject() {
   }
 
   const colorKey = subject.color || 'violet';
+  const solutionSetCount = chapters.reduce((count, chapter) => count + chapter.notes.filter(note => note.type === 'markdown').length, 0);
 
   return (
     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>
@@ -224,8 +234,10 @@ export default function Subject() {
             <h1 className="font-display font-black text-xl leading-tight" style={{ color: 'var(--text)' }}>{subject.name}</h1>
             {subject.description && <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{subject.description}</p>}
             <div className="flex items-center gap-2 mt-2">
-              <span className="badge badge-new">{chapters.length} chapters</span>
+                            <span className="badge badge-new">{chapters.length} chapters</span>
+              {solutionSetCount > 0 && <span className="badge badge-progress">✨ {solutionSetCount} solution sets</span>}
               {!subject.isLive && <span className="badge badge-revision">🔒 Coming soon</span>}
+
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { HelpCircle, ClipboardList, GitBranch } from 'lucide-react';
 import type { StaticNote, DiagramBranch } from '@/hooks/useContent';
+import MathSolutionRenderer from '@/components/MathSolutionRenderer';
 
 /** One note can be the original plain title+content card, or a rich
  *  study block (fill_blank, match_column, true_false, qna, list, table,
@@ -83,6 +84,13 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
     case 'diagram':
       return <DiagramBlock note={note} index={index} />;
 
+    case 'markdown':
+      return (
+        <NoteCard note={note} index={index}>
+          <MathSolutionRenderer content={note.content ?? ''} sourceUrl={note.sourceUrl} />
+        </NoteCard>
+      );
+
     case 'paragraph':
     default:
       // Legacy shape: title + content, exactly as before.
@@ -102,7 +110,7 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
 
 function NoteCard({ note, index, children }: { note: StaticNote; index: number; children: ReactNode }) {
   return (
-    <div id={`note-${note.id}`} className={`note-card${note.important ? ' important' : ''}`}>
+    <div id={`note-${note.id}`} className={`note-card${note.important ? ' important' : ''}${note.type === 'markdown' ? ' solution-note' : ''}`}>
       {note.important && (
         <div className="flex items-center gap-1.5 mb-3">
           <span className="text-xs font-black uppercase tracking-wider" style={{ color: '#92400e' }}>✨ Might be on boards!</span>

@@ -1976,3 +1976,176 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
 @media (prefers-reduced-motion: reduce) {
   .mew-nudge, .install-prompt, .install-guide { animation: none; }
 }
+
+/* ─── WORKED MATHS SOLUTIONS ────────────────────────────────────────
+   Imported board solutions are intentionally rendered as a focused, readable
+   study stream. The clay palette and shadows remain unchanged; only hierarchy
+   and rhythm increase so long answers feel approachable rather than dense. */
+.solution-study-strip {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: 10px;
+  padding: 7px 10px 7px 7px;
+  border-radius: var(--r-pill);
+  background: color-mix(in srgb, var(--math-bg) 70%, var(--bg-card));
+  color: var(--text);
+  font-size: 11px;
+  font-weight: 700;
+  box-shadow: 0 3px 0 color-mix(in srgb, var(--math-shadow) 18%, transparent), inset 0 1px 0 rgba(255, 255, 255, 0.76);
+}
+.solution-study-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--bg-card);
+  color: var(--math-shadow);
+  box-shadow: 0 2px 0 color-mix(in srgb, var(--math-shadow) 18%, transparent);
+}
+.solution-study-divider { width: 1px; height: 14px; background: color-mix(in srgb, var(--math-shadow) 24%, transparent); }
+.solution-study-meta { display: inline-flex; align-items: center; gap: 4px; color: var(--text-muted); }
+.dark-mode .solution-study-strip { background: color-mix(in srgb, var(--math-bg) 86%, var(--bg-card)); }
+.dark-mode .solution-study-icon { background: var(--bg-card-2); color: #93c5fd; }
+
+.solution-note {
+  position: relative;
+  overflow: clip;
+  padding: 22px 20px 20px;
+}
+.solution-note::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  height: 4px;
+  border-radius: 0 0 999px 999px;
+  background: linear-gradient(90deg, var(--math-shadow), #60a5fa, var(--math-shadow));
+  opacity: 0.85;
+}
+.solution-note > h2 { padding-right: 4px; line-height: 1.3; }
+
+.solution-reader { display: flex; flex-direction: column; gap: 12px; }
+.solution-source-link {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 10px;
+  border-radius: var(--r-pill);
+  background: var(--bg-card-2);
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+  transition: transform 0.15s var(--ease-out, ease), color 0.15s ease, background 0.15s ease;
+}
+.solution-source-link:hover { color: var(--math-shadow); background: var(--math-bg); transform: translateY(-1px); }
+.solution-reader-body { display: flex; flex-direction: column; min-width: 0; }
+.solution-gap { height: 7px; }
+.solution-paragraph,
+.solution-list-item,
+.solution-math-line {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.72;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.solution-paragraph { padding: 1px 2px; }
+.solution-list-item { display: flex; align-items: flex-start; gap: 9px; padding: 2px 2px; }
+.solution-list-item > span { color: var(--math-shadow); font-size: 17px; line-height: 1.35; }
+.solution-section-heading {
+  margin: 10px 0 2px;
+  padding: 9px 12px;
+  border-radius: var(--r-sm);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--math-bg) 76%, var(--bg-card)), var(--bg-card-2));
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.82);
+}
+.solution-question-label,
+.solution-answer-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  margin: 11px 0 5px;
+  padding: 5px 10px;
+  border-radius: var(--r-pill);
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+}
+.solution-question-label { background: var(--math-bg); color: var(--math-shadow); box-shadow: 0 2px 0 color-mix(in srgb, var(--math-shadow) 18%, transparent); }
+.solution-answer-label { background: var(--primary-light); color: var(--primary); box-shadow: 0 2px 0 color-mix(in srgb, var(--primary-shadow) 18%, transparent); }
+.solution-math-line {
+  margin: 5px 0;
+  padding: 10px 13px;
+  border-radius: var(--r-sm);
+  border-left: 4px solid var(--math-shadow);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--math-bg) 64%, var(--bg-card)), var(--bg-card));
+  color: color-mix(in srgb, var(--text) 92%, var(--math-shadow));
+  font-family: ui-monospace, 'Cascadia Mono', 'SFMono-Regular', Consolas, monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  white-space: pre-wrap;
+}
+.solution-inline-link { display: inline-flex; align-items: center; gap: 3px; color: var(--math-shadow); font-weight: 800; text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 2px; }
+.solution-image { margin: 10px 0; }
+.solution-image-frame {
+  padding: 8px;
+  border-radius: var(--r);
+  background: var(--bg-card-2);
+  box-shadow: inset 0 1px 4px rgba(55, 35, 120, 0.12), 0 3px 0 color-mix(in srgb, var(--math-shadow) 13%, transparent);
+}
+.solution-image-frame img { display: block; width: 100%; max-height: 520px; object-fit: contain; border-radius: calc(var(--r-sm) - 2px); background: #fff; }
+.solution-image figcaption { display: flex; align-items: center; gap: 5px; margin: 7px 4px 0; color: var(--text-muted); font-size: 11px; font-weight: 700; }
+.dark-mode .solution-math-line { background: linear-gradient(90deg, color-mix(in srgb, var(--math-bg) 82%, var(--bg-card)), var(--bg-card)); color: #dbeafe; }
+.dark-mode .solution-image-frame img { background: #f8fafc; }
+
+@media (max-width: 420px) {
+  .solution-note { padding: 20px 16px 18px; }
+  .solution-note::before { left: 16px; right: 16px; }
+  .solution-study-meta { width: 100%; padding-left: 31px; }
+  .solution-study-divider { display: none; }
+  .solution-paragraph, .solution-list-item, .solution-math-line { font-size: 13.5px; }
+  .solution-math-line { padding: 9px 11px; font-size: 12.5px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .solution-note { animation: slide-up 0.32s cubic-bezier(0.23, 1, 0.32, 1) both; }
+  .solution-note:nth-of-type(2n) { animation-delay: 0.035s; }
+  .solution-note:nth-of-type(3n) { animation-delay: 0.07s; }
+}
+
+/* Solution-only chapters use one confident, full-width action instead of
+   empty Cards/Quiz links. It retains the same clay components and palette. */
+.chapter-actions.is-single { padding-left: 0; }
+.chapter-actions-btn.is-solution-cta {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--math-bg) 72%, var(--bg-card)), var(--bg-card)) !important;
+  color: var(--math-shadow) !important;
+  box-shadow: 0 3px 0 color-mix(in srgb, var(--math-shadow) 22%, transparent), inset 0 1px 0 rgba(255, 255, 255, 0.82) !important;
+}
+.chapter-actions-btn.is-solution-cta:hover:not(:disabled) {
+  background: var(--math-bg) !important;
+  box-shadow: 0 5px 0 color-mix(in srgb, var(--math-shadow) 26%, transparent), 0 10px 22px color-mix(in srgb, var(--math-shadow) 14%, transparent), inset 0 1px 0 rgba(255, 255, 255, 0.86) !important;
+}
+.dark-mode .chapter-actions-btn.is-solution-cta {
+  background: color-mix(in srgb, var(--math-bg) 88%, var(--bg-card)) !important;
+  color: #bfdbfe !important;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+}

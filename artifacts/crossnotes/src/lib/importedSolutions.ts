@@ -7,8 +7,12 @@ import type { StaticNote } from '@/hooks/useContent';
  */
 export type SolutionSetCategory = 'practice' | 'problem' | 'solution';
 
-export function isImportedSolution(note: Pick<StaticNote, 'type' | 'title' | 'content'>): boolean {
+export function isImportedSolution(note: Pick<StaticNote, 'id' | 'type' | 'title' | 'content'>): boolean {
   if (note.type === 'markdown') return true;
+  // The reader gives a selected set a short student-facing title (for example,
+  // “Practice Set 1.1 · Question 2”). Its stable Maths import ID is the most
+  // reliable way to keep that paginated page on the solution-renderer path.
+  if (/^p[12]-c\d+-(?:set|problem)-\d+$/i.test(note.id)) return true;
   const title = note.title?.trim() ?? '';
   return /^(?:Practice Set|Problem Set)\s/i.test(title)
     && /(?:Maths|Geometry|Algebra|Class 10|10th)/i.test(title);

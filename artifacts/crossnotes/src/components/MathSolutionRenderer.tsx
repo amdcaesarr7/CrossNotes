@@ -1,5 +1,6 @@
-import type { ReactNode } from 'react';
+import { type ReactNode, useState } from 'react';
 import { ExternalLink, Image as ImageIcon, Lightbulb } from 'lucide-react';
+import { getMathImageFallbackUrl, normalizeMathSolutionContent } from '@/lib/mathSolutionContent';
 
 interface MathSolutionRendererProps {
   content: string;
@@ -40,39 +41,64 @@ function renderInline(text: string): ReactNode {
   return pieces.length ? pieces : text;
 }
 
+function imageCaption(rawAlt: string): string | null {
+  const compact = rawAlt.replace(/^Image\s*\d+\s*:?\s*/i, '').replace(/\s+/g, ' ').trim();
+  if (!compact || /(Maharashtra|Maths Solutions|Practice Set|Problem Set|Class \d+)/i.test(compact)) return null;
+  return compact;
+}
+
+function SolutionImage({ source, rawAlt }: { source: string; rawAlt: string }) {
+  const fallback = getMathImageFallbackUrl(source);
+  const [imageSource, setImageSource] = useState(source);
+  const [failed, setFailed] = useState(false);
+  const caption = imageCaption(rawAlt);
+
+  const handleError = () => {
+    if (fallback && imageSource !== fallback) {
+      setImageSource(fallback);
+      return;
+    }
+    setFailed(true);
+  };
+
+  return (
+    <figure className={`solution-image${failed ? ' is-unavailable' : ''}`}>
+      <div className="solution-image-frame">
+        {failed ? (
+          <div className="solution-image-fallback"><ImageIcon size={20} /><span>Diagram unavailable on this device</span></div>
+        ) : (
+          <img
+            src={imageSource}
+            alt={caption ?? 'Worked mathematics diagram'}
+            loading="lazy"
+            decoding="async"
+            referrerPolicy="no-referrer"
+            onError={handleError}
+          />
+        )}
+      </div>
+      {caption && <figcaption><ImageIcon size={13} /> {caption}</figcaption>}
+    </figure>
+  );
+}
+
 /**
- * Displays source-derived Maharashtra Board solution text without guessing or
- * rewriting the mathematics. Equations receive a readable aligned treatment,
- * while question labels and original worked-solution images stay visibly tied
- * to the official solution flow.
+ * Renders imported Maths material as a native CrossNotes study reader. Source
+ * boilerplate is removed upstream; mathematics, diagrams, questions, and
+ * worked steps remain intact and readable.
  */
-export default function MathSolutionRenderer({ content, sourceUrl }: MathSolutionRendererProps) {
-  const lines = content.split('\n');
+export default function MathSolutionRenderer({ content }: MathSolutionRendererProps) {
+  const lines = normalizeMathSolutionContent(content).split('\n');
 
   return (
     <div className="solution-reader">
-      {sourceUrl && (
-        <a className="solution-source-link" href={sourceUrl} target="_blank" rel="noreferrer">
-          Source solution <ExternalLink size={13} />
-        </a>
-      )}
-
       <div className="solution-reader-body">
         {lines.map((rawLine, index) => {
           const line = rawLine.trim();
           if (!line) return <div key={`gap-${index}`} className="solution-gap" />;
 
           const image = line.match(IMAGE_LINE);
-          if (image) {
-            return (
-              <figure className="solution-image" key={`image-${index}`}>
-                <div className="solution-image-frame">
-                  <img src={image[2]} alt={image[1] || 'Worked mathematics solution'} loading="lazy" />
-                </div>
-                {image[1] && <figcaption><ImageIcon size={13} /> {image[1]}</figcaption>}
-              </figure>
-            );
-          }
+          if (image) return <SolutionImage key={`image-${index}`} source={image[2]} rawAlt={image[1]} />;
 
           const heading = line.match(HEADING_LINE);
           if (heading) return <h3 key={`heading-${index}`} className="solution-section-heading">{renderInline(heading[1])}</h3>;

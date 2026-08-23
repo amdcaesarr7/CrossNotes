@@ -1,3 +1,5 @@
+import { normalizeMathSolutionContent } from '@/lib/mathSolutionContent';
+
 export interface MathSolutionPage {
   id: string;
   label: string;
@@ -54,7 +56,7 @@ function splitLongSegment(lines: string[]): string[][] {
  * source text; pagination only changes how much is shown at once.
  */
 export function getMathSolutionPages(content: string): MathSolutionPage[] {
-  const lines = content.replace(/\r\n/g, '\n').split('\n');
+  const lines = normalizeMathSolutionContent(content).split('\n');
   if (lines.length === 0) return [];
 
   const segments: string[][] = [];

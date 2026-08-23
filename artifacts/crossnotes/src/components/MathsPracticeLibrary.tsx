@@ -4,6 +4,7 @@ import type { StaticNote } from '@/hooks/useContent';
 import NoteBlockRenderer from '@/components/NoteBlockRenderer';
 import { getSolutionSetCategory, getSolutionSetLabel, type SolutionSetCategory } from '@/lib/importedSolutions';
 import { getMathSolutionPages } from '@/lib/mathSolutionPages';
+import { normalizeMathSolutionContent } from '@/lib/mathSolutionContent';
 
 type CategoryFilter = 'all' | SolutionSetCategory;
 
@@ -19,7 +20,7 @@ const FILTERS: Array<{ id: CategoryFilter; label: string }> = [
 ];
 
 function searchText(note: StaticNote) {
-  return `${getSolutionSetLabel(note)} ${note.title ?? ''} ${note.content ?? ''}`.toLocaleLowerCase();
+  return `${getSolutionSetLabel(note)} ${normalizeMathSolutionContent(note.content ?? '')}`.toLocaleLowerCase();
 }
 
 /** A chapter-local, searchable reader for dense Maharashtra Board Maths solutions. */

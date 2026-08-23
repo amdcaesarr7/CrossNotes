@@ -35,6 +35,7 @@ export interface StaticNote {
   content?: string;          // plain text; for fill_blank, the sentence with ___ placeholders
   important?: boolean;
   sourceUrl?: string;         // original solution page, used by imported board solutions
+  solutionPages?: Record<string, string>; // compiled native answer by reader page ID
 
   // type: "list"
   items?: string[];
@@ -130,6 +131,20 @@ interface SubjectContent {
   chapters: StaticChapter[];
 }
 
+type OriginalSolutionMap = Record<string, Record<string, string>>;
+
+function applyOriginalSolutions(content: SubjectContent, solutions: OriginalSolutionMap): SubjectContent {
+  return {
+    ...content,
+    chapters: content.chapters.map(chapter => ({
+      ...chapter,
+      notes: chapter.notes.map(note => solutions[note.id]
+        ? { ...note, solutionPages: solutions[note.id] }
+        : note),
+    })),
+  };
+}
+
 // ---- Dynamic JSON loader ----
 // Vite bundles each import() as a separate lazy chunk.
 
@@ -145,12 +160,18 @@ async function loadContent(slug: string): Promise<SubjectContent | null> {
         return m.default as SubjectContent;
       }
       case "maths-1": {
-        const m = await import("@/data/content/maths-1.json");
-        return m.default as SubjectContent;
+        const [m, generated] = await Promise.all([
+          import("@/data/content/maths-1.json"),
+          import("@/data/content/maths-1-original-solutions.json"),
+        ]);
+        return applyOriginalSolutions(m.default as SubjectContent, generated.default as OriginalSolutionMap);
       }
       case "maths-2": {
-        const m = await import("@/data/content/maths-2.json");
-        return m.default as SubjectContent;
+        const [m, generated] = await Promise.all([
+          import("@/data/content/maths-2.json"),
+          import("@/data/content/maths-2-original-solutions.json"),
+        ]);
+        return applyOriginalSolutions(m.default as SubjectContent, generated.default as OriginalSolutionMap);
       }
       case "english": {
         const m = await import("@/data/content/english.json");

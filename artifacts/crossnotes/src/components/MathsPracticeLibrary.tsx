@@ -30,12 +30,18 @@ export default function MathsPracticeLibrary({ notes, chapterTitle }: MathsPract
   const [activeNoteId, setActiveNoteId] = useState(notes[0]?.id ?? '');
   const [pageIndex, setPageIndex] = useState(0);
 
-  const sets = useMemo(() => notes.map(note => ({
-    note,
-    label: getSolutionSetLabel(note),
-    category: getSolutionSetCategory(note),
-    search: searchText(note),
-  })), [notes]);
+  const sets = useMemo(() => notes.map(note => {
+    const pages = getMathSolutionPages(note.content ?? '');
+    const hasOriginalAnswers = pages.some(page => Boolean(note.solutionPages?.[page.id]));
+    return {
+      note,
+      pages,
+      hasOriginalAnswers,
+      label: getSolutionSetLabel(note),
+      category: getSolutionSetCategory(note),
+      search: `${searchText(note)} ${Object.values(note.solutionPages ?? {}).join(' ')}`.toLocaleLowerCase(),
+    };
+  }).filter(set => set.hasOriginalAnswers), [notes]);
 
   const normalizedQuery = query.trim().toLocaleLowerCase();
   const filteredSets = useMemo(() => sets.filter(set => (
@@ -44,9 +50,10 @@ export default function MathsPracticeLibrary({ notes, chapterTitle }: MathsPract
   )), [filter, normalizedQuery, sets]);
 
   const activeSet = filteredSets.find(set => set.note.id === activeNoteId) ?? filteredSets[0] ?? null;
-  const pages = useMemo(() => getMathSolutionPages(activeSet?.note.content ?? ''), [activeSet?.note.content]);
+  const pages = activeSet?.pages.filter(page => Boolean(activeSet.note.solutionPages?.[page.id])) ?? [];
   const safePageIndex = Math.min(pageIndex, Math.max(pages.length - 1, 0));
   const activePage = pages[safePageIndex];
+  const activeSolution = activeSet && activePage ? activeSet.note.solutionPages?.[activePage.id] : undefined;
 
   const selectSet = (id: string) => {
     setActiveNoteId(id);
@@ -114,7 +121,7 @@ export default function MathsPracticeLibrary({ notes, chapterTitle }: MathsPract
                 >
                   <span className={`maths-set-kind ${set.category}`}>{set.category === 'problem' ? 'Problem Set' : 'Practice Set'}</span>
                   <strong>{set.label.replace(/^(?:Practice|Problem) Set\s*/i, '')}</strong>
-                  <small>Open focused reader</small>
+                  <small>Open full worked answers</small>
                 </button>
               );
             })}
@@ -152,7 +159,7 @@ export default function MathsPracticeLibrary({ notes, chapterTitle }: MathsPract
                 note={{
                   ...activeSet.note,
                   title: `${activeSet.label} · ${activePage.label}`,
-                  content: activePage.content,
+                  content: activeSolution ?? activePage.content,
                 }}
                 index={safePageIndex}
               />

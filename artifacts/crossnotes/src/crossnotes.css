@@ -2290,3 +2290,35 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
   color: #bfdbfe !important;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
 }
+
+/* ── Credits & Sources ─────────────────────────────────────────────── */
+.credits-page { min-height: 100vh; }
+.credits-content { width: min(920px, calc(100% - 2rem)); margin: 0 auto; padding: 2.25rem 0 5rem; }
+.credits-hero, .credits-principle, .credits-source-card, .credits-note { border: 1px solid var(--divider); box-shadow: var(--shadow-card); }
+.credits-hero { position: relative; overflow: hidden; padding: clamp(1.5rem, 3vw, 2.5rem); border-radius: var(--r-lg); background: radial-gradient(circle at 88% 12%, rgba(145, 120, 235, .18), transparent 28%), var(--bg-card); }
+.credits-hero::after { content: ''; position: absolute; width: 12rem; aspect-ratio: 1; right: -5.5rem; bottom: -7.25rem; border-radius: 999px; background: rgba(250, 190, 45, .14); box-shadow: inset 8px 8px 16px rgba(60, 40, 110, .1), inset -8px -8px 15px rgba(255, 255, 255, .55); }
+.credits-kicker, .credits-section-heading > span { display: inline-flex; align-items: center; gap: .45rem; color: var(--primary); font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.credits-hero h1 { position: relative; z-index: 1; margin: .7rem 0 .65rem; font-size: clamp(2rem, 5vw, 3.35rem); line-height: 1.02; }
+.credits-hero p { position: relative; z-index: 1; max-width: 43rem; margin: 0; color: var(--text-muted); font-size: 1rem; line-height: 1.7; }
+.credits-principles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.15rem 0 2.5rem; }
+.credits-principle { display: flex; align-items: flex-start; gap: .8rem; padding: 1rem; border-radius: var(--r); background: var(--bg-card); }
+.credits-principle > svg, .credits-note > svg { flex: none; color: var(--primary); margin-top: .1rem; }
+.credits-principle strong, .credits-principle span { display: block; }
+.credits-principle strong { margin-bottom: .22rem; font-size: .9rem; }
+.credits-principle span { color: var(--text-muted); font-size: .78rem; line-height: 1.48; }
+.credits-section { margin-top: 1rem; }
+.credits-section-heading { margin-bottom: 1rem; }
+.credits-section-heading h2, .credits-note h2 { margin: .32rem 0 0; font-size: 1.35rem; }
+.credits-source-list { display: grid; gap: 1rem; }
+.credits-source-card { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 1rem; padding: 1.1rem; border-radius: var(--r); background: var(--bg-card); }
+.credits-source-icon { display: grid; place-items: center; width: 2.7rem; aspect-ratio: 1; border-radius: 1rem; color: var(--primary); background: var(--bg-card-2); box-shadow: inset 2px 2px 5px rgba(120, 90, 200, .12), inset -2px -2px 5px rgba(255, 255, 255, .7); }
+.dark-mode .credits-source-icon { box-shadow: inset 2px 2px 5px rgba(0, 0, 0, .32), inset -2px -2px 5px rgba(255, 255, 255, .04); }
+.credits-source-copy > span { color: var(--primary); font-size: .7rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
+.credits-source-copy h3 { margin: .2rem 0 .32rem; font-size: 1rem; }
+.credits-source-copy p { max-width: 42rem; margin: 0; color: var(--text-muted); font-size: .82rem; line-height: 1.55; }
+.credits-source-link { display: inline-flex; align-items: center; gap: .35rem; padding: .65rem .78rem; border-radius: .85rem; color: var(--primary); font-size: .78rem; font-weight: 800; text-decoration: none; background: var(--bg-card-2); box-shadow: var(--shadow-ghost); transition: transform .18s ease, color .18s ease; }
+.credits-source-link:hover { color: var(--primary-hover); transform: translateY(-1px); }
+.credits-note { display: flex; align-items: flex-start; gap: .85rem; margin-top: 1.4rem; padding: 1.1rem; border-radius: var(--r); background: var(--gold-light); }
+.credits-note p { margin: .35rem 0 0; color: var(--text-muted); font-size: .85rem; line-height: 1.65; }
+@media (max-width: 640px) { .credits-content { width: min(100% - 1.15rem, 920px); padding-top: 1.2rem; } .credits-principles { grid-template-columns: 1fr; } .credits-source-card { grid-template-columns: auto 1fr; align-items: flex-start; } .credits-source-link { grid-column: 2; justify-self: start; } }
+@media (prefers-reduced-motion: reduce) { .credits-source-link { transition: none; } }

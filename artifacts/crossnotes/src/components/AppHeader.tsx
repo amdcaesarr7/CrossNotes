@@ -17,6 +17,7 @@ import {
   CheckCircle2,
   Sparkles,
   BarChart3,
+  BadgeInfo,
   Settings2,
   LogOut,
 } from 'lucide-react';
@@ -175,6 +176,9 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                 <DropdownMenuSeparator />
                 <DropdownMenuItem asChild className="account-menu-item account-progress-item">
                   <Link href="/progress"><BarChart3 size={17} /> <span>Progress</span></Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild className="account-menu-item">
+                  <Link href="/credits"><BadgeInfo size={17} /> <span>Credits &amp; sources</span></Link>
                 </DropdownMenuItem>
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger className="account-menu-item account-settings-trigger">

@@ -22,6 +22,7 @@ import Progress from '@/pages/Progress';
 import Leaderboard from '@/pages/Leaderboard';
 import Shop from '@/pages/Shop';
 import AdminFeedback from '@/pages/AdminFeedback';
+import Credits from '@/pages/Credits';
 import NotFound from '@/pages/not-found';
 
 const queryClient = new QueryClient();
@@ -50,6 +51,7 @@ export default function App() {
                       <Route path="/leaderboard" component={Leaderboard} />
                       <Route path="/shop" component={Shop} />
                       <Route path="/admin/feedback" component={AdminFeedback} />
+                      <Route path="/credits" component={Credits} />
                       <Route component={NotFound} />
                     </Switch>
                   </ErrorBoundary>

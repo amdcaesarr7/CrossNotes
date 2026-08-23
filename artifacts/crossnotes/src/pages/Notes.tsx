@@ -8,6 +8,7 @@ import { markNotesRead } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticNotes } from '@/hooks/useContent';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import NoteBlockRenderer from '@/components/NoteBlockRenderer';
+import MathsPracticeLibrary from '@/components/MathsPracticeLibrary';
 import { isImportedSolution } from '@/lib/importedSolutions';
 import AppHeader from '@/components/AppHeader';
 import '../crossnotes.css';
@@ -54,7 +55,9 @@ export default function Notes() {
   };
 
   const isPaper = chapter?.kind === 'paper';
-  const isSolutionLibrary = notes.some(isImportedSolution);
+  const mathsSolutionNotes = notes.filter(isImportedSolution);
+  const isSolutionLibrary = mathsSolutionNotes.length > 0;
+  const isMathsPracticeLibrary = /^maths-[12]$/.test(slug) && mathsSolutionNotes.length > 0;
   const hasFlashcards = (chapter?.flashcards.length ?? 0) > 0;
   const hasQuiz = (chapter?.quiz.length ?? 0) > 0;
   const subtypesPresent = Array.from(new Set(notes.map(n => n.type).filter((t): t is Exclude<typeof t, undefined> => !!t && t in SUBTYPE_META)));
@@ -72,7 +75,14 @@ export default function Notes() {
           <h1 className="font-display font-black text-xl leading-tight" style={{ color: 'var(--text)' }}>
             {chapter?.title ?? 'Loading…'}
           </h1>
-                    {isSolutionLibrary ? (
+          {isMathsPracticeLibrary ? (
+            <div className="solution-study-strip" aria-label={`${mathsSolutionNotes.length} Maths Practice and Problem Sets`}>
+              <span className="solution-study-icon"><Sparkles size={15} /></span>
+              <span><strong>{mathsSolutionNotes.length}</strong> Practice & Problem Sets</span>
+              <span className="solution-study-divider" />
+              <span className="solution-study-meta"><Target size={13} /> Search + focused pages</span>
+            </div>
+          ) : isSolutionLibrary ? (
             <div className="solution-study-strip" aria-label={`${notes.length} worked solution sets`}>
               <span className="solution-study-icon"><Sparkles size={15} /></span>
               <span><strong>{notes.length}</strong> worked solution sets</span>
@@ -109,9 +119,13 @@ export default function Notes() {
           </div>
         ) : (
           <>
-            {notes.map((note, i) => (
-              <NoteBlockRenderer key={note.id} note={note} index={i} />
-            ))}
+            {isMathsPracticeLibrary ? (
+              <MathsPracticeLibrary notes={mathsSolutionNotes} chapterTitle={chapter?.title ?? 'Maths chapter'} />
+            ) : (
+              notes.map((note, i) => (
+                <NoteBlockRenderer key={note.id} note={note} index={i} />
+              ))
+            )}
 
             {/* Next steps — only show real study modes that actually contain content. */}
             {(hasFlashcards || hasQuiz) && (
@@ -146,7 +160,7 @@ export default function Notes() {
                   ? <Loader2 size={18} style={{ animation: 'spin 1s linear infinite' }} />
                   : marked
                   ? <><CheckCircle2 size={18} /> Locked in! +10 XP earned</>
-                  : <><CheckCircle2 size={18} /> {isSolutionLibrary ? 'Finish this solution set' : 'Mark as Read'} · +10 XP</>
+                  : <><CheckCircle2 size={18} /> {isMathsPracticeLibrary ? 'Finish chapter library' : isSolutionLibrary ? 'Finish this solution set' : 'Mark as Read'} · +10 XP</>
                 }
               </button>
             </div>

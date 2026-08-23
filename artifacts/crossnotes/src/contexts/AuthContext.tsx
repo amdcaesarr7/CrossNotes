@@ -29,7 +29,20 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return;
     }
 
+    // Firebase normally emits the persisted session quickly. Keep a bounded
+    // fallback so an offline or misconfigured auth service cannot hold the
+    // entire study app behind the startup gate forever.
+    let authStateResolved = false;
+    const authTimeout = window.setTimeout(() => {
+      if (!authStateResolved) {
+        console.warn('[AuthContext] Timed out waiting for Firebase auth state. Continuing without a session.');
+        setLoading(false);
+      }
+    }, 10_000);
+
     const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
+      authStateResolved = true;
+      window.clearTimeout(authTimeout);
       setUser(firebaseUser);
       setLoading(false);
 
@@ -65,7 +78,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       }
     });
 
-    return unsubscribe;
+    return () => {
+      window.clearTimeout(authTimeout);
+      unsubscribe();
+    };
   }, []);
 
   const signInWithGoogle = async () => {

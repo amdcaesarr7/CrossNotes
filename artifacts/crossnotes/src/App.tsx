@@ -4,6 +4,7 @@ import { AuthProvider } from '@/contexts/AuthContext';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { SoundProvider } from '@/contexts/SoundContext';
 import ErrorBoundary from '@/components/ErrorBoundary';
+import AuthStartupGate from '@/components/AuthStartupGate';
 import AppInstallPrompt from '@/components/AppInstallPrompt';
 import FirstUseTour from '@/components/FirstUseTour';
 import MewCompanion from '@/components/MewCompanion';
@@ -33,29 +34,31 @@ export default function App() {
         <AuthProvider>
           <ThemeProvider>
             <SoundProvider>
-              <WouterRouter base={base}>
-                <ErrorBoundary>
-                  <Switch>
-                    <Route path="/" component={Dashboard} />
-                    <Route path="/subjects" component={Home} />
-                    <Route path="/subject/:slug" component={Subject} />
-                    <Route path="/vault" component={Vault} />
-                    <Route path="/vault/:slug" component={VaultSubject} />
-                    <Route path="/notes/:slug/:chapterId" component={Notes} />
-                    <Route path="/flashcards/:slug/:chapterId" component={Flashcards} />
-                    <Route path="/quiz/:slug/:chapterId" component={Quiz} />
-                    <Route path="/progress" component={Progress} />
-                    <Route path="/leaderboard" component={Leaderboard} />
-                    <Route path="/shop" component={Shop} />
-                    <Route path="/admin/feedback" component={AdminFeedback} />
-                    <Route component={NotFound} />
-                  </Switch>
-                </ErrorBoundary>
-              </WouterRouter>
-              <FirstUseTour />
-              <AppInstallPrompt />
-              <MewCompanion />
-              <Toaster richColors position="top-center" />
+              <AuthStartupGate>
+                <WouterRouter base={base}>
+                  <ErrorBoundary>
+                    <Switch>
+                      <Route path="/" component={Dashboard} />
+                      <Route path="/subjects" component={Home} />
+                      <Route path="/subject/:slug" component={Subject} />
+                      <Route path="/vault" component={Vault} />
+                      <Route path="/vault/:slug" component={VaultSubject} />
+                      <Route path="/notes/:slug/:chapterId" component={Notes} />
+                      <Route path="/flashcards/:slug/:chapterId" component={Flashcards} />
+                      <Route path="/quiz/:slug/:chapterId" component={Quiz} />
+                      <Route path="/progress" component={Progress} />
+                      <Route path="/leaderboard" component={Leaderboard} />
+                      <Route path="/shop" component={Shop} />
+                      <Route path="/admin/feedback" component={AdminFeedback} />
+                      <Route component={NotFound} />
+                    </Switch>
+                  </ErrorBoundary>
+                </WouterRouter>
+                <FirstUseTour />
+                <AppInstallPrompt />
+                <MewCompanion />
+                <Toaster richColors position="top-center" />
+              </AuthStartupGate>
             </SoundProvider>
           </ThemeProvider>
         </AuthProvider>

@@ -1665,90 +1665,22 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
 
 /* ─── MEW COMPANION + FIRST-USE TOUR ───────────────────────────────── */
 .mew-mascot {
-  --mew-size: 58px;
-  position: relative;
+  --mew-size: 62px;
   display: inline-block;
   width: var(--mew-size);
-  height: calc(var(--mew-size) * 0.9);
+  height: calc(var(--mew-size) * 1.22);
   flex: 0 0 auto;
-  filter: drop-shadow(0 7px 8px rgba(135, 55, 140, 0.2));
+  filter: drop-shadow(0 6px 7px rgba(138, 90, 59, 0.28));
 }
-.mew-mascot--sm { --mew-size: 38px; }
-.mew-mascot--md { --mew-size: 58px; }
-.mew-mascot--lg { --mew-size: 112px; }
-.mew-mascot__face {
-  position: absolute;
-  z-index: 2;
-  right: 4%;
-  bottom: 4%;
-  width: 72%;
-  height: 70%;
-  border-radius: 48% 52% 47% 53%;
-  background: linear-gradient(145deg, #ffd7f1 0%, #ee9dda 100%);
-  box-shadow: 0 5px 0 #c66cae, inset 0 3px 0 rgba(255,255,255,0.66), inset -3px -4px 0 rgba(178, 75, 154, 0.13);
+.mew-mascot--sm { --mew-size: 42px; }
+.mew-mascot--md { --mew-size: 62px; }
+.mew-mascot--lg { --mew-size: 118px; }
+.mew-mascot__svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
 }
-.mew-mascot__ear {
-  position: absolute;
-  z-index: 1;
-  top: 5%;
-  width: 33%;
-  height: 42%;
-  border-radius: 70% 24% 50% 38%;
-  background: linear-gradient(145deg, #ffc4ea, #df79c5);
-  box-shadow: inset 2px 2px 0 rgba(255,255,255,0.5);
-}
-.mew-mascot__ear--left { left: 13%; transform: rotate(-32deg); }
-.mew-mascot__ear--right { right: 8%; transform: scaleX(-1) rotate(-32deg); }
-.mew-mascot__eye {
-  position: absolute;
-  top: 38%;
-  width: 13%;
-  height: 18%;
-  border-radius: 50%;
-  background: #3c2859;
-  box-shadow: 0 1px 0 rgba(255,255,255,0.75);
-  transition: transform 180ms ease, height 180ms ease;
-}
-.mew-mascot__eye::after {
-  content: '';
-  position: absolute;
-  top: 14%;
-  left: 19%;
-  width: 37%;
-  height: 38%;
-  border-radius: 50%;
-  background: #fff;
-}
-.mew-mascot__eye--left { left: 27%; }
-.mew-mascot__eye--right { right: 27%; }
-.mew-mascot__mouth {
-  position: absolute;
-  z-index: 1;
-  left: 46%;
-  bottom: 22%;
-  width: 12%;
-  height: 7%;
-  border-bottom: 2px solid #9a417f;
-  border-radius: 0 0 50% 50%;
-}
-.mew-mascot__tail {
-  position: absolute;
-  z-index: 0;
-  left: -17%;
-  bottom: 6%;
-  width: 54%;
-  height: 48%;
-  border: calc(var(--mew-size) * 0.075) solid #dc84c7;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-radius: 0 0 0 100%;
-  transform: rotate(-21deg);
-}
-.mew-mascot--judgy .mew-mascot__eye--left { transform: rotate(18deg) translateY(7%); }
-.mew-mascot--judgy .mew-mascot__eye--right { transform: rotate(-18deg) translateY(7%); }
-.mew-mascot--judgy .mew-mascot__mouth { border-radius: 50% 50% 0 0; border-bottom: 0; border-top: 2px solid #9a417f; }
-.mew-mascot--sleepy .mew-mascot__eye { height: 3%; top: 48%; border-radius: 4px; }
-.mew-mascot--sleepy .mew-mascot__eye::after { display: none; }
 
 .mew-tour-overlay,
 .install-guide-overlay {

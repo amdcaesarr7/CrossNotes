@@ -9,6 +9,16 @@ const KIND_META: Record<VaultEntry['kind'], { icon: typeof FileText; label: stri
   study_asset:   { icon: FolderOpen, label: 'Study Asset' },
 };
 
+/** Extensions browsers cannot preview inline. Opening these with target="_blank"
+ *  flashes an empty tab before the download starts, so they get `download` instead. */
+const DOWNLOAD_EXTENSIONS = ['.pptx', '.ppt', '.docx', '.doc', '.xlsx', '.xls', '.zip'];
+
+function isLocalDownload(sourceUrl: string): boolean {
+  if (!sourceUrl.startsWith('/')) return false;
+  const path = sourceUrl.split(/[?#]/)[0].toLowerCase();
+  return DOWNLOAD_EXTENSIONS.some((ext) => path.endsWith(ext));
+}
+
 /** One entry in a Vault subsection. Mirrors the visual language of
  *  .chapter-row (badge row + tappable card) without pulling in any of the
  *  progress/quiz logic that ChapterRow carries — Vault entries are simple
@@ -55,6 +65,16 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
   // the reader instead of opening a raw PDF (per VAULT_FEATURE_PROMPT.md).
   if (goesToChapter) {
     return <Link href={`/notes/${slug}/${entry.linkedChapterId}`}>{inner}</Link>;
+  }
+
+  // Local files the browser cannot render inline (Office decks, archives) would
+  // otherwise open a blank tab before downloading, so force a direct download.
+  if (isLocalDownload(entry.sourceUrl)) {
+    return (
+      <a href={entry.sourceUrl} download>
+        {inner}
+      </a>
+    );
   }
 
   // Everything else — local PDF or external official/CC link — opens in a

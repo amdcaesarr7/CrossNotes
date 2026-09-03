@@ -21,7 +21,22 @@
         }
       ]
     },
-    "subsec2": {},
+    "subsec2": {
+      "title": "Celebrations",
+      "emoji": "🎉",
+      "entries": [
+        {
+          "id": "gen-teachers-day-2026",
+          "title": "Happy Teachers' Day 2026 (Slide Deck)",
+          "kind": "study_asset",
+          "year": 2026,
+          "medium": "English",
+          "license": "Caesar's own work",
+          "sourceUrl": "/vault/study-assets/general/teachers-day-2026.pptx",
+          "status": "verified"
+        }
+      ]
+    },
     "subsec3": {},
     "subsec4": {},
     "subsec5": {}

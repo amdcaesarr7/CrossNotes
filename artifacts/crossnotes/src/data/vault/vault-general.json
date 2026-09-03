@@ -34,6 +34,26 @@
           "license": "Caesar's own work",
           "sourceUrl": "/vault/study-assets/general/teachers-day-2026.pptx",
           "status": "verified"
+        },
+        {
+          "id": "gen-teachers-day-2026-minimal",
+          "title": "Happy Teachers' Day 2026 (Minimal Screen)",
+          "kind": "study_asset",
+          "year": 2026,
+          "medium": "English",
+          "license": "Caesar's own work",
+          "sourceUrl": "/vault/study-assets/general/teachers-day-2026-minimal-screen.pptx",
+          "status": "verified"
+        },
+        {
+          "id": "gen-teachers-day-2026-looped",
+          "title": "Happy Teachers' Day 2026 (Looped Screen)",
+          "kind": "study_asset",
+          "year": 2026,
+          "medium": "English",
+          "license": "Caesar's own work",
+          "sourceUrl": "/vault/study-assets/general/teachers-day-2026-looped-screen.pptx",
+          "status": "verified"
         }
       ]
     },

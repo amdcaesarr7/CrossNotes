@@ -57,3 +57,5 @@ Thumbs.db
 artifacts/crossnotes/.env
 artifacts/crossnotes/.env.*
 !artifacts/crossnotes/.env.example
+*.zip
+

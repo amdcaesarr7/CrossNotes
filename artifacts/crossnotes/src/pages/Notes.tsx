@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Loader2, CheckCircle2, LayoutList, FileText, PenSquare, Shuffle, ToggleLeft, HelpCircle, Sparkles, Target } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
@@ -6,6 +6,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { markNotesRead } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticNotes } from '@/hooks/useContent';
+import { useHead, useBreadcrumb, getChapterMeta } from '@/hooks/useSeo';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import NoteBlockRenderer from '@/components/NoteBlockRenderer';
 import MathsPracticeLibrary from '@/components/MathsPracticeLibrary';
@@ -35,8 +36,18 @@ export default function Notes() {
   const { user } = useAuth();
 
   const subject = useStaticSubject(slug);
-  const { chapter } = useStaticChapter(slug, chapterId);
-  const { notes, loading } = useStaticNotes(slug, chapterId);
+  const { chapter, loading: chapterLoading } = useStaticChapter(slug, chapterId);
+  const { notes, loading: notesLoading } = useStaticNotes(slug, chapterId);
+  const loading = notesLoading || chapterLoading;
+  const breadcrumbs = [
+    { name: 'Home', url: '/' },
+    { name: subject?.name ?? 'Subjects', url: `/subjects` },
+    { name: chapter?.title ?? 'Chapter', url: `/subject/${slug}` },
+    { name: `${chapter?.title} Notes`, url: window.location.href },
+  ];
+
+  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'notes'));
+  useBreadcrumb(breadcrumbs);
 
   const handleMark = async () => {
     if (!user) { toast.error('Sign in first to earn XP!'); return; }

@@ -3,6 +3,7 @@ import { Link } from 'wouter';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useStaticSubject } from '@/hooks/useContent';
 import { useVaultSubsections } from '@/hooks/useVault';
+import { useHead, useBreadcrumb } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import VaultEntryRow from '@/components/VaultEntryRow';
@@ -34,6 +35,16 @@ export default function VaultSubject() {
       </div>
     );
   }
+
+  useHead({
+    title: `${meta.name} Resources — ${meta.description ?? 'Study Material'} | CrossNotes`,
+    description: `Browse ${meta.name} study resources and materials in the CrossNotes Resource Vault. ${meta.description ?? ''}`,
+  });
+  useBreadcrumb([
+    { name: 'Home', url: '/' },
+    { name: 'Vault', url: '/vault' },
+    { name: meta.name, url: `/vault/${slug}` },
+  ]);
 
   const colorKey = meta.color || 'gold';
   const totalEntries = subsections.reduce((n, s) => n + (s.entries?.length ?? 0), 0);

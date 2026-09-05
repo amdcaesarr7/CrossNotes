@@ -6,6 +6,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useUserProgress } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapters, type StaticChapter } from '@/hooks/useContent';
+import { useHead, useBreadcrumb, getSubjectMeta, SEO_DEFAULTS } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import { isImportedSolution } from '@/lib/importedSolutions';
 import BottomNav from '@/components/BottomNav';
@@ -216,6 +217,11 @@ export default function Subject() {
       </div>
     );
   }
+
+  const breadcrumbs = [{ name: 'Home', url: '/' }, { name: subject?.name ?? 'Subjects', url: `/subjects` }];
+
+  useHead(getSubjectMeta(subject));
+  useBreadcrumb(breadcrumbs);
 
   const colorKey = subject.color || 'violet';
   const solutionSetCount = chapters.reduce((count, chapter) => count + chapter.notes.filter(isImportedSolution).length, 0);

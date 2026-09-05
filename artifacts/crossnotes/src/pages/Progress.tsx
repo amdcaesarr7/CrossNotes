@@ -3,6 +3,7 @@ import { Trophy, Target, Flame, Zap, BookOpen, Layers, LogIn, Snowflake, Coins, 
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useUserProfile, useAllUserProgress, getLevel, MAX_STREAK_FREEZES } from '@/hooks/useFirestore';
+import { useHead, useBreadcrumb, getProgressMeta } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
@@ -12,6 +13,12 @@ export default function Progress() {
   const { user, signInWithGoogle } = useAuth();
   const { profile, loading: profileLoading } = useUserProfile(user?.uid);
   const { progressMap, loading: progressLoading } = useAllUserProgress(user?.uid);
+
+  useHead(getProgressMeta());
+  useBreadcrumb([
+    { name: 'Home', url: '/' },
+    { name: 'Progress', url: '/progress' },
+  ]);
 
   const loading = profileLoading || progressLoading;
   const xp     = profile?.xp ?? 0;

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'wouter';
 import { BookOpen, Flame, Trophy, Target, Zap, ChevronRight, LogIn, Star, Snowflake, BellRing, X, Coins, ShieldCheck } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
@@ -8,19 +8,21 @@ import { getPotion } from '@/data/potions';
 import PotionIcon from '@/components/PotionIcon';
 import { useStaticSubjects } from '@/hooks/useContent';
 import { useStudyReminder } from '@/hooks/useStudyReminder';
+import { useHead, useBreadcrumb } from '@/hooks/useSeo';
 import { isNotificationSupported, getReminderPreference, requestReminderPermission } from '@/lib/notifications';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
 
 const MOTIVATIONAL = [
-  "Your competition is doing nothing. Don't let them win. 😤",
-  "One chapter closer to topping the boards. Let's go. 🔥",
-  "Your future self is watching. Make them proud. 🎯",
+  "Bua ka beta is studying rn. You going to let him top the boards? 😤",
+  "Sharma ji's son just revised Chapter 4. Time to lock in. 🔥",
+  "Mew is watching your streak. Solve 1 quiz to make the bear proud. 🐻",
+  "Board exams don't care about excuses. Only marks. Let's grind. 💯",
   "Science is just nature's gossip. Read it. 🧬",
   "Every XP is a step away from exam panic. 📚",
-  "Duolingo owl is literally crying rn. Study. 🦉",
-  "Today's grind = tomorrow's mark sheet. 💯",
+  "Duolingo owl is literally crying rn. Keep studying. 🦉",
+  "Today's grind = tomorrow's mark sheet. 🎯",
 ];
 
 function todayMsg() {
@@ -41,6 +43,16 @@ export default function Dashboard() {
   const { profile, loading: profileLoading } = useUserProfile(user?.uid);
   const { progressMap, loading: progressLoading } = useAllUserProgress(user?.uid);
   const { entries: leaderboard } = useLeaderboard();
+
+  useHead({
+    title: 'Dashboard — XP Bar, Streak & Leaderboard | CrossNotes',
+    description: 'Your CrossNotes dashboard. View XP bar, streak ring, continue-learning card, subject quick-links, and live leaderboard preview.',
+    canonical: '/',
+  });
+  useBreadcrumb([
+    { name: 'Home', url: '/' },
+    { name: 'Dashboard', url: '/' },
+  ]);
 
   const xp       = profile?.xp ?? 0;
   const streak   = profile?.streak ?? 0;

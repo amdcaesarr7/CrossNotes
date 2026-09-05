@@ -4,6 +4,7 @@ import { Link } from 'wouter';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useStaticSubjects } from '@/hooks/useContent';
 import { loadVisibleSubsections } from '@/hooks/useVault';
+import { useHead, useBreadcrumb, getVaultMeta } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
@@ -14,6 +15,12 @@ export default function Vault() {
   const { isDark } = useTheme();
   const subjects = useStaticSubjects();
   const [shelvesWithContent, setShelvesWithContent] = useState<Set<string> | null>(null);
+
+  useHead(getVaultMeta());
+  useBreadcrumb([
+    { name: 'Home', url: '/' },
+    { name: 'Vault', url: '/vault' },
+  ]);
 
   // Static subject list, so it's fine to check all of them (+ "general") in
   // one effect rather than a hook-per-subject, which rules of hooks forbid.

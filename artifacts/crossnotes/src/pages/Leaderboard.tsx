@@ -2,6 +2,7 @@ import { Wifi, BookOpen, Target, Star, Flame, Tag } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useLeaderboard, getLevel } from '@/hooks/useFirestore';
+import { useHead, useBreadcrumb, getLeaderboardMeta } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
@@ -67,6 +68,12 @@ export default function LeaderboardPage() {
   const { isDark } = useTheme();
   const { user } = useAuth();
   const { entries, loading } = useLeaderboard();
+
+  useHead(getLeaderboardMeta());
+  useBreadcrumb([
+    { name: 'Home', url: '/' },
+    { name: 'Leaderboard', url: '/leaderboard' },
+  ]);
 
   const topThree = entries.slice(0, 3) as typeof entries;
   const rest     = entries.slice(3);

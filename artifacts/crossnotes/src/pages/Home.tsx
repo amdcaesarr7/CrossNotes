@@ -1,8 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronRight, Lock } from 'lucide-react';
 import { Link } from 'wouter';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useStaticSubjects } from '@/hooks/useContent';
+import { useHead, useBreadcrumb, SEO_DEFAULTS } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
@@ -19,6 +20,16 @@ export default function Subjects() {
   const { isDark } = useTheme();
   const subjects = useStaticSubjects();
   const [excuseIdx, setExcuseIdx] = useState(0);
+
+  useHead({
+    title: 'Subjects — Maharashtra Board Class 10 Study Material | CrossNotes',
+    description: 'Browse all available subjects for Maharashtra State Board Class 10: Science 1, Science 2, Maths 1 (Algebra), Maths 2 (Geometry), History & Political Science, Geography. Free notes, flashcards, and quizzes.',
+    canonical: '/subjects',
+  });
+  useBreadcrumb([
+    { name: 'Home', url: '/' },
+    { name: 'Subjects', url: '/subjects' },
+  ]);
 
   const liveSubjects   = subjects.filter(s => s.isLive);
   const lockedSubjects = subjects.filter(s => !s.isLive);

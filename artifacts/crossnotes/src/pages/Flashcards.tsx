@@ -6,6 +6,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { markFlashcardsCompleted } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticFlashcards } from '@/hooks/useContent';
+import { useHead, useBreadcrumb, getChapterMeta } from '@/hooks/useSeo';
 import { sfx } from '@/lib/sfx';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import AppHeader from '@/components/AppHeader';
@@ -26,8 +27,18 @@ export default function Flashcards() {
   const { user } = useAuth();
 
   const subject = useStaticSubject(slug);
-  const { chapter } = useStaticChapter(slug, chapterId);
-  const { flashcards, loading } = useStaticFlashcards(slug, chapterId);
+  const { chapter, loading: chapterLoading } = useStaticChapter(slug, chapterId);
+  const { flashcards, loading: cardsLoading } = useStaticFlashcards(slug, chapterId);
+  const loading = cardsLoading || chapterLoading;
+  const breadcrumbs = [
+    { name: 'Home', url: '/' },
+    { name: subject?.name ?? 'Subjects', url: `/subjects` },
+    { name: chapter?.title ?? 'Chapter', url: `/subject/${slug}` },
+    { name: `${chapter?.title} Flashcards`, url: window.location.href },
+  ];
+
+  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'flashcards'));
+  useBreadcrumb(breadcrumbs);
 
   const colorKey = subject?.color || 'violet';
   const card     = flashcards[currentIndex];

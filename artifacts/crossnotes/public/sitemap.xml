@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Main Pages -->
   <url>
     <loc>https://crossnotes.rf.gd/</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://crossnotes.rf.gd/subjects</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://crossnotes.rf.gd/subject/science-1</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crossnotes.rf.gd/subject/science-2</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crossnotes.rf.gd/subject/maths-1</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crossnotes.rf.gd/subject/maths-2</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crossnotes.rf.gd/subject/history</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://crossnotes.rf.gd/subject/geography</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://crossnotes.rf.gd/vault</loc>
@@ -55,4 +29,204 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://crossnotes.rf.gd/progress</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Science 1 (10 chapters) -->
+  <url>
+    <loc>https://crossnotes.rf.gd/subject/science-1</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-1/ch10</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-1/ch10</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-1/ch10</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Science 2 (10 chapters) -->
+  <url>
+    <loc>https://crossnotes.rf.gd/subject/science-2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/science-2/ch10</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/science-2/ch10</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/science-2/ch10</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Maths 1 (6 chapters) -->
+  <url>
+    <loc>https://crossnotes.rf.gd/subject/maths-1</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-1/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-1/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-1/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-1/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-1/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-1/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-1/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-1/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-1/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-1/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-1/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-1/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-1/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-1/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-1/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-1/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-1/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-1/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Maths 2 (7 chapters) -->
+  <url>
+    <loc>https://crossnotes.rf.gd/subject/maths-2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-2/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-2/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-2/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-2/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-2/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-2/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-2/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-2/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-2/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-2/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-2/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-2/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-2/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-2/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-2/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-2/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-2/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-2/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/maths-2/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/maths-2/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/maths-2/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- History (9 chapters) -->
+  <url>
+    <loc>https://crossnotes.rf.gd/subject/history</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/history/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/history/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/history/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Geography (9 chapters) -->
+  <url>
+    <loc>https://crossnotes.rf.gd/subject/geography</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/notes/geography/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/flashcards/geography/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://crossnotes.rf.gd/quiz/geography/ch9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

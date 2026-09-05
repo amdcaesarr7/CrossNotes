@@ -1,5 +1,6 @@
 import { ArrowUpRight, BookMarked, HeartHandshake, Landmark, ShieldCheck, Sparkles } from 'lucide-react';
 import AppHeader from '@/components/AppHeader';
+import { useHead, useBreadcrumb, getCreditsMeta } from '@/hooks/useSeo';
 
 const sources = [
   {
@@ -19,6 +20,12 @@ const sources = [
 ];
 
 export default function Credits() {
+  useHead(getCreditsMeta());
+  useBreadcrumb([
+    { name: 'Home', url: '/' },
+    { name: 'Credits', url: '/credits' },
+  ]);
+
   return (
     <div className="app-page credits-page">
       <AppHeader title="Credits & Sources" backHref="/" backLabel="Home" />

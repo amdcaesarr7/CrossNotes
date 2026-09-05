@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { ChevronRight, RotateCcw, Loader2 } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
@@ -6,6 +6,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { saveQuizScore } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticQuiz, type StaticQuizQuestion } from '@/hooks/useContent';
+import { useHead, useBreadcrumb, getChapterMeta, useFAQSchema } from '@/hooks/useSeo';
 import { sfx } from '@/lib/sfx';
 import { fireConfetti } from '@/lib/confetti';
 import { celebrateActivityResult } from '@/lib/celebrate';
@@ -79,6 +80,24 @@ export default function Quiz() {
   const subject = useStaticSubject(slug);
   const { chapter } = useStaticChapter(slug, chapterId);
   const { questions, loading } = useStaticQuiz(slug, chapterId);
+
+  const breadcrumbs = [
+    { name: 'Home', url: '/' },
+    { name: subject?.name ?? 'Subjects', url: `/subjects` },
+    { name: chapter?.title ?? 'Chapter', url: `/subject/${slug}` },
+    { name: `${chapter?.title} Quiz`, url: window.location.href },
+  ];
+
+  const faqs = useMemo(() => {
+    if (!chapter) return [];
+    return questions
+      .filter(q => q.explanation)
+      .map(q => ({ question: q.question, answer: q.explanation! }));
+  }, [questions, chapter?.title]);
+
+  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'quiz'));
+  useBreadcrumb(breadcrumbs);
+  useFAQSchema(faqs);
 
   const q      = questions[idx];
   const qType  = q?.qType ?? 'mcq';
@@ -343,6 +362,17 @@ export default function Quiz() {
               <Link href={`/subject/${slug}`}>
                 <button className="clay-btn w-full py-3">Next Chapter →</button>
               </Link>
+              <a
+                href={`https://wa.me/?text=${encodeURIComponent(
+                  `🎯 I just scored ${scorePct}% (${correctCount}/${total}) on ${chapter?.title ?? 'Class 10'} (${subject?.name}) on CrossNotes!\n\nThink you can beat my score? Try the quiz here:\nhttps://crossnotes.rf.gd/${slug}.html`
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="clay-btn w-full py-3 flex items-center justify-center gap-2 text-white font-black text-sm"
+                style={{ background: '#25D366', borderColor: '#1eb857', boxShadow: '0 4px 14px rgba(37,211,102,0.35)' }}
+              >
+                <span>💬 Challenge a Classmate on WhatsApp</span>
+              </a>
             </div>
           </div>
         )}

@@ -340,13 +340,13 @@
         {
           "id": "n42",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n43",
           "type": "qna",
           "title": "[IMPORTANT] Complete the Concept Chart",
-          "question": "[From old history.json] Complete the concept chart: Traditional Historiography → Notable Scholars in Europe → Disciplines helping in Historical Research",
+          "question": "Complete the concept chart: Traditional Historiography → Notable Scholars in Europe → Disciplines helping in Historical Research",
           "qnaAnswer": "Traditional Historiography → Renowned Scholars (Rene Descartes, Voltaire, Georg Wilhelm Friedrich Hegel, Leopold von Ranke, Karl Marx) → Disciplines in Historical Research (Archaeology, Epigraphy, Numismatics, Linguistics, Chronology)",
           "important": true
         },
@@ -354,7 +354,7 @@
           "id": "n44",
           "type": "qna",
           "title": "[IMPORTANT] Write Short Note: Historiography",
-          "question": "[From old history.json] Write short note: Historiography",
+          "question": "Write short note: Historiography",
           "qnaAnswer": "Historiography is the study of the methods of historians in developing history as an academic discipline. It involves critical examination of sources, selection of particular details from the authentic materials in those sources, and synthesis of those details into a narrative. Modern historiography is characterised by: (1) Its method is based on scientific principles. (2) It is written in a logical order. (3) The concepts and ideas in it are supported by evidence. (4) The sources of the writing of history are reliable.",
           "important": true
         },
@@ -362,7 +362,7 @@
           "id": "n45",
           "type": "qna",
           "title": "[IMPORTANT] Explain Dialectics",
-          "question": "[From old history.json] Explain the following concept: Dialectics",
+          "question": "Explain the following concept: Dialectics",
           "qnaAnswer": "Greek philosopher Georg Hegel proposed the theory of Dialectics. According to him, understanding the meaning of any event happens in terms of two direct opposites. The human mind cannot understand the true nature of an object without understanding its opposite. To understand the true nature of a thing, it has to be classified into two categories. For example, 'True-False', 'Good-Bad'. Dialectics is a method of analysis.",
           "important": true
         }
@@ -1071,13 +1071,13 @@
         {
           "id": "n24",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n25",
           "type": "qna",
           "title": "[IMPORTANT] Applied History Uses",
-          "question": "[From old history.json] How can we increase people's participation in the field of applied history?",
+          "question": "How can we increase people's participation in the field of applied history?",
           "qnaAnswer": "1. Increasing people's participation in the field of applied history can be done by:\n\n(a) Creating awareness about the importance of history in daily life.\n\n(b) Involving local communities in heritage conservation and preservation.\n\n(c) Organising workshops, lectures, and exhibitions on applied history.\n\n(d) Encouraging the use of digital platforms for sharing historical knowledge.\n\n(e) Providing opportunities for volunteers to participate in archaeological excavations and museum work.\n\n(f) Including applied history in school and college curricula.",
           "important": true
         },
@@ -1085,7 +1085,7 @@
           "id": "n26",
           "type": "qna",
           "title": "[IMPORTANT] Applied History in Various Fields",
-          "question": "[From old history.json] Explain the role of applied history in various fields.",
+          "question": "Explain the role of applied history in various fields.",
           "qnaAnswer": "1. Heritage Management: Applied history helps in identifying, documenting, and conserving historical sites and monuments.\n\n2. Tourism: It helps in creating engaging narratives for tourists and managing heritage sites.\n\n3. Museum Studies: It helps in collecting, preserving, and displaying artefacts.\n\n4. Archives: It helps in preserving and providing access to historical documents.\n\n5. Media: It helps in creating historical documentaries, films, and other media content.\n\n6. Policy Making: It helps in making informed policy decisions based on historical understanding.",
           "important": true
         }
@@ -1425,13 +1425,13 @@
         {
           "id": "n26",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n27",
           "type": "qna",
           "title": "[IMPORTANT] Identify the Style of Temple",
-          "question": "[From old history.json] Identify the style of temple: Kailasa Temple, Ellora",
+          "question": "Identify the style of temple: Kailasa Temple, Ellora",
           "qnaAnswer": "The Kailasa temple at Ellora is an example of the Rashtrakuta style of rock-cut architecture. It was carved out of a single rock during the reign of the Rashtrakuta dynasty. It is a monolithic temple dedicated to Lord Shiva.",
           "important": true
         },
@@ -1439,7 +1439,7 @@
           "id": "n28",
           "type": "qna",
           "title": "[IMPORTANT] Indian Classical Dances",
-          "question": "[From old history.json] Name the classical dance forms of India.",
+          "question": "Name the classical dance forms of India.",
           "qnaAnswer": "The classical dance forms of India are:\n1. Bharatanatyam (Tamil Nadu)\n2. Kathakali (Kerala)\n3. Odissi (Odisha)\n4. Kuchipudi (Andhra Pradesh)\n5. Kathak (Uttar Pradesh)\n6. Manipuri (Manipur)\n7. Mohiniattam (Kerala)\n8. Sattriya (Assam)",
           "important": true
         }
@@ -1776,13 +1776,13 @@
         {
           "id": "n24",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n25",
           "type": "qna",
           "title": "[IMPORTANT] Role of Newspapers in Freedom Struggle",
-          "question": "[From old history.json] Explain the role of newspapers in the Indian freedom struggle.",
+          "question": "Explain the role of newspapers in the Indian freedom struggle.",
           "qnaAnswer": "1. Newspapers played a crucial role in the Indian freedom struggle.\n\n2. Leaders like Bal Gangadhar Tilak, Mahatma Gandhi, and Gopal Krishna Gokhale used newspapers to spread nationalist ideas.\n\n3. 'Kesari' (Tilak), 'Harijan' and 'Young India' (Gandhi), and 'Sudharak' (Gokhale) were important nationalist newspapers.\n\n4. These newspapers mobilized public opinion against British rule.\n\n5. They also served as a platform for discussing social reforms and political issues.",
           "important": true
         },
@@ -1790,7 +1790,7 @@
           "id": "n26",
           "type": "qna",
           "title": "[IMPORTANT] First Indian Newspaper",
-          "question": "[From old history.json] Name the first Indian newspaper and its founder.",
+          "question": "Name the first Indian newspaper and its founder.",
           "qnaAnswer": "The first Indian newspaper was 'The Bengal Gazette' (also known as 'Calcutta General Advertiser'). It was started by James Augustus Hickey in 1780.",
           "important": true
         }
@@ -2107,13 +2107,13 @@
         {
           "id": "n23",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n24",
           "type": "qna",
           "title": "[IMPORTANT] Types of Entertainment",
-          "question": "[From old history.json] Describe the various types of entertainment in India.",
+          "question": "Describe the various types of entertainment in India.",
           "qnaAnswer": "1. Folk Theatre: Tamasha (Maharashtra), Yakshagana (Karnataka), Bhavai (Gujarat).\n\n2. Cinema: Bollywood, regional cinema, art cinema.\n\n3. Music: Classical (Hindustani and Carnatic), folk, film music.\n\n4. Dance: Classical (Bharatanatyam, Kathakali, etc.) and folk dances.\n\n5. Television: Serials, reality shows, news, sports.\n\n6. Digital Media: Social media, streaming platforms, online games.",
           "important": true
         },
@@ -2121,7 +2121,7 @@
           "id": "n25",
           "type": "qna",
           "title": "[IMPORTANT] Dadasaheb Phalke's Contribution",
-          "question": "[From old history.json] What was Dadasaheb Phalke's contribution to Indian cinema?",
+          "question": "What was Dadasaheb Phalke's contribution to Indian cinema?",
           "qnaAnswer": "1. Dadasaheb Phalke directed the first Indian feature film 'Raja Harishchandra' in 1913.\n\n2. He is known as the father of Indian cinema.\n\n3. He made over 90 films in his career.\n\n4. He was a pioneer in the use of special effects and animation in Indian cinema.\n\n5. The Dadasaheb Phalke Award is named after him.",
           "important": true
         }
@@ -2446,13 +2446,13 @@
         {
           "id": "n24",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n25",
           "type": "qna",
           "title": "[IMPORTANT] India's Olympic History",
-          "question": "[From old history.json] Describe India's participation in the Olympic Games.",
+          "question": "Describe India's participation in the Olympic Games.",
           "qnaAnswer": "1. India first participated in the Olympic Games in 1900.\n\n2. India has won the most medals in hockey, with 8 gold medals.\n\n3. India's first individual Olympic medal was won by K.D. Jadhav (wrestling) in 1952.\n\n4. Abhinav Bindra won India's first individual gold medal in shooting in 2008.\n\n5. India has also won medals in badminton (Saina Nehwal, P.V. Sindhu), wrestling (Sushil Kumar, Yogeshwar Dutt), and boxing (Vijender Singh, Mary Kom).",
           "important": true
         },
@@ -2460,7 +2460,7 @@
           "id": "n26",
           "type": "qna",
           "title": "[IMPORTANT] Traditional Indian Sports",
-          "question": "[From old history.json] Name any five traditional Indian sports.",
+          "question": "Name any five traditional Indian sports.",
           "qnaAnswer": "Five traditional Indian sports are:\n1. Kabaddi\n2. Kho-Kho\n3. Gilli-Danda\n4. Malkhamb\n5. Wrestling (Kushti)",
           "important": true
         }
@@ -2783,13 +2783,13 @@
         {
           "id": "n23",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n24",
           "type": "qna",
           "title": "[IMPORTANT] Tourist Places in Maharashtra",
-          "question": "[From old history.json] Name any five tourist places in Maharashtra.",
+          "question": "Name any five tourist places in Maharashtra.",
           "qnaAnswer": "Five tourist places in Maharashtra are:\n1. Ajanta and Ellora Caves (Aurangabad)\n2. Elephanta Caves (Mumbai)\n3. Gateway of India (Mumbai)\n4. Mahabaleshwar (Hill Station)\n5. Shirdi (Religious Site)",
           "important": true
         },
@@ -2797,7 +2797,7 @@
           "id": "n25",
           "type": "qna",
           "title": "[IMPORTANT] Role of Tourism in Economic Development",
-          "question": "[From old history.json] Explain the role of tourism in economic development.",
+          "question": "Explain the role of tourism in economic development.",
           "qnaAnswer": "1. Tourism is an important source of foreign exchange earnings.\n\n2. It provides direct and indirect employment opportunities.\n\n3. It promotes local industries and handicrafts.\n\n4. It contributes to infrastructure development like roads, airports, and hotels.\n\n5. It also helps in the preservation of cultural and natural heritage, which in turn attracts more tourists.",
           "important": true
         }
@@ -3114,13 +3114,13 @@
         {
           "id": "n24",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n25",
           "type": "qna",
           "title": "[IMPORTANT] UNESCO World Heritage Sites",
-          "question": "[From old history.json] Name any five UNESCO World Heritage Sites in India.",
+          "question": "Name any five UNESCO World Heritage Sites in India.",
           "qnaAnswer": "Five UNESCO World Heritage Sites in India are:\n1. Taj Mahal (Agra)\n2. Ajanta Caves (Maharashtra)\n3. Ellora Caves (Maharashtra)\n4. Khajuraho Temples (Madhya Pradesh)\n5. Western Ghats",
           "important": true
         },
@@ -3128,7 +3128,7 @@
           "id": "n26",
           "type": "qna",
           "title": "[IMPORTANT] Heritage Conservation",
-          "question": "[From old history.json] Why is heritage conservation important?",
+          "question": "Why is heritage conservation important?",
           "qnaAnswer": "1. Heritage conservation is important for preserving cultural and natural heritage.\n\n2. It helps in maintaining cultural identity and diversity.\n\n3. It promotes tourism and economic development.\n\n4. It ensures that heritage is passed on to future generations.\n\n5. It contributes to education and research.",
           "important": true
         }
@@ -3467,13 +3467,13 @@
         {
           "id": "n26",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n27",
           "type": "qna",
           "title": "[IMPORTANT] Preamble",
-          "question": "[From old history.json] Write a short note on: Preamble",
+          "question": "Write a short note on: Preamble",
           "qnaAnswer": "1. The Preamble is the introductory statement of the Indian Constitution.\n\n2. It declares India to be a Sovereign, Socialist, Secular, Democratic Republic.\n\n3. It states that the Constitution is established by the people of India.\n\n4. It outlines the objectives of the Constitution: Justice, Liberty, Equality, and Fraternity.\n\n5. It is the guiding principle for the interpretation of the Constitution.",
           "important": true
         },
@@ -3481,7 +3481,7 @@
           "id": "n28",
           "type": "qna",
           "title": "[IMPORTANT] Universal Adult Franchise",
-          "question": "[From old history.json] What is Universal Adult Franchise?",
+          "question": "What is Universal Adult Franchise?",
           "qnaAnswer": "Universal Adult Franchise means that all citizens who are 18 years of age or older have the right to vote in elections, without any discrimination based on caste, creed, religion, gender, or education. This is a fundamental principle of Indian democracy.",
           "important": true
         }
@@ -3811,13 +3811,13 @@
         {
           "id": "n24",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n25",
           "type": "qna",
           "title": "[IMPORTANT] National Parties in India",
-          "question": "[From old history.json] Name any five national parties in India.",
+          "question": "Name any five national parties in India.",
           "qnaAnswer": "Five national parties in India are:\n1. Indian National Congress (INC)\n2. Bharatiya Janata Party (BJP)\n3. Communist Party of India (CPI)\n4. Communist Party of India (Marxist) — CPI(M)\n5. Bahujan Samaj Party (BSP)",
           "important": true
         },
@@ -3825,7 +3825,7 @@
           "id": "n26",
           "type": "qna",
           "title": "[IMPORTANT] Foundation Years of Parties",
-          "question": "[From old history.json] Match the following political parties with their foundation years.",
+          "question": "Match the following political parties with their foundation years.",
           "qnaAnswer": "1. Indian National Congress — 1885\n2. Communist Party of India — 1925\n3. Bharatiya Janata Party — 1980\n4. All India Trinamool Congress — 1998\n5. Nationalist Congress Party — 1999",
           "important": true
         }
@@ -4158,13 +4158,13 @@
         {
           "id": "n25",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n26",
           "type": "qna",
           "title": "[IMPORTANT] Chipko Movement",
-          "question": "[From old history.json] Explain the Chipko movement.",
+          "question": "Explain the Chipko movement.",
           "qnaAnswer": "1. The Chipko movement was a forest conservation movement in India.\n\n2. It began in the 1970s in the Garhwal Himalayas.\n\n3. It was led by Sunderlal Bahuguna and Chandi Prasad Bhatt.\n\n4. Villagers, especially women, hugged trees to prevent them from being cut down.\n\n5. The movement was successful in preventing deforestation and promoting afforestation.\n\n6. It raised awareness about environmental conservation.",
           "important": true
         },
@@ -4172,7 +4172,7 @@
           "id": "n27",
           "type": "qna",
           "title": "[IMPORTANT] Narmada Bachao Andolan",
-          "question": "[From old history.json] Explain the Narmada Bachao Andolan.",
+          "question": "Explain the Narmada Bachao Andolan.",
           "qnaAnswer": "1. The Narmada Bachao Andolan (NBA) is a social movement in India.\n\n2. It was started in 1985 to protest against the construction of large dams on the Narmada River.\n\n3. It was led by Medha Patkar and Baba Amte.\n\n4. The movement focused on the displacement of people and environmental destruction caused by the dams.\n\n5. It raised important issues about development and displacement.",
           "important": true
         }
@@ -4505,13 +4505,13 @@
         {
           "id": "n25",
           "type": "heading",
-          "content": "Additional Important Questions (from Old History JSON)"
+          "content": "Additional Important Questions"
         },
         {
           "id": "n26",
           "type": "qna",
           "title": "[IMPORTANT] Challenges to Democracy",
-          "question": "[From old history.json] What are the major challenges faced by Indian democracy?",
+          "question": "What are the major challenges faced by Indian democracy?",
           "qnaAnswer": "1. Corruption\n2. Communalism\n3. Casteism\n4. Regionalism\n5. Poverty\n6. Illiteracy\n7. Terrorism\n8. Naxalism\n9. Gender inequality\n10. Environmental degradation",
           "important": true
         },
@@ -4519,7 +4519,7 @@
           "id": "n27",
           "type": "qna",
           "title": "[IMPORTANT] Role of Citizens",
-          "question": "[From old history.json] Explain the role of citizens in a democracy.",
+          "question": "Explain the role of citizens in a democracy.",
           "qnaAnswer": "1. Citizens participate in elections and choose their representatives.\n\n2. They hold the government accountable.\n\n3. They participate in social movements and civil society organizations.\n\n4. They promote democratic values and respect the rule of law.\n\n5. They contribute to the development of society.",
           "important": true
         }

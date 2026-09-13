@@ -6,6 +6,7 @@ import { useUserProfile, useAllUserProgress, getLevel, MAX_STREAK_FREEZES } from
 import { useHead, useBreadcrumb, getProgressMeta } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
+import StudyReminderCard from '@/components/StudyReminderCard';
 import '../crossnotes.css';
 
 export default function Progress() {
@@ -42,6 +43,9 @@ export default function Progress() {
       <AppHeader title="My Progress" />
 
       <main className="page-content">
+        {/* Available to everyone — reminders don't need an account. */}
+        <StudyReminderCard />
+
         {!user ? (
           <div className="clay-card p-10 flex flex-col items-center text-center gap-4">
             <p className="text-5xl">🔐</p>

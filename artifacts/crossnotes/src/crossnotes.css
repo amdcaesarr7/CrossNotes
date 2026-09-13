@@ -222,6 +222,27 @@ html, body {
   background: radial-gradient(circle, rgba(120, 20, 80, 0.2) 0%, transparent 70%);
 }
 
+/* Ambient floating animations for background depth */
+@keyframes ambientBlob1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -20px) scale(1.08); }
+  66% { transform: translate(-15px, 25px) scale(0.96); }
+}
+@keyframes ambientBlob2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-25px, 20px) scale(1.06); }
+  66% { transform: translate(20px, -15px) scale(0.95); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cn-body::before {
+    animation: ambientBlob1 24s ease-in-out infinite;
+  }
+  .cn-body::after {
+    animation: ambientBlob2 28s ease-in-out infinite;
+  }
+}
+
 /* Ensure all page content sits above the blobs */
 .cn-body > * { position: relative; z-index: 1; }
 
@@ -835,6 +856,62 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
   box-shadow: var(--shadow-card-hover);
 }
 
+/* "Save offline" toggle on local Vault entries (VaultOfflineButton.tsx). */
+.cn-offline-btn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  border: 2px solid var(--divider);
+  background: var(--bg-card-2);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+.cn-offline-btn:disabled { opacity: 0.7; cursor: default; }
+.cn-offline-btn.is-saved { background: #d1fae5; border-color: #a7f3d0; color: #065f46; }
+.dark-mode .cn-offline-btn.is-saved { background: #064e3b; border-color: #065f46; color: #6ee7b7; }
+
+/* Study-reminder card (StudyReminderCard.tsx): toggle switch + time picker. */
+.cn-switch {
+  position: relative;
+  width: 46px;
+  height: 26px;
+  border-radius: 999px;
+  border: 2px solid var(--divider);
+  background: var(--bg-card-2);
+  cursor: pointer;
+  transition: background-color 0.18s, border-color 0.18s;
+}
+.cn-switch[data-on='true'] { background: var(--primary); border-color: var(--primary); }
+.cn-switch:disabled { opacity: 0.55; cursor: default; }
+.cn-switch-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.cn-switch[data-on='true'] .cn-switch-thumb { transform: translateX(20px); }
+.cn-time-input {
+  border: 2px solid var(--divider);
+  background: var(--bg-card-2);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
 /* ─── LEADERBOARD ────────────────────────────────────────────────── */
 .leaderboard-row {
   display: flex; align-items: center; justify-content: space-between;
@@ -861,6 +938,116 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
     0 5px 0 rgba(200, 80, 80, 0.25),
     0 12px 28px rgba(180, 60, 60, 0.1),
     inset 0 2px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* ─── ENHANCED NOTE ELEMENTS ─────────────────────────────────────── */
+.note-heading-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  margin-bottom: 2px;
+  padding: 10px 14px;
+  border-radius: var(--r-sm);
+  background: var(--bg-card-2);
+  border-left: 4px solid var(--primary);
+  box-shadow: 0 2px 0 rgba(120, 90, 200, 0.08);
+}
+.note-heading-bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--primary);
+  flex-shrink: 0;
+}
+.qna-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.qna-question-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.qna-answer-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: var(--r-sm);
+  background: var(--primary-light);
+  border: 1px solid var(--primary-border);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+.qna-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  border-radius: var(--r-pill);
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 1.2;
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+}
+.qna-badge-q {
+  background: var(--bg-card-2);
+  color: var(--primary);
+  border: 1px solid var(--divider);
+}
+.qna-badge-a {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 2px 0 var(--primary-shadow);
+}
+.dark-mode .qna-answer-box {
+  background: rgba(225, 29, 72, 0.1);
+  border-color: rgba(225, 29, 72, 0.3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* ─── SUBJECT SECTION PILLS ──────────────────────────────────────── */
+.subject-section-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: var(--r-pill);
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  font-weight: 800;
+  border: 2px solid var(--divider);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  cursor: pointer;
+  box-shadow: var(--shadow-ghost);
+  transition: transform 0.16s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.16s ease, background 0.16s ease, color 0.16s ease;
+  white-space: nowrap;
+}
+.subject-section-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+  color: var(--text);
+}
+.subject-section-pill.is-active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  box-shadow: 0 4px 0 var(--primary-shadow), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+.dark-mode .subject-section-pill.is-active {
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* Paper-plane flight micro-animation */
+.clay-btn:hover svg.lucide-send,
+.feedback-launcher:hover svg.lucide-send {
+  transform: translate(3px, -2px) rotate(12deg);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 /* ─── INLINE CODE ────────────────────────────────────────────────── */
@@ -1322,6 +1509,12 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
   to { opacity: 1; transform: translateX(0); }
 }
 .quiz-slide-in { animation: quiz-slide-in 0.28s cubic-bezier(0.22, 1, 0.36, 1); }
+
+/* Countdown chip urgency pulse (fires in the final 10s of a quiz) */
+@keyframes quizTimerPulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4); }
+  50% { transform: scale(1.06); box-shadow: 0 0 0 6px rgba(220, 38, 38, 0); }
+}
 
 .true-false-btn-lg {
   flex: 1;

@@ -13,8 +13,14 @@
       <stop offset="1" stop-color="#8a5a3b"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-  <g transform="translate(116.6 86) scale(2.786)">
+
+  <!-- Full-bleed background: maskable icons get cropped to a circle/squircle,
+       so the plum fills the whole 512 tile with no rounded corners. -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Mew pulled into the centre ~66% safe zone (scale 2.0, re-centred) so the
+       platform mask never clips ears or feet. -->
+  <g transform="translate(155.5 122) scale(2.0)">
     <g fill="url(#face)" stroke="#8a5a3b" stroke-width="2.2" stroke-linejoin="round">
       <ellipse cx="17" cy="74" rx="6.5" ry="9"/>
       <ellipse cx="83" cy="74" rx="6.5" ry="9"/>

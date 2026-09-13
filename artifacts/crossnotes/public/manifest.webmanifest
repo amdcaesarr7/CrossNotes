@@ -1,20 +1,62 @@
 {
-  "name": "CrossNotes",
+  "name": "CrossNotes — Maharashtra Board Class 10",
   "short_name": "CrossNotes",
-  "description": "Maharashtra Board 10th study notes, flashcards, quizzes, and progress tracking.",
+  "description": "Free notes, flashcards, quizzes, XP and streaks for Maharashtra State Board Class 10. Study smarter — online or offline.",
   "id": "/",
-  "start_url": "/",
+  "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#ede8ff",
   "theme_color": "#8f2e78",
   "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["education", "productivity"],
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Subjects",
+      "short_name": "Subjects",
+      "description": "Jump straight into your subjects",
+      "url": "/subjects?source=shortcut"
+    },
+    {
+      "name": "Leaderboard",
+      "short_name": "Ranks",
+      "description": "See where you rank",
+      "url": "/leaderboard?source=shortcut"
+    },
+    {
+      "name": "My Progress",
+      "short_name": "Progress",
+      "description": "Track what you've mastered",
+      "url": "/progress?source=shortcut"
     }
   ]
 }

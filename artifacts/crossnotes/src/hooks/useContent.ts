@@ -121,6 +121,8 @@ export interface StaticChapter {
   title: string;
   emoji?: string;
   kind?: "chapter" | "paper"; // "paper" = a reproduced board question paper
+  section?: string;           // e.g. "History" | "Political Science"
+  part?: number;              // 1, 2, 3
   overview?: StaticChapterOverview;
   notes: StaticNote[];
   flashcards: StaticFlashcard[];

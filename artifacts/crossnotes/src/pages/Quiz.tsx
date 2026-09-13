@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react';
-import { ChevronRight, RotateCcw, Loader2 } from 'lucide-react';
+import { useState, useMemo, useEffect } from 'react';
+import { ChevronRight, RotateCcw, Loader2, Clock } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -31,6 +31,17 @@ function scoreResult(pct: number) {
   if (pct >= 70) return { emoji: '🎯', msg: "Solid work! Your future self thanks you.", grade: 'A',  color: '#2563eb' };
   if (pct >= 50) return { emoji: '😅', msg: "Halfway there. The glass is half full of wrong answers.", grade: 'B', color: '#d97706' };
   return { emoji: '💀', msg: "Yikes. Even Caesar's ghost is disappointed.", grade: 'F', color: '#dc2626' };
+}
+
+// Whole-quiz countdown: the student gets this many seconds per question, summed
+// across the quiz. Hit zero → the quiz auto-submits with whatever's answered.
+const SECONDS_PER_QUESTION = 45;
+
+/** Seconds → "M:SS" for the countdown chip and results line. */
+function fmtTime(totalSeconds: number) {
+  const s = Math.max(0, Math.round(totalSeconds));
+  const m = Math.floor(s / 60);
+  return `${m}:${String(s % 60).padStart(2, '0')}`;
 }
 
 // One "answer" shape covers every question type so the rest of the page
@@ -71,6 +82,8 @@ export default function Quiz() {
   const [done, setDone]         = useState(false);
   const [saving, setSaving]     = useState(false);
   const [justPopped, setJustPopped] = useState(false);
+  const [secondsLeft, setSecondsLeft] = useState<number | null>(null);
+  const [timeTaken, setTimeTaken] = useState(0);
 
   const params = useParams<{ slug: string; chapterId: string }>();
   const slug      = params.slug || '';
@@ -105,6 +118,7 @@ export default function Quiz() {
   const progress = total > 0 ? (idx / total) * 100 : 0;
 
   const answered = q ? isAnswered(qType, answer, q) : false;
+  const totalAllowed = total * SECONDS_PER_QUESTION;
 
   const handleCheck = () => {
     if (!q || !answered) return;
@@ -116,41 +130,77 @@ export default function Quiz() {
     setRevealed(true);
   };
 
+  // Grade + persist the run. Called both when the student reaches the end and
+  // when the countdown hits zero (auto-submit), so it lives on its own.
+  const finishQuiz = async (finalScores: boolean[]) => {
+    setScores(finalScores);
+    setDone(true);
+    setTimeTaken(totalAllowed - (secondsLeft ?? totalAllowed));
+
+    const finalCorrect = finalScores.filter(Boolean).length;
+    const finalPct = total > 0 ? Math.round((finalCorrect / total) * 100) : 0;
+    if (finalPct >= 90) fireConfetti();
+
+    if (user) {
+      setSaving(true);
+      try {
+        const result = await saveQuizScore(user.uid, chapterId, finalCorrect, total, { subjectSlug: slug, chapterName: chapter?.title });
+        if (result.xp > 0) {
+          const boostTag = result.boostMultiplier > 1 ? ` (🧪 ${result.boostMultiplier}x boosted!)` : '';
+          toast.success(`+${result.xp} XP · +${result.coinsEarned} coins added! 🎉${boostTag}`);
+        }
+        celebrateActivityResult(result);
+      } catch (err) { console.error(err); }
+      finally { setSaving(false); }
+    }
+  };
+
   const handleNext = async () => {
     if (!q) return;
     const correct = isCorrect(qType, answer, q);
     const newScores = [...scores, correct];
-    setScores(newScores);
     setJustPopped(true);
     setTimeout(() => setJustPopped(false), 400);
 
     if (idx < total - 1) {
+      setScores(newScores);
       setIdx(i => i + 1); setAnswer(null); setRevealed(false);
     } else {
-      setDone(true);
-      const finalCorrect = newScores.filter(Boolean).length;
-      const finalPct = total > 0 ? Math.round((finalCorrect / total) * 100) : 0;
-
-      if (finalPct >= 90) {
-        fireConfetti();
-      }
-
-      if (user) {
-        setSaving(true);
-        try {
-          const result = await saveQuizScore(user.uid, chapterId, finalCorrect, total, { subjectSlug: slug, chapterName: chapter?.title });
-          if (result.xp > 0) {
-            const boostTag = result.boostMultiplier > 1 ? ` (🧪 ${result.boostMultiplier}x boosted!)` : '';
-            toast.success(`+${result.xp} XP · +${result.coinsEarned} coins added! 🎉${boostTag}`);
-          }
-          celebrateActivityResult(result);
-        } catch (err) { console.error(err); }
-        finally { setSaving(false); }
-      }
+      await finishQuiz(newScores);
     }
   };
 
-  const reset = () => { setIdx(0); setAnswer(null); setRevealed(false); setScores([]); setDone(false); };
+  // Start the countdown once questions load.
+  useEffect(() => {
+    if (total > 0) setSecondsLeft(total * SECONDS_PER_QUESTION);
+  }, [total]);
+
+  // Tick down every second while a quiz is in progress.
+  useEffect(() => {
+    if (total === 0 || done) return;
+    const id = setInterval(() => {
+      setSecondsLeft(s => {
+        if (s === null) return s;
+        if (s <= 1) { clearInterval(id); return 0; }
+        return s - 1;
+      });
+    }, 1000);
+    return () => clearInterval(id);
+  }, [total, done]);
+
+  // Time's up → auto-submit with whatever's answered, crediting the current
+  // question if it was answered before the buzzer.
+  useEffect(() => {
+    if (secondsLeft !== 0 || done || total === 0) return;
+    const finalScores = q && answered ? [...scores, isCorrect(qType, answer, q)] : [...scores];
+    void finishQuiz(finalScores);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [secondsLeft, done, total]);
+
+  const reset = () => {
+    setIdx(0); setAnswer(null); setRevealed(false); setScores([]); setDone(false);
+    setSecondsLeft(total * SECONDS_PER_QUESTION); setTimeTaken(0);
+  };
 
   const correctCount = scores.filter(Boolean).length;
   const scorePct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
@@ -184,6 +234,28 @@ export default function Quiz() {
           </div>
         ) : !done ? (
           <>
+            {/* Countdown — one clock for the whole quiz; auto-submits at 0:00 */}
+            {secondsLeft !== null && (
+              <div className="flex justify-center">
+                <div
+                  role="timer"
+                  aria-label={`${fmtTime(secondsLeft)} remaining`}
+                  style={{
+                    display: 'inline-flex', alignItems: 'center', gap: 6,
+                    padding: '6px 15px', borderRadius: 999, fontWeight: 800,
+                    fontVariantNumeric: 'tabular-nums', fontSize: 14, letterSpacing: '0.02em',
+                    background: secondsLeft <= 30 ? '#fee2e2' : 'var(--bg-card-2)',
+                    color: secondsLeft <= 30 ? '#dc2626' : 'var(--text)',
+                    border: `2px solid ${secondsLeft <= 30 ? '#fca5a5' : 'var(--divider)'}`,
+                    animation: secondsLeft <= 10 && secondsLeft > 0 ? 'quizTimerPulse 1s ease-in-out infinite' : undefined,
+                  }}
+                >
+                  <Clock size={15} />
+                  {fmtTime(secondsLeft)}
+                </div>
+              </div>
+            )}
+
             {/* Progress */}
             <div>
               <div className="flex justify-between text-xs font-bold mb-1.5" style={{ color: 'var(--text-muted)' }}>
@@ -346,6 +418,10 @@ export default function Quiz() {
             <div>
               <div className="font-display font-black text-5xl" style={{ color }}>{grade}</div>
               <div className="text-lg font-bold mt-1" style={{ color: 'var(--text)' }}>{correctCount}/{total} correct · {scorePct}%</div>
+              <div className="text-sm font-bold mt-1 flex items-center justify-center gap-1.5" style={{ color: secondsLeft === 0 ? '#dc2626' : 'var(--text-muted)' }}>
+                <Clock size={14} />
+                {secondsLeft === 0 ? `Time's up — finished in ${fmtTime(timeTaken)}` : `Finished in ${fmtTime(timeTaken)}`}
+              </div>
             </div>
             <p className="font-semibold" style={{ color: 'var(--text-muted)' }}>{msg}</p>
 
@@ -364,7 +440,7 @@ export default function Quiz() {
               </Link>
               <a
                 href={`https://wa.me/?text=${encodeURIComponent(
-                  `🎯 I just scored ${scorePct}% (${correctCount}/${total}) on ${chapter?.title ?? 'Class 10'} (${subject?.name}) on CrossNotes!\n\nThink you can beat my score? Try the quiz here:\nhttps://crossnotes.rf.gd/${slug}.html`
+                  `🎯 I just scored ${scorePct}% (${correctCount}/${total}) in ${fmtTime(timeTaken)} on ${chapter?.title ?? 'Class 10'} (${subject?.name}) on CrossNotes!\n\nThink you can beat my score? Try the quiz here:\n${window.location.origin}/quiz/${slug}/${chapterId}`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

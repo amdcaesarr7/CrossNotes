@@ -1,6 +1,8 @@
 import { Link } from 'wouter';
 import { FileText, BookOpen, Globe, FolderOpen, CheckCircle2, Clock, ExternalLink, ChevronRight } from 'lucide-react';
 import type { VaultEntry } from '@/types/vault';
+import { isOfflineSavable } from '@/lib/offlineVault';
+import VaultOfflineButton from '@/components/VaultOfflineButton';
 
 const KIND_META: Record<VaultEntry['kind'], { icon: typeof FileText; label: string }> = {
   past_paper:    { icon: FileText,   label: 'Past Paper' },
@@ -26,6 +28,9 @@ function isLocalDownload(sourceUrl: string): boolean {
 export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug: string }) {
   const { icon: Icon, label } = KIND_META[entry.kind];
   const goesToChapter = !!entry.linkedChapterId;
+  // Local files (same-origin PDFs / Office decks) can be pinned for offline;
+  // chapter links use the app cache already, and external links can't be cached.
+  const savable = !goesToChapter && isOfflineSavable(entry.sourceUrl);
 
   const inner = (
     <div className="chapter-row" style={{ cursor: 'pointer' }}>
@@ -51,6 +56,8 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
             )}
           </div>
         </div>
+
+        {savable && <VaultOfflineButton url={entry.sourceUrl} title={entry.title} />}
 
         {goesToChapter ? (
           <ChevronRight size={18} className="shrink-0" style={{ color: 'var(--text-muted)' }} />

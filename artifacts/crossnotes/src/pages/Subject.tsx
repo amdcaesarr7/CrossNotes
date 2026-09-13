@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams } from 'wouter';
 import { BookOpen, Layers, LayoutList, Loader2, AlertTriangle, ChevronRight, X, Sparkles, FileText } from 'lucide-react';
@@ -226,6 +226,16 @@ export default function Subject() {
   const colorKey = subject.color || 'violet';
   const solutionSetCount = chapters.reduce((count, chapter) => count + chapter.notes.filter(isImportedSolution).length, 0);
 
+  const [selectedSection, setSelectedSection] = useState<string>('all');
+
+  const sections = useMemo(() => {
+    const secSet = new Set<string>();
+    for (const ch of chapters) {
+      if (ch.section) secSet.add(ch.section);
+    }
+    return Array.from(secSet);
+  }, [chapters]);
+
   return (
     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>
       <AppHeader backHref="/subjects" backLabel="Subjects" />
@@ -240,11 +250,15 @@ export default function Subject() {
           <div className="flex-1 min-w-0">
             <h1 className="font-display font-black text-xl leading-tight" style={{ color: 'var(--text)' }}>{subject.name}</h1>
             {subject.description && <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{subject.description}</p>}
-            <div className="flex items-center gap-2 mt-2">
-                            <span className="badge badge-new">{chapters.length} chapters</span>
+            <div className="flex items-center gap-2 mt-2 flex-wrap">
+              <span className="badge badge-new">{chapters.length} chapters</span>
+              {sections.length > 1 && (
+                <span className="badge badge-progress">
+                  {sections.map(s => `${chapters.filter(c => c.section === s).length} ${s}`).join(' · ')}
+                </span>
+              )}
               {solutionSetCount > 0 && <span className="badge badge-progress">✨ {solutionSetCount} solution sets</span>}
               {!subject.isLive && <span className="badge badge-revision">🔒 Coming soon</span>}
-
             </div>
           </div>
         </div>
@@ -276,7 +290,40 @@ export default function Subject() {
               )}
 
               <section>
-                <h2 className="section-header mb-3">Chapters</h2>
+                <div className="flex items-center justify-between mb-3">
+                  <h2 className="section-header">Chapters</h2>
+                  {sections.length > 1 && !loading && (
+                    <span className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>
+                      {selectedSection === 'all' ? `${regular.length} total` : `${regular.filter(c => c.section === selectedSection).length} chapters`}
+                    </span>
+                  )}
+                </div>
+
+                {/* Section filter pills if subject has sections */}
+                {sections.length > 1 && !loading && (
+                  <div className="flex items-center gap-2 overflow-x-auto pb-2 mb-3" style={{ scrollbarWidth: 'none' }}>
+                    <button
+                      onClick={() => setSelectedSection('all')}
+                      className={`subject-section-pill ${selectedSection === 'all' ? 'is-active' : ''}`}
+                    >
+                      All ({regular.length})
+                    </button>
+                    {sections.map(sec => {
+                      const count = regular.filter(ch => ch.section === sec).length;
+                      const emoji = sec === 'History' ? '🏛️' : sec === 'Political Science' ? '🗳️' : '📑';
+                      return (
+                        <button
+                          key={sec}
+                          onClick={() => setSelectedSection(sec)}
+                          className={`subject-section-pill ${selectedSection === sec ? 'is-active' : ''}`}
+                        >
+                          <span>{emoji}</span> {sec} ({count})
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+
                 {loading ? (
                   <div className="flex flex-col gap-3">
                     {[1,2,3].map(i => <div key={i} className="h-20 rounded-2xl animate-pulse" style={{ background: 'var(--bg-card-2)' }} />)}
@@ -287,9 +334,30 @@ export default function Subject() {
                     <p className="font-bold">No chapters yet. He just had One J*b</p>
                     <p className="text-sm mt-1">Drop a <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">{slug}.json</code> into <code className="text-xs bg-gray-100 px-1 py-0.5 rounded">src/data/content/</code></p>
                   </div>
+                ) : selectedSection === 'all' && sections.length > 1 ? (
+                  <div className="flex flex-col gap-6">
+                    {sections.map(sec => {
+                      const secChapters = regular.filter(ch => ch.section === sec);
+                      if (secChapters.length === 0) return null;
+                      const emoji = sec === 'History' ? '🏛️' : sec === 'Political Science' ? '🗳️' : '📑';
+                      return (
+                        <div key={sec} className="flex flex-col gap-3">
+                          <div className="flex items-center justify-between pt-1">
+                            <h3 className="text-xs font-black uppercase tracking-wider flex items-center gap-1.5" style={{ color: 'var(--text-muted)' }}>
+                              <span>{emoji}</span> {sec}
+                            </h3>
+                            <span className="badge badge-new">{secChapters.length} chapters</span>
+                          </div>
+                          {secChapters.map(ch => (
+                            <ChapterRow key={ch.id} chapter={ch} slug={slug} uid={user?.uid} />
+                          ))}
+                        </div>
+                      );
+                    })}
+                  </div>
                 ) : (
                   <div className="flex flex-col gap-3">
-                    {regular.map(ch => (
+                    {(selectedSection === 'all' ? regular : regular.filter(ch => ch.section === selectedSection)).map(ch => (
                       <ChapterRow key={ch.id} chapter={ch} slug={slug} uid={user?.uid} />
                     ))}
                   </div>

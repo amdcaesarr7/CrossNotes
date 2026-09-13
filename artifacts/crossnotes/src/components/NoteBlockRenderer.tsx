@@ -23,9 +23,12 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
   switch (note.type) {
     case 'heading':
       return (
-        <h2 className="font-display font-black text-lg mt-2" style={{ color: 'var(--text)' }}>
-          {note.content ?? note.title}
-        </h2>
+        <div className="note-heading-card">
+          <span className="note-heading-bullet" />
+          <h2 className="font-display font-black text-base" style={{ color: 'var(--text)' }}>
+            {note.content ?? note.title}
+          </h2>
+        </div>
       );
 
     case 'list':
@@ -235,11 +238,21 @@ function TrueFalseBlock({ note, index }: { note: StaticNote; index: number }) {
 
 function QnaBlock({ note, index }: { note: StaticNote; index: number }) {
   return (
-    <NoteCard note={{ ...note, title: note.title ?? 'Quick Question' }} index={index}>
-      <p className="text-sm font-semibold mb-3 flex items-start gap-2" style={{ color: 'var(--text)' }}>
-        <HelpCircle size={16} className="shrink-0 mt-0.5" style={{ color: 'var(--primary)' }} /> {note.question}
-      </p>
-      <p className="text-sm font-medium p-3 rounded-xl" style={{ background: 'var(--primary-light)', color: 'var(--text)' }}>{note.qnaAnswer}</p>
+    <NoteCard note={{ ...note, title: note.title ?? 'Question & Answer' }} index={index}>
+      <div className="qna-container">
+        <div className="qna-question-box">
+          <span className="qna-badge qna-badge-q">Q.</span>
+          <p className="text-sm font-bold leading-relaxed flex-1" style={{ color: 'var(--text)' }}>
+            {note.question}
+          </p>
+        </div>
+        <div className="qna-answer-box">
+          <span className="qna-badge qna-badge-a">Ans.</span>
+          <p className="text-sm font-medium leading-relaxed flex-1" style={{ color: 'var(--text)' }}>
+            {note.qnaAnswer}
+          </p>
+        </div>
+      </div>
     </NoteCard>
   );
 }

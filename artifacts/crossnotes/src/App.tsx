@@ -8,6 +8,7 @@ import AuthStartupGate from '@/components/AuthStartupGate';
 import AppInstallPrompt from '@/components/AppInstallPrompt';
 import FirstUseTour from '@/components/FirstUseTour';
 import MewCompanion from '@/components/MewCompanion';
+import OfflineNotice from '@/components/OfflineNotice';
 import { Toaster } from 'sonner';
 
 import Dashboard from '@/pages/Dashboard';
@@ -59,6 +60,7 @@ export default function App() {
                 <FirstUseTour />
                 <AppInstallPrompt />
                 <MewCompanion />
+                <OfflineNotice />
                 <Toaster richColors position="top-center" />
               </AuthStartupGate>
             </SoundProvider>

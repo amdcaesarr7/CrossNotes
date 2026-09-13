@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "crossnotes-preview",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@workspace/crossnotes", "run", "serve"],
+      "port": 5173
+    }
+  ]
+}

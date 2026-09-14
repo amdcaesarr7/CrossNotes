@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#8f2e78" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -55,6 +55,14 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <!-- iOS ignores SVG icons entirely — the Apple touch icon must be a PNG or the home-screen icon comes out blank. -->
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <!-- Preconnect hints: shave RTT for Firebase + Google Fonts + CDNs -->
+    <link rel="preconnect" href="https://firestore.googleapis.com" />
+    <link rel="preconnect" href="https://firebase.googleapis.com" />
+    <link rel="preconnect" href="https://identitytoolkit.googleapis.com" />
+    <link rel="preconnect" href="https://www.googleapis.com" />
+    <link rel="preconnect" href="https://securetoken.googleapis.com" />
+    <link rel="dns-prefetch" href="https://firebaseapp.com" />
+    <link rel="dns-prefetch" href="https://lh3.googleusercontent.com" />
   </head>
   <body>
     <div id="root"></div>

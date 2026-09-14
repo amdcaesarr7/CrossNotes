@@ -114,18 +114,16 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
       <header className="app-header">
         <div className="flex items-center gap-2 min-w-0">
           {backHref ? (
-            <Link href={backHref}>
-              <button className="app-header-back" aria-label="Back">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M15 18l-6-6 6-6" />
-                </svg>
-                {backLabel && <span>{backLabel}</span>}
-              </button>
+            <Link href={backHref} className="app-header-back" aria-label={backLabel ? `Back to ${backLabel}` : 'Go back'}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+              {backLabel && <span>{backLabel}</span>}
             </Link>
           ) : (
-            <Link href="/">
+            <Link href="/" aria-label="CrossNotes — go to dashboard">
               <div className="flex items-center gap-2">
-                <BookOpen size={22} style={{ color: 'var(--primary)' }} />
+                <BookOpen size={22} style={{ color: 'var(--primary)' }} aria-hidden="true" />
                 <span className="font-display font-bold text-lg hidden sm:inline" style={{ color: 'var(--primary)' }}>CrossNotes</span>
               </div>
             </Link>
@@ -140,31 +138,31 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
             </span>
           )}
           {user && (
-            <Link href="/shop">
-              <button className="app-header-coins" title={`${coins} coins — visit the Shop`}>
-                <Coins size={14} style={{ color: 'var(--gold)' }} />
-                <span>{coins}</span>
-              </button>
+            <Link href="/shop" aria-label={`${coins} coins — visit the Shop`}>
+              <div className="app-header-coins">
+                <Coins size={14} style={{ color: 'var(--gold)' }} aria-hidden="true" />
+                <span aria-hidden="true">{coins}</span>
+              </div>
             </Link>
           )}
           <button onClick={openFeedback} className="feedback-launcher" aria-label="Send feedback" title="Send feedback">
-            <MessageSquareText size={17} />
+            <MessageSquareText size={17} aria-hidden="true" />
             <span className="hidden sm:inline">Feedback</span>
           </button>
           <button onClick={toggleSound} className="app-header-icon-btn" aria-label={soundOn ? 'Mute sound effects' : 'Unmute sound effects'} title={soundOn ? 'Sound on' : 'Sound off'}>
-            {soundOn ? <Volume2 size={18} /> : <VolumeX size={18} />}
+            {soundOn ? <Volume2 size={18} aria-hidden="true" /> : <VolumeX size={18} aria-hidden="true" />}
           </button>
-          <button onClick={toggleDark} className="app-header-icon-btn" aria-label={isDark ? 'Light mode' : 'Dark mode'}>
-            {isDark ? <Sun size={18} /> : <Moon size={18} />}
+          <button onClick={toggleDark} className="app-header-icon-btn" aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}>
+            {isDark ? <Sun size={18} aria-hidden="true" /> : <Moon size={18} aria-hidden="true" />}
           </button>
           {user ? (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <button className="avatar-btn" aria-label={`Open ${user.displayName ?? 'account'} menu`} title="Open account menu">
                   {user.photoURL ? (
-                    <img src={user.photoURL} alt={user.displayName ?? ''} className="w-full h-full object-cover" />
+                    <img src={user.photoURL} alt={user.displayName ?? 'User avatar'} className="w-full h-full object-cover" loading="lazy" decoding="async" />
                   ) : (
-                    <span className="avatar-initial">{user.displayName?.charAt(0) ?? '?'}</span>
+                    <span className="avatar-initial" aria-hidden="true">{user.displayName?.charAt(0) ?? '?'}</span>
                   )}
                 </button>
               </DropdownMenuTrigger>
@@ -175,36 +173,36 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem asChild className="account-menu-item account-progress-item">
-                  <Link href="/progress"><BarChart3 size={17} /> <span>Progress</span></Link>
+                  <Link href="/progress"><BarChart3 size={17} aria-hidden="true" /> <span>Progress</span></Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="account-menu-item">
-                  <Link href="/credits"><BadgeInfo size={17} /> <span>Credits &amp; sources</span></Link>
+                  <Link href="/credits"><BadgeInfo size={17} aria-hidden="true" /> <span>Credits &amp; sources</span></Link>
                 </DropdownMenuItem>
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger className="account-menu-item account-settings-trigger">
-                    <Settings2 size={17} /> <span>Settings</span>
+                    <Settings2 size={17} aria-hidden="true" /> <span>Settings</span>
                   </DropdownMenuSubTrigger>
                   <DropdownMenuSubContent className="account-settings-menu" sideOffset={10} alignOffset={-6}>
                     <DropdownMenuLabel className="account-settings-heading">Quick settings</DropdownMenuLabel>
                     <DropdownMenuItem className="account-setting-toggle" onSelect={toggleDark}>
-                      {isDark ? <Sun size={16} /> : <Moon size={16} />}
+                      {isDark ? <Sun size={16} aria-hidden="true" /> : <Moon size={16} aria-hidden="true" />}
                       <span>{isDark ? 'Use light appearance' : 'Use dark appearance'}</span>
                     </DropdownMenuItem>
                     <DropdownMenuItem className="account-setting-toggle" onSelect={toggleSound}>
-                      {soundOn ? <Volume2 size={16} /> : <VolumeX size={16} />}
+                      {soundOn ? <Volume2 size={16} aria-hidden="true" /> : <VolumeX size={16} aria-hidden="true" />}
                       <span>{soundOn ? 'Sound effects on' : 'Sound effects off'}</span>
                     </DropdownMenuItem>
                   </DropdownMenuSubContent>
                 </DropdownMenuSub>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem className="account-menu-item account-signout-item" onSelect={handleSignOut}>
-                  <LogOut size={17} /> <span>Sign out</span>
+                  <LogOut size={17} aria-hidden="true" /> <span>Sign out</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           ) : (
             <button onClick={signInWithGoogle} className="avatar-btn" title="Sign in with Google" aria-label="Sign in with Google">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M15 3H19a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H15" /><polyline points="10 17 15 12 10 7" /><line x1="15" y1="12" x2="3" y2="12" />
               </svg>
             </button>

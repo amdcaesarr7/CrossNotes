@@ -40,6 +40,26 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, 'dist/public'),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          // Firebase SDK → its own chunk (large, loaded once, cached)
+          if (id.includes('node_modules/firebase') || id.includes('node_modules/@firebase')) {
+            return 'firebase';
+          }
+          // React + react-dom → separate stable chunk
+          if (id.includes('node_modules/react') || id.includes('node_modules/react-dom')) {
+            return 'react';
+          }
+          // Tanstack / Radix / Lucide / other UI libs → vendor chunk
+          if (id.includes('node_modules/@tanstack') || id.includes('node_modules/@radix-ui') ||
+              id.includes('node_modules/lucide-react') || id.includes('node_modules/sonner') ||
+              id.includes('node_modules/wouter') || id.includes('node_modules/framer-motion')) {
+            return 'vendor';
+          }
+        },
+      },
+    },
   },
   server: {
     port,

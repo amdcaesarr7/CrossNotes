@@ -1,0 +1,39 @@
+# CrossNotes
+
+> Free study notes, flashcards, quizzes, and gamified learning for Maharashtra State Board Class 10 students.
+
+CrossNotes is a Progressive Web App (PWA) for Class 10 Maharashtra Board students. It provides:
+
+- **Study Notes** — chapter-by-chapter notes for Science 1, Maths, History, Geography, English, Hindi, and more
+- **Flashcards** — spaced-repetition-style flashcard decks per chapter
+- **Quizzes** — MCQ-style quizzes with instant feedback and scoring
+- **Vault** — official board papers, textbook links, and open educational resources (downloadable offline)
+- **Gamification** — XP points, streaks, levels, coins, leaderboard, and potions
+- **Offline PWA** — works offline after first visit via service worker caching
+
+## Who is it for?
+
+Maharashtra SSC (Class 10) students preparing for board exams. All content is free.
+
+## Key pages
+
+- `/` — Dashboard: XP bar, streak ring, leaderboard preview, subject quick-links
+- `/subjects` — All subjects listing
+- `/subject/:slug` — Chapter list for a subject (e.g. `/subject/science-1`)
+- `/notes/:slug/:chapterId` — Read notes for a chapter
+- `/flashcards/:slug/:chapterId` — Flashcard deck for a chapter
+- `/quiz/:slug/:chapterId` — Quiz for a chapter
+- `/vault` — Official resource vault
+- `/progress` — Personal progress tracker
+- `/leaderboard` — Global XP leaderboard
+- `/shop` — Coin shop for boosts
+
+## Contact
+
+CrossNotes is maintained by a student developer. Feedback via the in-app feedback button.
+
+## Technical
+
+- Built with React, Vite, TailwindCSS, Firebase (Auth + Firestore)
+- Deployed on Vercel
+- Content is JSON files served as static assets

@@ -71,14 +71,14 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
   // Already converted into CrossNotes' own JSON content? Jump straight into
   // the reader instead of opening a raw PDF (per VAULT_FEATURE_PROMPT.md).
   if (goesToChapter) {
-    return <Link href={`/notes/${slug}/${entry.linkedChapterId}`}>{inner}</Link>;
+    return <Link href={`/notes/${slug}/${entry.linkedChapterId}`} aria-label={`Open notes: ${entry.title}`}>{inner}</Link>;
   }
 
   // Local files the browser cannot render inline (Office decks, archives) would
   // otherwise open a blank tab before downloading, so force a direct download.
   if (isLocalDownload(entry.sourceUrl)) {
     return (
-      <a href={entry.sourceUrl} download>
+      <a href={entry.sourceUrl} download aria-label={`Download ${entry.title}`}>
         {inner}
       </a>
     );
@@ -87,7 +87,7 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
   // Everything else — local PDF or external official/CC link — opens in a
   // new tab. Vault is a curated index, not a re-host of the reading UI.
   return (
-    <a href={entry.sourceUrl} target="_blank" rel="noopener noreferrer">
+    <a href={entry.sourceUrl} target="_blank" rel="noopener noreferrer" aria-label={`Open ${entry.title} (opens in new tab)`}>
       {inner}
     </a>
   );

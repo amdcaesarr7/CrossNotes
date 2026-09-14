@@ -13,15 +13,19 @@ export default function BottomNav() {
   const [loc] = useLocation();
 
   return (
-    <nav className="bottom-nav">
+    <nav className="bottom-nav" aria-label="Main navigation">
       {TABS.map(({ path, label, Icon }) => {
         const active = path === '/' ? loc === '/' : loc.startsWith(path);
         return (
-          <Link key={path} href={path}>
-            <button className={`bottom-nav-tab${active ? ' active' : ''}`}>
-              <Icon size={22} strokeWidth={active ? 2.5 : 1.8} />
-              <span>{label}</span>
-            </button>
+          <Link
+            key={path}
+            href={path}
+            className={`bottom-nav-tab${active ? ' active' : ''}`}
+            aria-label={label}
+            aria-current={active ? 'page' : undefined}
+          >
+            <Icon size={22} strokeWidth={active ? 2.5 : 1.8} aria-hidden="true" />
+            <span>{label}</span>
           </Link>
         );
       })}

@@ -336,7 +336,7 @@ export default function Dashboard() {
         </section>
 
         {/* ── Vault entry point ── */}
-        <Link href="/vault">
+        <Link href="/vault" aria-label="The Vault — official board papers, textbook links and open resources">
           <div className="clay-card hoverable p-4 flex items-center gap-4 cursor-pointer" style={{ background: 'var(--bg-card-2)', borderColor: 'var(--divider)' }}>
             <ShieldCheck size={28} style={{ color: 'var(--primary)' }} className="shrink-0" />
             <div className="flex-1 min-w-0">
@@ -378,9 +378,9 @@ export default function Dashboard() {
                       #{i + 1}
                     </span>
                     {e.photoURL ? (
-                      <img src={e.photoURL} className="w-8 h-8 rounded-full border" style={{ borderColor: 'var(--divider)' }} alt="" />
+                      <img src={e.photoURL} className="w-8 h-8 rounded-full border" style={{ borderColor: 'var(--divider)' }} alt={e.displayName ?? 'User'} loading="lazy" decoding="async" />
                     ) : (
-                      <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm" style={{ background: 'var(--bg-card-2)', color: 'var(--text)' }}>
+                      <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm" style={{ background: 'var(--bg-card-2)', color: 'var(--text)' }} aria-hidden="true">
                         {e.displayName?.charAt(0) ?? '?'}
                       </div>
                     )}

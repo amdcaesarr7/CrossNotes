@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Bricolage+Grotesque:wght@400;600;700;800&display=swap');
-
 /* ─── STRUCTURAL TOKENS ──────────────────────────────────────────── */
 :root {
-  --font-display: 'Bricolage Grotesque', sans-serif;
-  --font-body:    'Nunito', sans-serif;
+  --font-display: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  --font-body:    'Segoe UI', system-ui, sans-serif;
 
   /* Radii — generous for clay */
   --r-xs:   10px;
@@ -840,7 +838,7 @@ a:hover .tilt-left, a:hover .tilt-right { transform: rotate(0deg) translateY(-3p
   .chapter-actions-btn { padding: 9px 4px !important; font-size: 11px !important; }
 }
 
-/* ─── CHAPTER ROW ────────────────────────────────────────────────── */
+/* ─── CHAPTER ROW ────────────────────���───────────────────────────── */
 .chapter-row {
   background: var(--bg-card);
   border-radius: var(--r);

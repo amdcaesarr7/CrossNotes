@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Switch, Route, Router as WouterRouter } from 'wouter';
 import { AuthProvider } from '@/contexts/AuthContext';
@@ -11,20 +12,20 @@ import MewCompanion from '@/components/MewCompanion';
 import OfflineNotice from '@/components/OfflineNotice';
 import { Toaster } from 'sonner';
 
-import Dashboard from '@/pages/Dashboard';
-import Home from '@/pages/Home';
-import Subject from '@/pages/Subject';
-import Vault from '@/pages/Vault';
-import VaultSubject from '@/pages/VaultSubject';
-import Notes from '@/pages/Notes';
-import Flashcards from '@/pages/Flashcards';
-import Quiz from '@/pages/Quiz';
-import Progress from '@/pages/Progress';
-import Leaderboard from '@/pages/Leaderboard';
-import Shop from '@/pages/Shop';
-import AdminFeedback from '@/pages/AdminFeedback';
-import Credits from '@/pages/Credits';
-import NotFound from '@/pages/not-found';
+const Dashboard = lazy(() => import('@/pages/Dashboard'));
+const Home = lazy(() => import('@/pages/Home'));
+const Subject = lazy(() => import('@/pages/Subject'));
+const Vault = lazy(() => import('@/pages/Vault'));
+const VaultSubject = lazy(() => import('@/pages/VaultSubject'));
+const Notes = lazy(() => import('@/pages/Notes'));
+const Flashcards = lazy(() => import('@/pages/Flashcards'));
+const Quiz = lazy(() => import('@/pages/Quiz'));
+const Progress = lazy(() => import('@/pages/Progress'));
+const Leaderboard = lazy(() => import('@/pages/Leaderboard'));
+const Shop = lazy(() => import('@/pages/Shop'));
+const AdminFeedback = lazy(() => import('@/pages/AdminFeedback'));
+const Credits = lazy(() => import('@/pages/Credits'));
+const NotFound = lazy(() => import('@/pages/not-found'));
 
 const queryClient = new QueryClient();
 
@@ -37,26 +38,28 @@ export default function App() {
           <ThemeProvider>
             <SoundProvider>
               <AuthStartupGate>
-                <WouterRouter base={base}>
-                  <ErrorBoundary>
-                    <Switch>
-                      <Route path="/" component={Dashboard} />
-                      <Route path="/subjects" component={Home} />
-                      <Route path="/subject/:slug" component={Subject} />
-                      <Route path="/vault" component={Vault} />
-                      <Route path="/vault/:slug" component={VaultSubject} />
-                      <Route path="/notes/:slug/:chapterId" component={Notes} />
-                      <Route path="/flashcards/:slug/:chapterId" component={Flashcards} />
-                      <Route path="/quiz/:slug/:chapterId" component={Quiz} />
-                      <Route path="/progress" component={Progress} />
-                      <Route path="/leaderboard" component={Leaderboard} />
-                      <Route path="/shop" component={Shop} />
-                      <Route path="/admin/feedback" component={AdminFeedback} />
-                      <Route path="/credits" component={Credits} />
-                      <Route component={NotFound} />
-                    </Switch>
-                  </ErrorBoundary>
-                </WouterRouter>
+                <Suspense fallback={<main className="cn-body route-loading" aria-live="polite">Loading CrossNotes…</main>}>
+                  <WouterRouter base={base}>
+                    <ErrorBoundary>
+                      <Switch>
+                        <Route path="/" component={Dashboard} />
+                        <Route path="/subjects" component={Home} />
+                        <Route path="/subject/:slug" component={Subject} />
+                        <Route path="/vault" component={Vault} />
+                        <Route path="/vault/:slug" component={VaultSubject} />
+                        <Route path="/notes/:slug/:chapterId" component={Notes} />
+                        <Route path="/flashcards/:slug/:chapterId" component={Flashcards} />
+                        <Route path="/quiz/:slug/:chapterId" component={Quiz} />
+                        <Route path="/progress" component={Progress} />
+                        <Route path="/leaderboard" component={Leaderboard} />
+                        <Route path="/shop" component={Shop} />
+                        <Route path="/admin/feedback" component={AdminFeedback} />
+                        <Route path="/credits" component={Credits} />
+                        <Route component={NotFound} />
+                      </Switch>
+                    </ErrorBoundary>
+                  </WouterRouter>
+                </Suspense>
                 <FirstUseTour />
                 <AppInstallPrompt />
                 <MewCompanion />

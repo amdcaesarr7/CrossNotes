@@ -26,7 +26,7 @@ export interface BreadcrumbItem {
 }
 
 export interface StructuredData {
-  type: 'BreadcrumbList' | 'FAQPage' | 'WebSite' | 'Organization' | 'EducationalOrganization' | 'LearningResource' | 'Quiz';
+  type: 'BreadcrumbList' | 'FAQPage' | 'WebSite' | 'Organization' | 'EducationalOrganization' | 'LearningResource' | 'Article' | 'Quiz';
   data: Record<string, unknown>;
 }
 
@@ -124,6 +124,34 @@ export function buildBreadcrumbSchema(items: BreadcrumbItem[]): string {
   return JSON.stringify(schema);
 }
 
+export function buildSubjectSchema(subject: { name: string; description?: string; seoDescription?: string }, slug: string, chapterCount: number): string {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${subject.name} Maharashtra Board Class 10 Study Resources`,
+    description: subject.seoDescription ?? subject.description,
+    url: `${BASE_URL}/subject/${slug}`,
+    isPartOf: { '@type': 'WebSite', name: 'CrossNotes', url: BASE_URL },
+    author: { '@type': 'Organization', name: 'CrossNotes', url: BASE_URL },
+    publisher: { '@type': 'Organization', name: 'CrossNotes', url: BASE_URL },
+    educationalLevel: 'Class 10',
+    learningResourceType: 'Study guide',
+    numberOfItems: chapterCount,
+    inLanguage: ['en', 'mr', 'hi'],
+  });
+}
+
+export function setOrganizationSchema() {
+  setStructuredData('seo-organization', JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'EducationalOrganization',
+    name: 'CrossNotes',
+    url: BASE_URL,
+    logo: `${BASE_URL}/icons/icon-192.png`,
+    description: SEO_DEFAULTS.description,
+  }));
+}
+
 export function buildFAQSchema(faqs: Array<{ question: string; answer: string }>): string {
   const schema = {
     '@context': 'https://schema.org',
@@ -199,7 +227,7 @@ export const SEO_DEFAULTS = {
 export function getSubjectMeta(subject: { name: string; description?: string }) {
   return {
     title: `${subject.name} — Free Study Notes, Flashcards & Quizzes | CrossNotes`,
-    description: `Master ${subject.name} for Maharashtra Board Class 10 with free notes, flashcards, and quizzes. ${subject.description ?? 'Comprehensive study material to ace your exams.'}`,
+    description: (subject as { seoDescription?: string }).seoDescription ?? `Master ${subject.name} for Maharashtra Board Class 10 with free notes, flashcards, and quizzes. ${subject.description ?? 'Comprehensive study material to ace your exams.'}`,
   };
 }
 

@@ -7,11 +7,16 @@ export interface MetaTags {
   ogTitle?: string;
   ogDescription?: string;
   ogImage?: string;
+  ogImageAlt?: string;
+  ogImageWidth?: string;
+  ogImageHeight?: string;
   ogUrl?: string;
+  ogType?: 'website' | 'article' | 'book';
   twitterCard?: 'summary' | 'summary_large_image';
   twitterTitle?: string;
   twitterDescription?: string;
   twitterImage?: string;
+  twitterSite?: string;
   noIndex?: boolean;
 }
 
@@ -21,11 +26,18 @@ export interface BreadcrumbItem {
 }
 
 export interface StructuredData {
-  type: 'BreadcrumbList' | 'FAQPage' | 'WebSite' | 'Organization';
+  type: 'BreadcrumbList' | 'FAQPage' | 'WebSite' | 'Organization' | 'EducationalOrganization' | 'LearningResource' | 'Quiz';
   data: Record<string, unknown>;
 }
 
 const BASE_URL = 'https://crossnotes.rf.gd';
+const OG_IMAGE_URL = `${BASE_URL}/og-image.png`;
+const OG_IMAGE_ALT = 'CrossNotes free Maharashtra Board Class 10 study resources';
+
+function normalizeCanonical(value?: string) {
+  if (!value) return undefined;
+  return new URL(value, `${BASE_URL}/`).toString();
+}
 
 function setMetaTag(name: string, content: string | undefined, isProperty = false) {
   const selector = isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`;
@@ -73,29 +85,29 @@ function setLinkTag(rel: string, href: string | undefined, id?: string) {
 }
 
 export function applyMetaTags(tags: MetaTags) {
-  const { title, description, canonical, ogTitle, ogDescription, ogImage, ogUrl, twitterCard, twitterTitle, twitterDescription, twitterImage, noIndex } = tags;
+  const { title, description, canonical, ogTitle, ogDescription, ogImage, ogImageAlt, ogImageWidth, ogImageHeight, ogUrl, ogType, twitterCard, twitterTitle, twitterDescription, twitterImage, twitterSite, noIndex } = tags;
+  const normalizedCanonical = normalizeCanonical(canonical);
+  const image = ogImage ?? OG_IMAGE_URL;
 
-  if (title) {
-    document.title = title;
-  }
+  if (title) document.title = title;
 
   setMetaTag('description', description);
   setMetaTag('robots', noIndex ? 'noindex, nofollow' : 'index, follow');
-
-  if (canonical) {
-    setLinkTag('canonical', canonical, 'seo-canonical');
-    setMetaTag('og:url', ogUrl ?? canonical);
-  }
-
+  setLinkTag('canonical', normalizedCanonical, 'seo-canonical');
+  setMetaTag('og:url', ogUrl ?? normalizedCanonical, true);
   setMetaTag('og:title', ogTitle ?? title, true);
   setMetaTag('og:description', ogDescription ?? description, true);
-  setMetaTag('og:image', ogImage ?? `${BASE_URL}/favicon.svg`, true);
-  setMetaTag('og:type', 'website', true);
-
-  setMetaTag('twitter:card', twitterCard ?? 'summary');
+  setMetaTag('og:image', image, true);
+  setMetaTag('og:image:alt', ogImageAlt ?? OG_IMAGE_ALT, true);
+  setMetaTag('og:image:width', ogImageWidth ?? '1200', true);
+  setMetaTag('og:image:height', ogImageHeight ?? '630', true);
+  setMetaTag('og:type', ogType ?? 'website', true);
+  setMetaTag('twitter:card', twitterCard ?? 'summary_large_image');
   setMetaTag('twitter:title', twitterTitle ?? ogTitle ?? title);
   setMetaTag('twitter:description', twitterDescription ?? ogDescription ?? description);
-  setMetaTag('twitter:image', twitterImage ?? ogImage ?? `${BASE_URL}/favicon.svg`);
+  setMetaTag('twitter:image', twitterImage ?? image);
+  setMetaTag('twitter:image:alt', ogImageAlt ?? OG_IMAGE_ALT);
+  setMetaTag('twitter:site', twitterSite);
 }
 
 export function buildBreadcrumbSchema(items: BreadcrumbItem[]): string {

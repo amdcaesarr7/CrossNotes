@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams } from 'wouter';
 import { BookOpen, Layers, LayoutList, Loader2, AlertTriangle, ChevronRight, X, Sparkles, FileText } from 'lucide-react';
@@ -6,7 +6,8 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useUserProgress } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapters, type StaticChapter } from '@/hooks/useContent';
-import { useHead, useBreadcrumb, getSubjectMeta, SEO_DEFAULTS } from '@/hooks/useSeo';
+import { getSubjectBySlug } from '@/data/subjects';
+import { useHead, useBreadcrumb, getSubjectMeta, buildSubjectSchema, setStructuredData, removeStructuredData } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import { isImportedSolution } from '@/lib/importedSolutions';
 import BottomNav from '@/components/BottomNav';
@@ -220,8 +221,12 @@ export default function Subject() {
 
   const breadcrumbs = [{ name: 'Home', url: '/' }, { name: subject?.name ?? 'Subjects', url: `/subjects` }];
 
-  useHead(getSubjectMeta(subject));
+  useHead({ ...getSubjectMeta(subject), canonical: `/subject/${slug}`, ogType: 'article' });
   useBreadcrumb(breadcrumbs);
+  useEffect(() => {
+    setStructuredData('seo-subject', buildSubjectSchema(subject, slug, chapters.length));
+    return () => removeStructuredData('seo-subject');
+  }, [subject, slug, chapters.length]);
 
   const colorKey = subject.color || 'violet';
   const solutionSetCount = chapters.reduce((count, chapter) => count + chapter.notes.filter(isImportedSolution).length, 0);
@@ -262,6 +267,21 @@ export default function Subject() {
             </div>
           </div>
         </div>
+
+        <section className="clay-card p-5" aria-labelledby="subject-overview">
+          <h2 id="subject-overview" className="font-display font-black text-lg" style={{ color: 'var(--text)' }}>What you will learn</h2>
+          <p className="text-sm leading-relaxed mt-2" style={{ color: 'var(--text-muted)' }}>{subject.seoDescription}</p>
+          <ul className="grid gap-2 mt-4 sm:grid-cols-3">
+            {subject.learningFocus.map((point) => <li key={point} className="text-sm font-semibold flex gap-2" style={{ color: 'var(--text)' }}><span style={{ color: 'var(--primary)' }}>✓</span>{point}</li>)}
+          </ul>
+          <nav aria-label="Related subjects" className="flex flex-wrap gap-2 mt-5 pt-4" style={{ borderTop: '1px solid var(--divider)' }}>
+            <span className="text-xs font-bold uppercase tracking-wide w-full" style={{ color: 'var(--text-muted)' }}>Explore related subjects</span>
+            {['science-1', 'science-2', 'maths-1', 'maths-2', 'history', 'geography'].filter((relatedSlug) => relatedSlug !== slug).slice(0, 4).map((relatedSlug) => {
+              const related = getSubjectBySlug(relatedSlug);
+              return related ? <Link key={related.slug} href={`/subject/${related.slug}`} className="badge badge-new">{related.name}</Link> : null;
+            })}
+          </nav>
+        </section>
 
         {!subject.isLive && (
           <div className="clay-card p-4 flex items-start gap-3" style={{ background: '#fef3c7', borderColor: '#fcd34d' }}>

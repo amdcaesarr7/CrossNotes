@@ -55,14 +55,13 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <!-- iOS ignores SVG icons entirely — the Apple touch icon must be a PNG or the home-screen icon comes out blank. -->
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-    <!-- Preconnect hints: shave RTT for Firebase + Google Fonts + CDNs -->
+    <!-- Preconnect hints: only origins actually used at runtime (max 4) -->
     <link rel="preconnect" href="https://firestore.googleapis.com" />
-    <link rel="preconnect" href="https://firebase.googleapis.com" />
-    <link rel="preconnect" href="https://identitytoolkit.googleapis.com" />
     <link rel="preconnect" href="https://www.googleapis.com" />
-    <link rel="preconnect" href="https://securetoken.googleapis.com" />
-    <link rel="dns-prefetch" href="https://firebaseapp.com" />
+    <link rel="preconnect" href="https://firebase.googleapis.com" />
+    <link rel="preconnect" href="https://firebaseapp.com" />
     <link rel="dns-prefetch" href="https://lh3.googleusercontent.com" />
+    <link rel="dns-prefetch" href="https://identitytoolkit.googleapis.com" />
   </head>
   <body>
     <div id="root"></div>

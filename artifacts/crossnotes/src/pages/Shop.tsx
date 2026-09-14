@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import { Timestamp } from 'firebase/firestore';
 import { Coins, Sparkles, Zap, Loader2, Tag, Check, X } from 'lucide-react';
 import { toast } from 'sonner';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
-import { useUserProfile, buyPotion, usePotion, redeemNicknameTag, sanitizeNickname, MAX_STREAK_FREEZES } from '@/hooks/useFirestore';
+import { useUserProfile, buyPotion, usePotion, redeemNicknameTag, sanitizeNickname, MAX_STREAK_FREEZES, type ActiveBoost } from '@/hooks/useFirestore';
 import { POTIONS, getPotion } from '@/data/potions';
 import { sfx } from '@/lib/sfx';
 import { fireConfetti } from '@/lib/confetti';
@@ -33,11 +34,14 @@ export default function Shop() {
   const [busyId, setBusyId] = useState<string | null>(null);
   const [editingNickname, setEditingNickname] = useState(false);
   const [nicknameDraft, setNicknameDraft] = useState('');
+  // Optimistic mirror of the polled profile so a purchase/use reflects
+  // instantly instead of waiting for the next getDoc poll.
+  const [local, setLocal] = useState<{ coins?: number; inventory?: Record<string, number>; nickname?: string | null; activeBoost?: ActiveBoost | null } | null>(null);
 
-  const coins = profile?.coins ?? 0;
-  const inventory = profile?.inventory ?? {};
-  const nickname = profile?.nickname ?? null;
-  const activeBoost = profile?.activeBoost;
+  const coins = local?.coins ?? profile?.coins ?? 0;
+  const inventory = local?.inventory ?? profile?.inventory ?? {};
+  const nickname = local?.nickname !== undefined ? local.nickname : profile?.nickname ?? null;
+  const activeBoost = local?.activeBoost !== undefined ? local.activeBoost : profile?.activeBoost;
   const boostActive = activeBoost && activeBoost.expiresAt.toDate().getTime() > Date.now();
   const activeBoostPotion = boostActive ? getPotion(activeBoost.potionId) : undefined;
 
@@ -50,6 +54,11 @@ export default function Shop() {
       const result = await buyPotion(user.uid, potionId, cost);
       if (result.ok) {
         sfx.correct();
+        setLocal((prev) => ({
+          ...prev,
+          coins: result.coinsLeft,
+          inventory: { ...(prev?.inventory ?? inventory), [potionId]: (inventory[potionId] ?? 0) + 1 },
+        }));
         toast.success(`Bought! ${result.coinsLeft} coins left.`);
       } else {
         sfx.wrong();
@@ -71,9 +80,14 @@ export default function Shop() {
       if (result.ok && result.kind === 'xp_boost') {
         sfx.levelUp();
         fireConfetti({ count: 90 });
+        const expiresAt = Timestamp.fromMillis(result.expiresAt.getTime());
+        const inv = { ...(local?.inventory ?? inventory), [potionId]: (inventory[potionId] ?? 0) - 1 };
+        setLocal((prev) => ({ ...prev, inventory: inv, activeBoost: { potionId, multiplier: potion.multiplier, expiresAt } }));
         toast.success(`🧪 ${potion.name} active! ${potion.multiplier}x XP for ${potion.durationMin} min.`);
       } else if (result.ok && result.kind === 'streak_shield') {
         sfx.streakMilestone();
+        const inv = { ...(local?.inventory ?? inventory), [potionId]: (inventory[potionId] ?? 0) - 1 };
+        setLocal((prev) => ({ ...prev, inventory: inv }));
         toast.success(`🧊 +1 streak freeze banked (${result.streakFreezes}/${MAX_STREAK_FREEZES}).`);
       } else {
         toast.error("You don't actually own that one. Nice try.");
@@ -92,6 +106,8 @@ export default function Shop() {
       if (result.ok) {
         sfx.streakMilestone();
         fireConfetti({ count: 70 });
+        const inv = { ...(local?.inventory ?? inventory), ['nickname_tag']: (inventory['nickname_tag'] ?? 0) - 1 };
+        setLocal((prev) => ({ ...prev, inventory: inv, nickname: result.nickname }));
         toast.success(`🏷️ Now flexing as "${result.nickname}"`);
         setEditingNickname(false);
         setNicknameDraft('');

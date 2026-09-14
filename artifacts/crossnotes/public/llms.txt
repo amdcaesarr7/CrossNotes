@@ -1,39 +1,39 @@
-# CrossNotes
+# CrossNotes — Maharashtra Board Class 10 Study App
 
-> Free study notes, flashcards, quizzes, and gamified learning for Maharashtra State Board Class 10 students.
+CrossNotes is a free Progressive Web App for Maharashtra State Board Class 10 (SSC) students. It provides chapter-by-chapter study notes, flashcards, MCQs, gamified XP/streaks/leaderboard, official board papers, and offline support via a service worker. Content is in English (with Marathi and Hindi support).
 
-CrossNotes is a Progressive Web App (PWA) for Class 10 Maharashtra Board students. It provides:
+## Key Pages
 
-- **Study Notes** — chapter-by-chapter notes for Science 1, Maths, History, Geography, English, Hindi, and more
-- **Flashcards** — spaced-repetition-style flashcard decks per chapter
-- **Quizzes** — MCQ-style quizzes with instant feedback and scoring
-- **Vault** — official board papers, textbook links, and open educational resources (downloadable offline)
-- **Gamification** — XP points, streaks, levels, coins, leaderboard, and potions
-- **Offline PWA** — works offline after first visit via service worker caching
+- [Dashboard](https://crossnotes.rf.gd/): XP bar, streak ring, leaderboard preview, subject quick-links
+- [All Subjects](https://crossnotes.rf.gd/subjects): Listing of every subject
+- [Science 1](https://crossnotes.rf.gd/subject/science-1): Chapter list for Science 1
+- [Resource Vault](https://crossnotes.rf.gd/vault): Official board papers and downloadables
+- [My Progress](https://crossnotes.rf.gd/progress): Personal progress and weak-chapter tracking
+- [Leaderboard](https://crossnotes.rf.gd/leaderboard): Global XP leaderboard
+- [Coin Shop](https://crossnotes.rf.gd/shop): Boosts and cosmetics earned with coins
 
-## Who is it for?
+## Subjects
 
-Maharashtra SSC (Class 10) students preparing for board exams. All content is free.
+- Science 1
+- Science 2
+- Maths 1 (Algebra)
+- Maths 2 (Geometry)
+- History
+- Geography
+- English
+- Hindi
+- Marathi
 
-## Key pages
+## Tech Stack
 
-- `/` — Dashboard: XP bar, streak ring, leaderboard preview, subject quick-links
-- `/subjects` — All subjects listing
-- `/subject/:slug` — Chapter list for a subject (e.g. `/subject/science-1`)
-- `/notes/:slug/:chapterId` — Read notes for a chapter
-- `/flashcards/:slug/:chapterId` — Flashcard deck for a chapter
-- `/quiz/:slug/:chapterId` — Quiz for a chapter
-- `/vault` — Official resource vault
-- `/progress` — Personal progress tracker
-- `/leaderboard` — Global XP leaderboard
-- `/shop` — Coin shop for boosts
+- React + Vite + TailwindCSS
+- Firebase Authentication (Google sign-in) and Cloud Firestore
+- Deployed on Vercel with a service worker for offline study
+- Lazy-loaded route chunks keep the initial bundle small
 
-## Contact
+## Accessibility
 
-CrossNotes is maintained by a student developer. Feedback via the in-app feedback button.
-
-## Technical
-
-- Built with React, Vite, TailwindCSS, Firebase (Auth + Firestore)
-- Deployed on Vercel
-- Content is JSON files served as static assets
+- All interactive controls are keyboard-focusable with visible focus
+- Semantic HTML with ARIA roles used only where needed
+- Touch targets are at least 44px
+- Live regions announce dynamic content (Mew companion nudges, tour progress)

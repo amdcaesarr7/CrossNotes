@@ -7,7 +7,6 @@ import {
   query,
   orderBy,
   limit,
-  onSnapshot,
   increment,
   serverTimestamp,
   runTransaction,
@@ -313,12 +312,9 @@ export function useLeaderboard() {
 
   useEffect(() => {
     if (!db) { setLoading(false); return; }
-    const q = query(collection(db, "leaderboard"), orderBy("xp", "desc"), limit(25));
-    const unsub = onSnapshot(q, (snap) => {
-      setEntries(snap.docs.map((d) => ({ uid: d.id, ...d.data() } as LeaderboardEntry)));
-      setLoading(false);
-    }, (e) => { setError(e); setLoading(false); });
-    return unsub;
+    getDocs(query(collection(db, "leaderboard"), orderBy("xp", "desc"), limit(25)))
+      .then((snap) => { setEntries(snap.docs.map((d) => ({ uid: d.id, ...d.data() } as LeaderboardEntry))); setLoading(false); })
+      .catch((e) => { setError(e); setLoading(false); });
   }, []);
 
   return { entries, loading, error };
@@ -333,17 +329,30 @@ export function useUserProfile(uid: string | undefined) {
     if (!uid) { setLoading(false); return; }
     if (!db) { setError(new Error("Firebase not configured")); setLoading(false); return; }
     setLoading(true);
-    // Real-time listener, not a one-shot getDoc — without this, things like
-    // the header's coin count or an active potion boost never update unless
-    // the whole component happens to remount (e.g. buying a potion on the
-    // Shop page doesn't navigate anywhere, so a one-shot fetch would just
-    // show stale coins forever after the purchase).
-    const unsubscribe = onSnapshot(
-      doc(db, "users", uid),
-      (snap) => { setProfile(snap.exists() ? (snap.data() as UserProfile) : null); setLoading(false); },
-      (e) => { setError(e); setLoading(false); },
-    );
-    return unsubscribe;
+    const firestore = db;
+
+    // Poll getDoc instead of a long-lived onSnapshot listener: Firestore's
+    // persistent WebChannel (the /Listen/channel request) can time out on
+    // slow/mobile connections, spamming ERR_TIMED_OUT into the console and
+    // hurting Lighthouse's "browser errors" best-practices audit. A 15s
+    // poll keeps coins/boosts close enough to real-time for a study app
+    // while staying resilient on flaky networks.
+    let cancelled = false;
+    const fetchProfile = async () => {
+      try {
+        const snap = await getDoc(doc(firestore, "users", uid));
+        if (cancelled) return;
+        setProfile(snap.exists() ? (snap.data() as UserProfile) : null);
+        setLoading(false);
+      } catch (e) {
+        if (cancelled) return;
+        setError(e instanceof Error ? e : new Error(String(e)));
+        setLoading(false);
+      }
+    };
+    fetchProfile();
+    const interval = window.setInterval(fetchProfile, 15_000);
+    return () => { cancelled = true; window.clearInterval(interval); };
   }, [uid]);
 
   return { profile, loading, error };

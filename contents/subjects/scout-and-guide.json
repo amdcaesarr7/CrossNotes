@@ -1,0 +1,31 @@
+{
+  "chapters": [
+    {
+      "id": "ch1",
+      "num": 1,
+      "title": "Pravesh to Rajyapuraskar",
+      "emoji": "⛺",
+      "notes": [
+        {
+          "id": "n1",
+          "title": "Scout Guide Notes",
+          "content": "Notes from the Scout Guide syllabus PDF uploaded to the vault. Contains information from Pravesh to Rajyapuraskar levels including scout law, promise, motto, salute, uniform, national flag, anthem, and more.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        { "id": "f1", "front": "What does the scout guide PDF cover?", "back": "Syllabus from Pravesh to Rajyapuraskar levels.", "order": 1 }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "question": "Where is the scout guide PDF stored?",
+          "options": ["Local directory", "Vault", "Database", "Cloud storage"],
+          "correctAnswer": 1,
+          "explanation": "The scout guide PDF has been uploaded to the vault for reference.",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

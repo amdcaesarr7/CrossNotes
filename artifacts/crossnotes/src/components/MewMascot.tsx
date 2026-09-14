@@ -43,7 +43,7 @@ export default function MewMascot({
       role="img"
       aria-label={`Mew looks ${mood}`}
     >
-      <svg className="mew-mascot__svg" viewBox="0 0 100 122" aria-hidden="true">
+      <svg className="mew-mascot__svg" viewBox="0 0 100 122" aria-hidden="true" focusable="false">
         <defs>
           <linearGradient id={faceGrad} x1="0" y1="0" x2="0" y2="1">
             <stop offset="0" stopColor={C.faceTop} />

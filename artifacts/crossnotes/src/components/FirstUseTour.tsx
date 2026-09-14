@@ -96,10 +96,10 @@ export default function FirstUseTour() {
           <p id="mew-tour-copy">{activeStep.copy}</p>
         </div>
 
-        <div className="mew-tour-footer">
-          <div className="mew-tour-progress" aria-label={`Step ${step + 1} of ${steps.length}`}>
-            {steps.map((item, index) => <span key={item.eyebrow} className={index === step ? 'active' : index < step ? 'complete' : ''} />)}
-          </div>
+<div className="mew-tour-footer">
+           <div className="mew-tour-progress" role="progressbar" aria-label={`Step ${step + 1} of ${steps.length}`} aria-valuemin={1} aria-valuemax={steps.length} aria-valuenow={step + 1}>
+             {steps.map((item, index) => <span key={item.eyebrow} className={index === step ? 'active' : index < step ? 'complete' : ''} aria-hidden="true" />)}
+           </div>
           <div className="mew-tour-actions">
             <button className="mew-tour-skip" onClick={closeTour}>Skip</button>
             <button className="clay-btn mew-tour-next" onClick={goForward}>

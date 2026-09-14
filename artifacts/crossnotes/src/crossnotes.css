@@ -562,6 +562,7 @@ a .clay-card:active,
   justify-content: center !important;
   gap: 6px;
   padding: 11px 20px;
+  min-height: 44px; /* WCAG touch target */
   border-radius: var(--r-pill);
   font-family: var(--font-body) !important;
   font-weight: 700 !important;
@@ -576,6 +577,7 @@ a .clay-card:active,
               box-shadow 0.12s ease,
               background 0.15s ease;
   white-space: nowrap;
+  text-decoration: none;
 }
 .clay-btn-ghost:hover:not(:disabled) {
   transform: translateY(-2px);
@@ -652,9 +654,9 @@ a .clay-card:active,
 }
 
 /* ─── RANK COLORS ────────────────────────────────────────────────── */
-.rank-gold   { color: #d97706; }
-.rank-silver { color: #9ca3af; }
-.rank-bronze { color: #b45309; }
+.rank-gold   { color: #92400e; }
+.rank-silver { color: #4b5563; }
+.rank-bronze { color: #7c2d12; }
 
 /* ─── 3D FLIP CARD ───────────────────────────────────────────────── */
 .perspective-1000    { perspective: 1000px; }

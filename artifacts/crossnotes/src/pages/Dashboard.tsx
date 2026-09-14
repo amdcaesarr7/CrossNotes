@@ -10,6 +10,7 @@ import { useStaticSubjects } from '@/hooks/useContent';
 import { useStudyReminder } from '@/hooks/useStudyReminder';
 import { useHead, useBreadcrumb } from '@/hooks/useSeo';
 import { isNotificationSupported, getReminderPreference, requestReminderPermission } from '@/lib/notifications';
+import { googleAvatarUrl } from '@/lib/utils';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
@@ -377,9 +378,9 @@ export default function Dashboard() {
                     <span className={`font-display font-black text-sm w-6 text-center ${i === 0 ? 'rank-gold' : i === 1 ? 'rank-silver' : i === 2 ? 'rank-bronze' : ''}`} style={i > 2 ? { color: 'var(--text-muted)' } : {}}>
                       #{i + 1}
                     </span>
-                    {e.photoURL ? (
-                      <img src={e.photoURL} className="w-8 h-8 rounded-full border" style={{ borderColor: 'var(--divider)' }} alt={e.displayName ?? 'User'} loading="lazy" decoding="async" />
-                    ) : (
+{e.photoURL ? (
+                    <img src={googleAvatarUrl(e.photoURL, 32)} className="w-8 h-8 rounded-full border" style={{ borderColor: 'var(--divider)' }} alt={e.displayName ?? 'User'} loading="lazy" decoding="async" width={32} height={32} />
+                  ) : (
                       <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm" style={{ background: 'var(--bg-card-2)', color: 'var(--text)' }} aria-hidden="true">
                         {e.displayName?.charAt(0) ?? '?'}
                       </div>
@@ -396,9 +397,7 @@ export default function Dashboard() {
                 </div>
               ))
             )}
-            <Link href="/leaderboard">
-              <button className="clay-btn-ghost w-full mt-2 py-2.5 text-sm">Full Leaderboard →</button>
-            </Link>
+            <Link href="/leaderboard" className="clay-btn-ghost w-full mt-2 text-sm no-underline">Full Leaderboard →</Link>
           </div>
         </section>
 

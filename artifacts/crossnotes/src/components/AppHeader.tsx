@@ -27,6 +27,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useSound } from '@/contexts/SoundContext';
 import { useUserProfile } from '@/hooks/useFirestore';
 import { submitFeedback, type FeedbackKind } from '@/lib/feedback';
+import { googleAvatarUrl } from '@/lib/utils';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -160,7 +161,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
               <DropdownMenuTrigger asChild>
                 <button className="avatar-btn" aria-label={`Open ${user.displayName ?? 'account'} menu`} title="Open account menu">
                   {user.photoURL ? (
-                    <img src={user.photoURL} alt={user.displayName ?? 'User avatar'} className="w-full h-full object-cover" loading="lazy" decoding="async" />
+                    <img src={googleAvatarUrl(user.photoURL, 44)} alt={user.displayName ?? 'User avatar'} className="w-full h-full object-cover" loading="lazy" decoding="async" width={44} height={44} />
                   ) : (
                     <span className="avatar-initial" aria-hidden="true">{user.displayName?.charAt(0) ?? '?'}</span>
                   )}

@@ -3,6 +3,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useLeaderboard, getLevel } from '@/hooks/useFirestore';
 import { useHead, useBreadcrumb, getLeaderboardMeta } from '@/hooks/useSeo';
+import { googleAvatarUrl } from '@/lib/utils';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
@@ -27,7 +28,7 @@ function PodiumCard({ entry, rank }: {
           style={{ background: 'var(--bg-card)', border: `3px solid ${s.border}`, boxShadow: `0 0 0 4px ${s.border}33` }}
         >
           {entry.photoURL ? (
-            <img src={entry.photoURL} className="w-full h-full object-cover" alt="" />
+            <img src={googleAvatarUrl(entry.photoURL, 56)} className="w-full h-full object-cover" alt="" width={56} height={56} />
           ) : (
             <span style={{ color: 'var(--text)' }}>{entry.displayName?.charAt(0) ?? '?'}</span>
           )}
@@ -132,13 +133,13 @@ export default function LeaderboardPage() {
                     <div className="flex items-center gap-3">
                       <span
                         className={`font-display font-black text-sm w-7 text-center shrink-0 ${i === 0 ? 'rank-gold' : i === 1 ? 'rank-silver' : i === 2 ? 'rank-bronze' : ''}`}
-                        style={i > 2 ? { color: 'var(--text-muted)', opacity: 0.6 } : {}}
+                        style={i > 2 ? { color: 'var(--text-muted)', opacity: 0.6 } : undefined}
                       >
                         #{i + 1}
                       </span>
-                      {entry.photoURL ? (
-                        <img src={entry.photoURL} className="w-9 h-9 rounded-full border-2 shrink-0" style={{ borderColor: 'var(--divider)' }} alt="" />
-                      ) : (
+{entry.photoURL ? (
+                    <img src={googleAvatarUrl(entry.photoURL, 36)} className="w-9 h-9 rounded-full border-2 shrink-0" style={{ borderColor: 'var(--divider)' }} alt="" loading="lazy" decoding="async" width={36} height={36} />
+                  ) : (
                         <div className="w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm shrink-0" style={{ background: 'var(--bg-card-2)', color: 'var(--text)' }}>
                           {entry.displayName?.charAt(0) ?? '?'}
                         </div>

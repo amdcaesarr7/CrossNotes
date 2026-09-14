@@ -5,11 +5,10 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useStaticSubjects } from '@/hooks/useContent';
 import { loadVisibleSubsections } from '@/hooks/useVault';
 import { useHead, useBreadcrumb, getVaultMeta } from '@/hooks/useSeo';
+import { GENERAL_SHELF, SPECIAL_SHELVES } from '@/data/vault/meta';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
-
-const GENERAL_SHELF = { slug: 'general', name: 'General', emoji: '🗂️', color: 'gold', description: "Study assets that aren't tied to one subject" };
 
 export default function Vault() {
   const { isDark } = useTheme();
@@ -38,6 +37,7 @@ export default function Vault() {
   const loading = shelvesWithContent === null;
   const liveShelves = [
     ...(shelvesWithContent?.has(GENERAL_SHELF.slug) ? [GENERAL_SHELF] : []),
+    ...SPECIAL_SHELVES.filter(shelf => shelvesWithContent?.has(shelf.slug)),
     ...subjects.filter(s => shelvesWithContent?.has(s.slug)),
   ];
 

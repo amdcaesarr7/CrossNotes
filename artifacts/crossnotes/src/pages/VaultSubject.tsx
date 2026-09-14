@@ -4,12 +4,11 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { useStaticSubject } from '@/hooks/useContent';
 import { useVaultSubsections } from '@/hooks/useVault';
 import { useHead, useBreadcrumb } from '@/hooks/useSeo';
+import { GENERAL_SHELF, getSpecialShelf } from '@/data/vault/meta';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
 import VaultEntryRow from '@/components/VaultEntryRow';
 import '../crossnotes.css';
-
-const GENERAL_META = { name: 'General', emoji: '🗂️', color: 'gold', description: "Study assets that aren't tied to one subject" };
 
 export default function VaultSubject() {
   const { isDark } = useTheme();
@@ -18,7 +17,7 @@ export default function VaultSubject() {
 
   const isGeneral = slug === 'general';
   const subject = useStaticSubject(slug);
-  const meta = isGeneral ? GENERAL_META : subject;
+  const meta = isGeneral ? GENERAL_SHELF : (getSpecialShelf(slug) ?? subject);
   const { subsections, loading } = useVaultSubsections(slug);
 
   if (!meta) {

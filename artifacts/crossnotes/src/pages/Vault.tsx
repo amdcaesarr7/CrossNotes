@@ -25,7 +25,7 @@ export default function Vault() {
   // one effect rather than a hook-per-subject, which rules of hooks forbid.
   useEffect(() => {
     let cancelled = false;
-    const slugs = [...subjects.map(s => s.slug), GENERAL_SHELF.slug];
+    const slugs = [...subjects.map(s => s.slug), GENERAL_SHELF.slug, ...SPECIAL_SHELVES.map(shelf => shelf.slug)];
     Promise.all(slugs.map(slug => loadVisibleSubsections(slug).then(subs => [slug, subs.length > 0] as const)))
       .then(results => {
         if (cancelled) return;

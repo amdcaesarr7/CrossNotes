@@ -1,0 +1,35 @@
+{
+  "subsections": {
+    "subsec1": {
+      "title": "Past Board Papers",
+      "emoji": "📄",
+      "entries": []
+    },
+    "subsec2": {
+      "title": "Official Textbook",
+      "emoji": "📘",
+      "entries": [
+        {
+          "id": "scout-guide-textbook",
+          "title": "Scout Guide Syllabus",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/ScoutAndGuide/scout guide.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec3": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": []
+    },
+    "subsec4": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "🌐",
+      "entries": []
+    },
+    "subsec5": {}
+  }
+}

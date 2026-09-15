@@ -537,6 +537,34 @@ html, body {
 .cookie-consent-note { display: flex; align-items: center; gap: 4px; margin-top: 9px; color: var(--cookie-muted); font-size: 10px; }
 @media (max-width: 520px) { .cookie-consent { right: 10px; bottom: max(10px, env(safe-area-inset-bottom, 0px)); width: calc(100vw - 20px); } }
 
+.login-reminder {
+  position: fixed;
+  left: 18px;
+  bottom: max(18px, env(safe-area-inset-bottom, 0px));
+  z-index: 290;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: min(430px, calc(100vw - 28px));
+  padding: 12px 13px;
+  border: 1px solid var(--divider, rgba(120, 90, 200, .16));
+  border-radius: 17px;
+  background: var(--bg-card, #fff);
+  color: var(--text, #1a1035);
+  box-shadow: var(--shadow-card, 0 10px 28px rgba(50, 35, 100, .22));
+  animation: slide-up .24s ease both;
+}
+.login-reminder-copy { display: grid; min-width: 0; flex: 1; gap: 2px; }
+.login-reminder-copy strong { font-size: 13px; }
+.login-reminder-copy span { color: var(--text-muted, #4a4570); font-size: 11px; line-height: 1.4; }
+.login-reminder-action { display: inline-flex; align-items: center; gap: 5px; flex: none; padding: 7px 10px; border: 1px solid var(--primary, #8a1c1c); border-radius: 9px; background: var(--primary, #8a1c1c); color: #fff; font-size: 11px; font-weight: 800; cursor: pointer; }
+.login-reminder-close { display: grid; place-items: center; flex: none; padding: 4px; border: 0; border-radius: 8px; background: transparent; color: var(--text-muted, #4a4570); cursor: pointer; }
+.login-reminder-close:hover { background: var(--bg-card-2, #f4f0ff); color: var(--text, #1a1035); }
+@media (max-width: 520px) {
+  .login-reminder { left: 10px; bottom: max(10px, env(safe-area-inset-bottom, 0px)); width: calc(100vw - 20px); }
+  .login-reminder-action { padding-inline: 8px; }
+}
+
 /* ─── BOTTOM NAV — floating clay pill ────────────────────────────── */
 .bottom-nav {
   position: fixed;

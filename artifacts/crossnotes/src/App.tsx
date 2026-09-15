@@ -11,6 +11,7 @@ import FirstUseTour from '@/components/FirstUseTour';
 import MewCompanion from '@/components/MewCompanion';
 import OfflineNotice from '@/components/OfflineNotice';
 import CookieConsent from '@/components/CookieConsent';
+import LoginReminder from '@/components/LoginReminder';
 import { Toaster } from 'sonner';
 
 const Dashboard = lazy(() => import('@/pages/Dashboard'));
@@ -66,6 +67,7 @@ export default function App() {
                 <MewCompanion />
                 <OfflineNotice />
                 <CookieConsent />
+                <LoginReminder />
                 <Toaster richColors position="top-center" />
               </AuthStartupGate>
             </SoundProvider>

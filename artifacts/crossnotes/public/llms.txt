@@ -4,13 +4,13 @@ CrossNotes is a free Progressive Web App for Maharashtra State Board Class 10 (S
 
 ## Key Pages
 
-- [Dashboard](https://crossnotes.rf.gd/): XP bar, streak ring, leaderboard preview, subject quick-links
-- [All Subjects](https://crossnotes.rf.gd/subjects): Listing of every subject
-- [Science 1](https://crossnotes.rf.gd/subject/science-1): Chapter list for Science 1
-- [Resource Vault](https://crossnotes.rf.gd/vault): Official board papers and downloadables
-- [My Progress](https://crossnotes.rf.gd/progress): Personal progress and weak-chapter tracking
-- [Leaderboard](https://crossnotes.rf.gd/leaderboard): Global XP leaderboard
-- [Coin Shop](https://crossnotes.rf.gd/shop): Boosts and cosmetics earned with coins
+- [Dashboard](https://cross-notes-crossnotes-i2u7.vercel.app/): XP bar, streak ring, leaderboard preview, subject quick-links
+- [All Subjects](https://cross-notes-crossnotes-i2u7.vercel.app/subjects): Listing of every subject
+- [Science 1](https://cross-notes-crossnotes-i2u7.vercel.app/subject/science-1): Chapter list for Science 1
+- [Resource Vault](https://cross-notes-crossnotes-i2u7.vercel.app/vault): Official board papers and downloadables
+- [My Progress](https://cross-notes-crossnotes-i2u7.vercel.app/progress): Personal progress and weak-chapter tracking
+- [Leaderboard](https://cross-notes-crossnotes-i2u7.vercel.app/leaderboard): Global XP leaderboard
+- [Coin Shop](https://cross-notes-crossnotes-i2u7.vercel.app/shop): Boosts and cosmetics earned with coins
 
 ## Subjects
 

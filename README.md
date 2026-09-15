@@ -4,7 +4,7 @@ CrossNotes is a free, open-source study companion for Maharashtra State Board (S
 
 ## Live app
 
-**https://crossnotes.rf.gd/**
+**https://cross-notes-crossnotes-i2u7.vercel.app/**
 
 You can browse the public learning material without an account. Signing in enables synced progress, XP, streaks, coins, and leaderboard participation.
 
@@ -67,4 +67,4 @@ Open an issue for bugs, content corrections, or feature ideas. Pull requests sho
 
 ## Credits
 
-CrossNotes is built by Caesar Anwar with support from the tools and resources listed in the in-app [Credits page](https://crossnotes.rf.gd/credits).
+CrossNotes is built by Caesar Anwar with support from the tools and resources listed in the in-app [Credits page](https://cross-notes-crossnotes-i2u7.vercel.app/credits).

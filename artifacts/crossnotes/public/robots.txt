@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://crossnotes.rf.gd/sitemap.xml
+Sitemap: https://cross-notes-crossnotes-i2u7.vercel.app/sitemap.xml

@@ -30,7 +30,7 @@ export interface StructuredData {
   data: Record<string, unknown>;
 }
 
-const BASE_URL = 'https://crossnotes.rf.gd';
+const BASE_URL = 'https://cross-notes-crossnotes-i2u7.vercel.app';
 const OG_IMAGE_URL = `${BASE_URL}/og-image.png`;
 const OG_IMAGE_ALT = 'CrossNotes free Maharashtra Board Class 10 study resources';
 

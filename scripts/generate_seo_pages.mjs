@@ -128,19 +128,19 @@ function generateHtml(subj) {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://crossnotes.rf.gd/"
+            "item": "https://cross-notes-crossnotes-i2u7.vercel.app/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Subjects",
-            "item": "https://crossnotes.rf.gd/#subjects"
+            "item": "https://cross-notes-crossnotes-i2u7.vercel.app/#subjects"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": subj.name,
-            "item": `https://crossnotes.rf.gd/${subj.htmlName}`
+            "item": `https://cross-notes-crossnotes-i2u7.vercel.app/${subj.htmlName}`
           }
         ]
       },
@@ -151,7 +151,7 @@ function generateHtml(subj) {
         "provider": {
           "@type": "Organization",
           "name": "CrossNotes",
-          "sameAs": "https://crossnotes.rf.gd/"
+          "sameAs": "https://cross-notes-crossnotes-i2u7.vercel.app/"
         },
         "hasCourseInstance": courseLessons
       }
@@ -211,21 +211,21 @@ function generateHtml(subj) {
   <meta name="description" content="${subj.metaDesc}">
   <meta name="keywords" content="${subj.keywords}">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://crossnotes.rf.gd/${subj.htmlName}">
+  <link rel="canonical" href="https://cross-notes-crossnotes-i2u7.vercel.app/${subj.htmlName}">
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="CrossNotes">
   <meta property="og:title" content="${subj.pageTitle}">
   <meta property="og:description" content="${subj.metaDesc}">
-  <meta property="og:url" content="https://crossnotes.rf.gd/${subj.htmlName}">
-  <meta property="og:image" content="https://crossnotes.rf.gd/assets/favicon.svg">
+  <meta property="og:url" content="https://cross-notes-crossnotes-i2u7.vercel.app/${subj.htmlName}">
+  <meta property="og:image" content="https://cross-notes-crossnotes-i2u7.vercel.app/assets/favicon.svg">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${subj.pageTitle}">
   <meta name="twitter:description" content="${subj.metaDesc}">
-  <meta name="twitter:image" content="https://crossnotes.rf.gd/assets/favicon.svg">
+  <meta name="twitter:image" content="https://cross-notes-crossnotes-i2u7.vercel.app/assets/favicon.svg">
 
   <meta name="theme-color" content="#f4f1ff">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -613,7 +613,7 @@ function generateHtml(subj) {
               <button class="btn btn-primary btn-sm" id="quizNextBtn" style="display: none;">Next Question →</button>
               <a href="https://cross-notes-crossnotes-i2u7.vercel.app/subject/${subj.slug}" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Open Full Quiz &amp; Leaderboard ↗</a>
             </div>
-            <a href="https://wa.me/?text=${encodeURIComponent(`I am practicing Class 10 ${subj.name} on CrossNotes! Try this free quiz: https://crossnotes.rf.gd/${subj.htmlName}`)}" target="_blank" rel="noopener" class="share-whatsapp-btn">
+            <a href="https://wa.me/?text=${encodeURIComponent(`I am practicing Class 10 ${subj.name} on CrossNotes! Try this free quiz: https://cross-notes-crossnotes-i2u7.vercel.app/${subj.htmlName}`)}" target="_blank" rel="noopener" class="share-whatsapp-btn">
               <span>💬 Challenge Classmate</span>
             </a>
           </div>

@@ -20,12 +20,14 @@ import {
   BadgeInfo,
   Settings2,
   LogOut,
+  Eye,
+  EyeOff,
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useSound } from '@/contexts/SoundContext';
-import { useUserProfile } from '@/hooks/useFirestore';
+import { setLeaderboardVisibility, useUserProfile } from '@/hooks/useFirestore';
 import { submitFeedback, type FeedbackKind } from '@/lib/feedback';
 import { googleAvatarUrl } from '@/lib/utils';
 import {
@@ -63,6 +65,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
   const { soundOn, toggleSound } = useSound();
   const { profile } = useUserProfile(user?.uid);
   const coins = profile?.coins ?? 0;
+  const leaderboardHidden = profile?.leaderboardOptOut ?? false;
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [feedbackKind, setFeedbackKind] = useState<FeedbackKind>('idea');
   const [message, setMessage] = useState('');
@@ -91,6 +94,16 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
   };
 
   const closeFeedback = () => setFeedbackOpen(false);
+
+  const handleLeaderboardVisibility = async () => {
+    try {
+      await setLeaderboardVisibility(user!.uid, !leaderboardHidden);
+      toast.success(leaderboardHidden ? 'Your XP is visible on the leaderboard again.' : 'Your XP is now hidden from the leaderboard.');
+    } catch (error) {
+      console.error('[AppHeader] Failed to update leaderboard visibility:', error);
+      toast.error('Could not update leaderboard visibility. Please try again.');
+    }
+  };
 
   const handleSubmitFeedback = async () => {
     const cleanedMessage = message.trim();
@@ -192,6 +205,10 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                     <DropdownMenuItem className="account-setting-toggle" onSelect={toggleSound}>
                       {soundOn ? <Volume2 size={16} aria-hidden="true" /> : <VolumeX size={16} aria-hidden="true" />}
                       <span>{soundOn ? 'Sound effects on' : 'Sound effects off'}</span>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem className="account-setting-toggle" onSelect={handleLeaderboardVisibility}>
+                      {leaderboardHidden ? <Eye size={16} aria-hidden="true" /> : <EyeOff size={16} aria-hidden="true" />}
+                      <span>{leaderboardHidden ? 'Show my XP on leaderboard' : 'Hide my XP from leaderboard'}</span>
                     </DropdownMenuItem>
                   </DropdownMenuSubContent>
                 </DropdownMenuSub>

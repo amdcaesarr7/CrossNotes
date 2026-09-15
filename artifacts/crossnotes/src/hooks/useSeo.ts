@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react';
 export interface MetaTags {
   title?: string;
   description?: string;
+  keywords?: string;
   canonical?: string;
   ogTitle?: string;
   ogDescription?: string;
@@ -85,13 +86,14 @@ function setLinkTag(rel: string, href: string | undefined, id?: string) {
 }
 
 export function applyMetaTags(tags: MetaTags) {
-  const { title, description, canonical, ogTitle, ogDescription, ogImage, ogImageAlt, ogImageWidth, ogImageHeight, ogUrl, ogType, twitterCard, twitterTitle, twitterDescription, twitterImage, twitterSite, noIndex } = tags;
+  const { title, description, keywords, canonical, ogTitle, ogDescription, ogImage, ogImageAlt, ogImageWidth, ogImageHeight, ogUrl, ogType, twitterCard, twitterTitle, twitterDescription, twitterImage, twitterSite, noIndex } = tags;
   const normalizedCanonical = normalizeCanonical(canonical ?? (typeof window !== 'undefined' ? window.location.pathname : '/'));
   const image = ogImage ?? OG_IMAGE_URL;
 
   if (title) document.title = title;
 
   setMetaTag('description', description);
+  setMetaTag('keywords', keywords);
   setMetaTag('robots', noIndex ? 'noindex, nofollow' : 'index, follow');
   setLinkTag('canonical', normalizedCanonical, 'seo-canonical');
   setMetaTag('og:url', ogUrl ?? normalizedCanonical, true);
@@ -222,6 +224,7 @@ export function useFAQSchema(faqs: Array<{ question: string; answer: string }>) 
 export const SEO_DEFAULTS = {
   title: 'CrossNotes — Free Notes, Flashcards & Quizzes for Maharashtra Board Class 10',
   description: 'Free notes, flashcards, quizzes, XP and streaks for Maharashtra State Board Class 10. Science 1, Maths and more — study smarter for free.',
+  keywords: 'Maharashtra Board Class 10, SSC Class 10, Maharashtra State Board study material, Class 10 notes, Class 10 Science 1 notes, Class 10 Science 2 notes, Class 10 Maths 1 notes, Class 10 Maths 2 notes, Class 10 History notes, Class 10 Geography notes, Maharashtra Board flashcards, Class 10 quizzes, free exam revision',
   baseUrl: BASE_URL,
 };
 
@@ -229,6 +232,7 @@ export function getSubjectMeta(subject: { name: string; description?: string }) 
   return {
     title: `${subject.name} — Free Study Notes, Flashcards & Quizzes | CrossNotes`,
     description: (subject as { seoDescription?: string }).seoDescription ?? `Master ${subject.name} for Maharashtra Board Class 10 with free notes, flashcards, and quizzes. ${subject.description ?? 'Comprehensive study material to ace your exams.'}`,
+    keywords: `${subject.name}, Maharashtra Board Class 10 ${subject.name}, SSC ${subject.name} notes, Class 10 ${subject.name} notes, ${subject.name} flashcards, ${subject.name} quiz, Maharashtra State Board study material`,
   };
 }
 
@@ -247,6 +251,7 @@ export function getChapterMeta(subject: { name: string }, chapter: { title: stri
   return {
     title: `${chapter.title} ${modeLabels[mode]} — ${subject.name} | CrossNotes`,
     description: `${modeDescriptions[mode]} Chapter covers: ${chapter.title}. ${chapter.overview?.summary?.slice(0, 100) ?? ''}...`,
+    keywords: `${chapter.title}, ${subject.name} Maharashtra Board Class 10, Class 10 ${modeLabels[mode].toLowerCase()}, SSC ${subject.name} revision, Maharashtra State Board exam preparation`,
     canonical,
   };
 }
@@ -255,6 +260,7 @@ export function getLeaderboardMeta() {
   return {
     title: 'Leaderboard — Top Students | CrossNotes',
     description: 'See the top students on CrossNotes leaderboard. Compete with classmates by earning XP through studying notes, flashcards, and quizzes.',
+    keywords: 'Class 10 study leaderboard, Maharashtra Board study motivation, CrossNotes XP, Class 10 quiz practice',
   };
 }
 
@@ -262,6 +268,7 @@ export function getShopMeta() {
   return {
     title: 'Study Shop — XP Boosts, Streak Freezes & Nicknames | CrossNotes',
     description: 'Use earned CrossNotes coins to unlock XP boosts, streak freezes, and custom leaderboard nicknames for Maharashtra Board Class 10 revision.',
+    keywords: 'Class 10 study rewards, Maharashtra Board study motivation, study streaks, exam preparation rewards',
   };
 }
 
@@ -269,6 +276,7 @@ export function getProgressMeta() {
   return {
     title: 'My Progress — Track Your Learning | CrossNotes',
     description: 'Track your study progress across all subjects and chapters. See which topics you\'ve mastered and which need more revision.',
+    keywords: 'Class 10 study progress, Maharashtra Board revision tracker, study streak, quiz progress, exam preparation tracker',
   };
 }
 
@@ -276,6 +284,7 @@ export function getVaultMeta() {
   return {
     title: 'Resource Vault — Extra Study Materials | CrossNotes',
     description: 'Access additional study resources, past papers, and revision materials in the CrossNotes Resource Vault.',
+    keywords: 'Maharashtra Board Class 10 textbook, SSC past papers, Maharashtra Board question papers, Class 10 study resources',
   };
 }
 
@@ -283,5 +292,6 @@ export function getCreditsMeta() {
   return {
     title: 'Credits — About CrossNotes',
     description: 'Learn about the team and resources behind CrossNotes. Maharashtra Board Class 10 study app.',
+    keywords: 'CrossNotes credits, Maharashtra Board Class 10 study app, CrossNotes study platform',
   };
 }

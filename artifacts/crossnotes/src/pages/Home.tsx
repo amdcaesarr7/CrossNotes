@@ -24,6 +24,7 @@ export default function Subjects() {
   useHead({
     title: 'Subjects — Maharashtra Board Class 10 Study Material | CrossNotes',
     description: 'Browse all available subjects for Maharashtra State Board Class 10: Science 1, Science 2, Maths 1 (Algebra), Maths 2 (Geometry), History & Political Science, Geography. Free notes, flashcards, and quizzes.',
+    keywords: 'Maharashtra Board Class 10 subjects, SSC Class 10 notes, Science 1 notes, Science 2 notes, Maths 1 Algebra notes, Maths 2 Geometry notes, History Political Science notes, Geography notes, Class 10 quizzes',
     canonical: '/subjects',
   });
   useBreadcrumb([

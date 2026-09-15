@@ -46,7 +46,7 @@ export default function Notes() {
     { name: `${chapter?.title} Notes`, url: window.location.href },
   ];
 
-  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'notes'));
+  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'notes', `/notes/${slug}/${chapterId}`));
   useBreadcrumb(breadcrumbs);
 
   const handleMark = async () => {

@@ -3,6 +3,7 @@ import { Timestamp } from 'firebase/firestore';
 import { Coins, Sparkles, Zap, Loader2, Tag, Check, X } from 'lucide-react';
 import { toast } from 'sonner';
 import { useTheme } from '@/contexts/ThemeContext';
+import { useHead, useBreadcrumb, getShopMeta } from '@/hooks/useSeo';
 import { useAuth } from '@/contexts/AuthContext';
 import { useUserProfile, buyPotion, usePotion, redeemNicknameTag, sanitizeNickname, MAX_STREAK_FREEZES, type ActiveBoost } from '@/hooks/useFirestore';
 import { POTIONS, getPotion } from '@/data/potions';
@@ -31,6 +32,8 @@ export default function Shop() {
   const { isDark } = useTheme();
   const { user, signInWithGoogle } = useAuth();
   const { profile, loading } = useUserProfile(user?.uid);
+  useHead({ ...getShopMeta(), canonical: '/shop' });
+  useBreadcrumb([{ name: 'Home', url: '/' }, { name: 'Shop', url: '/shop' }]);
   const [busyId, setBusyId] = useState<string | null>(null);
   const [editingNickname, setEditingNickname] = useState(false);
   const [nicknameDraft, setNicknameDraft] = useState('');

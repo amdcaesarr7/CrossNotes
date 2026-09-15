@@ -86,7 +86,7 @@ function setLinkTag(rel: string, href: string | undefined, id?: string) {
 
 export function applyMetaTags(tags: MetaTags) {
   const { title, description, canonical, ogTitle, ogDescription, ogImage, ogImageAlt, ogImageWidth, ogImageHeight, ogUrl, ogType, twitterCard, twitterTitle, twitterDescription, twitterImage, twitterSite, noIndex } = tags;
-  const normalizedCanonical = normalizeCanonical(canonical);
+  const normalizedCanonical = normalizeCanonical(canonical ?? (typeof window !== 'undefined' ? window.location.pathname : '/'));
   const image = ogImage ?? OG_IMAGE_URL;
 
   if (title) document.title = title;
@@ -194,6 +194,7 @@ export function useHead(tags: MetaTags) {
 
   useEffect(() => {
     applyMetaTags(tagsRef.current);
+    setOrganizationSchema();
     return () => {
       document.title = 'CrossNotes — Free Notes, Flashcards & Quizzes for Maharashtra Board Class 10';
     };
@@ -231,7 +232,7 @@ export function getSubjectMeta(subject: { name: string; description?: string }) 
   };
 }
 
-export function getChapterMeta(subject: { name: string }, chapter: { title: string; overview?: { summary?: string } }, mode: 'notes' | 'flashcards' | 'quiz') {
+export function getChapterMeta(subject: { name: string }, chapter: { title: string; overview?: { summary?: string } }, mode: 'notes' | 'flashcards' | 'quiz', canonical?: string) {
   const modeLabels = {
     notes: 'Study Notes',
     flashcards: 'Flashcards',
@@ -246,6 +247,7 @@ export function getChapterMeta(subject: { name: string }, chapter: { title: stri
   return {
     title: `${chapter.title} ${modeLabels[mode]} — ${subject.name} | CrossNotes`,
     description: `${modeDescriptions[mode]} Chapter covers: ${chapter.title}. ${chapter.overview?.summary?.slice(0, 100) ?? ''}...`,
+    canonical,
   };
 }
 
@@ -253,6 +255,13 @@ export function getLeaderboardMeta() {
   return {
     title: 'Leaderboard — Top Students | CrossNotes',
     description: 'See the top students on CrossNotes leaderboard. Compete with classmates by earning XP through studying notes, flashcards, and quizzes.',
+  };
+}
+
+export function getShopMeta() {
+  return {
+    title: 'Study Shop — XP Boosts, Streak Freezes & Nicknames | CrossNotes',
+    description: 'Use earned CrossNotes coins to unlock XP boosts, streak freezes, and custom leaderboard nicknames for Maharashtra Board Class 10 revision.',
   };
 }
 

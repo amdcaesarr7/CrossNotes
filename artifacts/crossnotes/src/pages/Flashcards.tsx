@@ -37,7 +37,7 @@ export default function Flashcards() {
     { name: `${chapter?.title} Flashcards`, url: window.location.href },
   ];
 
-  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'flashcards'));
+  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'flashcards', `/flashcards/${slug}/${chapterId}`));
   useBreadcrumb(breadcrumbs);
 
   const colorKey = subject?.color || 'violet';

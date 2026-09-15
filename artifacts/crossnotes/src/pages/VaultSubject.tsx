@@ -38,6 +38,7 @@ export default function VaultSubject() {
   useHead({
     title: `${meta.name} Resources — ${meta.description ?? 'Study Material'} | CrossNotes`,
     description: `Browse ${meta.name} study resources and materials in the CrossNotes Resource Vault. ${meta.description ?? ''}`,
+    canonical: `/vault/${slug}`,
   });
   useBreadcrumb([
     { name: 'Home', url: '/' },

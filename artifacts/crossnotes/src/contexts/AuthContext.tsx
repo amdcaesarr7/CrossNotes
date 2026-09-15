@@ -60,6 +60,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
               streak: 0,
               streakFreezes: 0,
               coins: 0,
+              leaderboardOptOut: false,
               lastStudied: null,
               createdAt: serverTimestamp(),
             });
@@ -69,6 +70,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
               photoURL: firebaseUser.photoURL,
               xp: 0,
               streak: 0,
+              leaderboardOptOut: false,
               updatedAt: serverTimestamp(),
             });
           }

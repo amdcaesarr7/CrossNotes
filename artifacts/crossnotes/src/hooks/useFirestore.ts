@@ -78,6 +78,7 @@ export interface UserProfile {
   inventory?: Record<string, number>; // potionId -> count owned, unused potions
   activeBoost?: ActiveBoost | null;    // currently-running XP multiplier, if any
   nickname?: string | null;            // cosmetic flex tag, unlocked via the shop
+  leaderboardOptOut?: boolean;         // hide XP and profile from public rankings
   lastStudied: Timestamp | null;
 }
 
@@ -100,6 +101,7 @@ export interface LeaderboardEntry {
   xp: number;
   streak: number;
   nickname?: string | null;
+  leaderboardOptOut?: boolean;
 }
 
 // ---- XP Level helpers ----
@@ -313,7 +315,12 @@ export function useLeaderboard() {
   useEffect(() => {
     if (!db) { setLoading(false); return; }
     getDocs(query(collection(db, "leaderboard"), orderBy("xp", "desc"), limit(25)))
-      .then((snap) => { setEntries(snap.docs.map((d) => ({ uid: d.id, ...d.data() } as LeaderboardEntry))); setLoading(false); })
+      .then((snap) => {
+        setEntries(snap.docs
+          .map((d) => ({ uid: d.id, ...d.data() } as LeaderboardEntry))
+          .filter((entry) => !entry.leaderboardOptOut));
+        setLoading(false);
+      })
       .catch((e) => { setError(e); setLoading(false); });
   }, []);
 
@@ -356,6 +363,34 @@ export function useUserProfile(uid: string | undefined) {
   }, [uid]);
 
   return { profile, loading, error };
+}
+
+export async function setLeaderboardVisibility(uid: string, hidden: boolean): Promise<void> {
+  if (!db) throw new Error("Firebase not configured");
+
+  const userRef = doc(db, "users", uid);
+  const lbRef = doc(db, "leaderboard", uid);
+
+  await runTransaction(db, async (tx) => {
+    const userSnap = await tx.get(userRef);
+    const profile = (userSnap.data() as UserProfile | undefined) ?? null;
+    tx.set(userRef, { leaderboardOptOut: hidden }, { merge: true });
+
+    if (hidden) {
+      tx.delete(lbRef);
+      return;
+    }
+
+    tx.set(lbRef, {
+      displayName: profile?.displayName ?? null,
+      photoURL: profile?.photoURL ?? null,
+      xp: profile?.xp ?? 0,
+      streak: profile?.streak ?? 0,
+      nickname: profile?.nickname ?? null,
+      leaderboardOptOut: false,
+      updatedAt: serverTimestamp(),
+    }, { merge: true });
+  });
 }
 
 export function useUserProgress(uid: string | undefined, chapterId: string | undefined) {
@@ -427,7 +462,7 @@ function coinsForXp(xp: number): number {
 /** Reads the user profile inside the transaction, applies XP + streak update, writes back. */
 interface XpComputation {
   userPatch: Record<string, unknown>;
-  lbPatch: Record<string, unknown>;
+  lbPatch: Record<string, unknown> | null;
   result: ActivityResult;
 }
 
@@ -473,7 +508,7 @@ function computeXpAndStreak(profile: UserProfile | null, baseXp: number): XpComp
 
   return {
     userPatch,
-    lbPatch,
+    lbPatch: profile?.leaderboardOptOut ? null : lbPatch,
     result: {
       xp,
       boostMultiplier,
@@ -510,7 +545,7 @@ export async function markNotesRead(
 
     tx.set(progressRef, { notesRead: true, ...meta }, { merge: true });
     tx.set(userRef, userPatch, { merge: true });
-    tx.set(lbRef, lbPatch, { merge: true });
+    if (lbPatch) tx.set(lbRef, lbPatch, { merge: true });
     return result;
   });
 }
@@ -536,7 +571,7 @@ export async function markFlashcardsCompleted(
 
     tx.set(progressRef, { flashcardsCompleted: true, ...meta }, { merge: true });
     tx.set(userRef, userPatch, { merge: true });
-    tx.set(lbRef, lbPatch, { merge: true });
+    if (lbPatch) tx.set(lbRef, lbPatch, { merge: true });
     return result;
   });
 }
@@ -573,7 +608,7 @@ export async function saveQuizScore(
 
     tx.set(progressRef, { quizScore: score, quizMaxScore: maxScore, quizPct: pct, quizCompleted: true, xpEarned: newXp, ...meta }, { merge: true });
     tx.set(userRef, userPatch, { merge: true });
-    tx.set(lbRef, lbPatch, { merge: true });
+    if (lbPatch) tx.set(lbRef, lbPatch, { merge: true });
     return result;
   });
 }

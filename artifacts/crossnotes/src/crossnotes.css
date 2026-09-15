@@ -488,6 +488,55 @@ html, body {
 }
 @media (max-width: 480px) { .account-settings-menu { width: min(230px, calc(100vw - 20px)); } }
 
+/* Consent is portalled at app level, so it owns its theme tokens instead of
+   relying on a route-specific .cn-body ancestor. */
+.cookie-consent {
+  --cookie-bg: #ffffff;
+  --cookie-bg-muted: #f4f0ff;
+  --cookie-text: #1a1035;
+  --cookie-muted: #4a4570;
+  --cookie-border: rgba(120, 90, 200, 0.16);
+  position: fixed;
+  right: 18px;
+  bottom: max(18px, env(safe-area-inset-bottom, 0px));
+  z-index: 300;
+  display: flex;
+  gap: 12px;
+  width: min(430px, calc(100vw - 28px));
+  padding: 15px;
+  border: 1px solid var(--cookie-border);
+  border-radius: 20px;
+  background: var(--cookie-bg);
+  color: var(--cookie-text);
+  box-shadow: 0 14px 34px rgba(50, 35, 100, .24), inset 1px 1px 0 rgba(255,255,255,.85);
+  animation: slide-up .24s ease both;
+}
+.cookie-consent.dark-mode {
+  --cookie-bg: #1e1a34;
+  --cookie-bg-muted: #261f3e;
+  --cookie-text: #ece8ff;
+  --cookie-muted: #9890c0;
+  --cookie-border: rgba(255,255,255,.1);
+  box-shadow: 0 14px 34px rgba(0,0,0,.45), inset 1px 1px 0 rgba(255,255,255,.05);
+}
+.cookie-consent-icon { display: grid; place-items: center; flex: none; width: 36px; height: 36px; border-radius: 12px; background: var(--cookie-bg-muted); color: var(--primary, #8a1c1c); }
+.cookie-consent-copy { min-width: 0; flex: 1; }
+.cookie-consent-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.cookie-consent-heading strong { font-size: 14px; }
+.cookie-consent-copy p { margin: 5px 0 10px; color: var(--cookie-muted); font-size: 12px; line-height: 1.5; }
+.cookie-consent-close { display: grid; place-items: center; padding: 4px; border: 0; border-radius: 8px; background: transparent; color: var(--cookie-muted); cursor: pointer; }
+.cookie-consent-close:hover { background: var(--cookie-bg-muted); color: var(--cookie-text); }
+.cookie-consent-option { display: flex; gap: 8px; align-items: flex-start; margin: 0 0 10px; padding: 9px; border-radius: 10px; background: var(--cookie-bg-muted); font-size: 12px; }
+.cookie-consent-option input { margin-top: 2px; accent-color: var(--primary, #8a1c1c); }
+.cookie-consent-option span { display: grid; gap: 2px; }
+.cookie-consent-option small { color: var(--cookie-muted); line-height: 1.35; }
+.cookie-consent-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 7px; }
+.cookie-consent-actions button { display: inline-flex; align-items: center; gap: 5px; min-height: 32px; padding: 6px 10px; border-radius: 9px; font-size: 11px; font-weight: 800; cursor: pointer; }
+.cookie-consent-primary { border: 1px solid var(--primary, #8a1c1c); background: var(--primary, #8a1c1c); color: #fff; }
+.cookie-consent-secondary { border: 1px solid var(--cookie-border); background: var(--cookie-bg-muted); color: var(--cookie-text); }
+.cookie-consent-note { display: flex; align-items: center; gap: 4px; margin-top: 9px; color: var(--cookie-muted); font-size: 10px; }
+@media (max-width: 520px) { .cookie-consent { right: 10px; bottom: max(10px, env(safe-area-inset-bottom, 0px)); width: calc(100vw - 20px); } }
+
 /* ─── BOTTOM NAV — floating clay pill ────────────────────────────── */
 .bottom-nav {
   position: fixed;

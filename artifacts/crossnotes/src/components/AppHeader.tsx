@@ -22,6 +22,7 @@ import {
   LogOut,
   Eye,
   EyeOff,
+  Cookie,
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
@@ -30,6 +31,7 @@ import { useSound } from '@/contexts/SoundContext';
 import { setLeaderboardVisibility, useUserProfile } from '@/hooks/useFirestore';
 import { submitFeedback, type FeedbackKind } from '@/lib/feedback';
 import { googleAvatarUrl } from '@/lib/utils';
+import { openCookiePreferences } from '@/lib/cookies';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -209,6 +211,10 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                     <DropdownMenuItem className="account-setting-toggle" onSelect={handleLeaderboardVisibility}>
                       {leaderboardHidden ? <Eye size={16} aria-hidden="true" /> : <EyeOff size={16} aria-hidden="true" />}
                       <span>{leaderboardHidden ? 'Show my XP on leaderboard' : 'Hide my XP from leaderboard'}</span>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem className="account-setting-toggle" onSelect={openCookiePreferences}>
+                      <Cookie size={16} aria-hidden="true" />
+                      <span>Cookie preferences</span>
                     </DropdownMenuItem>
                   </DropdownMenuSubContent>
                 </DropdownMenuSub>

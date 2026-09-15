@@ -7,6 +7,7 @@ import {
   Github,
   HeartHandshake,
   Image,
+  Instagram,
   Landmark,
   MessageSquare,
   ShieldCheck,
@@ -25,6 +26,13 @@ const sources = [
     description: 'The person behind CrossNotes: product direction, content, design decisions, testing, and the work that brings the whole study experience together.',
     href: 'https://github.com/amdcaesarr7',
     icon: UserRound,
+  },
+  {
+    title: '@caesar.anwar',
+    role: 'Follow the builder',
+    description: 'Follow Caesar Anwar on Instagram for updates, ideas, and the person behind CrossNotes.',
+    href: 'https://www.instagram.com/caesar.anwar/',
+    icon: Instagram,
   },
   {
     title: 'ChatGPT',

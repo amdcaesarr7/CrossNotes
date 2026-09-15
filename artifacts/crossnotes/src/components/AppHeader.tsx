@@ -167,7 +167,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                   )}
                 </button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent side="bottom" align="end" sideOffset={10} className="account-menu">
+              <DropdownMenuContent side="bottom" align="end" sideOffset={10} className={`account-menu ${isDark ? 'dark-mode' : ''}`}>
                 <DropdownMenuLabel className="account-menu-label">
                   <span className="account-menu-name">{user.displayName ?? 'Scholar'}</span>
                   <span className="account-menu-email">{user.email ?? 'Your CrossNotes account'}</span>
@@ -183,7 +183,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                   <DropdownMenuSubTrigger className="account-menu-item account-settings-trigger">
                     <Settings2 size={17} aria-hidden="true" /> <span>Settings</span>
                   </DropdownMenuSubTrigger>
-                  <DropdownMenuSubContent className="account-settings-menu" sideOffset={10} alignOffset={-6}>
+                  <DropdownMenuSubContent className={`account-settings-menu ${isDark ? 'dark-mode' : ''}`} sideOffset={10} alignOffset={-6}>
                     <DropdownMenuLabel className="account-settings-heading">Quick settings</DropdownMenuLabel>
                     <DropdownMenuItem className="account-setting-toggle" onSelect={toggleDark}>
                       {isDark ? <Sun size={16} aria-hidden="true" /> : <Moon size={16} aria-hidden="true" />}

@@ -108,7 +108,7 @@ export default function Quiz() {
       .map(q => ({ question: q.question, answer: q.explanation! }));
   }, [questions, chapter?.title]);
 
-  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'quiz'));
+  useHead(getChapterMeta({ name: subject?.name ?? '' }, chapter ?? { title: 'Loading...' }, 'quiz', `/quiz/${slug}/${chapterId}`));
   useBreadcrumb(breadcrumbs);
   useFAQSchema(faqs);
 

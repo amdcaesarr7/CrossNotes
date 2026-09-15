@@ -352,7 +352,7 @@ html, body {
 .avatar-btn {
   width: 44px; height: 44px;
   border-radius: 50%;
-  border: none;
+  border: 2px solid var(--primary);
   background: var(--primary);
   color: #fff;
   display: flex; align-items: center; justify-content: center;
@@ -361,11 +361,11 @@ html, body {
   overflow: hidden;
   transition: transform 0.15s, box-shadow 0.15s;
   font-family: var(--font-body);
-  box-shadow: 0 3px 0 var(--primary-shadow), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 0 3px 0 var(--primary-shadow), 0 0 0 2px var(--bg-card), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 .avatar-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 0 var(--primary-shadow), 0 8px 20px rgba(139, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 0 var(--primary-shadow), 0 0 0 2px var(--bg-card), 0 8px 20px rgba(139, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 .avatar-initial { color: var(--primary); font-weight: 800; font-size: 15px; }
 

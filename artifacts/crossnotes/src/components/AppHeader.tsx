@@ -196,11 +196,11 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                   <Link href="/credits"><BadgeInfo size={17} aria-hidden="true" /> <span>Credits &amp; sources</span></Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="account-menu-item">
-                  <Link href="/settings"><Settings2 size={17} aria-hidden="true" /> <span>Settings page</span></Link>
+                  <Link href="/settings"><Settings2 size={17} aria-hidden="true" /> <span>Settings</span></Link>
                 </DropdownMenuItem>
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger className="account-menu-item account-settings-trigger">
-                    <Settings2 size={17} aria-hidden="true" /> <span>Settings</span>
+                    <Settings2 size={17} aria-hidden="true" /> <span>Quick settings</span>
                   </DropdownMenuSubTrigger>
                   <DropdownMenuSubContent className={`account-settings-menu ${isDark ? 'dark-mode' : ''}`} sideOffset={10} alignOffset={-6}>
                     <DropdownMenuLabel className="account-settings-heading">Quick settings</DropdownMenuLabel>

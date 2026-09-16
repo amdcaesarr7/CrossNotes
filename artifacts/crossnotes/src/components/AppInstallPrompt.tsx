@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Download, MoreHorizontal, PlusSquare, Share2, X } from 'lucide-react';
 import MewMascot from '@/components/MewMascot';
 import { useTheme } from '@/contexts/ThemeContext';
+import { toast } from 'sonner';
 
 const DISMISS_KEY = 'cn-install-prompt-dismissed';
 
@@ -51,13 +52,20 @@ export default function AppInstallPrompt() {
       setInstalled(true);
       setVisible(false);
       setGuideOpen(false);
+      toast.success('CrossNotes is installed — your notes are now one tap away. Mew is delighted.');
+    };
+    const handleGuideRequest = () => {
+      setVisible(true);
+      setGuideOpen(true);
     };
 
     window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
     window.addEventListener('appinstalled', handleInstalled);
+    window.addEventListener('crossnotes:open-install-guide', handleGuideRequest);
     return () => {
       window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
       window.removeEventListener('appinstalled', handleInstalled);
+      window.removeEventListener('crossnotes:open-install-guide', handleGuideRequest);
     };
   }, []);
 
@@ -118,6 +126,7 @@ export default function AppInstallPrompt() {
             <MewMascot size="md" mood="cheery" />
             <span className="install-guide__eyebrow">Make it feel like yours</span>
             <h2 id="install-guide-title">Add CrossNotes to your device</h2>
+            <div className="install-guide__mock" aria-hidden="true"><span className="install-guide__mock-top" /><span /><span /><span /></div>
             {ios ? (
               <p>In Safari, tap <Share2 size={15} aria-label="Share" /> <strong>Share</strong>, then choose <strong>Add to Home Screen</strong>. It will sit alongside your usual apps.</p>
             ) : (

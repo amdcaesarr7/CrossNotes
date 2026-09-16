@@ -13,7 +13,10 @@ import OfflineNotice from '@/components/OfflineNotice';
 import CookieConsent from '@/components/CookieConsent';
 import LoginReminder from '@/components/LoginReminder';
 import { RouteSkeleton } from '@/components/StudySkeleton';
+import ChangelogSummary from '@/components/ChangelogSummary';
 import { Toaster } from 'sonner';
+import { useEffect } from 'react';
+import { recordVisit } from '@/lib/activity';
 
 const Dashboard = lazy(() => import('@/pages/Dashboard'));
 const Home = lazy(() => import('@/pages/Home'));
@@ -35,6 +38,7 @@ const queryClient = new QueryClient();
 
 export default function App() {
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  useEffect(() => { recordVisit(); }, []);
   return (
     <ErrorBoundary>
       <QueryClientProvider client={queryClient}>
@@ -71,6 +75,7 @@ export default function App() {
                 <OfflineNotice />
                 <CookieConsent />
                 <LoginReminder />
+                <ChangelogSummary />
                 <Toaster richColors position="top-center" />
               </AuthStartupGate>
             </SoundProvider>

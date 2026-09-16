@@ -1,0 +1,23 @@
+{
+  "subsections": {
+    "subsec1": {
+      "title": "Practical Guide",
+      "emoji": "🧪",
+      "entries": [
+        {
+          "id": "science-practical-guide",
+          "title": "Class 10 Science Practical Guide",
+          "kind": "study_asset",
+          "medium": "English",
+          "license": "User-provided",
+          "sourceUrl": "/vault/study-assets/science-practical/science-practical.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec2": {},
+    "subsec3": {},
+    "subsec4": {},
+    "subsec5": {}
+  }
+}

@@ -20,6 +20,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cross-notes-crossnotes-i2u7.vercel.app/vault/science-practical</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://cross-notes-crossnotes-i2u7.vercel.app/leaderboard</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>

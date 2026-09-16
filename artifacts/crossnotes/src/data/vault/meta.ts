@@ -22,6 +22,13 @@ export const SPECIAL_SHELVES: VaultShelfMeta[] = [
     color: 'social',
     description: 'Scout and Guide syllabus and reference material',
   },
+  {
+    slug: 'science-practical',
+    name: 'Science Practical',
+    emoji: '🧪',
+    color: 'blue',
+    description: 'Class 10 Science practical experiments and reference material',
+  },
 ];
 
 export function getSpecialShelf(slug: string): VaultShelfMeta | undefined {

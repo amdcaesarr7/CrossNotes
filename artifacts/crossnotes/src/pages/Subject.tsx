@@ -1,17 +1,18 @@
 import { useState, useMemo, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { Link, useParams } from 'wouter';
-import { BookOpen, Layers, LayoutList, Loader2, AlertTriangle, ChevronRight, X, Sparkles, FileText } from 'lucide-react';
+import { BookOpen, Layers, LayoutList, AlertTriangle, ChevronRight, X, Sparkles, FileText } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useUserProgress } from '@/hooks/useFirestore';
-import { useStaticSubject, useStaticChapters, type StaticChapter } from '@/hooks/useContent';
+import { preloadContent, useStaticSubject, useStaticChapters, type StaticChapter } from '@/hooks/useContent';
 import { getSubjectBySlug } from '@/data/subjects';
 import { useHead, useBreadcrumb, getSubjectMeta, buildSubjectSchema, setStructuredData, removeStructuredData } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import { isImportedSolution } from '@/lib/importedSolutions';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
+import { ContentSkeleton } from '@/components/StudySkeleton';
 
 function chapterStatus(p: { notesRead?: boolean; flashcardsCompleted?: boolean; quizCompleted?: boolean; quizPct?: number } | null) {
   if (!p) return 'not_started';
@@ -25,6 +26,8 @@ function chapterStatus(p: { notesRead?: boolean; flashcardsCompleted?: boolean; 
 function ChapterOverviewSheet({ chapter, slug, onClose }: { chapter: StaticChapter; slug: string; onClose: () => void }) {
   const overview = chapter.overview;
   const { isDark } = useTheme();
+  const hasFlashcards = chapter.flashcards.length > 0;
+  const hasQuiz = chapter.quiz.length > 0;
 
   // Rendered via portal straight into <body>. The trigger card (.chapter-row)
   // animates with a CSS `transform` on hover/tap, and any ancestor with a
@@ -84,16 +87,20 @@ function ChapterOverviewSheet({ chapter, slug, onClose }: { chapter: StaticChapt
               {chapter.kind === 'paper' ? <FileText size={18} /> : <BookOpen size={18} />} {chapter.kind === 'paper' ? 'Paper' : 'Notes'}
             </button>
           </Link>
-          <Link href={`/flashcards/${slug}/${chapter.id}`} className="flex-1">
-            <button className="clay-btn py-3.5 w-full flex flex-col items-center gap-1 text-xs">
-              <Layers size={18} /> Cards
-            </button>
-          </Link>
-          <Link href={`/quiz/${slug}/${chapter.id}`} className="flex-1">
-            <button className="clay-btn py-3.5 w-full flex flex-col items-center gap-1 text-xs">
-              <LayoutList size={18} /> Quiz
-            </button>
-          </Link>
+          {hasFlashcards && (
+            <Link href={`/flashcards/${slug}/${chapter.id}`} className="flex-1">
+              <button className="clay-btn py-3.5 w-full flex flex-col items-center gap-1 text-xs">
+                <Layers size={18} /> Cards
+              </button>
+            </Link>
+          )}
+          {hasQuiz && (
+            <Link href={`/quiz/${slug}/${chapter.id}`} className="flex-1">
+              <button className="clay-btn py-3.5 w-full flex flex-col items-center gap-1 text-xs">
+                <LayoutList size={18} /> Quiz
+              </button>
+            </Link>
+          )}
         </div>
       </div>
     </div>,
@@ -203,6 +210,15 @@ export default function Subject() {
 
   const subject = useStaticSubject(slug);
   const { chapters, loading } = useStaticChapters(slug);
+
+  useEffect(() => {
+    if (!loading && chapters.length > 0) {
+      preloadContent(slug);
+      void import('@/pages/Notes');
+      if (chapters[0].flashcards.length > 0) void import('@/pages/Flashcards');
+      if (chapters[0].quiz.length > 0) void import('@/pages/Quiz');
+    }
+  }, [chapters, loading, slug]);
 
   if (!subject) {
     return (
@@ -345,9 +361,7 @@ export default function Subject() {
                 )}
 
                 {loading ? (
-                  <div className="flex flex-col gap-3">
-                    {[1,2,3].map(i => <div key={i} className="h-20 rounded-2xl animate-pulse" style={{ background: 'var(--bg-card-2)' }} />)}
-                  </div>
+                  <ContentSkeleton count={5} />
                 ) : regular.length === 0 ? (
                   <div className="clay-card p-8 text-center" style={{ color: 'var(--text-muted)' }}>
                     <p className="text-3xl mb-2">😴</p>

@@ -5,6 +5,8 @@ interface ThemeContextType {
   toggleDark: () => void;
   blueLightProtection: boolean;
   toggleBlueLightProtection: () => void;
+  reducedMotion: boolean;
+  toggleReducedMotion: () => void;
 }
 
 const ThemeContext = createContext<ThemeContextType>({
@@ -12,6 +14,8 @@ const ThemeContext = createContext<ThemeContextType>({
   toggleDark: () => {},
   blueLightProtection: false,
   toggleBlueLightProtection: () => {},
+  reducedMotion: false,
+  toggleReducedMotion: () => {},
 });
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
@@ -20,6 +24,9 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   });
   const [blueLightProtection, setBlueLightProtection] = useState(() => {
     try { return localStorage.getItem('cn-blue-light-protection') === 'on'; } catch { return false; }
+  });
+  const [reducedMotion, setReducedMotion] = useState(() => {
+    try { return localStorage.getItem('cn-reduced-motion') === 'on'; } catch { return false; }
   });
 
   useEffect(() => {
@@ -31,12 +38,19 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     document.documentElement.classList.toggle('blue-light-protection', blueLightProtection);
   }, [blueLightProtection]);
 
+  useEffect(() => {
+    try { localStorage.setItem('cn-reduced-motion', reducedMotion ? 'on' : 'off'); } catch {}
+    document.documentElement.classList.toggle('reduced-motion', reducedMotion);
+  }, [reducedMotion]);
+
   return (
     <ThemeContext.Provider value={{
       isDark,
       toggleDark: () => setIsDark(d => !d),
       blueLightProtection,
       toggleBlueLightProtection: () => setBlueLightProtection(enabled => !enabled),
+      reducedMotion,
+      toggleReducedMotion: () => setReducedMotion(enabled => !enabled),
     }}>
       {children}
     </ThemeContext.Provider>

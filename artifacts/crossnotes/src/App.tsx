@@ -12,6 +12,7 @@ import MewCompanion from '@/components/MewCompanion';
 import OfflineNotice from '@/components/OfflineNotice';
 import CookieConsent from '@/components/CookieConsent';
 import LoginReminder from '@/components/LoginReminder';
+import { RouteSkeleton } from '@/components/StudySkeleton';
 import { Toaster } from 'sonner';
 
 const Dashboard = lazy(() => import('@/pages/Dashboard'));
@@ -27,6 +28,7 @@ const Leaderboard = lazy(() => import('@/pages/Leaderboard'));
 const Shop = lazy(() => import('@/pages/Shop'));
 const AdminFeedback = lazy(() => import('@/pages/AdminFeedback'));
 const Credits = lazy(() => import('@/pages/Credits'));
+const Settings = lazy(() => import('@/pages/Settings'));
 const NotFound = lazy(() => import('@/pages/not-found'));
 
 const queryClient = new QueryClient();
@@ -40,7 +42,7 @@ export default function App() {
           <ThemeProvider>
             <SoundProvider>
               <AuthStartupGate>
-                <Suspense fallback={<main className="cn-body route-loading" aria-live="polite">Loading CrossNotes…</main>}>
+                <Suspense fallback={<RouteSkeleton />}>
                   <WouterRouter base={base}>
                     <ErrorBoundary>
                       <Switch>
@@ -57,6 +59,7 @@ export default function App() {
                         <Route path="/shop" component={Shop} />
                         <Route path="/admin/feedback" component={AdminFeedback} />
                         <Route path="/credits" component={Credits} />
+                        <Route path="/settings" component={Settings} />
                         <Route component={NotFound} />
                       </Switch>
                     </ErrorBoundary>

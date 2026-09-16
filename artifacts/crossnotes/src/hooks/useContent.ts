@@ -151,6 +151,23 @@ function applyOriginalSolutions(content: SubjectContent, solutions: OriginalSolu
 // Vite bundles each import() as a separate lazy chunk.
 
 async function loadContent(slug: string): Promise<SubjectContent | null> {
+  const cached = contentCache.get(slug);
+  if (cached) return cached;
+  const pending = contentPromises.get(slug);
+  if (pending) return pending;
+
+  const promise = loadContentModule(slug);
+  contentPromises.set(slug, promise);
+  const content = await promise;
+  contentPromises.delete(slug);
+  if (content) contentCache.set(slug, content);
+  return content;
+}
+
+const contentCache = new Map<string, SubjectContent>();
+const contentPromises = new Map<string, Promise<SubjectContent | null>>();
+
+async function loadContentModule(slug: string): Promise<SubjectContent | null> {
   try {
     switch (slug) {
       case "science-1": {
@@ -201,6 +218,11 @@ async function loadContent(slug: string): Promise<SubjectContent | null> {
   } catch {
     return null;
   }
+}
+
+/** Starts loading a subject before its route is opened. */
+export function preloadContent(slug: string) {
+  if (slug) void loadContent(slug);
 }
 
 // ---- Hooks ----

@@ -57,7 +57,30 @@
         }
       ]
     },
-    "subsec3": {},
+    "subsec3": {
+      "title": "Previous-Year Paper Archive",
+      "emoji": "📝",
+      "entries": [
+        {
+          "id": "official-ssc-question-paper-archive",
+          "title": "Official Maharashtra SSC Question Paper Archive",
+          "kind": "open_resource",
+          "medium": "English",
+          "license": "Official board archive",
+          "sourceUrl": "https://mahahsscboard.in/en/questionPaper",
+          "status": "verified"
+        },
+        {
+          "id": "ssc-question-papers-2024-archive",
+          "title": "Maharashtra SSC 2024 Subject Paper Index",
+          "kind": "open_resource",
+          "medium": "English",
+          "license": "Third-party link; source-hosted content",
+          "sourceUrl": "https://school.careers360.com/boards/msbshse/maharashtra-ssc-question-papers",
+          "status": "verified"
+        }
+      ]
+    },
     "subsec4": {},
     "subsec5": {}
   }

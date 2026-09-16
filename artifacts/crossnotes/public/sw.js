@@ -18,7 +18,7 @@
 // Keep in sync: the VAULT_CACHE name here must equal the one in
 // src/lib/offlineVault.ts.
 
-const APP_VERSION = 'v2';
+const APP_VERSION = 'v3';
 const APP_CACHE = `crossnotes-app-${APP_VERSION}`;
 const VAULT_CACHE = 'crossnotes-vault-v1';
 // Tiny store for the study-reminder settings, shared with the window
@@ -104,10 +104,10 @@ self.addEventListener('fetch', (event) => {
   // straight through to the network untouched.
   if (request.method !== 'GET' || url.origin !== self.location.origin) return;
 
-  // SPA navigations: network-first for fresh HTML after a deploy, falling back
-  // to the cached shell so deep links (e.g. /quiz/science-1/ch1) open offline.
+  // SPA navigations: return cached HTML immediately and refresh it in the
+  // background. This makes reloads instant while still picking up deploys.
   if (request.mode === 'navigate') {
-    event.respondWith(fetch(request).catch(() => caches.match('/')));
+    event.respondWith(staleWhileRevalidate(request));
     return;
   }
 

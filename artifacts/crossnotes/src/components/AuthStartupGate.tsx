@@ -1,4 +1,4 @@
-import { type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { BookOpen } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -14,10 +14,22 @@ interface AuthStartupGateProps {
 export default function AuthStartupGate({ children }: AuthStartupGateProps) {
   const { loading, isFirebaseReady } = useAuth();
   const { isDark } = useTheme();
+  const [showFallback, setShowFallback] = useState(false);
 
-  // An unconfigured local/dev build should remain immediately usable. In a
-  // configured deployment, wait only for Firebase's first auth-state result.
-  if (!isFirebaseReady || !loading) return <>{children}</>;
+  useEffect(() => {
+    if (!isFirebaseReady || !loading) {
+      setShowFallback(false);
+      return;
+    }
+
+    const timeout = window.setTimeout(() => setShowFallback(true), 900);
+    return () => window.clearTimeout(timeout);
+  }, [isFirebaseReady, loading]);
+
+  // Render the app immediately while Firebase restores the session. Only show
+  // the startup panel when auth is unusually slow, so reloads never feel like
+  // the whole app is starting from scratch.
+  if (!isFirebaseReady || !loading || !showFallback) return <>{children}</>;
 
   return (
     <main className={`cn-body auth-startup-gate ${isDark ? 'dark-mode' : ''}`} aria-busy="true">

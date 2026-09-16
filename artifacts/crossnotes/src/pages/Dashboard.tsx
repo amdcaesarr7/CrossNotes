@@ -87,7 +87,7 @@ export default function Dashboard() {
     .slice(0, 1);
 
   const continueChapter = inProgressList[0];
-  const { chapter: continueChapterContent } = useStaticChapter(
+  const { chapter: continueChapterContent, loading: continueChapterLoading } = useStaticChapter(
     continueChapter?.[1].subjectSlug ?? '',
     continueChapter?.[0] ?? '',
   );
@@ -231,7 +231,7 @@ export default function Dashboard() {
         )}
 
         {/* ── Continue learning ── */}
-        {user && continueChapter && (() => {
+        {user && continueChapter && !continueChapterLoading && (() => {
           const [chapId, p] = continueChapter;
           const hasFlashcards = (continueChapterContent?.flashcards.length ?? 0) > 0;
           const hasQuiz = (continueChapterContent?.quiz.length ?? 0) > 0;

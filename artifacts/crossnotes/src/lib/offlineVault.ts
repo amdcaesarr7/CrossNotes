@@ -10,6 +10,10 @@
  */
 
 export const VAULT_CACHE = 'crossnotes-vault-v1';
+export interface CachedVaultEntry {
+  url: string;
+  size?: number;
+}
 
 const supported = typeof caches !== 'undefined';
 
@@ -36,7 +40,33 @@ export async function saveVaultFile(url: string): Promise<void> {
 }
 
 export async function removeVaultFile(url: string): Promise<void> {
-  if (!supported) return;
+  if (!supported || !isOfflineSavable(url)) return;
   const cache = await caches.open(VAULT_CACHE);
   await cache.delete(url);
+}
+
+/** List the local Vault files currently stored in the opt-in cache. */
+export async function listVaultFiles(): Promise<CachedVaultEntry[]> {
+  if (!supported) return [];
+  try {
+    const cache = await caches.open(VAULT_CACHE);
+    const requests = await cache.keys();
+    return await Promise.all(requests.map(async (request) => {
+      const response = await cache.match(request);
+      const length = response?.headers.get('content-length');
+      return { url: new URL(request.url).pathname, ...(length ? { size: Number(length) } : {}) };
+    }));
+  } catch {
+    return [];
+  }
+}
+
+/** Remove every cached Vault entry without touching the app or reminder caches. */
+export async function clearVaultFiles(): Promise<void> {
+  if (!supported) return;
+  try {
+    await caches.delete(VAULT_CACHE);
+  } catch {
+    // Storage may be unavailable or already reclaimed by the browser.
+  }
 }

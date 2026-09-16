@@ -88,6 +88,7 @@ export default function FirstUseTour() {
           <div className="mew-tour-orbit mew-tour-orbit--one" />
           <div className="mew-tour-orbit mew-tour-orbit--two" />
           <MewMascot size="lg" mood={step === 2 ? 'judgy' : 'cheery'} />
+          <div className={`tour-mock tour-mock--${step}`}><span className="tour-mock-bar" /><span /><span /><span /></div>
         </div>
 
         <div className="mew-tour-copy">

@@ -23,6 +23,7 @@ import {
   Eye,
   EyeOff,
   Cookie,
+  SunMedium,
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
@@ -63,7 +64,7 @@ const feedbackKinds: Array<{
 
 export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps) {
   const { user, signInWithGoogle, logout, isFirebaseReady } = useAuth();
-  const { isDark, toggleDark } = useTheme();
+  const { isDark, toggleDark, blueLightProtection, toggleBlueLightProtection } = useTheme();
   const { soundOn, toggleSound } = useSound();
   const { profile } = useUserProfile(user?.uid);
   const coins = profile?.coins ?? 0;
@@ -207,6 +208,10 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                     <DropdownMenuItem className="account-setting-toggle" onSelect={toggleSound}>
                       {soundOn ? <Volume2 size={16} aria-hidden="true" /> : <VolumeX size={16} aria-hidden="true" />}
                       <span>{soundOn ? 'Sound effects on' : 'Sound effects off'}</span>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem className="account-setting-toggle" onSelect={toggleBlueLightProtection}>
+                      <SunMedium size={16} aria-hidden="true" />
+                      <span>{blueLightProtection ? 'Blue light protection on' : 'Blue light protection off'}</span>
                     </DropdownMenuItem>
                     <DropdownMenuItem className="account-setting-toggle" onSelect={handleLeaderboardVisibility}>
                       {leaderboardHidden ? <Eye size={16} aria-hidden="true" /> : <EyeOff size={16} aria-hidden="true" />}

@@ -12,6 +12,7 @@ import MewCompanion from '@/components/MewCompanion';
 import OfflineNotice from '@/components/OfflineNotice';
 import CookieConsent from '@/components/CookieConsent';
 import LoginReminder from '@/components/LoginReminder';
+import { RouteSkeleton } from '@/components/StudySkeleton';
 import ChangelogSummary from '@/components/ChangelogSummary';
 import { Toaster } from 'sonner';
 import { useEffect } from 'react';
@@ -45,7 +46,7 @@ export default function App() {
           <ThemeProvider>
             <SoundProvider>
               <AuthStartupGate>
-                <Suspense fallback={<main className="cn-body route-loading" aria-live="polite">Loading CrossNotes…</main>}>
+                <Suspense fallback={<RouteSkeleton />}>
                   <WouterRouter base={base}>
                     <ErrorBoundary>
                       <Switch>

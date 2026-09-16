@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { ChevronRight, Lock } from 'lucide-react';
 import { Link } from 'wouter';
 import { useTheme } from '@/contexts/ThemeContext';
-import { useStaticSubjects } from '@/hooks/useContent';
+import { preloadContent, useStaticSubjects } from '@/hooks/useContent';
 import { useHead, useBreadcrumb, SEO_DEFAULTS } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
@@ -45,7 +45,12 @@ export default function Subjects() {
           <h2 className="section-header mb-3">Available Now</h2>
           <div className="flex flex-col gap-3">
             {liveSubjects.map(s => (
-              <Link key={s.id} href={`/subject/${s.slug}`}>
+              <Link
+                key={s.id}
+                href={`/subject/${s.slug}`}
+                onMouseEnter={() => { preloadContent(s.slug); void import('@/pages/Subject'); }}
+                onFocus={() => { preloadContent(s.slug); void import('@/pages/Subject'); }}
+              >
                 <div
                   className="clay-card hoverable flex items-center gap-4 p-4 cursor-pointer"
                   style={{ background: `var(--${s.color}-bg)`, borderColor: `var(--${s.color}-border)` }}

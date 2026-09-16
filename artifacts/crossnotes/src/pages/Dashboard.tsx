@@ -7,6 +7,7 @@ import { useUserProfile, useAllUserProgress, useLeaderboard, getLevel, MAX_STREA
 import { getPotion } from '@/data/potions';
 import PotionIcon from '@/components/PotionIcon';
 import { useStaticSubjects } from '@/hooks/useContent';
+import { useStaticChapter } from '@/hooks/useContent';
 import { useStudyReminder } from '@/hooks/useStudyReminder';
 import { useHead, useBreadcrumb } from '@/hooks/useSeo';
 import { isNotificationSupported, getReminderPreference, requestReminderPermission } from '@/lib/notifications';
@@ -86,6 +87,10 @@ export default function Dashboard() {
     .slice(0, 1);
 
   const continueChapter = inProgressList[0];
+  const { chapter: continueChapterContent, loading: continueChapterLoading } = useStaticChapter(
+    continueChapter?.[1].subjectSlug ?? '',
+    continueChapter?.[0] ?? '',
+  );
 
   // Weakest attempted chapters (quiz score < 70%) — nudge to revisit
   const weakChapters = Object.entries(progressMap)
@@ -103,6 +108,10 @@ export default function Dashboard() {
 
   const liveSubjects = subjects.filter(s => s.isLive);
   const lockedSubjects = subjects.filter(s => !s.isLive);
+
+  useEffect(() => {
+    void import('@/pages/Home');
+  }, []);
 
   return (
     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>
@@ -222,9 +231,17 @@ export default function Dashboard() {
         )}
 
         {/* ── Continue learning ── */}
-        {user && continueChapter && (() => {
+        {user && continueChapter && !continueChapterLoading && (() => {
           const [chapId, p] = continueChapter;
-          const nextStep = !p.notesRead ? 'notes' : !p.flashcardsCompleted ? 'flashcards' : 'quiz';
+          const hasFlashcards = (continueChapterContent?.flashcards.length ?? 0) > 0;
+          const hasQuiz = (continueChapterContent?.quiz.length ?? 0) > 0;
+          const nextStep = !p.notesRead
+            ? 'notes'
+            : !p.flashcardsCompleted && hasFlashcards
+            ? 'flashcards'
+            : hasQuiz
+            ? 'quiz'
+            : 'notes';
           const stepLabel = nextStep === 'notes' ? '📖 Read Notes' : nextStep === 'flashcards' ? '🃏 Flashcards' : '🧪 Take Quiz';
           return (
             <section>

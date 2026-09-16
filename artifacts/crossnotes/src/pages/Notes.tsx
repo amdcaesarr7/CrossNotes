@@ -9,6 +9,7 @@ import { useStaticSubject, useStaticChapter, useStaticNotes } from '@/hooks/useC
 import { useHead, useBreadcrumb, getChapterMeta } from '@/hooks/useSeo';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import NoteBlockRenderer from '@/components/NoteBlockRenderer';
+import { ContentSkeleton } from '@/components/StudySkeleton';
 import MathsPracticeLibrary from '@/components/MathsPracticeLibrary';
 import { isImportedSolution } from '@/lib/importedSolutions';
 import AppHeader from '@/components/AppHeader';
@@ -117,9 +118,7 @@ export default function Notes() {
         </div>
 
         {loading ? (
-          <div className="flex-1 flex items-center justify-center py-20">
-            <Loader2 size={30} style={{ color: 'var(--primary)', animation: 'spin 1s linear infinite' }} />
-          </div>
+          <ContentSkeleton count={4} />
         ) : notes.length === 0 ? (
           <div className="clay-card p-8 text-center">
             <p className="text-3xl mb-2">📭</p>

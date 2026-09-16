@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import { Fragment, type ReactNode } from 'react';
 import { HelpCircle, ClipboardList, GitBranch } from 'lucide-react';
 import type { StaticNote, DiagramBranch } from '@/hooks/useContent';
 import MathSolutionRenderer from '@/components/MathSolutionRenderer';
@@ -105,7 +105,12 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
             {(note.content || '').split('\n').map((line, li) =>
               line.trim() === ''
                 ? <br key={li} />
-                : <p key={li} className="text-sm leading-relaxed font-medium" style={{ color: 'var(--text)' }}>{line}</p>
+                : (
+                  <Fragment key={li}>
+                    {li > 0 && /^\s*(?:\d+[.)]|[A-Za-z][.)]|[-*•])\s+/.test(line) && <span className="note-line-break" aria-hidden="true" />}
+                    <p className="text-sm leading-relaxed font-medium" style={{ color: 'var(--text)' }}>{line}</p>
+                  </Fragment>
+                )
             )}
           </div>
         </NoteCard>

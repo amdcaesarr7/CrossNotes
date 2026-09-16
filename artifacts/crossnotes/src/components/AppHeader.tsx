@@ -91,12 +91,6 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
     };
   }, [feedbackOpen]);
 
-  useEffect(() => {
-    const open = () => openFeedback();
-    window.addEventListener('crossnotes:open-feedback', open);
-    return () => window.removeEventListener('crossnotes:open-feedback', open);
-  }, []);
-
   const openFeedback = () => {
     setSubmitted(false);
     setFeedbackOpen(true);

@@ -11,6 +11,7 @@ import { sfx } from '@/lib/sfx';
 import { fireConfetti } from '@/lib/confetti';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import AppHeader from '@/components/AppHeader';
+import MewMascot from '@/components/MewMascot';
 import '../crossnotes.css';
 
 const CORRECT_MSGS = [
@@ -234,6 +235,20 @@ export default function Quiz() {
           </div>
         ) : !done ? (
           <>
+            {/* Mascot reaction row */}
+            <div className="flex items-center justify-between clay-card px-4 py-2" style={{ background: 'var(--bg-card-2)' }}>
+              <div className="flex items-center gap-2">
+                <MewMascot
+                  size="sm"
+                  mood={revealed ? (isCorrect(qType, answer, q) ? 'excited' : 'judgy') : 'studying'}
+                  speech={revealed ? (isCorrect(qType, answer, q) ? "Boom! Nailed it!" : "Read the notes carefully!") : "Lock in! You got this."}
+                />
+                <span className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>
+                  {revealed ? (isCorrect(qType, answer, q) ? 'Mew is cheering! 🎉' : 'Mew is taking notes 📝') : 'Mew is watching! 💡'}
+                </span>
+              </div>
+            </div>
+
             {/* Countdown — one clock for the whole quiz; auto-submits at 0:00 */}
             {secondsLeft !== null && (
               <div className="flex justify-center">
@@ -414,6 +429,20 @@ export default function Quiz() {
         ) : (
           /* Results */
           <div className="clay-card p-8 flex flex-col items-center text-center gap-4">
+            <MewMascot
+              size="lg"
+              mood={scorePct >= 90 ? 'excited' : scorePct >= 70 ? 'proud' : scorePct >= 50 ? 'cheery' : 'judgy'}
+              variant={scorePct >= 90 ? 'sunset' : 'classic'}
+              speech={
+                scorePct >= 90
+                  ? "BOARD TOPPER ENERGY! 🏆 Save some marks for the rest of us!"
+                  : scorePct >= 70
+                  ? "Not bad at all! Sharma ji's son is getting nervous. 👀"
+                  : scorePct >= 50
+                  ? "Passing score... barely! Glass is half full of wrong answers. 😅"
+                  : "Bro... did you guess all of them with your eyes closed? 💀 Re-read notes!"
+              }
+            />
             <span className="text-6xl">{emoji}</span>
             <div>
               <div className="font-display font-black text-5xl" style={{ color }}>{grade}</div>

@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Loader2, CheckCircle2, LayoutList, FileText, PenSquare, Shuffle, ToggleLeft, HelpCircle, Sparkles, Target } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
@@ -13,6 +13,7 @@ import { ContentSkeleton } from '@/components/StudySkeleton';
 import MathsPracticeLibrary from '@/components/MathsPracticeLibrary';
 import { isImportedSolution } from '@/lib/importedSolutions';
 import AppHeader from '@/components/AppHeader';
+import MewMascot from '@/components/MewMascot';
 import '../crossnotes.css';
 
 // Subtype tags shown under the chapter title, pulled straight from the
@@ -25,6 +26,52 @@ const SUBTYPE_META: Record<string, { label: string; icon: typeof PenSquare }> = 
   table:        { label: 'Tables',               icon: LayoutList },
   rules:        { label: 'Official Rules',       icon: FileText },
 };
+
+const PEEP_SPEECHES = [
+  "Pssst... still reading or did you fall asleep? 😴",
+  "This section is actually on the board exam. Lock in! 🧠",
+  "Don't skip the diagram! Teachers love diagrams. 📐",
+  "Mew is impressed by your focus. Keep grinding! 🔥",
+  "Remember: understanding > rote memorization! 💡",
+];
+
+function PeepingMew() {
+  const [visible, setVisible] = useState(false);
+  const [speechIdx, setSpeechIdx] = useState(0);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setSpeechIdx(Math.floor(Math.random() * PEEP_SPEECHES.length));
+      setVisible(true);
+    }, 4500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (!visible) return null;
+
+  return (
+    <div
+      className="fixed bottom-20 right-4 z-50 flex items-end gap-2"
+      style={{ animation: 'mewSlideUp 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)' }}
+    >
+      <div className="relative">
+        <button
+          onClick={() => setVisible(false)}
+          className="absolute -top-2 -right-2 bg-gray-200 text-gray-700 rounded-full w-5 h-5 text-xs flex items-center justify-center font-bold z-10 hover:bg-gray-300"
+          aria-label="Dismiss mascot note"
+        >
+          ×
+        </button>
+        <MewMascot
+          size="sm"
+          mood="studying"
+          speech={PEEP_SPEECHES[speechIdx]}
+        />
+      </div>
+    </div>
+  );
+}
 
 export default function Notes() {
   const { isDark } = useTheme();
@@ -177,6 +224,8 @@ export default function Notes() {
           </>
         )}
       </main>
+
+      <PeepingMew />
     </div>
   );
 }

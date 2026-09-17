@@ -70,7 +70,9 @@
           "type": "fill_blank",
           "title": "Key Terms",
           "content": "Collecting geographical and cultural information by paying a visit to a particular place is called a ___.",
-          "blanks": ["field visit"]
+          "blanks": [
+            "field visit"
+          ]
         }
       ],
       "flashcards": [
@@ -202,7 +204,12 @@
             "Famous dance form in India",
             "National capital of India"
           ],
-          "answerKey": [2, 0, 4, 1]
+          "answerKey": [
+            2,
+            0,
+            4,
+            1
+          ]
         },
         {
           "id": "n4",
@@ -419,7 +426,12 @@
             "Goa",
             "Pantanal"
           ],
-          "answerKey": [2, 4, 0, 1]
+          "answerKey": [
+            2,
+            4,
+            0,
+            1
+          ]
         },
         {
           "id": "n4",
@@ -500,14 +512,18 @@
           "type": "fill_blank",
           "title": "Key Facts",
           "content": "The total coastline of India is about ___ km long.",
-          "blanks": ["7,500"]
+          "blanks": [
+            "7,500"
+          ]
         },
         {
           "id": "n11",
           "type": "fill_blank",
           "title": "Key Facts (Brazil)",
           "content": "Brazil has a coastline of about ___ km.",
-          "blanks": ["7,400"]
+          "blanks": [
+            "7,400"
+          ]
         }
       ],
       "flashcards": [
@@ -684,14 +700,21 @@
             "Monsoon type",
             "Region of high rainfall"
           ],
-          "answerKey": [3, 0, 4, 1]
+          "answerKey": [
+            3,
+            0,
+            4,
+            1
+          ]
         },
         {
           "id": "n9",
           "type": "fill_blank",
           "title": "Key Terms",
           "content": "A type of rainfall that occurs in the equatorial region due to high temperature is known as ___ rainfall.",
-          "blanks": ["convectional"]
+          "blanks": [
+            "convectional"
+          ]
         }
       ],
       "flashcards": [
@@ -867,21 +890,30 @@
             "Orchid",
             "Khejadi"
           ],
-          "answerKey": [5, 3, 0, 1]
+          "answerKey": [
+            5,
+            3,
+            0,
+            1
+          ]
         },
         {
           "id": "n8",
           "type": "fill_blank",
           "title": "Key Terms",
           "content": "Teak is mainly found in ___ type of forest.",
-          "blanks": ["deciduous"]
+          "blanks": [
+            "deciduous"
+          ]
         },
         {
           "id": "n9",
           "type": "fill_blank",
           "title": "Key Terms (Brazil)",
           "content": "In the swampy areas of Pantanal, huge ___ are found.",
-          "blanks": ["Anacondas"]
+          "blanks": [
+            "Anacondas"
+          ]
         }
       ],
       "flashcards": [
@@ -1046,14 +1078,21 @@
             "Sao Paulo",
             "Amapa"
           ],
-          "answerKey": [3, 0, 1, 2]
+          "answerKey": [
+            3,
+            0,
+            1,
+            2
+          ]
         },
         {
           "id": "n7",
           "type": "fill_blank",
           "title": "Key Facts",
           "content": "Sex ratio means the number of females per ___ males in a region.",
-          "blanks": ["thousand"]
+          "blanks": [
+            "thousand"
+          ]
         }
       ],
       "flashcards": [
@@ -1213,7 +1252,9 @@
           "type": "fill_blank",
           "title": "Key Term",
           "content": "The concentration of settlements is related to the major factor of ___.",
-          "blanks": ["availability of water"]
+          "blanks": [
+            "availability of water"
+          ]
         }
       ],
       "flashcards": [
@@ -1364,14 +1405,18 @@
           "type": "fill_blank",
           "title": "Key Fact",
           "content": "In India, salt is produced on a large scale in the state of ___.",
-          "blanks": ["Gujarat"]
+          "blanks": [
+            "Gujarat"
+          ]
         },
         {
           "id": "n8",
           "type": "fill_blank",
           "title": "Key Fact (Brazil)",
           "content": "The economy of Brazil is mainly dependent on the ___ sector.",
-          "blanks": ["tertiary"]
+          "blanks": [
+            "tertiary"
+          ]
         }
       ],
       "flashcards": [
@@ -1459,192 +1504,636 @@
       "id": "ch9",
       "num": 9,
       "title": "Tourism, Transport and Communication",
-      "emoji": "✈️",
+      "emoji": "🚆",
       "kind": "chapter",
       "overview": {
-        "summary": "This chapter covers the essential infrastructure of transport, communication, and tourism in India and Brazil.\nIt discusses their networks, major ports and airports, standard time, and the significance of tourism for both economies.",
+        "summary": "Tourism, transport, and communication are important for economic development and national integration. This chapter describes types of tourism and modes of transport and communication in India and Brazil, along with their importance, challenges, and the concept of standard time.",
         "youWillLearn": [
-          "Identify the major modes of transport in India and Brazil.",
-          "Describe the transport network and its regional patterns.",
-          "Understand the concept of Indian Standard Time (IST) and Brazilian Time (BRT).",
-          "Analyze the role of tourism and the growth of ecotourism.",
-          "Compare the communication infrastructure of the two countries."
+          "Types of tourism and major tourist attractions in India and Brazil.",
+          "Different modes of transport and their significance.",
+          "Means of communication and their role in development.",
+          "The concept of standard time and time zones."
         ]
       },
       "notes": [
         {
           "id": "n1",
           "type": "paragraph",
-          "title": "Transport in India",
-          "content": "India has a dense road and railway network, especially in the North Indian Plains.\nMajor ports include Mumbai, Kolkata, and Chennai, and major airports include Delhi, Mumbai, and Bengaluru.\nRailways have been crucial for economic growth.",
+          "title": "Tourism in India",
+          "content": "India attracts tourists for its cultural heritage, historical monuments, religious sites, natural beauty, and wildlife. Major tourist places include the Taj Mahal, Jaipur, Goa, Kerala, and the Himalayas. Foreign tourists visit India for heritage, adventure, cultural, health, and business tourism. Ecotourism is also being given a boost in India.",
           "important": true
         },
         {
           "id": "n2",
           "type": "paragraph",
-          "title": "Transport in Brazil",
-          "content": "Brazil's transport network includes the Trans-Amazonian Highway (major highways), significant roadways, and railways in the southeast.\nMajor ports include Manaus, Rio de Janeiro, and Salvador.\nRoad transport is the most common method.",
+          "title": "Tourism in Brazil",
+          "content": "Brazil is famous for its Amazon rainforest, beaches, Rio de Janeiro's carnival, and ecotourism. Clean white sand beaches, attractive seacoast, beautiful islands, orchards, and dense forests attract tourists. The capital city of Brasilia is also a tourist attraction. Cities like Rio de Janeiro and Sao Paulo are major tourist centres.",
           "important": true
         },
         {
           "id": "n3",
           "type": "qna",
-          "title": "Why is There a Dense Railway Network in the North Indian Plains?",
-          "question": "A dense network of railways has developed in the North Indian Plains.",
-          "qnaAnswer": "1) The North Indian Plains are low-lying and flat, making construction easy.\n2) High population density creates high demand for passenger transport.\n3) Well-developed agriculture, trade, commerce, and industries create a high demand for freight transport."
+          "title": "In-text Q1: Which country attracted more international tourists in the year 1995?",
+          "question": "Which country attracted more international tourists in the year 1995?",
+          "qnaAnswer": "Brazil attracted more international tourists in 1995."
         },
         {
           "id": "n4",
-          "type": "match_column",
-          "title": "Match the Pairs (Tourism, Transport and Communication)",
-          "left": [
-            "Trans-Amazonian Highway",
-            "Road transport",
-            "Rio de Janeiro",
-            "Manmad"
-          ],
-          "right": [
-            "Tourist place",
-            "Railway station in India",
-            "Golden Quadrilateral Highway",
-            "Major Highways",
-            "40° W. Meridian"
-          ],
-          "answerKey": [3, 2, 0, 1]
+          "type": "qna",
+          "title": "In-text Q2: In which country did more international tourists arrive in the year 2000?",
+          "question": "In which country did more international tourists arrive in the year 2000?",
+          "qnaAnswer": "Brazil had more international tourists in 2000."
         },
         {
           "id": "n5",
           "type": "qna",
-          "title": "Brazil's Time Zones",
-          "question": "How many time zones are considered in Brazil?",
-          "qnaAnswer": "Four time zones are considered in Brazil.\nThe official time is BRT (Brasilia Time), which is GMT-3.\nThe easternmost part is ahead by up to 180 minutes."
+          "title": "In-text Q3: In which year can an increase be seen in the number of international tourists in India?",
+          "question": "In which year can an increase be seen in the number of international tourists in India?",
+          "qnaAnswer": "An increase in the number of international tourists in India can be seen after 2010."
         },
         {
           "id": "n6",
           "type": "qna",
-          "title": "What is the Indian Standard Time (IST)?",
-          "question": "Which longitude in India is considered as Indian Standard Time?",
-          "qnaAnswer": "82°30' E longitude is considered as the Indian Standard Time (IST).\nIt passes through the city of Allahabad.\nIndia is 5 hours 30 minutes ahead of GMT."
+          "title": "In-text Q4: What was the number of international tourists in the year 2015 in both the countries? What was the difference between them?",
+          "question": "What was the number of international tourists in the year 2015 in both the countries? What was the difference between them?",
+          "qnaAnswer": "In 2015, India had about 130 lakh international tourists and Brazil had about 65 lakh. The difference was about 65 lakh."
         },
         {
           "id": "n7",
           "type": "qna",
-          "title": "Why Does Brazil Attract Many International Tourists?",
-          "question": "Brazil attracts a lot of international tourists.",
-          "qnaAnswer": "Brazil attracts tourists due to:\n1) White and clean sand beaches.\n2) Attractive seacoasts.\n3) Beautiful islands.\n4) Evergreen, deep, dense rainforests in Amazon river basin.\n5) Variety of Animal and birds species.\n6) Gardens and Parks.\n7) Cities like Brasilia, Rio de Janeiro, Sao Paulo.\n8) Manaus port and football stadium."
+          "title": "In-text Q5: What could be the reason of increase in tourists in India after the year 2010?",
+          "question": "What could be the reason of increase in tourists in India after the year 2010?",
+          "qnaAnswer": "The increase in tourists in India after 2010 could be due to improved facilities, better promotion of tourism, economic growth, and enhanced connectivity."
         },
         {
           "id": "n8",
-          "type": "fill_blank",
-          "title": "Key Fact",
-          "content": "In India, the railway network is relatively less dense in the state of ___.",
-          "blanks": ["Rajasthan"]
+          "type": "qna",
+          "title": "In-text Q6: What type of graph is shown in Fig 9.2? What does the graph show?",
+          "question": "What type of graph is shown in Fig 9.2? What does the graph show?",
+          "qnaAnswer": "It is a bar graph. It shows the percentage of population engaged in tourism and contribution of tourism in GDP for Brazil and India."
         },
         {
           "id": "n9",
-          "type": "fill_blank",
-          "title": "Key Fact (Brazil)",
-          "content": "The most common method of transportation in Brazil is ___.",
-          "blanks": ["roadways"]
+          "type": "qna",
+          "title": "In-text Q7: Which country's tourism has a larger share in the contribution towards GDP?",
+          "question": "Which country's tourism has a larger share in the contribution towards GDP?",
+          "qnaAnswer": "Brazil's tourism has a larger share in the contribution towards GDP (9.3% vs 8.2% for India)."
+        },
+        {
+          "id": "n10",
+          "type": "qna",
+          "title": "In-text Q8: Which country has a larger population engaged in tourism sector but contributes lesser in GDP?",
+          "question": "Which country has a larger population engaged in tourism sector but contributes lesser in GDP?",
+          "qnaAnswer": "India has a larger population engaged in tourism (9% vs 7.5%) but contributes lesser in GDP."
+        },
+        {
+          "id": "n11",
+          "type": "qna",
+          "title": "In-text Q9: Study the transport map of Brazil in Fig 9.9 and answer: Which means of transport are seen on the map?",
+          "question": "Which means of transport are seen on the map?",
+          "qnaAnswer": "Roads, railways, waterways, and airways are seen on the map."
+        },
+        {
+          "id": "n12",
+          "type": "qna",
+          "title": "In-text Q10: Which means of transport has a denser network?",
+          "question": "Which means of transport has a denser network?",
+          "qnaAnswer": "Roadways have the denser network in Brazil."
+        },
+        {
+          "id": "n13",
+          "type": "qna",
+          "title": "In-text Q11: Which highway can be seen prominently? Which places does it join?",
+          "question": "Which highway can be seen prominently? Which places does it join?",
+          "qnaAnswer": "The Trans-Amazonian Highway is prominent. It joins the eastern coast of Brazil to the Amazon region in the west."
+        },
+        {
+          "id": "n14",
+          "type": "qna",
+          "title": "In-text Q12: What could be the reason of development of railways in the South-East?",
+          "question": "What could be the reason of development of railways in the South-East?",
+          "qnaAnswer": "Railways developed in the South-East due to industrialisation, agriculture, and high population concentration."
+        },
+        {
+          "id": "n15",
+          "type": "qna",
+          "title": "In-text Q13: In which part of Brazil do you see a lesser development of transport network? What could be the reason?",
+          "question": "In which part of Brazil do you see a lesser development of transport network? What could be the reason?",
+          "qnaAnswer": "The Amazon basin has a lesser developed transport network due to dense forests, swamps, and inaccessibility."
+        },
+        {
+          "id": "n16",
+          "type": "qna",
+          "title": "In-text Q14: Look at the transport maps of India (Fig 9.10 and 9.11): Which means of transport are visible on the map?",
+          "question": "Which means of transport are visible on the map?",
+          "qnaAnswer": "Roads, railways, waterways, and airways are visible on the map."
+        },
+        {
+          "id": "n17",
+          "type": "qna",
+          "title": "In-text Q15: In which part of India is the density of railways more?",
+          "question": "In which part of India is the density of railways more?",
+          "qnaAnswer": "The density of railways is more in the North Indian Plains."
+        },
+        {
+          "id": "n18",
+          "type": "qna",
+          "title": "In-text Q16: Name five important ports and airports of India.",
+          "question": "Name five important ports and airports of India.",
+          "qnaAnswer": "Five important ports: Mumbai, Chennai, Kolkata, Kandla, Vishakhapatnam. Five important airports: Delhi, Mumbai, Chennai, Kolkata, Bengaluru."
+        },
+        {
+          "id": "n19",
+          "type": "qna",
+          "title": "In-text Q17: Which parts of India have a sparse network of transport? What could be the reason?",
+          "question": "Which parts of India have a sparse network of transport? What could be the reason?",
+          "qnaAnswer": "The Himalayan region, North-Eastern states, and central India have a sparse network due to rugged terrain, dense forests, and low population density."
+        },
+        {
+          "id": "n20",
+          "type": "qna",
+          "title": "In-text Q18: How many divisions can you see in the map of Brazilian Standard Time? What do these divisions signify?",
+          "question": "How many divisions can you see in the map? What do these divisions signify?",
+          "qnaAnswer": "Four divisions are seen. They signify the four time zones of Brazil."
+        },
+        {
+          "id": "n21",
+          "type": "qna",
+          "title": "In-text Q19: What does the term behind the GMT mean?",
+          "question": "What does the term behind the GMT mean?",
+          "qnaAnswer": "It means the time is behind Greenwich Mean Time by that many hours."
+        },
+        {
+          "id": "n22",
+          "type": "qna",
+          "title": "In-text Q20: Which part of Brazil is ahead of the other? By how many minutes is this part ahead of others?",
+          "question": "Which part of Brazil is ahead of the other? By how many minutes is this part ahead of others?",
+          "qnaAnswer": "The eastern part of Brazil is ahead of the western part by about 168 minutes (2 hours 48 minutes)."
+        },
+        {
+          "id": "n23",
+          "type": "qna",
+          "title": "In-text Q21: What does the red line in the map show?",
+          "question": "What does the red line in the map show?",
+          "qnaAnswer": "The red line shows the official Brazilian time (BRT), which is GMT-3."
+        },
+        {
+          "id": "n24",
+          "type": "qna",
+          "title": "In-text Q22: Calculate the difference between the two longitudinal extremes of mainland India. Is it more than Brazil?",
+          "question": "Calculate the difference between the two longitudinal extremes of mainland India. Is it more than Brazil?",
+          "qnaAnswer": "The difference is about 30 degrees (approximately 2 hours). This is less than Brazil's longitudinal extent."
+        },
+        {
+          "id": "n25",
+          "type": "qna",
+          "title": "In-text Q23: Which longitude in India is called the Indian Standard Time (IST)? What is the difference between this time and the GMT?",
+          "question": "Which longitude in India is called the Indian Standard Time (IST)? What is the difference between this time and the GMT?",
+          "qnaAnswer": "82.5°E is the Indian Standard Time (IST). It is ahead of GMT by 5 hours 30 minutes."
+        },
+        {
+          "id": "n26",
+          "type": "qna",
+          "title": "In-text Q24: How many local times are there in India?",
+          "question": "How many local times are there in India?",
+          "qnaAnswer": "India has only one local time (IST) for the entire country."
+        },
+        {
+          "id": "n27",
+          "type": "qna",
+          "title": "In-text Q25: What is the difference between IST and BRT?",
+          "question": "What is the difference between IST and BRT?",
+          "qnaAnswer": "IST is GMT+5:30 while BRT is GMT-3. IST is 8 hours 30 minutes ahead of BRT."
+        },
+        {
+          "id": "n28",
+          "type": "qna",
+          "title": "In-text Q26: Calculate the difference in time between the westernmost and easternmost points of Brazil.",
+          "question": "Calculate the difference in time between the two points in minutes.",
+          "qnaAnswer": "The difference is about 168 minutes (2 hours 48 minutes)."
+        },
+        {
+          "id": "n29",
+          "type": "qna",
+          "title": "In-text Q27: What does the term behind the GMT mean?",
+          "question": "What does the term behind the GMT mean?",
+          "qnaAnswer": "It means the time is behind Greenwich Mean Time by that many hours."
+        },
+        {
+          "id": "n30",
+          "type": "qna",
+          "title": "In-text Q28: Which part of Brazil is ahead of the other?",
+          "question": "Which part of Brazil is ahead of the other?",
+          "qnaAnswer": "The eastern part of Brazil is ahead of the western part."
+        },
+        {
+          "id": "n31",
+          "type": "qna",
+          "title": "In-text Q29: By how many minutes is this part ahead of others?",
+          "question": "By how many minutes is this part ahead of others?",
+          "qnaAnswer": "The eastern part is ahead by about 168 minutes."
+        },
+        {
+          "id": "n32",
+          "type": "qna",
+          "title": "In-text Q30: What does the red line in the map show?",
+          "question": "What does the red line in the map show?",
+          "qnaAnswer": "The red line shows the official Brazilian time (BRT), GMT-3."
+        },
+        {
+          "id": "n33",
+          "type": "qna",
+          "title": "In-text Q31: Study the map in figure 9.13 and answer: Calculate the difference between the two longitudinal extremes of mainland India.",
+          "question": "Calculate the difference between the two longitudinal extremes of mainland India.",
+          "qnaAnswer": "The difference is about 30 degrees, which is about 2 hours."
+        },
+        {
+          "id": "n34",
+          "type": "qna",
+          "title": "In-text Q32: Is it more than Brazil?",
+          "question": "Is it more than Brazil?",
+          "qnaAnswer": "No, India's longitudinal extent is less than Brazil's."
+        },
+        {
+          "id": "n35",
+          "type": "qna",
+          "title": "In-text Q33: Which longitude in India is called the Indian Standard Time (IST)?",
+          "question": "Which longitude in India is called the Indian Standard Time (IST)?",
+          "qnaAnswer": "82.5°E longitude is called the Indian Standard Time (IST)."
+        },
+        {
+          "id": "n36",
+          "type": "qna",
+          "title": "In-text Q34: What is the difference between this time and the GMT?",
+          "question": "What is the difference between this time and the GMT?",
+          "qnaAnswer": "IST is ahead of GMT by 5 hours 30 minutes."
+        },
+        {
+          "id": "n37",
+          "type": "qna",
+          "title": "In-text Q35: How many local times are there in India?",
+          "question": "How many local times are there in India?",
+          "qnaAnswer": "India has only one local time (IST) for the entire country."
+        },
+        {
+          "id": "n38",
+          "type": "qna",
+          "title": "In-text Q36: It is 12 noon at Delhi. What would be the local time in Brasilia?",
+          "question": "It is 12 noon at Delhi. What would be the local time in Brasilia?",
+          "qnaAnswer": "Brasilia is GMT-3, and Delhi is GMT+5:30. The difference is 8 hours 30 minutes. So when it is 12 noon in Delhi, it is 3:30 am in Brasilia."
+        },
+        {
+          "id": "n39",
+          "type": "qna",
+          "title": "In-text Q37: Saurabh and Ashwini work for a MNC. Two of their regional head offices are located in Brazil in Rio De Janeiro and Manaus. Find out their corresponding timings in India, if they work according to office timings in Brazil i.e 10am to 5pm.",
+          "question": "Find out their corresponding timings in India, if they work according to office timings in Brazil i.e 10am to 5pm.",
+          "qnaAnswer": "Rio de Janeiro is GMT-3, Manaus is GMT-4. India is GMT+5:30. If office hours in Brazil are 10am to 5pm, in India it would be 6:30pm to 1:30am (for Rio) and 7:30pm to 2:30am (for Manaus)."
+        },
+        {
+          "id": "n40",
+          "type": "qna",
+          "title": "In-text Q38: Arun called his mother from Digboi at 7 am. At what local time will his mother pick up his call at Jaisalmer?",
+          "question": "Arun called his mother from Digboi at 7 am. At what local time will his mother pick up his call at Jaisalmer?",
+          "qnaAnswer": "Digboi is in the east (about 95°E) and Jaisalmer is in the west (about 70°E). The difference is about 25° or 1 hour 40 minutes. So when it is 7 am in Digboi, it is about 5:20 am in Jaisalmer."
+        },
+        {
+          "id": "n41",
+          "type": "qna",
+          "title": "In-text Q39: On what basis will you decide how many standard times should be there in a country?",
+          "question": "On what basis will you decide how many standard times should be there in a country?",
+          "qnaAnswer": "The number of standard times depends on the longitudinal extent of the country, its size, and the need for administrative convenience and coordination."
+        },
+        {
+          "id": "n42",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q1(a): State whether right or wrong with reasons: The future of tourism is bright in India due to its natural diversity.",
+          "question": "State whether right or wrong with reasons: The future of tourism is bright in India due to its natural diversity.",
+          "qnaAnswer": "Right. India has diverse natural and cultural attractions, which can attract tourists if properly developed."
+        },
+        {
+          "id": "n43",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q1(b): State whether right or wrong with reasons: Tourism is an invisible trade.",
+          "question": "State whether right or wrong with reasons: Tourism is an invisible trade.",
+          "qnaAnswer": "Right. Tourism is called invisible trade because it involves the exchange of services, not goods."
+        },
+        {
+          "id": "n44",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q1(c): State whether right or wrong with reasons: The indicator of development in a country is the development of transport in that country.",
+          "question": "State whether right or wrong with reasons: The indicator of development in a country is the development of transport in that country.",
+          "qnaAnswer": "Right. Transport development indicates economic growth, connectivity, and modernisation."
+        },
+        {
+          "id": "n45",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q1(d): State whether right or wrong with reasons: Brazil's time is ahead of India's time.",
+          "question": "State whether right or wrong with reasons: Brazil's time is ahead of India's time.",
+          "qnaAnswer": "Wrong. Brazil's time is behind India's time because Brazil is west of India."
+        },
+        {
+          "id": "n46",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q1(e): State whether right or wrong with reasons: The development of tourism in India has begun recently.",
+          "question": "State whether right or wrong with reasons: The development of tourism in India has begun recently.",
+          "qnaAnswer": "Wrong. Tourism in India has a long history, but its planned development began recently."
+        },
+        {
+          "id": "n47",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q2(a): Answer in short: Which factors attract more tourists in Brazil?",
+          "question": "Answer in short: Which factors attract more tourists in Brazil?",
+          "qnaAnswer": "Brazil attracts tourists for its beaches, Amazon rainforest, Rio carnival, ecotourism, and vibrant cities like Rio de Janeiro and Sao Paulo."
+        },
+        {
+          "id": "n48",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q2(b): Answer in short: What are the difficulties in the development of the railway system in Brazil's internal areas?",
+          "question": "Answer in short: What are the difficulties in the development of the railway system in Brazil's internal areas?",
+          "qnaAnswer": "Dense forests, swamps, rugged terrain, and lack of population and economic activities make railway development difficult in Brazil's interior."
+        },
+        {
+          "id": "n49",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q2(c): Answer in short: Which means of communication has expedited the field of communications?",
+          "question": "Answer in short: Which means of communication has expedited the field of communications?",
+          "qnaAnswer": "Mobile phones and the internet have expedited communication."
+        },
+        {
+          "id": "n50",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q3: A plane leaves Brasilia at 11am on 31st December. The plane crosses 0° Meridian and reaches Vladivostok via New Delhi. Tell the local time, date and day at New Delhi and Vladivostok when plane leaves Brasilia.",
+          "question": "A plane leaves Brasilia at 11am on 31st December. The plane crosses 0° Meridian and reaches Vladivostok via New Delhi. Tell the local time, date and day at New Delhi and Vladivostok when plane leaves Brasilia.",
+          "qnaAnswer": "When it is 11 am in Brasilia (GMT-3), it is 2 pm GMT. New Delhi is GMT+5:30, so 7:30 pm on 31st December. Vladivostok is GMT+10, so 12 midnight on 1st January."
+        },
+        {
+          "id": "n51",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q4: Match the columns. 'A' Group: (a) Trans-Amazonian (b) Road Transport (c) Rio de Janeiro (d) Manmad. 'B' Group: (i) Tourist Place Highway (ii) Railway Station in India (iii) Golden Quadrilateral (iv) Major Highways (v) 40° W. Meridian",
+          "question": "Match the columns. 'A' Group: (a) Trans-Amazonian (b) Road Transport (c) Rio de Janeiro (d) Manmad. 'B' Group: (i) Tourist Place Highway (ii) Railway Station in India (iii) Golden Quadrilateral (iv) Major Highways (v) 40° W. Meridian",
+          "qnaAnswer": "(a) - (iv) Major Highways, (b) - (iii) Golden Quadrilateral, (c) - (i) Tourist Place, (d) - (ii) Railway Station in India."
+        },
+        {
+          "id": "n52",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q5(a): Give geographical reasons: Eco-tourism is being developed more in Brazil.",
+          "question": "Give geographical reasons: Eco-tourism is being developed more in Brazil.",
+          "qnaAnswer": "Brazil has sensitive natural resources like the Amazon rainforest, so ecotourism is promoted to conserve them while attracting tourists."
+        },
+        {
+          "id": "n53",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q5(b): Give geographical reasons: The waterways are not developed in Brazil.",
+          "question": "Give geographical reasons: The waterways are not developed in Brazil.",
+          "qnaAnswer": "Waterways are not developed in Brazil because of dense forests, rapids, and waterfalls in rivers, and lack of infrastructure."
+        },
+        {
+          "id": "n54",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q5(c): Give geographical reasons: A dense network of railways has developed in the north Indian plains.",
+          "question": "Give geographical reasons: A dense network of railways has developed in the north Indian plains.",
+          "qnaAnswer": "The north Indian plains have flat terrain, high population, agriculture, and industry, which favour railway development."
+        },
+        {
+          "id": "n55",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q5(d): Give geographical reasons: Development of transport is important for country's progress.",
+          "question": "Give geographical reasons: Development of transport is important for country's progress.",
+          "qnaAnswer": "Transport connects markets, facilitates trade, and enables the movement of people and goods, which is essential for economic growth."
+        },
+        {
+          "id": "n56",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q5(e): Give geographical reasons: We rely on the sea route for international trade.",
+          "question": "Give geographical reasons: We rely on the sea route for international trade.",
+          "qnaAnswer": "Sea routes are cheaper for transporting bulky goods over long distances and can carry large volumes, making them ideal for international trade."
+        },
+        {
+          "id": "n57",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q6(a): Differentiate between: Water transport in the Amazon and the Ganga river.",
+          "question": "Differentiate between: Water transport in the Amazon and the Ganga river.",
+          "qnaAnswer": "Amazon: navigable for long distances, less populated, used for local transport. Ganga: navigable in parts, densely populated, used for trade and transport with infrastructure."
+        },
+        {
+          "id": "n58",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q6(b): Differentiate between: Communication in Brazil and India.",
+          "question": "Differentiate between: Communication in Brazil and India.",
+          "qnaAnswer": "Brazil has well-developed telecommunication in central-south but poor in north. India has rapidly growing mobile and internet connectivity across the country."
+        },
+        {
+          "id": "n59",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q6(c): Differentiate between: IST and BRT.",
+          "question": "Differentiate between: IST and BRT.",
+          "qnaAnswer": "IST is Indian Standard Time (GMT+5:30), BRT is Brazilian Time (GMT-3). IST is ahead of GMT, BRT is behind GMT."
+        },
+        {
+          "id": "n60",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q7(a): Write notes on: Modern means of communication.",
+          "question": "Write notes on: Modern means of communication.",
+          "qnaAnswer": "Modern means include mobile phones, internet, email, social media, and satellites, which enable instant communication globally."
+        },
+        {
+          "id": "n61",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q7(b): Write notes on: Air transport in India.",
+          "question": "Write notes on: Air transport in India.",
+          "qnaAnswer": "Air transport in India is well-developed, with domestic and international flights connecting major cities and remote areas. It is fast but expensive."
+        },
+        {
+          "id": "n62",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q7(c): Write notes on: Correlation between physiographic and internal waterways.",
+          "question": "Write notes on: Correlation between physiographic and internal waterways.",
+          "qnaAnswer": "Internal waterways are influenced by physiography: plains have navigable rivers, while mountains have rapids and falls, limiting navigation."
+        },
+        {
+          "id": "n63",
+          "type": "qna",
+          "title": "[IMPORTANT] Exercise Q7(d): Write notes on: Importance of Standard Time.",
+          "question": "Write notes on: Importance of Standard Time.",
+          "qnaAnswer": "Standard time is important for coordinating activities, transport, communication, and administration across a country with a large longitudinal extent."
+        },
+        {
+          "id": "n64",
+          "type": "paragraph",
+          "title": "SVG Diagram: India — Transport Network",
+          "content": "svg\n<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'>\n <rect x='20' y='20' width='460' height='260' fill='#f0f8ff' stroke='#333'/>\n <text x='150' y='45' font-size='14' font-weight='bold'>India - Transport Network</text>\n <line x1='50' y1='100' x2='450' y2='100' stroke='#d32f2f' stroke-width='3'/>\n <text x='50' y='90' font-size='11'>Roads (Golden Quadrilateral)</text>\n <line x1='50' y1='150' x2='450' y2='150' stroke='#1976d2' stroke-width='3'/>\n <text x='50' y='140' font-size='11'>Railways</text>\n <line x1='50' y1='200' x2='450' y2='200' stroke='#388e3c' stroke-width='3'/>\n <text x='50' y='190' font-size='11'>Airways</text>\n <circle cx='100' cy='250' r='5' fill='#f57c00'/><text x='110' y='255' font-size='10'>Mumbai Port</text>\n <circle cx='350' cy='250' r='5' fill='#f57c00'/><text x='360' y='255' font-size='10'>Chennai Port</text>\n</svg>\n",
+          "important": true
+        },
+        {
+          "id": "n65",
+          "type": "paragraph",
+          "title": "SVG Diagram: Brazil — Transport Routes",
+          "content": "svg\n<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'>\n <rect x='20' y='20' width='460' height='260' fill='#f0fff0' stroke='#333'/>\n <text x='150' y='45' font-size='14' font-weight='bold'>Brazil - Transport Routes</text>\n <line x1='50' y1='100' x2='450' y2='100' stroke='#d32f2f' stroke-width='3'/>\n <text x='50' y='90' font-size='11'>Trans-Amazonian Highway</text>\n <line x1='50' y1='150' x2='450' y2='150' stroke='#1976d2' stroke-width='3'/>\n <text x='50' y='140' font-size='11'>Major Roads</text>\n <line x1='50' y1='200' x2='450' y2='200' stroke='#388e3c' stroke-width='3'/>\n <text x='50' y='190' font-size='11'>Waterways (Amazon)</text>\n <circle cx='100' cy='250' r='5' fill='#f57c00'/><text x='110' y='255' font-size='10'>Manaus</text>\n <circle cx='350' cy='250' r='5' fill='#f57c00'/><text x='360' y='255' font-size='10'>Rio de Janeiro</text>\n</svg>\n",
+          "important": true
         }
       ],
       "flashcards": [
         {
           "id": "f1",
-          "front": "Which longitude in India is considered as Indian Standard Time (IST)?",
-          "back": "82°30' E longitude."
+          "front": "Name any two tourist places in India.",
+          "back": "Taj Mahal and Goa.",
+          "order": 1
         },
         {
           "id": "f2",
-          "front": "What is the most common method of transportation in Brazil?",
-          "back": "Roadways."
+          "front": "Which is the lifeline of India's transport?",
+          "back": "Indian Railways.",
+          "order": 2
         },
         {
           "id": "f3",
-          "front": "Which is the cheapest mode of transport?",
-          "back": "Waterways."
+          "front": "What is ecotourism?",
+          "back": "Tourism that focuses on visiting natural areas without damaging the environment.",
+          "order": 3
         },
         {
           "id": "f4",
-          "front": "Through which city does the standard time meridian of India pass?",
-          "back": "Allahabad."
+          "front": "Which mode of transport is most used in Brazil?",
+          "back": "Roadways.",
+          "order": 4
         },
         {
           "id": "f5",
+          "front": "Name any two means of communication.",
+          "back": "Telephone and internet.",
+          "order": 5
+        },
+        {
+          "id": "f6",
+          "front": "What is IST?",
+          "back": "Indian Standard Time, GMT+5:30.",
+          "order": 6
+        },
+        {
+          "id": "f7",
+          "front": "What is BRT?",
+          "back": "Brazilian Time, GMT-3.",
+          "order": 7
+        },
+        {
+          "id": "f8",
           "front": "How many time zones does Brazil have?",
-          "back": "Four time zones."
+          "back": "Four.",
+          "order": 8
         }
       ],
       "quiz": [
         {
           "id": "q1",
           "qType": "mcq",
-          "question": "In India, the railway network is relatively less dense in which state?",
+          "question": "Which is called the lifeline of India?",
           "options": [
-            "Uttar Pradesh",
-            "Maharashtra",
-            "Tamil Nadu",
-            "Rajasthan"
+            "Roadways",
+            "Railways",
+            "Airways",
+            "Waterways"
           ],
-          "correctAnswer": 3,
-          "explanation": "Rajasthan's large desert area (Thar) and lower population density make railway network development more challenging.",
+          "correctAnswer": 1,
+          "explanation": "Indian Railways is known as the lifeline of India.",
           "order": 1
         },
         {
           "id": "q2",
-          "qType": "mcq",
-          "question": "In Brazil, a southwest-flowing river used for waterways is:",
+          "qType": "true_false",
+          "question": "Tourism generates foreign exchange for a country.",
           "options": [
-            "Puraguaco",
-            "Parnaiba",
-            "Purus",
-            "Parana"
+            "True",
+            "False"
           ],
-          "correctAnswer": 3,
-          "explanation": "The Parana river flows southwest and is used for transportation and creating hydroelectric power.",
+          "correctAnswer": 0,
+          "explanation": "Tourism is an important source of foreign exchange and employment.",
           "order": 2
         },
         {
           "id": "q3",
-          "qType": "mcq",
-          "question": "The most common method of transportation in Brazil is:",
-          "options": [
-            "Airways",
-            "Waterways",
-            "Roadways",
-            "Railways"
+          "qType": "fill_blank",
+          "sentence": "The ___ is a famous tourist attraction in India.",
+          "wordBank": [
+            "Taj Mahal",
+            "Eiffel Tower",
+            "Statue of Liberty",
+            "Great Wall"
           ],
-          "correctAnswer": 2,
-          "explanation": "Road transport is the most widely used method of transportation in Brazil.",
+          "correctWord": "Taj Mahal",
+          "options": [],
+          "correctAnswer": 0,
+          "explanation": "The Taj Mahal in Agra is one of India's most famous monuments.",
           "order": 3
         },
         {
           "id": "q4",
           "qType": "mcq",
-          "question": "In Brazil, telecommunication services are not well expanded in which region?",
+          "question": "Which mode of transport is most used in Brazil?",
           "options": [
-            "Southern",
-            "Central",
-            "Eastern",
-            "Northwestern"
+            "Railways",
+            "Roadways",
+            "Airways",
+            "Waterways"
           ],
-          "correctAnswer": 3,
-          "explanation": "The northwestern part of Brazil is sparsely populated and has dense forests, limiting the expansion of telecommunication services.",
+          "correctAnswer": 1,
+          "explanation": "Roadways are the most used mode of transport in Brazil.",
           "order": 4
         },
         {
           "id": "q5",
           "qType": "mcq",
-          "question": "How many time zones are considered in Brazil?",
+          "question": "Which of the following is a means of communication?",
           "options": [
+            "Railway",
+            "Internet",
+            "Road",
+            "Airplane"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The internet is a means of communication.",
+          "order": 5
+        },
+        {
+          "id": "q6",
+          "qType": "true_false",
+          "question": "Brazil's time is ahead of India's time.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Brazil's time is behind India's time.",
+          "order": 6
+        },
+        {
+          "id": "q7",
+          "qType": "mcq",
+          "question": "How many time zones does Brazil have?",
+          "options": [
+            "One",
             "Two",
             "Three",
-            "Four",
-            "Five"
+            "Four"
           ],
-          "correctAnswer": 2,
-          "explanation": "Brazil considers four time zones due to its large longitudinal extent.",
-          "order": 5
+          "correctAnswer": 3,
+          "explanation": "Brazil has four time zones.",
+          "order": 7
+        },
+        {
+          "id": "q8",
+          "qType": "fill_blank",
+          "sentence": "The Indian Standard Time is based on the ___ longitude.",
+          "wordBank": [
+            "82.5°E",
+            "0°",
+            "90°E",
+            "75°E"
+          ],
+          "correctWord": "82.5°E",
+          "options": [],
+          "correctAnswer": 0,
+          "explanation": "IST is based on 82.5°E longitude, which passes through Allahabad.",
+          "order": 8
         }
       ]
     }

@@ -189,11 +189,17 @@ export default function Flashcards() {
           <div className="clay-card p-8 flex flex-col items-center text-center gap-5">
             <MewMascot
               size="lg"
-              mood="proud"
-              variant="sunset"
-              speech="Flashcards cleared! You're a memory master! 🧠"
+              mood={known >= confused ? (known === total ? 'excited' : 'proud') : 'judgy'}
+              variant={known >= confused ? 'sunset' : 'classic'}
+              speech={
+                known === total
+                  ? "FLAWLESS RECALL! 🧠 Memory like an elephant!"
+                  : known >= confused
+                  ? "Solid memory run! A quick revision and you'll hit 100%!"
+                  : "Oof... your brain deleted these cards faster than Chrome eats RAM. Retry? 💀"
+              }
             />
-            <span className="text-6xl">🎯</span>
+            <span className="text-6xl">{known >= confused ? '🎯' : '🫠'}</span>
             <h2 className="font-display font-black text-3xl" style={{ color: 'var(--text)' }}>Session Done!</h2>
             <div className="flex items-center gap-8">
               <div>

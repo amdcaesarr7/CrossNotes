@@ -1,10 +1,11 @@
 import { Component, type ReactNode } from "react";
+import MewMascot from "@/components/MewMascot";
 
-const FUNNY = [
+const FUNNY_CRASHES = [
   "The app had an existential crisis. Very relatable.",
-  "Something went boom. Even Caesar's notes couldn't survive this one.",
-  "Error detected. Our study elves are panicking.",
-  "Welp. This is awkward. The app broke, not you.",
+  "Something went boom. Even Caesar's notes couldn't survive this code crash.",
+  "Mew accidentally chewed through the server wires. Don't look at him like that.",
+  "Welp. This is awkward. The app broke, but hey, free break from studying!",
 ];
 
 export default class ErrorBoundary extends Component<
@@ -26,23 +27,22 @@ export default class ErrorBoundary extends Component<
 
   render() {
     if (this.state.hasError) {
-      const msg = FUNNY[Math.floor(Math.random() * FUNNY.length)];
+      const msg = FUNNY_CRASHES[Math.floor(Math.random() * FUNNY_CRASHES.length)];
       return (
         <div
-          className="cn-body"
-          style={{ alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '2rem', gap: '1rem' }}
+          className="cn-body min-h-screen flex flex-col items-center justify-center text-center p-6 gap-4"
         >
-          <div style={{ fontSize: '4rem' }}>💥</div>
-          <h1 className="font-display" style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--text)' }}>{msg}</h1>
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>Technical gibberish:</p>
-          <code style={{ fontSize: '0.75rem', color: 'var(--primary)', background: 'var(--primary-light)', padding: '0.5rem 1rem', borderRadius: 8, display: 'block', maxWidth: 480, wordBreak: 'break-all' }}>
+          <MewMascot size="lg" mood="sleepy" speech="Oops... I broke it. 💥" />
+          <h1 className="font-display font-black text-2xl" style={{ color: 'var(--text)' }}>{msg}</h1>
+          <p className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>Technical gibberish for developers:</p>
+          <code className="text-xs font-mono p-3 rounded-xl max-w-md w-full break-all border" style={{ color: 'var(--primary)', background: 'var(--primary-light)', borderColor: 'var(--primary-border)' }}>
             {this.state.errorMessage}
           </code>
           <button
-            className="clay-btn"
+            className="clay-btn px-6 py-3 text-sm mt-2"
             onClick={() => { this.setState({ hasError: false, errorMessage: "" }); window.location.href = "/"; }}
           >
-            Take me home (please)
+            Take me back to safety 🏠
           </button>
         </div>
       );

@@ -9,6 +9,7 @@ import { preloadContent, useStaticSubject, useStaticChapters, type StaticChapter
 import { getSubjectBySlug } from '@/data/subjects';
 import { useHead, useBreadcrumb, getSubjectMeta, buildSubjectSchema, setStructuredData, removeStructuredData } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
+import MewMascot from '@/components/MewMascot';
 import { isImportedSolution } from '@/lib/importedSolutions';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
@@ -225,10 +226,12 @@ export default function Subject() {
       <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>
         <AppHeader backHref="/subjects" backLabel="Subjects" />
         <div className="flex-1 flex flex-col items-center justify-center gap-4 p-8 text-center pb-24">
-          <p className="text-5xl">😵</p>
-          <h2 className="font-display font-bold text-xl" style={{ color: 'var(--text)' }}>Subject not found</h2>
-          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>There's no subject called "{slug}".</p>
-          <Link href="/subjects"><button className="clay-btn">← Back to Subjects</button></Link>
+          <MewMascot size="lg" mood="judgy" speech="Bro invented a new subject? 🧐" />
+          <h2 className="font-display font-black text-2xl mt-2" style={{ color: 'var(--text)' }}>Subject Not Found</h2>
+          <p className="text-sm font-semibold max-w-sm" style={{ color: 'var(--text-muted)' }}>
+            There's no subject called "{slug}". Even the board exam leaked paper squad hasn't heard of this one.
+          </p>
+          <Link href="/subjects"><button className="clay-btn px-6 py-2.5 mt-2">← Back to Real Subjects</button></Link>
         </div>
         <BottomNav />
       </div>

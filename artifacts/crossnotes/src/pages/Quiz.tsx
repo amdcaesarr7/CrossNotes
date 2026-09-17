@@ -431,9 +431,17 @@ export default function Quiz() {
           <div className="clay-card p-8 flex flex-col items-center text-center gap-4">
             <MewMascot
               size="lg"
-              mood={scorePct >= 90 ? 'excited' : scorePct >= 70 ? 'proud' : scorePct >= 50 ? 'cheery' : 'sleepy'}
+              mood={scorePct >= 90 ? 'excited' : scorePct >= 70 ? 'proud' : scorePct >= 50 ? 'cheery' : 'judgy'}
               variant={scorePct >= 90 ? 'sunset' : 'classic'}
-              speech={scorePct >= 90 ? "SUPERSTAR! 100% ENERGY! 🔥" : scorePct >= 70 ? "Great job! Keep going!" : "Don't give up! Try again!"}
+              speech={
+                scorePct >= 90
+                  ? "BOARD TOPPER ENERGY! 🏆 Save some marks for the rest of us!"
+                  : scorePct >= 70
+                  ? "Not bad at all! Sharma ji's son is getting nervous. 👀"
+                  : scorePct >= 50
+                  ? "Passing score... barely! Glass is half full of wrong answers. 😅"
+                  : "Bro... did you guess all of them with your eyes closed? 💀 Re-read notes!"
+              }
             />
             <span className="text-6xl">{emoji}</span>
             <div>

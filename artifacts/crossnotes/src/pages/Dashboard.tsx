@@ -14,6 +14,7 @@ import { isNotificationSupported, getReminderPreference, requestReminderPermissi
 import { googleAvatarUrl } from '@/lib/utils';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
+import MewMascot from '@/components/MewMascot';
 import '../crossnotes.css';
 
 const MOTIVATIONAL = [
@@ -119,27 +120,47 @@ export default function Dashboard() {
 
       <main className="page-content" style={{ gap: 20, paddingTop: 20 }}>
 
-        {/* ── Hero greeting ── */}
+        {/* ── Hero greeting & Mascot Companion ── */}
         <section className="flex flex-col gap-3">
-          <div className="flex items-start justify-between gap-3">
-            <div className="flex flex-col gap-1">
-              <h1 className="font-display font-black text-2xl leading-tight" style={{ color: 'var(--text)' }}>
-                {user ? `Hey ${user.displayName?.split(' ')[0] ?? 'Scholar'} 👋` : 'CrossNotes 📚'}
+          <div className="clay-card p-4 flex items-center justify-between gap-4" style={{ background: 'linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-2) 100%)' }}>
+            <div className="flex flex-col gap-1 flex-1 min-w-0">
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-black px-2 py-0.5 rounded-full" style={{ background: 'var(--primary-light)', color: 'var(--primary)' }}>
+                  Study Companion
+                </span>
+                {studiedToday && (
+                  <span className="text-xs font-bold text-green-600 flex items-center gap-0.5">
+                    ✅ Streak Active
+                  </span>
+                )}
+              </div>
+              <h1 className="font-display font-black text-xl leading-tight mt-1" style={{ color: 'var(--text)' }}>
+                {user ? `Hey ${user.displayName?.split(' ')[0] ?? 'Scholar'}!` : 'Welcome to CrossNotes!'}
               </h1>
-              <p className="text-sm font-semibold" style={{ color: 'var(--text-muted)' }}>
-                {user ? todayMsg() : 'Maharashtra Board 10th — study like a topper.'}
+              <p className="text-xs font-semibold leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+                {user ? todayMsg() : 'Maharashtra Board 10th — study like a topper with Mew.'}
               </p>
             </div>
 
+            {/* Interactive Mascot */}
+            <div className="shrink-0 flex flex-col items-center">
+              <MewMascot
+                size="md"
+                mood={studiedToday ? 'excited' : streak > 3 ? 'proud' : 'cheery'}
+                variant={studiedToday ? 'sunset' : 'classic'}
+                speech={studiedToday ? "Woohoo! Today's goal done!" : "Tap me for a boost!"}
+              />
+            </div>
+
             {/* Streak ring */}
-            <div className="shrink-0">
+            <div className="shrink-0 flex flex-col items-center">
               <div className="streak-ring">
                 <span className="text-xl font-black" style={{ color: '#c2410c', lineHeight: 1 }}>{streak}</span>
                 <span className="text-xs font-bold" style={{ color: '#c2410c' }}>🔥</span>
               </div>
               <p className="text-center text-xs font-bold mt-1" style={{ color: 'var(--text-muted)' }}>streak</p>
               {user && streakFreezes > 0 && (
-                <p className="text-center text-xs font-bold mt-0.5 flex items-center justify-center gap-0.5" style={{ color: '#0284c7' }} title={`${streakFreezes} of ${MAX_STREAK_FREEZES} streak freezes — a freeze auto-covers one missed day`}>
+                <p className="text-center text-xs font-bold mt-0.5 flex items-center justify-center gap-0.5" style={{ color: '#0284c7' }} title={`${streakFreezes} of ${MAX_STREAK_FREEZES} streak freezes`}>
                   <Snowflake size={11} /> ×{streakFreezes}
                 </p>
               )}

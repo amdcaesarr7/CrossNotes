@@ -10,6 +10,7 @@ import { useHead, useBreadcrumb, getChapterMeta } from '@/hooks/useSeo';
 import { sfx } from '@/lib/sfx';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import AppHeader from '@/components/AppHeader';
+import MewMascot from '@/components/MewMascot';
 import '../crossnotes.css';
 
 export default function Flashcards() {
@@ -98,6 +99,20 @@ export default function Flashcards() {
           </div>
         ) : !isFinished ? (
           <>
+            {/* Mascot study encouragement bar */}
+            <div className="clay-card p-3 flex items-center justify-between gap-3" style={{ background: 'var(--bg-card-2)' }}>
+              <div className="flex items-center gap-2">
+                <MewMascot
+                  size="sm"
+                  mood={isFlipped ? 'excited' : 'cheery'}
+                  speech={isFlipped ? "Aha! Did you get it right?" : "Tap the card to test your memory!"}
+                />
+                <span className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>
+                  {isFlipped ? 'Check your recall answer!' : 'Mew is quizzing you!'}
+                </span>
+              </div>
+            </div>
+
             {/* Progress */}
             <div>
               <div className="flex justify-between text-xs font-bold mb-1.5" style={{ color: 'var(--text-muted)' }}>
@@ -172,6 +187,12 @@ export default function Flashcards() {
           </>
         ) : (
           <div className="clay-card p-8 flex flex-col items-center text-center gap-5">
+            <MewMascot
+              size="lg"
+              mood="proud"
+              variant="sunset"
+              speech="Flashcards cleared! You're a memory master! 🧠"
+            />
             <span className="text-6xl">🎯</span>
             <h2 className="font-display font-black text-3xl" style={{ color: 'var(--text)' }}>Session Done!</h2>
             <div className="flex items-center gap-8">

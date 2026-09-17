@@ -75,7 +75,7 @@ export default function AdminUsers() {
       if (result.recipientCount === 0) {
         toast.info('There are no registered users with email addresses yet.');
       } else if (result.failedCount > 0) {
-        toast.warning(`Sent to ${result.sentCount} of ${result.recipientCount} registered users.`);
+        toast.warning(`${result.error ?? 'Some messages failed.'} Sent to ${result.sentCount} of ${result.recipientCount}.`);
       } else {
         toast.success(`Update emailed to ${result.sentCount} registered user${result.sentCount === 1 ? '' : 's'}.`);
       }

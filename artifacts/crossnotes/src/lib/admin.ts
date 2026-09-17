@@ -14,6 +14,7 @@ export interface ReleaseEmailResult {
   recipientCount: number;
   sentCount: number;
   failedCount: number;
+  error?: string;
 }
 
 const configuredAdminEmails = (import.meta.env.VITE_ADMIN_EMAILS ?? '')

@@ -7,6 +7,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "notify-users": "node scripts/notify-registered-users.mjs",
     "serve": "npm run build && firebase emulators:start --only functions",
     "deploy": "firebase deploy --only functions:notifyFeedbackSubmitted",
     "typecheck": "tsc -p tsconfig.json --noEmit"

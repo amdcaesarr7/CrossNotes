@@ -60,8 +60,16 @@ async function sendThroughRelay(recipient, subject, message) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ secret: relaySecret, to: recipient, subject, text: message }),
   });
-  const payload = await relayResponse.json().catch(() => ({}));
-  if (!relayResponse.ok || payload.ok !== true) throw new Error('Gmail relay rejected the message.');
+  const rawBody = await relayResponse.text();
+  let payload = {};
+  try {
+    payload = JSON.parse(rawBody);
+  } catch {
+    throw new Error(`Gmail relay returned a non-JSON response (HTTP ${relayResponse.status}). Check that GMAIL_RELAY_URL is the deployed /exec URL.`);
+  }
+  if (!relayResponse.ok || payload.ok !== true) {
+    throw new Error(typeof payload.error === 'string' ? payload.error : `Gmail relay rejected the message (HTTP ${relayResponse.status}).`);
+  }
 }
 
 export default async function handler(request, response) {
@@ -125,7 +133,12 @@ export default async function handler(request, response) {
           console.error('Release email delivery failed.', { recipient, error: error instanceof Error ? error.message : 'Unknown error' });
         }
       }
-      response.status(200).json({ recipientCount: recipients.length, sentCount, failedCount });
+      response.status(200).json({
+        recipientCount: recipients.length,
+        sentCount,
+        failedCount,
+        error: failedCount > 0 ? 'Some messages failed. Check the Vercel function logs for the relay response.' : undefined,
+      });
       return;
     }
 

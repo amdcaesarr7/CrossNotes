@@ -9,7 +9,12 @@ const MAX_SUBJECT_LENGTH = 180;
 const MAX_BODY_LENGTH = 10000;
 
 function doGet() {
-  return jsonResponse({ ok: true, service: 'crossnotes-gmail-relay' });
+  return jsonResponse({
+    ok: true,
+    service: 'crossnotes-gmail-relay',
+    version: '2026-09-17',
+    configured: Boolean(PropertiesService.getScriptProperties().getProperty('RELAY_SECRET')),
+  });
 }
 
 function doPost(event) {
@@ -53,7 +58,10 @@ function doPost(event) {
     return jsonResponse({ ok: true, messageId: String(messageId || '') });
   } catch (error) {
     console.error(error);
-    return jsonResponse({ ok: false, error: 'Gmail relay delivery failed.' });
+    return jsonResponse({
+      ok: false,
+      error: error && error.message ? String(error.message) : 'Gmail relay delivery failed.',
+    });
   }
 }
 

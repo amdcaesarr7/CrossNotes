@@ -1,0 +1,40 @@
+name: Notify registered users
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the pushed revision
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: functions/package-lock.json
+
+      - name: Install notification dependencies
+        working-directory: functions
+        run: npm ci --ignore-scripts
+
+      - name: Email registered users
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          GMAIL_RELAY_URL: ${{ secrets.GMAIL_RELAY_URL }}
+          GMAIL_RELAY_SECRET: ${{ secrets.GMAIL_RELAY_SECRET }}
+          RELEASE_TITLE: CrossNotes was updated
+          RELEASE_MESSAGE: |
+            CrossNotes has a fresh update! Mew has been waiting for you.
+
+            Open CrossNotes to see what changed and continue your study streak.
+        run: node scripts/notify-registered-users.mjs
+        working-directory: functions

@@ -29,14 +29,14 @@ export default function AdminUsers() {
   const loadUsers = useCallback(async () => {
     setLoadingUsers(true);
     try {
-      setUsers(await listManagedUsers());
+      if (user) setUsers(await listManagedUsers(user));
     } catch (error) {
       console.error('[AdminUsers] Failed to load users:', error);
       toast.error('Could not load registered users.');
     } finally {
       setLoadingUsers(false);
     }
-  }, []);
+  }, [user]);
 
   useEffect(() => {
     if (!loading && isAdmin) void loadUsers();
@@ -51,7 +51,8 @@ export default function AdminUsers() {
   const toggleDisabled = async (entry: ManagedUser) => {
     setSavingUid(entry.uid);
     try {
-      await setManagedUserDisabled(entry.uid, !entry.disabled);
+      if (!user) return;
+      await setManagedUserDisabled(user, entry.uid, !entry.disabled);
       setUsers((current) => current.map((item) => item.uid === entry.uid ? { ...item, disabled: !entry.disabled } : item));
       toast.success(entry.disabled ? 'User re-enabled.' : 'User disabled.');
     } catch (error) {
@@ -69,7 +70,8 @@ export default function AdminUsers() {
     }
     setSending(true);
     try {
-      const result = await sendReleaseEmail(title.trim(), message.trim());
+      if (!user) return;
+      const result = await sendReleaseEmail(user, title.trim(), message.trim());
       if (result.recipientCount === 0) {
         toast.info('There are no registered users with email addresses yet.');
       } else if (result.failedCount > 0) {

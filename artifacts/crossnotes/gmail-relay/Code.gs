@@ -2,7 +2,7 @@
  * CrossNotes Gmail Relay
  *
  * Deploy this Apps Script as a web app that executes as support.crossnotes@gmail.com.
- * Store RELAY_SECRET and ALLOWED_RECIPIENT in Script Properties before deployment.
+ * Store RELAY_SECRET and ALLOWED_RECIPIENTS in Script Properties before deployment.
  */
 
 const MAX_SUBJECT_LENGTH = 180;
@@ -17,19 +17,22 @@ function doPost(event) {
     const payload = JSON.parse(event && event.postData && event.postData.contents || '{}');
     const properties = PropertiesService.getScriptProperties();
     const expectedSecret = String(properties.getProperty('RELAY_SECRET') || '');
-    const allowedRecipient = String(properties.getProperty('ALLOWED_RECIPIENT') || '').trim().toLowerCase();
+    const allowedRecipients = String(properties.getProperty('ALLOWED_RECIPIENTS') || properties.getProperty('ALLOWED_RECIPIENT') || '')
+      .split(',')
+      .map((value) => value.trim().toLowerCase())
+      .filter(Boolean);
     const suppliedSecret = String(payload.secret || '');
     const recipient = String(payload.to || '').trim().toLowerCase();
     const subject = String(payload.subject || '').trim();
     const text = String(payload.text || '').trim();
 
-    if (!expectedSecret || !allowedRecipient) {
+    if (!expectedSecret || !allowedRecipients.length) {
       throw new Error('Relay configuration is incomplete.');
     }
     if (!safeEquals(suppliedSecret, expectedSecret)) {
       return jsonResponse({ ok: false, error: 'Unauthorized relay request.' });
     }
-    if (recipient !== allowedRecipient) {
+    if (!allowedRecipients.includes(recipient) && allowedRecipients[0] !== '*') {
       return jsonResponse({ ok: false, error: 'Recipient is not permitted.' });
     }
     if (!subject || !text || subject.length > MAX_SUBJECT_LENGTH || text.length > MAX_BODY_LENGTH) {

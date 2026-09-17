@@ -1,5 +1,4 @@
-import { httpsCallable } from 'firebase/functions';
-import { functions } from '@/lib/firebase';
+import type { User } from 'firebase/auth';
 
 export interface ManagedUser {
   uid: string;
@@ -26,30 +25,30 @@ export function isConfiguredAdmin(email: string | null | undefined) {
   return Boolean(email && configuredAdminEmails.includes(email.toLowerCase()));
 }
 
-function requireFunctions() {
-  if (!functions) throw new Error('Firebase is not configured.');
-  return functions;
+async function adminRequest<T>(user: User, action: string, data?: Record<string, unknown>) {
+  const token = await user.getIdToken();
+  const response = await fetch('/api/admin-users', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ action, ...data }),
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(typeof payload.error === 'string' ? payload.error : 'Admin request failed.');
+  return payload as T;
 }
 
-export async function listManagedUsers() {
-  const callable = httpsCallable<void, { users: ManagedUser[] }>(requireFunctions(), 'adminListUsers');
-  const result = await callable();
-  return result.data.users;
+export async function listManagedUsers(user: User) {
+  const result = await adminRequest<{ users: ManagedUser[] }>(user, 'list');
+  return result.users;
 }
 
-export async function setManagedUserDisabled(uid: string, disabled: boolean) {
-  const callable = httpsCallable<{ uid: string; disabled: boolean }, { success: boolean }>(
-    requireFunctions(),
-    'adminSetUserDisabled',
-  );
-  await callable({ uid, disabled });
+export async function setManagedUserDisabled(user: User, uid: string, disabled: boolean) {
+  await adminRequest<{ success: boolean }>(user, 'set-disabled', { uid, disabled });
 }
 
-export async function sendReleaseEmail(title: string, message: string) {
-  const callable = httpsCallable<
-    { title: string; message: string },
-    ReleaseEmailResult
-  >(requireFunctions(), 'adminSendReleaseEmail');
-  const result = await callable({ title, message });
-  return result.data;
+export async function sendReleaseEmail(user: User, title: string, message: string) {
+  return adminRequest<ReleaseEmailResult>(user, 'send-release', { title, message });
 }

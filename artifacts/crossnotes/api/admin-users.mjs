@@ -120,6 +120,7 @@ export default async function handler(request, response) {
 
       let sentCount = 0;
       let failedCount = 0;
+      const failures = [];
       for (const recipient of recipients) {
         try {
           await sendThroughRelay(
@@ -130,14 +131,19 @@ export default async function handler(request, response) {
           sentCount += 1;
         } catch (error) {
           failedCount += 1;
-          console.error('Release email delivery failed.', { recipient, error: error instanceof Error ? error.message : 'Unknown error' });
+          const reason = error instanceof Error ? error.message : 'Unknown error';
+          failures.push(reason);
+          console.error('Release email delivery failed.', { recipient, error: reason });
         }
       }
+      const uniqueFailures = [...new Set(failures)];
       response.status(200).json({
         recipientCount: recipients.length,
         sentCount,
         failedCount,
-        error: failedCount > 0 ? 'Some messages failed. Check the Vercel function logs for the relay response.' : undefined,
+        error: uniqueFailures.length > 0
+          ? `Some messages failed: ${uniqueFailures.slice(0, 3).join(' | ')}`
+          : undefined,
       });
       return;
     }

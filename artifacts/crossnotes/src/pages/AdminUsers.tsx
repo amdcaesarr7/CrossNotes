@@ -23,6 +23,7 @@ export default function AdminUsers() {
   const [title, setTitle] = useState('');
   const [message, setMessage] = useState('');
   const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState<string | null>(null);
 
   const isAdmin = isConfiguredAdmin(user?.email);
 
@@ -69,13 +70,16 @@ export default function AdminUsers() {
       return;
     }
     setSending(true);
+    setSendError(null);
     try {
       if (!user) return;
       const result = await sendReleaseEmail(user, title.trim(), message.trim());
       if (result.recipientCount === 0) {
         toast.info('There are no registered users with email addresses yet.');
       } else if (result.failedCount > 0) {
-        toast.warning(`${result.error ?? 'Some messages failed.'} Sent to ${result.sentCount} of ${result.recipientCount}.`);
+        const errorMessage = `${result.error ?? 'Some messages failed.'} Sent to ${result.sentCount} of ${result.recipientCount}.`;
+        setSendError(errorMessage);
+        toast.warning(errorMessage);
       } else {
         toast.success(`Update emailed to ${result.sentCount} registered user${result.sentCount === 1 ? '' : 's'}.`);
       }
@@ -83,7 +87,9 @@ export default function AdminUsers() {
       setMessage('');
     } catch (error) {
       console.error('[AdminUsers] Failed to send release email:', error);
-      toast.error('Could not send the update email.');
+      const errorMessage = error instanceof Error ? error.message : 'Could not send the update email.';
+      setSendError(errorMessage);
+      toast.error(errorMessage);
     } finally {
       setSending(false);
     }
@@ -111,6 +117,8 @@ export default function AdminUsers() {
           <div className="grid gap-3">
             <input className="feedback-search" value={title} onChange={(event) => setTitle(event.target.value)} placeholder="Change title" aria-label="Change title" />
             <textarea className="feedback-admin-field" value={message} onChange={(event) => setMessage(event.target.value)} placeholder="What changed? Keep it short and useful." maxLength={2000} aria-label="Change message" />
+            {sending && <div className="admin-send-progress" role="status" aria-live="polite"><div className="admin-send-progress-bar" /><span>Sending to registered users… Please keep this page open.</span></div>}
+            {sendError && <div className="admin-send-error" role="alert"><strong>Email delivery failed</strong><span>{sendError}</span></div>}
             <button className="clay-btn" onClick={() => void sendUpdate()} disabled={sending}>{sending ? 'Sending…' : 'Email registered users'}</button>
           </div>
         </section>

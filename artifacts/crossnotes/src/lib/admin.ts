@@ -50,6 +50,29 @@ export async function setManagedUserDisabled(user: User, uid: string, disabled: 
   await adminRequest<{ success: boolean }>(user, 'set-disabled', { uid, disabled });
 }
 
-export async function sendReleaseEmail(user: User, title: string, message: string) {
-  return adminRequest<ReleaseEmailResult>(user, 'send-release', { title, message });
+export async function sendReleaseEmail(user: User, title: string, message: string, recipients?: string[]) {
+  const targetRecipients = recipients ?? (await listManagedUsers(user))
+    .filter((entry) => entry.email && !entry.disabled)
+    .map((entry) => entry.email as string)
+    .slice(0, 100);
+
+  const batchSize = 8;
+  let sentCount = 0;
+  let failedCount = 0;
+  const errors: string[] = [];
+
+  for (let index = 0; index < targetRecipients.length; index += batchSize) {
+    const batch = targetRecipients.slice(index, index + batchSize);
+    const result = await adminRequest<ReleaseEmailResult>(user, 'send-release', { title, message, recipients: batch });
+    sentCount += result.sentCount;
+    failedCount += result.failedCount;
+    if (result.error) errors.push(result.error);
+  }
+
+  return {
+    recipientCount: targetRecipients.length,
+    sentCount,
+    failedCount,
+    error: errors.length ? errors.slice(0, 3).join(' | ') : undefined,
+  } satisfies ReleaseEmailResult;
 }

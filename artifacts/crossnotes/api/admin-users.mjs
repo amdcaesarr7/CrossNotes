@@ -109,31 +109,40 @@ export default async function handler(request, response) {
         response.status(400).json({ error: 'A valid title and message are required.' });
         return;
       }
-      const recipients = (await allUsers(auth))
+
+      const rawRecipients = Array.isArray(request.body?.recipients) ? request.body.recipients : null;
+      const recipients = (rawRecipients ?? (await allUsers(auth))
         .filter((user) => user.email && !user.disabled)
         .map((user) => user.email)
-        .slice(0, MAX_EMAILS_PER_RUN);
+        .slice(0, MAX_EMAILS_PER_RUN))
+        .map((value) => text(value))
+        .filter(Boolean);
+
       if (recipients.length === 0) {
         response.status(200).json({ recipientCount: 0, sentCount: 0, failedCount: 0 });
         return;
       }
 
+      const BATCH_SIZE = 8;
       let sentCount = 0;
       let failedCount = 0;
       const failures = [];
-      for (const recipient of recipients) {
-        try {
-          await sendThroughRelay(
-            recipient,
-            `[CrossNotes] ${title}`,
-            `${title}\n\n${message}\n\nYou are receiving this because you have a registered CrossNotes account.`,
-          );
-          sentCount += 1;
-        } catch (error) {
-          failedCount += 1;
-          const reason = error instanceof Error ? error.message : 'Unknown error';
-          failures.push(reason);
-          console.error('Release email delivery failed.', { recipient, error: reason });
+      for (let index = 0; index < recipients.length; index += BATCH_SIZE) {
+        const batch = recipients.slice(index, index + BATCH_SIZE);
+        for (const recipient of batch) {
+          try {
+            await sendThroughRelay(
+              recipient,
+              `[CrossNotes] ${title}`,
+              `${title}\n\n${message}\n\nYou are receiving this because you have a registered CrossNotes account.`,
+            );
+            sentCount += 1;
+          } catch (error) {
+            failedCount += 1;
+            const reason = error instanceof Error ? error.message : 'Unknown error';
+            failures.push(reason);
+            console.error('Release email delivery failed.', { recipient, error: reason, batchIndex: index });
+          }
         }
       }
       const uniqueFailures = [...new Set(failures)];

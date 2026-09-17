@@ -51,10 +51,12 @@ export async function setManagedUserDisabled(user: User, uid: string, disabled: 
 }
 
 export async function sendReleaseEmail(user: User, title: string, message: string, recipients?: string[]) {
-  const targetRecipients = recipients ?? (await listManagedUsers(user))
+  const targetRecipients = [...new Set((recipients ?? (await listManagedUsers(user))
     .filter((entry) => entry.email && !entry.disabled)
     .map((entry) => entry.email as string)
-    .slice(0, 100);
+    .slice(0, 100))
+    .map((value) => value.trim())
+    .filter(Boolean))];
 
   const batchSize = 8;
   let sentCount = 0;

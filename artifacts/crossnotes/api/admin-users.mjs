@@ -111,12 +111,12 @@ export default async function handler(request, response) {
       }
 
       const rawRecipients = Array.isArray(request.body?.recipients) ? request.body.recipients : null;
-      const recipients = (rawRecipients ?? (await allUsers(auth))
+      const recipients = [...new Set((rawRecipients ?? (await allUsers(auth))
         .filter((user) => user.email && !user.disabled)
         .map((user) => user.email)
         .slice(0, MAX_EMAILS_PER_RUN))
         .map((value) => text(value))
-        .filter(Boolean);
+        .filter(Boolean))];
 
       if (recipients.length === 0) {
         response.status(200).json({ recipientCount: 0, sentCount: 0, failedCount: 0 });

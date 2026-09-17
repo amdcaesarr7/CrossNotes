@@ -2,6 +2,8 @@
 
 `notifyFeedbackSubmitted` runs when a new document is created in Firestore's `feedback` collection. It attempts an Instagram direct message first and falls back to email if Instagram delivery is unavailable or rejected.
 
+The admin callables `adminListUsers`, `adminSetUserDisabled`, and `adminSendReleaseEmail` power the admin tool. They require the signed-in user's email to be listed in the `ADMIN_EMAILS` secret. Release emails are sent to every non-disabled Firebase Auth user with an email address; if there are no recipients, the callable returns a zero-recipient result.
+
 > The function deliberately does **not** accept, store, or use an Instagram password. It uses the official server-side Instagram Messaging API and Firebase-managed secrets.
 
 ## Before deployment
@@ -23,6 +25,7 @@ firebase functions:secrets:set META_RECIPIENT_IGSID
 firebase functions:secrets:set RESEND_API_KEY
 firebase functions:secrets:set NOTIFICATION_EMAIL_TO
 firebase functions:secrets:set NOTIFICATION_EMAIL_FROM
+firebase functions:secrets:set ADMIN_EMAILS
 ```
 
 Use `functions/.env.example` as the field reference. `META_RECIPIENT_IGSID` is **not** the Instagram username; it is the Instagram-scoped ID received through the official Meta messaging webhook after the recipient starts a conversation.
@@ -33,7 +36,7 @@ Use `functions/.env.example` as the field reference. `META_RECIPIENT_IGSID` is *
 cd functions
 npm install
 cd ..
-firebase deploy --only functions:notifyFeedbackSubmitted
+firebase deploy --only functions
 ```
 
 ## Delivery behavior

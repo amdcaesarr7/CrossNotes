@@ -24,6 +24,7 @@ import {
   EyeOff,
   Cookie,
   SunMedium,
+  ShieldCheck,
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
@@ -33,6 +34,7 @@ import { setLeaderboardVisibility, useUserProfile } from '@/hooks/useFirestore';
 import { submitFeedback, type FeedbackKind } from '@/lib/feedback';
 import { googleAvatarUrl } from '@/lib/utils';
 import { openCookiePreferences } from '@/lib/cookies';
+import { isConfiguredAdmin } from '@/lib/admin';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -68,6 +70,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
   const { soundOn, toggleSound } = useSound();
   const { profile } = useUserProfile(user?.uid);
   const coins = profile?.coins ?? 0;
+  const isAdmin = isConfiguredAdmin(user?.email);
   const leaderboardHidden = profile?.leaderboardOptOut ?? false;
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [feedbackKind, setFeedbackKind] = useState<FeedbackKind>('idea');
@@ -198,6 +201,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                 <DropdownMenuItem asChild className="account-menu-item">
                   <Link href="/settings"><Settings2 size={17} aria-hidden="true" /> <span>Settings</span></Link>
                 </DropdownMenuItem>
+                {isAdmin && <DropdownMenuItem asChild className="account-menu-item"><Link href="/admin/users"><ShieldCheck size={17} aria-hidden="true" /> <span>Admin tools</span></Link></DropdownMenuItem>}
                 <DropdownMenuSub>
                   <DropdownMenuSubTrigger className="account-menu-item account-settings-trigger">
                     <Settings2 size={17} aria-hidden="true" /> <span>Quick settings</span>

@@ -2,6 +2,8 @@ import { FieldValue } from 'firebase-admin/firestore';
 import { initializeApp } from 'firebase-admin/app';
 import { defineSecret } from 'firebase-functions/params';
 import { onDocumentCreated } from 'firebase-functions/v2/firestore';
+import { onCall, HttpsError } from 'firebase-functions/v2/https';
+import { getAuth, type UserRecord } from 'firebase-admin/auth';
 import { logger } from 'firebase-functions';
 
 initializeApp();
@@ -12,6 +14,7 @@ const META_RECIPIENT_IGSID = defineSecret('META_RECIPIENT_IGSID');
 const RESEND_API_KEY = defineSecret('RESEND_API_KEY');
 const NOTIFICATION_EMAIL_TO = defineSecret('NOTIFICATION_EMAIL_TO');
 const NOTIFICATION_EMAIL_FROM = defineSecret('NOTIFICATION_EMAIL_FROM');
+const ADMIN_EMAILS = defineSecret('ADMIN_EMAILS');
 
 type FeedbackKind = 'idea' | 'bug' | 'encouragement';
 
@@ -165,5 +168,110 @@ export const notifyFeedbackSubmitted = onDocumentCreated(
         });
       }
     }
+  },
+);
+
+function getAdminEmails() {
+  return new Set(ADMIN_EMAILS.value().split(',').map((email) => email.trim().toLowerCase()).filter(Boolean));
+}
+
+function assertAdmin(request: { auth?: { token: Record<string, unknown> } | null }) {
+  const email = typeof request.auth?.token.email === 'string' ? request.auth.token.email.toLowerCase() : '';
+  if (!request.auth || !email || !getAdminEmails().has(email)) {
+    throw new HttpsError('permission-denied', 'Admin access is required.');
+  }
+}
+
+function serializeUser(user: UserRecord) {
+  return {
+    uid: user.uid,
+    email: user.email ?? null,
+    displayName: user.displayName ?? null,
+    photoURL: user.photoURL ?? null,
+    disabled: user.disabled,
+    createdAt: user.metadata.creationTime ?? null,
+    lastSignInAt: user.metadata.lastSignInTime ?? null,
+  };
+}
+
+async function listAllUsers() {
+  const users: UserRecord[] = [];
+  let pageToken: string | undefined;
+  do {
+    const result = await getAuth().listUsers(1000, pageToken);
+    users.push(...result.users);
+    pageToken = result.pageToken;
+  } while (pageToken);
+  return users;
+}
+
+export const adminListUsers = onCall(
+  { region: 'asia-south1', secrets: [ADMIN_EMAILS] },
+  async (request) => {
+    assertAdmin(request);
+    const users = await listAllUsers();
+    return { users: users.map(serializeUser).sort((a, b) => (a.email ?? '').localeCompare(b.email ?? '')) };
+  },
+);
+
+export const adminSetUserDisabled = onCall(
+  { region: 'asia-south1', secrets: [ADMIN_EMAILS] },
+  async (request) => {
+    assertAdmin(request);
+    const uid = typeof request.data?.uid === 'string' ? request.data.uid : '';
+    const disabled = request.data?.disabled;
+    if (!uid || typeof disabled !== 'boolean') {
+      throw new HttpsError('invalid-argument', 'A user ID and disabled state are required.');
+    }
+    await getAuth().updateUser(uid, { disabled });
+    return { success: true };
+  },
+);
+
+export const adminSendReleaseEmail = onCall(
+  {
+    region: 'asia-south1',
+    secrets: [ADMIN_EMAILS, RESEND_API_KEY, NOTIFICATION_EMAIL_FROM],
+  },
+  async (request) => {
+    assertAdmin(request);
+    const title = typeof request.data?.title === 'string' ? request.data.title.trim() : '';
+    const message = typeof request.data?.message === 'string' ? request.data.message.trim() : '';
+    if (!title || !message || title.length > 160 || message.length > 2000) {
+      throw new HttpsError('invalid-argument', 'A valid title and message are required.');
+    }
+
+    const recipients = (await listAllUsers())
+      .filter((user) => Boolean(user.email) && !user.disabled)
+      .map((user) => user.email as string);
+    if (recipients.length === 0) {
+      logger.info('Release email skipped because no registered users have email addresses.');
+      return { recipientCount: 0, sentCount: 0, failedCount: 0 };
+    }
+
+    const apiKey = RESEND_API_KEY.value();
+    const from = NOTIFICATION_EMAIL_FROM.value();
+    if (!apiKey || !from) throw new HttpsError('failed-precondition', 'Email delivery is not configured.');
+
+    let sentCount = 0;
+    let failedCount = 0;
+    for (const recipient of recipients) {
+      const response = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          from,
+          to: [recipient],
+          subject: `[CrossNotes] ${title}`,
+          text: `${title}\n\n${message}\n\nYou are receiving this because you have a registered CrossNotes account.`,
+        }),
+      });
+      if (response.ok) sentCount += 1;
+      else {
+        failedCount += 1;
+        logger.warn('Release email failed for recipient.', { recipient, status: response.status });
+      }
+    }
+    return { recipientCount: recipients.length, sentCount, failedCount };
   },
 );

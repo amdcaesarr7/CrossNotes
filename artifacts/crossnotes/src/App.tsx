@@ -30,6 +30,7 @@ const Progress = lazy(() => import('@/pages/Progress'));
 const Leaderboard = lazy(() => import('@/pages/Leaderboard'));
 const Shop = lazy(() => import('@/pages/Shop'));
 const AdminFeedback = lazy(() => import('@/pages/AdminFeedback'));
+const AdminUsers = lazy(() => import('@/pages/AdminUsers'));
 const Credits = lazy(() => import('@/pages/Credits'));
 const Settings = lazy(() => import('@/pages/Settings'));
 const NotFound = lazy(() => import('@/pages/not-found'));
@@ -62,6 +63,7 @@ export default function App() {
                         <Route path="/leaderboard" component={Leaderboard} />
                         <Route path="/shop" component={Shop} />
                         <Route path="/admin/feedback" component={AdminFeedback} />
+                        <Route path="/admin/users" component={AdminUsers} />
                         <Route path="/credits" component={Credits} />
                         <Route path="/settings" component={Settings} />
                         <Route component={NotFound} />

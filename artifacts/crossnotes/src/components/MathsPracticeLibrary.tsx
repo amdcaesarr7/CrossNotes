@@ -60,7 +60,23 @@ export default function MathsPracticeLibrary({ notes, chapterTitle }: MathsPract
     setPageIndex(0);
   };
 
-  const countFor = (id: CategoryFilter) => id === 'all' ? sets.length : sets.filter(set => set.category === id).length;
+  // Performance: Compute category counts in a single pass memoized on `sets` instead of filtering array on every render.
+  const categoryCounts = useMemo<Record<CategoryFilter, number>>(() => {
+    let practice = 0;
+    let problem = 0;
+    let solution = 0;
+    for (const set of sets) {
+      if (set.category === 'practice') practice++;
+      else if (set.category === 'problem') problem++;
+      else if (set.category === 'solution') solution++;
+    }
+    return {
+      all: sets.length,
+      practice,
+      problem,
+      solution,
+    };
+  }, [sets]);
 
   return (
     <section className="maths-practice-library" aria-label={`${chapterTitle} Practice Set library`}>
@@ -89,7 +105,7 @@ export default function MathsPracticeLibrary({ notes, chapterTitle }: MathsPract
             onClick={() => { setFilter(option.id); setPageIndex(0); }}
             aria-pressed={filter === option.id}
           >
-            {option.label} <span>{countFor(option.id)}</span>
+            {option.label} <span>{categoryCounts[option.id]}</span>
           </button>
         ))}
       </div>

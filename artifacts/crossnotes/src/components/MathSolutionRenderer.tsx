@@ -1,4 +1,4 @@
-import { type ReactNode, useState } from 'react';
+import { type ReactNode, useState, useMemo } from 'react';
 import { ExternalLink, Image as ImageIcon, Lightbulb } from 'lucide-react';
 import { getMathImageFallbackUrl, normalizeMathSolutionContent } from '@/lib/mathSolutionContent';
 
@@ -88,42 +88,47 @@ function SolutionImage({ source, rawAlt }: { source: string; rawAlt: string }) {
  * worked steps remain intact and readable.
  */
 export default function MathSolutionRenderer({ content }: MathSolutionRendererProps) {
-  const lines = normalizeMathSolutionContent(content).split('\n');
+  // Performance: Solution content normalization and line-by-line regex parsing can be
+  // expensive for large math solution sets. Memoize parsed elements to prevent redundant re-parsing.
+  const renderedContent = useMemo(() => {
+    const lines = normalizeMathSolutionContent(content).split('\n');
+    return lines.map((rawLine, index) => {
+      const line = rawLine.trim();
+      if (!line) return <div key={`gap-${index}`} className="solution-gap" />;
+
+      const image = line.match(IMAGE_LINE);
+      if (image) return <SolutionImage key={`image-${index}`} source={image[2]} rawAlt={image[1]} />;
+
+      const heading = line.match(HEADING_LINE);
+      if (heading) return <h3 key={`heading-${index}`} className="solution-section-heading">{renderInline(heading[1])}</h3>;
+
+      if (/^question\s*\d+\.?$/i.test(line)) {
+        return <p key={`question-${index}`} className="solution-question-label">{line}</p>;
+      }
+
+      if (/^(solution|answer)\s*:?$/i.test(line)) {
+        return (
+          <p key={`solution-${index}`} className="solution-answer-label">
+            <Lightbulb size={14} aria-hidden="true" /> {line.replace(/:$/, '')}
+          </p>
+        );
+      }
+
+      const list = line.match(LIST_LINE);
+      if (list && !isEquation(line)) {
+        return <p key={`list-${index}`} className="solution-list-item"><span>•</span>{renderInline(list[1])}</p>;
+      }
+
+      if (isEquation(line)) return <p key={`math-${index}`} className="solution-math-line">{renderInline(line)}</p>;
+
+      return <p key={`text-${index}`} className="solution-paragraph">{renderInline(line)}</p>;
+    });
+  }, [content]);
 
   return (
     <div className="solution-reader">
       <div className="solution-reader-body">
-        {lines.map((rawLine, index) => {
-          const line = rawLine.trim();
-          if (!line) return <div key={`gap-${index}`} className="solution-gap" />;
-
-          const image = line.match(IMAGE_LINE);
-          if (image) return <SolutionImage key={`image-${index}`} source={image[2]} rawAlt={image[1]} />;
-
-          const heading = line.match(HEADING_LINE);
-          if (heading) return <h3 key={`heading-${index}`} className="solution-section-heading">{renderInline(heading[1])}</h3>;
-
-          if (/^question\s*\d+\.?$/i.test(line)) {
-            return <p key={`question-${index}`} className="solution-question-label">{line}</p>;
-          }
-
-          if (/^(solution|answer)\s*:?$/i.test(line)) {
-            return (
-              <p key={`solution-${index}`} className="solution-answer-label">
-                <Lightbulb size={14} aria-hidden="true" /> {line.replace(/:$/, '')}
-              </p>
-            );
-          }
-
-          const list = line.match(LIST_LINE);
-          if (list && !isEquation(line)) {
-            return <p key={`list-${index}`} className="solution-list-item"><span>•</span>{renderInline(list[1])}</p>;
-          }
-
-          if (isEquation(line)) return <p key={`math-${index}`} className="solution-math-line">{renderInline(line)}</p>;
-
-          return <p key={`text-${index}`} className="solution-paragraph">{renderInline(line)}</p>;
-        })}
+        {renderedContent}
       </div>
     </div>
   );

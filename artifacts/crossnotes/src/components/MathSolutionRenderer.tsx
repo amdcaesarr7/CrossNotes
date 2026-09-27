@@ -1,4 +1,4 @@
-import { type ReactNode, useState } from 'react';
+import { type ReactNode, useMemo, useState } from 'react';
 import { ExternalLink, Image as ImageIcon, Lightbulb } from 'lucide-react';
 import { getMathImageFallbackUrl, normalizeMathSolutionContent } from '@/lib/mathSolutionContent';
 
@@ -10,6 +10,8 @@ interface MathSolutionRendererProps {
 const IMAGE_LINE = /^!\[([^\]]*)\]\((https?:\/\/[^)]+)\)$/;
 const HEADING_LINE = /^#{1,6}\s+(.+)$/;
 const LIST_LINE = /^(?:[-*]|\d+[.)]|[ivxlcdm]+\.)\s+(.+)$/i;
+// Reusable inline markdown link regex to avoid RegExp re-instantiation per rendered line
+const INLINE_LINK_REGEX = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
 
 function isEquation(line: string) {
   const trimmed = line.trim();
@@ -24,11 +26,11 @@ function isEquation(line: string) {
 
 function renderInline(text: string): ReactNode {
   const pieces: ReactNode[] = [];
-  const link = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g;
+  INLINE_LINK_REGEX.lastIndex = 0;
   let cursor = 0;
   let match: RegExpExecArray | null;
 
-  while ((match = link.exec(text)) !== null) {
+  while ((match = INLINE_LINK_REGEX.exec(text)) !== null) {
     if (match.index > cursor) pieces.push(text.slice(cursor, match.index));
     pieces.push(
       <a key={`${match[2]}-${match.index}`} href={match[2]} target="_blank" rel="noreferrer" className="solution-inline-link">
@@ -88,7 +90,12 @@ function SolutionImage({ source, rawAlt }: { source: string; rawAlt: string }) {
  * worked steps remain intact and readable.
  */
 export default function MathSolutionRenderer({ content }: MathSolutionRendererProps) {
-  const lines = normalizeMathSolutionContent(content).split('\n');
+  // Performance optimization: normalizeMathSolutionContent executes multiple regexes over
+  // full solution strings. Memoizing lines prevents re-parsing on parent re-renders when content is unchanged.
+  const lines = useMemo(
+    () => normalizeMathSolutionContent(content).split('\n'),
+    [content]
+  );
 
   return (
     <div className="solution-reader">

@@ -55,6 +55,17 @@ export default function MathsPracticeLibrary({ notes, chapterTitle }: MathsPract
   const activePage = pages[safePageIndex];
   const activeSolution = activeSet && activePage ? activeSet.note.solutionPages?.[activePage.id] : undefined;
 
+  // Performance optimization: preserve activeNote object identity across search query keystrokes
+  // so NoteBlockRenderer and MathSolutionRenderer avoid unnecessary re-rendering and re-parsing.
+  const activeNote = useMemo(() => {
+    if (!activeSet || !activePage) return null;
+    return {
+      ...activeSet.note,
+      title: `${activeSet.label} · ${activePage.label}`,
+      content: activeSolution ?? activePage.content,
+    };
+  }, [activeSet, activePage, activeSolution]);
+
   const selectSet = (id: string) => {
     setActiveNoteId(id);
     setPageIndex(0);
@@ -154,15 +165,13 @@ export default function MathsPracticeLibrary({ notes, chapterTitle }: MathsPract
                 </div>
               )}
 
-              <NoteBlockRenderer
-                key={`${activeSet.note.id}-${activePage.id}`}
-                note={{
-                  ...activeSet.note,
-                  title: `${activeSet.label} · ${activePage.label}`,
-                  content: activeSolution ?? activePage.content,
-                }}
-                index={safePageIndex}
-              />
+              {activeNote && (
+                <NoteBlockRenderer
+                  key={`${activeSet.note.id}-${activePage.id}`}
+                  note={activeNote}
+                  index={safePageIndex}
+                />
+              )}
 
               {pages.length > 1 && (
                 <nav className="maths-reader-pagination" aria-label="Practice Set page navigation">

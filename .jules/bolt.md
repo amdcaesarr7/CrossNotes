@@ -1,0 +1,3 @@
+## 2025-05-10 - Math solution parsing re-render optimization
+**Learning:** In solution-heavy React readers with large content chunks, passing un-memoized object literals constructed in render (e.g. `{ ...set.note, content }`) down to child components causes line-by-line regex parsing and string splitting (`normalizeMathSolutionContent`) to execute on every single search input keystroke.
+**Action:** Memoize constructed note objects in parent containers using `useMemo` and memoize parsed content line arrays inside solution renderers so regex normalization only executes when page content actually changes.

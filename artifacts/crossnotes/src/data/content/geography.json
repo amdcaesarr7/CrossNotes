@@ -30,7 +30,7 @@
           "type": "qna",
           "title": "(3) We should carry for a field visit to collect information. (March ’24) (a) chair (b) blackboard (c) water bottle (d) questionnaire",
           "question": "(3) We should carry for a field visit to collect information. (March ’24) (a) chair (b) blackboard (c) water bottle (d) questionnaire",
-          "qnaAnswer": "(1) Compass is used for knowing directions."
+          "qnaAnswer": "(3) We should carry a questionnaire for a field visit to collect information."
         },
         {
           "id": "geo1-n4",
@@ -42,7 +42,7 @@
           "type": "qna",
           "title": "(2) Items required/materials to be carried for field visit. (Sept. ’21; March ’25) (a) Notebook/Questionnaire (b) Camera (c) Map (d) Microscope/computer",
           "question": "(2) Items required/materials to be carried for field visit. (Sept. ’21; March ’25) (a) Notebook/Questionnaire (b) Camera (c) Map (d) Microscope/computer",
-          "qnaAnswer": "(1)  – (c) : Entertainment, (2)  – (d) : Microscope/computer."
+          "qnaAnswer": "(2) – (d): Microscope/computer is the item that is not required for a field visit."
         },
         {
           "id": "geo1-n6",
@@ -220,13 +220,13 @@
         {
           "id": "geo1-f1",
           "front": "(3) We should carry for a field visit to collect information. (March ’24) (a) chair (b) blackboard (c) water bottle (d) questionnaire",
-          "back": "(1) Compass is used for knowing directions.",
+          "back": "(3) We should carry a questionnaire for a field visit to collect information.",
           "order": 1
         },
         {
           "id": "geo1-f2",
           "front": "(2) Items required/materials to be carried for field visit. (Sept. ’21; March ’25) (a) Notebook/Questionnaire (b) Camera (c) Map (d) Microscope/computer",
-          "back": "(1) – (c) : Entertainment, (2) – (d) : Microscope/computer.",
+          "back": "(2) – (d): Microscope/computer is the item that is not required for a field visit.",
           "order": 2
         },
         {

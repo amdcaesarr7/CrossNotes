@@ -103,6 +103,9 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
 
     case 'paragraph':
     default:
+      if (/^pdf26-s\d{2}-/.test(note.id) || note.id.startsWith('pdf26-extras-')) {
+        return <QuestionSetBlock note={note} index={index} />;
+      }
       return (
         <NoteCard note={note} index={index}>
           <div className="note-prose flex flex-col gap-2.5">
@@ -115,6 +118,95 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
         </NoteCard>
       );
   }
+}
+
+type QuestionSetSection = {
+  kind: 'question' | 'answer' | 'note' | 'heading';
+  content: string;
+};
+
+function getQuestionSetSections(content: string): QuestionSetSection[] {
+  const formatted = content
+    .replace(/(?<!^)\s+(Answer:)/g, '\n\n$1')
+    .replace(/\s+(Assignment answers are not in the PDF;)/g, '\n\n$1')
+    .replace(/\s+(The July 2025 answer key is QR-coded)/g, '\n\n$1')
+    .replace(/\s+(July \d{4} Board Paper|Assignment|Set 21 \(July \d{4} Board Paper\))/g, '\n\n$1');
+  const sections: QuestionSetSection[] = [];
+  let activeKind: QuestionSetSection['kind'] = 'question';
+
+  for (const paragraph of formatted.split(/\n\s*\n/).map(part => part.trim()).filter(Boolean)) {
+    const heading = paragraph.match(/^(July \d{4} Board Paper|Assignment|Set 21 \(July \d{4} Board Paper\))\s*—\s*(.*)$/i);
+    if (heading) {
+      sections.push({ kind: 'heading', content: heading[1] });
+      if (heading[2]) {
+        activeKind = 'question';
+        sections.push({ kind: activeKind, content: heading[2] });
+      }
+      continue;
+    }
+
+    const answer = paragraph.match(/^(?:Ans\.|Answer:)\s*/i);
+    if (answer) {
+      activeKind = 'answer';
+      sections.push({ kind: activeKind, content: paragraph.slice(answer[0].length) });
+      continue;
+    }
+
+    if (/^(?:Note\s*:|Assignment answers are not in the PDF;|The July 2025 answer key is QR-coded)/i.test(paragraph)) {
+      sections.push({ kind: 'note', content: paragraph });
+      continue;
+    }
+
+    if (activeKind === 'answer' && /^(?:Q\.|(?:\(\d+\)\s*)?(?:What|Why|How|Which|Where|When|Who|Name|List|Give|Write|Explain|Describe|State|Prepare|Identify|Match|Mention|Differentiate|During|Suppose|If|Precautions|Items|Compare|Classify|Enumerate|Discuss)\b)/i.test(paragraph)) {
+      activeKind = 'question';
+    }
+
+    const previous = sections[sections.length - 1];
+    if (previous?.kind === activeKind) previous.content += `\n\n${paragraph}`;
+    else sections.push({ kind: activeKind, content: paragraph });
+  }
+
+  return sections;
+}
+
+function QuestionSetBlock({ note, index }: { note: StaticNote; index: number }) {
+  const sections = getQuestionSetSections(note.content ?? '');
+
+  return (
+    <NoteCard note={note} index={index}>
+      <div className="qna-container">
+        {sections.map((section, sectionIndex) => {
+          if (section.kind === 'heading') {
+            return (
+              <h3 key={sectionIndex} className="font-display font-bold text-sm" style={{ color: 'var(--primary)' }}>
+                {section.content}
+              </h3>
+            );
+          }
+
+          const answer = section.kind === 'answer';
+          const noteSection = section.kind === 'note';
+          return (
+            <div
+              key={sectionIndex}
+              className={answer ? 'qna-answer-box' : noteSection ? 'question-set-note' : 'qna-question-box'}
+            >
+              {!noteSection && (
+                <span className={`qna-badge ${answer ? 'qna-badge-a' : 'qna-badge-q'}`}>
+                  {answer ? 'Ans.' : 'Q.'}
+                </span>
+              )}
+              <div className="note-prose flex-1">
+                {section.content.split('\n').map((line, lineIndex) =>
+                  line.trim() ? <p key={lineIndex}>{line}</p> : <br key={lineIndex} />
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </NoteCard>
+  );
 }
 
 function NoteCard({ note, index, children }: { note: StaticNote; index: number; children: ReactNode }) {

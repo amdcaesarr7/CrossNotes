@@ -1,9 +1,15 @@
 import { useEffect, useState } from 'react';
+import { toast } from 'sonner';
 
 type InstallPromptEvent = Event & {
   prompt: () => Promise<void>;
   userChoice: Promise<{ outcome: 'accepted' | 'dismissed'; platform: string }>;
 };
+
+let deferredPrompt: InstallPromptEvent | null = null;
+let installed = false;
+let listenersAttached = false;
+const subscribers = new Set<() => void>();
 
 export function isStandaloneDisplay() {
   if (typeof window === 'undefined') return false;
@@ -16,6 +22,29 @@ export function isIosDevice() {
   return /iphone|ipad|ipod/i.test(navigator.userAgent);
 }
 
+function notifySubscribers() {
+  subscribers.forEach((subscriber) => subscriber());
+}
+
+function attachInstallListeners() {
+  if (typeof window === 'undefined' || listenersAttached) return;
+  listenersAttached = true;
+  installed = isStandaloneDisplay();
+
+  window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    deferredPrompt = event as InstallPromptEvent;
+    notifySubscribers();
+  });
+  window.addEventListener('appinstalled', () => {
+    installed = true;
+    deferredPrompt = null;
+    notifySubscribers();
+  });
+}
+
+attachInstallListeners();
+
 /**
  * Shared install logic used by the first-use tour and the settings dialog.
  * `install()` actually triggers the browser's install prompt; it resolves to
@@ -23,45 +52,48 @@ export function isIosDevice() {
  * instructions instead.
  */
 export function useInstallPrompt() {
-  const [deferredPrompt, setDeferredPrompt] = useState<InstallPromptEvent | null>(null);
-  const [installed, setInstalled] = useState<boolean>(() => isStandaloneDisplay());
+  const [state, setState] = useState(() => ({
+    installed: isStandaloneDisplay(),
+    canInstall: deferredPrompt !== null,
+  }));
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    const handleBeforeInstallPrompt = (event: Event) => {
-      event.preventDefault();
-      setDeferredPrompt(event as InstallPromptEvent);
-    };
-    const handleInstalled = () => {
-      setInstalled(true);
-      setDeferredPrompt(null);
-    };
-
-    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-    window.addEventListener('appinstalled', handleInstalled);
-    return () => {
-      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-      window.removeEventListener('appinstalled', handleInstalled);
-    };
+    attachInstallListeners();
+    const update = () => setState({
+      installed: installed || isStandaloneDisplay(),
+      canInstall: deferredPrompt !== null,
+    });
+    subscribers.add(update);
+    update();
+    return () => { subscribers.delete(update); };
   }, []);
 
   const install = async (): Promise<boolean> => {
-    if (!deferredPrompt) return false;
+    attachInstallListeners();
+    const prompt = deferredPrompt;
+    if (!prompt) return false;
 
-    await deferredPrompt.prompt();
-    const choice = await deferredPrompt.userChoice;
-    if (choice.outcome === 'accepted') {
-      setInstalled(true);
-      return true;
+    deferredPrompt = null;
+    notifySubscribers();
+    try {
+      await prompt.prompt();
+      const choice = await prompt.userChoice;
+      if (choice.outcome === 'accepted') {
+        installed = true;
+        notifySubscribers();
+        return true;
+      }
+      return false;
+    } catch {
+      notifySubscribers();
+      toast.error('Could not open the install prompt. Use the install steps instead.');
+      return false;
     }
-    setDeferredPrompt(null);
-    return false;
   };
 
   return {
-    installed,
-    canInstall: deferredPrompt !== null,
+    installed: state.installed,
+    canInstall: state.canInstall,
     install,
     ios: isIosDevice(),
   };

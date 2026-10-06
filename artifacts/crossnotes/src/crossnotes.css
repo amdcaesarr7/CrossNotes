@@ -427,6 +427,13 @@ html, body {
 
 /* Claymorphic profile menu: a lifted personal control surface with Progress as the first action. */
 .account-menu {
+  --bg-card: #ffffff;
+  --bg-card-2: #f4f0ff;
+  --text: #1a1035;
+  --text-muted: #4a4570;
+  --divider: rgba(120, 90, 200, 0.12);
+  --primary: hsl(0, 72%, 30%);
+  --red: #dc2626;
   width: min(264px, calc(100vw - 24px));
   padding: 8px !important;
   border: none !important;
@@ -438,7 +445,14 @@ html, body {
     -5px -5px 12px rgba(255, 255, 255, 0.75),
     inset 1px 1px 0 rgba(255, 255, 255, 0.78) !important;
 }
-.dark-mode .account-menu {
+.account-menu.dark-mode {
+  --bg-card: #1e1a34;
+  --bg-card-2: #261f3e;
+  --text: #ece8ff;
+  --text-muted: #9890c0;
+  --divider: rgba(255, 255, 255, 0.08);
+  --primary: hsl(0, 70%, 62%);
+  --red: #f87171;
   box-shadow:
     10px 12px 24px rgba(0, 0, 0, 0.42),
     -3px -3px 10px rgba(255, 255, 255, 0.04),

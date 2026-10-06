@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
+import { useTheme } from '@/contexts/ThemeContext';
 import { useUserProfile } from '@/hooks/useFirestore';
 import { submitFeedback, type FeedbackKind } from '@/lib/feedback';
 import { googleAvatarUrl } from '@/lib/utils';
@@ -52,6 +53,7 @@ const feedbackKinds: Array<{
 
 export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps) {
   const { user, signInWithGoogle, logout, isFirebaseReady } = useAuth();
+  const { isDark } = useTheme();
   const { profile } = useUserProfile(user?.uid);
   const coins = profile?.coins ?? 0;
   const [feedbackOpen, setFeedbackOpen] = useState(false);
@@ -149,7 +151,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                   )}
                 </button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent side="bottom" align="end" sideOffset={10} className="account-menu">
+              <DropdownMenuContent side="bottom" align="end" sideOffset={10} className={`account-menu${isDark ? ' dark-mode' : ''}`}>
                 <DropdownMenuLabel className="account-menu-label">
                   <span className="account-menu-name">{user.displayName ?? 'Scholar'}</span>
                   <span className="account-menu-email">{user.email ?? 'Your CrossNotes account'}</span>

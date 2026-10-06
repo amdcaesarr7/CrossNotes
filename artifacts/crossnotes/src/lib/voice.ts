@@ -58,6 +58,8 @@ export const VOICE = {
   installTitle: 'Install CrossNotes',
   installHint: 'One tap away. Feels like a real app. Parents think you’re “being productive”.',
   installBtn: 'Install now',
+  showInstallFallback: 'Show install steps',
+  hideInstallFallback: 'Hide install steps',
   installGuide: 'Browser being weird? Use the menu → Install app / Add to Home screen / Create shortcut.',
   installStep1: 'Open the browser menu',
   installStep2Ios: 'Tap Share',

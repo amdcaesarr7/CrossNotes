@@ -1,9 +1,9 @@
+import { useState } from 'react';
 import {
   CheckCircle2,
   Download,
   MoreHorizontal,
   PlusSquare,
-  Share2,
   Smartphone,
   WifiOff,
   Zap,
@@ -23,10 +23,12 @@ interface InstallPanelProps {
 export default function InstallPanel({ variant = 'settings', onInstalled }: InstallPanelProps) {
   const { installed, canInstall, install, ios } = useInstallPrompt();
   const soft = variant === 'soft';
+  const [showManualSteps, setShowManualSteps] = useState(false);
 
   const handleInstall = async () => {
     const ok = await install();
     if (ok) onInstalled?.();
+    else setShowManualSteps(true);
   };
 
   if (installed) {
@@ -60,44 +62,35 @@ export default function InstallPanel({ variant = 'settings', onInstalled }: Inst
           <button
             type="button"
             className="clay-btn settings-install-btn"
-            onClick={() => { void handleInstall(); }}
-            disabled={!canInstall}
-            aria-label={VOICE.installTitle}
+            onClick={() => {
+              if (canInstall) void handleInstall();
+              else setShowManualSteps((show) => !show);
+            }}
+            aria-expanded={!canInstall && showManualSteps}
           >
-            <Download size={15} /> {VOICE.installBtn}
+            <Download size={15} /> {canInstall ? VOICE.installBtn : showManualSteps ? VOICE.hideInstallFallback : VOICE.showInstallFallback}
           </button>
         </div>
       )}
 
-      {canInstall || soft ? (
-        soft && canInstall && (
-          <p className="settings-guide-copy" style={{ marginTop: 0 }}>
-            {VOICE.installHint}
-          </p>
-        )
-      ) : (
-        <>
-          <p className="settings-guide-copy">
-            {ios ? VOICE.softInstallIosHint : VOICE.installGuide}
-          </p>
-          <div className="settings-guide-steps" aria-label="Install instructions">
-            <div><MoreHorizontal size={15} /><span>{VOICE.installStep1}</span></div>
-            <div>{ios ? <Share2 size={15} /> : <Download size={15} />}<span>{ios ? VOICE.installStep2Ios : VOICE.installStep2Other}</span></div>
-            <div><PlusSquare size={15} /><span>{VOICE.installStep3}</span></div>
-          </div>
-        </>
+      {soft && canInstall && (
+        <p className="settings-guide-copy" style={{ marginTop: 0 }}>
+          {VOICE.installHint}
+        </p>
       )}
 
-      {!soft && !canInstall && (
+      {(soft ? !canInstall : showManualSteps) && (
         <>
           <p className="settings-guide-copy">
             {ios ? VOICE.softInstallIosHint : VOICE.installGuide}
           </p>
-          <div className="settings-guide-steps" aria-label="Install instructions">
-            <div><MoreHorizontal size={15} /><span>{VOICE.installStep1}</span></div>
-            <div>{ios ? <Share2 size={15} /> : <Download size={15} />}<span>{ios ? VOICE.installStep2Ios : VOICE.installStep2Other}</span></div>
-            <div><PlusSquare size={15} /><span>{VOICE.installStep3}</span></div>
-          </div>
+          {!ios && (
+            <div className="settings-guide-steps" aria-label="Install instructions">
+              <div><MoreHorizontal size={15} /><span>{VOICE.installStep1}</span></div>
+              <div><Download size={15} /><span>{VOICE.installStep2Other}</span></div>
+              <div><PlusSquare size={15} /><span>{VOICE.installStep3}</span></div>
+            </div>
+          )}
         </>
       )}
     </div>

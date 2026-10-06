@@ -128,14 +128,14 @@ type QuestionSetSection = {
 function getQuestionSetSections(content: string): QuestionSetSection[] {
   const formatted = content
     .replace(/(?<!^)\s+(Answer:)/g, '\n\n$1')
-    .replace(/\s+(Assignment answers are not in the PDF;)/g, '\n\n$1')
-    .replace(/\s+(The July 2025 answer key is QR-coded)/g, '\n\n$1')
-    .replace(/\s+(July \d{4} Board Paper|Assignment|Set 21 \(July \d{4} Board Paper\))/g, '\n\n$1');
+    .replace(/\s+(Assignment answers are not (?:in|printed in) the supplied PDF;)/g, '\n\n$1')
+    .replace(/\s+(The July 2025 answers are not printed in the supplied PDF;|The July 2025 answer key is QR-coded)/g, '\n\n$1')
+    .replace(/\s+(July \d{4} Board Paper|July \d{4} Practice Board Paper|Assignment|Set 21 \(July \d{4} Board Paper\))/g, '\n\n$1');
   const sections: QuestionSetSection[] = [];
   let activeKind: QuestionSetSection['kind'] = 'question';
 
   for (const paragraph of formatted.split(/\n\s*\n/).map(part => part.trim()).filter(Boolean)) {
-    const heading = paragraph.match(/^(July \d{4} Board Paper|Assignment|Set 21 \(July \d{4} Board Paper\))\s*—\s*(.*)$/i);
+    const heading = paragraph.match(/^(July \d{4} Board Paper|July \d{4} Practice Board Paper|Assignment|Set 21 \(July \d{4} Board Paper\))\s*—\s*(.*)$/i);
     if (heading) {
       sections.push({ kind: 'heading', content: heading[1] });
       if (heading[2]) {
@@ -152,7 +152,7 @@ function getQuestionSetSections(content: string): QuestionSetSection[] {
       continue;
     }
 
-    if (/^(?:Note\s*:|Assignment answers are not in the PDF;|The July 2025 answer key is QR-coded)/i.test(paragraph)) {
+    if (/^(?:Note\s*:|Assignment answers are not (?:in|printed in) the supplied PDF;|The July 2025 answers are not printed in the supplied PDF;|The July 2025 answer key is QR-coded)/i.test(paragraph)) {
       sections.push({ kind: 'note', content: paragraph });
       continue;
     }
@@ -317,8 +317,10 @@ function TrueFalseBlock({ note, index }: { note: StaticNote; index: number }) {
 }
 
 function QnaBlock({ note, index }: { note: StaticNote; index: number }) {
+  const sameTitleAndQuestion = note.title?.trim() === note.question?.trim();
+  const title = sameTitleAndQuestion ? undefined : note.title ?? (note.question ? undefined : 'Question & Answer');
   return (
-    <NoteCard note={{ ...note, title: note.title ?? 'Question & Answer' }} index={index}>
+    <NoteCard note={{ ...note, title }} index={index}>
       <div className="qna-container">
         <div className="qna-question-box">
           <span className="qna-badge qna-badge-q">Q.</span>

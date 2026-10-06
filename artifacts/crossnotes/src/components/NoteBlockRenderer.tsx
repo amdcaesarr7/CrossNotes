@@ -157,7 +157,7 @@ function getQuestionSetSections(content: string): QuestionSetSection[] {
       continue;
     }
 
-    if (activeKind === 'answer' && /^(?:Q\.|(?:\(\d+\)\s*)?(?:What|Why|How|Which|Where|When|Who|Name|List|Give|Write|Explain|Describe|State|Prepare|Identify|Match|Mention|Differentiate|During|Suppose|If|Precautions|Items|Compare|Classify|Enumerate|Discuss)\b)/i.test(paragraph)) {
+    if (activeKind === 'answer' && /^(?:Q\.|(?:\(\d+\)\s*)?(?:Name|List|Give|Write|Explain|Describe|State|Prepare|Identify|Match|Mention|Differentiate|Suppose|Precautions|Items|Compare|Classify|Enumerate|Discuss)\b|\(\d+\)[\s\S]*\?|(?:What|Why|How|Which|Where|When|Who)\b[\s\S]*\?)/i.test(paragraph)) {
       activeKind = 'question';
     }
 

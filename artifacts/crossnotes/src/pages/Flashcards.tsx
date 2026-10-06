@@ -54,6 +54,7 @@ export default function Flashcards() {
       setIsFlipped(false);
     } else {
       setIsFinished(true);
+      sfx.sessionDone();
       if (user && !rewarded) {
         try {
           const result = await markFlashcardsCompleted(user.uid, chapterId, { subjectSlug: slug, chapterName: chapter?.title });

@@ -1,6 +1,8 @@
 import { toast } from "sonner";
 import { sfx } from "@/lib/sfx";
 import { fireConfetti } from "@/lib/confetti";
+import { signalStudyComplete } from "@/lib/installPrompt";
+import { recordStudyDate } from "@/lib/studyTracker";
 import type { ActivityResult } from "@/hooks/useFirestore";
 
 /**
@@ -10,7 +12,12 @@ import type { ActivityResult } from "@/hooks/useFirestore";
  */
 export function celebrateActivityResult(
   result: Pick<ActivityResult, "leveledUp" | "levelName" | "streakFreezeEarned" | "streakFreezeUsed">,
+  uid?: string | null,
 ) {
+  // Real study action → soft install prompt may appear & record study date.
+  signalStudyComplete();
+  recordStudyDate(uid);
+
   if (result.leveledUp) {
     sfx.levelUp();
     fireConfetti({ count: 180 });

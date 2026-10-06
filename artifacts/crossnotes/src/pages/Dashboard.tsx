@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'wouter';
-import { BookOpen, Flame, Trophy, Target, Zap, ChevronRight, LogIn, Star, Snowflake, BellRing, X, Coins, ShieldCheck } from 'lucide-react';
+import { Trophy, Target, Zap, ChevronRight, LogIn, Snowflake, BellRing, X, Coins, ShieldCheck } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useUserProfile, useAllUserProgress, useLeaderboard, getLevel, MAX_STREAK_FREEZES } from '@/hooks/useFirestore';
@@ -11,24 +11,11 @@ import { useStudyReminder } from '@/hooks/useStudyReminder';
 import { useHead, useBreadcrumb } from '@/hooks/useSeo';
 import { isNotificationSupported, getReminderPreference, requestReminderPermission } from '@/lib/notifications';
 import { googleAvatarUrl } from '@/lib/utils';
+import { VOICE, dailyRoast, greetFirstName } from '@/lib/voice';
 import AppHeader from '@/components/AppHeader';
 import BottomNav from '@/components/BottomNav';
+import StreakCard from '@/components/StreakCard';
 import '../crossnotes.css';
-
-const MOTIVATIONAL = [
-  "Bua ka beta is studying rn. You going to let him top the boards? 😤",
-  "Sharma ji's son just revised Chapter 4. Time to lock in. 🔥",
-  "Mew is watching your streak. Solve 1 quiz to make the bear proud. 🐻",
-  "Board exams don't care about excuses. Only marks. Let's grind. 💯",
-  "Science is just nature's gossip. Read it. 🧬",
-  "Every XP is a step away from exam panic. 📚",
-  "Duolingo owl is literally crying rn. Keep studying. 🦉",
-  "Today's grind = tomorrow's mark sheet. 🎯",
-];
-
-function todayMsg() {
-  return MOTIVATIONAL[new Date().getDay() % MOTIVATIONAL.length];
-}
 
 function isToday(timestamp: unknown) {
   if (!timestamp) return false;
@@ -41,8 +28,8 @@ export default function Dashboard() {
   const { isDark } = useTheme();
   const { user, signInWithGoogle } = useAuth();
   const subjects = useStaticSubjects();
-  const { profile, loading: profileLoading } = useUserProfile(user?.uid);
-  const { progressMap, loading: progressLoading } = useAllUserProgress(user?.uid);
+  const { profile } = useUserProfile(user?.uid);
+  const { progressMap } = useAllUserProgress(user?.uid);
   const { entries: leaderboard } = useLeaderboard();
 
   useHead({
@@ -55,15 +42,15 @@ export default function Dashboard() {
     { name: 'Dashboard', url: '/' },
   ]);
 
-  const xp       = profile?.xp ?? 0;
-  const streak   = profile?.streak ?? 0;
+  const xp = profile?.xp ?? 0;
+  const streak = profile?.streak ?? 0;
   const streakFreezes = profile?.streakFreezes ?? 0;
-  const coins    = profile?.coins ?? 0;
+  const coins = profile?.coins ?? 0;
   const activeBoost = profile?.activeBoost;
   const boostActive = !!activeBoost && activeBoost.expiresAt.toDate().getTime() > Date.now();
   const activeBoostPotion = boostActive ? getPotion(activeBoost!.potionId) : undefined;
   const { level, levelName, nextXp } = getLevel(xp);
-  const xpPct    = nextXp > 0 ? Math.min(100, Math.round((xp / nextXp) * 100)) : 100;
+  const xpPct = nextXp > 0 ? Math.min(100, Math.round((xp / nextXp) * 100)) : 100;
   const studiedToday = isToday(profile?.lastStudied);
 
   useStudyReminder(studiedToday);
@@ -73,36 +60,83 @@ export default function Dashboard() {
   const showReminderBanner = !!user && isNotificationSupported() && !getReminderPreference() && !bannerDismissed;
   const dismissBanner = () => {
     setBannerDismissed(true);
-    try { localStorage.setItem('cn-reminder-banner-dismissed', 'true'); } catch {}
+    try { localStorage.setItem('cn-reminder-banner-dismissed', 'true'); } catch { /* ignore */ }
   };
   const enableReminders = async () => {
     const granted = await requestReminderPermission();
     if (granted) dismissBanner();
   };
 
-  // Find in-progress chapters (notesRead but quiz not complete)
   const inProgressList = Object.entries(progressMap)
     .filter(([, p]) => (p.notesRead || p.flashcardsCompleted) && !p.quizCompleted && p.subjectSlug && p.chapterName)
     .slice(0, 1);
 
   const continueChapter = inProgressList[0];
 
-  // Weakest attempted chapters (quiz score < 70%) — nudge to revisit
   const weakChapters = Object.entries(progressMap)
     .filter(([, p]) => p.quizCompleted && p.quizPct !== undefined && p.quizPct < 70 && p.subjectSlug && p.chapterName)
     .sort((a, b) => (a[1].quizPct ?? 0) - (b[1].quizPct ?? 0))
     .slice(0, 2);
 
-  // Stats
   const doneCount = Object.values(progressMap).filter(p => p.notesRead && p.flashcardsCompleted && p.quizCompleted).length;
   const quizScores = Object.values(progressMap).filter(p => p.quizCompleted && p.quizPct !== undefined);
   const avgScore = quizScores.length ? Math.round(quizScores.reduce((s, p) => s + (p.quizPct ?? 0), 0) / quizScores.length) : null;
 
-  // My rank
   const myRank = leaderboard.findIndex(e => e.uid === user?.uid) + 1;
 
   const liveSubjects = subjects.filter(s => s.isLive);
   const lockedSubjects = subjects.filter(s => !s.isLive);
+
+  const renderPrimaryCta = () => {
+    if (!user) {
+      return (
+        <button onClick={signInWithGoogle} className="clay-btn dash-primary-cta flex items-center justify-center gap-2 py-3">
+          <LogIn size={18} /> {VOICE.signInCta}
+        </button>
+      );
+    }
+
+    if (continueChapter) {
+      const [chapId, p] = continueChapter;
+      const nextStep = !p.notesRead ? 'notes' : !p.flashcardsCompleted ? 'flashcards' : 'quiz';
+      const stepLabel = nextStep === 'notes' ? 'Read notes' : nextStep === 'flashcards' ? 'Flashcards' : 'Take quiz';
+      return (
+        <section className="dash-primary-cta" aria-label={VOICE.continueLearning}>
+          <h2 className="section-header mb-3">{VOICE.continueLearning}</h2>
+          <Link href={`/${nextStep}/${p.subjectSlug}/${chapId}`}>
+            <button className="continue-card w-full">
+              <div className="flex items-center justify-between">
+                <div>
+                  <div className="text-xs font-bold opacity-75 mb-1 uppercase tracking-wider">{p.subjectSlug?.replace(/-/g, ' ')}</div>
+                  <div className="font-display font-bold text-lg leading-tight mb-1">{p.chapterName}</div>
+                  <div className="text-sm opacity-90 font-semibold">{stepLabel}</div>
+                </div>
+                <ChevronRight size={24} className="opacity-80 shrink-0 ml-2" />
+              </div>
+              <div className="mt-3 rounded-full overflow-hidden" style={{ height: 4, background: 'rgba(255,255,255,0.25)' }}>
+                <div
+                  className="h-full rounded-full"
+                  style={{
+                    background: '#fff',
+                    width: `${(p.notesRead ? 33 : 0) + (p.flashcardsCompleted ? 33 : 0) + (p.quizCompleted ? 34 : 0)}%`,
+                    transition: 'width 0.5s',
+                  }}
+                />
+              </div>
+            </button>
+          </Link>
+        </section>
+      );
+    }
+
+    return (
+      <Link href="/subjects" className="dash-primary-cta no-underline">
+        <button className="clay-btn w-full flex items-center justify-center gap-2 py-3">
+          {VOICE.startStudying}
+        </button>
+      </Link>
+    );
+  };
 
   return (
     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>
@@ -110,19 +144,14 @@ export default function Dashboard() {
 
       <main className="page-content" style={{ gap: 20, paddingTop: 20 }}>
 
-        {/* ── Hero greeting ── */}
-        <section className="flex flex-col gap-3">
+        {/* First viewport: greeting + streak/XP + one primary CTA */}
+        <section className="dash-hero">
           <div className="flex items-start justify-between gap-3">
-            <div className="flex flex-col gap-1">
-              <h1 className="font-display font-black text-2xl leading-tight" style={{ color: 'var(--text)' }}>
-                {user ? `Hey ${user.displayName?.split(' ')[0] ?? 'Scholar'} 👋` : 'CrossNotes 📚'}
-              </h1>
-              <p className="text-sm font-semibold" style={{ color: 'var(--text-muted)' }}>
-                {user ? todayMsg() : 'Maharashtra Board 10th — study like a topper.'}
-              </p>
+            <div className="dash-hero-greeting min-w-0">
+              <h1>{user ? greetFirstName(user.displayName) : VOICE.guestGreeting}</h1>
+              <p>{user ? dailyRoast() : VOICE.guestSub}</p>
             </div>
 
-            {/* Streak ring */}
             <div className="shrink-0">
               <div className="streak-ring">
                 <span className="text-xl font-black" style={{ color: '#c2410c', lineHeight: 1 }}>{streak}</span>
@@ -130,14 +159,17 @@ export default function Dashboard() {
               </div>
               <p className="text-center text-xs font-bold mt-1" style={{ color: 'var(--text-muted)' }}>streak</p>
               {user && streakFreezes > 0 && (
-                <p className="text-center text-xs font-bold mt-0.5 flex items-center justify-center gap-0.5" style={{ color: '#0284c7' }} title={`${streakFreezes} of ${MAX_STREAK_FREEZES} streak freezes — a freeze auto-covers one missed day`}>
+                <p
+                  className="text-center text-xs font-bold mt-0.5 flex items-center justify-center gap-0.5"
+                  style={{ color: '#0284c7' }}
+                  title={`${streakFreezes} of ${MAX_STREAK_FREEZES} streak freezes — a freeze auto-covers one missed day`}
+                >
                   <Snowflake size={11} /> ×{streakFreezes}
                 </p>
               )}
             </div>
           </div>
 
-          {/* XP bar */}
           {user && (
             <div className="clay-card p-4 flex flex-col gap-2">
               <div className="flex items-center justify-between">
@@ -150,46 +182,41 @@ export default function Dashboard() {
               <div className="clay-progress h-3">
                 <div className="clay-progress-fill xp-bar" style={{ width: `${xpPct}%` }} />
               </div>
-              {studiedToday && (
-                <p className="text-xs font-bold text-green-600 flex items-center gap-1">
-                  <span>✅</span> You studied today!
-                </p>
-              )}
               <Link href="/shop">
                 <div className="flex items-center justify-between mt-1 pt-2" style={{ borderTop: '1px solid var(--divider)' }}>
                   <span className="text-xs font-bold flex items-center gap-1.5" style={{ color: 'var(--gold)' }}>
                     <Coins size={14} /> {coins} coins
                   </span>
-                  <span className="text-xs font-bold" style={{ color: 'var(--primary)' }}>Visit Shop →</span>
+                  <span className="text-xs font-bold" style={{ color: 'var(--primary)' }}>{VOICE.visitShop}</span>
                 </div>
               </Link>
             </div>
           )}
 
-          {/* Sign in CTA */}
-          {!user && (
-            <button onClick={signInWithGoogle} className="clay-btn w-full flex items-center justify-center gap-2 py-3">
-              <LogIn size={18} /> Sign in with Google to earn XP
-            </button>
-          )}
+          <StreakCard
+            streak={streak}
+            streakFreezes={streakFreezes}
+            studiedToday={studiedToday}
+            uid={user?.uid}
+          />
+
+          {renderPrimaryCta()}
         </section>
 
-        {/* ── Reminder opt-in banner ── */}
         {showReminderBanner && (
           <div className="clay-card p-4 flex items-center gap-3" style={{ background: 'var(--blue-light, #dbeafe)', borderColor: '#93c5fd' }}>
             <BellRing size={20} style={{ color: '#1d4ed8' }} className="shrink-0" />
             <div className="flex-1">
-              <p className="text-sm font-bold" style={{ color: 'var(--text)' }}>Let Mew protect your streak</p>
-              <p className="text-xs font-semibold mt-0.5" style={{ color: 'var(--text-muted)' }}>Get an evening nudge when your study plan becomes purely theoretical.</p>
+              <p className="text-sm font-bold" style={{ color: 'var(--text)' }}>{VOICE.reminderTitle}</p>
+              <p className="text-xs font-semibold mt-0.5" style={{ color: 'var(--text-muted)' }}>{VOICE.reminderBody}</p>
             </div>
-            <button onClick={enableReminders} className="clay-btn-ghost text-xs py-2 px-3 shrink-0">Enable</button>
+            <button onClick={enableReminders} className="clay-btn-ghost text-xs py-2 px-3 shrink-0">{VOICE.reminderEnable}</button>
             <button onClick={dismissBanner} aria-label="Dismiss" className="shrink-0" style={{ color: 'var(--text-muted)' }}>
               <X size={16} />
             </button>
           </div>
         )}
 
-        {/* ── Active potion boost ── */}
         {boostActive && activeBoostPotion && (
           <div className="clay-card p-4 flex items-center gap-3" style={{ background: 'var(--primary-light)', borderColor: 'var(--primary-border)' }}>
             <PotionIcon potion={activeBoostPotion} size={30} />
@@ -201,7 +228,6 @@ export default function Dashboard() {
           </div>
         )}
 
-        {/* ── Stats strip ── */}
         {user && (
           <div className="stats-strip">
             <div className="stat-card">
@@ -221,41 +247,10 @@ export default function Dashboard() {
           </div>
         )}
 
-        {/* ── Continue learning ── */}
-        {user && continueChapter && (() => {
-          const [chapId, p] = continueChapter;
-          const nextStep = !p.notesRead ? 'notes' : !p.flashcardsCompleted ? 'flashcards' : 'quiz';
-          const stepLabel = nextStep === 'notes' ? '📖 Read Notes' : nextStep === 'flashcards' ? '🃏 Flashcards' : '🧪 Take Quiz';
-          return (
-            <section>
-              <h2 className="section-header mb-3">Continue Learning</h2>
-              <Link href={`/${nextStep}/${p.subjectSlug}/${chapId}`}>
-                <button className="continue-card w-full">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="text-xs font-bold opacity-75 mb-1 uppercase tracking-wider">{p.subjectSlug?.replace(/-/g, ' ')}</div>
-                      <div className="font-display font-bold text-lg leading-tight mb-1">{p.chapterName}</div>
-                      <div className="text-sm opacity-90 font-semibold">{stepLabel}</div>
-                    </div>
-                    <ChevronRight size={24} className="opacity-80 shrink-0 ml-2" />
-                  </div>
-                  <div className="mt-3 rounded-full overflow-hidden" style={{ height: 4, background: 'rgba(255,255,255,0.25)' }}>
-                    <div
-                      className="h-full rounded-full"
-                      style={{ background: '#fff', width: `${(p.notesRead ? 33 : 0) + (p.flashcardsCompleted ? 33 : 0) + (p.quizCompleted ? 34 : 0)}%`, transition: 'width 0.5s' }}
-                    />
-                  </div>
-                </button>
-              </Link>
-            </section>
-          );
-        })()}
-
-        {/* ── Needs revision nudge ── */}
         {user && weakChapters.length > 0 && (
           <section>
             <h2 className="section-header mb-3 flex items-center gap-2">
-              <Target size={16} style={{ color: 'var(--red)' }} /> Needs Revision
+              <Target size={16} style={{ color: 'var(--red)' }} /> {VOICE.needsRevision}
             </h2>
             <div className="flex flex-col gap-2">
               {weakChapters.map(([chapId, p]) => (
@@ -278,34 +273,32 @@ export default function Dashboard() {
           </section>
         )}
 
-        {/* ── Daily XP guide ── */}
         <section className="clay-card p-4">
           <div className="flex items-center gap-2 mb-3">
             <Zap size={18} style={{ color: 'var(--gold)' }} />
-            <h2 className="font-display font-bold text-base" style={{ color: 'var(--text)' }}>Earn XP Today</h2>
+            <h2 className="font-display font-bold text-base" style={{ color: 'var(--text)' }}>{VOICE.earnXpToday}</h2>
           </div>
           <div className="flex flex-col gap-2">
             {[
               { icon: '📖', label: 'Read Notes', xp: '+10 XP' },
               { icon: '🃏', label: 'Complete Flashcards', xp: '+20 XP' },
               { icon: '🧪', label: 'Ace a Quiz (≥90%)', xp: '+50 XP' },
-            ].map(({ icon, label, xp }) => (
+            ].map(({ icon, label, xp: xpLabel }) => (
               <div key={label} className="flex items-center justify-between py-2 border-b last:border-0" style={{ borderColor: 'var(--divider)' }}>
                 <span className="text-sm font-semibold flex items-center gap-2" style={{ color: 'var(--text)' }}>
                   {icon} {label}
                 </span>
-                <span className="xp-chip">{xp}</span>
+                <span className="xp-chip">{xpLabel}</span>
               </div>
             ))}
           </div>
         </section>
 
-        {/* ── Subjects ── */}
         <section>
           <div className="flex items-center justify-between mb-3">
-            <h2 className="section-header">Your Subjects</h2>
+            <h2 className="section-header">{VOICE.yourSubjects}</h2>
             <Link href="/subjects">
-              <span className="text-sm font-bold" style={{ color: 'var(--primary)' }}>See all →</span>
+              <span className="text-sm font-bold" style={{ color: 'var(--primary)' }}>{VOICE.seeAllSubjects}</span>
             </Link>
           </div>
 
@@ -322,7 +315,7 @@ export default function Dashboard() {
                 </div>
               </Link>
             ))}
-            {lockedSubjects.slice(0, 4 - liveSubjects.length).map(s => (
+            {lockedSubjects.slice(0, Math.max(0, 4 - liveSubjects.length)).map(s => (
               <div
                 key={s.id}
                 className="subject-quick-card opacity-40"
@@ -330,30 +323,28 @@ export default function Dashboard() {
               >
                 <span className="text-3xl">{s.emoji}</span>
                 <span className="font-display font-bold text-sm leading-tight" style={{ color: 'var(--text)' }}>{s.name}</span>
-                <span className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>🔒 Soon</span>
+                <span className="text-xs font-bold" style={{ color: 'var(--text-muted)' }}>Soon</span>
               </div>
             ))}
           </div>
         </section>
 
-        {/* ── Vault entry point ── */}
         <Link href="/vault" aria-label="The Vault — official board papers, textbook links and open resources">
           <div className="clay-card hoverable p-4 flex items-center gap-4 cursor-pointer" style={{ background: 'var(--bg-card-2)', borderColor: 'var(--divider)' }}>
             <ShieldCheck size={28} style={{ color: 'var(--primary)' }} className="shrink-0" />
             <div className="flex-1 min-w-0">
-              <h3 className="font-display font-bold text-base leading-tight" style={{ color: 'var(--text)' }}>The Vault</h3>
-              <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>Official board papers, textbook links & open resources</p>
+              <h3 className="font-display font-bold text-base leading-tight" style={{ color: 'var(--text)' }}>{VOICE.vaultTeaserTitle}</h3>
+              <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{VOICE.vaultTeaserBody}</p>
             </div>
             <ChevronRight size={18} style={{ color: 'var(--text-muted)' }} className="shrink-0" />
           </div>
         </Link>
 
-        {/* ── Leaderboard preview ── */}
         <section>
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-2">
               <Trophy size={18} style={{ color: 'var(--gold)' }} />
-              <h2 className="section-header">Top Studiers</h2>
+              <h2 className="section-header">{VOICE.topStudiers}</h2>
             </div>
             {myRank > 0 && (
               <span className="text-xs font-bold px-2 py-1 rounded-full" style={{ background: 'var(--primary-light)', color: 'var(--primary)', border: '1px solid var(--primary-border)' }}>
@@ -365,8 +356,7 @@ export default function Dashboard() {
           <div className="clay-card p-3 flex flex-col gap-1">
             {leaderboard.length === 0 ? (
               <div className="text-center py-6">
-                <p className="text-2xl mb-1">🏜️</p>
-                <p className="text-sm font-bold" style={{ color: 'var(--text-muted)' }}>Be the first to earn XP and claim #1!</p>
+                <p className="text-sm font-bold" style={{ color: 'var(--text-muted)' }}>{VOICE.beFirstRank}</p>
               </div>
             ) : (
               leaderboard.slice(0, 5).map((e, i) => (
@@ -378,9 +368,9 @@ export default function Dashboard() {
                     <span className={`font-display font-black text-sm w-6 text-center ${i === 0 ? 'rank-gold' : i === 1 ? 'rank-silver' : i === 2 ? 'rank-bronze' : ''}`} style={i > 2 ? { color: 'var(--text-muted)' } : {}}>
                       #{i + 1}
                     </span>
-{e.photoURL ? (
-                    <img src={googleAvatarUrl(e.photoURL, 32)} className="w-8 h-8 rounded-full border" style={{ borderColor: 'var(--divider)' }} alt={e.displayName ?? 'User'} loading="lazy" decoding="async" width={32} height={32} />
-                  ) : (
+                    {e.photoURL ? (
+                      <img src={googleAvatarUrl(e.photoURL, 32)} className="w-8 h-8 rounded-full border" style={{ borderColor: 'var(--divider)' }} alt={e.displayName ?? 'User'} loading="lazy" decoding="async" width={32} height={32} />
+                    ) : (
                       <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm" style={{ background: 'var(--bg-card-2)', color: 'var(--text)' }} aria-hidden="true">
                         {e.displayName?.charAt(0) ?? '?'}
                       </div>
@@ -397,7 +387,7 @@ export default function Dashboard() {
                 </div>
               ))
             )}
-            <Link href="/leaderboard" className="clay-btn-ghost w-full mt-2 text-sm no-underline">Full Leaderboard →</Link>
+            <Link href="/leaderboard" className="clay-btn-ghost w-full mt-2 text-sm no-underline">{VOICE.fullLeaderboard}</Link>
           </div>
         </section>
 

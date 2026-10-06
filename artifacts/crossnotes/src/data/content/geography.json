@@ -1,641 +1,3134 @@
 {
   "chapters": [
     {
-      "id": "ch9",
-      "num": 9,
-      "title": "Tourism, Transport and Communication",
-      "emoji": "🚆",
+      "id": "geo-ch1",
+      "num": 1,
+      "title": "Field Visit",
+      "emoji": "🧭",
       "kind": "chapter",
       "overview": {
-        "summary": "Tourism, transport, and communication are important for economic development and national integration. This chapter describes types of tourism and modes of transport and communication in India and Brazil, along with their importance, challenges, and the concept of standard time.",
+        "summary": "Chapter 1: Field Visit. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
         "youWillLearn": [
-          "Types of tourism and major tourist attractions in India and Brazil.",
-          "Different modes of transport and their significance.",
-          "Means of communication and their role in development.",
-          "The concept of standard time and time zones."
+          "Chapter-wise practice for Field Visit.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
         ]
       },
       "notes": [
         {
-          "id": "n1",
-          "type": "paragraph",
-          "title": "Tourism in India",
-          "content": "India attracts tourists for its cultural heritage, historical monuments, religious sites, natural beauty, and wildlife. Major tourist places include the Taj Mahal, Jaipur, Goa, Kerala, and the Himalayas. Foreign tourists visit India for heritage, adventure, cultural, health, and business tourism. Ecotourism is also being given a boost in India.",
+          "id": "geo1-n1",
+          "type": "heading",
+          "content": "Field Visit — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo1-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo1-n3",
+          "type": "qna",
+          "title": "(3) We should carry for a field visit to collect information. (March ’24) (a) chair (b) blackboard (c) water bottle (d) questionnaire",
+          "question": "(3) We should carry for a field visit to collect information. (March ’24) (a) chair (b) blackboard (c) water bottle (d) questionnaire",
+          "qnaAnswer": "(1) Compass is used for knowing directions."
+        },
+        {
+          "id": "geo1-n4",
+          "type": "heading",
+          "content": "Match the Correct Pairs"
+        },
+        {
+          "id": "geo1-n5",
+          "type": "qna",
+          "title": "(2) Items required/materials to be carried for field visit. (Sept. ’21; March ’25) (a) Notebook/Questionnaire (b) Camera (c) Map (d) Microscope/computer",
+          "question": "(2) Items required/materials to be carried for field visit. (Sept. ’21; March ’25) (a) Notebook/Questionnaire (b) Camera (c) Map (d) Microscope/computer",
+          "qnaAnswer": "(1)  – (c) : Entertainment, (2)  – (d) : Microscope/computer."
+        },
+        {
+          "id": "geo1-n6",
+          "type": "heading",
+          "content": "Arrange the Sentences"
+        },
+        {
+          "id": "geo1-n7",
+          "type": "markdown",
+          "title": "Arrange the Sentences",
+          "content": "Q.  Preparing for field visit : (July ’19)\n(A) Visit to a location of field visit.\n(B) Selection of a place for field visit.\n(C) Report writing\n(D) Pre-preparation for a field visit\nOptions : (i) (B), (D), (A), (C)  (ii) (C), (A), (B), (D)\n (iii) (D), (A), (B), (C)  (iv) (A), (B), (C), (D)\nAns. Statements in correct sequence – (i) (B), (D), (A), (C)."
+        },
+        {
+          "id": "geo1-n8",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo1-n9",
+          "type": "qna",
+          "title": "(1) What is field visit?",
+          "question": "(1) What is field visit?",
+          "qnaAnswer": "Collecting geographical and cultural information by actually\npaying a visit to a particular place is called ‘field visit’.",
           "important": true
         },
         {
-          "id": "n2",
-          "type": "paragraph",
-          "title": "Tourism in Brazil",
-          "content": "Brazil is famous for its Amazon rainforest, beaches, Rio de Janeiro's carnival, and ecotourism. Clean white sand beaches, attractive seacoast, beautiful islands, orchards, and dense forests attract tourists. The capital city of Brasilia is also a tourist attraction. Cities like Rio de Janeiro and Sao Paulo are major tourist centres.",
+          "id": "geo1-n10",
+          "type": "qna",
+          "title": "(2) What types of information of a field can be collected by field visit?",
+          "question": "(2) What types of information of a field can be collected by field visit?",
+          "qnaAnswer": "Geographical, social, economic, historical, cultural, etc.\ntypes of information of a field can be collected by field visit.",
           "important": true
         },
         {
-          "id": "n3",
-          "type": "qna",
-          "title": "In-text Q1: Which country attracted more international tourists in the year 1995?",
-          "question": "Which country attracted more international tourists in the year 1995?",
-          "qnaAnswer": "Brazil attracted more international tourists in 1995."
+          "id": "geo1-n11",
+          "type": "heading",
+          "content": "Name the Following"
         },
         {
-          "id": "n4",
+          "id": "geo1-n12",
           "type": "qna",
-          "title": "In-text Q2: In which country did more international tourists arrive in the year 2000?",
-          "question": "In which country did more international tourists arrive in the year 2000?",
-          "qnaAnswer": "Brazil had more international tourists in 2000."
-        },
-        {
-          "id": "n5",
-          "type": "qna",
-          "title": "In-text Q3: In which year can an increase be seen in the number of international tourists in India?",
-          "question": "In which year can an increase be seen in the number of international tourists in India?",
-          "qnaAnswer": "An increase in the number of international tourists in India can be seen after 2010."
-        },
-        {
-          "id": "n6",
-          "type": "qna",
-          "title": "In-text Q4: What was the number of international tourists in the year 2015 in both the countries? What was the difference between them?",
-          "question": "What was the number of international tourists in the year 2015 in both the countries? What was the difference between them?",
-          "qnaAnswer": "In 2015, India had about 130 lakh international tourists and Brazil had about 65 lakh. The difference was about 65 lakh."
-        },
-        {
-          "id": "n7",
-          "type": "qna",
-          "title": "In-text Q5: What could be the reason of increase in tourists in India after the year 2010?",
-          "question": "What could be the reason of increase in tourists in India after the year 2010?",
-          "qnaAnswer": "The increase in tourists in India after 2010 could be due to improved facilities, better promotion of tourism, economic growth, and enhanced connectivity."
-        },
-        {
-          "id": "n8",
-          "type": "qna",
-          "title": "In-text Q6: What type of graph is shown in Fig 9.2? What does the graph show?",
-          "question": "What type of graph is shown in Fig 9.2? What does the graph show?",
-          "qnaAnswer": "It is a bar graph. It shows the percentage of population engaged in tourism and contribution of tourism in GDP for Brazil and India."
-        },
-        {
-          "id": "n9",
-          "type": "qna",
-          "title": "In-text Q7: Which country's tourism has a larger share in the contribution towards GDP?",
-          "question": "Which country's tourism has a larger share in the contribution towards GDP?",
-          "qnaAnswer": "Brazil's tourism has a larger share in the contribution towards GDP (9.3% vs 8.2% for India)."
-        },
-        {
-          "id": "n10",
-          "type": "qna",
-          "title": "In-text Q8: Which country has a larger population engaged in tourism sector but contributes lesser in GDP?",
-          "question": "Which country has a larger population engaged in tourism sector but contributes lesser in GDP?",
-          "qnaAnswer": "India has a larger population engaged in tourism (9% vs 7.5%) but contributes lesser in GDP."
-        },
-        {
-          "id": "n11",
-          "type": "qna",
-          "title": "In-text Q9: Study the transport map of Brazil in Fig 9.9 and answer: Which means of transport are seen on the map?",
-          "question": "Which means of transport are seen on the map?",
-          "qnaAnswer": "Roads, railways, waterways, and airways are seen on the map."
-        },
-        {
-          "id": "n12",
-          "type": "qna",
-          "title": "In-text Q10: Which means of transport has a denser network?",
-          "question": "Which means of transport has a denser network?",
-          "qnaAnswer": "Roadways have the denser network in Brazil."
-        },
-        {
-          "id": "n13",
-          "type": "qna",
-          "title": "In-text Q11: Which highway can be seen prominently? Which places does it join?",
-          "question": "Which highway can be seen prominently? Which places does it join?",
-          "qnaAnswer": "The Trans-Amazonian Highway is prominent. It joins the eastern coast of Brazil to the Amazon region in the west."
-        },
-        {
-          "id": "n14",
-          "type": "qna",
-          "title": "In-text Q12: What could be the reason of development of railways in the South-East?",
-          "question": "What could be the reason of development of railways in the South-East?",
-          "qnaAnswer": "Railways developed in the South-East due to industrialisation, agriculture, and high population concentration."
-        },
-        {
-          "id": "n15",
-          "type": "qna",
-          "title": "In-text Q13: In which part of Brazil do you see a lesser development of transport network? What could be the reason?",
-          "question": "In which part of Brazil do you see a lesser development of transport network? What could be the reason?",
-          "qnaAnswer": "The Amazon basin has a lesser developed transport network due to dense forests, swamps, and inaccessibility."
-        },
-        {
-          "id": "n16",
-          "type": "qna",
-          "title": "In-text Q14: Look at the transport maps of India (Fig 9.10 and 9.11): Which means of transport are visible on the map?",
-          "question": "Which means of transport are visible on the map?",
-          "qnaAnswer": "Roads, railways, waterways, and airways are visible on the map."
-        },
-        {
-          "id": "n17",
-          "type": "qna",
-          "title": "In-text Q15: In which part of India is the density of railways more?",
-          "question": "In which part of India is the density of railways more?",
-          "qnaAnswer": "The density of railways is more in the North Indian Plains."
-        },
-        {
-          "id": "n18",
-          "type": "qna",
-          "title": "In-text Q16: Name five important ports and airports of India.",
-          "question": "Name five important ports and airports of India.",
-          "qnaAnswer": "Five important ports: Mumbai, Chennai, Kolkata, Kandla, Vishakhapatnam. Five important airports: Delhi, Mumbai, Chennai, Kolkata, Bengaluru."
-        },
-        {
-          "id": "n19",
-          "type": "qna",
-          "title": "In-text Q17: Which parts of India have a sparse network of transport? What could be the reason?",
-          "question": "Which parts of India have a sparse network of transport? What could be the reason?",
-          "qnaAnswer": "The Himalayan region, North-Eastern states, and central India have a sparse network due to rugged terrain, dense forests, and low population density."
-        },
-        {
-          "id": "n20",
-          "type": "qna",
-          "title": "In-text Q18: How many divisions can you see in the map of Brazilian Standard Time? What do these divisions signify?",
-          "question": "How many divisions can you see in the map? What do these divisions signify?",
-          "qnaAnswer": "Four divisions are seen. They signify the four time zones of Brazil."
-        },
-        {
-          "id": "n21",
-          "type": "qna",
-          "title": "In-text Q19: What does the term behind the GMT mean?",
-          "question": "What does the term behind the GMT mean?",
-          "qnaAnswer": "It means the time is behind Greenwich Mean Time by that many hours."
-        },
-        {
-          "id": "n22",
-          "type": "qna",
-          "title": "In-text Q20: Which part of Brazil is ahead of the other? By how many minutes is this part ahead of others?",
-          "question": "Which part of Brazil is ahead of the other? By how many minutes is this part ahead of others?",
-          "qnaAnswer": "The eastern part of Brazil is ahead of the western part by about 168 minutes (2 hours 48 minutes)."
-        },
-        {
-          "id": "n23",
-          "type": "qna",
-          "title": "In-text Q21: What does the red line in the map show?",
-          "question": "What does the red line in the map show?",
-          "qnaAnswer": "The red line shows the official Brazilian time (BRT), which is GMT-3."
-        },
-        {
-          "id": "n24",
-          "type": "qna",
-          "title": "In-text Q22: Calculate the difference between the two longitudinal extremes of mainland India. Is it more than Brazil?",
-          "question": "Calculate the difference between the two longitudinal extremes of mainland India. Is it more than Brazil?",
-          "qnaAnswer": "The difference is about 30 degrees (approximately 2 hours). This is less than Brazil's longitudinal extent."
-        },
-        {
-          "id": "n25",
-          "type": "qna",
-          "title": "In-text Q23: Which longitude in India is called the Indian Standard Time (IST)? What is the difference between this time and the GMT?",
-          "question": "Which longitude in India is called the Indian Standard Time (IST)? What is the difference between this time and the GMT?",
-          "qnaAnswer": "82.5°E is the Indian Standard Time (IST). It is ahead of GMT by 5 hours 30 minutes."
-        },
-        {
-          "id": "n26",
-          "type": "qna",
-          "title": "In-text Q24: How many local times are there in India?",
-          "question": "How many local times are there in India?",
-          "qnaAnswer": "India has only one local time (IST) for the entire country."
-        },
-        {
-          "id": "n27",
-          "type": "qna",
-          "title": "In-text Q25: What is the difference between IST and BRT?",
-          "question": "What is the difference between IST and BRT?",
-          "qnaAnswer": "IST is GMT+5:30 while BRT is GMT-3. IST is 8 hours 30 minutes ahead of BRT."
-        },
-        {
-          "id": "n28",
-          "type": "qna",
-          "title": "In-text Q26: Calculate the difference in time between the westernmost and easternmost points of Brazil.",
-          "question": "Calculate the difference in time between the two points in minutes.",
-          "qnaAnswer": "The difference is about 168 minutes (2 hours 48 minutes)."
-        },
-        {
-          "id": "n29",
-          "type": "qna",
-          "title": "In-text Q27: What does the term behind the GMT mean?",
-          "question": "What does the term behind the GMT mean?",
-          "qnaAnswer": "It means the time is behind Greenwich Mean Time by that many hours."
-        },
-        {
-          "id": "n30",
-          "type": "qna",
-          "title": "In-text Q28: Which part of Brazil is ahead of the other?",
-          "question": "Which part of Brazil is ahead of the other?",
-          "qnaAnswer": "The eastern part of Brazil is ahead of the western part."
-        },
-        {
-          "id": "n31",
-          "type": "qna",
-          "title": "In-text Q29: By how many minutes is this part ahead of others?",
-          "question": "By how many minutes is this part ahead of others?",
-          "qnaAnswer": "The eastern part is ahead by about 168 minutes."
-        },
-        {
-          "id": "n32",
-          "type": "qna",
-          "title": "In-text Q30: What does the red line in the map show?",
-          "question": "What does the red line in the map show?",
-          "qnaAnswer": "The red line shows the official Brazilian time (BRT), GMT-3."
-        },
-        {
-          "id": "n33",
-          "type": "qna",
-          "title": "In-text Q31: Study the map in figure 9.13 and answer: Calculate the difference between the two longitudinal extremes of mainland India.",
-          "question": "Calculate the difference between the two longitudinal extremes of mainland India.",
-          "qnaAnswer": "The difference is about 30 degrees, which is about 2 hours."
-        },
-        {
-          "id": "n34",
-          "type": "qna",
-          "title": "In-text Q32: Is it more than Brazil?",
-          "question": "Is it more than Brazil?",
-          "qnaAnswer": "No, India's longitudinal extent is less than Brazil's."
-        },
-        {
-          "id": "n35",
-          "type": "qna",
-          "title": "In-text Q33: Which longitude in India is called the Indian Standard Time (IST)?",
-          "question": "Which longitude in India is called the Indian Standard Time (IST)?",
-          "qnaAnswer": "82.5°E longitude is called the Indian Standard Time (IST)."
-        },
-        {
-          "id": "n36",
-          "type": "qna",
-          "title": "In-text Q34: What is the difference between this time and the GMT?",
-          "question": "What is the difference between this time and the GMT?",
-          "qnaAnswer": "IST is ahead of GMT by 5 hours 30 minutes."
-        },
-        {
-          "id": "n37",
-          "type": "qna",
-          "title": "In-text Q35: How many local times are there in India?",
-          "question": "How many local times are there in India?",
-          "qnaAnswer": "India has only one local time (IST) for the entire country."
-        },
-        {
-          "id": "n38",
-          "type": "qna",
-          "title": "In-text Q36: It is 12 noon at Delhi. What would be the local time in Brasilia?",
-          "question": "It is 12 noon at Delhi. What would be the local time in Brasilia?",
-          "qnaAnswer": "Brasilia is GMT-3, and Delhi is GMT+5:30. The difference is 8 hours 30 minutes. So when it is 12 noon in Delhi, it is 3:30 am in Brasilia."
-        },
-        {
-          "id": "n39",
-          "type": "qna",
-          "title": "In-text Q37: Saurabh and Ashwini work for a MNC. Two of their regional head offices are located in Brazil in Rio De Janeiro and Manaus. Find out their corresponding timings in India, if they work according to office timings in Brazil i.e 10am to 5pm.",
-          "question": "Find out their corresponding timings in India, if they work according to office timings in Brazil i.e 10am to 5pm.",
-          "qnaAnswer": "Rio de Janeiro is GMT-3, Manaus is GMT-4. India is GMT+5:30. If office hours in Brazil are 10am to 5pm, in India it would be 6:30pm to 1:30am (for Rio) and 7:30pm to 2:30am (for Manaus)."
-        },
-        {
-          "id": "n40",
-          "type": "qna",
-          "title": "In-text Q38: Arun called his mother from Digboi at 7 am. At what local time will his mother pick up his call at Jaisalmer?",
-          "question": "Arun called his mother from Digboi at 7 am. At what local time will his mother pick up his call at Jaisalmer?",
-          "qnaAnswer": "Digboi is in the east (about 95°E) and Jaisalmer is in the west (about 70°E). The difference is about 25° or 1 hour 40 minutes. So when it is 7 am in Digboi, it is about 5:20 am in Jaisalmer."
-        },
-        {
-          "id": "n41",
-          "type": "qna",
-          "title": "In-text Q39: On what basis will you decide how many standard times should be there in a country?",
-          "question": "On what basis will you decide how many standard times should be there in a country?",
-          "qnaAnswer": "The number of standard times depends on the longitudinal extent of the country, its size, and the need for administrative convenience and coordination."
-        },
-        {
-          "id": "n42",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q1(a): State whether right or wrong with reasons: The future of tourism is bright in India due to its natural diversity.",
-          "question": "State whether right or wrong with reasons: The future of tourism is bright in India due to its natural diversity.",
-          "qnaAnswer": "Right. India has diverse natural and cultural attractions, which can attract tourists if properly developed."
-        },
-        {
-          "id": "n43",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q1(b): State whether right or wrong with reasons: Tourism is an invisible trade.",
-          "question": "State whether right or wrong with reasons: Tourism is an invisible trade.",
-          "qnaAnswer": "Right. Tourism is called invisible trade because it involves the exchange of services, not goods."
-        },
-        {
-          "id": "n44",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q1(c): State whether right or wrong with reasons: The indicator of development in a country is the development of transport in that country.",
-          "question": "State whether right or wrong with reasons: The indicator of development in a country is the development of transport in that country.",
-          "qnaAnswer": "Right. Transport development indicates economic growth, connectivity, and modernisation."
-        },
-        {
-          "id": "n45",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q1(d): State whether right or wrong with reasons: Brazil's time is ahead of India's time.",
-          "question": "State whether right or wrong with reasons: Brazil's time is ahead of India's time.",
-          "qnaAnswer": "Wrong. Brazil's time is behind India's time because Brazil is west of India."
-        },
-        {
-          "id": "n46",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q1(e): State whether right or wrong with reasons: The development of tourism in India has begun recently.",
-          "question": "State whether right or wrong with reasons: The development of tourism in India has begun recently.",
-          "qnaAnswer": "Wrong. Tourism in India has a long history, but its planned development began recently."
-        },
-        {
-          "id": "n47",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q2(a): Answer in short: Which factors attract more tourists in Brazil?",
-          "question": "Answer in short: Which factors attract more tourists in Brazil?",
-          "qnaAnswer": "Brazil attracts tourists for its beaches, Amazon rainforest, Rio carnival, ecotourism, and vibrant cities like Rio de Janeiro and Sao Paulo."
-        },
-        {
-          "id": "n48",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q2(b): Answer in short: What are the difficulties in the development of the railway system in Brazil's internal areas?",
-          "question": "Answer in short: What are the difficulties in the development of the railway system in Brazil's internal areas?",
-          "qnaAnswer": "Dense forests, swamps, rugged terrain, and lack of population and economic activities make railway development difficult in Brazil's interior."
-        },
-        {
-          "id": "n49",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q2(c): Answer in short: Which means of communication has expedited the field of communications?",
-          "question": "Answer in short: Which means of communication has expedited the field of communications?",
-          "qnaAnswer": "Mobile phones and the internet have expedited communication."
-        },
-        {
-          "id": "n50",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q3: A plane leaves Brasilia at 11am on 31st December. The plane crosses 0° Meridian and reaches Vladivostok via New Delhi. Tell the local time, date and day at New Delhi and Vladivostok when plane leaves Brasilia.",
-          "question": "A plane leaves Brasilia at 11am on 31st December. The plane crosses 0° Meridian and reaches Vladivostok via New Delhi. Tell the local time, date and day at New Delhi and Vladivostok when plane leaves Brasilia.",
-          "qnaAnswer": "When it is 11 am in Brasilia (GMT-3), it is 2 pm GMT. New Delhi is GMT+5:30, so 7:30 pm on 31st December. Vladivostok is GMT+10, so 12 midnight on 1st January."
-        },
-        {
-          "id": "n51",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q4: Match the columns. 'A' Group: (a) Trans-Amazonian (b) Road Transport (c) Rio de Janeiro (d) Manmad. 'B' Group: (i) Tourist Place Highway (ii) Railway Station in India (iii) Golden Quadrilateral (iv) Major Highways (v) 40° W. Meridian",
-          "question": "Match the columns. 'A' Group: (a) Trans-Amazonian (b) Road Transport (c) Rio de Janeiro (d) Manmad. 'B' Group: (i) Tourist Place Highway (ii) Railway Station in India (iii) Golden Quadrilateral (iv) Major Highways (v) 40° W. Meridian",
-          "qnaAnswer": "(a) - (iv) Major Highways, (b) - (iii) Golden Quadrilateral, (c) - (i) Tourist Place, (d) - (ii) Railway Station in India."
-        },
-        {
-          "id": "n52",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q5(a): Give geographical reasons: Eco-tourism is being developed more in Brazil.",
-          "question": "Give geographical reasons: Eco-tourism is being developed more in Brazil.",
-          "qnaAnswer": "Brazil has sensitive natural resources like the Amazon rainforest, so ecotourism is promoted to conserve them while attracting tourists."
-        },
-        {
-          "id": "n53",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q5(b): Give geographical reasons: The waterways are not developed in Brazil.",
-          "question": "Give geographical reasons: The waterways are not developed in Brazil.",
-          "qnaAnswer": "Waterways are not developed in Brazil because of dense forests, rapids, and waterfalls in rivers, and lack of infrastructure."
-        },
-        {
-          "id": "n54",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q5(c): Give geographical reasons: A dense network of railways has developed in the north Indian plains.",
-          "question": "Give geographical reasons: A dense network of railways has developed in the north Indian plains.",
-          "qnaAnswer": "The north Indian plains have flat terrain, high population, agriculture, and industry, which favour railway development."
-        },
-        {
-          "id": "n55",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q5(d): Give geographical reasons: Development of transport is important for country's progress.",
-          "question": "Give geographical reasons: Development of transport is important for country's progress.",
-          "qnaAnswer": "Transport connects markets, facilitates trade, and enables the movement of people and goods, which is essential for economic growth."
-        },
-        {
-          "id": "n56",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q5(e): Give geographical reasons: We rely on the sea route for international trade.",
-          "question": "Give geographical reasons: We rely on the sea route for international trade.",
-          "qnaAnswer": "Sea routes are cheaper for transporting bulky goods over long distances and can carry large volumes, making them ideal for international trade."
-        },
-        {
-          "id": "n57",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q6(a): Differentiate between: Water transport in the Amazon and the Ganga river.",
-          "question": "Differentiate between: Water transport in the Amazon and the Ganga river.",
-          "qnaAnswer": "Amazon: navigable for long distances, less populated, used for local transport. Ganga: navigable in parts, densely populated, used for trade and transport with infrastructure."
-        },
-        {
-          "id": "n58",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q6(b): Differentiate between: Communication in Brazil and India.",
-          "question": "Differentiate between: Communication in Brazil and India.",
-          "qnaAnswer": "Brazil has well-developed telecommunication in central-south but poor in north. India has rapidly growing mobile and internet connectivity across the country."
-        },
-        {
-          "id": "n59",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q6(c): Differentiate between: IST and BRT.",
-          "question": "Differentiate between: IST and BRT.",
-          "qnaAnswer": "IST is Indian Standard Time (GMT+5:30), BRT is Brazilian Time (GMT-3). IST is ahead of GMT, BRT is behind GMT."
-        },
-        {
-          "id": "n60",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q7(a): Write notes on: Modern means of communication.",
-          "question": "Write notes on: Modern means of communication.",
-          "qnaAnswer": "Modern means include mobile phones, internet, email, social media, and satellites, which enable instant communication globally."
-        },
-        {
-          "id": "n61",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q7(b): Write notes on: Air transport in India.",
-          "question": "Write notes on: Air transport in India.",
-          "qnaAnswer": "Air transport in India is well-developed, with domestic and international flights connecting major cities and remote areas. It is fast but expensive."
-        },
-        {
-          "id": "n62",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q7(c): Write notes on: Correlation between physiographic and internal waterways.",
-          "question": "Write notes on: Correlation between physiographic and internal waterways.",
-          "qnaAnswer": "Internal waterways are influenced by physiography: plains have navigable rivers, while mountains have rapids and falls, limiting navigation."
-        },
-        {
-          "id": "n63",
-          "type": "qna",
-          "title": "[IMPORTANT] Exercise Q7(d): Write notes on: Importance of Standard Time.",
-          "question": "Write notes on: Importance of Standard Time.",
-          "qnaAnswer": "Standard time is important for coordinating activities, transport, communication, and administration across a country with a large longitudinal extent."
-        },
-        {
-          "id": "n64",
-          "type": "paragraph",
-          "title": "SVG Diagram: India — Transport Network",
-          "content": "svg\n<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'>\n <rect x='20' y='20' width='460' height='260' fill='#f0f8ff' stroke='#333'/>\n <text x='150' y='45' font-size='14' font-weight='bold'>India - Transport Network</text>\n <line x1='50' y1='100' x2='450' y2='100' stroke='#d32f2f' stroke-width='3'/>\n <text x='50' y='90' font-size='11'>Roads (Golden Quadrilateral)</text>\n <line x1='50' y1='150' x2='450' y2='150' stroke='#1976d2' stroke-width='3'/>\n <text x='50' y='140' font-size='11'>Railways</text>\n <line x1='50' y1='200' x2='450' y2='200' stroke='#388e3c' stroke-width='3'/>\n <text x='50' y='190' font-size='11'>Airways</text>\n <circle cx='100' cy='250' r='5' fill='#f57c00'/><text x='110' y='255' font-size='10'>Mumbai Port</text>\n <circle cx='350' cy='250' r='5' fill='#f57c00'/><text x='360' y='255' font-size='10'>Chennai Port</text>\n</svg>\n",
+          "title": "(4) Vegetation is an indicator of difference in precipitation.",
+          "question": "(4) Vegetation is an indicator of difference in precipitation.",
+          "qnaAnswer": "(1) Wrong  (2)  Right  (3)  Right  (4)  Right.",
           "important": true
         },
         {
-          "id": "n65",
-          "type": "paragraph",
-          "title": "SVG Diagram: Brazil — Transport Routes",
-          "content": "svg\n<svg viewBox='0 0 500 300' xmlns='http://www.w3.org/2000/svg'>\n <rect x='20' y='20' width='460' height='260' fill='#f0fff0' stroke='#333'/>\n <text x='150' y='45' font-size='14' font-weight='bold'>Brazil - Transport Routes</text>\n <line x1='50' y1='100' x2='450' y2='100' stroke='#d32f2f' stroke-width='3'/>\n <text x='50' y='90' font-size='11'>Trans-Amazonian Highway</text>\n <line x1='50' y1='150' x2='450' y2='150' stroke='#1976d2' stroke-width='3'/>\n <text x='50' y='140' font-size='11'>Major Roads</text>\n <line x1='50' y1='200' x2='450' y2='200' stroke='#388e3c' stroke-width='3'/>\n <text x='50' y='190' font-size='11'>Waterways (Amazon)</text>\n <circle cx='100' cy='250' r='5' fill='#f57c00'/><text x='110' y='255' font-size='10'>Manaus</text>\n <circle cx='350' cy='250' r='5' fill='#f57c00'/><text x='360' y='255' font-size='10'>Rio de Janeiro</text>\n</svg>\n",
+          "id": "geo1-n13",
+          "type": "heading",
+          "content": "Differentiate Between"
+        },
+        {
+          "id": "geo1-n14",
+          "type": "qna",
+          "title": "(1) Items to be carried for a field visit. (March ’23)",
+          "question": "(1) Items to be carried for a field visit. (March ’23)",
+          "qnaAnswer": "For the answer, refer to 4(A) from Question Set 20 .",
+          "important": true
+        },
+        {
+          "id": "geo1-n15",
+          "type": "qna",
+          "title": "(2) Precautions to be taken continuously during field visit.",
+          "question": "(2) Precautions to be taken continuously during field visit.",
+          "qnaAnswer": "We will take the following precautions continuously during\nfield visit :",
+          "important": true
+        },
+        {
+          "id": "geo1-n16",
+          "type": "heading",
+          "content": "Answer the Following in Detail / Explain"
+        },
+        {
+          "id": "geo1-n17",
+          "type": "qna",
+          "title": "(1) What is field visit? What are the things you carry for field visit? (Sept. ’21)",
+          "question": "(1) What is field visit? What are the things you carry for field visit? (Sept. ’21)",
+          "qnaAnswer": "(A) Meaning : For the answer, refer to Q. 7  (1) (A)\nof Solved Question P\naper of July 2024 given in Section 1 of this\nbook.\n(B) The things to be carried for field visit : For the answer,\nrefer to (4) (A) of this set.",
+          "important": true
+        },
+        {
+          "id": "geo1-n18",
+          "type": "qna",
+          "title": "(2) How will you manage the litter during field visit? (March ’19; July ’23)",
+          "question": "(2) How will you manage the litter during field visit? (March ’19; July ’23)",
+          "qnaAnswer": "We will manage the litter during the field visit in the following\nways :",
+          "important": true
+        },
+        {
+          "id": "geo1-n19",
+          "type": "qna",
+          "title": "(3) Prepare a questionnaire for a field visit to a sugar factory/ factory. (Nov. ’20; March ’24)",
+          "question": "(3) Prepare a questionnaire for a field visit to a sugar factory/ factory. (Nov. ’20; March ’24)",
+          "qnaAnswer": "The questionnaire for a field visit to a sugar factory/factory\nis as follows :\nANSWER THE FOLLOWING ...",
+          "important": true
+        },
+        {
+          "id": "geo1-n20",
+          "type": "qna",
+          "title": "(4) (A) What items will you take with you for the field visit? (B) What care will you take when you visit a seashore? (July ’19)",
+          "question": "(4) (A) What items will you take with you for the field visit? (B) What care will you take when you visit a seashore? (July ’19)",
+          "qnaAnswer": "(A) The items to be taken for the field visit : (1) Notebook,\npen, pencil, scale, camera, etc. to collect information.",
+          "important": true
+        },
+        {
+          "id": "geo1-n21",
+          "type": "qna",
+          "title": "(5) If you are a part of field visit, what preparations will you make? OR Suppose teachers ask you to plan the visit, how will you plan the details of the trip?",
+          "question": "(5) If you are a part of field visit, what preparations will you make? OR Suppose teachers ask you to plan the visit, how will you plan the details of the trip?",
+          "qnaAnswer": "We will make the following preparations/plan the following\ndetails of the trip :",
           "important": true
         }
       ],
       "flashcards": [
         {
-          "id": "f1",
-          "front": "Name any two tourist places in India.",
-          "back": "Taj Mahal and Goa.",
+          "id": "geo1-f1",
+          "front": "(3) We should carry for a field visit to collect information. (March ’24) (a) chair (b) blackboard (c) water bottle (d) questionnaire",
+          "back": "(1) Compass is used for knowing directions.",
           "order": 1
         },
         {
-          "id": "f2",
-          "front": "Which is the lifeline of India's transport?",
-          "back": "Indian Railways.",
+          "id": "geo1-f2",
+          "front": "(2) Items required/materials to be carried for field visit. (Sept. ’21; March ’25) (a) Notebook/Questionnaire (b) Camera (c) Map (d) Microscope/computer",
+          "back": "(1) – (c) : Entertainment, (2) – (d) : Microscope/computer.",
           "order": 2
         },
         {
-          "id": "f3",
-          "front": "What is ecotourism?",
-          "back": "Tourism that focuses on visiting natural areas without damaging the environment.",
+          "id": "geo1-f3",
+          "front": "(1) What is field visit?",
+          "back": "Collecting geographical and cultural information by actually paying a visit to a particular place is called ‘field visit’.",
           "order": 3
         },
         {
-          "id": "f4",
-          "front": "Which mode of transport is most used in Brazil?",
-          "back": "Roadways.",
+          "id": "geo1-f4",
+          "front": "(2) What types of information of a field can be collected by field visit?",
+          "back": "Geographical, social, economic, historical, cultural, etc. types of information of a field can be collected by field visit.",
           "order": 4
         },
         {
-          "id": "f5",
-          "front": "Name any two means of communication.",
-          "back": "Telephone and internet.",
+          "id": "geo1-f5",
+          "front": "(4) Vegetation is an indicator of difference in precipitation.",
+          "back": "(1) Wrong (2) Right (3) Right (4) Right.",
           "order": 5
         },
         {
-          "id": "f6",
-          "front": "What is IST?",
-          "back": "Indian Standard Time, GMT+5:30.",
+          "id": "geo1-f6",
+          "front": "(1) Items to be carried for a field visit. (March ’23)",
+          "back": "For the answer, refer to 4(A) from Question Set 20 .",
           "order": 6
         },
         {
-          "id": "f7",
-          "front": "What is BRT?",
-          "back": "Brazilian Time, GMT-3.",
+          "id": "geo1-f7",
+          "front": "(2) Precautions to be taken continuously during field visit.",
+          "back": "We will take the following precautions continuously during field visit :",
           "order": 7
         },
         {
-          "id": "f8",
-          "front": "How many time zones does Brazil have?",
-          "back": "Four.",
+          "id": "geo1-f8",
+          "front": "(1) What is field visit? What are the things you carry for field visit? (Sept. ’21)",
+          "back": "(A) Meaning : For the answer, refer to Q. 7 (1) (A) of Solved Question P aper of July 2024 given in Section 1 of this book. (B) The things to be carried for field visit : For the answer, refer to (4) (A) of this set.",
           "order": 8
+        },
+        {
+          "id": "geo1-f9",
+          "front": "(2) How will you manage the litter during field visit? (March ’19; July ’23)",
+          "back": "We will manage the litter during the field visit in the following ways :",
+          "order": 9
+        },
+        {
+          "id": "geo1-f10",
+          "front": "(3) Prepare a questionnaire for a field visit to a sugar factory/ factory. (Nov. ’20; March ’24)",
+          "back": "The questionnaire for a field visit to a sugar factory/factory is as follows : ANSWER THE FOLLOWING ...",
+          "order": 10
+        },
+        {
+          "id": "geo1-f11",
+          "front": "(4) (A) What items will you take with you for the field visit? (B) What care will you take when you visit a seashore? (July ’19)",
+          "back": "(A) The items to be taken for the field visit : (1) Notebook, pen, pencil, scale, camera, etc. to collect information.",
+          "order": 11
+        },
+        {
+          "id": "geo1-f12",
+          "front": "(5) If you are a part of field visit, what preparations will you make? OR Suppose teachers ask you to plan the visit, how will you plan the details of the trip?",
+          "back": "We will make the following preparations/plan the following details of the trip :",
+          "order": 12
         }
       ],
-      "quiz": [
+      "quiz": []
+    },
+    {
+      "id": "geo-ch2",
+      "num": 2,
+      "title": "Location and Extent",
+      "emoji": "🌍",
+      "kind": "chapter",
+      "overview": {
+        "summary": "Chapter 2: Location and Extent. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
+        "youWillLearn": [
+          "Chapter-wise practice for Location and Extent.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
+        ]
+      },
+      "notes": [
         {
-          "id": "q1",
-          "qType": "mcq",
-          "question": "Which is called the lifeline of India?",
-          "options": [
-            "Roadways",
-            "Railways",
-            "Airways",
-            "Waterways"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Indian Railways is known as the lifeline of India.",
+          "id": "geo2-n1",
+          "type": "heading",
+          "content": "Location and Extent — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo2-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo2-n3",
+          "type": "qna",
+          "title": "(5) India and Brazil have type of Government. (July ’23; March ’25) (a) Military (b) Communist (c) Republic (d) Presidential",
+          "question": "(5) India and Brazil have type of Government. (July ’23; March ’25) (a) Military (b) Communist (c) Republic (d) Presidential",
+          "qnaAnswer": "(1) Indira Point  (2) Northern and Eastern  (3) Chile –\nEcuador (4) Samba  (5) Republic."
+        },
+        {
+          "id": "geo2-n4",
+          "type": "qna",
+          "title": "(2) The states in India from south to north : Jammu and Kashmir – Maharashtra – Kerala – Karnataka",
+          "question": "(2) The states in India from south to north : Jammu and Kashmir – Maharashtra – Kerala – Karnataka",
+          "qnaAnswer": "(1)  The states in Brazil from north to south direction : Amapa\n– Para – Sao Paulo – Santa Catarina."
+        },
+        {
+          "id": "geo2-n5",
+          "type": "heading",
+          "content": "Identify the Correct Group"
+        },
+        {
+          "id": "geo2-n6",
+          "type": "markdown",
+          "title": "Identify the Correct Group",
+          "content": "(1) The states in Brazil.\n (a) Parana, Punjab, Acre\n (b) Amapa, Arunachal Pradesh, Roraima\n (c) Sao Paulo, Amazonas, Mato Grosso\n(2) The states in India.\n (a) Maharashtra, Gujarat, Amapa\n (b) Manipur, Kerala, Alagoas\n (c) Madhya Pradesh, Sikkim, Telangana\nAns.\n(1) The states in Brazil : (c) Sao Paulo, Amazonas, Mato Grosso.\n(2) The states in India : (c) Madhya Pradesh, Sikkim, Telangana."
+        },
+        {
+          "id": "geo2-n7",
+          "type": "heading",
+          "content": "Match the Correct Pairs"
+        },
+        {
+          "id": "geo2-n8",
+          "type": "qna",
+          "title": "(3) Coastal states in Brazil. (March ’24) (a) Rio de Janeiro (b) Paraiba (c) Amapa (d) Acre",
+          "question": "(3) Coastal states in Brazil. (March ’24) (a) Rio de Janeiro (b) Paraiba (c) Amapa (d) Acre",
+          "qnaAnswer": "(1) – (d) : Maranhao, (2) – (d) : Suriname, (3) – (d) : Acre."
+        },
+        {
+          "id": "geo2-n9",
+          "type": "heading",
+          "content": "Identify the Incorrect Pair"
+        },
+        {
+          "id": "geo2-n10",
+          "type": "markdown",
+          "title": "Identify the Incorrect Pair",
+          "content": "Q.  (a) State in northern region of India – Himachal Pradesh\n (b) State in western region of India – Rajasthan\n (c) State in eastern region of India – Maharashtra\n (d) State in southern region of India – Kerala\nAns.  Incorrect pair :  (c) State in eastern region of India –\nMaharashtra."
+        },
+        {
+          "id": "geo2-n11",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo2-n12",
+          "type": "qna",
+          "title": "(1) Areawise, which is the largest state in India? (March ’22)",
+          "question": "(1) Areawise, which is the largest state in India? (March ’22)",
+          "qnaAnswer": "Areawise, Rajasthan is the largest state in India.",
+          "important": true
+        },
+        {
+          "id": "geo2-n13",
+          "type": "qna",
+          "title": "(2) In which Hemispheres is India situated?",
+          "question": "(2) In which Hemispheres is India situated?",
+          "qnaAnswer": "India is situated in both the Northern Hemisphere and the\nEastern Hemisphere.",
+          "important": true
+        },
+        {
+          "id": "geo2-n14",
+          "type": "qna",
+          "title": "(3) In which Hemispheres is Brazil situated?",
+          "question": "(3) In which Hemispheres is Brazil situated?",
+          "qnaAnswer": "Brazil is situated in the Northern, Southern and Western\nHemispheres.",
+          "important": true
+        },
+        {
+          "id": "geo2-n15",
+          "type": "qna",
+          "title": "(4) The country Brazil is famous for which type of dance? (July ’23)",
+          "question": "(4) The country Brazil is famous for which type of dance? (July ’23)",
+          "qnaAnswer": "The country Brazil is famous for Samba dance.",
+          "important": true
+        },
+        {
+          "id": "geo2-n16",
+          "type": "qna",
+          "title": "(5) Brazil is mainly located in which hemisphere? (Nov. ’20)",
+          "question": "(5) Brazil is mainly located in which hemisphere? (Nov. ’20)",
+          "qnaAnswer": "Brazil is mainly located in southern hemisphere.",
+          "important": true
+        },
+        {
+          "id": "geo2-n17",
+          "type": "qna",
+          "title": "(6) Which is the popular sport of Brazil? (March ’22)",
+          "question": "(6) Which is the popular sport of Brazil? (March ’22)",
+          "qnaAnswer": "Football is the popular sport of Brazil.",
+          "important": true
+        },
+        {
+          "id": "geo2-n18",
+          "type": "qna",
+          "title": "(7) Which country has a high proportion of young population? (July ’23)",
+          "question": "(7) Which country has a high proportion of young population? (July ’23)",
+          "qnaAnswer": "India has a high proportion of young population.",
+          "important": true
+        },
+        {
+          "id": "geo2-n19",
+          "type": "qna",
+          "title": "(8) By which name is the southernmost point of India known?",
+          "question": "(8) By which name is the southernmost point of India known?",
+          "qnaAnswer": "The southernmost point of India is known as Indira Point.",
+          "important": true
+        },
+        {
+          "id": "geo2-n20",
+          "type": "markdown",
+          "title": "Answer in One Sentence",
+          "content": "(Note : The answers are given directly.)\n(1) Any four states in India : (1) Maharashtra (2) Gujarat\n(3) Jammu and Kashmir (4) Manipur.\n(2) Countries sharing land boundaries with India : (1) Pakistan\n(2) Afghanistan (3) China (4) Nepal (5) Bhutan (6) Bangladesh\n(7) Myanmar.\n(3) Countries sharing maritime border with India :  (1) Pakistan\n(2) Sri Lanka (3) Maldives (4) Indonesia (5) Bangladesh (6) Myanmar.\n(4) Any four states in Brazil : (1) Acre (2) Amapa (3) Alagoas\n(4) Goias.\n(Note : Any four names are expected in the answer.)"
+        },
+        {
+          "id": "geo2-n21",
+          "type": "heading",
+          "content": "Name the Following"
+        },
+        {
+          "id": "geo2-n22",
+          "type": "qna",
+          "title": "(5) The proportion of youth in India’s population is high.",
+          "question": "(5) The proportion of youth in India’s population is high.",
+          "qnaAnswer": "(1) Right  (2)  Wrong  (3) Wrong  (4) Right  (5)  Right.",
+          "important": true
+        },
+        {
+          "id": "geo2-n23",
+          "type": "heading",
+          "content": "Identify the Type"
+        },
+        {
+          "id": "geo2-n24",
+          "type": "markdown",
+          "title": "Identify the Type",
+          "content": "(1) Location of India and Location of Brazil :\nLocation of India Location of Brazil\n1.  India is located completely\nin the Northern and Eastern\nHemispheres.\n1.  Brazil is located in the\nNorthern, Southern and\nWestern Hemispheres.\n2.  India is located in the\nsouthern part of the\ncontinent of Asia.\n2.  Brazil is located in the\nnorthern part of the\ncontinent of South America."
+        },
+        {
+          "id": "geo2-n25",
+          "type": "heading",
+          "content": "Differentiate Between"
+        },
+        {
+          "id": "geo2-n26",
+          "type": "qna",
+          "title": "(3) The latitudinal and longitudinal extent of India and Brazil.",
+          "question": "(3) The latitudinal and longitudinal extent of India and Brazil.",
+          "qnaAnswer": "(A) India : (1) Latitudinal extent : The latitudinal extent of\nthe mainland of India is from 8°4’ N latitude to 37°6’ N latitude.\nIndira Point is the southernmost point of India’s territory. It is\nlocated on Nicobar island at the 6°45’ latitude.",
+          "important": true
+        },
+        {
+          "id": "geo2-n27",
+          "type": "heading",
+          "content": "Map Filling"
+        },
+        {
+          "id": "geo2-n28",
+          "type": "qna",
+          "title": "(4) Parana state (5) Amapa state (Sept. ’21) (6) Equator (March ’24) (7) Maranhao state (March ’25).",
+          "question": "(4) Parana state (5) Amapa state (Sept. ’21) (6) Equator (March ’24) (7) Maranhao state (March ’25).",
+          "qnaAnswer": "N\n0 200 400 600 800\nKilometres\n0°\nBRAZIL\n\nEquator\nBrasilia\nParana\nSergipe\nAmapa\nAmazonasAmazonas Maranhao Maranhao\nstatestate\nIndex :"
+        },
+        {
+          "id": "geo2-n29",
+          "type": "heading",
+          "content": "Map Reading"
+        },
+        {
+          "id": "geo2-n30",
+          "type": "qna",
+          "title": "(1) Why is India looked upon as a young country?",
+          "question": "(1) Why is India looked upon as a young country?",
+          "qnaAnswer": "(1) In India, the percentage of working people (young people)\nin population is greater than non-working population."
+        },
+        {
+          "id": "geo2-n31",
+          "type": "qna",
+          "title": "(2) Brazil is seen as an important global market in future. (Sept. ’21)",
+          "question": "(2) Brazil is seen as an important global market in future. (Sept. ’21)",
+          "qnaAnswer": "(1) For more than three centuries Brazil was under\nPortuguese rule."
+        },
+        {
+          "id": "geo2-n32",
+          "type": "qna",
+          "title": "(3) Why is Brazil called ‘coffee pot’ of the world?",
+          "question": "(3) Why is Brazil called ‘coffee pot’ of the world?",
+          "qnaAnswer": "(1) Brazil ranks first in the world in terms of production of\ncoffee."
+        },
+        {
+          "id": "geo2-n33",
+          "type": "heading",
+          "content": "Answer the Following in Detail / Explain"
+        },
+        {
+          "id": "geo2-n34",
+          "type": "qna",
+          "title": "(7) How are Brazil and India different from each other in terms of location? (March ’19)",
+          "question": "(7) How are Brazil and India different from each other in terms of location? (March ’19)",
+          "qnaAnswer": "Brazil and India are different from each other in terms of\nlocation as follows :",
+          "important": true
+        },
+        {
+          "id": "geo2-n35",
+          "type": "qna",
+          "title": "(8) Write in detail about the historical background and the current status of India. OR Describe in brief about the historical background of India. (Nov. ’20; March ’23)",
+          "question": "(8) Write in detail about the historical background and the current status of India. OR Describe in brief about the historical background of India. (Nov. ’20; March ’23)",
+          "qnaAnswer": "(1) For nearly, one and a half century, India was under\nBritish rule.",
+          "important": true
+        },
+        {
+          "id": "geo2-n36",
+          "type": "qna",
+          "title": "(9) Explain the historical background of India and Brazil. (July ’23)",
+          "question": "(9) Explain the historical background of India and Brazil. (July ’23)",
+          "qnaAnswer": "(A) Historical background of India : For the answer, refer\nto (8) of this set.\n(B) Historical background of Brazil : For the answer, refer to",
+          "important": true
+        },
+        {
+          "id": "geo2-n37",
+          "type": "qna",
+          "title": "(10) What problems did Brazil and India face after independence? (March ’19 – ’25)",
+          "question": "(10) What problems did Brazil and India face after independence? (March ’19 – ’25)",
+          "qnaAnswer": "Brazil and India faced the following problems after\nindependence :",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "geo2-f1",
+          "front": "(5) India and Brazil have type of Government. (July ’23; March ’25) (a) Military (b) Communist (c) Republic (d) Presidential",
+          "back": "(1) Indira Point (2) Northern and Eastern (3) Chile – Ecuador (4) Samba (5) Republic.",
           "order": 1
         },
         {
-          "id": "q2",
-          "qType": "true_false",
-          "question": "Tourism generates foreign exchange for a country.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Tourism is an important source of foreign exchange and employment.",
+          "id": "geo2-f2",
+          "front": "(2) The states in India from south to north : Jammu and Kashmir – Maharashtra – Kerala – Karnataka",
+          "back": "(1) The states in Brazil from north to south direction : Amapa – Para – Sao Paulo – Santa Catarina.",
           "order": 2
         },
         {
-          "id": "q3",
-          "qType": "fill_blank",
-          "sentence": "The ___ is a famous tourist attraction in India.",
-          "wordBank": [
-            "Taj Mahal",
-            "Eiffel Tower",
-            "Statue of Liberty",
-            "Great Wall"
-          ],
-          "correctWord": "Taj Mahal",
-          "options": [],
-          "correctAnswer": 0,
-          "explanation": "The Taj Mahal in Agra is one of India's most famous monuments.",
+          "id": "geo2-f3",
+          "front": "(3) Coastal states in Brazil. (March ’24) (a) Rio de Janeiro (b) Paraiba (c) Amapa (d) Acre",
+          "back": "(1) – (d) : Maranhao, (2) – (d) : Suriname, (3) – (d) : Acre.",
           "order": 3
         },
         {
-          "id": "q4",
-          "qType": "mcq",
-          "question": "Which mode of transport is most used in Brazil?",
-          "options": [
-            "Railways",
-            "Roadways",
-            "Airways",
-            "Waterways"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Roadways are the most used mode of transport in Brazil.",
+          "id": "geo2-f4",
+          "front": "(1) Areawise, which is the largest state in India? (March ’22)",
+          "back": "Areawise, Rajasthan is the largest state in India.",
           "order": 4
         },
         {
-          "id": "q5",
-          "qType": "mcq",
-          "question": "Which of the following is a means of communication?",
-          "options": [
-            "Railway",
-            "Internet",
-            "Road",
-            "Airplane"
-          ],
-          "correctAnswer": 1,
-          "explanation": "The internet is a means of communication.",
+          "id": "geo2-f5",
+          "front": "(2) In which Hemispheres is India situated?",
+          "back": "India is situated in both the Northern Hemisphere and the Eastern Hemisphere.",
           "order": 5
         },
         {
-          "id": "q6",
-          "qType": "true_false",
-          "question": "Brazil's time is ahead of India's time.",
-          "options": [
-            "True",
-            "False"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Brazil's time is behind India's time.",
+          "id": "geo2-f6",
+          "front": "(3) In which Hemispheres is Brazil situated?",
+          "back": "Brazil is situated in the Northern, Southern and Western Hemispheres.",
           "order": 6
         },
         {
-          "id": "q7",
-          "qType": "mcq",
-          "question": "How many time zones does Brazil have?",
-          "options": [
-            "One",
-            "Two",
-            "Three",
-            "Four"
-          ],
-          "correctAnswer": 3,
-          "explanation": "Brazil has four time zones.",
+          "id": "geo2-f7",
+          "front": "(4) The country Brazil is famous for which type of dance? (July ’23)",
+          "back": "The country Brazil is famous for Samba dance.",
           "order": 7
         },
         {
-          "id": "q8",
-          "qType": "fill_blank",
-          "sentence": "The Indian Standard Time is based on the ___ longitude.",
-          "wordBank": [
-            "82.5°E",
-            "0°",
-            "90°E",
-            "75°E"
-          ],
-          "correctWord": "82.5°E",
-          "options": [],
-          "correctAnswer": 0,
-          "explanation": "IST is based on 82.5°E longitude, which passes through Allahabad.",
+          "id": "geo2-f8",
+          "front": "(5) Brazil is mainly located in which hemisphere? (Nov. ’20)",
+          "back": "Brazil is mainly located in southern hemisphere.",
           "order": 8
+        },
+        {
+          "id": "geo2-f9",
+          "front": "(6) Which is the popular sport of Brazil? (March ’22)",
+          "back": "Football is the popular sport of Brazil.",
+          "order": 9
+        },
+        {
+          "id": "geo2-f10",
+          "front": "(7) Which country has a high proportion of young population? (July ’23)",
+          "back": "India has a high proportion of young population.",
+          "order": 10
+        },
+        {
+          "id": "geo2-f11",
+          "front": "(8) By which name is the southernmost point of India known?",
+          "back": "The southernmost point of India is known as Indira Point.",
+          "order": 11
+        },
+        {
+          "id": "geo2-f12",
+          "front": "(5) The proportion of youth in India’s population is high.",
+          "back": "(1) Right (2) Wrong (3) Wrong (4) Right (5) Right.",
+          "order": 12
         }
-      ]
+      ],
+      "quiz": []
+    },
+    {
+      "id": "geo-ch3",
+      "num": 3,
+      "title": "Physiography and Drainage",
+      "emoji": "⛰️",
+      "kind": "chapter",
+      "overview": {
+        "summary": "Chapter 3: Physiography and Drainage. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
+        "youWillLearn": [
+          "Chapter-wise practice for Physiography and Drainage.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
+        ]
+      },
+      "notes": [
+        {
+          "id": "geo3-n1",
+          "type": "heading",
+          "content": "Physiography and Drainage — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo3-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo3-n3",
+          "type": "markdown",
+          "title": "Choose the Correct Options",
+          "content": "(1) Brazil is covered mainly by  . (March ’19 – ’22)\n (a) highlands  (b) plains\n (c) mountainous region  (d) dissected hills\n(2) Like Brazil, India too has  . (July ’22)\n (a) high mountains (b) ancient plateau\n (c) west-flowing rivers (d) snow-capped mountains\n(3)  Amazon is a large river in the world. Near its mouth  .\n (Nov. ’20; Sept. ’21)\n (a) deltaic regions are found (b) no deltas are found\n (c) deposition of sediments occurs  (d) fishing is done"
+        },
+        {
+          "id": "geo3-n4",
+          "type": "qna",
+          "title": "(2) Physiographic divisions of India from north to south : Deccan Plateau – The Vindhyas – The Himalayas – The Northern Plains.",
+          "question": "(2) Physiographic divisions of India from north to south : Deccan Plateau – The Vindhyas – The Himalayas – The Northern Plains.",
+          "qnaAnswer": "(1)   Physiographic divisions of Brazil from northeast to\nsoutheast : Guyana Highlands – Amazon Plains –\nBrazilian Highlands – The Great Escarpment."
+        },
+        {
+          "id": "geo3-n5",
+          "type": "heading",
+          "content": "Identify the Correct Group"
+        },
+        {
+          "id": "geo3-n6",
+          "type": "markdown",
+          "title": "Identify the Correct Group",
+          "content": "(1) The rivers in India.\n (a) Yamuna, Ghaghara, Nigro\n (b) Uruguay, Ganga, Ravi.\n (c) Sutlej, Sabarmati, Narmada\n(2) The physiographic divisions of Brazil.\n (a)  Guyana Highlands, Amazon River Basin, The Great\nEscarpment\n (b) Brazilian Highlands, Himalayas, Northern Plains\n (c) Andaman Islands, Nicobar Islands, Guyana Highlands\n(3) These rivers of Brazil are north flowing : (July ’19)\n (a) Juruika, Xingu, Aragua\n (b) Negro, Branco, Paru\n (c) Japura, Jarua, Purus\nAns.\n(1) The rivers in India : (c) Sutlej, Sabarmati, Narmada.\n(2)  The physiographic divisions of Brazil : (a) Guyana Highlands,\nAmazon River Basin, The Great Escarpment.\n(3)  These rivers of Brazil are north flowing : (a) Juruika, Xingu,\nAragua."
+        },
+        {
+          "id": "geo3-n7",
+          "type": "heading",
+          "content": "Identify the Odd Man Out"
+        },
+        {
+          "id": "geo3-n8",
+          "type": "qna",
+          "title": "(3) Tributary of river Amazon. (March ’24) (a) Paru river (b) Purus river (c) Parana river (d) Juruika river",
+          "question": "(3) Tributary of river Amazon. (March ’24) (a) Paru river (b) Purus river (c) Parana river (d) Juruika river",
+          "qnaAnswer": "(1) – (d) : Ganga, (2) – (a) : Amapa, (3) – (c) : Parana river."
+        },
+        {
+          "id": "geo3-n9",
+          "type": "heading",
+          "content": "Identify the Incorrect Pair"
+        },
+        {
+          "id": "geo3-n10",
+          "type": "markdown",
+          "title": "Identify the Incorrect Pair",
+          "content": "Q.  (a) Himalayas – Major water divide of India\n (b) Daman – Union territory of India\n (c) Thar – Desert area of Brazil\n (d) Pantanal – Swampy land of Brazil\nAns.  Incorrect pair : (c) Thar – Desert area of Brazil."
+        },
+        {
+          "id": "geo3-n11",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo3-n12",
+          "type": "qna",
+          "title": "(1) Which is the highest peak in Brazil? (Nov. ’20)",
+          "question": "(1) Which is the highest peak in Brazil? (Nov. ’20)",
+          "qnaAnswer": "Pico de Neblina is the highest peak in Brazil.",
+          "important": true
+        },
+        {
+          "id": "geo3-n13",
+          "type": "qna",
+          "title": "(2) Which major river systems are included in Himalayan drainage?",
+          "question": "(2) Which major river systems are included in Himalayan drainage?",
+          "qnaAnswer": "Sindhu river system and Ganga river system are included\nin Himalayan drainage.",
+          "important": true
+        },
+        {
+          "id": "geo3-n14",
+          "type": "qna",
+          "title": "(3) From where does Ganga river originate?",
+          "question": "(3) From where does Ganga river originate?",
+          "qnaAnswer": "Ganga river originates at Bhagirathi (at Gangotri) from\nAlaknanda glacier.",
+          "important": true
+        },
+        {
+          "id": "geo3-n15",
+          "type": "qna",
+          "title": "(4) By which names is the desert region of Rajasthan known?",
+          "question": "(4) By which names is the desert region of Rajasthan known?",
+          "qnaAnswer": "The desert region of Rajasthan is known as ‘Thar desert’ or\n‘Marusthali’.",
+          "important": true
+        },
+        {
+          "id": "geo3-n16",
+          "type": "qna",
+          "title": "(5) Write the name of the largest delta of the world. (July ’23)",
+          "question": "(5) Write the name of the largest delta of the world. (July ’23)",
+          "qnaAnswer": "The name of the largest delta of the world is Sundarban.",
+          "important": true
+        },
+        {
+          "id": "geo3-n17",
+          "type": "qna",
+          "title": "(6) From where does Amazon river originate?",
+          "question": "(6) From where does Amazon river originate?",
+          "qnaAnswer": "Amazon river originates from the eastern slopes of Andes\nMountains in Peru.",
+          "important": true
+        },
+        {
+          "id": "geo3-n18",
+          "type": "qna",
+          "title": "(7) How many kilometres of a coastline does India have?",
+          "question": "(7) How many kilometres of a coastline does India have?",
+          "qnaAnswer": "India has a coastline of about 7500 kilometres.",
+          "important": true
+        },
+        {
+          "id": "geo3-n19",
+          "type": "qna",
+          "title": "(8) How many kilometres of a coastline does Brazil have?",
+          "question": "(8) How many kilometres of a coastline does Brazil have?",
+          "qnaAnswer": "Brazil has a coastline of about 7400 kilometres.",
+          "important": true
+        },
+        {
+          "id": "geo3-n20",
+          "type": "markdown",
+          "title": "Answer in One Sentence",
+          "content": "(1) Main tributaries of river Ganga : (1) Yamuna (2) Ramganga\n(3) Ghaghara (4) Gandak (5) Kosi.\n(2) Tributaries of river Ganga flowing from peninsular region\nof India : (1) Chambal (2) Ken (3) Betwa (4) Shon.\n(3) Tributaries of river Sindhu in India : (1) Sutlej (2) Beas\n(3) Ravi (4) Chenab (5) Jhelam.\n(4) Rivers flowing into the Gulf of Khambhat : (1) Tapi\n(2) Narmada (3) Mahi (4) Sabarmati."
+        },
+        {
+          "id": "geo3-n21",
+          "type": "heading",
+          "content": "Name the Following"
+        },
+        {
+          "id": "geo3-n22",
+          "type": "markdown",
+          "title": "Name the Following",
+          "content": "(1) The river Ganga originates from the Yamunotri glacier.\n (March ’19)\n(2) River Sutlej is a major tributary of river Indus.\n(Sept. ’21)\n(3) Sundarbans is the largest delta region in the world.\n(4) The slope of Punjab plains is towards east.\nSAY RIGHT OR WRONG"
+        },
+        {
+          "id": "geo3-n23",
+          "type": "heading",
+          "content": "Identify the Type"
+        },
+        {
+          "id": "geo3-n24",
+          "type": "markdown",
+          "title": "Identify the Type",
+          "content": "(2)  Western Coastal Region of India and Eastern Coastal\nRegion of India :\nWestern Coastal\nRegion of India\nEastern Coastal\nRegion of India\n1.  Western Coastal region of\nIndia borders the Arabian\nSea.\n1.  Eastern Coastal region of\nIndia borders the Bay of\nBengal.\n2.  Rivers form estuaries in the\nwestern coastal region of\nIndia.\n2.  Rivers form deltas in the\neastern coastal region of\nIndia."
+        },
+        {
+          "id": "geo3-n25",
+          "type": "heading",
+          "content": "Write Short Notes"
+        },
+        {
+          "id": "geo3-n26",
+          "type": "qna",
+          "title": "(6) Western coastal plain. (July ’22)",
+          "question": "(6) Western coastal plain. (July ’22)",
+          "qnaAnswer": "(1) The western coastal region of India borders the Arabian\nSea.",
+          "important": true
+        },
+        {
+          "id": "geo3-n27",
+          "type": "qna",
+          "title": "(7) The coasts of Brazil. (March ’23)",
+          "question": "(7) The coasts of Brazil. (March ’23)",
+          "qnaAnswer": "(1) The coastline of Brazil extends for approximately\n7400 km. It is divided into the northern coast and the eastern coast.",
+          "important": true
+        },
+        {
+          "id": "geo3-n28",
+          "type": "qna",
+          "title": "(8) Islands of Brazil.",
+          "question": "(8) Islands of Brazil.",
+          "qnaAnswer": "(1) Besides mainland, some islands are also included in\nBrazil. These islands are divided into the coastal islands and the\nmarine islands.",
+          "important": true
+        },
+        {
+          "id": "geo3-n29",
+          "type": "qna",
+          "title": "(9) The characteristics of the Western Ghats.",
+          "question": "(9) The characteristics of the Western Ghats.",
+          "qnaAnswer": "The characteristics of the Western Ghats are as follows :",
+          "important": true
+        },
+        {
+          "id": "geo3-n30",
+          "type": "heading",
+          "content": "Map Filling"
+        },
+        {
+          "id": "geo3-n31",
+          "type": "qna",
+          "title": "(1) Western Himalayas (2) Eastern Himalayas (3) Punjab-Haryana Plain (4) Thar Desert (5) Western Coastal Plains (6) Eastern Coastal Plains (7) Western Ghats.",
+          "question": "(1) Western Himalayas (2) Eastern Himalayas (3) Punjab-Haryana Plain (4) Thar Desert (5) Western Coastal Plains (6) Eastern Coastal Plains (7) Western Ghats.",
+          "qnaAnswer": "N\n0 200 400 600\nKilometres\nINDIA\n\nWestern Himalayas\nPunjab-Punjab-\nHaryanaHaryana\nPlainPlain\nThar DesertThar Desert\nWestern Ghats\nWestern Coastal Plains\nEastern Coastal Plains\nEastern\nHimalayas\nIndex :"
+        },
+        {
+          "id": "geo3-n32",
+          "type": "markdown",
+          "title": "Map Filling",
+          "content": "Q. 1. Observe/Study the following map and answer the\nfollowing questions :"
+        },
+        {
+          "id": "geo3-n33",
+          "type": "heading",
+          "content": "Give Geographical Reasons"
+        },
+        {
+          "id": "geo3-n34",
+          "type": "qna",
+          "title": "(4) (Most of the) Himalayan rivers are perennial in nature. (Sept. ’21; March ’25)",
+          "question": "(4) (Most of the) Himalayan rivers are perennial in nature. (Sept. ’21; March ’25)",
+          "qnaAnswer": "(1) Most of the Himalayan rivers originate in the snow\ncovered southern heights of the Himalayan range.",
+          "important": true
+        },
+        {
+          "id": "geo3-n35",
+          "type": "qna",
+          "title": "(5) There are fewer natural ports on the eastern coast of India. (March ’19; Nov. ’20; July ’22 – ’23)",
+          "question": "(5) There are fewer natural ports on the eastern coast of India. (March ’19; Nov. ’20; July ’22 – ’23)",
+          "qnaAnswer": "(1) The eastern coast of India is formed due to the\ndepositional work of eastward flowing rivers meeting the Bay of\nBengal.",
+          "important": true
+        },
+        {
+          "id": "geo3-n36",
+          "type": "qna",
+          "title": "(6) There are no west-flowing rivers in Brazil.",
+          "question": "(6) There are no west-flowing rivers in Brazil.",
+          "qnaAnswer": "(1) Most of the rivers in Brazil originate from the Brazilian\nHighlands.",
+          "important": true
+        },
+        {
+          "id": "geo3-n37",
+          "type": "qna",
+          "title": "(7) The western coast does not have vast extending plain lands.",
+          "question": "(7) The western coast does not have vast extending plain lands.",
+          "qnaAnswer": "(1) Barring the Gujarat coast, the western coast is mostly\na narrow strip of land between the Arabian Sea and the Western\nGhats. It does not have any vast plain. The Gujarat coast is relatively\nbroader, but it, too, has small and narrow coastal plains.",
+          "important": true
+        },
+        {
+          "id": "geo3-n38",
+          "type": "heading",
+          "content": "Answer the Following in Detail / Explain"
+        },
+        {
+          "id": "geo3-n39",
+          "type": "qna",
+          "title": "(11) (A) What are the five physical divisions of India? (B) Write in brief about the Indian Islands. (July ’19)",
+          "question": "(11) (A) What are the five physical divisions of India? (B) Write in brief about the Indian Islands. (July ’19)",
+          "qnaAnswer": "(A) Five major physiographic divisions of India are as\nfollows : (1) The Himalayas (2) The North Indian plains (3) The\nPeninsula (4) Coastal Plains (5) Island groups.\n(B) The Indian Islands :",
+          "important": true
+        },
+        {
+          "id": "geo3-n40",
+          "type": "qna",
+          "title": "(12) Explain the characteristics of the North Indian Plains. (March ’22)",
+          "question": "(12) Explain the characteristics of the North Indian Plains. (March ’22)",
+          "qnaAnswer": "The characteristics of the North Indian Plains are as follows :",
+          "important": true
+        },
+        {
+          "id": "geo3-n41",
+          "type": "qna",
+          "title": "(13) Explain the characteristics of the highlands of Brazil.",
+          "question": "(13) Explain the characteristics of the highlands of Brazil.",
+          "qnaAnswer": "The characteristics of the highlands of Brazil are as follows :",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "geo3-f1",
+          "front": "(2) Physiographic divisions of India from north to south : Deccan Plateau – The Vindhyas – The Himalayas – The Northern Plains.",
+          "back": "(1) Physiographic divisions of Brazil from northeast to southeast : Guyana Highlands – Amazon Plains – Brazilian Highlands – The Great Escarpment.",
+          "order": 1
+        },
+        {
+          "id": "geo3-f2",
+          "front": "(3) Tributary of river Amazon. (March ’24) (a) Paru river (b) Purus river (c) Parana river (d) Juruika river",
+          "back": "(1) – (d) : Ganga, (2) – (a) : Amapa, (3) – (c) : Parana river.",
+          "order": 2
+        },
+        {
+          "id": "geo3-f3",
+          "front": "(1) Which is the highest peak in Brazil? (Nov. ’20)",
+          "back": "Pico de Neblina is the highest peak in Brazil.",
+          "order": 3
+        },
+        {
+          "id": "geo3-f4",
+          "front": "(2) Which major river systems are included in Himalayan drainage?",
+          "back": "Sindhu river system and Ganga river system are included in Himalayan drainage.",
+          "order": 4
+        },
+        {
+          "id": "geo3-f5",
+          "front": "(3) From where does Ganga river originate?",
+          "back": "Ganga river originates at Bhagirathi (at Gangotri) from Alaknanda glacier.",
+          "order": 5
+        },
+        {
+          "id": "geo3-f6",
+          "front": "(4) By which names is the desert region of Rajasthan known?",
+          "back": "The desert region of Rajasthan is known as ‘Thar desert’ or ‘Marusthali’.",
+          "order": 6
+        },
+        {
+          "id": "geo3-f7",
+          "front": "(5) Write the name of the largest delta of the world. (July ’23)",
+          "back": "The name of the largest delta of the world is Sundarban.",
+          "order": 7
+        },
+        {
+          "id": "geo3-f8",
+          "front": "(6) From where does Amazon river originate?",
+          "back": "Amazon river originates from the eastern slopes of Andes Mountains in Peru.",
+          "order": 8
+        },
+        {
+          "id": "geo3-f9",
+          "front": "(7) How many kilometres of a coastline does India have?",
+          "back": "India has a coastline of about 7500 kilometres.",
+          "order": 9
+        },
+        {
+          "id": "geo3-f10",
+          "front": "(8) How many kilometres of a coastline does Brazil have?",
+          "back": "Brazil has a coastline of about 7400 kilometres.",
+          "order": 10
+        },
+        {
+          "id": "geo3-f11",
+          "front": "(6) Western coastal plain. (July ’22)",
+          "back": "(1) The western coastal region of India borders the Arabian Sea.",
+          "order": 11
+        },
+        {
+          "id": "geo3-f12",
+          "front": "(7) The coasts of Brazil. (March ’23)",
+          "back": "(1) The coastline of Brazil extends for approximately 7400 km. It is divided into the northern coast and the eastern coast.",
+          "order": 12
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "id": "geo-ch4",
+      "num": 4,
+      "title": "Climate",
+      "emoji": "🌦️",
+      "kind": "chapter",
+      "overview": {
+        "summary": "Chapter 4: Climate. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
+        "youWillLearn": [
+          "Chapter-wise practice for Climate.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
+        ]
+      },
+      "notes": [
+        {
+          "id": "geo4-n1",
+          "type": "heading",
+          "content": "Climate — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo4-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo4-n3",
+          "type": "qna",
+          "title": "(5) The Himalayas block the wind’s blowing from the north. (March ’25) (a) very cold (b) very hot (c) hot and dry (d) humid",
+          "question": "(5) The Himalayas block the wind’s blowing from the north. (March ’25) (a) very cold (b) very hot (c) hot and dry (d) humid",
+          "qnaAnswer": "(1) monsoon  (2) trade (eastern)   (3) windward side of the\nGreat Escarpment  (4) latitudinal (5) very cold."
+        },
+        {
+          "id": "geo4-n4",
+          "type": "heading",
+          "content": "Identify the Odd Man Out"
+        },
+        {
+          "id": "geo4-n5",
+          "type": "qna",
+          "title": "(2) State/Union Territory with low rainfall in India. (a) Gujarat (b) Rajasthan (c) Ladakh (d) Meghalaya",
+          "question": "(2) State/Union Territory with low rainfall in India. (a) Gujarat (b) Rajasthan (c) Ladakh (d) Meghalaya",
+          "qnaAnswer": "(1) – (a) : Western part of Rajasthan, (2) – (d) : Meghalaya."
+        },
+        {
+          "id": "geo4-n6",
+          "type": "heading",
+          "content": "Identify the Incorrect Pair"
+        },
+        {
+          "id": "geo4-n7",
+          "type": "markdown",
+          "title": "Identify the Incorrect Pair",
+          "content": "Q.  (a) Western Ghats – Region of low rainfall in India\n (b) Drought Quadrilateral – Rain shadow region in Brazil\n (c) Eastern Himalayas – Region of high rainfall in India\n (d) Amazon River Basin – Region of high rainfall in Brazil\nAns.  Incorrect pair :  (a) Western Ghats – Region of low rainfall\nin India."
+        },
+        {
+          "id": "geo4-n8",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo4-n9",
+          "type": "qna",
+          "title": "(1) What is rainshadow region in Brazil called? (March ’22)",
+          "question": "(1) What is rainshadow region in Brazil called? (March ’22)",
+          "qnaAnswer": "Rainshadow region in Brazil is called as ‘Drought\nQuadrilateral’.",
+          "important": true
+        },
+        {
+          "id": "geo4-n10",
+          "type": "heading",
+          "content": "Name the Following"
+        },
+        {
+          "id": "geo4-n11",
+          "type": "markdown",
+          "title": "Name the Following",
+          "content": "(1) States/Regions of high rainfall in India : (1) Western Ghats\n(2) Himalayas (3) Goa (4) Eastern Maharashtra.\n(2) States/Regions of high rainfall in Brazil : (1) Amazonas\n(2) Rio Grande do Sul.\n(3) States/Regions of moderate rainfall in India : (1) West\nBengal (2) Western Andhra Pradesh.\n(4) States/Regions of moderate rainfall in Brazil : (1) Santa\nCatarina (2) Roraima.\n(5) States/Regions of low rainfall in India : (1) Bihar\n(2) Western part of Rajasthan (3) Gujarat.\n(6) States/Regions of low rainfall in Brazil : (1) Tocantins\n(2) Pernambuco (3) Alagoas (4) Rio Grande Do Norte (5) Paraiba."
+        },
+        {
+          "id": "geo4-n12",
+          "type": "heading",
+          "content": "Say Right or Wrong"
+        },
+        {
+          "id": "geo4-n13",
+          "type": "qna",
+          "title": "(7) India and Brazil have the same seasons at the same time. (March ’25)",
+          "question": "(7) India and Brazil have the same seasons at the same time. (March ’25)",
+          "qnaAnswer": "(1) Right  (2)  Wrong (3) Right (4)  Wrong (5) Wrong"
+        },
+        {
+          "id": "geo4-n14",
+          "type": "heading",
+          "content": "Identify the Type"
+        },
+        {
+          "id": "geo4-n15",
+          "type": "qna",
+          "title": "(2) A type of rainfall that occurs in the equatorial region due to high temperature.",
+          "question": "(2) A type of rainfall that occurs in the equatorial region due to high temperature.",
+          "qnaAnswer": "(1) Retreating monsoon  (2) Convectional rainfall."
+        },
+        {
+          "id": "geo4-n16",
+          "type": "heading",
+          "content": "Write Short Notes"
+        },
+        {
+          "id": "geo4-n17",
+          "type": "qna",
+          "title": "(13) Retreating monsoon. (March ’24)",
+          "question": "(13) Retreating monsoon. (March ’24)",
+          "qnaAnswer": "(1) The southwest monsoon winds flowing from the\nmainland of India are obstructed by the Himalayan ranges in the\nnorth resulting their return journey backward towards the Indian\nOcean.",
+          "important": true
+        },
+        {
+          "id": "geo4-n18",
+          "type": "heading",
+          "content": "Map Reading"
+        },
+        {
+          "id": "geo4-n19",
+          "type": "qna",
+          "title": "(1) Considering the isotherms of Brazil, what is the average range of temperature in Brazil?",
+          "question": "(1) Considering the isotherms of Brazil, what is the average range of temperature in Brazil?",
+          "qnaAnswer": "The average range of temperature in Brazil is 18°C to 28°C."
+        },
+        {
+          "id": "geo4-n20",
+          "type": "qna",
+          "title": "(2) In which area does it rain more in Brazil?",
+          "question": "(2) In which area does it rain more in Brazil?",
+          "qnaAnswer": "It rains more in Amazon river basin in Brazil."
+        },
+        {
+          "id": "geo4-n21",
+          "type": "heading",
+          "content": "Give Geographical Reasons"
+        },
+        {
+          "id": "geo4-n22",
+          "type": "qna",
+          "title": "(8) India receives precipitation from the northeast monsoon winds too. (Nov. ’20; March ’23)",
+          "question": "(8) India receives precipitation from the northeast monsoon winds too. (Nov. ’20; March ’23)",
+          "qnaAnswer": "(1) India receives most of its precipitation from the\nsouthwest monsoon winds. These winds enter the mainland of India\nfrom the southern regions and gradually flow towards the northern\nregions of India.",
+          "important": true
+        },
+        {
+          "id": "geo4-n23",
+          "type": "qna",
+          "title": "(9) Snowfall doesn’t always occur in Brazil. (Nov. ’20)",
+          "question": "(9) Snowfall doesn’t always occur in Brazil. (Nov. ’20)",
+          "qnaAnswer": "For the answer, refer to Q.\n5  (2) of Solved Question P aper\nof July 2024 given on in Section 1 of this book.",
+          "important": true
+        },
+        {
+          "id": "geo4-n24",
+          "type": "heading",
+          "content": "Graph / Diagram Reading"
+        },
+        {
+          "id": "geo4-n25",
+          "type": "qna",
+          "title": "(1) In which month is the highest temperature found in all the four cities?",
+          "question": "(1) In which month is the highest temperature found in all the four cities?",
+          "qnaAnswer": "In Manaus, the highest temperature is found in the months\nfrom August to October, in Belem it is found in the months of June\nto December, in Porto Alegre it is found in the months of January\nand February and in Rio de Janeiro it is found in the month of\nFebruary."
+        },
+        {
+          "id": "geo4-n26",
+          "type": "qna",
+          "title": "(2) In which month does it rain the most in the given cities?",
+          "question": "(2) In which month does it rain the most in the given cities?",
+          "qnaAnswer": "In Manaus, it rains most in the month of March, in Belem\nit is in the month of March, in Porto Alegre it is in the months of\nAugust and September and in Rio de Janeiro it is in the months of\nJanuary and March."
+        },
+        {
+          "id": "geo4-n27",
+          "type": "qna",
+          "title": "(3) When does Brazil have its rainy season?",
+          "question": "(3) When does Brazil have its rainy season?",
+          "qnaAnswer": "Brazil has its rainy season from September to November as\nwell as from March to May."
+        },
+        {
+          "id": "geo4-n28",
+          "type": "qna",
+          "title": "(4) Which city has the maximum range of temperature? How much is it?",
+          "question": "(4) Which city has the maximum range of temperature? How much is it?",
+          "qnaAnswer": "Manaus has the maximum range of temperature. It is nearly\nfrom 23°C (minimum temperature) to 33°C (maximum temperature)."
+        },
+        {
+          "id": "geo4-n29",
+          "type": "qna",
+          "title": "(5) How much temperature is found in Porto Alegre in the month of June?",
+          "question": "(5) How much temperature is found in Porto Alegre in the month of June?",
+          "qnaAnswer": "Nearly 10°C temperature is found in Porto Alegre in the\nmonth of June."
+        },
+        {
+          "id": "geo4-n30",
+          "type": "qna",
+          "title": "(6) What type of climate will be found in Rio de Janeiro?",
+          "question": "(6) What type of climate will be found in Rio de Janeiro?",
+          "qnaAnswer": "Humid and moderate type of climate will be found in\nRio de Janeiro."
+        },
+        {
+          "id": "geo4-n31",
+          "type": "heading",
+          "content": "Answer the Following in Detail / Explain"
+        },
+        {
+          "id": "geo4-n32",
+          "type": "qna",
+          "title": "(16) Explain the importance of Himalayas and the Indian Ocean with respect to the climate of India. (Sept. ’21)",
+          "question": "(16) Explain the importance of Himalayas and the Indian Ocean with respect to the climate of India. (Sept. ’21)",
+          "qnaAnswer": "The importance of Himalayas and the Indian Ocean with\nrespect to the climate of India can be explained as follows :",
+          "important": true
+        },
+        {
+          "id": "geo4-n33",
+          "type": "qna",
+          "title": "(17) Compare the climates of Brazil and India. (July ’19; March ’22)",
+          "question": "(17) Compare the climates of Brazil and India. (July ’19; March ’22)",
+          "qnaAnswer": "The climates of Brazil and India can be compared with the\nhelp of the following points :",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "geo4-f1",
+          "front": "(5) The Himalayas block the wind’s blowing from the north. (March ’25) (a) very cold (b) very hot (c) hot and dry (d) humid",
+          "back": "(1) monsoon (2) trade (eastern) (3) windward side of the Great Escarpment (4) latitudinal (5) very cold.",
+          "order": 1
+        },
+        {
+          "id": "geo4-f2",
+          "front": "(2) State/Union Territory with low rainfall in India. (a) Gujarat (b) Rajasthan (c) Ladakh (d) Meghalaya",
+          "back": "(1) – (a) : Western part of Rajasthan, (2) – (d) : Meghalaya.",
+          "order": 2
+        },
+        {
+          "id": "geo4-f3",
+          "front": "(1) What is rainshadow region in Brazil called? (March ’22)",
+          "back": "Rainshadow region in Brazil is called as ‘Drought Quadrilateral’.",
+          "order": 3
+        },
+        {
+          "id": "geo4-f4",
+          "front": "(7) India and Brazil have the same seasons at the same time. (March ’25)",
+          "back": "(1) Right (2) Wrong (3) Right (4) Wrong (5) Wrong",
+          "order": 4
+        },
+        {
+          "id": "geo4-f5",
+          "front": "(2) A type of rainfall that occurs in the equatorial region due to high temperature.",
+          "back": "(1) Retreating monsoon (2) Convectional rainfall.",
+          "order": 5
+        },
+        {
+          "id": "geo4-f6",
+          "front": "(13) Retreating monsoon. (March ’24)",
+          "back": "(1) The southwest monsoon winds flowing from the mainland of India are obstructed by the Himalayan ranges in the north resulting their return journey backward towards the Indian Ocean.",
+          "order": 6
+        },
+        {
+          "id": "geo4-f7",
+          "front": "(1) Considering the isotherms of Brazil, what is the average range of temperature in Brazil?",
+          "back": "The average range of temperature in Brazil is 18°C to 28°C.",
+          "order": 7
+        },
+        {
+          "id": "geo4-f8",
+          "front": "(2) In which area does it rain more in Brazil?",
+          "back": "It rains more in Amazon river basin in Brazil.",
+          "order": 8
+        },
+        {
+          "id": "geo4-f9",
+          "front": "(8) India receives precipitation from the northeast monsoon winds too. (Nov. ’20; March ’23)",
+          "back": "(1) India receives most of its precipitation from the southwest monsoon winds. These winds enter the mainland of India from the southern regions and gradually flow towards the northern regions of India.",
+          "order": 9
+        },
+        {
+          "id": "geo4-f10",
+          "front": "(9) Snowfall doesn’t always occur in Brazil. (Nov. ’20)",
+          "back": "For the answer, refer to Q. 5 (2) of Solved Question P aper of July 2024 given on in Section 1 of this book.",
+          "order": 10
+        },
+        {
+          "id": "geo4-f11",
+          "front": "(1) In which month is the highest temperature found in all the four cities?",
+          "back": "In Manaus, the highest temperature is found in the months from August to October, in Belem it is found in the months of June to December, in Porto Alegre it is found in the months of January and February and in Rio de Janeiro it is found in the month of February.",
+          "order": 11
+        },
+        {
+          "id": "geo4-f12",
+          "front": "(2) In which month does it rain the most in the given cities?",
+          "back": "In Manaus, it rains most in the month of March, in Belem it is in the month of March, in Porto Alegre it is in the months of August and September and in Rio de Janeiro it is in the months of January and March.",
+          "order": 12
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "id": "geo-ch5",
+      "num": 5,
+      "title": "Natural Vegetation and Wildlife",
+      "emoji": "🌳",
+      "kind": "chapter",
+      "overview": {
+        "summary": "Chapter 5: Natural Vegetation and Wildlife. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
+        "youWillLearn": [
+          "Chapter-wise practice for Natural Vegetation and Wildlife.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
+        ]
+      },
+      "notes": [
+        {
+          "id": "geo5-n1",
+          "type": "heading",
+          "content": "Natural Vegetation and Wildlife — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo5-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo5-n3",
+          "type": "qna",
+          "title": "(7) In the swampy and marshy lands of Assam, are found. (July ’23) (a) Anaconda (b) one-horned rhinoceroses (c) Macow (d) wild ass",
+          "question": "(7) In the swampy and marshy lands of Assam, are found. (July ’23) (a) Anaconda (b) one-horned rhinoceroses (c) Macow (d) wild ass",
+          "qnaAnswer": "(1) deciduous (2) lungs of the world (3) Anacondas (4) Teak"
+        },
+        {
+          "id": "geo5-n4",
+          "type": "heading",
+          "content": "Identify the Odd Man Out"
+        },
+        {
+          "id": "geo5-n5",
+          "type": "qna",
+          "title": "(3) Animals found in the Peninsular region of India. (March ’24) (a) Indian Bisons (b) Deer (c) Antelopes (d) Yaks",
+          "question": "(3) Animals found in the Peninsular region of India. (March ’24) (a) Indian Bisons (b) Deer (c) Antelopes (d) Yaks",
+          "qnaAnswer": "(1) – (c) : The Himalayan forests,  (2) – (c) : Orchid,"
+        },
+        {
+          "id": "geo5-n6",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo5-n7",
+          "type": "qna",
+          "title": "(1) Which is the national animal of India?",
+          "question": "(1) Which is the national animal of India?",
+          "qnaAnswer": "Tiger is the national animal of India.",
+          "important": true
+        },
+        {
+          "id": "geo5-n8",
+          "type": "qna",
+          "title": "(2) For which animal is the state of West Bengal famous?",
+          "question": "(2) For which animal is the state of West Bengal famous?",
+          "qnaAnswer": "The state of West Bengal is famous for tiger.",
+          "important": true
+        },
+        {
+          "id": "geo5-n9",
+          "type": "qna",
+          "title": "(3) Which region of Brazil receives rainfall throughout the year?",
+          "question": "(3) Which region of Brazil receives rainfall throughout the year?",
+          "qnaAnswer": "Equatorial region of Brazil receives rainfall throughout the\nyear.",
+          "important": true
+        },
+        {
+          "id": "geo5-n10",
+          "type": "qna",
+          "title": "(4) By which name are the rainforests in Brazil known as?",
+          "question": "(4) By which name are the rainforests in Brazil known as?",
+          "qnaAnswer": "Rainforests in Brazil are known as ‘lungs of the world’.",
+          "important": true
+        },
+        {
+          "id": "geo5-n11",
+          "type": "heading",
+          "content": "Name the Following"
+        },
+        {
+          "id": "geo5-n12",
+          "type": "markdown",
+          "title": "Name the Following",
+          "content": "(1) Trees found in evergreen forests in India : (1) Mahogany\n(2) Rosewood (3) Rubber (4) Sandalwood, etc.\n(2) Trees found in deciduous forests in India : (1) Teak\n(2) Bamboo (3) Banyan (4) Peepal, etc.\n(3) Thorny and shrub-type vegetation found in India :\n(1) Catechu (2) Acacia (3) Khejri (4) Aloe vera (5) Agave, etc.\n(4) Trees found in Himalayan forests located at medium\naltitude : (1) Pine (2) Deodar (3) Fir (4) Spruce, etc.\n(5) Trees found in Brazil : (1) Pau Brasil (2) Rubber\n(3) Mahogany (4) Rosewood (5) Orchids, etc.\n(6) Animals found in India : (1) Elephants (2) One-horned\nrhinoceroses (3) Wild ass (4) Camel (5) Snow leopard (6) Yaks\n(7) Indian bison (8) Deer (9) Antelopes (10) Tigers (11) Lions\n(12) Monkeys (13) Turtles (14) Crocodiles (15) Gharials, etc.\n(7) Birds found in India : (1) Peacocks (2) Indian bustard\n(3) Kingfishers (4) Peasants (5) Ducks (6) Parakeets (7) Cranes\n(8) Pigeons, etc.\n(8) States/Regions of tropical forests in India : (1) Andaman\nand Nicobar islands (2) Western Ghats (3) Assam."
+        },
+        {
+          "id": "geo5-n13",
+          "type": "heading",
+          "content": "Say Right or Wrong"
+        },
+        {
+          "id": "geo5-n14",
+          "type": "qna",
+          "title": "(2) Brazil is the only country in the world where both tigers and lions are found. (March ’25)",
+          "question": "(2) Brazil is the only country in the world where both tigers and lions are found. (March ’25)",
+          "qnaAnswer": "(1) Wrong  (2)  Wrong."
+        },
+        {
+          "id": "geo5-n15",
+          "type": "heading",
+          "content": "Identify the Type"
+        },
+        {
+          "id": "geo5-n16",
+          "type": "qna",
+          "title": "(2) A type of agriculture in Brazil resulting into loss of shelter for animals.",
+          "question": "(2) A type of agriculture in Brazil resulting into loss of shelter for animals.",
+          "qnaAnswer": "(1) Evergreen forests  (2) Roka."
+        },
+        {
+          "id": "geo5-n17",
+          "type": "heading",
+          "content": "Differentiate Between"
+        },
+        {
+          "id": "geo5-n18",
+          "type": "markdown",
+          "title": "Differentiate Between",
+          "content": "(5) Forest Types of India and Forest Types of Brazil :\nForest Types of India Forest Types of Brazil\n1.  The location of India is\nfar away from equator.\nTherefore, the tropical\nevergreen forests are not\nseen in India.\n1.  The northern region near\nequator in Brazil receives\nabundant sunshine and\nheavy rainfall. Therefore,\nthe tropical evergreen\nforests are seen in northern\npart of Brazil.\n2.  Himalayan forests are\nfound in northern part and\nsnow covered mountainous\nregions in India.\n2.  No snow covered\nmountainous regions are\nfound in Brazil. Therefore,\nthe Himalayan forests that\nare seen in India are not\nseen in Brazil."
+        },
+        {
+          "id": "geo5-n19",
+          "type": "heading",
+          "content": "Write Short Notes"
+        },
+        {
+          "id": "geo5-n20",
+          "type": "qna",
+          "title": "(14) The evergreen forests in India.",
+          "question": "(14) The evergreen forests in India.",
+          "qnaAnswer": "(1) The evergreen forests in India are found in the regions\nreceiving abundant sunlight and annual average rainfall more than\n2000 mm. These forests are found in the Andaman and Nicobar\nIslands, the Western Ghats, the coastline of peninsular India and\nthe Assam region in the north-east.",
+          "important": true
+        },
+        {
+          "id": "geo5-n21",
+          "type": "qna",
+          "title": "(15) Wildlife in India.",
+          "question": "(15) Wildlife in India.",
+          "qnaAnswer": "(1) India is gifted with rich and diversified wildlife. India is\nthe only country in the world that has tigers as well as lions.",
+          "important": true
+        },
+        {
+          "id": "geo5-n22",
+          "type": "heading",
+          "content": "Map Filling"
+        },
+        {
+          "id": "geo5-n23",
+          "type": "qna",
+          "title": "(4) Pink Dolphins (5) Region where Anacondas are found in Brazil. (July ’19) (6) Pampas Grasslands (July ’19; Nov. ’20) /Pampas (March ’24 – ’25) (7) Region of thorny shrubs (Nov. ",
+          "question": "(4) Pink Dolphins (5) Region where Anacondas are found in Brazil. (July ’19) (6) Pampas Grasslands (July ’19; Nov. ’20) /Pampas (March ’24 – ’25) (7) Region of thorny shrubs (Nov. ’20).",
+          "qnaAnswer": "N\n\nCondor\nGolden\nLion – Tamarin\nAnaconda\nRegion of Region of\nthorny shrubsthorny shrubs\nPantanal\nAnacondaAnaconda\nPink DolphinsPink Dolphins\nPampasPampas\n0 200 400 600 800\nKilometres\nBRAZIL\nIndex :"
+        },
+        {
+          "id": "geo5-n24",
+          "type": "heading",
+          "content": "Map Reading"
+        },
+        {
+          "id": "geo5-n25",
+          "type": "qna",
+          "title": "(1) Which forests are found in western coastal regions?",
+          "question": "(1) Which forests are found in western coastal regions?",
+          "qnaAnswer": "Evergreen forests are found in western coastal regions."
+        },
+        {
+          "id": "geo5-n26",
+          "type": "qna",
+          "title": "(2) On which coast do you mainly find the coastal vegetation?",
+          "question": "(2) On which coast do you mainly find the coastal vegetation?",
+          "qnaAnswer": "The coastal vegetation is mainly found on the eastern coast."
+        },
+        {
+          "id": "geo5-n27",
+          "type": "qna",
+          "title": "(3) In which state is the cold desert region located?",
+          "question": "(3) In which state is the cold desert region located?",
+          "qnaAnswer": "The cold desert region is located in the state of Jammu and\nKashmir."
+        },
+        {
+          "id": "geo5-n28",
+          "type": "qna",
+          "title": "(4) In which state is the hot desert region located?",
+          "question": "(4) In which state is the hot desert region located?",
+          "qnaAnswer": "The hot desert region is located in the state of Rajasthan."
+        },
+        {
+          "id": "geo5-n29",
+          "type": "qna",
+          "title": "(5) Which forests are found in the state of Kerala?",
+          "question": "(5) Which forests are found in the state of Kerala?",
+          "qnaAnswer": "Evergreen forests are found in the state of Kerala.\nQ. 7. Study the Figure 5.4 given on page 34 of the textbook\nand answer the following questions : (March ’22)"
+        },
+        {
+          "id": "geo5-n30",
+          "type": "qna",
+          "title": "(1) Name any two forests in Brazil.",
+          "question": "(1) Name any two forests in Brazil.",
+          "qnaAnswer": "The names of two forests in Brazil are Equatorial forests\nand Hot Deciduous forests."
+        },
+        {
+          "id": "geo5-n31",
+          "type": "qna",
+          "title": "(2) Name the Island shown in the map.",
+          "question": "(2) Name the Island shown in the map.",
+          "qnaAnswer": "The name of the island shown in the map is Marajo Island."
+        },
+        {
+          "id": "geo5-n32",
+          "type": "qna",
+          "title": "(3) In which place do you find crocodiles?",
+          "question": "(3) In which place do you find crocodiles?",
+          "qnaAnswer": "Crocodiles are found in Pantanal region."
+        },
+        {
+          "id": "geo5-n33",
+          "type": "qna",
+          "title": "(4) Where are Tamarin found in Brazil?",
+          "question": "(4) Where are Tamarin found in Brazil?",
+          "qnaAnswer": "Tamarin are found in Amazon river basin in Brazil."
+        },
+        {
+          "id": "geo5-n34",
+          "type": "qna",
+          "title": "(5) Name the grassland to the southernmost part of Brazil.",
+          "question": "(5) Name the grassland to the southernmost part of Brazil.",
+          "qnaAnswer": "The name of the grassland to the southernmost part of\nBrazil is Pampas.\nQ. 8. Study the Figure 5.4 given on page 34 of the textbook\nand answer the following questions :"
+        },
+        {
+          "id": "geo5-n35",
+          "type": "qna",
+          "title": "(1) In which part are condors found in Brazil?",
+          "question": "(1) In which part are condors found in Brazil?",
+          "qnaAnswer": "Condors are found in the northern part of Brazil."
+        },
+        {
+          "id": "geo5-n36",
+          "type": "heading",
+          "content": "Give Geographical Reasons"
+        },
+        {
+          "id": "geo5-n37",
+          "type": "qna",
+          "title": "(12) Vegetation is scarce in the high altitude of Himalayas. (March ’23 – ’24)",
+          "question": "(12) Vegetation is scarce in the high altitude of Himalayas. (March ’23 – ’24)",
+          "qnaAnswer": "(1) The temperature at high altitude of Himalayas is almost\n0°C throughout the year. The area is almost snow covered for most\nof the days in year.",
+          "important": true
+        },
+        {
+          "id": "geo5-n38",
+          "type": "qna",
+          "title": "(13) The northern part of Brazil is covered by dense forests. (July ’19)",
+          "question": "(13) The northern part of Brazil is covered by dense forests. (July ’19)",
+          "qnaAnswer": "(1) The amount of annual average rainfall is nearly\n2000 mm in the northern part of Brazil. The annual average\ntemperature of this region is about 28°C.",
+          "important": true
+        },
+        {
+          "id": "geo5-n39",
+          "type": "qna",
+          "title": "(14) Deciduous type of vegetation are found in India. (March ’22)",
+          "question": "(14) Deciduous type of vegetation are found in India. (March ’22)",
+          "qnaAnswer": "(1) Deciduous forests are found in the regions receiving\nrainfall between 1000 mm and 2000 mm.",
+          "important": true
+        },
+        {
+          "id": "geo5-n40",
+          "type": "qna",
+          "title": "(15) Rainforests in Brazil are called the ‘lungs of the world’. (July ’22) OR The evergreen rainforests in Brazil are called the ‘lungs of the world’. (March ’19; Sept. ’21)",
+          "question": "(15) Rainforests in Brazil are called the ‘lungs of the world’. (July ’22) OR The evergreen rainforests in Brazil are called the ‘lungs of the world’. (March ’19; Sept. ’21)",
+          "qnaAnswer": "(1) Rainforests are seen in the northern regions near the\nequator in Brazil.",
+          "important": true
+        },
+        {
+          "id": "geo5-n41",
+          "type": "qna",
+          "title": "(16) A wide variety of species of insects is found in Brazil.",
+          "question": "(16) A wide variety of species of insects is found in Brazil.",
+          "qnaAnswer": "(1) Insects are mostly found in forests, grasslands and\nswampy lands.",
+          "important": true
+        },
+        {
+          "id": "geo5-n42",
+          "type": "heading",
+          "content": "Answer the Following in Detail / Explain"
+        },
+        {
+          "id": "geo5-n43",
+          "type": "qna",
+          "title": "(23) What are the major causes of degradation of forests in Brazil and India? (Nov. ’20)",
+          "question": "(23) What are the major causes of degradation of forests in Brazil and India? (Nov. ’20)",
+          "qnaAnswer": "For the answer, refer to Q. 7  (3) of Solved Question P aper\nof July 2024 given in Section 1 of this book.",
+          "important": true
+        },
+        {
+          "id": "geo5-n44",
+          "type": "qna",
+          "title": "(24) What environmental issues are faced by Brazil and India? (March ’25)",
+          "question": "(24) What environmental issues are faced by Brazil and India? (March ’25)",
+          "qnaAnswer": "The following environmental issues are faced by Brazil and\nIndia :",
+          "important": true
+        },
+        {
+          "id": "geo5-n45",
+          "type": "qna",
+          "title": "(25) Correlate wildlife and natural vegetation in India and Brazil.",
+          "question": "(25) Correlate wildlife and natural vegetation in India and Brazil.",
+          "qnaAnswer": "(1) Natural vegetation is food of grazers/herbivores and\nmany birds. Grazers/Herbivores are the food of carnivores.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "geo5-f1",
+          "front": "(7) In the swampy and marshy lands of Assam, are found. (July ’23) (a) Anaconda (b) one-horned rhinoceroses (c) Macow (d) wild ass",
+          "back": "(1) deciduous (2) lungs of the world (3) Anacondas (4) Teak",
+          "order": 1
+        },
+        {
+          "id": "geo5-f2",
+          "front": "(3) Animals found in the Peninsular region of India. (March ’24) (a) Indian Bisons (b) Deer (c) Antelopes (d) Yaks",
+          "back": "(1) – (c) : The Himalayan forests, (2) – (c) : Orchid,",
+          "order": 2
+        },
+        {
+          "id": "geo5-f3",
+          "front": "(1) Which is the national animal of India?",
+          "back": "Tiger is the national animal of India.",
+          "order": 3
+        },
+        {
+          "id": "geo5-f4",
+          "front": "(2) For which animal is the state of West Bengal famous?",
+          "back": "The state of West Bengal is famous for tiger.",
+          "order": 4
+        },
+        {
+          "id": "geo5-f5",
+          "front": "(3) Which region of Brazil receives rainfall throughout the year?",
+          "back": "Equatorial region of Brazil receives rainfall throughout the year.",
+          "order": 5
+        },
+        {
+          "id": "geo5-f6",
+          "front": "(4) By which name are the rainforests in Brazil known as?",
+          "back": "Rainforests in Brazil are known as ‘lungs of the world’.",
+          "order": 6
+        },
+        {
+          "id": "geo5-f7",
+          "front": "(2) Brazil is the only country in the world where both tigers and lions are found. (March ’25)",
+          "back": "(1) Wrong (2) Wrong.",
+          "order": 7
+        },
+        {
+          "id": "geo5-f8",
+          "front": "(2) A type of agriculture in Brazil resulting into loss of shelter for animals.",
+          "back": "(1) Evergreen forests (2) Roka.",
+          "order": 8
+        },
+        {
+          "id": "geo5-f9",
+          "front": "(14) The evergreen forests in India.",
+          "back": "(1) The evergreen forests in India are found in the regions receiving abundant sunlight and annual average rainfall more than 2000 mm. These forests are found in the Andaman and Nicobar Islands, the Western Ghats, the coastline of peninsular India and the Assam region in the north-east.",
+          "order": 9
+        },
+        {
+          "id": "geo5-f10",
+          "front": "(15) Wildlife in India.",
+          "back": "(1) India is gifted with rich and diversified wildlife. India is the only country in the world that has tigers as well as lions.",
+          "order": 10
+        },
+        {
+          "id": "geo5-f11",
+          "front": "(1) Which forests are found in western coastal regions?",
+          "back": "Evergreen forests are found in western coastal regions.",
+          "order": 11
+        },
+        {
+          "id": "geo5-f12",
+          "front": "(2) On which coast do you mainly find the coastal vegetation?",
+          "back": "The coastal vegetation is mainly found on the eastern coast.",
+          "order": 12
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "id": "geo-ch6",
+      "num": 6,
+      "title": "Population",
+      "emoji": "👥",
+      "kind": "chapter",
+      "overview": {
+        "summary": "Chapter 6: Population. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
+        "youWillLearn": [
+          "Chapter-wise practice for Population.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
+        ]
+      },
+      "notes": [
+        {
+          "id": "geo6-n1",
+          "type": "heading",
+          "content": "Population — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo6-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo6-n3",
+          "type": "markdown",
+          "title": "Choose the Correct Options",
+          "content": "(1)  Sex ratio means the number of females per\nmales in a region. (July ’19)\n (a) hundred  (b) lakh  (c) thousand  (d) million\n(2)  Populationwise, India is\n largest country in the\nworld.  (Nov. ’20)\n (a) first     (b) fifth     (c) seventh     (d) second"
+        },
+        {
+          "id": "geo6-n4",
+          "type": "heading",
+          "content": "Identify the Odd Man Out"
+        },
+        {
+          "id": "geo6-n5",
+          "type": "qna",
+          "title": "(2) Sparsely populated states in India. (a) Uttar Pradesh (b) Himachal Pradesh (c) Uttarakhand (d) Arunachal Pradesh",
+          "question": "(2) Sparsely populated states in India. (a) Uttar Pradesh (b) Himachal Pradesh (c) Uttarakhand (d) Arunachal Pradesh",
+          "qnaAnswer": "(1) – (b) : Lack of roads, (2) – (a) : Uttar Pradesh."
+        },
+        {
+          "id": "geo6-n6",
+          "type": "heading",
+          "content": "Arrange the Sentences"
+        },
+        {
+          "id": "geo6-n7",
+          "type": "qna",
+          "title": "(4) Plains in India (a) Comparatively broader (i) Young fold mountains (b) Fertile soil (ii) Deltas (c) Comparatively narrower (iii) Development of agriculture (d) Himalayas (iv) E",
+          "question": "(4) Plains in India (a) Comparatively broader (i) Young fold mountains (b) Fertile soil (ii) Deltas (c) Comparatively narrower (iii) Development of agriculture (d) Himalayas (iv) Estuaries",
+          "qnaAnswer": "(1) Western coastal region of India – Comparatively narrower\n– Estuaries (2) Eastern coastal region of India – Comparatively\nbroader – Deltas (3) Mountainous region of India – Himalayas –\nYoung fold mountains (4) Plains in India – Fertile soil – Development\nof agriculture."
+        },
+        {
+          "id": "geo6-n8",
+          "type": "qna",
+          "title": "(4) Cash crop in India (d) Manganese (iv) Southeastern coastal region",
+          "question": "(4) Cash crop in India (d) Manganese (iv) Southeastern coastal region",
+          "qnaAnswer": "(1) Food crop in Brazil – Corn – Central part (2) Cash\ncrop in Brazil – Cacao – Southeastern coastal region (3) Mineral\nproduct in Brazil – Manganese – Southeastern region (4) Cash crop\nin India – Tea – Southern region."
+        },
+        {
+          "id": "geo6-n9",
+          "type": "heading",
+          "content": "Identify the Incorrect Pair"
+        },
+        {
+          "id": "geo6-n10",
+          "type": "markdown",
+          "title": "Identify the Incorrect Pair",
+          "content": "Q.  (a) Country with higher proportion of old people – Brazil\n (b) Sparsely populated state in India – Uttar Pradesh\n (c)  Densely populated region of Brazil – Southeastern\ncoastal region\n (d) Country with higher population of youth – India\nAns.  Incorrect pair : (b) Sparsely populated state in India – Uttar\nPradesh."
+        },
+        {
+          "id": "geo6-n11",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo6-n12",
+          "type": "qna",
+          "title": "(1) What is sex ratio? (Nov. ’20)",
+          "question": "(1) What is sex ratio? (Nov. ’20)",
+          "qnaAnswer": "Sex ratio is the number of females per 1000 males in\npopulation.",
+          "important": true
+        },
+        {
+          "id": "geo6-n13",
+          "type": "qna",
+          "title": "(2) What is average life expectancy?",
+          "question": "(2) What is average life expectancy?",
+          "qnaAnswer": "Average life expectancy is the number of years a person\ncould expect to live since its birth.",
+          "important": true
+        },
+        {
+          "id": "geo6-n14",
+          "type": "qna",
+          "title": "(3) How many per cent of the world’s total land is occupied by India?",
+          "question": "(3) How many per cent of the world’s total land is occupied by India?",
+          "qnaAnswer": "Nearly 2.41 per cent of the world’s total land is occupied\nby India.",
+          "important": true
+        },
+        {
+          "id": "geo6-n15",
+          "type": "qna",
+          "title": "(4) How many per cent of the world’s total population is in India?",
+          "question": "(4) How many per cent of the world’s total population is in India?",
+          "qnaAnswer": "Nearly 17.5 per cent of the world’s total population is in\nIndia.",
+          "important": true
+        },
+        {
+          "id": "geo6-n16",
+          "type": "heading",
+          "content": "Name the Following"
+        },
+        {
+          "id": "geo6-n17",
+          "type": "markdown",
+          "title": "Name the Following",
+          "content": "(1) Densely populated cities in India : (1) Mumbai (2) Pune\n(3) Chennai (4) Kolkata (5) Delhi (6) Bengaluru, etc.\n(2) Sparsely populated states in Brazil : (1) Roraima\n(2) Amazonas (3) Amapa (4) Acre, etc.\n(3) Densely populated states in Brazil : (1) Sao Paulo (2) Rio\nde Janeiro (3) Parana (4) Santa Catarina, etc.\n(4) Densely populated states in India : (1) Uttar Pradesh\n(2) Bihar (3) West Bengal (4) Kerala (5) Tamil Nadu, etc.\n(5) Sparsely populated states in India : (1) Jammu and\nKashmir (2) Himachal Pradesh (3) Uttarakhand (4) Arunachal\nPradesh."
+        },
+        {
+          "id": "geo6-n18",
+          "type": "heading",
+          "content": "Say Right or Wrong"
+        },
+        {
+          "id": "geo6-n19",
+          "type": "qna",
+          "title": "(8) Acre state of Brazil is sparsely populated.",
+          "question": "(8) Acre state of Brazil is sparsely populated.",
+          "qnaAnswer": "(1) Wrong  (2)  Right  (3) Right  (4)  Right  (5) Wrong"
+        },
+        {
+          "id": "geo6-n20",
+          "type": "heading",
+          "content": "Differentiate Between"
+        },
+        {
+          "id": "geo6-n21",
+          "type": "markdown",
+          "title": "Differentiate Between",
+          "content": "(6) Sex Ratio of India and Sex Ratio of Brazil :\nSex Ratio of India Sex Ratio of Brazil\n1.  Sex ratio of India is\nunfavourable for females.\n1.  Sex ratio of Brazil is\nfavourable for females.\n2.  In 2011, the sex ratio in\nIndia was 947 only.\n2.  In 2011, the sex ratio in\nBrazil was 1090."
+        },
+        {
+          "id": "geo6-n22",
+          "type": "heading",
+          "content": "Write Short Notes"
+        },
+        {
+          "id": "geo6-n23",
+          "type": "qna",
+          "title": "(18) Census in India.",
+          "question": "(18) Census in India.",
+          "qnaAnswer": "(1) In India, Census is conducted by the institute of Census\nof India once every ten years.",
+          "important": true
+        },
+        {
+          "id": "geo6-n24",
+          "type": "qna",
+          "title": "(19) Census in Brazil.",
+          "question": "(19) Census in Brazil.",
+          "qnaAnswer": "(1) In Brazil, Census is conducted by the institute of\nBrazilian Institute of Geography and Statistics once every ten years.",
+          "important": true
+        },
+        {
+          "id": "geo6-n25",
+          "type": "heading",
+          "content": "Map Filling"
+        },
+        {
+          "id": "geo6-n26",
+          "type": "qna",
+          "title": "(1) West Bengal (2) Kerala (3) Bihar. (D) State with highest sex ratio. (July ’22) (E) Any one southern state with high density of population. (March ’22) (F) Region to the north h",
+          "question": "(1) West Bengal (2) Kerala (3) Bihar. (D) State with highest sex ratio. (July ’22) (E) Any one southern state with high density of population. (March ’22) (F) Region to the north having high density of population. (March ’23)",
+          "qnaAnswer": "N\n0 200 400 600\nKilometres\nINDIA\nLadakhJammu Jammu\nand and\nKashmirKashmir\nBiharBihar\nWest West\nBengalBengal\nPunjabPunjab\nUttar PradeshUttar Pradesh\nMaharashtraMaharashtra\nKarnatakaKarnataka\nKeralaKerala\nArunachal Pradesh\nNagalandNagaland\nIndex :\nStates and Union territories with low density\nof population : (1) Jammu and Kashmir"
+        },
+        {
+          "id": "geo6-n27",
+          "type": "heading",
+          "content": "Map Reading"
+        },
+        {
+          "id": "geo6-n28",
+          "type": "qna",
+          "title": "(1) Name the states with highest population density.",
+          "question": "(1) Name the states with highest population density.",
+          "qnaAnswer": "The states with highest population density : (1) Uttar Pradesh"
+        },
+        {
+          "id": "geo6-n29",
+          "type": "qna",
+          "title": "(2) Name the states with lowest population density.",
+          "question": "(2) Name the states with lowest population density.",
+          "qnaAnswer": "The states with lowest population density : (1) Jammu\nand Kashmir (2) Himachal Pradesh (3) Uttarakhand (4) Arunachal\nPradesh (5) Nagaland (6) Rajasthan (7) Madhya Pradesh"
+        },
+        {
+          "id": "geo6-n30",
+          "type": "qna",
+          "title": "(3) How much is the density of population in the state of Maharashtra?",
+          "question": "(3) How much is the density of population in the state of Maharashtra?",
+          "qnaAnswer": "The density of population in the state of Maharashtra is 251\nto 500 persons per sq. km."
+        },
+        {
+          "id": "geo6-n31",
+          "type": "qna",
+          "title": "(4) How much is the density of population in the state of West Bengal?",
+          "question": "(4) How much is the density of population in the state of West Bengal?",
+          "qnaAnswer": "The density of population in the state of West Bengal is\nmore than 501 persons per sq. km."
+        },
+        {
+          "id": "geo6-n32",
+          "type": "qna",
+          "title": "(5) How much is the density of population in the state of Manipur?",
+          "question": "(5) How much is the density of population in the state of Manipur?",
+          "qnaAnswer": "The density of population in the state of Manipur is 101 to\n250 persons per sq. km.\nQ. 10. Study the map in Figure 6.2 (b) given on page 39 of\nthe textbook and answer the following questions : (July ’23)"
+        },
+        {
+          "id": "geo6-n33",
+          "type": "qna",
+          "title": "(1) Name the state in Brazil with highest density of population.",
+          "question": "(1) Name the state in Brazil with highest density of population.",
+          "qnaAnswer": "The state in Brazil with highest density of population is\nRio de Janeiro/Sao Paulo."
+        },
+        {
+          "id": "geo6-n34",
+          "type": "qna",
+          "title": "(2) What is the density of population in Roraima state?",
+          "question": "(2) What is the density of population in Roraima state?",
+          "qnaAnswer": "The density of population in Roraima state is less than\n50 per sq. km."
+        },
+        {
+          "id": "geo6-n35",
+          "type": "qna",
+          "title": "(3) Write the name of any one state having population density less than 50 on the eastern coast of Brazil.",
+          "question": "(3) Write the name of any one state having population density less than 50 on the eastern coast of Brazil.",
+          "qnaAnswer": "The name of the state having population density less than\n50 on the eastern coast of Brazil is Bahia/Rio Grande Do Sul."
+        },
+        {
+          "id": "geo6-n36",
+          "type": "qna",
+          "title": "(4) How much is the density of population in Ceara state?",
+          "question": "(4) How much is the density of population in Ceara state?",
+          "qnaAnswer": "The density of population in Ceara state is 51 to 100 per\nsq. km."
+        },
+        {
+          "id": "geo6-n37",
+          "type": "qna",
+          "title": "(5) What is the density of population in Brasilia?",
+          "question": "(5) What is the density of population in Brasilia?",
+          "qnaAnswer": "The density of population in Brasilia is more than 300 per\nsq. km."
+        },
+        {
+          "id": "geo6-n38",
+          "type": "heading",
+          "content": "Give Geographical Reasons"
+        },
+        {
+          "id": "geo6-n39",
+          "type": "qna",
+          "title": "(17) Population is an important resource. (July ’19)",
+          "question": "(17) Population is an important resource. (July ’19)",
+          "qnaAnswer": "(1) The economic and social growth and development of\nany country depends upon its quantity and quality of population.",
+          "important": true
+        },
+        {
+          "id": "geo6-n40",
+          "type": "qna",
+          "title": "(18) India’s density of population is high.",
+          "question": "(18) India’s density of population is high.",
+          "qnaAnswer": "(1) India occupies nearly 2.41 per cent of the world’s total\nland.",
+          "important": true
+        },
+        {
+          "id": "geo6-n41",
+          "type": "qna",
+          "title": "(19) Brazil’s population density is very less.",
+          "question": "(19) Brazil’s population density is very less.",
+          "qnaAnswer": "(1) Brazil occupies nearly 5.6 per cent of the world’s total\nland.",
+          "important": true
+        },
+        {
+          "id": "geo6-n42",
+          "type": "markdown",
+          "title": "Give Geographical Reasons",
+          "content": "Q. 1. With the help of given statistical data, prepare a simple\nbar graph and answer the following questions : (March ’25)\nIndia – Literacy Rate Percentage (1981 to 2016)\nYears 1981 1991 2001 2011 2016\n% of Literacy 40.8 48.2 61.0 69.3 72.2\nQuestions :\n(1) What does the graph indicate?\n(2) What was the literacy rate in the year 1991?\n(3)  How much was an increase in literacy rate in the decade from\n1991 to 2001?\nDRAW A GRAPH AND ANSWER ..."
+        },
+        {
+          "id": "geo6-n43",
+          "type": "heading",
+          "content": "Graph / Diagram Reading"
+        },
+        {
+          "id": "geo6-n44",
+          "type": "qna",
+          "title": "(1) What do the graphs show?",
+          "question": "(1) What do the graphs show?",
+          "qnaAnswer": "The graphs show the sex ratio of Brazil and India."
+        },
+        {
+          "id": "geo6-n45",
+          "type": "qna",
+          "title": "(2) Which country has highest male population?",
+          "question": "(2) Which country has highest male population?",
+          "qnaAnswer": "India has highest male population."
+        },
+        {
+          "id": "geo6-n46",
+          "type": "qna",
+          "title": "(3) Which country has highest female population?",
+          "question": "(3) Which country has highest female population?",
+          "qnaAnswer": "Brazil has highest female population."
+        },
+        {
+          "id": "geo6-n47",
+          "type": "qna",
+          "title": "(4) Which country has rapid increase in female population after 2001?",
+          "question": "(4) Which country has rapid increase in female population after 2001?",
+          "qnaAnswer": "Brazil has rapid increase in female population after 2001."
+        },
+        {
+          "id": "geo6-n48",
+          "type": "qna",
+          "title": "(5) What was the female population in India in 1961?",
+          "question": "(5) What was the female population in India in 1961?",
+          "qnaAnswer": "Female population was 940 in India in 1961."
+        },
+        {
+          "id": "geo6-n49",
+          "type": "qna",
+          "title": "(6) Which country has more than 1000 female population?",
+          "question": "(6) Which country has more than 1000 female population?",
+          "qnaAnswer": "Brazil has more than 1000 female population.\nQ. 3. Observe the Figure (Graph) 6.4 of India (2016)\npercentage of population given on page 41 of the textbook and\nanswer the following questions :  (Nov. ’20)"
+        },
+        {
+          "id": "geo6-n50",
+          "type": "qna",
+          "title": "(1) What does the graph show?",
+          "question": "(1) What does the graph show?",
+          "qnaAnswer": "The name of the graph is : India : Age and Sex Pyramid."
+        },
+        {
+          "id": "geo6-n51",
+          "type": "qna",
+          "title": "(2) In which age group population is more?",
+          "question": "(2) In which age group population is more?",
+          "qnaAnswer": "The age group of 10 to 14 years has the maximum\npopulation."
+        },
+        {
+          "id": "geo6-n52",
+          "type": "qna",
+          "title": "(3) What is the class interval of the data shown on ‘Y’-axis?",
+          "question": "(3) What is the class interval of the data shown on ‘Y’-axis?",
+          "qnaAnswer": "The class interval shown on the ‘Y’-axis is of 4 years."
+        },
+        {
+          "id": "geo6-n53",
+          "type": "heading",
+          "content": "Answer the Following in Detail / Explain"
+        },
+        {
+          "id": "geo6-n54",
+          "type": "qna",
+          "title": "(29) Giving examples, correlate climate and population distribution.",
+          "question": "(29) Giving examples, correlate climate and population distribution.",
+          "qnaAnswer": "(1) Climate and population distribution are closely related.\nThe sparse distribution of population is found in the regions having\nheavy or scarce rainfall or too high or too low temperature.",
+          "important": true
+        },
+        {
+          "id": "geo6-n55",
+          "type": "qna",
+          "title": "(30) Write a note on population growth rate in India and Brazil.",
+          "question": "(30) Write a note on population growth rate in India and Brazil.",
+          "qnaAnswer": "(A) Population growth rate in India : (1) In India,\npopulation growth rate was between 2 per cent to 2.3 per cent till\n1971.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "geo6-f1",
+          "front": "(2) Sparsely populated states in India. (a) Uttar Pradesh (b) Himachal Pradesh (c) Uttarakhand (d) Arunachal Pradesh",
+          "back": "(1) – (b) : Lack of roads, (2) – (a) : Uttar Pradesh.",
+          "order": 1
+        },
+        {
+          "id": "geo6-f2",
+          "front": "(4) Cash crop in India (d) Manganese (iv) Southeastern coastal region",
+          "back": "(1) Food crop in Brazil – Corn – Central part (2) Cash crop in Brazil – Cacao – Southeastern coastal region (3) Mineral product in Brazil – Manganese – Southeastern region (4) Cash crop in India – Tea – Southern region.",
+          "order": 2
+        },
+        {
+          "id": "geo6-f3",
+          "front": "(1) What is sex ratio? (Nov. ’20)",
+          "back": "Sex ratio is the number of females per 1000 males in population.",
+          "order": 3
+        },
+        {
+          "id": "geo6-f4",
+          "front": "(2) What is average life expectancy?",
+          "back": "Average life expectancy is the number of years a person could expect to live since its birth.",
+          "order": 4
+        },
+        {
+          "id": "geo6-f5",
+          "front": "(3) How many per cent of the world’s total land is occupied by India?",
+          "back": "Nearly 2.41 per cent of the world’s total land is occupied by India.",
+          "order": 5
+        },
+        {
+          "id": "geo6-f6",
+          "front": "(4) How many per cent of the world’s total population is in India?",
+          "back": "Nearly 17.5 per cent of the world’s total population is in India.",
+          "order": 6
+        },
+        {
+          "id": "geo6-f7",
+          "front": "(8) Acre state of Brazil is sparsely populated.",
+          "back": "(1) Wrong (2) Right (3) Right (4) Right (5) Wrong",
+          "order": 7
+        },
+        {
+          "id": "geo6-f8",
+          "front": "(18) Census in India.",
+          "back": "(1) In India, Census is conducted by the institute of Census of India once every ten years.",
+          "order": 8
+        },
+        {
+          "id": "geo6-f9",
+          "front": "(19) Census in Brazil.",
+          "back": "(1) In Brazil, Census is conducted by the institute of Brazilian Institute of Geography and Statistics once every ten years.",
+          "order": 9
+        },
+        {
+          "id": "geo6-f10",
+          "front": "(1) Name the states with highest population density.",
+          "back": "The states with highest population density : (1) Uttar Pradesh",
+          "order": 10
+        },
+        {
+          "id": "geo6-f11",
+          "front": "(2) Name the states with lowest population density.",
+          "back": "The states with lowest population density : (1) Jammu and Kashmir (2) Himachal Pradesh (3) Uttarakhand (4) Arunachal Pradesh (5) Nagaland (6) Rajasthan (7) Madhya Pradesh",
+          "order": 11
+        },
+        {
+          "id": "geo6-f12",
+          "front": "(3) How much is the density of population in the state of Maharashtra?",
+          "back": "The density of population in the state of Maharashtra is 251 to 500 persons per sq. km.",
+          "order": 12
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "id": "geo-ch7",
+      "num": 7,
+      "title": "Human Settlements",
+      "emoji": "🏘️",
+      "kind": "chapter",
+      "overview": {
+        "summary": "Chapter 7: Human Settlements. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
+        "youWillLearn": [
+          "Chapter-wise practice for Human Settlements.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
+        ]
+      },
+      "notes": [
+        {
+          "id": "geo7-n1",
+          "type": "heading",
+          "content": "Human Settlements — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo7-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo7-n3",
+          "type": "qna",
+          "title": "(6) state has the least urbanisation in Brazil. (a) Para (b) Amapa (c) Espirito Santo (d) Parana",
+          "question": "(6) state has the least urbanisation in Brazil. (a) Para (b) Amapa (c) Espirito Santo (d) Parana",
+          "qnaAnswer": "(1) availability of water  (2) nucleated  (3) dispersed"
+        },
+        {
+          "id": "geo7-n4",
+          "type": "heading",
+          "content": "Identify the Odd Man Out"
+        },
+        {
+          "id": "geo7-n5",
+          "type": "qna",
+          "title": "(2) Favourable factors for concentration of settlements. (March ’25) (a) Availability of water (b) Unfavourable climate (c) Fertile land (d) Favourable climate",
+          "question": "(2) Favourable factors for concentration of settlements. (March ’25) (a) Availability of water (b) Unfavourable climate (c) Fertile land (d) Favourable climate",
+          "qnaAnswer": "(1) – (a) : Desert region,  (2) – (b) : Unfavourable climate."
+        },
+        {
+          "id": "geo7-n6",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo7-n7",
+          "type": "qna",
+          "title": "(1) Which factors lead to variety of settlements?",
+          "question": "(1) Which factors lead to variety of settlements?",
+          "qnaAnswer": "The factors like climate, availability of water, slope of\nland, fertility of land, level of development, etc. lead to variety of\nsettlements.",
+          "important": true
+        },
+        {
+          "id": "geo7-n8",
+          "type": "qna",
+          "title": "(2) Which type of settlements are found in the North Indian Plains? (Nov. ’20)",
+          "question": "(2) Which type of settlements are found in the North Indian Plains? (Nov. ’20)",
+          "qnaAnswer": "Nucleated settlements are found in the North Indian Plains.",
+          "important": true
+        },
+        {
+          "id": "geo7-n9",
+          "type": "qna",
+          "title": "(3) Which is the most urbanised state in India? (Nov. ’20)",
+          "question": "(3) Which is the most urbanised state in India? (Nov. ’20)",
+          "qnaAnswer": "Goa is the most urbanised state in India.",
+          "important": true
+        },
+        {
+          "id": "geo7-n10",
+          "type": "qna",
+          "title": "(4) What type of settlements are found in the central part of India?",
+          "question": "(4) What type of settlements are found in the central part of India?",
+          "qnaAnswer": "Dispersed settlements are found in the central part of India.",
+          "important": true
+        },
+        {
+          "id": "geo7-n11",
+          "type": "qna",
+          "title": "(5) In which river basins in India are the nucleated settlements seen?",
+          "question": "(5) In which river basins in India are the nucleated settlements seen?",
+          "qnaAnswer": "The nucleated settlements in India are seen in the river\nbasins of Ganga, Narmada, Godavari, Kaveri, etc.",
+          "important": true
+        },
+        {
+          "id": "geo7-n12",
+          "type": "qna",
+          "title": "(6) Which rivers meet near Manaus in Brazil?",
+          "question": "(6) Which rivers meet near Manaus in Brazil?",
+          "qnaAnswer": "Negro river and Amazon river meet near Manaus in Brazil.",
+          "important": true
+        },
+        {
+          "id": "geo7-n13",
+          "type": "qna",
+          "title": "(7) Name the country which is promoting “Go West” policy. (July ’23)",
+          "question": "(7) Name the country which is promoting “Go West” policy. (July ’23)",
+          "qnaAnswer": "The name of the country promoting “Go West” policy is\nBrazil.",
+          "important": true
+        },
+        {
+          "id": "geo7-n14",
+          "type": "heading",
+          "content": "Name the Following"
+        },
+        {
+          "id": "geo7-n15",
+          "type": "markdown",
+          "title": "Name the Following",
+          "content": "(1) Types of human settlements : (1) Nucleated (2) Linear\n(3) Dispersed (4) Star-shaped, etc.\n(2) Urban settlements in earlier times in India :\n(1) Indraprastha (Delhi)  (2) Mithila  (3) Varanasi  (4) Harappa\n(5) Mohenjo Daro  (6) Ujjain  (7) Pratishthan (Paithan), etc.\n(3) Drought-prone states in Brazil : (1) Pernambuco (2) Sergipe\n(3) Alagoas (4) Paraiba (5) Ceara (6) Piaui."
+        },
+        {
+          "id": "geo7-n16",
+          "type": "heading",
+          "content": "Say Right or Wrong"
+        },
+        {
+          "id": "geo7-n17",
+          "type": "qna",
+          "title": "(5) The climate in the equatorial dense forest region in Brazil is healthy.",
+          "question": "(5) The climate in the equatorial dense forest region in Brazil is healthy.",
+          "qnaAnswer": "(1) Wrong  (2)  Right  (3) Wrong  (4)  Wrong  (5) Wrong."
+        },
+        {
+          "id": "geo7-n18",
+          "type": "heading",
+          "content": "Differentiate Between"
+        },
+        {
+          "id": "geo7-n19",
+          "type": "markdown",
+          "title": "Differentiate Between",
+          "content": "(7) Urbanisation in India and Urbanisation in Brazil :\n (July ’19)\nUrbanisation in India Urbanisation in Brazil\n1.  The rate of urbanisation\nis comparatively lower in\nIndia.\n1.  The rate of urbanisation\nis comparatively higher in\nBrazil.\n2.  In 2011, the rate of\nurbanisation was only 31.2\nper cent.\n2.  In 2011, the rate of\nurbanisation was only 84.6\nper cent.\n(8)  Human Settlements in Ganga River Basin and Human\nSettlements in Amazon River Basin :\nHuman Settlements in\nGanga River Basin\nHuman Settlements in\nAmazon River Basin\n1.  Nucleated and dense human\nsettlements are found in\nGanga river basin.\n1.\n Scattered and dispersed\nhuman settlements are\nfound in Amazon river basin.\n2.  Mild climate, fertile soil,\ndense network of transport\nroutes, etc. favourable\nfactors have encouraged\nhuman settlements in\nGanga river basin.\n2.  Unhealthy climate, rigid\ntopography, dense forests,\netc. unfavourable factors\nhave discouraged human\nsettlements in Amazon river\nbasin."
+        },
+        {
+          "id": "geo7-n20",
+          "type": "heading",
+          "content": "Write Short Notes"
+        },
+        {
+          "id": "geo7-n21",
+          "type": "qna",
+          "title": "(20) Importance of “Go West” policy in Brazil.",
+          "question": "(20) Importance of “Go West” policy in Brazil.",
+          "qnaAnswer": "(1) In Brazil, rapid urbanisation has taken place in the\nsouth and southeastern parts especially in the state of Sao Paulo\nand many other major metropolitan industrial areas.",
+          "important": true
+        },
+        {
+          "id": "geo7-n22",
+          "type": "heading",
+          "content": "Map Filling"
+        },
+        {
+          "id": "geo7-n23",
+          "type": "qna",
+          "title": "(6) Northern State with high urban population (Amapa) (Nov. ’20)",
+          "question": "(6) Northern State with high urban population (Amapa) (Nov. ’20)",
+          "qnaAnswer": "N\n0 200 400 600 800\nKilometres\n\n1 1 2\n\n5 5\nAmapa\nPara Maranhao Ceara\nBahia\nRio de JaneiroRio de Janeiro\nSaoSao\nPauloPaulo\nParanaParana\nSanta CatarinaSanta Catarina\nAcre Rondonia\nBRAZIL\nIndex :"
+        },
+        {
+          "id": "geo7-n24",
+          "type": "heading",
+          "content": "Give Geographical Reasons"
+        },
+        {
+          "id": "geo7-n25",
+          "type": "qna",
+          "title": "(20) In Brazil, majority of population is found in the eastern coastal areas. (Nov. ’20; March ’23)",
+          "question": "(20) In Brazil, majority of population is found in the eastern coastal areas. (Nov. ’20; March ’23)",
+          "qnaAnswer": "(1) The initial settlements were found in the eastern coastal\nareas of Brazil.",
+          "important": true
+        },
+        {
+          "id": "geo7-n26",
+          "type": "qna",
+          "title": "(21) Settlements are sparse in northeastern Brazil. (March ’19 – ’25)",
+          "question": "(21) Settlements are sparse in northeastern Brazil. (March ’19 – ’25)",
+          "qnaAnswer": "For the answer, refer to Q.\n5  (3) of Solved Question P aper\nof July 2024 given in Section 1 of this book.",
+          "important": true
+        },
+        {
+          "id": "geo7-n27",
+          "type": "heading",
+          "content": "Draw a Graph and Answer"
+        },
+        {
+          "id": "geo7-n28",
+          "type": "qna",
+          "title": "(3) By how much per cent did the population increase between 1970 to 1980?",
+          "question": "(3) By how much per cent did the population increase between 1970 to 1980?",
+          "qnaAnswer": "Simple Bar Graph :\n\nY\n1970 1980 1990 2000 2010 X\nScale :  On X-axis 1 cm = 10 Years\nOn Y-axis 1 cm = 10%\nBrazil Percentage of Urban Population\n(1960 – 2010)\nYears\nPercentage of urban population"
+        },
+        {
+          "id": "geo7-n29",
+          "type": "heading",
+          "content": "Graph / Diagram Reading"
+        },
+        {
+          "id": "geo7-n30",
+          "type": "qna",
+          "title": "(1) What was the percentage of urbanisation in 1961?",
+          "question": "(1) What was the percentage of urbanisation in 1961?",
+          "qnaAnswer": "In 1961 urbanisation was 18 per cent."
+        },
+        {
+          "id": "geo7-n31",
+          "type": "qna",
+          "title": "(2) In which decade was urbanisation the highest?",
+          "question": "(2) In which decade was urbanisation the highest?",
+          "qnaAnswer": "Urbanisation was highest in the decade 1971 to 1981."
+        },
+        {
+          "id": "geo7-n32",
+          "type": "qna",
+          "title": "(3) In which decade was the growth of urbanisation lowest?",
+          "question": "(3) In which decade was the growth of urbanisation lowest?",
+          "qnaAnswer": "Urbanisation growth was lowest in the decade 1961 to\n1971."
+        },
+        {
+          "id": "geo7-n33",
+          "type": "qna",
+          "title": "(4) What inference can you draw regarding India’s urbanisation after reading the graph?",
+          "question": "(4) What inference can you draw regarding India’s urbanisation after reading the graph?",
+          "qnaAnswer": "Seeing the trend of line graph we can say that urbanisation\nincreased after the decade of 1971."
+        },
+        {
+          "id": "geo7-n34",
+          "type": "qna",
+          "title": "(5) What was the percentage of urbanisation in the year 1991?",
+          "question": "(5) What was the percentage of urbanisation in the year 1991?",
+          "qnaAnswer": "In the year 1991, the percentage of urbanisation was 25.7\nper cent."
+        },
+        {
+          "id": "geo7-n35",
+          "type": "qna",
+          "title": "(6) What was the percentage of urbanisation in the year 1971?",
+          "question": "(6) What was the percentage of urbanisation in the year 1971?",
+          "qnaAnswer": "In the year 1971, in India, the urbanisation was 18.2 per\ncent."
+        },
+        {
+          "id": "geo7-n36",
+          "type": "heading",
+          "content": "Answer the Following in Detail / Explain"
+        },
+        {
+          "id": "geo7-n37",
+          "type": "qna",
+          "title": "(33) Write a comparative note on urbanisation in Brazil and India. (March ’23)",
+          "question": "(33) Write a comparative note on urbanisation in Brazil and India. (March ’23)",
+          "qnaAnswer": "(1) In Brazil, the rate of urbanisation is comparatively\nhigher and in India, the rate of urbanisation is comparatively lower.",
+          "important": true
+        },
+        {
+          "id": "geo7-n38",
+          "type": "qna",
+          "title": "(34) Write in detail about human settlements in India.",
+          "question": "(34) Write in detail about human settlements in India.",
+          "qnaAnswer": "(1) There exists variety in the patterns of human settlements\nin India.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "geo7-f1",
+          "front": "(6) state has the least urbanisation in Brazil. (a) Para (b) Amapa (c) Espirito Santo (d) Parana",
+          "back": "(1) availability of water (2) nucleated (3) dispersed",
+          "order": 1
+        },
+        {
+          "id": "geo7-f2",
+          "front": "(2) Favourable factors for concentration of settlements. (March ’25) (a) Availability of water (b) Unfavourable climate (c) Fertile land (d) Favourable climate",
+          "back": "(1) – (a) : Desert region, (2) – (b) : Unfavourable climate.",
+          "order": 2
+        },
+        {
+          "id": "geo7-f3",
+          "front": "(1) Which factors lead to variety of settlements?",
+          "back": "The factors like climate, availability of water, slope of land, fertility of land, level of development, etc. lead to variety of settlements.",
+          "order": 3
+        },
+        {
+          "id": "geo7-f4",
+          "front": "(2) Which type of settlements are found in the North Indian Plains? (Nov. ’20)",
+          "back": "Nucleated settlements are found in the North Indian Plains.",
+          "order": 4
+        },
+        {
+          "id": "geo7-f5",
+          "front": "(3) Which is the most urbanised state in India? (Nov. ’20)",
+          "back": "Goa is the most urbanised state in India.",
+          "order": 5
+        },
+        {
+          "id": "geo7-f6",
+          "front": "(4) What type of settlements are found in the central part of India?",
+          "back": "Dispersed settlements are found in the central part of India.",
+          "order": 6
+        },
+        {
+          "id": "geo7-f7",
+          "front": "(5) In which river basins in India are the nucleated settlements seen?",
+          "back": "The nucleated settlements in India are seen in the river basins of Ganga, Narmada, Godavari, Kaveri, etc.",
+          "order": 7
+        },
+        {
+          "id": "geo7-f8",
+          "front": "(6) Which rivers meet near Manaus in Brazil?",
+          "back": "Negro river and Amazon river meet near Manaus in Brazil.",
+          "order": 8
+        },
+        {
+          "id": "geo7-f9",
+          "front": "(7) Name the country which is promoting “Go West” policy. (July ’23)",
+          "back": "The name of the country promoting “Go West” policy is Brazil.",
+          "order": 9
+        },
+        {
+          "id": "geo7-f10",
+          "front": "(5) The climate in the equatorial dense forest region in Brazil is healthy.",
+          "back": "(1) Wrong (2) Right (3) Wrong (4) Wrong (5) Wrong.",
+          "order": 10
+        },
+        {
+          "id": "geo7-f11",
+          "front": "(20) Importance of “Go West” policy in Brazil.",
+          "back": "(1) In Brazil, rapid urbanisation has taken place in the south and southeastern parts especially in the state of Sao Paulo and many other major metropolitan industrial areas.",
+          "order": 11
+        },
+        {
+          "id": "geo7-f12",
+          "front": "(6) Northern State with high urban population (Amapa) (Nov. ’20)",
+          "back": "N 0 200 400 600 800 Kilometres 1 1 2 5 5 Amapa Para Maranhao Ceara Bahia Rio de JaneiroRio de Janeiro SaoSao PauloPaulo ParanaParana Santa CatarinaSanta Catarina Acre Rondonia BRAZIL Index :",
+          "order": 12
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "id": "geo-ch8",
+      "num": 8,
+      "title": "Economy and Occupations",
+      "emoji": "🏭",
+      "kind": "chapter",
+      "overview": {
+        "summary": "Chapter 8: Economy and Occupations. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
+        "youWillLearn": [
+          "Chapter-wise practice for Economy and Occupations.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
+        ]
+      },
+      "notes": [
+        {
+          "id": "geo8-n1",
+          "type": "heading",
+          "content": "Economy and Occupations — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo8-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo8-n3",
+          "type": "qna",
+          "title": "(5) Brazil is the largest exporter of in the world. (a) mineral oil/corn (b) tea (c) bajra/rice (d) coffee (March ’19; July ’23)",
+          "question": "(5) Brazil is the largest exporter of in the world. (a) mineral oil/corn (b) tea (c) bajra/rice (d) coffee (March ’19; July ’23)",
+          "qnaAnswer": "(1) developing  (2) Gujarat (3) massive population"
+        },
+        {
+          "id": "geo8-n4",
+          "type": "heading",
+          "content": "Identify the Odd Man Out"
+        },
+        {
+          "id": "geo8-n5",
+          "type": "qna",
+          "title": "(5) Primary activities. (March ’25) (a) Agriculture (b) Mining (c) Tourism (d) Fishing",
+          "question": "(5) Primary activities. (March ’25) (a) Agriculture (b) Mining (c) Tourism (d) Fishing",
+          "qnaAnswer": "(1) – (d) : Jowar,  (2) – (d) : Maize,  (3) – (c) : Bihar,"
+        },
+        {
+          "id": "geo8-n6",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo8-n7",
+          "type": "qna",
+          "title": "(1) Which currency is mainly used for international trade?",
+          "question": "(1) Which currency is mainly used for international trade?",
+          "qnaAnswer": "US dollar is the currency mainly used for international\ntrade.",
+          "important": true
+        },
+        {
+          "id": "geo8-n8",
+          "type": "heading",
+          "content": "Name the Following"
+        },
+        {
+          "id": "geo8-n9",
+          "type": "markdown",
+          "title": "Name the Following",
+          "content": "(1) The main crops grown in various parts of Brazil : (1) Coffee\n(2) Rice (3) Soyabean (4) Corn (5) Sugarcane (6) Cacao (7) Rubber\n(8) Banana (9) Orange (10) Pineapple, etc.\n(2) The main minerals found in various parts of Brazil :\n(1) Iron ore (2) Manganese (3) Coal (4) Bauxite (5) Copper, etc.\n(3) The fish caught from marine fishing in Brazil : (1) Swordfish\n(2) Shrimps (3) Lobsters (4) Sardines, etc.\n(4) The fish caught from coastal fishing in Arabian Sea in\nIndia : (1) Sardines (2) Mackerel (3) Bombay duck (4) Prawns, etc."
+        },
+        {
+          "id": "geo8-n10",
+          "type": "heading",
+          "content": "Say Right or Wrong"
+        },
+        {
+          "id": "geo8-n11",
+          "type": "qna",
+          "title": "(6) Jute industry is concentrated in the state of West Bengal.",
+          "question": "(6) Jute industry is concentrated in the state of West Bengal.",
+          "qnaAnswer": "(1) Right (2) Right (3)  Wrong (4) Wrong (5) Wrong"
+        },
+        {
+          "id": "geo8-n12",
+          "type": "heading",
+          "content": "Write Short Notes"
+        },
+        {
+          "id": "geo8-n13",
+          "type": "qna",
+          "title": "(21) Mining in India. (March ’23)",
+          "question": "(21) Mining in India. (March ’23)",
+          "qnaAnswer": "(1) Chhota Nagpur Plateau in India is known as a big\nstorehouse of variety of minerals. Therefore metallurgical industries\nare developed on large scale in the northeastern peninsula.",
+          "important": true
+        },
+        {
+          "id": "geo8-n14",
+          "type": "heading",
+          "content": "Map Filling"
+        },
+        {
+          "id": "geo8-n15",
+          "type": "qna",
+          "title": "(9) Soyabean.",
+          "question": "(9) Soyabean.",
+          "qnaAnswer": "0 200 400 600 800\nKilometres\nN\nBRAZIL\nIndex :\nAgriculture\nCoffee Rubber\nRiceRice Banana\nCorn Orange\nSugarcaneSugarcane Soyabean\nCacao\n(Cocoa)"
+        },
+        {
+          "id": "geo8-n16",
+          "type": "heading",
+          "content": "Give Geographical Reasons"
+        },
+        {
+          "id": "geo8-n17",
+          "type": "qna",
+          "title": "(22) There are limitations on mining in the interior parts of Brazil. (March ’22)",
+          "question": "(22) There are limitations on mining in the interior parts of Brazil. (March ’22)",
+          "qnaAnswer": "For the answer, refer to Q. 7  (3) (B) of Solved Question\nP\naper of July 2025 given on QR code in Section 4 of this book.",
+          "important": true
+        },
+        {
+          "id": "geo8-n18",
+          "type": "qna",
+          "title": "(23) Per capita land availability is more in Brazil as compared to India.",
+          "question": "(23) Per capita land availability is more in Brazil as compared to India.",
+          "qnaAnswer": "The total area of Brazil is nearly 85,15,770 sq. km. On the\nother hand, the total area of India is only 32,87,263 sq. km.",
+          "important": true
+        },
+        {
+          "id": "geo8-n19",
+          "type": "heading",
+          "content": "Draw a Graph and Answer"
+        },
+        {
+          "id": "geo8-n20",
+          "type": "markdown",
+          "title": "Draw a Graph and Answer",
+          "content": "Q. 3. With the help of given statistical data, prepare a multiple\nline graph and answer the following questions : (July ’19)\nContribution of Trade in GDP (in %) India and Brazil\nYear 1970 1980 1990 2000 2010 2016\nIndia 08 15 18 28 50 40\nBrazil 17 20 15 24 25 26\nQuestions :\n(1)  Which country has highest contribution of trade in GDP?\n(2)  What is the contribution of trade in GDP of India in the year\n2016?\n(3)  What is the contribution of trade in GDP of Brazil in the year\n1980?"
+        },
+        {
+          "id": "geo8-n21",
+          "type": "heading",
+          "content": "Graph / Diagram Reading"
+        },
+        {
+          "id": "geo8-n22",
+          "type": "qna",
+          "title": "(1) Which country’s national income was highest in 2016?",
+          "question": "(1) Which country’s national income was highest in 2016?",
+          "qnaAnswer": "USA’s national income was highest in 2016 and it was 1850\nmillion US $."
+        },
+        {
+          "id": "geo8-n23",
+          "type": "qna",
+          "title": "(2) How much was national income of USA in 2016?",
+          "question": "(2) How much was national income of USA in 2016?",
+          "qnaAnswer": "National income of USA in 2016 was 1850 million US $."
+        },
+        {
+          "id": "geo8-n24",
+          "type": "qna",
+          "title": "(3) Comparing India and Brazil, which country had a higher national income in 1980?",
+          "question": "(3) Comparing India and Brazil, which country had a higher national income in 1980?",
+          "qnaAnswer": "Comparing India and Brazil, Brazil had a higher national\nincome in 1980."
+        },
+        {
+          "id": "geo8-n25",
+          "type": "qna",
+          "title": "(4) Comparing India and Brazil, which country had a higher income in 2016?",
+          "question": "(4) Comparing India and Brazil, which country had a higher income in 2016?",
+          "qnaAnswer": "Comparing India and Brazil, India had a higher income in\n2016."
+        },
+        {
+          "id": "geo8-n26",
+          "type": "qna",
+          "title": "(5) Tell the difference between the GNP of Brazil and India in 2016.",
+          "question": "(5) Tell the difference between the GNP of Brazil and India in 2016.",
+          "qnaAnswer": "The difference between the GNP of Brazil and India in 2016\nwas 10 million US $."
+        },
+        {
+          "id": "geo8-n27",
+          "type": "qna",
+          "title": "(6) Calculate the difference between the national incomes of developed and developing countries in 2016.",
+          "question": "(6) Calculate the difference between the national incomes of developed and developing countries in 2016.",
+          "qnaAnswer": "The difference between the national incomes of developed\nand developing countries in 2016 was nearly 1680 to 1690 million\nUS $.\nQ. 8. Read the Figure (Graph) 8.2 given on page 53 of the\ntextbook and answer the following questions : (March ’25)"
+        },
+        {
+          "id": "geo8-n28",
+          "type": "qna",
+          "title": "(1) Which country has a higher percentage of population engaged in primary activities?",
+          "question": "(1) Which country has a higher percentage of population engaged in primary activities?",
+          "qnaAnswer": "India has a higher percentage of population engaged in\nprimary activities."
+        },
+        {
+          "id": "geo8-n29",
+          "type": "qna",
+          "title": "(2) In which country is the contribution of tertiary sector greater in GDP?",
+          "question": "(2) In which country is the contribution of tertiary sector greater in GDP?",
+          "qnaAnswer": "The contribution of tertiary sector is greater in GDP in Brazil."
+        },
+        {
+          "id": "geo8-n30",
+          "type": "qna",
+          "title": "(3) In which country is the share of secondary activities more in the GDP?",
+          "question": "(3) In which country is the share of secondary activities more in the GDP?",
+          "qnaAnswer": "The share of secondary activities more in the GDP in Brazil."
+        },
+        {
+          "id": "geo8-n31",
+          "type": "qna",
+          "title": "(4) In which sector is the maximum percentage of population engaged in Brazil?",
+          "question": "(4) In which sector is the maximum percentage of population engaged in Brazil?",
+          "qnaAnswer": "The maximum population in Brazil is engaged in the tertiary\nsector."
+        },
+        {
+          "id": "geo8-n32",
+          "type": "heading",
+          "content": "Answer the Following in Detail / Explain"
+        },
+        {
+          "id": "geo8-n33",
+          "type": "qna",
+          "title": "(36) What are the similarities and differences in the fishing activities in Brazil and India? (March ’19; Sept. ’21)",
+          "question": "(36) What are the similarities and differences in the fishing activities in Brazil and India? (March ’19; Sept. ’21)",
+          "qnaAnswer": "(A) The similarities in the fishing activities in Brazil and\nIndia : (1) The marine fishing is practised in Brazil as well as India.",
+          "important": true
+        },
+        {
+          "id": "geo8-n34",
+          "type": "qna",
+          "title": "(37) Why has mining not developed in the western part of Brazil?",
+          "question": "(37) Why has mining not developed in the western part of Brazil?",
+          "qnaAnswer": "(1) There are comparatively less number of mineral deposits\nin the western part of Brazil.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "geo8-f1",
+          "front": "(5) Brazil is the largest exporter of in the world. (a) mineral oil/corn (b) tea (c) bajra/rice (d) coffee (March ’19; July ’23)",
+          "back": "(1) developing (2) Gujarat (3) massive population",
+          "order": 1
+        },
+        {
+          "id": "geo8-f2",
+          "front": "(5) Primary activities. (March ’25) (a) Agriculture (b) Mining (c) Tourism (d) Fishing",
+          "back": "(1) – (d) : Jowar, (2) – (d) : Maize, (3) – (c) : Bihar,",
+          "order": 2
+        },
+        {
+          "id": "geo8-f3",
+          "front": "(1) Which currency is mainly used for international trade?",
+          "back": "US dollar is the currency mainly used for international trade.",
+          "order": 3
+        },
+        {
+          "id": "geo8-f4",
+          "front": "(6) Jute industry is concentrated in the state of West Bengal.",
+          "back": "(1) Right (2) Right (3) Wrong (4) Wrong (5) Wrong",
+          "order": 4
+        },
+        {
+          "id": "geo8-f5",
+          "front": "(21) Mining in India. (March ’23)",
+          "back": "(1) Chhota Nagpur Plateau in India is known as a big storehouse of variety of minerals. Therefore metallurgical industries are developed on large scale in the northeastern peninsula.",
+          "order": 5
+        },
+        {
+          "id": "geo8-f6",
+          "front": "(22) There are limitations on mining in the interior parts of Brazil. (March ’22)",
+          "back": "For the answer, refer to Q. 7 (3) (B) of Solved Question P aper of July 2025 given on QR code in Section 4 of this book.",
+          "order": 6
+        },
+        {
+          "id": "geo8-f7",
+          "front": "(23) Per capita land availability is more in Brazil as compared to India.",
+          "back": "The total area of Brazil is nearly 85,15,770 sq. km. On the other hand, the total area of India is only 32,87,263 sq. km.",
+          "order": 7
+        },
+        {
+          "id": "geo8-f8",
+          "front": "(1) Which country’s national income was highest in 2016?",
+          "back": "USA’s national income was highest in 2016 and it was 1850 million US $.",
+          "order": 8
+        },
+        {
+          "id": "geo8-f9",
+          "front": "(2) How much was national income of USA in 2016?",
+          "back": "National income of USA in 2016 was 1850 million US $.",
+          "order": 9
+        },
+        {
+          "id": "geo8-f10",
+          "front": "(3) Comparing India and Brazil, which country had a higher national income in 1980?",
+          "back": "Comparing India and Brazil, Brazil had a higher national income in 1980.",
+          "order": 10
+        },
+        {
+          "id": "geo8-f11",
+          "front": "(4) Comparing India and Brazil, which country had a higher income in 2016?",
+          "back": "Comparing India and Brazil, India had a higher income in 2016.",
+          "order": 11
+        },
+        {
+          "id": "geo8-f12",
+          "front": "(5) Tell the difference between the GNP of Brazil and India in 2016.",
+          "back": "The difference between the GNP of Brazil and India in 2016 was 10 million US $.",
+          "order": 12
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "id": "geo-ch9",
+      "num": 9,
+      "title": "Tourism, Transport and Communication",
+      "emoji": "🚆",
+      "kind": "chapter",
+      "overview": {
+        "summary": "Chapter 9: Tourism, Transport and Communication. All relevant material from the 21 M.L.Q. Sets is grouped here by the original exam question type, with source answers retained.",
+        "youWillLearn": [
+          "Chapter-wise practice for Tourism, Transport and Communication.",
+          "Exam-style questions organised by question type.",
+          "Short answers, descriptive answers, comparisons, reasons and application-based practice where present in the source."
+        ]
+      },
+      "notes": [
+        {
+          "id": "geo9-n1",
+          "type": "heading",
+          "content": "Tourism, Transport and Communication — Complete 21 M.L.Q. Question Bank"
+        },
+        {
+          "id": "geo9-n2",
+          "type": "heading",
+          "content": "Choose the Correct Options"
+        },
+        {
+          "id": "geo9-n3",
+          "type": "qna",
+          "title": "(5) have been important in the growth of the Indian economy. (a) Waterways (b) Airways (c) Roadways (d) Railways",
+          "question": "(5) have been important in the growth of the Indian economy. (a) Waterways (b) Airways (c) Roadways (d) Railways",
+          "qnaAnswer": "(1) Rajasthan  (2) Parana  (3) northwestern  (4) roadways"
+        },
+        {
+          "id": "geo9-n4",
+          "type": "heading",
+          "content": "Identify the Correct Group"
+        },
+        {
+          "id": "geo9-n5",
+          "type": "markdown",
+          "title": "Identify the Correct Group",
+          "content": "(1) Airports in Brazil.\n (a) Curitiba, Mumbai, Pune\n (b) Rio Grande, Cuiaba, Porto Alegre\n (c) Campo Grande, Pune, Bengaluru\n(2) Ports in India.\n (a) Mumbai, Goa, Kolkata\n (b) Kolkata, Manaus, Vitoria\n (c) Chennai, Kochin, Rio Grande\nAns.\n(1) Airports in Brazil : (b) Rio Grande, Cuiaba, Porto Alegre.\n(2) Ports in India : (a) Mumbai, Goa, Kolkata."
+        },
+        {
+          "id": "geo9-n6",
+          "type": "heading",
+          "content": "Identify the Incorrect Pair"
+        },
+        {
+          "id": "geo9-n7",
+          "type": "markdown",
+          "title": "Identify the Incorrect Pair",
+          "content": "Q.  (a) Itarsi – Railway station in India\n (b) Manaus – Port in Brazil\n (c) Leh – Airport in India\n (d) Guwahati – Tourist place in Brazil\nAns.  Incorrect pair : (d) Guwahati – Tourist place in Brazil.\nVery Useful Books for practice\nof writing answers and attending\nMap-based Question\nVIKAS GEOGRAPHY SMART\nWORKBOOK : Std. X\nVIKAS FINDING LOCATION : STD. X\n(Activities And Projects)"
+        },
+        {
+          "id": "geo9-n8",
+          "type": "heading",
+          "content": "Answer in One Sentence"
+        },
+        {
+          "id": "geo9-n9",
+          "type": "qna",
+          "title": "(1) Which longitude in India is considered as Indian Standard Time? (March ’22)",
+          "question": "(1) Which longitude in India is considered as Indian Standard Time? (March ’22)",
+          "qnaAnswer": "82° 30’ E longitude in India is considered as Indian Standard\nTime.",
+          "important": true
+        },
+        {
+          "id": "geo9-n10",
+          "type": "qna",
+          "title": "(2) How many ‘Time Zones’ are considered in Brazil? (July ’23)",
+          "question": "(2) How many ‘Time Zones’ are considered in Brazil? (July ’23)",
+          "qnaAnswer": "Four ‘Time Zones’ are considered in Brazil.",
+          "important": true
+        },
+        {
+          "id": "geo9-n11",
+          "type": "qna",
+          "title": "(3) Which is the cheapest mode of transport?",
+          "question": "(3) Which is the cheapest mode of transport?",
+          "qnaAnswer": "Waterways is the cheapest mode of transport.",
+          "important": true
+        },
+        {
+          "id": "geo9-n12",
+          "type": "qna",
+          "title": "(4) Through which city does the standard time meridian of India pass?",
+          "question": "(4) Through which city does the standard time meridian of India pass?",
+          "qnaAnswer": "The standard time meridian of India passes through\nAllahabad city.\nNAME THE FOLLOWING\n[Q. 3 : Total Marks 4]10\nQuestion\nSet\nQ.  Name the following : (4 out of 5 items; 1 mark each)\nRemember : (1) Five items will be given in question paper. (2) Answer\nany four of them.",
+          "important": true
+        },
+        {
+          "id": "geo9-n13",
+          "type": "heading",
+          "content": "Name the Following"
+        },
+        {
+          "id": "geo9-n14",
+          "type": "markdown",
+          "title": "Name the Following",
+          "content": "(1) The modes of transport in India : (1) Waterways\n(2) Roadways (3) Railways (4) Airways.\n(2) The major railway junctions in India : (1) Mumbai (2) Delhi\n(3) Kanpur (4) Nagpur (5) Chandigarh.\n(3) Major ports in Brazil : (1) Rio Grande (2) Rio de Janeiro\n(3) Vitoria (4) Salvador (5) Manaus.\n(4) The major airports in Brazil : (1) Cuiaba (2) Campo Grande\n(3) Rio Grande (4) Curitiba (5) Porto Alegre.\nSAY RIGHT OR WRONG\n[Q. 3 : Total Marks 4]\n\nQuestion\nSet\nQ.  Say the sentences right or wrong :\n (4 out of 5 sentences; 1 mark each)\nRemember : (1) Five sentences will be given in the question paper.\n(2) Students are expected to write Right or Wrong for any four of them."
+        },
+        {
+          "id": "geo9-n15",
+          "type": "heading",
+          "content": "Say Right or Wrong"
+        },
+        {
+          "id": "geo9-n16",
+          "type": "qna",
+          "title": "(4) Manaus is a port on the confluence of Negro and the Amazon. (March ’25)",
+          "question": "(4) Manaus is a port on the confluence of Negro and the Amazon. (March ’25)",
+          "qnaAnswer": "(1) Right  (2) Wrong  (3) Wrong  (4)  Right."
+        },
+        {
+          "id": "geo9-n17",
+          "type": "heading",
+          "content": "Identify the Type"
+        },
+        {
+          "id": "geo9-n18",
+          "type": "qna",
+          "title": "(2) A type of tourism that maintains the balance of environment.",
+          "question": "(2) A type of tourism that maintains the balance of environment.",
+          "qnaAnswer": "(1) Railway  (2) Ecotourism.\nDIFFERENTIATE BETWEEN\n[Q. 3 : Total Marks 4]\n\nQuestion\nSet\nQ.  Differentiate between the following :\n (2 out of 3 Differences; 2 marks each)\nRemember : (1) Three questions for differentiating between will be given\nin the question paper. (2) Write answer to two questions of differentiating\nbetween. (3) Two points of differences are expected in each answer."
+        },
+        {
+          "id": "geo9-n19",
+          "type": "heading",
+          "content": "Differentiate Between"
+        },
+        {
+          "id": "geo9-n20",
+          "type": "markdown",
+          "title": "Differentiate Between",
+          "content": "(9)  Water Transport in Amazon River and Water Transport in\nGanga River :\nWater Transport in\nAmazon River\nWater Transport in\nGanga River\n1.  International commercial\nwater transport is carried\nout in the Amazon river.\n1.  Internal water transport is\ncarried out in the Ganga\nriver.\n2.  The amount of water\ntransport carried out\nin Amazon river is\ncomparatively higher.\n2.  The amount of water\ntransport carried out in\nGanga river is comparatively\nlow.\n(10)  Communication in Brazil and Communication in India :\nCommunication in Brazil Communication in India\n1.  The communication system\nin Brazil is comparatively\nmodern and effective.\n1.  The communication system\nin India is comparatively\nless modern and less\neffective.\n2.  In Brazil, nearly more\nthan 45 per cent of total\npopulation has access to\nthe internet.\n2.  Though India is one of the\nlargest users of internet in\nthe world, only 30 per cent\nof the total population has\naccess to the internet.\nWRITE SHORT NOTES\n[Q. 3 : Total Marks 4]\n\nQuestion\nSet\nQ.  Write short notes : (2 out of 3 questions; 2 marks each)\nRemember : (1) Three questions will be given in question paper.\n(2) Students are expected to write answers to any two questions. (3) Two\nto four points are expected in answer."
+        },
+        {
+          "id": "geo9-n21",
+          "type": "heading",
+          "content": "Write Short Notes"
+        },
+        {
+          "id": "geo9-n22",
+          "type": "qna",
+          "title": "(23) Development of communication in Brazil. (July ’22)",
+          "question": "(23) Development of communication in Brazil. (July ’22)",
+          "qnaAnswer": "(1) The landline phone services, mobile phone services,\ntelevision and radio broadcasting, computer and internet facilities,\netc. telecommunication services are well developed in Brazil.",
+          "important": true
+        },
+        {
+          "id": "geo9-n23",
+          "type": "qna",
+          "title": "(24) The main features of tourism in India.",
+          "question": "(24) The main features of tourism in India.",
+          "qnaAnswer": "(1) Tourism is one of the important occupations in India.\nCultural and historical heritages, sculptures, clean seacoasts,\nnational parks, bird sanctuaries, etc. have boosted the growth of\ntourism in India.",
+          "important": true
+        },
+        {
+          "id": "geo9-n24",
+          "type": "qna",
+          "title": "(25) Importance of Standard time.",
+          "question": "(25) Importance of Standard time.",
+          "qnaAnswer": "(1) If the country has a vast longitudinal extents, there will\nbe a great difference between the time of its places located in the\neastern and the western parts. In such countries, the importance of\nStandard time is the most.",
+          "important": true
+        },
+        {
+          "id": "geo9-n25",
+          "type": "heading",
+          "content": "Map Filling"
+        },
+        {
+          "id": "geo9-n26",
+          "type": "qna",
+          "title": "(4) Nagpur. (D) Tropic of Cancer. (March ’22; July ’22 – ’23) (E) Kanyakumari. (March ’23)",
+          "question": "(4) Nagpur. (D) Tropic of Cancer. (March ’22; July ’22 – ’23) (E) Kanyakumari. (March ’23)",
+          "qnaAnswer": "Index :\n(A) Ports : Chennai, Porbandar,\nKandla, Kolkata, Kochi.\n(B) Airports : Bengaluru, Delhi,\nPune, Thiruvananthapuram.\n(C)\nRailway Junctions : Mumbai,\nItarsi, Kota, Nagpur.\n(D)\nTropic of Cancer\n(E) Kanyakumari\nN\n0 200 400 600\nKilometres\nINDIA\nDelhi\nKota\nKolkataItarsi\nNagpur\nKandla\nPorbandar\nMumbai Pune\nBengaluru\nKochi\nThiruvananthapuram\nKanyakumari\nChennai\nTropic of Cancer"
+        },
+        {
+          "id": "geo9-n27",
+          "type": "heading",
+          "content": "Map Reading"
+        },
+        {
+          "id": "geo9-n28",
+          "type": "qna",
+          "title": "(1) Which means of transport are seen on the map?",
+          "question": "(1) Which means of transport are seen on the map?",
+          "qnaAnswer": "Waterways, roadways, railways and airways are seen on the\nmap."
+        },
+        {
+          "id": "geo9-n29",
+          "type": "qna",
+          "title": "(2) Which highway can be seen prominently?",
+          "question": "(2) Which highway can be seen prominently?",
+          "qnaAnswer": "Trans -Amazonian highway can be seen prominently."
+        },
+        {
+          "id": "geo9-n30",
+          "type": "qna",
+          "title": "(3) What could be the reason of development of railways in the southeast?",
+          "question": "(3) What could be the reason of development of railways in the southeast?",
+          "qnaAnswer": "The plain topography, concentration of population and\nindustries could be the reasons of development of railways in the\nsoutheast."
+        },
+        {
+          "id": "geo9-n31",
+          "type": "heading",
+          "content": "Give Geographical Reasons"
+        },
+        {
+          "id": "geo9-n32",
+          "type": "qna",
+          "title": "(24) A dense network of railways has developed in the North Indian Plains. (March ’19; July ’23)",
+          "question": "(24) A dense network of railways has developed in the North Indian Plains. (March ’19; July ’23)",
+          "qnaAnswer": "(1) The North Indian Plains are low lying. There are not\nmany hills in this region. The density of population in this region is\nquite high.",
+          "important": true
+        },
+        {
+          "id": "geo9-n33",
+          "type": "heading",
+          "content": "Draw a Graph and Answer"
+        },
+        {
+          "id": "geo9-n34",
+          "type": "qna",
+          "title": "(3) What was the number of International tourists in 2005?",
+          "question": "(3) What was the number of International tourists in 2005?",
+          "qnaAnswer": "Simple Line Graph  –  Number of International Tourists in\nIndia :\n\n1995 2005 2015 X2000 2010\n\nNumber of Tourists (In Lakhs)\nScale :  On X-axis 2 cm = 5 years\nOn Y-axis 1 cm = 10 lakhs tourists\nY\nYears"
+        },
+        {
+          "id": "geo9-n35",
+          "type": "heading",
+          "content": "Graph / Diagram Reading"
+        },
+        {
+          "id": "geo9-n36",
+          "type": "qna",
+          "title": "(1) What type of graph is shown here?",
+          "question": "(1) What type of graph is shown here?",
+          "qnaAnswer": "Multiple line graph is shown here."
+        },
+        {
+          "id": "geo9-n37",
+          "type": "qna",
+          "title": "(2) Which country attracted more international tourists in the year 1995?",
+          "question": "(2) Which country attracted more international tourists in the year 1995?",
+          "qnaAnswer": "India attracted more international tourists in the year 1995."
+        },
+        {
+          "id": "geo9-n38",
+          "type": "qna",
+          "title": "(3) In which country did more international tourists arrive in the year 2000?",
+          "question": "(3) In which country did more international tourists arrive in the year 2000?",
+          "qnaAnswer": "More international tourists arrived in Brazil in the year\n2000."
+        },
+        {
+          "id": "geo9-n39",
+          "type": "qna",
+          "title": "(4) In which year can an increase be seen in the number of international tourists in India?",
+          "question": "(4) In which year can an increase be seen in the number of international tourists in India?",
+          "qnaAnswer": "An increase in the number of international tourists in India\ncan be seen in the year 2010."
+        },
+        {
+          "id": "geo9-n40",
+          "type": "qna",
+          "title": "(5) What was the number of international tourists in the year 2015 in both the countries? What was the difference between them?",
+          "question": "(5) What was the number of international tourists in the year 2015 in both the countries? What was the difference between them?",
+          "qnaAnswer": "The number of international tourists was nearly 60 lakhs\nin Brazil and was 130 lakhs in India. Thus, the difference between\nthem was about 70 lakhs."
+        },
+        {
+          "id": "geo9-n41",
+          "type": "qna",
+          "title": "(6) What could be the reason of increase in tourists in India after the year 2010?",
+          "question": "(6) What could be the reason of increase in tourists in India after the year 2010?",
+          "qnaAnswer": "The professional outlook and increased facilities given to\ntourists could be the reason of increase in tourists in India after the\nyear 2010.\nQ. 13. Study the Figure (Graph) 9.2 given on page 61 and\nanswer the following questions :  (July ’23)"
+        },
+        {
+          "id": "geo9-n42",
+          "type": "qna",
+          "title": "(1) What type of graph is shown here?",
+          "question": "(1) What type of graph is shown here?",
+          "qnaAnswer": "Joint bar graph is shown here."
+        },
+        {
+          "id": "geo9-n43",
+          "type": "qna",
+          "title": "(2) What does the graph show?",
+          "question": "(2) What does the graph show?",
+          "qnaAnswer": "The graph shows contribution of tourism in GDP and\npercentage of population engaged in tourism."
+        },
+        {
+          "id": "geo9-n44",
+          "type": "qna",
+          "title": "(3) Which country’s tourism has a large share in the contribution towards GDP?",
+          "question": "(3) Which country’s tourism has a large share in the contribution towards GDP?",
+          "qnaAnswer": "Brazil’s tourism has a large share in the contribution\ntowards GDP ."
+        },
+        {
+          "id": "geo9-n45",
+          "type": "qna",
+          "title": "(4) Which country has a larger population engaged in tourism sector but contributes lesser in GDP?",
+          "question": "(4) Which country has a larger population engaged in tourism sector but contributes lesser in GDP?",
+          "qnaAnswer": "India has a larger population engaged in tourism sector but\ncontributes lesser in GDP ."
+        },
+        {
+          "id": "geo9-n46",
+          "type": "qna",
+          "title": "(5) In India, how much per cent is the contribution of tourism in its GDP?",
+          "question": "(5) In India, how much per cent is the contribution of tourism in its GDP?",
+          "qnaAnswer": "In India the contribution of tourism in its GDP is 7.9 per\ncent."
+        },
+        {
+          "id": "geo9-n47",
+          "type": "qna",
+          "title": "(6) How much per cent of Brazilian population is contributing in its tourism industry?",
+          "question": "(6) How much per cent of Brazilian population is contributing in its tourism industry?",
+          "qnaAnswer": "8.2 per cent  of Brazilian population is contributing in its\ntourism industry."
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "geo9-f1",
+          "front": "(5) have been important in the growth of the Indian economy. (a) Waterways (b) Airways (c) Roadways (d) Railways",
+          "back": "(1) Rajasthan (2) Parana (3) northwestern (4) roadways",
+          "order": 1
+        },
+        {
+          "id": "geo9-f2",
+          "front": "(1) Which longitude in India is considered as Indian Standard Time? (March ’22)",
+          "back": "82° 30’ E longitude in India is considered as Indian Standard Time.",
+          "order": 2
+        },
+        {
+          "id": "geo9-f3",
+          "front": "(2) How many ‘Time Zones’ are considered in Brazil? (July ’23)",
+          "back": "Four ‘Time Zones’ are considered in Brazil.",
+          "order": 3
+        },
+        {
+          "id": "geo9-f4",
+          "front": "(3) Which is the cheapest mode of transport?",
+          "back": "Waterways is the cheapest mode of transport.",
+          "order": 4
+        },
+        {
+          "id": "geo9-f5",
+          "front": "(4) Through which city does the standard time meridian of India pass?",
+          "back": "The standard time meridian of India passes through Allahabad city. NAME THE FOLLOWING [Q. 3 : Total Marks 4]10 Question Set Q. Name the following : (4 out of 5 items; 1 mark each) Remember : (1) Five items will be given in question paper. (2) Answer any four of them.",
+          "order": 5
+        },
+        {
+          "id": "geo9-f6",
+          "front": "(4) Manaus is a port on the confluence of Negro and the Amazon. (March ’25)",
+          "back": "(1) Right (2) Wrong (3) Wrong (4) Right.",
+          "order": 6
+        },
+        {
+          "id": "geo9-f7",
+          "front": "(2) A type of tourism that maintains the balance of environment.",
+          "back": "(1) Railway (2) Ecotourism. DIFFERENTIATE BETWEEN [Q. 3 : Total Marks 4] Question Set Q. Differentiate between the following : (2 out of 3 Differences; 2 marks each) Remember : (1) Three questions for differentiating between will be given in the question paper. (2) Write answer to two questions of differentiating between. (3) Two points of differences are expected in each answer.",
+          "order": 7
+        },
+        {
+          "id": "geo9-f8",
+          "front": "(23) Development of communication in Brazil. (July ’22)",
+          "back": "(1) The landline phone services, mobile phone services, television and radio broadcasting, computer and internet facilities, etc. telecommunication services are well developed in Brazil.",
+          "order": 8
+        },
+        {
+          "id": "geo9-f9",
+          "front": "(24) The main features of tourism in India.",
+          "back": "(1) Tourism is one of the important occupations in India. Cultural and historical heritages, sculptures, clean seacoasts, national parks, bird sanctuaries, etc. have boosted the growth of tourism in India.",
+          "order": 9
+        },
+        {
+          "id": "geo9-f10",
+          "front": "(25) Importance of Standard time.",
+          "back": "(1) If the country has a vast longitudinal extents, there will be a great difference between the time of its places located in the eastern and the western parts. In such countries, the importance of Standard time is the most.",
+          "order": 10
+        },
+        {
+          "id": "geo9-f11",
+          "front": "(4) Nagpur. (D) Tropic of Cancer. (March ’22; July ’22 – ’23) (E) Kanyakumari. (March ’23)",
+          "back": "Index : (A) Ports : Chennai, Porbandar, Kandla, Kolkata, Kochi. (B) Airports : Bengaluru, Delhi, Pune, Thiruvananthapuram. (C) Railway Junctions : Mumbai, Itarsi, Kota, Nagpur. (D) Tropic of Cancer (E) Kanyakumari N 0 200 400 600 Kilometres INDIA Delhi Kota KolkataItarsi Nagpur Kandla Porbandar Mumbai Pune Bengaluru Kochi Thiruvananthapuram Kanyakumari Chennai Tropic of Cancer",
+          "order": 11
+        },
+        {
+          "id": "geo9-f12",
+          "front": "(1) Which means of transport are seen on the map?",
+          "back": "Waterways, roadways, railways and airways are seen on the map.",
+          "order": 12
+        }
+      ],
+      "quiz": []
     }
   ]
 }

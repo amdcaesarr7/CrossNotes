@@ -139,6 +139,7 @@ export default function Quiz() {
 
     const finalCorrect = finalScores.filter(Boolean).length;
     const finalPct = total > 0 ? Math.round((finalCorrect / total) * 100) : 0;
+    sfx.sessionDone();
     if (finalPct >= 90) fireConfetti();
 
     if (user) {

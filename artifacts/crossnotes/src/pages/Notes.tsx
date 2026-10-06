@@ -8,6 +8,7 @@ import { markNotesRead } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticNotes } from '@/hooks/useContent';
 import { useHead, useBreadcrumb, getChapterMeta } from '@/hooks/useSeo';
 import { celebrateActivityResult } from '@/lib/celebrate';
+import { sfx } from '@/lib/sfx';
 import NoteBlockRenderer from '@/components/NoteBlockRenderer';
 import MathsPracticeLibrary from '@/components/MathsPracticeLibrary';
 import { isImportedSolution } from '@/lib/importedSolutions';
@@ -57,6 +58,7 @@ export default function Notes() {
       const result = await markNotesRead(user.uid, chapterId, { subjectSlug: slug, chapterName: chapter?.title });
       setMarked(true);
       if (result.xp > 0) {
+        sfx.noteComplete();
         const boostTag = result.boostMultiplier > 1 ? ` (🧪 ${result.boostMultiplier}x boosted!)` : '';
         toast.success(`+${result.xp} XP · +${result.coinsEarned} coins! Notes locked in. 🧠${boostTag}`);
       } else toast('Already done! No double XP. 👀');

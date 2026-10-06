@@ -32,6 +32,87 @@
           "important": true
         },
         {
+          "id": "n-fig-grav",
+          "type": "figure",
+          "title": "Mutual gravitational force",
+          "figureSrc": "/figures/gravitation-force.svg",
+          "figureAlt": "Two masses M1 and M2 with equal and opposite gravitational forces along the line joining them",
+          "figureCaption": "Forces are equal in magnitude, opposite in direction, and act along the line joining the centres.",
+          "figureLabels": [
+            {
+              "text": "M₁",
+              "x": 18,
+              "y": 42,
+              "side": "left"
+            },
+            {
+              "text": "M₂",
+              "x": 82,
+              "y": 42,
+              "side": "right"
+            },
+            {
+              "text": "r",
+              "x": 50,
+              "y": 58,
+              "side": "bottom"
+            },
+            {
+              "text": "F",
+              "x": 40,
+              "y": 28,
+              "side": "top"
+            },
+            {
+              "text": "F",
+              "x": 60,
+              "y": 72,
+              "side": "bottom"
+            }
+          ],
+          "important": true
+        },
+        {
+          "id": "n-call-grav",
+          "type": "callout",
+          "calloutKind": "formula",
+          "title": "Newton’s law of gravitation",
+          "content": "F = G · (M₁ M₂) / r²\n\nG is the universal gravitational constant. Bigger masses → bigger pull. Bigger distance → weaker pull (inverse square)."
+        },
+        {
+          "id": "n-diag-grav",
+          "type": "diagram",
+          "title": "Ways gravity shows up",
+          "diagramRoot": "Gravitation",
+          "branches": [
+            {
+              "label": "Universal law",
+              "note": "Any two masses",
+              "children": [
+                "F ∝ M₁M₂",
+                "F ∝ 1/r²"
+              ]
+            },
+            {
+              "label": "On Earth",
+              "note": "g ≈ 9.8 m/s²",
+              "children": [
+                "Weight = mg",
+                "Free fall"
+              ]
+            },
+            {
+              "label": "In space",
+              "note": "Orbits",
+              "children": [
+                "Satellites",
+                "Moon"
+              ]
+            }
+          ],
+          "content": "Use this map when a board question asks you to “explain types / effects” — pick the branch that matches the prompt."
+        },
+        {
           "id": "n3",
           "type": "paragraph",
           "title": "Centripetal force",
@@ -106,20 +187,42 @@
           "id": "n12",
           "type": "match_column",
           "title": "Match the following",
-          "left": ["Escape velocity"],
-          "right": ["√(GM/R)", "√(2GM/R)"],
-          "answerKey": [1]
+          "left": [
+            "Escape velocity"
+          ],
+          "right": [
+            "√(GM/R)",
+            "√(2GM/R)"
+          ],
+          "answerKey": [
+            1
+          ]
         },
         {
           "id": "n13",
           "type": "table",
           "title": "Distinguish Between: Mass and Weight",
-          "headers": ["Mass", "Weight"],
+          "headers": [
+            "Mass",
+            "Weight"
+          ],
           "rows": [
-            ["The mass of a body is the amount of matter present in it.", "The weight of a body is the force with which the earth attracts it."],
-            ["It has magnitude, but not direction (scalar quantity).", "It has both magnitude and direction (vector quantity)."],
-            ["It does not change from place to place.", "It changes from place to place as g changes."],
-            ["It can never be zero.", "It can be zero in space or at the centre of the earth."]
+            [
+              "The mass of a body is the amount of matter present in it.",
+              "The weight of a body is the force with which the earth attracts it."
+            ],
+            [
+              "It has magnitude, but not direction (scalar quantity).",
+              "It has both magnitude and direction (vector quantity)."
+            ],
+            [
+              "It does not change from place to place.",
+              "It changes from place to place as g changes."
+            ],
+            [
+              "It can never be zero.",
+              "It can be zero in space or at the centre of the earth."
+            ]
           ]
         },
         {
@@ -169,7 +272,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "The gravitational force between two particles separated by a distance r varies as:",
-          "options": ["r", "r²", "1/r", "1/r²"],
+          "options": [
+            "r",
+            "r²",
+            "1/r",
+            "1/r²"
+          ],
           "correctAnswer": 3,
           "explanation": "F is inversely proportional to the square of the distance.",
           "order": 1
@@ -178,7 +286,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "As we go above the earth's surface, the value of g:",
-          "options": ["increases", "becomes zero immediately", "remains the same", "decreases"],
+          "options": [
+            "increases",
+            "becomes zero immediately",
+            "remains the same",
+            "decreases"
+          ],
           "correctAnswer": 3,
           "explanation": "g decreases with increasing height above the earth's surface.",
           "order": 2
@@ -187,7 +300,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "If an object weighs 120 N on the moon, what will be its weight on the earth (approx.)?",
-          "options": ["240 N", "360 N", "720 N", "600 N"],
+          "options": [
+            "240 N",
+            "360 N",
+            "720 N",
+            "600 N"
+          ],
           "correctAnswer": 2,
           "explanation": "Weight on earth ≈ 6 × weight on moon = 720 N.",
           "order": 3
@@ -196,7 +314,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "The value of g is highest at the:",
-          "options": ["Equator", "Poles", "Centre of the earth", "Tropic of Cancer"],
+          "options": [
+            "Equator",
+            "Poles",
+            "Centre of the earth",
+            "Tropic of Cancer"
+          ],
           "correctAnswer": 1,
           "explanation": "Polar radius is minimum, making g maximum there.",
           "order": 4
@@ -205,7 +328,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "The energy stored in a body due to gravitational force between it and the earth is called:",
-          "options": ["Kinetic energy", "Gravitational potential energy", "Elastic potential energy", "Escape energy"],
+          "options": [
+            "Kinetic energy",
+            "Gravitational potential energy",
+            "Elastic potential energy",
+            "Escape energy"
+          ],
           "correctAnswer": 1,
           "explanation": "This is the definition of gravitational potential energy.",
           "order": 5
@@ -331,39 +459,62 @@
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Solid : Iodine : : ___ : Bromine",
-          "blanks": ["Liquid"]
+          "blanks": [
+            "Liquid"
+          ]
         },
         {
           "id": "n14",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Dobereiner : Triad : : Newlands' law : ___",
-          "blanks": ["Octaves"]
+          "blanks": [
+            "Octaves"
+          ]
         },
         {
           "id": "n15",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Mendeleev's periodic table : Atomic mass : Modern periodic table : ___",
-          "blanks": ["Atomic number"]
+          "blanks": [
+            "Atomic number"
+          ]
         },
         {
           "id": "n16",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Group-1 : Alkali metals : : ___ : Halogens",
-          "blanks": ["Group-17"]
+          "blanks": [
+            "Group-17"
+          ]
         },
         {
           "id": "n17",
           "type": "table",
           "title": "Distinguish Between: Mendeleev's and Modern Periodic Table",
-          "headers": ["Mendeleev's Periodic Table", "Modern Periodic Table"],
+          "headers": [
+            "Mendeleev's Periodic Table",
+            "Modern Periodic Table"
+          ],
           "rows": [
-            ["Elements are arranged in order of increasing atomic weights.", "Elements are arranged in order of increasing atomic numbers."],
-            ["Position of an element is based on its properties and atomic weight.", "Position of an element is based on its electronic configuration."],
-            ["There are 8 groups in this table.", "There are 18 groups in this table."],
-            ["Isotopes do not find separate places in this table.", "Isotopes of an element can be placed at the same place as their atomic number is the same."]
+            [
+              "Elements are arranged in order of increasing atomic weights.",
+              "Elements are arranged in order of increasing atomic numbers."
+            ],
+            [
+              "Position of an element is based on its properties and atomic weight.",
+              "Position of an element is based on its electronic configuration."
+            ],
+            [
+              "There are 8 groups in this table.",
+              "There are 18 groups in this table."
+            ],
+            [
+              "Isotopes do not find separate places in this table.",
+              "Isotopes of an element can be placed at the same place as their atomic number is the same."
+            ]
           ]
         },
         {
@@ -406,7 +557,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "Lithium (Li), ______, and potassium (K) form a Dobereiner triad.",
-          "options": ["magnesium (Mg)", "aluminium (Al)", "sodium (Na)", "calcium (Ca)"],
+          "options": [
+            "magnesium (Mg)",
+            "aluminium (Al)",
+            "sodium (Na)",
+            "calcium (Ca)"
+          ],
           "correctAnswer": 2,
           "explanation": "Na's atomic mass (23) is the average of Li (6.9) and K (39.1).",
           "order": 1
@@ -415,7 +571,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "According to Mendeleev's periodic law, properties of elements are a periodic function of their:",
-          "options": ["atomic numbers", "atomic masses", "densities", "boiling points"],
+          "options": [
+            "atomic numbers",
+            "atomic masses",
+            "densities",
+            "boiling points"
+          ],
           "correctAnswer": 1,
           "explanation": "Mendeleev's law was based on atomic mass.",
           "order": 2
@@ -424,7 +585,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "In which block of the modern periodic table are the nonmetals mainly found?",
-          "options": ["s-block", "p-block", "d-block", "f-block"],
+          "options": [
+            "s-block",
+            "p-block",
+            "d-block",
+            "f-block"
+          ],
           "correctAnswer": 1,
           "explanation": "Most nonmetals are found in the p-block.",
           "order": 3
@@ -433,7 +599,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "Halogens belong to group ______ of the modern periodic table.",
-          "options": ["15", "16", "17", "18"],
+          "options": [
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
           "correctAnswer": 2,
           "explanation": "Group 17 contains F, Cl, Br, I, At.",
           "order": 4
@@ -442,7 +613,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "The number of electrons in the outermost shell of alkali metals is:",
-          "options": ["1", "2", "3", "7"],
+          "options": [
+            "1",
+            "2",
+            "3",
+            "7"
+          ],
           "correctAnswer": 0,
           "explanation": "Alkali metals (Group 1) have a single valence electron.",
           "order": 5
@@ -578,25 +754,49 @@
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "2H₂ + O₂ → 2H₂O : Combination reaction : : 2HgO → 2Hg + O₂ : ___",
-          "blanks": ["Decomposition reaction"]
+          "blanks": [
+            "Decomposition reaction"
+          ]
         },
         {
           "id": "n14",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "CuI₂ : Brown : : AgCl : ___",
-          "blanks": ["White"]
+          "blanks": [
+            "White"
+          ]
         },
         {
           "id": "n15",
           "type": "table",
           "title": "Match the Columns",
-          "headers": ["Reactants", "Products", "Type of Chemical Reaction"],
+          "headers": [
+            "Reactants",
+            "Products",
+            "Type of Chemical Reaction"
+          ],
           "rows": [
-            ["BaCl₂(aq) + ZnSO₄(aq)", "BaSO₄↓ + ZnCl₂(aq)", "Double displacement"],
-            ["2AgCl(s)", "2Ag(s) + Cl₂(g)", "Decomposition"],
-            ["CuSO₄(aq) + Fe(s)", "FeSO₄(aq) + Cu(s)", "Displacement"],
-            ["H₂O(l) + CO₂(g)", "H₂CO₃(aq)", "Combination"]
+            [
+              "BaCl₂(aq) + ZnSO₄(aq)",
+              "BaSO₄↓ + ZnCl₂(aq)",
+              "Double displacement"
+            ],
+            [
+              "2AgCl(s)",
+              "2Ag(s) + Cl₂(g)",
+              "Decomposition"
+            ],
+            [
+              "CuSO₄(aq) + Fe(s)",
+              "FeSO₄(aq) + Cu(s)",
+              "Displacement"
+            ],
+            [
+              "H₂O(l) + CO₂(g)",
+              "H₂CO₃(aq)",
+              "Combination"
+            ]
           ]
         }
       ],
@@ -632,7 +832,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "Combustion of coal in air is a ______ reaction.",
-          "options": ["combination", "displacement", "decomposition", "double displacement"],
+          "options": [
+            "combination",
+            "displacement",
+            "decomposition",
+            "double displacement"
+          ],
           "correctAnswer": 0,
           "explanation": "Carbon combines with oxygen to form CO₂.",
           "order": 1
@@ -641,7 +846,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "In a double displacement reaction:",
-          "options": ["ions remain at rest", "ions get liberated", "ions are exchanged", "ions are not produced"],
+          "options": [
+            "ions remain at rest",
+            "ions get liberated",
+            "ions are exchanged",
+            "ions are not produced"
+          ],
           "correctAnswer": 2,
           "explanation": "Ions of reactants swap partners.",
           "order": 2
@@ -650,7 +860,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "Which of the following is a decomposition reaction?",
-          "options": ["CaCO₃ → CaO + CO₂", "H₂O + CO₂ → H₂CO₃", "CaS + 2HCl → CaCl₂ + H₂S", "2H₂ + O₂ → 2H₂O"],
+          "options": [
+            "CaCO₃ → CaO + CO₂",
+            "H₂O + CO₂ → H₂CO₃",
+            "CaS + 2HCl → CaCl₂ + H₂S",
+            "2H₂ + O₂ → 2H₂O"
+          ],
           "correctAnswer": 0,
           "explanation": "One reactant breaks into two products.",
           "order": 3
@@ -659,7 +874,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "The reaction KNO₃(s) + H₂O(l) + Heat → KNO₃(aq) is a/an ______ reaction.",
-          "options": ["exothermic", "endothermic", "oxidation", "reduction"],
+          "options": [
+            "exothermic",
+            "endothermic",
+            "oxidation",
+            "reduction"
+          ],
           "correctAnswer": 1,
           "explanation": "Heat is absorbed during dissolution.",
           "order": 4
@@ -668,7 +888,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "To prevent rusting, a layer of ______ metal is applied on iron sheets.",
-          "options": ["potassium", "sodium", "magnesium", "zinc"],
+          "options": [
+            "potassium",
+            "sodium",
+            "magnesium",
+            "zinc"
+          ],
           "correctAnswer": 3,
           "explanation": "Galvanization coats iron with zinc.",
           "order": 5
@@ -799,18 +1024,35 @@
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Resistance : The ohm : : Potential difference : ___",
-          "blanks": ["The volt"]
+          "blanks": [
+            "The volt"
+          ]
         },
         {
           "id": "n16",
           "type": "table",
           "title": "Distinguish Between: Electric Motor and Electric Generator",
-          "headers": ["Electric Motor", "Electric Generator"],
+          "headers": [
+            "Electric Motor",
+            "Electric Generator"
+          ],
           "rows": [
-            ["A battery is used to pass a current through the coil.", "A battery is not used."],
-            ["A current-carrying coil is set into rotation due to the magnetic field.", "A potential difference and hence a current is produced when the coil is set into rotation by an external agent."],
-            ["Split rings are used.", "Rings used in an AC generator are not split."],
-            ["Electric energy is converted into mechanical energy.", "Mechanical energy is converted into electric energy."]
+            [
+              "A battery is used to pass a current through the coil.",
+              "A battery is not used."
+            ],
+            [
+              "A current-carrying coil is set into rotation due to the magnetic field.",
+              "A potential difference and hence a current is produced when the coil is set into rotation by an external agent."
+            ],
+            [
+              "Split rings are used.",
+              "Rings used in an AC generator are not split."
+            ],
+            [
+              "Electric energy is converted into mechanical energy.",
+              "Mechanical energy is converted into electric energy."
+            ]
           ]
         },
         {
@@ -853,7 +1095,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "The direction of the magnetic field around a straight current-carrying conductor is given by:",
-          "options": ["the right hand thumb rule", "Fleming's left hand rule", "Fleming's right hand rule", "none of these"],
+          "options": [
+            "the right hand thumb rule",
+            "Fleming's left hand rule",
+            "Fleming's right hand rule",
+            "none of these"
+          ],
           "correctAnswer": 0,
           "explanation": "This rule relates current direction to magnetic field direction.",
           "order": 1
@@ -862,7 +1109,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "When current passes through a solenoid, it produces magnetic lines of force similar to a:",
-          "options": ["bar magnet", "horseshoe magnet", "disc magnet", "spherical magnet"],
+          "options": [
+            "bar magnet",
+            "horseshoe magnet",
+            "disc magnet",
+            "spherical magnet"
+          ],
           "correctAnswer": 0,
           "explanation": "A current-carrying solenoid behaves like a bar magnet.",
           "order": 2
@@ -871,7 +1123,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "The device used for producing (generating) current is called:",
-          "options": ["a voltmeter", "an ammeter", "a galvanometer", "a generator"],
+          "options": [
+            "a voltmeter",
+            "an ammeter",
+            "a galvanometer",
+            "a generator"
+          ],
           "correctAnswer": 3,
           "explanation": "A generator converts mechanical energy into electrical energy.",
           "order": 3
@@ -880,7 +1137,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "The frequency of AC in India is:",
-          "options": ["60 Hz", "100 Hz", "50 Hz", "500 Hz"],
+          "options": [
+            "60 Hz",
+            "100 Hz",
+            "50 Hz",
+            "500 Hz"
+          ],
           "correctAnswer": 2,
           "explanation": "India's household AC supply operates at 50 Hz.",
           "order": 4
@@ -889,7 +1151,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "A device used to convert electrical energy into mechanical energy is:",
-          "options": ["Electric generator", "Electric motor", "Transformer", "Galvanometer"],
+          "options": [
+            "Electric generator",
+            "Electric motor",
+            "Transformer",
+            "Galvanometer"
+          ],
           "correctAnswer": 1,
           "explanation": "A motor converts electrical to mechanical energy.",
           "order": 5
@@ -991,7 +1258,9 @@
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Temperature : Physical quantity : : Conduction, Convection, Radiation : ___",
-          "blanks": ["Modes of transfer of heat"]
+          "blanks": [
+            "Modes of transfer of heat"
+          ]
         },
         {
           "id": "n12",
@@ -1033,7 +1302,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "The phenomenon in which ice melts under pressure and refreezes when pressure is released is called:",
-          "options": ["boiling", "regelation", "freezing", "evaporation"],
+          "options": [
+            "boiling",
+            "regelation",
+            "freezing",
+            "evaporation"
+          ],
           "correctAnswer": 1,
           "explanation": "This is the definition of regelation.",
           "order": 1
@@ -1042,7 +1316,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "Water shows its maximum density at:",
-          "options": ["0°C", "4°C", "10°C", "100°C"],
+          "options": [
+            "0°C",
+            "4°C",
+            "10°C",
+            "100°C"
+          ],
           "correctAnswer": 1,
           "explanation": "This is the anomalous behaviour of water.",
           "order": 2
@@ -1051,7 +1330,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "Which apparatus demonstrates the anomalous behaviour of water?",
-          "options": ["Calorimeter", "Joule's apparatus", "Hope's apparatus", "Thermos flask"],
+          "options": [
+            "Calorimeter",
+            "Joule's apparatus",
+            "Hope's apparatus",
+            "Thermos flask"
+          ],
           "correctAnswer": 2,
           "explanation": "Hope's apparatus shows density is maximum at 4°C.",
           "order": 3
@@ -1060,7 +1344,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "The amount of water vapour in air is measured using:",
-          "options": ["absolute humidity", "relative humidity", "dew point", "specific humidity"],
+          "options": [
+            "absolute humidity",
+            "relative humidity",
+            "dew point",
+            "specific humidity"
+          ],
           "correctAnswer": 1,
           "explanation": "Relative humidity expresses vapour content as a percentage.",
           "order": 4
@@ -1069,7 +1358,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "Steam burns are worse than boiling water burns at the same temperature because steam:",
-          "options": ["is at a higher temperature", "contains more heat due to latent heat of vaporisation", "is lighter than water", "evaporates without releasing heat"],
+          "options": [
+            "is at a higher temperature",
+            "contains more heat due to latent heat of vaporisation",
+            "is lighter than water",
+            "evaporates without releasing heat"
+          ],
           "correctAnswer": 1,
           "explanation": "Steam releases extra latent heat when it condenses on skin.",
           "order": 5
@@ -1224,7 +1518,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "At the critical angle, the angle of refraction is:",
-          "options": ["0°", "30°", "60°", "90°"],
+          "options": [
+            "0°",
+            "30°",
+            "60°",
+            "90°"
+          ],
           "correctAnswer": 3,
           "explanation": "At the critical angle, the refracted ray grazes the boundary at 90°.",
           "order": 1
@@ -1233,7 +1532,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "A ray of light makes an angle of 50° with the surface of a glass slab. Its angle of incidence is:",
-          "options": ["50°", "40°", "140°", "90°"],
+          "options": [
+            "50°",
+            "40°",
+            "140°",
+            "90°"
+          ],
           "correctAnswer": 1,
           "explanation": "Angle of incidence is measured from the normal: 90° − 50° = 40°.",
           "order": 2
@@ -1242,7 +1546,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "The process of separation of light into its component colours is called:",
-          "options": ["reflection", "refraction", "dispersion", "internal reflection"],
+          "options": [
+            "reflection",
+            "refraction",
+            "dispersion",
+            "internal reflection"
+          ],
           "correctAnswer": 2,
           "explanation": "Dispersion separates white light into colours.",
           "order": 3
@@ -1251,7 +1560,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "______ colour is deviated the least in the spectrum of white light from a glass prism.",
-          "options": ["Red", "Yellow", "Violet", "Blue"],
+          "options": [
+            "Red",
+            "Yellow",
+            "Violet",
+            "Blue"
+          ],
           "correctAnswer": 0,
           "explanation": "Red has the least deviation; violet the most.",
           "order": 4
@@ -1260,7 +1574,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "A ray of light deviates when passing obliquely between media because:",
-          "options": ["the colour changes", "the frequency changes", "the speed of light changes", "the intensity changes"],
+          "options": [
+            "the colour changes",
+            "the frequency changes",
+            "the speed of light changes",
+            "the intensity changes"
+          ],
           "correctAnswer": 2,
           "explanation": "Change in speed between media causes bending.",
           "order": 5
@@ -1365,25 +1684,44 @@
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Torch : Concave lens : : Camera : ___",
-          "blanks": ["Convex lens"]
+          "blanks": [
+            "Convex lens"
+          ]
         },
         {
           "id": "n12",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Nearsightedness : Elongated eyeball : : Farsightedness : ___",
-          "blanks": ["Flattened eyeball"]
+          "blanks": [
+            "Flattened eyeball"
+          ]
         },
         {
           "id": "n13",
           "type": "table",
           "title": "Distinguish Between: Concave Lens and Convex Lens",
-          "headers": ["Concave Lens", "Convex Lens"],
+          "headers": [
+            "Concave Lens",
+            "Convex Lens"
+          ],
           "rows": [
-            ["Has its surfaces curved inwards.", "Has its surfaces puffed up outwards."],
-            ["Is thicker at the edges than in the middle.", "Is thicker in the middle than at the edges."],
-            ["Can form only a virtual image.", "Can form a real image as well as a virtual image."],
-            ["Can form only a diminished image.", "Can form a magnified, diminished or the same sized image depending on the position of the object."]
+            [
+              "Has its surfaces curved inwards.",
+              "Has its surfaces puffed up outwards."
+            ],
+            [
+              "Is thicker at the edges than in the middle.",
+              "Is thicker in the middle than at the edges."
+            ],
+            [
+              "Can form only a virtual image.",
+              "Can form a real image as well as a virtual image."
+            ],
+            [
+              "Can form only a diminished image.",
+              "Can form a magnified, diminished or the same sized image depending on the position of the object."
+            ]
           ]
         },
         {
@@ -1426,7 +1764,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "The image formed by a concave lens is always:",
-          "options": ["real and erect", "virtual and erect", "virtual and inverted", "real and inverted"],
+          "options": [
+            "real and erect",
+            "virtual and erect",
+            "virtual and inverted",
+            "real and inverted"
+          ],
           "correctAnswer": 1,
           "explanation": "A concave lens always forms a virtual, erect, diminished image.",
           "order": 1
@@ -1435,7 +1778,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "To get an image the same size as the object with a convex lens, the object should be at:",
-          "options": ["infinity", "beyond 2F₁", "between F₁ and 2F₁", "2F₁"],
+          "options": [
+            "infinity",
+            "beyond 2F₁",
+            "between F₁ and 2F₁",
+            "2F₁"
+          ],
           "correctAnswer": 3,
           "explanation": "At 2F₁, image forms at 2F₂, same size.",
           "order": 2
@@ -1444,7 +1792,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "The power of a convex lens of focal length 20 cm is:",
-          "options": ["+5.0 D", "0.20 D", "−5.0 D", "0.5 D"],
+          "options": [
+            "+5.0 D",
+            "0.20 D",
+            "−5.0 D",
+            "0.5 D"
+          ],
           "correctAnswer": 0,
           "explanation": "P = 1/0.20 m = +5.0 D.",
           "order": 3
@@ -1453,7 +1806,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "The ______ controls the amount of light entering the eye.",
-          "options": ["iris", "pupil", "cornea", "retina"],
+          "options": [
+            "iris",
+            "pupil",
+            "cornea",
+            "retina"
+          ],
           "correctAnswer": 1,
           "explanation": "The pupil's size regulates light entry.",
           "order": 4
@@ -1462,7 +1820,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "For the normal human eye, the near point is at about:",
-          "options": ["10 cm", "20 cm", "25 cm", "50 cm"],
+          "options": [
+            "10 cm",
+            "20 cm",
+            "25 cm",
+            "50 cm"
+          ],
           "correctAnswer": 2,
           "explanation": "Least distance of distinct vision is 25 cm.",
           "order": 5
@@ -1569,14 +1932,18 @@
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "The sulphide ores are strongly heated in air : Roasting : : The carbonate ores are strongly heated in a limited supply of air : ___",
-          "blanks": ["Calcination"]
+          "blanks": [
+            "Calcination"
+          ]
         },
         {
           "id": "n12",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Tinning : Tin : : Galvanizing : ___",
-          "blanks": ["Zinc"]
+          "blanks": [
+            "Zinc"
+          ]
         },
         {
           "id": "n13",
@@ -1627,7 +1994,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "______ is a metal in liquid form at ordinary temperature and pressure.",
-          "options": ["Magnesium", "Sodium", "Scandium", "Mercury"],
+          "options": [
+            "Magnesium",
+            "Sodium",
+            "Scandium",
+            "Mercury"
+          ],
           "correctAnswer": 3,
           "explanation": "Mercury is the only metal liquid at room temperature.",
           "order": 1
@@ -1636,7 +2008,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "Ores are strongly heated in a limited supply of air during:",
-          "options": ["leaching", "electrolysis", "roasting", "calcination"],
+          "options": [
+            "leaching",
+            "electrolysis",
+            "roasting",
+            "calcination"
+          ],
           "correctAnswer": 3,
           "explanation": "Calcination uses limited air; roasting uses excess air.",
           "order": 2
@@ -1645,7 +2022,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "Gold-plated ornaments are an example of:",
-          "options": ["electroplating", "alloying", "anodizing", "galvanizing"],
+          "options": [
+            "electroplating",
+            "alloying",
+            "anodizing",
+            "galvanizing"
+          ],
           "correctAnswer": 0,
           "explanation": "Electroplating uses electrolysis to coat gold.",
           "order": 3
@@ -1654,7 +2036,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "Bronze is an alloy of:",
-          "options": ["copper and tin", "copper and zinc", "copper and iron", "iron and nickel"],
+          "options": [
+            "copper and tin",
+            "copper and zinc",
+            "copper and iron",
+            "iron and nickel"
+          ],
           "correctAnswer": 0,
           "explanation": "Bronze = copper + tin.",
           "order": 4
@@ -1663,7 +2050,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "______ is used as the anode during electrolytic reduction of alumina.",
-          "options": ["Sulphur", "Graphite", "Platinum", "Aluminium"],
+          "options": [
+            "Sulphur",
+            "Graphite",
+            "Platinum",
+            "Aluminium"
+          ],
           "correctAnswer": 1,
           "explanation": "Graphite rods serve as the anode and erode over time.",
           "order": 5
@@ -1793,7 +2185,9 @@
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "Alkene : C=C : : Alkyne : ___",
-          "blanks": ["C≡C"]
+          "blanks": [
+            "C≡C"
+          ]
         },
         {
           "id": "n15",
@@ -1815,13 +2209,31 @@
           "id": "n16",
           "type": "table",
           "title": "Distinguish Between: Saturated and Unsaturated Hydrocarbons",
-          "headers": ["Saturated Hydrocarbons", "Unsaturated Hydrocarbons"],
+          "headers": [
+            "Saturated Hydrocarbons",
+            "Unsaturated Hydrocarbons"
+          ],
           "rows": [
-            ["Carbon atoms are linked to each other only by single covalent bonds.", "Carbon to carbon double or triple bonds are present."],
-            ["They contain only a single bond.", "They contain carbon to carbon double or triple bonds."],
-            ["They are chemically less reactive.", "They are chemically more reactive."],
-            ["Substitution reaction is a characteristic property.", "Addition reaction is a characteristic property."],
-            ["Their general formula is CₙH₂ₙ₊₂.", "Their general formula is CₙH₂ₙ or CₙH₂ₙ₋₂."]
+            [
+              "Carbon atoms are linked to each other only by single covalent bonds.",
+              "Carbon to carbon double or triple bonds are present."
+            ],
+            [
+              "They contain only a single bond.",
+              "They contain carbon to carbon double or triple bonds."
+            ],
+            [
+              "They are chemically less reactive.",
+              "They are chemically more reactive."
+            ],
+            [
+              "Substitution reaction is a characteristic property.",
+              "Addition reaction is a characteristic property."
+            ],
+            [
+              "Their general formula is CₙH₂ₙ₊₂.",
+              "Their general formula is CₙH₂ₙ or CₙH₂ₙ₋₂."
+            ]
           ]
         }
       ],
@@ -1857,7 +2269,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "The melting point of pure ethanoic acid is about:",
-          "options": ["17°C", "19°C", "15°C", "0°C"],
+          "options": [
+            "17°C",
+            "19°C",
+            "15°C",
+            "0°C"
+          ],
           "correctAnswer": 0,
           "explanation": "Pure ethanoic acid melts around 16-17°C.",
           "order": 1
@@ -1866,7 +2283,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "Direct bonding between atoms of the same element to form a chain is called:",
-          "options": ["catenation", "isomerism", "dehydration", "polymerization"],
+          "options": [
+            "catenation",
+            "isomerism",
+            "dehydration",
+            "polymerization"
+          ],
           "correctAnswer": 0,
           "explanation": "Unique property of carbon.",
           "order": 2
@@ -1875,7 +2297,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "In a homologous series, consecutive members differ by a mass of:",
-          "options": ["16 units", "20 units", "14 units", "12 units"],
+          "options": [
+            "16 units",
+            "20 units",
+            "14 units",
+            "12 units"
+          ],
           "correctAnswer": 2,
           "explanation": "Each −CH₂− unit adds 14u.",
           "order": 3
@@ -1884,7 +2311,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "The general formula of an alkene is:",
-          "options": ["CₙH₂ₙ", "CₙH₂ₙ₊₂", "CₙH₂ₙ₋₂", "CₙH₂ₙ₋₁"],
+          "options": [
+            "CₙH₂ₙ",
+            "CₙH₂ₙ₊₂",
+            "CₙH₂ₙ₋₂",
+            "CₙH₂ₙ₋₁"
+          ],
           "correctAnswer": 0,
           "explanation": "Alkenes follow CₙH₂ₙ due to one C=C bond.",
           "order": 4
@@ -1893,7 +2325,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "The reaction of methane with chlorine in sunlight is called a/an:",
-          "options": ["pyrolysis", "elimination reaction", "substitution reaction", "addition reaction"],
+          "options": [
+            "pyrolysis",
+            "elimination reaction",
+            "substitution reaction",
+            "addition reaction"
+          ],
           "correctAnswer": 2,
           "explanation": "Chlorine substitutes hydrogen atoms in methane.",
           "order": 5
@@ -2005,14 +2442,18 @@
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "INSAT : Weather satellite : : IRS : ___",
-          "blanks": ["Earth observation satellite"]
+          "blanks": [
+            "Earth observation satellite"
+          ]
         },
         {
           "id": "n13",
           "type": "fill_blank",
           "title": "Complete the correlation",
           "content": "IRNSS : Direction showing satellite : : INSAT : ___",
-          "blanks": ["Weather satellite"]
+          "blanks": [
+            "Weather satellite"
+          ]
         }
       ],
       "flashcards": [
@@ -2047,7 +2488,12 @@
           "id": "q1",
           "qType": "mcq",
           "question": "The functioning of the satellite launch vehicle is based on:",
-          "options": ["Newton's first law", "Newton's second law", "Newton's third law", "Newton's law of gravitation"],
+          "options": [
+            "Newton's first law",
+            "Newton's second law",
+            "Newton's third law",
+            "Newton's law of gravitation"
+          ],
           "correctAnswer": 2,
           "explanation": "Thrust from expelled gases (action-reaction) propels the rocket.",
           "order": 1
@@ -2056,7 +2502,12 @@
           "id": "q2",
           "qType": "mcq",
           "question": "______ is a satellite launch vehicle.",
-          "options": ["PSLV", "GSAT", "IRNSS", "INSAT"],
+          "options": [
+            "PSLV",
+            "GSAT",
+            "IRNSS",
+            "INSAT"
+          ],
           "correctAnswer": 0,
           "explanation": "PSLV launches satellites; GSAT/IRNSS/INSAT are satellites themselves.",
           "order": 2
@@ -2065,7 +2516,12 @@
           "id": "q3",
           "qType": "mcq",
           "question": "The minimum velocity for a spacecraft to escape earth's gravity is about:",
-          "options": ["8 km/s", "11.2 km/s", "1.12 km/s", "0.112 km/s"],
+          "options": [
+            "8 km/s",
+            "11.2 km/s",
+            "1.12 km/s",
+            "0.112 km/s"
+          ],
           "correctAnswer": 1,
           "explanation": "Matches earth's escape velocity.",
           "order": 3
@@ -2074,7 +2530,12 @@
           "id": "q4",
           "qType": "mcq",
           "question": "A geostationary satellite revolves in which plane of the earth?",
-          "options": ["Polar plane", "Equatorial plane", "Meridian plane", "Any random plane"],
+          "options": [
+            "Polar plane",
+            "Equatorial plane",
+            "Meridian plane",
+            "Any random plane"
+          ],
           "correctAnswer": 1,
           "explanation": "This is why it's unsuitable for polar observation.",
           "order": 4
@@ -2083,7 +2544,12 @@
           "id": "q5",
           "qType": "mcq",
           "question": "Non-essential objects like defunct satellites and launcher parts orbiting earth are called:",
-          "options": ["Meteoroids", "Space debris", "Asteroids", "Cosmic dust"],
+          "options": [
+            "Meteoroids",
+            "Space debris",
+            "Asteroids",
+            "Cosmic dust"
+          ],
           "correctAnswer": 1,
           "explanation": "Definition of space debris.",
           "order": 5

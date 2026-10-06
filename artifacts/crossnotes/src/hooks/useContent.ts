@@ -19,14 +19,27 @@ export type { SubjectMeta };
 // no discriminated-union boilerplate to fight with.
 export type NoteBlockType =
   | "paragraph" | "heading" | "list" | "table"
-  | "fill_blank" | "match_column" | "true_false" | "qna" | "rules" | "diagram" | "markdown";
+  | "fill_blank" | "match_column" | "true_false" | "qna" | "rules"
+  | "diagram" | "figure" | "callout" | "markdown";
 
 /** One branch of a "diagram" block. Can also just be a plain string (shorthand
- *  for { label } with no sub-note). */
+ *  for { label } with no sub-note). Supports one level of nested `children`. */
 export interface DiagramBranch {
   label: string;
   note?: string; // optional short sub-line under the branch label
+  children?: (DiagramBranch | string | null)[];
 }
+
+/** Pinned callout on a figure — x/y are % of the image box (0–100). */
+export interface FigureLabel {
+  text: string;
+  x: number;
+  y: number;
+  /** Optional side hint for the label chip (default: near the pin). */
+  side?: "left" | "right" | "top" | "bottom";
+}
+
+export type CalloutKind = "tip" | "definition" | "formula" | "warning";
 
 export interface StaticNote {
   id: string;
@@ -65,15 +78,19 @@ export interface StaticNote {
   // type: "rules" — numbered official instructions (e.g. board paper rules)
   rules?: string[];
 
-  // type: "diagram" — a root node with up to 9 branches. `title` (or
-  // `diagramRoot` if you want it distinct from the card title) is the
-  // centre node. Provide up to 9 entries in `branches` — a slot that is
-  // `null` (or just omitted, leaving fewer than 9 entries) is skipped
-  // entirely and never renders, so a fixed 9-slot array can be filled in
-  // partially without leaving empty boxes on screen. Each entry is either
-  // a plain string or a { label, note? } object.
+  // type: "diagram" — root + branches (optional nested children). `title` or
+  // `diagramRoot` is the centre node. Null/blank branch slots are skipped.
   diagramRoot?: string;
   branches?: (DiagramBranch | string | null)[];
+
+  // type: "figure" — textbook-style image with optional pinned labels
+  figureSrc?: string;        // public path, e.g. /figures/gravitation-force.svg
+  figureAlt?: string;
+  figureCaption?: string;
+  figureLabels?: FigureLabel[];
+
+  // type: "callout" — exam tip / definition / formula / warning
+  calloutKind?: CalloutKind;
 }
 
 export interface StaticChapterOverview {

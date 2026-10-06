@@ -164,7 +164,7 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
                 <div className={`chapter-actions${!hasFlashcards && !hasQuiz ? ' is-single' : ''}`} onClick={(e) => e.stopPropagation()}>
           <Link href={`/notes/${slug}/${chapter.id}`} className="chapter-actions-link">
             <button className={`clay-btn-ghost chapter-actions-btn${solutionCount ? ' is-solution-cta' : ''}`}>
-              {chapter.kind === 'paper' ? <FileText size={14} /> : <BookOpen size={14} />} {chapter.kind === 'paper' ? 'Paper' : solutionCount ? `Open ${solutionCount} solution sets` : 'Notes'}
+              {chapter.kind === 'paper' ? <FileText size={14} /> : <BookOpen size={14} />} {chapter.kind === 'paper' ? 'Paper' : 'Open notes'}
             </button>
           </Link>
           {hasFlashcards && (

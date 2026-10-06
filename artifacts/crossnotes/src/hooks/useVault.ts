@@ -56,6 +56,10 @@ async function loadVault(slug: string): Promise<VaultSubjectContent | null> {
         const m = await import("@/data/vault/vault-geography.json");
         return m.default as VaultSubjectContent;
       }
+      case "scout-and-guide": {
+        const m = await import("@/data/vault/vault-scout-and-guide.json");
+        return m.default as VaultSubjectContent;
+      }
       default:
         return null;
     }

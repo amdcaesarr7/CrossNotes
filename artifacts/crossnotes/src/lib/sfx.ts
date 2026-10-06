@@ -130,4 +130,33 @@ export const sfx = {
       tone(659, 0.1, 0.18, { peakGain: 0.14 });
     });
   },
+  /** Soft success chime when the PWA lands on the home screen. */
+  installSuccess() {
+    guarded(() => {
+      tone(523.25, 0, 0.1, { peakGain: 0.12 });
+      tone(659.25, 0.08, 0.12, { peakGain: 0.14 });
+      tone(783.99, 0.16, 0.18, { peakGain: 0.15 });
+    });
+  },
+  /** Warm 2-note chime when notes chapter is completed. */
+  noteComplete() {
+    guarded(() => {
+      tone(587.33, 0, 0.1, { type: "triangle", peakGain: 0.14 });
+      tone(880, 0.09, 0.16, { type: "triangle", peakGain: 0.16 });
+    });
+  },
+  /** Rewarding 4-step chime when finishing a quiz or flashcards set. */
+  sessionDone() {
+    guarded(() => {
+      [523.25, 659.25, 783.99, 1046.5].forEach((f, i) =>
+        tone(f, i * 0.08, 0.14, { type: "sine", peakGain: 0.15 })
+      );
+    });
+  },
+  /** Subtle, warm tap sound for interactive chips/buttons. */
+  uiTap() {
+    guarded(() => {
+      tone(600, 0, 0.03, { type: "sine", peakGain: 0.06 });
+    });
+  },
 };

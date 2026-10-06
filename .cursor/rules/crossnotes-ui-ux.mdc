@@ -1,0 +1,33 @@
+---
+description: CrossNotes UI/UX and study-product rules — prevent chrome clutter, bad diagrams, and punishing streaks
+globs: artifacts/crossnotes/**/*
+alwaysApply: false
+---
+
+# CrossNotes UI/UX (agent rules)
+
+Full rules: `docs/DESIGN_RULES.md`. Roadmap: `docs/UX_OVERHAUL_PLAN.md`. Follow those; this file is the short enforce list.
+
+## Never do
+
+- Add theme/sound toggles (or other “quick settings”) to `AppHeader` — Settings only.
+- Rotate/skew cards or stack neon/glow decoration on study content.
+- Dump multiple widgets into the Dashboard first viewport (keep one primary CTA).
+- Attach streaks to app-open; shame users for broken streaks; remove freeze education.
+- Ship decorative images or diagrams with labels far from the figure.
+- Play SFX on every navigation/click; host remote audio URLs for core SFX.
+- Invent a second settings/install UI parallel to the existing Settings/install sheet.
+
+## Always do
+
+- One job per screen; prefs in Settings; install = platform-correct PWA flow.
+- Notes: readable type; `figure` / labeled `diagram` with spatial contiguity; expand large figures.
+- Sounds for learning events only; mute owned by Settings.
+- Streaks for real study completions; recovery + freeze clarity; update `DESIGN_RULES.md` if formula changes.
+- Kill decorative card rotation (subjects/stats/tilts).
+- Prefer `--elev-0/1/2` over thick clay offset shadows on content.
+- Dashboard first viewport: greeting + streak/XP + one primary CTA only.
+
+## Before finishing UI work
+
+Run the checklist in `docs/DESIGN_RULES.md` §8 mentally and fix violations.

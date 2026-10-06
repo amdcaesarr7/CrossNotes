@@ -58,4 +58,6 @@ artifacts/crossnotes/.env
 artifacts/crossnotes/.env.*
 !artifacts/crossnotes/.env.example
 *.zip
+*.deb
+amdcaesarr7-psychic-spoon/
 

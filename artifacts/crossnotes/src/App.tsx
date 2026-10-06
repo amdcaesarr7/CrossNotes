@@ -6,8 +6,8 @@ import { ThemeProvider } from '@/contexts/ThemeContext';
 import { SoundProvider } from '@/contexts/SoundContext';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import AuthStartupGate from '@/components/AuthStartupGate';
-import AppInstallPrompt from '@/components/AppInstallPrompt';
 import FirstUseTour from '@/components/FirstUseTour';
+import InstallSoftPrompt from '@/components/InstallSoftPrompt';
 import MewCompanion from '@/components/MewCompanion';
 import OfflineNotice from '@/components/OfflineNotice';
 import { Toaster } from 'sonner';
@@ -61,7 +61,7 @@ export default function App() {
                   </WouterRouter>
                 </Suspense>
                 <FirstUseTour />
-                <AppInstallPrompt />
+                <InstallSoftPrompt />
                 <MewCompanion />
                 <OfflineNotice />
                 <Toaster richColors position="top-center" />

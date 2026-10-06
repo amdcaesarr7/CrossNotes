@@ -1,13 +1,9 @@
-/** Claymorphic account control: Progress belongs in the tactile profile menu, not in persistent navigation. */
+/** Account + Settings entry — prefs live in Settings, not header quick toggles. */
 import { useEffect, useState } from 'react';
 import { Link } from 'wouter';
 import {
   BookOpen,
   Coins,
-  Volume2,
-  VolumeX,
-  Sun,
-  Moon,
   MessageSquareText,
   X,
   Bug,
@@ -23,20 +19,17 @@ import {
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { useAuth } from '@/contexts/AuthContext';
-import { useTheme } from '@/contexts/ThemeContext';
-import { useSound } from '@/contexts/SoundContext';
 import { useUserProfile } from '@/hooks/useFirestore';
 import { submitFeedback, type FeedbackKind } from '@/lib/feedback';
 import { googleAvatarUrl } from '@/lib/utils';
+import { VOICE } from '@/lib/voice';
+import SettingsDialog from '@/components/SettingsDialog';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 
@@ -52,21 +45,20 @@ const feedbackKinds: Array<{
   description: string;
   icon: typeof Lightbulb;
 }> = [
-  { id: 'idea', label: 'Share an idea', description: 'Tell us what would make studying better.', icon: Lightbulb },
-  { id: 'bug', label: 'Report a bug', description: 'Help us fix something that feels off.', icon: Bug },
-  { id: 'encouragement', label: 'Send some love', description: 'A quick note for the CrossNotes team.', icon: HeartHandshake },
+  { id: 'idea', label: 'Idea dump', description: 'What would make grinding less painful?', icon: Lightbulb },
+  { id: 'bug', label: 'Bug report', description: 'Something broke. Roast it constructively.', icon: Bug },
+  { id: 'encouragement', label: 'Send love', description: 'Rare. Appreciated. We screenshot these.', icon: HeartHandshake },
 ];
 
 export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps) {
   const { user, signInWithGoogle, logout, isFirebaseReady } = useAuth();
-  const { isDark, toggleDark } = useTheme();
-  const { soundOn, toggleSound } = useSound();
   const { profile } = useUserProfile(user?.uid);
   const coins = profile?.coins ?? 0;
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [feedbackKind, setFeedbackKind] = useState<FeedbackKind>('idea');
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
 
   const handleSignOut = () => {
     if (user && window.confirm(`Signed in as ${user.displayName}.\n\nSign out?`)) logout();
@@ -95,7 +87,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
   const handleSubmitFeedback = async () => {
     const cleanedMessage = message.trim();
     if (!cleanedMessage) {
-      toast.error('Add a little detail so we know how to help.');
+      toast.error('Type something — psychic mode is still in beta.');
       return;
     }
 
@@ -107,7 +99,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
     });
     setSubmitted(true);
     setMessage('');
-    toast.success('Feedback received. Thank you for helping CrossNotes grow.');
+    toast.success('Got it. Chaos documented.');
   };
 
   return (
@@ -146,16 +138,6 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
               </div>
             </Link>
           )}
-          <button onClick={openFeedback} className="feedback-launcher" aria-label="Send feedback" title="Send feedback">
-            <MessageSquareText size={17} aria-hidden="true" />
-            <span className="hidden sm:inline">Feedback</span>
-          </button>
-          <button onClick={toggleSound} className="app-header-icon-btn" aria-label={soundOn ? 'Mute sound effects' : 'Unmute sound effects'} title={soundOn ? 'Sound on' : 'Sound off'}>
-            {soundOn ? <Volume2 size={18} aria-hidden="true" /> : <VolumeX size={18} aria-hidden="true" />}
-          </button>
-          <button onClick={toggleDark} className="app-header-icon-btn" aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}>
-            {isDark ? <Sun size={18} aria-hidden="true" /> : <Moon size={18} aria-hidden="true" />}
-          </button>
           {user ? (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -174,39 +156,39 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem asChild className="account-menu-item account-progress-item">
-                  <Link href="/progress"><BarChart3 size={17} aria-hidden="true" /> <span>Progress</span></Link>
+                  <Link href="/progress"><BarChart3 size={17} aria-hidden="true" /> <span>{VOICE.accountProgress}</span></Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild className="account-menu-item">
-                  <Link href="/credits"><BadgeInfo size={17} aria-hidden="true" /> <span>Credits &amp; sources</span></Link>
+                  <Link href="/credits"><BadgeInfo size={17} aria-hidden="true" /> <span>{VOICE.accountCredits}</span></Link>
                 </DropdownMenuItem>
-                <DropdownMenuSub>
-                  <DropdownMenuSubTrigger className="account-menu-item account-settings-trigger">
-                    <Settings2 size={17} aria-hidden="true" /> <span>Settings</span>
-                  </DropdownMenuSubTrigger>
-                  <DropdownMenuSubContent className="account-settings-menu" sideOffset={10} alignOffset={-6}>
-                    <DropdownMenuLabel className="account-settings-heading">Quick settings</DropdownMenuLabel>
-                    <DropdownMenuItem className="account-setting-toggle" onSelect={toggleDark}>
-                      {isDark ? <Sun size={16} aria-hidden="true" /> : <Moon size={16} aria-hidden="true" />}
-                      <span>{isDark ? 'Use light appearance' : 'Use dark appearance'}</span>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem className="account-setting-toggle" onSelect={toggleSound}>
-                      {soundOn ? <Volume2 size={16} aria-hidden="true" /> : <VolumeX size={16} aria-hidden="true" />}
-                      <span>{soundOn ? 'Sound effects on' : 'Sound effects off'}</span>
-                    </DropdownMenuItem>
-                  </DropdownMenuSubContent>
-                </DropdownMenuSub>
+                <DropdownMenuItem className="account-menu-item account-settings-item" onSelect={() => setSettingsOpen(true)}>
+                  <Settings2 size={17} aria-hidden="true" /> <span>{VOICE.accountSettings}</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem className="account-menu-item account-settings-item" onSelect={() => openFeedback()}>
+                  <MessageSquareText size={17} aria-hidden="true" /> <span>{VOICE.feedbackMenu}</span>
+                </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem className="account-menu-item account-signout-item" onSelect={handleSignOut}>
-                  <LogOut size={17} aria-hidden="true" /> <span>Sign out</span>
+                  <LogOut size={17} aria-hidden="true" /> <span>{VOICE.accountSignOut}</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           ) : (
-            <button onClick={signInWithGoogle} className="avatar-btn" title="Sign in with Google" aria-label="Sign in with Google">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M15 3H19a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H15" /><polyline points="10 17 15 12 10 7" /><line x1="15" y1="12" x2="3" y2="12" />
-              </svg>
-            </button>
+            <>
+              <button
+                onClick={() => setSettingsOpen(true)}
+                className="app-header-icon-btn"
+                aria-label="Open settings"
+                title="Settings"
+              >
+                <Settings2 size={18} aria-hidden="true" />
+              </button>
+              <button onClick={signInWithGoogle} className="avatar-btn" title="Sign in with Google" aria-label="Sign in with Google">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M15 3H19a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H15" /><polyline points="10 17 15 12 10 7" /><line x1="15" y1="12" x2="3" y2="12" />
+                </svg>
+              </button>
+            </>
           )}
         </div>
       </header>
@@ -218,17 +200,17 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
             {submitted ? (
               <div className="feedback-success">
                 <div className="feedback-success-icon"><CheckCircle2 size={32} /></div>
-                <span className="feedback-kicker"><Sparkles size={14} /> Message delivered</span>
-                <h2 id="feedback-title">You made CrossNotes better.</h2>
-                <p>Thanks for taking a moment to help us build a calmer, smarter study space.</p>
-                <button className="clay-btn feedback-primary-action" onClick={closeFeedback}>Back to studying</button>
+                <span className="feedback-kicker"><Sparkles size={14} /> Delivered</span>
+                <h2 id="feedback-title">{VOICE.feedbackSuccessTitle}</h2>
+                <p>{VOICE.feedbackSuccessBody}</p>
+                <button className="clay-btn feedback-primary-action" onClick={closeFeedback}>{VOICE.feedbackBack}</button>
               </div>
             ) : (
               <>
                 <div className="feedback-modal-heading">
-                  <span className="feedback-kicker"><MessageSquareText size={14} /> Your voice shapes the app</span>
-                  <h2 id="feedback-title">What should we improve?</h2>
-                  <p>Pick a path, then share the thought in your own words. No forms to wrestle with.</p>
+                  <span className="feedback-kicker"><MessageSquareText size={14} /> {VOICE.feedbackMenu}</span>
+                  <h2 id="feedback-title">{VOICE.feedbackTitle}</h2>
+                  <p>{VOICE.feedbackLead}</p>
                 </div>
                 <div className="feedback-kind-grid">
                   {feedbackKinds.map(({ id, label, description, icon: Icon }) => (
@@ -239,19 +221,30 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
                   ))}
                 </div>
                 <label className="feedback-field">
-                  <span>Tell us a little more <em>·</em></span>
-                  <textarea value={message} onChange={(event) => setMessage(event.target.value)} placeholder={feedbackKind === 'bug' ? 'What happened, and what did you expect?' : 'What is on your mind?'} maxLength={600} autoFocus />
+                  <span>Details <em>·</em></span>
+                  <textarea
+                    value={message}
+                    onChange={(event) => setMessage(event.target.value)}
+                    placeholder={feedbackKind === 'bug' ? 'What broke, and what did you expect?' : 'What’s on your mind?'}
+                    maxLength={600}
+                    autoFocus
+                  />
                   <small>{message.length}/600</small>
                 </label>
                 <div className="feedback-modal-footer">
-                  <span className="feedback-privacy">Saved on this device · {user ? 'signed-in context included' : 'anonymous'}</span>
-                  <button className="clay-btn" onClick={handleSubmitFeedback}><Send size={16} /> Send feedback</button>
+                  <span className="feedback-privacy">Saved here · {user ? 'signed-in context included' : 'anonymous'}</span>
+                  <button className="clay-btn" onClick={handleSubmitFeedback}><Send size={16} /> {VOICE.feedbackSend}</button>
                 </div>
               </>
             )}
           </section>
         </div>
       )}
+      <SettingsDialog
+        open={settingsOpen}
+        onClose={() => setSettingsOpen(false)}
+        onFeedback={user ? undefined : () => { setSettingsOpen(false); openFeedback(); }}
+      />
     </>
   );
 }

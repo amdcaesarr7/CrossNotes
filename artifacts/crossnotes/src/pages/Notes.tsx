@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { Loader2, CheckCircle2, LayoutList, FileText, PenSquare, Shuffle, ToggleLeft, HelpCircle, Sparkles, Target } from 'lucide-react';
+import { Loader2, CheckCircle2, LayoutList, FileText, PenSquare, Shuffle, ToggleLeft, HelpCircle, Sparkles, Target, BookOpen } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -8,6 +8,7 @@ import { markNotesRead } from '@/hooks/useFirestore';
 import { useStaticSubject, useStaticChapter, useStaticNotes } from '@/hooks/useContent';
 import { useHead, useBreadcrumb, getChapterMeta } from '@/hooks/useSeo';
 import { celebrateActivityResult } from '@/lib/celebrate';
+import { sfx } from '@/lib/sfx';
 import NoteBlockRenderer from '@/components/NoteBlockRenderer';
 import MathsPracticeLibrary from '@/components/MathsPracticeLibrary';
 import { isImportedSolution } from '@/lib/importedSolutions';
@@ -57,6 +58,7 @@ export default function Notes() {
       const result = await markNotesRead(user.uid, chapterId, { subjectSlug: slug, chapterName: chapter?.title });
       setMarked(true);
       if (result.xp > 0) {
+        sfx.noteComplete();
         const boostTag = result.boostMultiplier > 1 ? ` (🧪 ${result.boostMultiplier}x boosted!)` : '';
         toast.success(`+${result.xp} XP · +${result.coinsEarned} coins! Notes locked in. 🧠${boostTag}`);
       } else toast('Already done! No double XP. 👀');
@@ -83,9 +85,15 @@ export default function Notes() {
           <p className="text-xs font-black uppercase tracking-wider mb-1" style={{ color: 'var(--primary)' }}>
             {subject?.name} · {isPaper ? 'Question Paper' : 'Notes'}
           </p>
-          <h1 className="font-display font-black text-xl leading-tight" style={{ color: 'var(--text)' }}>
-            {chapter?.title ?? 'Loading…'}
-          </h1>
+          <div className="notes-reading-heading">
+            <div>
+              <h1 className="font-display font-black text-xl leading-tight" style={{ color: 'var(--text)' }}>
+                {chapter?.title ?? 'Loading…'}
+              </h1>
+              <p className="notes-reading-subtitle">A clear path through the chapter, one idea at a time.</p>
+            </div>
+            <span className="notes-reading-mark" aria-hidden="true"><BookOpen size={16} /></span>
+          </div>
           {isMathsPracticeLibrary ? (
             <div className="solution-study-strip" aria-label={`${mathsSolutionNotes.length} Maths Practice and Problem Sets`}>
               <span className="solution-study-icon"><Sparkles size={15} /></span>

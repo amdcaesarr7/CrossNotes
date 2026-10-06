@@ -8,6 +8,7 @@ public/vault/
   papers/<subject-slug>/<file>.pdf        e.g. papers/geography/2023-july-en.pdf
   study-assets/<subject-slug>/<file>.pdf  e.g. study-assets/geography/formula-sheet.pdf
   study-assets/general/<file>.pdf         cross-subject assets not tied to one subject
+  sup secret/<file>.pdf                   PIN-gated collection (casual UI lock only)
 ```
 
 Then reference the same path as `sourceUrl` in the matching
@@ -21,6 +22,11 @@ Official textbook links (eBalbharati) and open-resource links (DIKSHA/NROER)
 should stay as external URLs in `sourceUrl` instead — don't put those PDFs
 here, the Vault only mirrors content Sunny is allowed to host directly
 (past papers already reproduced/OCR'd, and Sunny's own study assets).
+
+The `sup secret/` files are listed in `vault-super-secret-stuffs-inside.json`.
+That shelf asks for a PIN in the UI, but these static files remain publicly
+accessible by URL; use server-side authorization and private storage if actual
+access control is required.
 
 Two placeholder entries in `vault-geography.json` and `vault-general.json`
 point at files that don't exist yet in this folder — drop the real PDFs in

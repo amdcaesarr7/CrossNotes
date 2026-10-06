@@ -268,21 +268,6 @@ export default function Subject() {
           </div>
         </div>
 
-        <section className="clay-card p-5" aria-labelledby="subject-overview">
-          <h2 id="subject-overview" className="font-display font-black text-lg" style={{ color: 'var(--text)' }}>What you will learn</h2>
-          <p className="text-sm leading-relaxed mt-2" style={{ color: 'var(--text-muted)' }}>{subject.seoDescription}</p>
-          <ul className="grid gap-2 mt-4 sm:grid-cols-3">
-            {subject.learningFocus.map((point) => <li key={point} className="text-sm font-semibold flex gap-2" style={{ color: 'var(--text)' }}><span style={{ color: 'var(--primary)' }}>✓</span>{point}</li>)}
-          </ul>
-          <nav aria-label="Related subjects" className="flex flex-wrap gap-2 mt-5 pt-4" style={{ borderTop: '1px solid var(--divider)' }}>
-            <span className="text-xs font-bold uppercase tracking-wide w-full" style={{ color: 'var(--text-muted)' }}>Explore related subjects</span>
-            {['science-1', 'science-2', 'maths-1', 'maths-2', 'history', 'geography'].filter((relatedSlug) => relatedSlug !== slug).slice(0, 4).map((relatedSlug) => {
-              const related = getSubjectBySlug(relatedSlug);
-              return related ? <Link key={related.slug} href={`/subject/${related.slug}`} className="badge badge-new">{related.name}</Link> : null;
-            })}
-          </nav>
-        </section>
-
         {!subject.isLive && (
           <div className="clay-card p-4 flex items-start gap-3" style={{ background: '#fef3c7', borderColor: '#fcd34d' }}>
             <AlertTriangle size={18} style={{ color: '#92400e', flexShrink: 0, marginTop: 1 }} />

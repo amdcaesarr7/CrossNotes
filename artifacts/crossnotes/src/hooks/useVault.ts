@@ -60,6 +60,10 @@ async function loadVault(slug: string): Promise<VaultSubjectContent | null> {
         const m = await import("@/data/vault/vault-scout-and-guide.json");
         return m.default as VaultSubjectContent;
       }
+      case "super-secret-stuffs-inside": {
+        const m = await import("@/data/vault/vault-super-secret-stuffs-inside.json");
+        return m.default as VaultSubjectContent;
+      }
       default:
         return null;
     }

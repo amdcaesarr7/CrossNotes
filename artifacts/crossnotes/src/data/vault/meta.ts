@@ -22,6 +22,13 @@ export const SPECIAL_SHELVES: VaultShelfMeta[] = [
     color: 'social',
     description: 'Scout and Guide syllabus and reference material',
   },
+  {
+    slug: 'super-secret-stuffs-inside',
+    name: 'Super secret stuffs inside',
+    emoji: '🔐',
+    color: 'gold',
+    description: 'Extra SSC papers and writing practice',
+  },
 ];
 
 export function getSpecialShelf(slug: string): VaultShelfMeta | undefined {

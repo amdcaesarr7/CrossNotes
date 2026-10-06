@@ -1,5 +1,7 @@
+import { useState, type FormEvent } from 'react';
 import { useParams } from 'wouter';
 import { Link } from 'wouter';
+import { LockKeyhole } from 'lucide-react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useStaticSubject } from '@/hooks/useContent';
 import { useVaultSubsections } from '@/hooks/useVault';
@@ -14,6 +16,10 @@ export default function VaultSubject() {
   const { isDark } = useTheme();
   const params = useParams<{ slug: string }>();
   const slug = params.slug || '';
+  const isSecretShelf = slug === 'super-secret-stuffs-inside';
+  const [isUnlocked, setIsUnlocked] = useState(false);
+  const [pin, setPin] = useState('');
+  const [pinError, setPinError] = useState('');
 
   const isGeneral = slug === 'general';
   const subject = useStaticSubject(slug);
@@ -38,6 +44,7 @@ export default function VaultSubject() {
   useHead({
     title: `${meta.name} Resources — ${meta.description ?? 'Study Material'} | CrossNotes`,
     description: `Browse ${meta.name} study resources and materials in the CrossNotes Resource Vault. ${meta.description ?? ''}`,
+    noIndex: isSecretShelf,
   });
   useBreadcrumb([
     { name: 'Home', url: '/' },
@@ -47,6 +54,64 @@ export default function VaultSubject() {
 
   const colorKey = meta.color || 'gold';
   const totalEntries = subsections.reduce((n, s) => n + (s.entries?.length ?? 0), 0);
+
+  function handlePinSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (pin === '9568') {
+      setIsUnlocked(true);
+      setPin('');
+      setPinError('');
+      return;
+    }
+    setPin('');
+    setPinError('That PIN did not match. Try again.');
+  }
+
+  if (isSecretShelf && !isUnlocked) {
+    return (
+      <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>
+        <AppHeader backHref="/vault" backLabel="Vault" />
+        <main className="page-content" style={{ maxWidth: 680 }}>
+          <form
+            className="clay-card p-6 flex flex-col items-center gap-4 text-center"
+            style={{ background: `var(--${colorKey}-bg)`, borderColor: `var(--${colorKey}-border)` }}
+            onSubmit={handlePinSubmit}
+          >
+            <LockKeyhole size={36} style={{ color: 'var(--primary)' }} aria-hidden="true" />
+            <div>
+              <h1 className="font-display font-black text-xl" style={{ color: 'var(--text)' }}>Enter the four-digit PIN</h1>
+              <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>Unlock this collection of extra study PDFs.</p>
+            </div>
+            <label className="sr-only" htmlFor="secret-vault-pin">Four-digit PIN</label>
+            <input
+              id="secret-vault-pin"
+              className="w-40 rounded-xl border-2 px-4 py-3 text-center text-xl tracking-[0.5em]"
+              style={{ background: 'var(--bg-card)', borderColor: 'var(--divider)', color: 'var(--text)' }}
+              type="password"
+              inputMode="numeric"
+              autoComplete="off"
+              pattern="[0-9]{4}"
+              maxLength={4}
+              value={pin}
+              onChange={event => {
+                setPin(event.target.value.replace(/\D/g, '').slice(0, 4));
+                setPinError('');
+              }}
+              aria-invalid={!!pinError}
+              aria-describedby={pinError ? 'secret-vault-pin-error' : undefined}
+              required
+            />
+            {pinError && <p id="secret-vault-pin-error" className="text-sm text-red-600" role="alert">{pinError}</p>}
+            <button className="clay-btn" type="submit" disabled={pin.length !== 4}>Unlock</button>
+            <p className="text-xs max-w-sm" style={{ color: 'var(--text-muted)' }}>
+              This is a casual screen lock only; the PDFs are not protected from direct access.
+            </p>
+          </form>
+        </main>
+        <BottomNav />
+      </div>
+    );
+  }
 
   return (
     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>

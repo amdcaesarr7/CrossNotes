@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from 'react';
-import { HelpCircle, ClipboardList, GitBranch, ImageIcon, Lightbulb, BookOpen, FunctionSquare, AlertTriangle, Maximize2 } from 'lucide-react';
+import { HelpCircle, ClipboardList, GitBranch, ImageIcon, Lightbulb, BookOpen, FunctionSquare, AlertTriangle, Maximize2, BookmarkCheck } from 'lucide-react';
 import type { CalloutKind, DiagramBranch, StaticNote } from '@/hooks/useContent';
 import MathSolutionRenderer from '@/components/MathSolutionRenderer';
 import FigureLightbox from '@/components/FigureLightbox';
@@ -121,8 +121,9 @@ function NoteCard({ note, index, children }: { note: StaticNote; index: number; 
   return (
     <div id={`note-${note.id}`} className={`note-card${note.important ? ' important' : ''}${isImportedSolution(note) ? ' solution-note' : ''}`}>
       {note.important && (
-        <div className="note-exam-focus" aria-label="Exam focus">
-          Exam focus
+        <div className="note-high-yield" aria-label="High-yield reminder">
+          <BookmarkCheck size={14} aria-hidden="true" />
+          <span>Worth remembering</span>
         </div>
       )}
       {note.title && (

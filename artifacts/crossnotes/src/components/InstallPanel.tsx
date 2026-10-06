@@ -51,17 +51,29 @@ export default function InstallPanel({ variant = 'settings', onInstalled }: Inst
         </ul>
       )}
 
-      {canInstall ? (
-        soft ? null : (
-          <div className="settings-install-cta">
-            <span className="settings-row-copy">
-              <strong>{VOICE.installTitle}</strong>
-              <small>{VOICE.installHint}</small>
-            </span>
-            <button type="button" className="clay-btn settings-install-btn" onClick={() => { void handleInstall(); }}>
-              <Download size={15} /> {VOICE.installBtn}
-            </button>
-          </div>
+      {!soft && (
+        <div className="settings-install-cta">
+          <span className="settings-row-copy">
+            <strong>{VOICE.installTitle}</strong>
+            <small>{VOICE.installHint}</small>
+          </span>
+          <button
+            type="button"
+            className="clay-btn settings-install-btn"
+            onClick={() => { void handleInstall(); }}
+            disabled={!canInstall}
+            aria-label={VOICE.installTitle}
+          >
+            <Download size={15} /> {VOICE.installBtn}
+          </button>
+        </div>
+      )}
+
+      {canInstall || soft ? (
+        soft && canInstall && (
+          <p className="settings-guide-copy" style={{ marginTop: 0 }}>
+            {VOICE.installHint}
+          </p>
         )
       ) : (
         <>
@@ -76,10 +88,17 @@ export default function InstallPanel({ variant = 'settings', onInstalled }: Inst
         </>
       )}
 
-      {soft && canInstall && (
-        <p className="settings-guide-copy" style={{ marginTop: soft ? 0 : undefined }}>
-          {VOICE.installHint}
-        </p>
+      {!soft && !canInstall && (
+        <>
+          <p className="settings-guide-copy">
+            {ios ? VOICE.softInstallIosHint : VOICE.installGuide}
+          </p>
+          <div className="settings-guide-steps" aria-label="Install instructions">
+            <div><MoreHorizontal size={15} /><span>{VOICE.installStep1}</span></div>
+            <div>{ios ? <Share2 size={15} /> : <Download size={15} />}<span>{ios ? VOICE.installStep2Ios : VOICE.installStep2Other}</span></div>
+            <div><PlusSquare size={15} /><span>{VOICE.installStep3}</span></div>
+          </div>
+        </>
       )}
     </div>
   );

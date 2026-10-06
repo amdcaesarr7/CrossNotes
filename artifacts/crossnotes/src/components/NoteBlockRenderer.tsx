@@ -171,9 +171,10 @@ function getQuestionSetSections(content: string): QuestionSetSection[] {
 
 function QuestionSetBlock({ note, index }: { note: StaticNote; index: number }) {
   const sections = getQuestionSetSections(note.content ?? '');
+  const title = note.title?.replace(/^2026 Question Set \d+:\s*/, '');
 
   return (
-    <NoteCard note={note} index={index}>
+    <NoteCard note={{ ...note, title }} index={index}>
       <div className="qna-container">
         {sections.map((section, sectionIndex) => {
           if (section.kind === 'heading') {

@@ -22,6 +22,7 @@ const SUBTYPE_META: Record<string, { label: string; icon: typeof PenSquare }> = 
   match_column: { label: 'Match the Following',  icon: Shuffle },
   true_false:   { label: 'True or False',        icon: ToggleLeft },
   qna:          { label: 'Q & A',                icon: HelpCircle },
+  answer_sets:  { label: 'Question & Answer Sets', icon: HelpCircle },
   table:        { label: 'Tables',               icon: LayoutList },
   rules:        { label: 'Official Rules',       icon: FileText },
 };

@@ -138,7 +138,11 @@ function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
                 entry.source.printedPage !== undefined && `Book p. ${entry.source.printedPage}`,
                 entry.source.pdfPage !== undefined && `PDF p. ${entry.source.pdfPage}`,
               ].filter(Boolean).join(' · ');
-              const question = parseAnswerSetQuestion(compactAnswerSetText(entry.question), isOddOneOutSet);
+              const question = parseAnswerSetQuestion(
+                compactAnswerSetText(entry.question),
+                isOddOneOutSet,
+                entry.questionTag,
+              );
               const answer = compactAnswerSetText(
                 entry.answer?.trim() || entry.unavailableReason || 'No answer was supplied for this entry.',
               );
@@ -158,9 +162,6 @@ function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
                             </div>
                           ))}
                         </div>
-                      )}
-                      {question.suffix && (
-                        <span className="answer-set-tag">{question.suffix}</span>
                       )}
                       {entry.questionTag && <span className="answer-set-tag">{entry.questionTag}</span>}
                       {sourcePages && <span className="answer-set-source">{sourcePages}</span>}
@@ -188,29 +189,35 @@ interface ParsedQuestionOption {
 interface ParsedAnswerSetQuestion {
   prompt: string;
   options: ParsedQuestionOption[];
-  suffix: string;
 }
 
 function compactAnswerSetText(text: string): string {
   return text.replace(/\n{2,}/g, '\n');
 }
 
-function parseAnswerSetQuestion(question: string, isOddOneOutSet: boolean): ParsedAnswerSetQuestion {
+function parseAnswerSetQuestion(
+  question: string,
+  isOddOneOutSet: boolean,
+  questionTag?: string,
+): ParsedAnswerSetQuestion {
   const markers = Array.from(question.matchAll(/(?:^|\s)\(([A-Da-d])\)\s*/g));
   if (markers.length >= 2) {
     const options = markers.map((marker, index) => {
       const start = marker.index! + marker[0].length;
       const end = markers[index + 1]?.index ?? question.length;
+      let text = question.slice(start, end).trim();
+      if (index === markers.length - 1 && questionTag) {
+        const tag = questionTag.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        text = text.replace(new RegExp(`\\s*\\(\\s*${tag}\\s*\\)\\s*$`, 'i'), '').trim();
+      }
       return {
         label: `(${marker[1].toUpperCase()})`,
-        text: question.slice(start, end).trim(),
+        text,
       };
     }).filter(option => option.text.length > 0);
-    const lastMarker = markers[markers.length - 1];
     return {
       prompt: question.slice(0, markers[0].index).trim(),
       options,
-      suffix: question.slice(lastMarker.index! + lastMarker[0].length).trim(),
     };
   }
 
@@ -218,7 +225,6 @@ function parseAnswerSetQuestion(question: string, isOddOneOutSet: boolean): Pars
     const numberedQuestion = question.match(/^(\s*\(\d+\)\s*)([\s\S]*)$/);
     let list = numberedQuestion?.[2] ?? question;
     const date = list.match(/\s*\((?=[^)]*(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b)[^)]*\)\s*$/i);
-    const suffix = date?.[0].trim() ?? '';
     if (date) list = list.slice(0, date.index).trim();
     const choices = list.split(/,\s*/).map(choice => choice.trim()).filter(Boolean);
     if (choices.length >= 3) {
@@ -228,12 +234,11 @@ function parseAnswerSetQuestion(question: string, isOddOneOutSet: boolean): Pars
           label: `(${String.fromCharCode(97 + index)})`,
           text: text.replace(/\.\s*$/, ''),
         })),
-        suffix,
       };
     }
   }
 
-  return { prompt: question, options: [], suffix: '' };
+  return { prompt: question, options: [] };
 }
 
 type QuestionSetSection = {

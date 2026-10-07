@@ -143,7 +143,7 @@ export default function Notes() {
               <MathsPracticeLibrary notes={mathsSolutionNotes} chapterTitle={chapter?.title ?? 'Maths chapter'} />
             ) : (
               notes.map((note, i) => (
-                <NoteBlockRenderer key={note.id} note={note} index={i} />
+                <NoteBlockRenderer key={note.id} note={note} index={i} subjectSlug={slug} />
               ))
             )}
 

@@ -1107,6 +1107,43 @@ a:hover .tilt-left, a:hover .tilt-right { transform: translateY(-2px); }
   border-radius: var(--r-sm);
   background: var(--primary-light);
 }
+.science-2-answer-sets .answer-set-entry {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--divider);
+}
+.science-2-answer-sets .answer-set-entry:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.science-2-answer-sets .answer-set-answer-parts {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+.science-2-answer-sets .answer-set-answer-part {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+  padding: 8px 10px;
+  border: 1px solid var(--primary-border);
+  border-radius: 10px;
+  background: var(--bg-card);
+}
+.science-2-answer-sets .answer-set-answer-part .note-prose {
+  flex: 1;
+  min-width: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.science-2-answer-sets .answer-set-answer-label {
+  flex: 0 0 auto;
+  color: var(--primary);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
 .answer-set-copy {
   display: flex;
   flex: 1;

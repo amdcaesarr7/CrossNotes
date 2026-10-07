@@ -10,7 +10,7 @@ import { isImportedSolution } from '@/lib/importedSolutions';
  *
  *  NOTE: study blocks are for READING, not testing — Quiz handles retrieval.
  *  fill_blank / match_column / true_false / qna show answers directly. */
-export default function NoteBlockRenderer({ note, index }: { note: StaticNote; index: number }) {
+export default function NoteBlockRenderer({ note, index, subjectSlug }: { note: StaticNote; index: number; subjectSlug?: string }) {
   if (isImportedSolution(note)) {
     return (
       <NoteCard note={note} index={index}>
@@ -90,7 +90,7 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
       return <QnaBlock note={note} index={index} />;
 
     case 'answer_sets':
-      return <AnswerSetsBlock note={note} index={index} />;
+      return <AnswerSetsBlock note={note} index={index} separateSubanswers={subjectSlug === 'science-2'} />;
 
     case 'rules':
       return <RulesBlock note={note} index={index} />;
@@ -123,14 +123,14 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
   }
 }
 
-function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
+function AnswerSetsBlock({ note, index, separateSubanswers }: { note: StaticNote; index: number; separateSubanswers: boolean }) {
   const groups = note.answerGroups ?? [];
   const hasEntries = groups.some(group => group.entries.length > 0);
   const isOddOneOutSet = /odd one out/i.test(note.title ?? '');
 
   return (
     <NoteCard note={{ ...note, title: undefined }} index={index}>
-      <div className="answer-sets">
+      <div className={`answer-sets${separateSubanswers ? ' science-2-answer-sets' : ''}`}>
         {hasEntries ? groups.map(group => (
           <div className="answer-set-group" key={group.id}>
             {group.entries.map(entry => {
@@ -146,6 +146,7 @@ function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
               const answer = compactAnswerSetText(
                 entry.answer?.trim() || entry.unavailableReason || 'No answer was supplied for this entry.',
               );
+              const answerParts = separateSubanswers ? parseAnswerSetAnswer(answer) : undefined;
 
               return (
                 <section className="answer-set-entry" key={entry.id}>
@@ -169,7 +170,18 @@ function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
                   </div>
                   <div className="answer-set-answer">
                     <span className="qna-badge qna-badge-a">Ans.</span>
-                    <p className="note-prose">{answer}</p>
+                    {answerParts ? (
+                      <div className="answer-set-answer-parts">
+                        {answerParts.map(part => (
+                          <div className="answer-set-answer-part" key={part.label}>
+                            <span className="answer-set-answer-label">{part.label}</span>
+                            <p className="note-prose">{part.text}</p>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="note-prose">{answer}</p>
+                    )}
                   </div>
                 </section>
               );
@@ -179,6 +191,29 @@ function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
       </div>
     </NoteCard>
   );
+}
+
+interface ParsedAnswerSetAnswerPart {
+  label: string;
+  text: string;
+}
+
+function parseAnswerSetAnswer(answer: string): ParsedAnswerSetAnswerPart[] | undefined {
+  const markers = Array.from(answer.matchAll(/(?:^|\s)\(([a-z])\)\s*/gi));
+  if (
+    markers.length < 2 ||
+    markers[0][1].toLowerCase() !== 'a' ||
+    markers.some((marker, index) => marker[1].toLowerCase().charCodeAt(0) !== 97 + index)
+  ) return undefined;
+
+  return markers.map((marker, index) => {
+    const start = marker.index! + marker[0].length;
+    const end = markers[index + 1]?.index ?? answer.length;
+    return {
+      label: `(${marker[1].toLowerCase()})`,
+      text: answer.slice(start, end).trim(),
+    };
+  }).filter(part => part.text.length > 0);
 }
 
 interface ParsedQuestionOption {

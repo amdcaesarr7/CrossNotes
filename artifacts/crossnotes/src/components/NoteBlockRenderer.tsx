@@ -126,6 +126,7 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
 function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
   const groups = note.answerGroups ?? [];
   const hasEntries = groups.some(group => group.entries.length > 0);
+  const isOddOneOutSet = /odd one out/i.test(note.title ?? '');
 
   return (
     <NoteCard note={{ ...note, title: undefined }} index={index}>
@@ -137,22 +138,37 @@ function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
                 entry.source.printedPage !== undefined && `Book p. ${entry.source.printedPage}`,
                 entry.source.pdfPage !== undefined && `PDF p. ${entry.source.pdfPage}`,
               ].filter(Boolean).join(' · ');
+              const question = parseAnswerSetQuestion(compactAnswerSetText(entry.question), isOddOneOutSet);
+              const answer = compactAnswerSetText(
+                entry.answer?.trim() || entry.unavailableReason || 'No answer was supplied for this entry.',
+              );
 
               return (
                 <section className="answer-set-entry" key={entry.id}>
                   <div className="answer-set-question">
                     <span className="qna-badge qna-badge-q">Q.</span>
                     <div className="answer-set-copy">
-                      <p className="note-prose">{entry.question}</p>
+                      {question.prompt && <p className="note-prose">{question.prompt}</p>}
+                      {question.options.length > 0 && (
+                        <div className="answer-set-options" aria-label="Question options">
+                          {question.options.map(option => (
+                            <div className="answer-set-option" key={option.label}>
+                              {option.label && <span className="answer-set-option-label">{option.label}</span>}
+                              <span>{option.text}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                      {question.suffix && (
+                        <span className="answer-set-tag">{question.suffix}</span>
+                      )}
                       {entry.questionTag && <span className="answer-set-tag">{entry.questionTag}</span>}
                       {sourcePages && <span className="answer-set-source">{sourcePages}</span>}
                     </div>
                   </div>
                   <div className="answer-set-answer">
                     <span className="qna-badge qna-badge-a">Ans.</span>
-                    <p className="note-prose">
-                      {entry.answer?.trim() || entry.unavailableReason || 'No answer was supplied for this entry.'}
-                    </p>
+                    <p className="note-prose">{answer}</p>
                   </div>
                 </section>
               );
@@ -162,6 +178,62 @@ function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
       </div>
     </NoteCard>
   );
+}
+
+interface ParsedQuestionOption {
+  label: string;
+  text: string;
+}
+
+interface ParsedAnswerSetQuestion {
+  prompt: string;
+  options: ParsedQuestionOption[];
+  suffix: string;
+}
+
+function compactAnswerSetText(text: string): string {
+  return text.replace(/\n{2,}/g, '\n');
+}
+
+function parseAnswerSetQuestion(question: string, isOddOneOutSet: boolean): ParsedAnswerSetQuestion {
+  const markers = Array.from(question.matchAll(/(?:^|\s)\(([A-Da-d])\)\s*/g));
+  if (markers.length >= 2) {
+    const options = markers.map((marker, index) => {
+      const start = marker.index! + marker[0].length;
+      const end = markers[index + 1]?.index ?? question.length;
+      return {
+        label: `(${marker[1].toUpperCase()})`,
+        text: question.slice(start, end).trim(),
+      };
+    }).filter(option => option.text.length > 0);
+    const lastMarker = markers[markers.length - 1];
+    return {
+      prompt: question.slice(0, markers[0].index).trim(),
+      options,
+      suffix: question.slice(lastMarker.index! + lastMarker[0].length).trim(),
+    };
+  }
+
+  if (isOddOneOutSet) {
+    const numberedQuestion = question.match(/^(\s*\(\d+\)\s*)([\s\S]*)$/);
+    let list = numberedQuestion?.[2] ?? question;
+    const date = list.match(/\s*\((?=[^)]*(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b)[^)]*\)\s*$/i);
+    const suffix = date?.[0].trim() ?? '';
+    if (date) list = list.slice(0, date.index).trim();
+    const choices = list.split(/,\s*/).map(choice => choice.trim()).filter(Boolean);
+    if (choices.length >= 3) {
+      return {
+        prompt: numberedQuestion ? numberedQuestion[1].trim() : '',
+        options: choices.map((text, index) => ({
+          label: `(${String.fromCharCode(97 + index)})`,
+          text: text.replace(/\.\s*$/, ''),
+        })),
+        suffix,
+      };
+    }
+  }
+
+  return { prompt: question, options: [], suffix: '' };
 }
 
 type QuestionSetSection = {

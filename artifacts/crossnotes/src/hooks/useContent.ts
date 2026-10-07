@@ -20,7 +20,25 @@ export type { SubjectMeta };
 export type NoteBlockType =
   | "paragraph" | "heading" | "list" | "table"
   | "fill_blank" | "match_column" | "true_false" | "qna" | "rules"
-  | "diagram" | "figure" | "callout" | "markdown";
+  | "diagram" | "figure" | "callout" | "markdown" | "answer_sets";
+
+export interface StaticAnswerSetEntry {
+  id: string;
+  question: string;
+  answer?: string;
+  unavailableReason?: string;
+  questionTag?: string;
+  source?: {
+    printedPage?: number;
+    pdfPage?: number;
+  };
+}
+
+/** Entries remain grouped in source order; group identifiers are never rendered. */
+export interface StaticAnswerSetGroup {
+  id: string;
+  entries: StaticAnswerSetEntry[];
+}
 
 /** One branch of a "diagram" block. Can also just be a plain string (shorthand
  *  for { label } with no sub-note). Supports one level of nested `children`. */
@@ -74,6 +92,9 @@ export interface StaticNote {
   // type: "qna"
   question?: string;
   qnaAnswer?: string;
+
+  // type: "answer_sets" — grouped question/answer entries; group IDs are internal.
+  answerGroups?: StaticAnswerSetGroup[];
 
   // type: "rules" — numbered official instructions (e.g. board paper rules)
   rules?: string[];

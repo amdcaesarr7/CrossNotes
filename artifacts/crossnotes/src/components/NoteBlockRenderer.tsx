@@ -89,6 +89,9 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
     case 'qna':
       return <QnaBlock note={note} index={index} />;
 
+    case 'answer_sets':
+      return <AnswerSetsBlock note={note} index={index} />;
+
     case 'rules':
       return <RulesBlock note={note} index={index} />;
 
@@ -118,6 +121,47 @@ export default function NoteBlockRenderer({ note, index }: { note: StaticNote; i
         </NoteCard>
       );
   }
+}
+
+function AnswerSetsBlock({ note, index }: { note: StaticNote; index: number }) {
+  const groups = note.answerGroups ?? [];
+  const hasEntries = groups.some(group => group.entries.length > 0);
+
+  return (
+    <NoteCard note={{ ...note, title: undefined }} index={index}>
+      <div className="answer-sets">
+        {hasEntries ? groups.map(group => (
+          <div className="answer-set-group" key={group.id}>
+            {group.entries.map(entry => {
+              const sourcePages = entry.source && [
+                entry.source.printedPage !== undefined && `Book p. ${entry.source.printedPage}`,
+                entry.source.pdfPage !== undefined && `PDF p. ${entry.source.pdfPage}`,
+              ].filter(Boolean).join(' · ');
+
+              return (
+                <section className="answer-set-entry" key={entry.id}>
+                  <div className="answer-set-question">
+                    <span className="qna-badge qna-badge-q">Q.</span>
+                    <div className="answer-set-copy">
+                      <p className="note-prose">{entry.question}</p>
+                      {entry.questionTag && <span className="answer-set-tag">{entry.questionTag}</span>}
+                      {sourcePages && <span className="answer-set-source">{sourcePages}</span>}
+                    </div>
+                  </div>
+                  <div className="answer-set-answer">
+                    <span className="qna-badge qna-badge-a">Ans.</span>
+                    <p className="note-prose">
+                      {entry.answer?.trim() || entry.unavailableReason || 'No answer was supplied for this entry.'}
+                    </p>
+                  </div>
+                </section>
+              );
+            })}
+          </div>
+        )) : <p className="note-prose">No answer entries have been added.</p>}
+      </div>
+    </NoteCard>
+  );
 }
 
 type QuestionSetSection = {

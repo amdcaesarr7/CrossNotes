@@ -61,3 +61,13 @@ artifacts/crossnotes/.env.*
 *.deb
 amdcaesarr7-psychic-spoon/
 
+# Local environment & deployment
+.env.clean
+.env.local
+.env.production
+*.env
+!.env.example
+.vercel/
+.directory
+*.kate-swp
+

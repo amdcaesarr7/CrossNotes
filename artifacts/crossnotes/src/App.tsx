@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Switch, Route, Router as WouterRouter } from 'wouter';
+import { Analytics } from '@vercel/analytics/react';
 import { AuthProvider } from '@/contexts/AuthContext';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { SoundProvider } from '@/contexts/SoundContext';
@@ -33,6 +34,7 @@ export default function App() {
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   return (
     <ErrorBoundary>
+      <Analytics />
       <QueryClientProvider client={queryClient}>
         <AuthProvider>
           <ThemeProvider>

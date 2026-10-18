@@ -157,8 +157,43 @@
       ]
     },
     "subsec2": {},
-    "subsec3": {},
-    "subsec4": {},
+    "subsec3": {
+      "title": "Official Textbook",
+      "emoji": "\ud83d\udcd8",
+      "entries": [
+        {
+          "id": "mar-textbook-official",
+          "title": "Marathi Textbook",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Textbook/marathi.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec4": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "\ud83c\udf10",
+      "entries": [
+        {
+          "id": "mar-diksha",
+          "title": "DIKSHA: Marathi",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312526597240512512241200",
+          "status": "Browse Your way"
+        },
+        {
+          "id": "mar-diksha-grammar",
+          "title": "DIKSHA: Marathi Grammar",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312526597240512512241200",
+          "status": "Browse Your way"
+        }
+      ]
+    },
     "subsec5": {}
   }
 }

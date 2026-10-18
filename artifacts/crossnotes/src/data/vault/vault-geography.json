@@ -146,8 +146,35 @@
         }
       ]
     },
-    "subsec2": {},
-    "subsec3": {},
+    "subsec2": {
+      "title": "Official Textbook",
+      "emoji": "\ud83d\udcd8",
+      "entries": [
+        {
+          "id": "geo-textbook-official",
+          "title": "Geography Textbook",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "https://ebooks.ebalbharati.in/pdfs/1003020011.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec3": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "\ud83c\udf10",
+      "entries": [
+        {
+          "id": "geo-diksha-population",
+          "title": "DIKSHA: Population & Density explainer",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528261465899008254502",
+          "status": "verified"
+        }
+      ]
+    },
     "subsec4": {},
     "subsec5": {}
   }

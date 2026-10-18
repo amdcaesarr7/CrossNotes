@@ -166,8 +166,35 @@
         }
       ]
     },
-    "subsec2": {},
-    "subsec3": {},
+    "subsec2": {
+      "title": "Official Textbook",
+      "emoji": "\ud83d\udcd8",
+      "entries": [
+        {
+          "id": "his-textbook-official",
+          "title": "History Textbook",
+          "kind": "textbook",
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Textbook/history.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec3": {
+      "title": "Open Resources (DIKSHA / NROER)",
+      "emoji": "\ud83c\udf10",
+      "entries": [
+        {
+          "id": "geo-diksha-population",
+          "title": "DIKSHA: History",
+          "kind": "open_resource",
+          "license": "CC BY-SA",
+          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528261465899008254502",
+          "status": "Browse your way"
+        }
+      ]
+    },
     "subsec4": {},
     "subsec5": {}
   }

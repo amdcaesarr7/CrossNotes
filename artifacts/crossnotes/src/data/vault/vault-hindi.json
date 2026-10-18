@@ -1,89 +1,64 @@
 {
   "subsections": {
     "subsec1": {
+      "title": "Past Board Papers",
+      "emoji": "\ud83d\udcc4",
       "entries": [
         {
-          "id": "hindi-pp-HIN-C-FEB-2026-QP",
-          "title": "HIN C FEB 2026 QP",
+          "id": "hindi-pp-21-hindi-composite-feb-2026-qp",
+          "title": "21 Hindi-Composite Feb 2026 QP",
           "kind": "past_paper",
           "year": 2026,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20FEB%202026%20QP.pdf",
+          "sourceUrl": "/vault/Hindi-Composite/21%20Hindi-Composite%20Feb%202026%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "hindi-pp-HIN-C-MAR-2020-QP",
-          "title": "HIN C MAR 2020 QP",
+          "id": "hindi-pp-21-hindi-composite-mar-2020-qp",
+          "title": "21 Hindi-Composite Mar 2020 QP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20MAR%202020%20QP.pdf",
+          "sourceUrl": "/vault/Hindi-Composite/21%20Hindi-Composite%20Mar%202020%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "hindi-pp-HIN-C-MAR-2022-QP",
-          "title": "HIN C MAR 2022 QP",
+          "id": "hindi-pp-21-hindi-composite-mar-2022-qp",
+          "title": "21 Hindi-Composite Mar 2022 QP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20MAR%202022%20QP.pdf",
+          "sourceUrl": "/vault/Hindi-Composite/21%20Hindi-Composite%20Mar%202022%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "hindi-pp-HIN-C-MAR-2023-QP",
-          "title": "HIN C MAR 2023 QP",
+          "id": "hindi-pp-21-hindi-composite-mar-2023-qp",
+          "title": "21 Hindi-Composite Mar 2023 QP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20MAR%202023%20QP.pdf",
+          "sourceUrl": "/vault/Hindi-Composite/21%20Hindi-Composite%20Mar%202023%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "hindi-pp-HIN-C-MAR-2024-QP",
-          "title": "HIN C MAR 2024 QP",
+          "id": "hindi-pp-21-hindi-composite-mar-2024-qp",
+          "title": "21 Hindi-Composite Mar 2024 QP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20MAR%202024%20QP.pdf",
+          "sourceUrl": "/vault/Hindi-Composite/21%20Hindi-Composite%20Mar%202024%20QP.pdf",
           "status": "verified"
         }
       ]
     },
     "subsec2": {},
-    "subsec3": {
-      "title": "Official Textbook",
-      "emoji": "\ud83d\udcd8",
-      "entries": [
-        {
-          "id": "hin-textbook-official",
-          "title": "Hindi Textbook",
-          "kind": "textbook",
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/Textbook/hindi.pdf",
-          "status": "verified"
-        }
-      ]
-    },
-    "subsec4": {
-      "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "\ud83c\udf10",
-      "entries": [
-        {
-          "id": "hin-diksha-grammar",
-          "title": "DIKSHA: Hindi Grammar",
-          "kind": "open_resource",
-          "license": "CC BY-SA",
-          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528047013011456246981",
-          "status": "Browse Your way"
-        }
-      ]
-    },
+    "subsec3": {},
+    "subsec4": {},
     "subsec5": {}
   }
 }

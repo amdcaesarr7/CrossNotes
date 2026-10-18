@@ -1,28 +1,541 @@
 {
   "chapters": [
     {
-      "id": "ch1",
+      "id": "eng-ch1",
       "num": 1,
-      "title": "Grammar Basics",
-      "emoji": "📖",
+      "title": "Exam Pattern & Study Tips",
+      "emoji": "🎯",
       "notes": [
         {
-          "id": "n1",
-          "title": "Parts of Speech",
-          "content": "Words are grouped into parts of speech such as nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections.",
+          "id": "eng1-n1",
+          "title": "Format of the Activity Sheet",
+          "content": "**Total Marks:** 80 | **Total Time:** 180 min\n\n1. **(A) Language Study** (08 Marks, 10 min) \n   **(B) Language Study** (02 Marks, 05 min)\n2. **(A) Comprehension of Textual Passage** (10 Marks, 15 min) \n   **(B) Comprehension of Textual Passage** (10 Marks, 15 min)\n3. **(A) Comprehension of Poem/Extract** (05 Marks, 10 min) \n   **(B) Appreciation of Poem** (05 Marks, 10 min)\n4. **(A) Non-textual Passage for Comprehension** (10 Marks, 20 min) \n   **(B) Summary of Passage for Comprehension** (05 Marks, 10 min)\n5. **Letter Writing (Formal OR Informal)** (05 Marks, 15 min)\n6. **(A) Information Transfer: Verbal to Non-verbal OR Non-verbal to Verbal** (05 Marks, 15 min) \n   **(B) Views/Counterview OR Drafting a Speech** (05 Marks, 15 min)\n7. **(A) Expand the theme: Expansion of Proverbs/Maxims/Quotations/Slogans OR News Report based on the given headline** (05 Marks, 15 min) \n   **(B) Developing a Story OR Narrating an experience with a given beginning/ending** (05 Marks, 15 min)\n   **Review of solved Activity Sheet** (10 min)",
+          "important": true
+        },
+        {
+          "id": "eng1-n2",
+          "title": "General Instructions & Study Tips",
+          "content": "*   **General:** Read each poem/lesson as many times as you can. Study all activities in the textbook. The wording may differ, but the content will be based on the textbook.\n*   **Comprehension:** Be familiar with every lesson (Prose and Poetry). Solve ALL side panel activities and 'English Workshop' questions.\n*   **Vocabulary:** Solve all vocabulary exercises. Learn meanings of words and phrases from every lesson. Practise forming nouns, verbs, adjectives, adverbs. Learn antonyms, prefixes, and suffixes.\n*   **Grammar:** Brush up on grammar. Learn Transformation of Sentences (use 'no sooner... than', add question tag, frame wh- questions, remove 'too', use 'unless', remove 'not'). Learn different tenses, prepositions, adverbs, articles. Grammar and Vocabulary carry 22 marks total—aim for full marks.\n*   **Poetry:** Mark out figures of speech and rhyme schemes while revising. Repeatedly read the appreciation of all poems beforehand.\n*   **Summary:** Understand what to include and exclude. Read the instructions in Question Set 5.\n*   **Writing Skills:** Read as many topics as you can in addition to the textbook. Keep your general knowledge and knowledge of current topics good.",
           "important": true
         }
       ],
       "flashcards": [
-        { "id": "f1", "front": "What is a noun?", "back": "A noun names a person, place, thing, or idea — basically anything you could point at, or almost point at.", "order": 1 }
+        {
+          "id": "eng1-f1",
+          "front": "What is the total mark and time for the English (HL) Activity Sheet?",
+          "back": "80 Marks, 180 Minutes.",
+          "order": 1
+        },
+        {
+          "id": "eng1-f2",
+          "front": "How many marks are dedicated to Grammar and Vocabulary?",
+          "back": "22 marks.",
+          "order": 2
+        }
       ],
       "quiz": [
         {
-          "id": "q1",
-          "question": "Which word is a noun?",
-          "options": ["run", "quickly", "school", "beautiful"],
+          "id": "eng1-q1",
+          "question": "What is the total time allotted for the English (HL) Activity Sheet?",
+          "options": ["120 minutes", "150 minutes", "180 minutes", "200 minutes"],
           "correctAnswer": 2,
-          "explanation": "School is the name of a place, so it's a noun — sorry, no way around going there.",
+          "explanation": "The total time given is 180 minutes (3 hours).",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "eng-ch2",
+      "num": 2,
+      "title": "Language Study",
+      "emoji": "📝",
+      "notes": [
+        {
+          "id": "eng2-n1",
+          "title": "Q.1 (A) A1. Simple Activities (Any 4, 1 mark each)",
+          "content": "Topics include: Compound words, Pick out Infinitives/Gerund/Present Participles, Punctuate the sentence, Find hidden words, Make sentences from given phrase, Spot the error and rewrite, Identify the type of sentence, Word chain of nouns/verbs/adjectives, Form present/past participle where last letter is doubled, Arrange words in Alphabetical order.",
+          "important": false
+        },
+        {
+          "id": "eng2-n2",
+          "title": "Example: Pick out the infinitive from the following sentence: He was asking to go for the concert.",
+          "content": "to go",
+          "important": true
+        },
+        {
+          "id": "eng2-n3",
+          "title": "Example: Identify the type of the sentence: Get out and wait in the yard.",
+          "content": "Imperative sentence",
+          "important": true
+        },
+        {
+          "id": "eng2-n4",
+          "title": "Q.1 (A) A2. Medium Level Activities (Any 2, 2 marks each)",
+          "content": "Topics include: Homographs, Homophones, Direct-Indirect narration, Conversion of tenses, Change the voice, Word register.",
+          "important": false
+        },
+        {
+          "id": "eng2-n5",
+          "title": "Example: The king said to the hermit, \"Who are the people I most need?\" (Rewrite the sentence in indirect speech.)",
+          "content": "The king asked the hermit who were the people he most needed.",
+          "important": true
+        },
+        {
+          "id": "eng2-n6",
+          "title": "Q.1 (B) Challenging Activities (Any 1, 2 marks)",
+          "content": "Topics include: Usage of words in noun and verb form, Clause Analysis/Synthesis/Transformation, Degree of Comparison, Modal Auxiliaries, Use of two words in one meaningful sentence.",
+          "important": false
+        },
+        {
+          "id": "eng2-n7",
+          "title": "Example: Make two different sentences to bring out the difference between homophones : wear, ware",
+          "content": "(a) I like to wear bright clothes. (b) The cooking ware we bought for the new house was expensive.",
+          "important": true
+        },
+        {
+          "id": "eng2-n8",
+          "title": "Example: Identify the subordinate clause and state its type : When the train had gone, I found myself standing alone on the deserted platform.",
+          "content": "When the train had gone - Subordinate adverb clause of time.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "eng2-f1",
+          "front": "We must keep our promises. (Pick out the modal auxiliary and state its function)",
+          "back": "must - compulsion",
+          "order": 1
+        },
+        {
+          "id": "eng2-f2",
+          "front": "What is an infinitive?",
+          "back": "The base form of a verb preceded by 'to' (e.g., to go, to sleep).",
+          "order": 2
+        }
+      ],
+      "quiz": [
+        {
+          "id": "eng2-q1",
+          "question": "Identify the type of sentence: 'Please close the door.'",
+          "options": ["Declarative", "Interrogative", "Imperative", "Exclamatory"],
+          "correctAnswer": 2,
+          "explanation": "An imperative sentence gives a command or makes a request.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "eng-ch3",
+      "num": 3,
+      "title": "Seen Passages",
+      "emoji": "📖",
+      "notes": [
+        {
+          "id": "eng3-n1",
+          "title": "How to attempt Seen Passages",
+          "content": "1. Read the activities first, then the passage.\n2. **A1/B1 (Simple Factual - 2 marks):** Objective type (True/False, Fill in the blanks, Match columns, Complete the web). Answers are directly in the passage.\n3. **A2/B2 (Complex Factual - 2 marks):** Information transfer, Wh- questions. Answers found in different parts of the passage.\n4. **A3/B3 (Vocabulary - 2 marks):** Meanings, opposites, word forms.\n5. **A4/B4 (Contextual Grammar - 2 marks):** Tenses, voice, narration based on the passage.\n6. **A5/B5 (Personal Response - 2 marks):** Your opinion/views on an issue arising from the passage.",
+          "important": true
+        },
+        {
+          "id": "eng3-n2",
+          "title": "Lesson 1.2 The Thief's Story - A1. Complete the following",
+          "content": "(i) The 'I' in the story refers to the narrator, who called himself Hari Singh. (ii) Anil kept Hari as a cook because he wanted someone to cook for him. He perhaps also felt sorry for Hari.",
+          "important": true
+        },
+        {
+          "id": "eng3-n3",
+          "title": "Lesson 1.2 The Thief's Story - A2. Complete the web diagram: Anil's virtues",
+          "content": "kind, easy-going, pleasant, simple",
+          "important": true
+        },
+        {
+          "id": "eng3-n4",
+          "title": "Anil's Virtues Web Diagram",
+          "content": "<svg width='400' height='300' xmlns='http://www.w3.org/2000/svg'><rect x='150' y='120' width='100' height='60' fill='#e2e8f0' stroke='#4a5568'/><text x='200' y='145' font-family='Arial' font-size='12' text-anchor='middle' font-weight='bold'>Anil's virtues</text><rect x='50' y='40' width='80' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='90' y='60' font-family='Arial' font-size='12' text-anchor='middle'>kind</text><line x1='200' y1='120' x2='130' y2='70' stroke='black'/><rect x='270' y='40' width='80' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='310' y='60' font-family='Arial' font-size='12' text-anchor='middle'>easy-going</text><line x1='250' y1='150' x2='270' y2='60' stroke='black'/><rect x='270' y='230' width='80' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='310' y='250' font-family='Arial' font-size='12' text-anchor='middle'>pleasant</text><line x1='250' y1='180' x2='270' y2='240' stroke='black'/><rect x='50' y='230' width='80' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='90' y='250' font-family='Arial' font-size='12' text-anchor='middle'>simple</text><line x1='200' y1='180' x2='130' y2='240' stroke='black'/></svg>",
+          "important": true
+        },
+        {
+          "id": "eng3-n5",
+          "title": "Lesson 2.5 Let's March - B1. True or False",
+          "content": "(i) Kailash Satyarthi sees children growing freely with dignity. -> True\n(ii) Let us march from morality to divinity. -> False",
+          "important": true
+        },
+        {
+          "id": "eng3-n6",
+          "title": "Lesson 2.5 Let's March - B2. Complete the given diagram: Children's Rights",
+          "content": "Right to life, right to freedom, right to health, right to education, right to safety, right to dignity, right to equality, and right to peace.",
+          "important": true
+        },
+        {
+          "id": "eng3-n7",
+          "title": "Children's Rights Tree Diagram",
+          "content": "<svg width='400' height='200' xmlns='http://www.w3.org/2000/svg'><rect x='125' y='140' width='150' height='40' fill='#e2e8f0' stroke='#4a5568'/><text x='200' y='165' font-family='Arial' font-size='14' text-anchor='middle' font-weight='bold'>Children's Rights</text><line x1='200' y1='140' x2='50' y2='50' stroke='black' marker-end='url(#arrow)'/><line x1='200' y1='140' x2='150' y2='50' stroke='black' marker-end='url(#arrow)'/><line x1='200' y1='140' x2='250' y2='50' stroke='black' marker-end='url(#arrow)'/><line x1='200' y1='140' x2='350' y2='50' stroke='black' marker-end='url(#arrow)'/><circle cx='50' cy='35' r='25' fill='white' stroke='black'/><circle cx='150' cy='35' r='25' fill='white' stroke='black'/><circle cx='250' cy='35' r='25' fill='white' stroke='black'/><circle cx='350' cy='35' r='25' fill='white' stroke='black'/><defs><marker id='arrow' markerWidth='10' markerHeight='10' refX='10' refY='3' orient='auto'><path d='M0,0 L0,6 L9,3 z' fill='black'/></marker></defs></svg>",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "eng3-f1",
+          "front": "I can't pay you. (Make it affirmative.)",
+          "back": "I am unable to pay you.",
+          "order": 1
+        },
+        {
+          "id": "eng3-f2",
+          "front": "What are the qualities of Anil in 'The Thief's Story'?",
+          "back": "Kind, easy-going, pleasant, simple.",
+          "order": 2
+        }
+      ],
+      "quiz": [
+        {
+          "id": "eng3-q1",
+          "question": "In 'The Thief's Story', why did Anil keep Hari as a cook?",
+          "options": ["Because Hari was an excellent chef", "Because Anil wanted someone to cook and felt sorry for him", "Because Anil needed a partner for his business", "Because Hari threatened him"],
+          "correctAnswer": 1,
+          "explanation": "Anil wanted someone to cook for him and perhaps also felt sorry for Hari.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "eng-ch4",
+      "num": 4,
+      "title": "Seen Poems & Appreciation",
+      "emoji": "📜",
+      "notes": [
+        {
+          "id": "eng4-n1",
+          "title": "How to attempt Poetry (Q.3 A & B)",
+          "content": "**Q.3 (A) Comprehension:**\n*   **A1 (Simple Factual - 2 marks):** True/False, Match columns, Complete the web.\n*   **A2 (Complex Factual - 2 marks):** Wh- questions, explain meanings.\n*   **A3 (Poetic Devices - 1 mark):** Identify figures of speech, rhyme scheme, etc.\n\n**Q.3 (B) Appreciation (5 marks):**\nWrite in paragraph format covering: Title (1/2), Poet (1/2), Rhyme scheme (1), Figures of speech (1), Central idea/Theme (2).",
+          "important": true
+        },
+        {
+          "id": "eng4-n2",
+          "title": "Appreciation: Where the Mind is Without Fear",
+          "content": "The poem 'Where the mind is without fear' is written by Nobel Laureate Rabindranath Tagore. The poem is written in free verse without any rhyme scheme or consistent metre. There are many figures of speech e.g. Repetition, Metaphor, Alliteration, etc. which add to the poetic effects. An important figure of speech is Personification - 'Where tireless striving stretches its arms towards perfection'. Here, the poet has personified 'tireless striving' which stretches its arms to reach its goal. The poem is a prayer to God. Tagore addresses God as 'my Father' and appeals to Him to awaken his country into a heaven of freedom.",
+          "important": true
+        },
+        {
+          "id": "eng4-n3",
+          "title": "Appreciation: All the World's a Stage",
+          "content": "The poem 'All the World's a Stage' is by William Shakespeare. It is taken from Shakespeare's play 'As you like it'. It is a monologue by one of the characters in the play. The poem is written in blank verse i.e. there is no rhyme scheme, but there is a steady rhythm of five beats in each line. There are many figures of speech, like Simile, Alliteration and Repetition, but the one that stands out is Metaphor. In the lines 'All the world's a stage, And all men and women are merely players', there is an implied comparison between two different things. In this poem, Shakespeare compares life to a stage. He has divided life into seven stages, each having its own varied qualities and features. The theme of the poem is the cycle of life. It tells us how one starts out as an infant, helpless, without understanding, and ends the same way, without being aware of what is happening around him/her.",
+          "important": true
+        },
+        {
+          "id": "eng4-n4",
+          "title": "Appreciation: Animals",
+          "content": "The poem 'Animals' has been penned by Walt Whitman. The poet has broken away from the conventional use of a rhyme scheme and has written the poem in free verse. The chief figure of speech used in the poem is Repetition. Lines such as 'They do not sweat ...', 'They do not lie awake ...', 'They do not make me sick ...' make a strong impact, expressing the qualities that humans should possess, but do not. The other figures of speech are Alliteration, Tautology, Hyperbole, Paradox, etc. The central idea of the poem is that animals today are better than humans as they have retained their good qualities, unlike humans.",
+          "important": true
+        },
+        {
+          "id": "eng4-n5",
+          "title": "Appreciation: The Pulley",
+          "content": "The title of the poem is 'The Pulley'. The poet is George Herbert. Each stanza of the poem has five lines. The rhyme scheme of the poem is ababa. The chief figure of speech used in the poem is Metaphor. The 'glass of blessings' signifies the sum of all human qualities bestowed on man. The quality of 'rest' or 'contentment' is implicitly compared to a 'jewel'. The other figures of speech are Pun, Inversion, Paradox, etc. The central idea of the poem is the reason for man's continual restlessness all his life. According to the poet, this is because God withheld the quality of 'rest' from man, so that man's thoughts would ultimately turn towards God, his creator.",
+          "important": true
+        },
+        {
+          "id": "eng4-n6",
+          "title": "Appreciation: Night of the Scorpion",
+          "content": "The poem 'Night of the Scorpion' is written by Nissim Ezekiel. The poem is written in free verse without any rhyme scheme or metre. There are many figures of speech, e.g. Onomatopoeia like 'and buzzed the name of God a hundred times'. Here, we feel we can actually hear the buzzing of the prayers of the many peasants. The other figures of speech are Metaphor, Alliteration, Simile, Antithesis, etc. The behaviour of the peasants and the poet's father are vividly described. The imagery appeals to our senses. The theme of the poem is the sense of sacrifice shown by a devoted mother. Even as she suffers the pangs of a scorpion-bite, she thanks God for sparing her children from such an ordeal.",
+          "important": true
+        },
+        {
+          "id": "eng4-n7",
+          "title": "Appreciation: The Will to Win",
+          "content": "Berton Braley has written this inspirational poem, 'The Will To Win'. The poem has no specific rhyme scheme, but rhymes are used randomly all throughout. The most common type is lines ending with the word 'it'; e.g. 'for it', 'of it', 'without it', 'about it'; 'beget it', 'get it'; 'sweat for it', 'fret for it' and so on. Other examples are 'capacity', 'sagacity', 'pertinacity'; 'pain', 'brain'. The main figure of speech used is Repetition, as seen in the abundance of 'for it' phrases used throughout the poem. The other figures of speech are Climax, Tautology, Antithesis, etc. The poet gives us a formula for sure success. He tells us what we should do and what we should avoid doing in order to achieve success. He says that we must go out and fight for success. It is an inspirational poem. It motivates one to set targets and achieve goals.",
+          "important": true
+        },
+        {
+          "id": "eng4-n8",
+          "title": "Appreciation: A Thing of Beauty is a Joy For Ever",
+          "content": "The poem 'A Thing of Beauty is a Joy For Ever' by John Keats is taken from a longer poem 'Endymion' based on Greek Mythology. The rhyme scheme of the poem is aabb; that is, the poem is written in rhyming couplets. There are many figures of speech, like Metaphor, Antithesis, Personification, etc. but the one that stands out is Epigram. The line 'A thing of beauty is a joy for ever', is a pithy saying expressing the idea of beauty in a clever way. The important thing that the poet tells us is that beautiful things last forever and give us immense happiness. They give unending pleasure and can change our lives. They help us to move forward in a positive manner.",
+          "important": true
+        },
+        {
+          "id": "eng4-n9",
+          "title": "Appreciation: The Height of the Ridiculous",
+          "content": "The poem 'The Height of the Ridiculous' is written by Oliver Wendell Holmes. The rhyme scheme of the poem is abcb. There are many figures of speech, like Hyperbole, Tautology, Onomatopoeia, Alliteration, etc. but the one that stands out is Transferred Epithet. In the line 'Ten days and nights, with sleepless eye', the adjective 'sleepless' should be for the man and not for the eye. The poem is a humorous one written for enjoyment, with plenty of funny expressions. The behaviour of the poet's servant on reading the poem makes us laugh. The main purpose of the poet is to simply entertain the reader.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "eng4-f1",
+          "front": "All the world's a stage. (Identify the figure of speech)",
+          "back": "Metaphor",
+          "order": 1
+        },
+        {
+          "id": "eng4-f2",
+          "front": "What is the main figure of speech in 'The Will to Win'?",
+          "back": "Repetition (e.g., 'for it' phrases).",
+          "order": 2
+        }
+      ],
+      "quiz": [
+        {
+          "id": "eng4-q1",
+          "question": "Identify the figure of speech: 'All the world's a stage.'",
+          "options": ["Simile", "Metaphor", "Personification", "Alliteration"],
+          "correctAnswer": 1,
+          "explanation": "The world is implicitly compared to a stage, making it a metaphor.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "eng-ch5",
+      "num": 5,
+      "title": "Non-Textual Passages & Summary",
+      "emoji": "📰",
+      "notes": [
+        {
+          "id": "eng5-n1",
+          "title": "Q.4 (A) Comprehension & Q.4 (B) Summary",
+          "content": "**Comprehension:** Same format as Q.2 (A1 to A5). Read passage carefully, find answers in the text.\n\n**Summary:**\n1. Should be about 1/3 of the original passage.\n2. Contain only essential ideas. Exclude repetitions, illustrations, proverbs, quotes.\n3. Language should be crystal clear.\n4. Write in your own words. Do not copy sentences except keywords.\n5. Provide a suitable title.\n\n**Marking Scheme:**\n- Suitable title: 1 mark\n- Central idea/Theme: 2 marks\n- Use of appropriate language: 2 marks",
+          "important": true
+        },
+        {
+          "id": "eng5-n2",
+          "title": "Example Summary: Importance of Fruits and Vegetables in our Diet",
+          "content": "Different fruits and vegetables contain different nutrients and antioxidants. Most fruits and vegetables reduce mortality rate. However, fruit juices and starchy vegetables have a greater ability to increase blood sugar levels, and those having type 2 diabetes must consult their doctors about the portions to be consumed. Our five daily servings can be met by eating a variety of fruits and vegetables, either fresh, frozen or canned. They may be conventional or organic, but should be affordable and appealing. Canned and frozen goods are good options when necessary. It is not essential to consume organic foods for good health.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "eng5-f1",
+          "front": "What is the marking scheme for Summary Writing?",
+          "back": "Suitable title (1 mark), Central idea/Theme (2 marks), Use of appropriate language (2 marks). Total 5 marks.",
+          "order": 1
+        }
+      ],
+      "quiz": [
+        {
+          "id": "eng5-q1",
+          "question": "What is the ideal length of a summary compared to the original passage?",
+          "options": ["Half", "One-quarter", "One-third", "Exactly the same"],
+          "correctAnswer": 2,
+          "explanation": "A summary should ideally be about one-third of the length of the original passage.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "eng-ch6",
+      "num": 6,
+      "title": "Writing Skills: Letters",
+      "emoji": "✉️",
+      "notes": [
+        {
+          "id": "eng6-n1",
+          "title": "Formal Letter Format",
+          "content": "1. Sender's Address & Pin Code\n2. Date\n3. Name, Designation and address of the recipient\n4. Subject (A phrase about the general content)\n5. Reference\n6. Salutation (Dear Sir/Madam)\n7. Body of the letter (3 or 4 paragraphs)\n8. Subscription (Yours faithfully)\n9. Your name\n10. Correct use of grammar.\n\n**Marking Scheme:**\n- Sender's Address and Date (1)\n- Recipient's Address (1/2)\n- Subject (1/2)\n- Main body (2)\n- Subscription/Closing (1/2)\n- Grammar (1/2)",
+          "important": true
+        },
+        {
+          "id": "eng6-n2",
+          "title": "Informal Letter Format",
+          "content": "1. Sender's Address & Pin Code\n2. Date\n3. Salutation (My dear..., Dear...)\n4. Body of the letter (3 or 4 paragraphs)\n5. Subscription (Yours affectionately, Your loving friend)\n6. Your name\n7. Proper use of Grammar.\n\n**Marking Scheme:**\n- Sender's Address and Date (1)\n- Salutation (1/2)\n- Main body (2)\n- Closing (1/2)\n- Grammar (1)",
+          "important": true
+        },
+        {
+          "id": "eng6-n3",
+          "title": "Example Formal Letter: Inviting a Chief Guest",
+          "content": "Pooja Aurade, 102, Prestige Chambers, Shivpuri Road, Solapur - 420 003.\n25th September, 2025\n\nMr Anil Tripathi, 201, Neelkant Complex, 60 feet Road, Solapur - 420 005.\n\nSubject : Invitation to preside as Chief Guest on Oct 15, 'Reading Inspiration Day'\n\nRespected Sir,\nWe are celebrating Dr A.P.J. Abdul Kalam's Birth Anniversary on October 15th as 'Reading Inspiration Day' in our school.\nOn behalf of the Literary Club of our school, I would like to invite you to grace the occasion as Chief Guest and address the students of Std. IX and Std. X on the benefits of reading, so that they are inspired to read. A brief survey done at our school revealed that barely 10% of the students read books unrelated to the school syllabus. This was indeed a shocking discovery.\nThe function will begin at 10 a.m. and conclude at 12 noon. This will be followed by a discussion and lunch. Our Headmaster and senior teachers too will be present for the function. We will be honoured if you accept our invite. We really admire you for your work in the field of education.\nHoping for a positive reply. Thanking you, Yours faithfully,\nPooja Aurade, Secretary, 'Literary Club', Navjivan School.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "eng6-f1",
+          "front": "What is the format of a Formal Letter?",
+          "back": "Sender's Address -> Date -> Recipient's Address -> Subject -> Salutation (Sir/Madam) -> Body -> Subscription (Yours faithfully) -> Name.",
+          "order": 1
+        }
+      ],
+      "quiz": [
+        {
+          "id": "eng6-q1",
+          "question": "Which of the following is the correct salutation for a formal letter?",
+          "options": ["My dear Sir", "Dear Sir/Madam", "Hi Sir", "Respected Friend"],
+          "correctAnswer": 1,
+          "explanation": "Formal letters use formal salutations like 'Dear Sir/Madam'.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "eng-ch7",
+      "num": 7,
+      "title": "Writing Skills: Information Transfer",
+      "emoji": "📊",
+      "notes": [
+        {
+          "id": "eng7-n1",
+          "title": "Verbal to Non-verbal",
+          "content": "Convert a given paragraph into a tree diagram, flowchart, table, pie chart, etc.\n- Read carefully and pick out main points.\n- Do not add your own points.\n- Give a suitable title.\n\n**Marking Scheme:**\nTitle (1), Covering all points (2), Appropriate graphic/layout (1), Overall presentation (1).",
+          "important": true
+        },
+        {
+          "id": "eng7-n2",
+          "title": "Non-verbal to Verbal",
+          "content": "Write a paragraph based on a given chart, web, graph, etc.\n- Cover all points given.\n- Give a suitable title.\n\n**Marking Scheme:**\nTitle (1), Use of given points (2), Grammar (1), Appropriate language and conclusion (1).",
+          "important": true
+        },
+        {
+          "id": "eng7-n3",
+          "title": "Example Tree Diagram: Economic System of a Country",
+          "content": "<svg width='600' height='250' xmlns='http://www.w3.org/2000/svg'><rect x='200' y='10' width='200' height='40' fill='#e2e8f0' stroke='#4a5568'/><text x='300' y='35' font-family='Arial' font-size='14' text-anchor='middle' font-weight='bold'>Economic System of a Country</text><line x1='300' y1='50' x2='300' y2='80' stroke='black'/><line x1='150' y1='80' x2='450' y2='80' stroke='black'/><line x1='150' y1='80' x2='150' y2='110' stroke='black'/><line x1='450' y1='80' x2='450' y2='110' stroke='black'/><rect x='50' y='110' width='200' height='40' fill='#e2e8f0' stroke='#4a5568'/><text x='150' y='135' font-family='Arial' font-size='12' text-anchor='middle'>According to ownership of means of production</text><rect x='350' y='110' width='200' height='40' fill='#e2e8f0' stroke='#4a5568'/><text x='450' y='135' font-family='Arial' font-size='12' text-anchor='middle'>According to stage of economic development</text><line x1='100' y1='150' x2='100' y2='180' stroke='black'/><line x1='200' y1='150' x2='200' y2='180' stroke='black'/><line x1='400' y1='150' x2='400' y2='180' stroke='black'/><line x1='500' y1='150' x2='500' y2='180' stroke='black'/><rect x='50' y='180' width='100' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='100' y='200' font-family='Arial' font-size='12' text-anchor='middle'>Capitalist</text><rect x='150' y='180' width='100' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='200' y='200' font-family='Arial' font-size='12' text-anchor='middle'>Socialist</text><rect x='350' y='180' width='100' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='400' y='200' font-family='Arial' font-size='12' text-anchor='middle'>Developed</text><rect x='450' y='180' width='100' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='500' y='200' font-family='Arial' font-size='12' text-anchor='middle'>Developing</text></svg>",
+          "important": true
+        },
+        {
+          "id": "eng7-n4",
+          "title": "Example Non-verbal to Verbal: Barriers to Effective Communication",
+          "content": "**Barriers to Effective Communication**\nGood communication is very important for the well-being of society. However, there are many barriers to effective communication. Difference in language and a lack of interest in the topic are two major ones. If the communicators cannot understand each others' language, or if they are not interested in the topic under discussion, then communication will be affected negatively. This is also the case if there is any form of discomfort with the topic being discussed. Noise in the vicinity hinders communication just as distance between the communicators does. And last but not the least, any type of distraction for the communicators will prove to be an effective barrier. One must get rid of these barriers if one wants good communication.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "eng7-f1",
+          "front": "What is the marking scheme for Verbal to Non-verbal?",
+          "back": "Title (1), Covering all points (2), Appropriate graphic/layout (1), Overall presentation (1).",
+          "order": 1
+        },
+        {
+          "id": "eng7-f2",
+          "front": "What is the marking scheme for Non-verbal to Verbal?",
+          "back": "Title (1), Use of given points (2), Grammar (1), Appropriate language and conclusion (1).",
+          "order": 2
+        }
+      ],
+      "quiz": [
+        {
+          "id": "eng7-q1",
+          "question": "When converting Verbal to Non-verbal, what is the most important thing to remember?",
+          "options": ["Add your own opinions", "Use long sentences", "Do not add your own points and cover all given points", "Make it as colorful as possible"],
+          "correctAnswer": 2,
+          "explanation": "You must only use the points provided in the text and present them in the requested format.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "eng-ch8",
+      "num": 8,
+      "title": "Writing Skills: Speech & View/Counterview",
+      "emoji": "🗣️",
+      "notes": [
+        {
+          "id": "eng8-n1",
+          "title": "Speech Writing",
+          "content": "Address the audience directly, end with a proper leave-taking expression. Use direct statements and rhetorical questions. 2-3 paragraphs.\n\n**Marking Scheme:**\nAppropriate beginning/conclusion (1), Body - Use of given points and additional points, appropriate use of language (2), Appropriate sequence and flow of language (1), Use of appropriate grammatical structures (1).",
+          "important": true
+        },
+        {
+          "id": "eng8-n2",
+          "title": "Example Speech: What I can give for India",
+          "content": "**What I can give for India**\nRespected Principal, teachers and my dear friends,\nGood morning. The topic of my speech today is : What I can give for India. I, XYZ, will share my views on this with you.\nAs I am still a student, perhaps I cannot do anything major for the country at this moment. However, I can still do many small but important things. I can take care of the environment and help to maintain a green cover. I can keep my surroundings clean and hygienic and persuade others to do so too. Saving water is the need of the day, and I can help to save every drop of water and prevent wastage. I will also recycle and reuse materials, and reduce my use of some. To whatever extent possible, I will encourage people to support and help each other. Thus, I will conclude my speech by saying that I know that there are many more things I can do for my country, and I will certainly try to do them. Thank you.",
+          "important": true
+        },
+        {
+          "id": "eng8-n3",
+          "title": "View/Counterview",
+          "content": "Write the view or counterview of the points given. Language should be formal. You can use exclamations and rhetorical questions. Give a title.\n\n**Marking Scheme:**\nProper beginning and conclusion (1), Appropriate vocabulary and grammar (1), Expressing opinion in good and lucid language with logical order (2), Appealing and convincing thoughts (1).",
+          "important": true
+        },
+        {
+          "id": "eng8-n4",
+          "title": "Example Counterview: Real Books Score Over E-Books",
+          "content": "**Real Books Score Over E-Books**\nToday, there is a lot of talk about the e-books being better than real books. I beg to differ. This is not possible.\nE-books are certainly cheaper and more easily accessible—to those fortunate enough to live in cities. In a vast country like India, where lakhs of people do not even have electric connections, let alone laptops and phones, the very thought of e-books replacing real books is laughable. One can certainly carry hundreds of e-books wherever one goes, but does this replace the pleasure of reading a real book? No, it does not.\nYes, publishing e-books may be fast and easy, and saves time, but at what cost? Continuous exposure to the computer screen affects our eyes and our health. Is it really worth it? E-books may be interactive for kids with audio, video, animation and other facilities, no doubt, but this also means that it does not allow the imagination of the reader to grow. It retards creativity. Besides, real books have a feel and smell that can never be replaced by e-books. No, e-books can supplement real books but can never replace real books.",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "eng8-f1",
+          "front": "What is the marking scheme for Speech Writing?",
+          "back": "Appropriate beginning/conclusion (1), Body - Use of given points and additional points (2), Appropriate sequence and flow (1), Use of appropriate grammatical structures (1). Total 5 marks.",
+          "order": 1
+        }
+      ],
+      "quiz": [
+        {
+          "id": "eng8-q1",
+          "question": "What type of language should be used when writing a Counterview?",
+          "options": ["Casual and friendly", "Formal and argumentative", "Humorous and light", "Poetic and emotional"],
+          "correctAnswer": 1,
+          "explanation": "A counterview requires a formal tone and should firmly present an argument.",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "eng-ch9",
+      "num": 9,
+      "title": "Writing Skills: Expansion, Report, Story",
+      "emoji": "📰",
+      "notes": [
+        {
+          "id": "eng9-n1",
+          "title": "Expansion of Themes",
+          "content": "Elaborate on a proverb/maxim in 2-3 paragraphs (about 100 words). Give a suitable title.\n\n**Marking Scheme:**\nTitle and Beginning (1), Vocabulary and Grammar (1), Appropriate Points (1), Logical Order (1), Conclusion (1).",
+          "important": true
+        },
+        {
+          "id": "eng9-n2",
+          "title": "Example Expansion: Go Green : Breathe Clean",
+          "content": "'Going green' is a term used to describe a number of things. It means afforestation: that is, planting more trees to provide more oxygen for breathing. It means protecting and expanding the forests we have. It means trying to reduce air pollution in various ways, like car-pooling, controlling vehicular and industrial emissions, stopping burning of leaves and waste material, and limiting the use of nonrenewable resources. Going green can also mean adopting the three Rs- recycle, reuse and reduce. Recycling means putting something old to fresh use. Reuse means putting to use things that we would normally have thrown out. Reduce means to decrease our extravagant needs and try to live in a more frugal manner. Nature has already begun to give us human beings a warning- go green, or there will be serious climate changes that will affect the planet in a negative way. Thus, the only way out for us is to prevent climate change by going green- only then will we breathe clean.",
+          "important": true
+        },
+        {
+          "id": "eng9-n3",
+          "title": "News Report",
+          "content": "Write a report based on a given headline. Must include a headline, dateline, byline, introduction, and main body.\n\n**Marking Scheme:**\nTitle/Headline/Dateline (1), Logical sequence of events (2), Use of appropriate grammar and vocabulary (1), Conclusion and layout (1).",
+          "important": true
+        },
+        {
+          "id": "eng9-n4",
+          "title": "Example News Report: Book Lovers' Society organises a Book Fair",
+          "content": "**Book Lovers' Society organises a Book Fair**\n-By a News Reporter\nMarch 6, Jaipur : A mega book fair spanning over five days was organised by the Book Lovers' Society of Jaipur. The event took place at the Jaipur Gymkhana near Rani Bagh.\nThe book fair had books to please all sections of society, right from toddlers to senior citizens. There were about seven tents put up and the division of the books was primarily based on the language of the book. There were also special bookstalls set up by publishers. Most of the stalls displayed signs of some type of sale. It was heartening to see the crowds, showing that the reading of real books still held an important place in the lives of people.\n\"It's wonderful to be able to browse through so many books,\" gushed a young mother. \"I have managed to buy quite a number for my daughter as well as for myself. The discounts given are really good. I've travelled twenty kms to come here, and it was well worth it.\" Long live the habit of book reading!",
+          "important": true
+        },
+        {
+          "id": "eng9-n5",
+          "title": "Developing a Story / Narrating an Experience",
+          "content": "Complete the story or narrate your experience based on the given beginning or end. Give a suitable title.\n\n**Marking Scheme:**\nTitle and Beginning (1), Vocabulary and Grammar (1), Appropriate Points (1), Logical Order (1), Conclusion (1).",
+          "important": true
+        },
+        {
+          "id": "eng9-n6",
+          "title": "Example Story: Lost in the Forest",
+          "content": "It was Sunday. Anuj, along with his friends, was going trekking. As soon as they reached the beginning of the trail, they collected sticks from the local guide.\nThe five friends were going trekking into the nearby forest. They soon set off briskly with the guide. Anuj lagged behind looking curiously at the various plants and flowers. He was fond of plants and planned to become a botanist when he grew up.\nHe bent down to examine a pretty plant closely. What was it? After a few moments, when he straightened, he found that he was alone. Where had all the others disappeared? How had they just vanished? He called out to them loudly, but all the response he got was the swishing of leaves and some rustling in the undergrowth. His heart beat loudly. Were there snakes or other creepy crawlies around? He wished he had not fallen behind the others and ignored the warnings of the guide.\nHis continued to call loudly, waving his stick fiercely. \"Oh, where are all of you? I'm lost! I'm lost!\" Now there was panic in his voice.\nSuddenly the bushes moved aside and the face of the guide appeared. \"I told you to keep up with the others,\" he said sternly. \"You would have been lost in the jungle. Come along!\" Feeling tremendously relieved, Anuj joined the group waiting patiently for him. He would never be so foolish again!",
+          "important": true
+        }
+      ],
+      "flashcards": [
+        {
+          "id": "eng9-f1",
+          "front": "What is the marking scheme for Expansion of Themes?",
+          "back": "Title and Beginning (1), Vocabulary and Grammar (1), Appropriate Points (1), Logical Order (1), Conclusion (1). Total 5 marks.",
+          "order": 1
+        },
+        {
+          "id": "eng9-f2",
+          "front": "What elements must a News Report include?",
+          "back": "Headline, Dateline, Byline, Introductory paragraph, Body, Conclusion.",
+          "order": 2
+        }
+      ],
+      "quiz": [
+        {
+          "id": "eng9-q1",
+          "question": "Which of the following is NOT a required element of a News Report?",
+          "options": ["Headline", "Dateline", "Dialogue between characters", "Byline"],
+          "correctAnswer": 2,
+          "explanation": "News reports should be formal and factual, not fictional stories with dialogue.",
           "order": 1
         }
       ]

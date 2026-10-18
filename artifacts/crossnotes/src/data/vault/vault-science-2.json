@@ -5,236 +5,169 @@
       "emoji": "\ud83d\udcc4",
       "entries": [
         {
-          "id": "sci2-pp-2024-mar-en",
-          "title": "March 2024 Question Paper ",
-          "kind": "past_paper",
-          "year": 2024,
-          "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_653_77d7d03682.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "sci2-pp-2024-jul-en",
-          "title": "July 2024 Question Paper ",
-          "kind": "past_paper",
-          "year": 2024,
-          "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_418_550e4e8380.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "sci2-pp-2025-mar-en",
-          "title": "March 2025 Question Paper ",
-          "kind": "past_paper",
-          "year": 2025,
-          "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_853_36ff6720c6.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "sci2-pp-2025-jul-en",
-          "title": "July 2025 Question Paper ",
-          "kind": "past_paper",
-          "year": 2025,
-          "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_718_2b83e96466.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "science-2-pp-SCI-2-AUG-2022-AP",
-          "title": "SCI 2 AUG 2022 AP",
+          "id": "science-2-pp-21-science-ii-aug-2022-ap",
+          "title": "21 Science-II Aug 2022 AP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20AUG%202022%20AP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Aug%202022%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-AUG-2022-QP",
-          "title": "SCI 2 AUG 2022 QP",
+          "id": "science-2-pp-21-science-ii-aug-2022-qp",
+          "title": "21 Science-II Aug 2022 QP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20AUG%202022%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Aug%202022%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-DEC-2020-AP",
-          "title": "SCI 2 DEC 2020 AP",
+          "id": "science-2-pp-21-science-ii-dec-2020-ap",
+          "title": "21 Science-II Dec 2020 AP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20DEC%202020%20AP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Dec%202020%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-DEC-2020-QP",
-          "title": "SCI 2 DEC 2020 QP",
+          "id": "science-2-pp-21-science-ii-dec-2020-qp",
+          "title": "21 Science-II Dec 2020 QP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20DEC%202020%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Dec%202020%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-FEB-2026-QP",
-          "title": "SCI 2 FEB 2026 QP",
+          "id": "science-2-pp-21-science-ii-feb-2026-qp",
+          "title": "21 Science-II Feb 2026 QP",
           "kind": "past_paper",
           "year": 2026,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20FEB%202026%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Feb%202026%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-JUL-2023-AP",
-          "title": "SCI 2 JUL 2023 AP",
+          "id": "science-2-pp-21-science-ii-jul-2023-ap",
+          "title": "21 Science-II Jul 2023 AP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20JUL%202023%20AP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Jul%202023%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-JUL-2023-QP",
-          "title": "SCI 2 JUL 2023 QP",
+          "id": "science-2-pp-21-science-ii-jul-2023-qp",
+          "title": "21 Science-II Jul 2023 QP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20JUL%202023%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Jul%202023%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2020-AP",
-          "title": "SCI 2 MAR 2020 AP",
+          "id": "science-2-pp-21-science-ii-mar-2020-ap",
+          "title": "21 Science-II Mar 2020 AP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202020%20AP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202020%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2020-QP",
-          "title": "SCI 2 MAR 2020 QP",
+          "id": "science-2-pp-21-science-ii-mar-2020-qp",
+          "title": "21 Science-II Mar 2020 QP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202020%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202020%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2022-AP",
-          "title": "SCI 2 MAR 2022 AP",
+          "id": "science-2-pp-21-science-ii-mar-2022-ap",
+          "title": "21 Science-II Mar 2022 AP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202022%20AP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202022%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2022-QP",
-          "title": "SCI 2 MAR 2022 QP",
+          "id": "science-2-pp-21-science-ii-mar-2022-qp",
+          "title": "21 Science-II Mar 2022 QP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202022%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202022%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2023-AP",
-          "title": "SCI 2 MAR 2023 AP",
+          "id": "science-2-pp-21-science-ii-mar-2023-ap",
+          "title": "21 Science-II Mar 2023 AP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202023%20AP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202023%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2023-QP",
-          "title": "SCI 2 MAR 2023 QP",
+          "id": "science-2-pp-21-science-ii-mar-2023-qp",
+          "title": "21 Science-II Mar 2023 QP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202023%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202023%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2024-AP",
-          "title": "SCI 2 MAR 2024 AP",
+          "id": "science-2-pp-21-science-ii-mar-2024-ap",
+          "title": "21 Science-II Mar 2024 AP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202024%20AP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202024%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2024-QP",
-          "title": "SCI 2 MAR 2024 QP",
+          "id": "science-2-pp-21-science-ii-mar-2024-qp",
+          "title": "21 Science-II Mar 2024 QP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202024%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202024%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "science-2-pp-SCI-2-MAR-2025-QP",
-          "title": "SCI 2 MAR 2025 QP",
+          "id": "science-2-pp-21-science-ii-mar-2025-qp",
+          "title": "21 Science-II Mar 2025 QP",
           "kind": "past_paper",
           "year": 2025,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/Science-II/SCI%202%20MAR%202025%20QP.pdf",
+          "sourceUrl": "/vault/Science-II/21%20Science-II%20Mar%202025%20QP.pdf",
           "status": "verified"
         }
       ]
     },
-    "subsec2": {
-      "title": "Official Textbook",
-      "emoji": "\ud83d\udcd8",
-      "entries": [
-        {
-          "id": "sci2-textbook-official",
-          "title": "Science-2 Textbook",
-          "kind": "textbook",
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/Textbook/science-2.pdf",
-          "status": "verified"
-        }
-      ]
-    },
-    "subsec3": {
-      "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "\ud83c\udf10",
-      "entries": [
-        {
-          "id": "sci2-diksha",
-          "title": "DIKSHA: Science-2",
-          "kind": "open_resource",
-          "license": "CC BY-SA",
-          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528046915780608246876",
-          "status": "Browse your way"
-        }
-      ]
-    },
+    "subsec2": {},
+    "subsec3": {},
     "subsec4": {},
     "subsec5": {}
   }

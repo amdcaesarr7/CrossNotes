@@ -1,5 +1,6 @@
-import { Link } from 'wouter';
-import { FileText, BookOpen, Globe, FolderOpen, CheckCircle2, Clock, ExternalLink, ChevronRight } from 'lucide-react';
+import { Link, useLocation } from 'wouter';
+import { FileText, BookOpen, Globe, FolderOpen, CheckCircle2, Clock, ExternalLink, ChevronRight, Clock as ClockIcon } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import type { VaultEntry } from '@/types/vault';
 import { isOfflineSavable } from '@/lib/offlineVault';
 import VaultOfflineButton from '@/components/VaultOfflineButton';
@@ -11,14 +12,30 @@ const KIND_META: Record<VaultEntry['kind'], { icon: typeof FileText; label: stri
   study_asset:   { icon: FolderOpen, label: 'Study Asset' },
 };
 
-/** Extensions browsers cannot preview inline. Opening these with target="_blank"
- *  flashes an empty tab before the download starts, so they get `download` instead. */
 const DOWNLOAD_EXTENSIONS = ['.pptx', '.ppt', '.docx', '.doc', '.xlsx', '.xls', '.zip'];
 
 function isLocalDownload(sourceUrl: string): boolean {
   if (!sourceUrl.startsWith('/')) return false;
   const path = sourceUrl.split(/[?#]/)[0].toLowerCase();
   return DOWNLOAD_EXTENSIONS.some((ext) => path.endsWith(ext));
+}
+
+const LAST_OPENED_KEY = 'cn-vault-last-opened';
+
+function getLastOpened(): { entryId: string; slug: string; ts: number } | null {
+  try {
+    const raw = localStorage.getItem(LAST_OPENED_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+function setLastOpened(entryId: string, slug: string) {
+  try {
+    localStorage.setItem(LAST_OPENED_KEY, JSON.stringify({ entryId, slug, ts: Date.now() }));
+  } catch { /* ignore */ }
 }
 
 /** One entry in a Vault subsection. Mirrors the visual language of
@@ -28,12 +45,23 @@ function isLocalDownload(sourceUrl: string): boolean {
 export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug: string }) {
   const { icon: Icon, label } = KIND_META[entry.kind];
   const goesToChapter = !!entry.linkedChapterId;
-  // Local files (same-origin PDFs / Office decks) can be pinned for offline;
-  // chapter links use the app cache already, and external links can't be cached.
   const savable = !goesToChapter && isOfflineSavable(entry.sourceUrl);
 
+  const [isLastOpened, setIsLastOpened] = useState(false);
+
+  useEffect(() => {
+    const last = getLastOpened();
+    setIsLastOpened(last?.entryId === entry.id && last?.slug === slug);
+  }, [entry.id, slug]);
+
+  const handleClick = (e: React.MouseEvent) => {
+    // Track last opened before navigation
+    setLastOpened(entry.id, slug);
+    // Let default navigation proceed (link behavior)
+  };
+
   const inner = (
-    <div className="chapter-row" style={{ cursor: 'pointer' }}>
+    <div className={`chapter-row ${isLastOpened ? 'last-opened' : ''}`} style={{ cursor: 'pointer' }} onClick={handleClick}>
       <div className="flex items-center gap-3">
         <div
           className="shrink-0 w-11 h-11 rounded-xl flex items-center justify-center border-2"
@@ -52,7 +80,12 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
             {entry.status === 'verified' ? (
               <span className="badge badge-done"><CheckCircle2 size={11} style={{ display: 'inline', marginRight: 2 }} />Verified</span>
             ) : (
-              <span className="badge badge-revision"><Clock size={11} style={{ display: 'inline', marginRight: 2 }} />Unverified</span>
+              <span className="badge badge-revision"><ClockIcon size={11} style={{ display: 'inline', marginRight: 2 }} />Unverified</span>
+            )}
+            {isLastOpened && (
+              <span className="badge badge-new" style={{ background: 'var(--primary-bg)', color: 'var(--primary)', borderColor: 'var(--primary-border)' }}>
+                <ClockIcon size={11} style={{ display: 'inline', marginRight: 2 }} />Last opened
+              </span>
             )}
           </div>
         </div>
@@ -68,26 +101,20 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
     </div>
   );
 
-  // Already converted into CrossNotes' own JSON content? Jump straight into
-  // the reader instead of opening a raw PDF (per VAULT_FEATURE_PROMPT.md).
   if (goesToChapter) {
     return <Link href={`/notes/${slug}/${entry.linkedChapterId}`} aria-label={`Open notes: ${entry.title}`}>{inner}</Link>;
   }
 
-  // Local files the browser cannot render inline (Office decks, archives) would
-  // otherwise open a blank tab before downloading, so force a direct download.
   if (isLocalDownload(entry.sourceUrl)) {
     return (
-      <a href={entry.sourceUrl} download aria-label={`Download ${entry.title}`}>
+      <a href={entry.sourceUrl} download aria-label={`Download ${entry.title}`} onClick={handleClick}>
         {inner}
       </a>
     );
   }
 
-  // Everything else — local PDF or external official/CC link — opens in a
-  // new tab. Vault is a curated index, not a re-host of the reading UI.
   return (
-    <a href={entry.sourceUrl} target="_blank" rel="noopener noreferrer" aria-label={`Open ${entry.title} (opens in new tab)`}>
+    <a href={entry.sourceUrl} target="_blank" rel="noopener noreferrer" aria-label={`Open ${entry.title} (opens in new tab)`} onClick={handleClick}>
       {inner}
     </a>
   );

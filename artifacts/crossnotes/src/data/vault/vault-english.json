@@ -5,250 +5,170 @@
       "emoji": "\ud83d\udcc4",
       "entries": [
         {
-          "id": "eng-pp-2024-mar-en",
-          "title": "March 2024 Question Paper (English Medium)",
-          "kind": "past_paper",
-          "year": 2024,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_580_4d38f71f2f.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "eng-pp-2024-jul-en",
-          "title": "July 2024 Question Paper (English Medium)",
-          "kind": "past_paper",
-          "year": 2024,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "https://blr1.digitaloceanspaces.com/state-board-strapi-upload/n_382_1ca06d79bc.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "eng-pp-2025-mar-en",
-          "title": "March 2025 Question Paper (English Medium)",
-          "kind": "past_paper",
-          "year": 2025,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_580_4d38f71f2f.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "eng-pp-2025-jul-en",
-          "title": "July 2025 Question Paper (English Medium)",
-          "kind": "past_paper",
-          "year": 2025,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_682_bffcfb79e8.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "english-pp-ENG-AUG-2022-AP",
-          "title": "ENG AUG 2022 AP",
+          "id": "english-pp-21-english-aug-2022-ap",
+          "title": "21 English Aug 2022 AP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20AUG%202022%20AP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Aug%202022%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-AUG-2022-QP",
-          "title": "ENG AUG 2022 QP",
+          "id": "english-pp-21-english-aug-2022-qp",
+          "title": "21 English Aug 2022 QP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20AUG%202022%20QP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Aug%202022%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-DEC-2020-AP",
-          "title": "ENG DEC 2020 AP",
+          "id": "english-pp-21-english-dec-2020-ap",
+          "title": "21 English Dec 2020 AP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20DEC%202020%20AP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Dec%202020%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-DEC-2020-QP",
-          "title": "ENG DEC 2020 QP",
+          "id": "english-pp-21-english-dec-2020-qp",
+          "title": "21 English Dec 2020 QP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20DEC%202020%20QP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Dec%202020%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-FEB-2026-QP",
-          "title": "ENG FEB 2026 QP",
+          "id": "english-pp-21-english-feb-2026-qp",
+          "title": "21 English Feb 2026 QP",
           "kind": "past_paper",
           "year": 2026,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20FEB%202026%20QP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Feb%202026%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-JUL-2023-AP",
-          "title": "ENG JUL 2023 AP",
+          "id": "english-pp-21-english-jul-2023-ap",
+          "title": "21 English Jul 2023 AP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20JUL%202023%20AP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Jul%202023%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-JUL-2023-QP",
-          "title": "ENG JUL 2023 QP",
+          "id": "english-pp-21-english-jul-2023-qp",
+          "title": "21 English Jul 2023 QP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20JUL%202023%20QP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Jul%202023%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-JUL-2024-QP",
-          "title": "ENG JUL 2024 QP",
+          "id": "english-pp-21-english-jul-2024-qp",
+          "title": "21 English Jul 2024 QP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20JUL%202024%20QP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Jul%202024%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-MAR-2022-AP",
-          "title": "ENG MAR 2022 AP",
-          "kind": "past_paper",
-          "year": 2022,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20MAR%202022%20AP.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "english-pp-ENG-MAR-2022-QP",
-          "title": "ENG MAR 2022 QP",
-          "kind": "past_paper",
-          "year": 2022,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20MAR%202022%20QP.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "english-pp-ENG-MAR-2023-AP",
-          "title": "ENG MAR 2023 AP",
-          "kind": "past_paper",
-          "year": 2023,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20MAR%202023%20AP.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "english-pp-ENG-MAR-2023-QP",
-          "title": "ENG MAR 2023 QP",
-          "kind": "past_paper",
-          "year": 2023,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20MAR%202023%20QP.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "english-pp-ENG-MARCH-2020-AP",
-          "title": "ENG MARCH 2020 AP",
+          "id": "english-pp-21-english-mar-2020-ap",
+          "title": "21 English Mar 2020 AP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20MARCH%202020%20AP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Mar%202020%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-MARCH-2020-QP",
-          "title": "ENG MARCH 2020 QP",
+          "id": "english-pp-21-english-mar-2020-qp",
+          "title": "21 English Mar 2020 QP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20MARCH%202020%20QP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Mar%202020%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-MARCH-2024-AP",
-          "title": "ENG MARCH 2024 AP",
+          "id": "english-pp-21-english-mar-2022-ap",
+          "title": "21 English Mar 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/English/21%20English%20Mar%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "english-pp-21-english-mar-2022-qp",
+          "title": "21 English Mar 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/English/21%20English%20Mar%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "english-pp-21-english-mar-2023-ap",
+          "title": "21 English Mar 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/English/21%20English%20Mar%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "english-pp-21-english-mar-2023-qp",
+          "title": "21 English Mar 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/English/21%20English%20Mar%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "english-pp-21-english-mar-2024-ap",
+          "title": "21 English Mar 2024 AP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20MARCH%202024%20AP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Mar%202024%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "english-pp-ENG-MARCH-2025-QP",
-          "title": "ENG MARCH 2025 QP",
+          "id": "english-pp-21-english-mar-2025-qp",
+          "title": "21 English Mar 2025 QP",
           "kind": "past_paper",
           "year": 2025,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/English/ENG%20MARCH%202025%20QP.pdf",
+          "sourceUrl": "/vault/English/21%20English%20Mar%202025%20QP.pdf",
           "status": "verified"
         }
       ]
     },
-    "subsec2": {
-      "title": "Official Textbook",
-      "emoji": "\ud83d\udcd8",
-      "entries": [
-        {
-          "id": "eng-textbook-official",
-          "title": "English Textbook",
-          "kind": "textbook",
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/Textbook/english.pdf",
-          "status": "verified"
-        }
-      ]
-    },
-    "subsec3": {
-      "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "\ud83c\udf10",
-      "entries": [
-        {
-          "id": "eng-diksha",
-          "title": "DIKSHA: English",
-          "kind": "open_resource",
-          "license": "CC BY-SA",
-          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528047013011456246981",
-          "status": "Browse your way"
-        }
-      ]
-    },
-    "subsec4": {
-      "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "\ud83c\udf10",
-      "entries": [
-        {
-          "id": "eng-diksha-grammar",
-          "title": "DIKSHA: English Grammar",
-          "kind": "open_resource",
-          "license": "CC BY-SA",
-          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528047013011456246981",
-          "status": "Browse Your way"
-        }
-      ]
-    },
+    "subsec2": {},
+    "subsec3": {},
+    "subsec4": {},
     "subsec5": {}
   }
 }

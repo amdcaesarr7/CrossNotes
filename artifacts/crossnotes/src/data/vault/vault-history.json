@@ -5,236 +5,169 @@
       "emoji": "\ud83d\udcc4",
       "entries": [
         {
-          "id": "his-pp-2024-mar-en",
-          "title": "March 2024 Question Paper ",
-          "kind": "past_paper",
-          "year": 2024,
-          "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_661_3ad578a02b.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "his-pp-2024-jul-en",
-          "title": "July 2024 Question Paper ",
-          "kind": "past_paper",
-          "year": 2024,
-          "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_426_1d869bbdb4.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "his-pp-2025-mar-en",
-          "title": "March 2025 Question Paper ",
-          "kind": "past_paper",
-          "year": 2025,
-          "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_861_2c2b8c1079.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "his-pp-2025-jul-en",
-          "title": "July 2025 Question Paper ",
-          "kind": "past_paper",
-          "year": 2025,
-          "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_726_a90a6370b7.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "history-pp-HIS-AUG-2022-AP",
-          "title": "HIS AUG 2022 AP",
+          "id": "history-pp-21-history-aug-2022-ap",
+          "title": "21 History Aug 2022 AP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20AUG%202022%20AP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Aug%202022%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-AUG-2022-QP",
-          "title": "HIS AUG 2022 QP",
+          "id": "history-pp-21-history-aug-2022-qp",
+          "title": "21 History Aug 2022 QP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20AUG%202022%20QP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Aug%202022%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-DEC-2020-AP",
-          "title": "HIS DEC 2020 AP",
+          "id": "history-pp-21-history-dec-2020-ap",
+          "title": "21 History Dec 2020 AP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20DEC%202020%20AP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Dec%202020%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-DEC-2020-QP",
-          "title": "HIS DEC 2020 QP",
+          "id": "history-pp-21-history-dec-2020-qp",
+          "title": "21 History Dec 2020 QP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20DEC%202020%20QP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Dec%202020%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-FEB-2026-QP",
-          "title": "HIS FEB 2026 QP",
+          "id": "history-pp-21-history-feb-2026-qp",
+          "title": "21 History Feb 2026 QP",
           "kind": "past_paper",
           "year": 2026,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20FEB%202026%20QP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Feb%202026%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-JUL-2024-QP",
-          "title": "HIS JUL 2024 QP",
+          "id": "history-pp-21-history-jul-2023-ap",
+          "title": "21 History Jul 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/History/21%20History%20Jul%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "history-pp-21-history-jul-2023-qp",
+          "title": "21 History Jul 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/History/21%20History%20Jul%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "history-pp-21-history-jul-2024-qp",
+          "title": "21 History Jul 2024 QP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20JUL%202024%20QP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Jul%202024%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-JUL-2025-QP",
-          "title": "HIS JUL 2025 QP",
+          "id": "history-pp-21-history-jul-2025-qp",
+          "title": "21 History Jul 2025 QP",
           "kind": "past_paper",
           "year": 2025,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20JUL%202025%20QP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Jul%202025%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-JULY-2023-AP",
-          "title": "HIS JULY 2023 AP",
-          "kind": "past_paper",
-          "year": 2023,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20JULY%202023%20AP.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "history-pp-HIS-JULY-2023-QP",
-          "title": "HIS JULY 2023 QP",
-          "kind": "past_paper",
-          "year": 2023,
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20JULY%202023%20QP.pdf",
-          "status": "verified"
-        },
-        {
-          "id": "history-pp-HIS-MAR-2020-AP",
-          "title": "HIS MAR 2020 AP",
+          "id": "history-pp-21-history-mar-2020-ap",
+          "title": "21 History Mar 2020 AP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20MAR%202020%20AP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Mar%202020%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-MAR-2020-QP",
-          "title": "HIS MAR 2020 QP",
+          "id": "history-pp-21-history-mar-2020-qp",
+          "title": "21 History Mar 2020 QP",
           "kind": "past_paper",
           "year": 2020,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20MAR%202020%20QP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Mar%202020%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-MAR-2022-AP",
-          "title": "HIS MAR 2022 AP",
+          "id": "history-pp-21-history-mar-2022-ap",
+          "title": "21 History Mar 2022 AP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20MAR%202022%20AP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Mar%202022%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-MAR-2022-QP",
-          "title": "HIS MAR 2022 QP",
+          "id": "history-pp-21-history-mar-2022-qp",
+          "title": "21 History Mar 2022 QP",
           "kind": "past_paper",
           "year": 2022,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20MAR%202022%20QP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Mar%202022%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-MAR-2023-AP",
-          "title": "HIS MAR 2023 AP",
+          "id": "history-pp-21-history-mar-2023-ap",
+          "title": "21 History Mar 2023 AP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20MAR%202023%20AP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Mar%202023%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-MAR-2023-QP",
-          "title": "HIS MAR 2023 QP",
+          "id": "history-pp-21-history-mar-2023-qp",
+          "title": "21 History Mar 2023 QP",
           "kind": "past_paper",
           "year": 2023,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20MAR%202023%20QP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Mar%202023%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "history-pp-HIS-MAR-2024-AP",
-          "title": "HIS MAR 2024 AP",
+          "id": "history-pp-21-history-mar-2024-ap",
+          "title": "21 History Mar 2024 AP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
           "license": "Public/Government",
-          "sourceUrl": "/vault/History/HIS%20MAR%202024%20AP.pdf",
+          "sourceUrl": "/vault/History/21%20History%20Mar%202024%20AP.pdf",
           "status": "verified"
         }
       ]
     },
-    "subsec2": {
-      "title": "Official Textbook",
-      "emoji": "\ud83d\udcd8",
-      "entries": [
-        {
-          "id": "his-textbook-official",
-          "title": "History Textbook",
-          "kind": "textbook",
-          "medium": "English",
-          "license": "Public/Government",
-          "sourceUrl": "/vault/Textbook/history.pdf",
-          "status": "verified"
-        }
-      ]
-    },
-    "subsec3": {
-      "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "\ud83c\udf10",
-      "entries": [
-        {
-          "id": "geo-diksha-population",
-          "title": "DIKSHA: History",
-          "kind": "open_resource",
-          "license": "CC BY-SA",
-          "sourceUrl": "https://diksha.gov.in/play/collection/do_312528261465899008254502",
-          "status": "Browse your way"
-        }
-      ]
-    },
+    "subsec2": {},
+    "subsec3": {},
     "subsec4": {},
     "subsec5": {}
   }

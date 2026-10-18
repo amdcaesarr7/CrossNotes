@@ -1,0 +1,174 @@
+{
+  "subsections": {
+    "subsec1": {
+      "title": "Past Board Papers",
+      "emoji": "\ud83d\udcc4",
+      "entries": [
+        {
+          "id": "algebra-pp-ALG-AUG-2022-AP",
+          "title": "ALG AUG 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20AUG%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-AUG-2022-QP",
+          "title": "ALG AUG 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20AUG%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-FEB-2026-QP",
+          "title": "ALG FEB 2026 QP",
+          "kind": "past_paper",
+          "year": 2026,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20FEB%202026%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-JULY-2023-AP",
+          "title": "ALG JULY 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20JULY%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-JULY-2023-QP",
+          "title": "ALG JULY 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20JULY%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-JULY-2024-QP",
+          "title": "ALG JULY 2024 QP",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20JULY%202024%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-MAR-2022-QP",
+          "title": "ALG MAR 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20MAR%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-MAR-2023-AP",
+          "title": "ALG MAR 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20MAR%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-MAR-2023-QP",
+          "title": "ALG MAR 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20MAR%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-MARCH-2020-AP",
+          "title": "ALG MARCH 2020 AP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20MARCH%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-MARCH-2020-QP",
+          "title": "ALG MARCH 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20MARCH%202020%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-MARCH-2022-AP",
+          "title": "ALG MARCH 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20MARCH%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-MARCH-2024-AP",
+          "title": "ALG MARCH 2024 AP",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20MARCH%202024%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-MARCH-2025-QP",
+          "title": "ALG MARCH 2025 QP",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20MARCH%202025%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-NOV-2020-AP",
+          "title": "ALG NOV 2020 AP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20NOV%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-ALG-NOV-2020-QP",
+          "title": "ALG NOV 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/ALG%20NOV%202020%20QP.pdf",
+          "status": "verified"
+        }
+      ]
+    },
+    "subsec2": {},
+    "subsec3": {},
+    "subsec4": {},
+    "subsec5": {}
+  }
+}

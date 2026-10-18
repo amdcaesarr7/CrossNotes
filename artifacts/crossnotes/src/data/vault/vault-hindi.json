@@ -1,11 +1,63 @@
 {
   "subsections": {
-    "subsec1": {},
+    "subsec1": {
+      "entries": [
+        {
+          "id": "hindi-pp-HIN-C-FEB-2026-QP",
+          "title": "HIN C FEB 2026 QP",
+          "kind": "past_paper",
+          "year": 2026,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20FEB%202026%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "hindi-pp-HIN-C-MAR-2020-QP",
+          "title": "HIN C MAR 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20MAR%202020%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "hindi-pp-HIN-C-MAR-2022-QP",
+          "title": "HIN C MAR 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20MAR%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "hindi-pp-HIN-C-MAR-2023-QP",
+          "title": "HIN C MAR 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20MAR%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "hindi-pp-HIN-C-MAR-2024-QP",
+          "title": "HIN C MAR 2024 QP",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Hindi-Composite/HIN%20C%20MAR%202024%20QP.pdf",
+          "status": "verified"
+        }
+      ]
+    },
     "subsec2": {},
     "subsec3": {
-      
       "title": "Official Textbook",
-      "emoji": "📘",
+      "emoji": "\ud83d\udcd8",
       "entries": [
         {
           "id": "hin-textbook-official",
@@ -17,11 +69,10 @@
           "status": "verified"
         }
       ]
-    
     },
     "subsec4": {
       "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "🌐",
+      "emoji": "\ud83c\udf10",
       "entries": [
         {
           "id": "hin-diksha-grammar",

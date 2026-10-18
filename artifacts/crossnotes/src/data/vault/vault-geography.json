@@ -2,7 +2,7 @@
   "subsections": {
     "subsec1": {
       "title": "Past Board Papers",
-      "emoji": "📄",
+      "emoji": "\ud83d\udcc4",
       "entries": [
         {
           "id": "geo-pp-2024-mar-en",
@@ -43,12 +43,152 @@
           "license": "Public/Government",
           "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_734_72dcb829b6.pdf",
           "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-AUG-2022-AP",
+          "title": "GEOG AUG 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20AUG%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-AUG-2022-QP",
+          "title": "GEOG AUG 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20AUG%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-DEC-2020-AP",
+          "title": "GEOG DEC 2020 AP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20DEC%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-DEC-2020-QP",
+          "title": "GEOG DEC 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20DEC%202020%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-FEB-2026-QP",
+          "title": "GEOG FEB 2026 QP",
+          "kind": "past_paper",
+          "year": 2026,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20FEB%202026%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-JUL-2023-AP",
+          "title": "GEOG JUL 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20JUL%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-JUL-2023-QP",
+          "title": "GEOG JUL 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20JUL%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-MAR-2022-AP",
+          "title": "GEOG MAR 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20MAR%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-MAR-2022-QP",
+          "title": "GEOG MAR 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20MAR%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-MAR-2023-AP",
+          "title": "GEOG MAR 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20MAR%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-MAR-2023-QP",
+          "title": "GEOG MAR 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20MAR%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-MAR-2024-AP",
+          "title": "GEOG MAR 2024 AP",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20MAR%202024%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-MAR-2024-QP",
+          "title": "GEOG MAR 2024 QP",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20MAR%202024%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geography-pp-GEOG-MAR-2025-QP",
+          "title": "GEOG MAR 2025 QP",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geography/GEOG%20MAR%202025%20QP.pdf",
+          "status": "verified"
         }
       ]
     },
     "subsec2": {
       "title": "Official Textbook",
-      "emoji": "📘",
+      "emoji": "\ud83d\udcd8",
       "entries": [
         {
           "id": "geo-textbook-official",
@@ -63,7 +203,7 @@
     },
     "subsec3": {
       "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "🌐",
+      "emoji": "\ud83c\udf10",
       "entries": [
         {
           "id": "geo-diksha-population",

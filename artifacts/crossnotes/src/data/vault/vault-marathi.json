@@ -1,11 +1,163 @@
 {
   "subsections": {
-    "subsec1": {},
+    "subsec1": {
+      "entries": [
+        {
+          "id": "marathi-pp-MARATHI-FEB-2026-QP",
+          "title": "MARATHI FEB 2026 QP",
+          "kind": "past_paper",
+          "year": 2026,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20FEB%202026%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-JULY-2022-AP",
+          "title": "MARATHI JULY 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20JULY%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-JULY-2022-QP",
+          "title": "MARATHI JULY 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20JULY%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-JULY-2023-AP",
+          "title": "MARATHI JULY 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20JULY%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-JULY-2023-QP",
+          "title": "MARATHI JULY 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20JULY%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-JULY-2024-QP",
+          "title": "MARATHI JULY 2024 QP",
+          "kind": "past_paper",
+          "year": 2024,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20JULY%202024%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-JULY-2025-QP",
+          "title": "MARATHI JULY 2025 QP",
+          "kind": "past_paper",
+          "year": 2025,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20JULY%202025%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-MAR-2020-AP",
+          "title": "MARATHI MAR 2020 AP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20MAR%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-MAR-2020-QP",
+          "title": "MARATHI MAR 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20MAR%202020%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-MAR-2022-AP",
+          "title": "MARATHI MAR 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20MAR%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-MAR-2022-QP",
+          "title": "MARATHI MAR 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20MAR%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-MAR-2023-AP",
+          "title": "MARATHI MAR 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20MAR%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-MAR-2023-QP",
+          "title": "MARATHI MAR 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20MAR%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-NOV-2020-AP",
+          "title": "MARATHI NOV 2020 AP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20NOV%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "marathi-pp-MARATHI-NOV-2020-QP",
+          "title": "MARATHI NOV 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Marathi/MARATHI%20NOV%202020%20QP.pdf",
+          "status": "verified"
+        }
+      ]
+    },
     "subsec2": {},
     "subsec3": {
-      
       "title": "Official Textbook",
-      "emoji": "📘",
+      "emoji": "\ud83d\udcd8",
       "entries": [
         {
           "id": "mar-textbook-official",
@@ -17,11 +169,10 @@
           "status": "verified"
         }
       ]
-    
     },
     "subsec4": {
       "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "🌐",
+      "emoji": "\ud83c\udf10",
       "entries": [
         {
           "id": "mar-diksha",

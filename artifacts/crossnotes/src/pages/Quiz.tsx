@@ -478,8 +478,8 @@ function MatchQuiz({
   };
 
   return (
-    <div className="flex gap-3">
-      <div className="flex-1 flex flex-col gap-2">
+    <div className="flex gap-2 sm:gap-3">
+      <div className="flex-1 flex flex-col gap-2 min-w-0">
         {left.map((item, i) => {
           const isPaired = pairs[i] !== undefined;
           const isCorrectPair = revealed && pairs[i] === answerKey[i];
@@ -489,7 +489,7 @@ function MatchQuiz({
               key={i}
               onClick={() => pickLeft(i)}
               disabled={revealed}
-              className="text-left text-xs font-semibold px-3 py-2 rounded-xl border-2 transition"
+              className="text-left text-xs font-semibold px-2.5 sm:px-3 py-2 rounded-xl border-2 transition break-words"
               style={{
                 borderColor: isCorrectPair ? '#16a34a' : isWrongPair ? '#dc2626' : selectedLeft === i ? 'var(--primary)' : 'var(--divider)',
                 background: selectedLeft === i ? 'var(--primary-light)' : 'var(--bg-card-2)',
@@ -501,13 +501,13 @@ function MatchQuiz({
           );
         })}
       </div>
-      <div className="flex-1 flex flex-col gap-2">
+      <div className="flex-1 flex flex-col gap-2 min-w-0">
         {right.map((item, j) => (
           <button
             key={j}
             onClick={() => pickRight(j)}
             disabled={revealed || usedRight.has(j)}
-            className="text-left text-xs font-semibold px-3 py-2 rounded-xl border-2"
+            className="text-left text-xs font-semibold px-2.5 sm:px-3 py-2 rounded-xl border-2 break-words"
             style={{
               borderColor: usedRight.has(j) ? 'var(--primary-border)' : 'var(--divider)',
               background: usedRight.has(j) ? 'var(--primary-light)' : 'var(--bg-card-2)',

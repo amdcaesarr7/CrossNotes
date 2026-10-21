@@ -27,5 +27,6 @@ const subjects: SubjectMeta[] = [
 
 export default subjects;
 export function getSubjectBySlug(slug: string): SubjectMeta | undefined {
-  return subjects.find(s => s.slug === slug);
+  const normalized = slug === 'algebra' ? 'maths-1' : slug === 'geometry' ? 'maths-2' : slug;
+  return subjects.find(s => s.slug === normalized);
 }

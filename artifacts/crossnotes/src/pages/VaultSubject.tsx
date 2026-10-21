@@ -117,16 +117,16 @@ export default function VaultSubject() {
     <div className={`cn-body ${isDark ? 'dark-mode' : ''}`}>
       <AppHeader backHref="/vault" backLabel="Vault" />
 
-      <main className="page-content" style={{ maxWidth: 680 }}>
+      <main className="page-content">
         <div
-          className="clay-card p-5 flex items-center gap-4"
+          className="clay-card p-4 sm:p-5 flex items-center gap-3 sm:gap-4"
           style={{ background: `var(--${colorKey}-bg)`, borderColor: `var(--${colorKey}-border)` }}
         >
-          <span className="text-5xl">{meta.emoji}</span>
+          <span className="text-4xl sm:text-5xl shrink-0">{meta.emoji}</span>
           <div className="flex-1 min-w-0">
-            <h1 className="font-display font-black text-xl leading-tight" style={{ color: 'var(--text)' }}>{meta.name}</h1>
-            {meta.description && <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{meta.description}</p>}
-            <div className="flex items-center gap-2 mt-2">
+            <h1 className="font-display font-black text-lg sm:text-xl leading-tight" style={{ color: 'var(--text)' }}>{meta.name}</h1>
+            {meta.description && <p className="text-xs mt-0.5 line-clamp-2" style={{ color: 'var(--text-muted)' }}>{meta.description}</p>}
+            <div className="flex items-center gap-2 mt-2 flex-wrap">
               <span className="badge badge-new">{totalEntries} {totalEntries === 1 ? 'item' : 'items'}</span>
             </div>
           </div>

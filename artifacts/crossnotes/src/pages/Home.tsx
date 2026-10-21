@@ -42,14 +42,14 @@ export default function Subjects() {
         {/* Live subjects */}
         <section>
           <h2 className="section-header mb-3">Available Now</h2>
-          <div className="flex flex-col gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {liveSubjects.map(s => (
               <Link key={s.id} href={`/subject/${s.slug}`}>
                 <div
-                  className="clay-card hoverable flex items-center gap-4 p-4 cursor-pointer"
+                  className="clay-card hoverable flex items-center gap-4 p-4 cursor-pointer h-full"
                   style={{ background: `var(--${s.color}-bg)`, borderColor: `var(--${s.color}-border)` }}
                 >
-                  <span className="text-4xl">{s.emoji}</span>
+                  <span className="text-4xl shrink-0">{s.emoji}</span>
                   <div className="flex-1 min-w-0">
                     <h3 className="font-display font-bold text-base leading-tight" style={{ color: 'var(--text)' }}>{s.name}</h3>
                     {s.description && <p className="text-xs mt-0.5 truncate" style={{ color: 'var(--text-muted)' }}>{s.description}</p>}
@@ -65,15 +65,15 @@ export default function Subjects() {
         {lockedSubjects.length > 0 && (
           <section>
             <h2 className="section-header mb-3" style={{ color: 'var(--text-muted)' }}>Coming Soon</h2>
-            <div className="flex flex-col gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {lockedSubjects.map(s => (
                 <button
                   key={s.id}
                   onClick={() => setExcuseIdx(i => (i + 1) % LOCKED_EXCUSES.length)}
-                  className="w-full text-left clay-card flex items-center gap-4 p-4 opacity-55"
+                  className="w-full text-left clay-card flex items-center gap-4 p-4 opacity-55 h-full"
                   style={{ background: `var(--${s.color}-bg)`, borderColor: `var(--${s.color}-border)`, cursor: 'pointer' }}
                 >
-                  <span className="text-4xl grayscale">{s.emoji}</span>
+                  <span className="text-4xl grayscale shrink-0">{s.emoji}</span>
                   <div className="flex-1 min-w-0">
                     <h3 className="font-display font-bold text-base leading-tight" style={{ color: 'var(--text)' }}>{s.name}</h3>
                     <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{LOCKED_EXCUSES[excuseIdx]}</p>

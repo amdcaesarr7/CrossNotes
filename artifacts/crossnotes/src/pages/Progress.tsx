@@ -62,8 +62,8 @@ export default function Progress() {
         ) : (
           <>
             {/* XP / Level card */}
-            <div className="clay-card p-5 flex flex-col gap-4" style={{ background: 'var(--gold-light)', borderColor: 'var(--gold-border)' }}>
-              <div className="flex items-center justify-between">
+            <div className="clay-card p-4 sm:p-5 flex flex-col gap-4" style={{ background: 'var(--gold-light)', borderColor: 'var(--gold-border)' }}>
+              <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between">
                 <div className="flex items-center gap-3">
                   <div
                     className="w-14 h-14 rounded-full flex flex-col items-center justify-center font-display font-black border-2"

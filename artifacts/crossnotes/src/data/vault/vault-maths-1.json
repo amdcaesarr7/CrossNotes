@@ -2,53 +2,173 @@
   "subsections": {
     "subsec1": {
       "title": "Past Board Papers",
-      "emoji": "📄",
+      "emoji": "\ud83d\udcc4",
       "entries": [
         {
-          "id": "math1-pp-2024-mar-en",
-          "title": "March 2024 Question Paper ",
+          "id": "algebra-pp-21-algebra-aug-2022-ap",
+          "title": "21 Algebra Aug 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Aug%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-aug-2022-qp",
+          "title": "21 Algebra Aug 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Aug%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-feb-2026-qp",
+          "title": "21 Algebra Feb 2026 QP",
+          "kind": "past_paper",
+          "year": 2026,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Feb%202026%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-jul-2023-ap",
+          "title": "21 Algebra Jul 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Jul%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-jul-2023-qp",
+          "title": "21 Algebra Jul 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Jul%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-jul-2024-qp",
+          "title": "21 Algebra Jul 2024 QP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_619_5ab4a798b6.pdf",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Jul%202024%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "math1-pp-2024-jul-en",
-          "title": "July 2024 Question Paper ",
+          "id": "algebra-pp-21-algebra-mar-2020-ap",
+          "title": "21 Algebra Mar 2020 AP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Mar%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-mar-2020-qp",
+          "title": "21 Algebra Mar 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Mar%202020%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-mar-2022-ap",
+          "title": "21 Algebra Mar 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Mar%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-mar-2022-qp",
+          "title": "21 Algebra Mar 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Mar%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-mar-2023-ap",
+          "title": "21 Algebra Mar 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Mar%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-mar-2023-qp",
+          "title": "21 Algebra Mar 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Mar%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-mar-2024-ap",
+          "title": "21 Algebra Mar 2024 AP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_384_28b9937653.pdf",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Mar%202024%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "math1-pp-2025-mar-en",
-          "title": "March 2025 Question Paper ",
+          "id": "algebra-pp-21-algebra-mar-2025-qp",
+          "title": "21 Algebra Mar 2025 QP",
           "kind": "past_paper",
           "year": 2025,
           "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_819_146b96b0bf.pdf",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Mar%202025%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "math1-pp-2025-jul-en",
-          "title": "July 2025 Question Paper ",
+          "id": "algebra-pp-21-algebra-nov-2020-ap",
+          "title": "21 Algebra Nov 2020 AP",
           "kind": "past_paper",
-          "year": 2025,
+          "year": 2020,
           "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_684_5a1ffd168d.pdf",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Nov%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "algebra-pp-21-algebra-nov-2020-qp",
+          "title": "21 Algebra Nov 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Algebra/21%20Algebra%20Nov%202020%20QP.pdf",
           "status": "verified"
         }
       ]
     },
     "subsec2": {
       "title": "Official Textbook",
-      "emoji": "📘",
+      "emoji": "\ud83d\udcd8",
       "entries": [
         {
           "id": "math1-textbook-official",
@@ -63,7 +183,7 @@
     },
     "subsec3": {
       "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "🌐",
+      "emoji": "\ud83c\udf10",
       "entries": [
         {
           "id": "math1-diksha",

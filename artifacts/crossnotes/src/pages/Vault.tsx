@@ -58,8 +58,8 @@ export default function Vault() {
           <h2 className="section-header mb-3">Browse the Vault</h2>
 
           {loading ? (
-            <div className="flex flex-col gap-3">
-              {[1, 2, 3].map(i => <div key={i} className="h-20 rounded-2xl animate-pulse" style={{ background: 'var(--bg-card-2)' }} />)}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[1, 2, 3, 4].map(i => <div key={i} className="h-20 rounded-2xl animate-pulse" style={{ background: 'var(--bg-card-2)' }} />)}
             </div>
           ) : liveShelves.length === 0 ? (
             <div className="clay-card p-8 text-center" style={{ color: 'var(--text-muted)' }}>
@@ -71,14 +71,14 @@ export default function Vault() {
               </p>
             </div>
           ) : (
-            <div className="flex flex-col gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {liveShelves.map(s => (
                 <Link key={s.slug} href={`/vault/${s.slug}`}>
                   <div
-                    className="clay-card hoverable flex items-center gap-4 p-4 cursor-pointer"
+                    className="clay-card hoverable flex items-center gap-4 p-4 cursor-pointer h-full"
                     style={{ background: `var(--${s.color}-bg)`, borderColor: `var(--${s.color}-border)` }}
                   >
-                    <span className="text-4xl">{s.emoji}</span>
+                    <span className="text-4xl shrink-0">{s.emoji}</span>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-display font-bold text-base leading-tight" style={{ color: 'var(--text)' }}>{s.name}</h3>
                       {s.description && <p className="text-xs mt-0.5 truncate" style={{ color: 'var(--text-muted)' }}>{s.description}</p>}

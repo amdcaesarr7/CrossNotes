@@ -61,10 +61,10 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
   };
 
   const inner = (
-    <div className={`chapter-row ${isLastOpened ? 'last-opened' : ''}`} style={{ cursor: 'pointer' }} onClick={handleClick}>
-      <div className="flex items-center gap-3">
+    <div className={`chapter-row vault-entry-row ${isLastOpened ? 'last-opened' : ''}`} style={{ cursor: 'pointer' }} onClick={handleClick}>
+      <div className="flex items-center gap-3 w-full">
         <div
-          className="shrink-0 w-11 h-11 rounded-xl flex items-center justify-center border-2"
+          className="shrink-0 w-11 h-11 rounded-xl flex items-center justify-center border-2 vault-entry-icon"
           style={{ background: 'var(--bg-card-2)', color: 'var(--text-muted)', borderColor: 'var(--divider)' }}
         >
           <Icon size={18} />
@@ -72,7 +72,7 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
 
         <div className="flex-1 min-w-0">
           <h3 className="font-bold text-sm leading-snug truncate" style={{ color: 'var(--text)' }}>{entry.title}</h3>
-          <div className="flex items-center gap-1.5 mt-1 flex-wrap">
+          <div className="vault-entry-badges flex items-center gap-1.5 mt-1 flex-wrap">
             <span className="badge badge-new">{label}</span>
             {entry.year && <span className="badge badge-new">{entry.year}</span>}
             {entry.medium && <span className="badge badge-new">{entry.medium}</span>}
@@ -90,13 +90,14 @@ export default function VaultEntryRow({ entry, slug }: { entry: VaultEntry; slug
           </div>
         </div>
 
-        {savable && <VaultOfflineButton url={entry.sourceUrl} title={entry.title} />}
-
-        {goesToChapter ? (
-          <ChevronRight size={18} className="shrink-0" style={{ color: 'var(--text-muted)' }} />
-        ) : (
-          <ExternalLink size={16} className="shrink-0" style={{ color: 'var(--text-muted)' }} />
-        )}
+        <div className="vault-entry-actions flex items-center gap-2 shrink-0">
+          {savable && <VaultOfflineButton url={entry.sourceUrl} title={entry.title} />}
+          {goesToChapter ? (
+            <ChevronRight size={18} className="shrink-0" style={{ color: 'var(--text-muted)' }} />
+          ) : (
+            <ExternalLink size={16} className="shrink-0" style={{ color: 'var(--text-muted)' }} />
+          )}
+        </div>
       </div>
     </div>
   );

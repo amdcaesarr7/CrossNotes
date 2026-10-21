@@ -28,11 +28,13 @@ async function loadVault(slug: string): Promise<VaultSubjectContent | null> {
         const m = await import("@/data/vault/vault-science-2.json");
         return m.default as VaultSubjectContent;
       }
-      case "maths-1": {
+      case "maths-1":
+      case "algebra": {
         const m = await import("@/data/vault/vault-maths-1.json");
         return m.default as VaultSubjectContent;
       }
-      case "maths-2": {
+      case "maths-2":
+      case "geometry": {
         const m = await import("@/data/vault/vault-maths-2.json");
         return m.default as VaultSubjectContent;
       }

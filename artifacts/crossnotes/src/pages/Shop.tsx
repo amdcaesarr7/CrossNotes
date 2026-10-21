@@ -139,13 +139,13 @@ export default function Shop() {
         ) : (
           <>
             {/* Coins balance */}
-            <div className="clay-card p-4 flex items-center justify-between" style={{ background: 'var(--gold-light)', borderColor: 'var(--gold-border)' }}>
+            <div className="clay-card p-4 flex flex-col sm:flex-row gap-2 sm:gap-4 items-start sm:items-center justify-between" style={{ background: 'var(--gold-light)', borderColor: 'var(--gold-border)' }}>
               <div className="flex items-center gap-2">
                 <Coins size={22} style={{ color: 'var(--gold)' }} />
                 <span className="font-display font-black text-2xl" style={{ color: 'var(--text)' }}>{coins}</span>
                 <span className="text-sm font-bold" style={{ color: 'var(--text-muted)' }}>coins</span>
               </div>
-              <p className="text-xs font-semibold text-right max-w-[45%]" style={{ color: 'var(--text-muted)' }}>
+              <p className="text-xs font-semibold text-left sm:text-right max-w-none sm:max-w-[50%]" style={{ color: 'var(--text-muted)' }}>
                 {SHOP_TAGLINES[new Date().getDate() % SHOP_TAGLINES.length]}
               </p>
             </div>
@@ -233,11 +233,11 @@ export default function Shop() {
                 <Sparkles size={18} style={{ color: 'var(--primary)' }} />
                 <h2 className="section-header">Potion Shop</h2>
               </div>
-              <div className="flex flex-col gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {POTIONS.map(p => {
                   const canAfford = coins >= p.cost;
                   return (
-                    <div key={p.id} className="clay-card p-4 flex items-center gap-3">
+                    <div key={p.id} className="clay-card p-4 flex items-center gap-3 h-full">
                       <PotionIcon potion={p} size={40} />
                       <div className="flex-1 min-w-0">
                         <p className="font-display font-bold text-sm" style={{ color: 'var(--text)' }}>{p.name}</p>

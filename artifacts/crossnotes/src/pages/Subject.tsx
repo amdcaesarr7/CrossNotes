@@ -248,13 +248,13 @@ export default function Subject() {
       <main className="page-content" style={{ maxWidth: 680 }}>
         {/* Subject hero */}
         <div
-          className="clay-card p-5 flex items-center gap-4"
+          className="clay-card p-4 sm:p-5 flex items-center gap-3 sm:gap-4"
           style={{ background: `var(--${colorKey}-bg)`, borderColor: `var(--${colorKey}-border)` }}
         >
-          <span className="text-5xl">{subject.emoji}</span>
+          <span className="text-4xl sm:text-5xl shrink-0">{subject.emoji}</span>
           <div className="flex-1 min-w-0">
-            <h1 className="font-display font-black text-xl leading-tight" style={{ color: 'var(--text)' }}>{subject.name}</h1>
-            {subject.description && <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{subject.description}</p>}
+            <h1 className="font-display font-black text-lg sm:text-xl leading-tight" style={{ color: 'var(--text)' }}>{subject.name}</h1>
+            {subject.description && <p className="text-xs mt-0.5 line-clamp-2" style={{ color: 'var(--text-muted)' }}>{subject.description}</p>}
             <div className="flex items-center gap-2 mt-2 flex-wrap">
               <span className="badge badge-new">{chapters.length} chapters</span>
               {sections.length > 1 && (

@@ -85,14 +85,14 @@ export default function LeaderboardPage() {
 
       <main className="page-content" style={{ maxWidth: 640 }}>
         {/* Header */}
-        <div className="clay-card p-4 flex items-center justify-between" style={{ background: 'var(--gold-light)', borderColor: 'var(--gold-border)' }}>
+        <div className="clay-card p-4 flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between" style={{ background: 'var(--gold-light)', borderColor: 'var(--gold-border)' }}>
           <div>
             <h2 className="font-display font-bold text-base" style={{ color: '#92400e' }}>Holy Crossians Rankings</h2>
             <div className="flex items-center gap-1 mt-1 text-xs font-bold text-green-700">
               <Wifi size={11} /> Live updates
             </div>
           </div>
-          <div className="flex flex-col gap-1 text-xs font-bold" style={{ color: '#92400e' }}>
+          <div className="flex flex-row sm:flex-col gap-2 sm:gap-1 text-xs font-bold flex-wrap" style={{ color: '#92400e' }}>
             <span className="flex items-center gap-1"><BookOpen size={11} /> +10 read</span>
             <span className="flex items-center gap-1"><Star size={11} /> +20 cards</span>
             <span className="flex items-center gap-1"><Target size={11} /> +50 quiz</span>
@@ -130,7 +130,7 @@ export default function LeaderboardPage() {
                 const isMe = entry.uid === user?.uid;
                 return (
                   <div key={entry.uid} className={`leaderboard-row${isMe ? ' me' : ''}`}>
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
                       <span
                         className={`font-display font-black text-sm w-7 text-center shrink-0 ${i === 0 ? 'rank-gold' : i === 1 ? 'rank-silver' : i === 2 ? 'rank-bronze' : ''}`}
                         style={i > 2 ? { color: 'var(--text-muted)', opacity: 0.6 } : undefined}

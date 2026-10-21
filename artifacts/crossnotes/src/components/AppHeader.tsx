@@ -107,9 +107,9 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
   return (
     <>
       <header className="app-header">
-        <div className="flex items-center gap-2 min-w-0">
+        <div className="flex items-center gap-2 min-w-0 flex-1">
           {backHref ? (
-            <Link href={backHref} className="app-header-back" aria-label={backLabel ? `Back to ${backLabel}` : 'Go back'}>
+            <Link href={backHref} className="app-header-back shrink-0" aria-label={backLabel ? `Back to ${backLabel}` : 'Go back'}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M15 18l-6-6 6-6" />
               </svg>
@@ -117,7 +117,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
             </Link>
           ) : (
             <Link href="/" aria-label="CrossNotes — go to dashboard">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 shrink-0">
                 <BookOpen size={22} style={{ color: 'var(--primary)' }} aria-hidden="true" />
                 <span className="font-display font-bold text-lg hidden sm:inline" style={{ color: 'var(--primary)' }}>CrossNotes</span>
               </div>
@@ -126,7 +126,7 @@ export default function AppHeader({ title, backHref, backLabel }: AppHeaderProps
           {title && <h1 className="app-header-title truncate">{title}</h1>}
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           {!isFirebaseReady && (
             <span className="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-1 rounded-full border border-amber-300 hidden sm:inline">
               ⚠ Firebase

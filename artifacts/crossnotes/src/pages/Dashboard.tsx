@@ -364,23 +364,23 @@ export default function Dashboard() {
                   key={e.uid}
                   className={`leaderboard-row${e.uid === user?.uid ? ' me' : ''}`}
                 >
-                  <div className="flex items-center gap-3">
-                    <span className={`font-display font-black text-sm w-6 text-center ${i === 0 ? 'rank-gold' : i === 1 ? 'rank-silver' : i === 2 ? 'rank-bronze' : ''}`} style={i > 2 ? { color: 'var(--text-muted)' } : {}}>
+                  <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
+                    <span className={`font-display font-black text-sm w-6 text-center shrink-0 ${i === 0 ? 'rank-gold' : i === 1 ? 'rank-silver' : i === 2 ? 'rank-bronze' : ''}`} style={i > 2 ? { color: 'var(--text-muted)' } : {}}>
                       #{i + 1}
                     </span>
                     {e.photoURL ? (
-                      <img src={googleAvatarUrl(e.photoURL, 32)} className="w-8 h-8 rounded-full border" style={{ borderColor: 'var(--divider)' }} alt={e.displayName ?? 'User'} loading="lazy" decoding="async" width={32} height={32} />
+                      <img src={googleAvatarUrl(e.photoURL, 32)} className="w-8 h-8 rounded-full border shrink-0" style={{ borderColor: 'var(--divider)' }} alt={e.displayName ?? 'User'} loading="lazy" decoding="async" width={32} height={32} />
                     ) : (
-                      <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm" style={{ background: 'var(--bg-card-2)', color: 'var(--text)' }} aria-hidden="true">
+                      <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm shrink-0" style={{ background: 'var(--bg-card-2)', color: 'var(--text)' }} aria-hidden="true">
                         {e.displayName?.charAt(0) ?? '?'}
                       </div>
                     )}
-                    <span className="font-bold text-sm" style={{ color: 'var(--text)' }}>
+                    <span className="font-bold text-sm truncate" style={{ color: 'var(--text)' }}>
                       {e.uid === user?.uid ? `${e.displayName?.split(' ')[0]} (You)` : e.displayName}
                       {i === 0 && ' 👑'}
                     </span>
                   </div>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 shrink-0">
                     <span className="streak-chip">{e.streak}🔥</span>
                     <span className="font-display font-bold text-sm" style={{ color: 'var(--primary)' }}>{e.xp} XP</span>
                   </div>

@@ -115,8 +115,8 @@ export default function Flashcards() {
 
             {/* 3D Flip Card */}
             <div
-              className="perspective-1000 cursor-pointer"
-              style={{ height: 240 }}
+              className="perspective-1000 cursor-pointer w-full"
+              style={{ minHeight: 240, height: 'clamp(220px, 40vh, 320px)' }}
               onClick={() => { sfx.flip(); setIsFlipped(f => !f); }}
             >
               <div
@@ -125,23 +125,23 @@ export default function Flashcards() {
               >
                 {/* Front */}
                 <div
-                  className="backface-hidden absolute inset-0 clay-card flex flex-col items-center justify-center p-6 text-center"
+                  className="backface-hidden absolute inset-0 clay-card flex flex-col items-center justify-center p-4 sm:p-6 text-center overflow-y-auto"
                   style={{ background: `var(--${colorKey}-bg)`, borderColor: `var(--${colorKey}-border)` }}
                 >
-                  <p className="text-xs font-black uppercase tracking-wider mb-3 opacity-60" style={{ color: `var(--${colorKey}-shadow)` }}>
+                  <p className="text-xs font-black uppercase tracking-wider mb-2 opacity-60" style={{ color: `var(--${colorKey}-shadow)` }}>
                     Tap to flip ↩
                   </p>
-                  <p className="font-bold text-lg leading-snug" style={{ color: 'var(--text)' }}>{card?.front}</p>
+                  <p className="font-bold text-base sm:text-lg leading-snug" style={{ color: 'var(--text)' }}>{card?.front}</p>
                 </div>
                 {/* Back */}
                 <div
-                  className="backface-hidden rotate-y-180 absolute inset-0 clay-card flex flex-col items-center justify-center p-6 text-center"
+                  className="backface-hidden rotate-y-180 absolute inset-0 clay-card flex flex-col items-center justify-center p-4 sm:p-6 text-center overflow-y-auto"
                   style={{ background: `var(--${colorKey}-bg)`, borderColor: `var(--${colorKey}-border)` }}
                 >
-                  <p className="text-xs font-black uppercase tracking-wider mb-3 opacity-70" style={{ color: `var(--${colorKey}-shadow)` }}>
+                  <p className="text-xs font-black uppercase tracking-wider mb-2 opacity-70" style={{ color: `var(--${colorKey}-shadow)` }}>
                     Answer
                   </p>
-                  <p className="font-bold text-lg leading-snug" style={{ color: 'var(--text)' }}>{card?.back}</p>
+                  <p className="font-bold text-base sm:text-lg leading-snug" style={{ color: 'var(--text)' }}>{card?.back}</p>
                 </div>
               </div>
             </div>

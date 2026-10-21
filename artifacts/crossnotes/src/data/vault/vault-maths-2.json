@@ -2,53 +2,173 @@
   "subsections": {
     "subsec1": {
       "title": "Past Board Papers",
-      "emoji": "📄",
+      "emoji": "\ud83d\udcc4",
       "entries": [
         {
-          "id": "math2-pp-2024-mar-en",
-          "title": "March 2024 Question Paper ",
+          "id": "geometry-pp-21-geometry-aug-2022-ap",
+          "title": "21 Geometry Aug 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Aug%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-aug-2022-qp",
+          "title": "21 Geometry Aug 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Aug%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-feb-2026-qp",
+          "title": "21 Geometry Feb 2026 QP",
+          "kind": "past_paper",
+          "year": 2026,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Feb%202026%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-jul-2023-ap",
+          "title": "21 Geometry Jul 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Jul%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-jul-2023-qp",
+          "title": "21 Geometry Jul 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Jul%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-mar-2020-ap",
+          "title": "21 Geometry Mar 2020 AP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-mar-2020-qp",
+          "title": "21 Geometry Mar 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202020%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-mar-2022-ap",
+          "title": "21 Geometry Mar 2022 AP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202022%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-mar-2022-qp",
+          "title": "21 Geometry Mar 2022 QP",
+          "kind": "past_paper",
+          "year": 2022,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202022%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-mar-2023-ap",
+          "title": "21 Geometry Mar 2023 AP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202023%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-mar-2023-qp",
+          "title": "21 Geometry Mar 2023 QP",
+          "kind": "past_paper",
+          "year": 2023,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202023%20QP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-mar-2024-ap",
+          "title": "21 Geometry Mar 2024 AP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_632_8d5f9b9836.pdf",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202024%20AP.pdf",
           "status": "verified"
         },
         {
-          "id": "math2-pp-2024-jul-en",
-          "title": "July 2024 Question Paper ",
+          "id": "geometry-pp-21-geometry-mar-2024-qp",
+          "title": "21 Geometry Mar 2024 QP",
           "kind": "past_paper",
           "year": 2024,
           "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/n_397_b6702ad772.pdf",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202024%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "math2-pp-2025-mar-en",
-          "title": "March 2025 Question Paper ",
+          "id": "geometry-pp-21-geometry-mar-2025-qp",
+          "title": "21 Geometry Mar 2025 QP",
           "kind": "past_paper",
           "year": 2025,
           "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_832_a54516470b.pdf",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Mar%202025%20QP.pdf",
           "status": "verified"
         },
         {
-          "id": "math2-pp-2025-jul-en",
-          "title": "July 2025 Question Paper ",
+          "id": "geometry-pp-21-geometry-nov-2020-ap",
+          "title": "21 Geometry Nov 2020 AP",
           "kind": "past_paper",
-          "year": 2025,
+          "year": 2020,
           "medium": "English",
-          "license": "Government OS",
-          "sourceUrl": "https://state-board-strapi-upload.blr1.digitaloceanspaces.com/N_832_a54516470b.pdf",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Nov%202020%20AP.pdf",
+          "status": "verified"
+        },
+        {
+          "id": "geometry-pp-21-geometry-nov-2020-qp",
+          "title": "21 Geometry Nov 2020 QP",
+          "kind": "past_paper",
+          "year": 2020,
+          "medium": "English",
+          "license": "Public/Government",
+          "sourceUrl": "/vault/Geometry/21%20Geometry%20Nov%202020%20QP.pdf",
           "status": "verified"
         }
       ]
     },
     "subsec2": {
       "title": "Official Textbook",
-      "emoji": "📘",
+      "emoji": "\ud83d\udcd8",
       "entries": [
         {
           "id": "math2-textbook-official",
@@ -63,7 +183,7 @@
     },
     "subsec3": {
       "title": "Open Resources (DIKSHA / NROER)",
-      "emoji": "🌐",
+      "emoji": "\ud83c\udf10",
       "entries": [
         {
           "id": "math2-diksha",

@@ -5,11 +5,12 @@ import { Analytics } from '@vercel/analytics/react';
 import { AuthProvider } from '@/contexts/AuthContext';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { SoundProvider } from '@/contexts/SoundContext';
+import { MewProvider } from '@/contexts/MewContext';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import AuthStartupGate from '@/components/AuthStartupGate';
 import FirstUseTour from '@/components/FirstUseTour';
 import InstallSoftPrompt from '@/components/InstallSoftPrompt';
-import MewCompanion from '@/components/MewCompanion';
+import MewStudyBuddy from '@/components/MewStudyBuddy';
 import OfflineNotice from '@/components/OfflineNotice';
 import { Toaster } from 'sonner';
 
@@ -39,35 +40,37 @@ export default function App() {
         <AuthProvider>
           <ThemeProvider>
             <SoundProvider>
-              <AuthStartupGate>
-                <Suspense fallback={<main className="cn-body route-loading" aria-live="polite">Loading CrossNotes…</main>}>
-                  <WouterRouter base={base}>
-                    <ErrorBoundary>
-                      <Switch>
-                        <Route path="/" component={Dashboard} />
-                        <Route path="/subjects" component={Home} />
-                        <Route path="/subject/:slug" component={Subject} />
-                        <Route path="/vault" component={Vault} />
-                        <Route path="/vault/:slug" component={VaultSubject} />
-                        <Route path="/notes/:slug/:chapterId" component={Notes} />
-                        <Route path="/flashcards/:slug/:chapterId" component={Flashcards} />
-                        <Route path="/quiz/:slug/:chapterId" component={Quiz} />
-                        <Route path="/progress" component={Progress} />
-                        <Route path="/leaderboard" component={Leaderboard} />
-                        <Route path="/shop" component={Shop} />
-                        <Route path="/admin/feedback" component={AdminFeedback} />
-                        <Route path="/credits" component={Credits} />
-                        <Route component={NotFound} />
-                      </Switch>
-                    </ErrorBoundary>
-                  </WouterRouter>
-                </Suspense>
-                <FirstUseTour />
-                <InstallSoftPrompt />
-                <MewCompanion />
-                <OfflineNotice />
-                <Toaster richColors position="top-center" />
-              </AuthStartupGate>
+              <MewProvider>
+                <AuthStartupGate>
+                  <Suspense fallback={<main className="cn-body route-loading" aria-live="polite">Loading CrossNotes…</main>}>
+                    <WouterRouter base={base}>
+                      <ErrorBoundary>
+                        <Switch>
+                          <Route path="/" component={Dashboard} />
+                          <Route path="/subjects" component={Home} />
+                          <Route path="/subject/:slug" component={Subject} />
+                          <Route path="/vault" component={Vault} />
+                          <Route path="/vault/:slug" component={VaultSubject} />
+                          <Route path="/notes/:slug/:chapterId" component={Notes} />
+                          <Route path="/flashcards/:slug/:chapterId" component={Flashcards} />
+                          <Route path="/quiz/:slug/:chapterId" component={Quiz} />
+                          <Route path="/progress" component={Progress} />
+                          <Route path="/leaderboard" component={Leaderboard} />
+                          <Route path="/shop" component={Shop} />
+                          <Route path="/admin/feedback" component={AdminFeedback} />
+                          <Route path="/credits" component={Credits} />
+                          <Route component={NotFound} />
+                        </Switch>
+                      </ErrorBoundary>
+                    </WouterRouter>
+                  </Suspense>
+                  <FirstUseTour />
+                  <InstallSoftPrompt />
+                  <MewStudyBuddy />
+                  <OfflineNotice />
+                  <Toaster richColors position="top-center" />
+                </AuthStartupGate>
+              </MewProvider>
             </SoundProvider>
           </ThemeProvider>
         </AuthProvider>

@@ -3445,3 +3445,190 @@ a:hover .tilt-left, a:hover .tilt-right { transform: translateY(-2px); }
   .dash-hero { animation: none; }
   .cn-body::before, .cn-body::after { animation: none !important; }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Mew Study Buddy — persistent corner widget + celebration modal
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Corner widget */
+.mew-buddy {
+  position: fixed;
+  bottom: 80px; /* above BottomNav */
+  right: 16px;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  pointer-events: none; /* children opt-in */
+}
+
+.mew-buddy__mascot {
+  pointer-events: auto;
+  cursor: pointer;
+  filter: drop-shadow(0 4px 12px rgba(91, 59, 77, 0.25));
+  transition: opacity 0.4s ease, filter 0.4s ease;
+}
+
+.mew-buddy__mascot--sleeping {
+  opacity: 0.55;
+  filter: grayscale(0.4) drop-shadow(0 4px 12px rgba(91, 59, 77, 0.12));
+}
+
+.mew-buddy__label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted, #7c6473);
+  pointer-events: none;
+  letter-spacing: 0.03em;
+}
+
+.mew-buddy__label--sleeping {
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+}
+
+/* Mute toggle */
+.mew-mute-btn {
+  pointer-events: auto;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--divider, #e5dfe8);
+  background: var(--bg-card, #fff);
+  color: var(--text-muted, #7c6473);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+  transition: background 0.2s, transform 0.15s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.mew-mute-btn:hover {
+  background: var(--primary-light, #f3e8ff);
+  transform: scale(1.15);
+}
+
+/* Speech bubble */
+.mew-bubble {
+  pointer-events: none;
+  position: absolute;
+  bottom: calc(100% + 10px);
+  right: 0;
+  max-width: 220px;
+  min-width: 140px;
+  background: var(--bg-card, #fff);
+  border: 2px solid var(--primary-border, #d8b4fe);
+  border-radius: 16px 16px 4px 16px;
+  padding: 10px 13px;
+  box-shadow: 0 6px 20px rgba(91, 59, 77, 0.18);
+  animation: mew-bubble-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  transform-origin: bottom right;
+}
+
+.mew-bubble__text {
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text, #3a2d4d);
+  margin: 0;
+}
+
+.mew-bubble__tail {
+  position: absolute;
+  bottom: -8px;
+  right: 18px;
+  width: 14px;
+  height: 8px;
+  background: var(--bg-card, #fff);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  border-left: 2px solid var(--primary-border, #d8b4fe);
+  border-right: 2px solid var(--primary-border, #d8b4fe);
+}
+
+@keyframes mew-bubble-in {
+  from { opacity: 0; transform: scale(0.7) translateY(8px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* Celebration overlay */
+.mew-celebration-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(58, 45, 92, 0.55);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: mew-overlay-in 0.35s ease both;
+  cursor: pointer;
+}
+
+@keyframes mew-overlay-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.mew-celebration-card {
+  background: var(--bg-card, #fff);
+  border-radius: 28px;
+  padding: 36px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 320px;
+  width: 90vw;
+  box-shadow: 0 24px 64px rgba(91, 59, 77, 0.35);
+  animation: mew-card-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  cursor: default;
+}
+
+@keyframes mew-card-in {
+  from { opacity: 0; transform: scale(0.6) translateY(40px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.mew-celebration__text {
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--text, #3a2d4d);
+  text-align: center;
+  margin: 0;
+}
+
+.mew-celebration__dismiss {
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+/* Dark mode overrides */
+.dark-mode .mew-bubble,
+.dark-mode .mew-bubble__tail {
+  background: #2d2040;
+  border-color: #7c5fa8;
+}
+
+.dark-mode .mew-mute-btn {
+  background: #2d2040;
+  border-color: #4a3660;
+  color: #b89fd4;
+}
+
+.dark-mode .mew-celebration-card {
+  background: #1e1530;
+}
+
+/* Respect reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .mew-bubble { animation: none; opacity: 1; }
+  .mew-celebration-overlay { animation: none; }
+  .mew-celebration-card { animation: none; }
+}

@@ -10,6 +10,7 @@ import { useHead, useBreadcrumb, getChapterMeta } from '@/hooks/useSeo';
 import { sfx } from '@/lib/sfx';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import AppHeader from '@/components/AppHeader';
+import { useMew } from '@/contexts/MewContext';
 import '../crossnotes.css';
 
 export default function Flashcards() {
@@ -25,6 +26,7 @@ export default function Flashcards() {
   const slug      = params.slug || '';
   const chapterId = params.chapterId || '';
   const { user } = useAuth();
+  const { trigger, celebrate: mewCelebrate } = useMew();
 
   const subject = useStaticSubject(slug);
   const { chapter, loading: chapterLoading } = useStaticChapter(slug, chapterId);
@@ -47,6 +49,7 @@ export default function Flashcards() {
 
   const handleResult = async (gotIt: boolean) => {
     gotIt ? sfx.correct() : sfx.click();
+    if (gotIt) trigger('correctAnswer', 'happy');
     if (gotIt) setKnown(k => k + 1); else setConfused(c => c + 1);
     const isLast = currentIndex >= total - 1;
     if (!isLast) {
@@ -55,6 +58,7 @@ export default function Flashcards() {
     } else {
       setIsFinished(true);
       sfx.sessionDone();
+      mewCelebrate();
       if (user && !rewarded) {
         try {
           const result = await markFlashcardsCompleted(user.uid, chapterId, { subjectSlug: slug, chapterName: chapter?.title });

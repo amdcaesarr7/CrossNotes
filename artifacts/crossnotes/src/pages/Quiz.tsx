@@ -11,6 +11,7 @@ import { sfx } from '@/lib/sfx';
 import { fireConfetti } from '@/lib/confetti';
 import { celebrateActivityResult } from '@/lib/celebrate';
 import AppHeader from '@/components/AppHeader';
+import { useMew } from '@/contexts/MewContext';
 import '../crossnotes.css';
 
 const CORRECT_MSGS = [
@@ -89,6 +90,7 @@ export default function Quiz() {
   const slug      = params.slug || '';
   const chapterId = params.chapterId || '';
   const { user } = useAuth();
+  const { trigger, celebrate: mewCelebrate, setMood } = useMew();
 
   const subject = useStaticSubject(slug);
   const { chapter } = useStaticChapter(slug, chapterId);
@@ -124,6 +126,8 @@ export default function Quiz() {
     if (!q || !answered) return;
     const correct = isCorrect(qType, answer, q);
     correct ? sfx.correct() : sfx.wrong();
+    if (correct) trigger('correctAnswer', 'happy');
+    else trigger('wrongAnswer', 'thinking');
     toast(correct ? CORRECT_MSGS[idx % CORRECT_MSGS.length] : WRONG_MSGS[idx % WRONG_MSGS.length], {
       icon: correct ? '✅' : '❌', duration: 2200,
     });
@@ -140,6 +144,8 @@ export default function Quiz() {
     const finalCorrect = finalScores.filter(Boolean).length;
     const finalPct = total > 0 ? Math.round((finalCorrect / total) * 100) : 0;
     sfx.sessionDone();
+    if (finalPct >= 70) mewCelebrate();
+    else setMood('thinking');
     if (finalPct >= 90) fireConfetti();
 
     if (user) {
@@ -197,6 +203,14 @@ export default function Quiz() {
     void finishQuiz(finalScores);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [secondsLeft, done, total]);
+
+  // Mew panics when time is running low
+  useEffect(() => {
+    if (secondsLeft === null || done) return;
+    if (secondsLeft === 60) {
+      trigger('questExpiry', 'thinking');
+    }
+  }, [secondsLeft, done, trigger]);
 
   const reset = () => {
     setIdx(0); setAnswer(null); setRevealed(false); setScores([]); setDone(false);

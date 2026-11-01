@@ -3632,3 +3632,79 @@ a:hover .tilt-left, a:hover .tilt-right { transform: translateY(-2px); }
   .mew-celebration-overlay { animation: none; }
   .mew-celebration-card { animation: none; }
 }
+
+/* ─── NOTE SEARCH (claymorphism) ─────────────────────────────────── */
+.cn-body {
+  --clay-hi: rgba(255, 255, 255, 0.95);
+  --clay-lo: rgba(90, 70, 160, 0.16);
+  --clay-drop: rgba(40, 30, 80, 0.12);
+}
+.cn-body.dark-mode, .dark-mode .cn-body {
+  --clay-hi: rgba(255, 255, 255, 0.07);
+  --clay-lo: rgba(0, 0, 0, 0.55);
+  --clay-drop: rgba(0, 0, 0, 0.45);
+}
+.note-search { display: flex; flex-direction: column; gap: 6px; margin: var(--space-3) 0 var(--space-1); }
+.note-search-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: var(--r-xl);
+  background: var(--surface-2);
+  box-shadow:
+    8px 10px 22px var(--clay-drop),
+    inset 4px 4px 9px var(--clay-hi),
+    inset -5px -5px 11px var(--clay-lo);
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+.note-search-field:focus-within {
+  transform: translateY(1px);
+  box-shadow:
+    3px 4px 10px var(--clay-drop),
+    inset 5px 5px 11px var(--clay-lo),
+    inset -4px -4px 9px var(--clay-hi),
+    0 0 0 3px var(--primary-border);
+}
+.note-search-icon { position: absolute; left: 16px; color: var(--text-subtle); pointer-events: none; }
+.note-search-input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 48px 0 44px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: var(--text-body);
+  border-radius: var(--r-xl);
+  -webkit-appearance: none;
+  appearance: none;
+}
+.note-search-input::placeholder { color: var(--text-subtle); }
+.note-search-input::-webkit-search-cancel-button { display: none; }
+.note-search-clear {
+  position: absolute;
+  right: 8px;
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  color: var(--text-muted);
+  background: var(--surface);
+  box-shadow: 3px 4px 8px var(--clay-drop), inset 2px 2px 4px var(--clay-hi), inset -2px -2px 5px var(--clay-lo);
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+.note-search-clear:active {
+  transform: scale(0.94);
+  box-shadow: 1px 1px 3px var(--clay-drop), inset 2px 2px 5px var(--clay-lo), inset -2px -2px 4px var(--clay-hi);
+}
+.note-search-clear:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.note-search-status { min-height: 1.1em; margin: 0 0 0 var(--space-4); font-size: var(--text-xs); font-weight: 700; color: var(--text-muted); }
+.note-search-empty { padding: var(--space-6); text-align: center; }
+::highlight(cn-search) { background-color: var(--gold-border); color: var(--ink); }
+@media (prefers-reduced-motion: reduce) {
+  .note-search-field, .note-search-clear { transition: none; }
+}

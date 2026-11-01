@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useDeferredValue } from 'react';
 import { Loader2, CheckCircle2, LayoutList, FileText, PenSquare, Shuffle, ToggleLeft, HelpCircle, Sparkles, Target, BookOpen } from 'lucide-react';
 import { Link, useParams } from 'wouter';
 import { toast } from 'sonner';
@@ -13,6 +13,9 @@ import NoteBlockRenderer from '@/components/NoteBlockRenderer';
 import MathsPracticeLibrary from '@/components/MathsPracticeLibrary';
 import { isImportedSolution } from '@/lib/importedSolutions';
 import AppHeader from '@/components/AppHeader';
+import NoteSearchBar from '@/components/NoteSearchBar';
+import { noteSearchText, matchesQuery } from '@/lib/noteSearch';
+import { useSearchHighlight } from '@/hooks/useSearchHighlight';
 import '../crossnotes.css';
 
 // Subtype tags shown under the chapter title, pulled straight from the
@@ -31,6 +34,9 @@ export default function Notes() {
   const { isDark } = useTheme();
   const [marked, setMarked] = useState(false);
   const [marking, setMarking] = useState(false);
+  const [query, setQuery] = useState('');
+  const deferredQuery = useDeferredValue(query);
+  const notesRef = useRef<HTMLDivElement>(null);
 
   const params = useParams<{ slug: string; chapterId: string }>();
   const slug      = params.slug || '';
@@ -74,6 +80,14 @@ export default function Notes() {
   const isMathsPracticeLibrary = /^maths-[12]$/.test(slug) && mathsSolutionNotes.length > 0;
   const hasFlashcards = (chapter?.flashcards.length ?? 0) > 0;
   const hasQuiz = (chapter?.quiz.length ?? 0) > 0;
+  const searchable = !isMathsPracticeLibrary && notes.length > 1;
+  const searchIndex = useMemo(() => notes.map(n => ({ note: n, text: noteSearchText(n) })), [notes]);
+  const activeQuery = searchable ? deferredQuery.trim() : '';
+  const visibleNotes = useMemo(
+    () => (activeQuery ? searchIndex.filter(e => matchesQuery(e.text, activeQuery)).map(e => e.note) : notes),
+    [searchIndex, notes, activeQuery],
+  );
+  useSearchHighlight(notesRef, activeQuery, [visibleNotes]);
   const subtypesPresent = Array.from(new Set(notes.map(n => n.type).filter((t): t is Exclude<typeof t, undefined> => !!t && t in SUBTYPE_META)));
 
   return (
@@ -125,6 +139,10 @@ export default function Notes() {
 
         </div>
 
+        {!loading && searchable && (
+          <NoteSearchBar value={query} onChange={setQuery} resultCount={visibleNotes.length} total={notes.length} />
+        )}
+
         {loading ? (
           <div className="flex-1 flex items-center justify-center py-20">
             <Loader2 size={30} style={{ color: 'var(--primary)', animation: 'spin 1s linear infinite' }} />
@@ -142,9 +160,17 @@ export default function Notes() {
             {isMathsPracticeLibrary ? (
               <MathsPracticeLibrary notes={mathsSolutionNotes} chapterTitle={chapter?.title ?? 'Maths chapter'} />
             ) : (
-              notes.map((note, i) => (
-                <NoteBlockRenderer key={note.id} note={note} index={i} subjectSlug={slug} />
-              ))
+              <div ref={notesRef} className="flex flex-col gap-4">
+                {visibleNotes.map((note, i) => (
+                  <NoteBlockRenderer key={note.id} note={note} index={i} subjectSlug={slug} />
+                ))}
+                {activeQuery && visibleNotes.length === 0 && (
+                  <div className="clay-card note-search-empty">
+                    <p className="font-bold" style={{ color: 'var(--text)' }}>No notes match "{activeQuery}"</p>
+                    <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>Try a shorter or different word.</p>
+                  </div>
+                )}
+              </div>
             )}
 
             {/* Next steps — only show real study modes that actually contain content. */}

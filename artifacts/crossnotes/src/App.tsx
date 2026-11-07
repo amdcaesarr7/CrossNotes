@@ -6,6 +6,7 @@ import { AuthProvider } from '@/contexts/AuthContext';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import { SoundProvider } from '@/contexts/SoundContext';
 import { MewProvider } from '@/contexts/MewContext';
+import { ExamProvider } from '@/contexts/ExamContext';
 import ErrorBoundary from '@/components/ErrorBoundary';
 import AuthStartupGate from '@/components/AuthStartupGate';
 import FirstUseTour from '@/components/FirstUseTour';
@@ -28,6 +29,7 @@ const Shop = lazy(() => import('@/pages/Shop'));
 const AdminFeedback = lazy(() => import('@/pages/AdminFeedback'));
 const Credits = lazy(() => import('@/pages/Credits'));
 const NotFound = lazy(() => import('@/pages/not-found'));
+const ExamMode = lazy(() => import('@/pages/ExamMode'));
 
 const queryClient = new QueryClient();
 
@@ -41,7 +43,8 @@ export default function App() {
           <ThemeProvider>
             <SoundProvider>
               <MewProvider>
-                <AuthStartupGate>
+                <ExamProvider>
+                  <AuthStartupGate>
                   <Suspense fallback={<main className="cn-body route-loading" aria-live="polite">Loading CrossNotes…</main>}>
                     <WouterRouter base={base}>
                       <ErrorBoundary>
@@ -59,6 +62,7 @@ export default function App() {
                           <Route path="/shop" component={Shop} />
                           <Route path="/admin/feedback" component={AdminFeedback} />
                           <Route path="/credits" component={Credits} />
+                          <Route path="/exam" component={ExamMode} />
                           <Route component={NotFound} />
                         </Switch>
                       </ErrorBoundary>
@@ -70,6 +74,7 @@ export default function App() {
                   <OfflineNotice />
                   <Toaster richColors position="top-center" />
                 </AuthStartupGate>
+                </ExamProvider>
               </MewProvider>
             </SoundProvider>
           </ThemeProvider>

@@ -3707,4 +3707,603 @@ a:hover .tilt-left, a:hover .tilt-right { transform: translateY(-2px); }
 ::highlight(cn-search) { background-color: var(--gold-border); color: var(--ink); }
 @media (prefers-reduced-motion: reduce) {
   .note-search-field, .note-search-clear { transition: none; }
+
+/* ============================================================
+   EXAM MODE
+   All tokens inherit from existing :root / .cn-body variables.
+   ============================================================ */
+
+/* ---- Onboarding backdrop + sheet ---- */
+.exam-onboarding-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 0 var(--bottom-nav-h);
+}
+
+.exam-onboarding-sheet {
+  width: 100%;
+  max-width: var(--content-max, 640px);
+  border-radius: 24px 24px 0 0;
+  padding: 24px 20px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 80vh;
+  overflow: hidden;
+  background: var(--bg-card);
+}
+
+.exam-onboarding-header {
+  flex-shrink: 0;
+}
+
+.exam-onboarding-options {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-right: 2px;
+}
+
+.exam-lang-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1.5px solid var(--divider);
+  background: var(--bg-card-2);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  text-align: left;
+}
+
+.exam-lang-option.selected {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg-card));
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.exam-onboarding-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* ---- Hero card ---- */
+.exam-hero {
+  padding: 18px 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--bg-card);
+}
+
+.exam-hero-title {
+  font-family: var(--font-display, inherit);
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.exam-hero-subtitle {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.exam-hero-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.exam-hero-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: color-mix(in srgb, var(--accent) 14%, var(--bg-card));
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+.exam-hero-change-btn {
+  font-size: 0.78rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+}
+
+/* ---- Tab bar ---- */
+.exam-tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-card-2);
+  border-radius: 14px;
+  padding: 4px;
+}
+
+.exam-tab-btn {
+  flex: 1;
+  padding: 8px 4px;
+  border-radius: 10px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.exam-tab-btn.active {
+  background: var(--bg-card);
+  color: var(--text);
+  box-shadow: var(--shadow-btn, 0 1px 4px rgba(0,0,0,0.12));
+}
+
+/* ---- Countdown card ---- */
+.exam-countdown-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--bg-card);
+}
+
+.exam-countdown-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.exam-countdown-subject {
+  font-family: var(--font-display, inherit);
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--text);
+  line-height: 1.25;
+}
+
+.exam-countdown-sublabel {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.exam-countdown-digits {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+  margin-top: 8px;
+}
+
+.exam-countdown-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 56px;
+}
+
+.exam-countdown-num {
+  font-family: var(--font-display, inherit);
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.exam-countdown-unit-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 2px;
+}
+
+.exam-countdown-sep {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--text-muted);
+  line-height: 1;
+  padding: 0 1px;
+  align-self: flex-start;
+  padding-top: 2px;
+}
+
+.exam-countdown-inprogress {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.exam-countdown-date {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* ---- Timeline ---- */
+.exam-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.exam-timeline-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--bg-card);
+  border: 1.5px solid var(--divider);
+  transition: border-color 0.15s;
+}
+
+.exam-timeline-row--done {
+  opacity: 0.55;
+  border-color: transparent;
+}
+
+.exam-timeline-row--today {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, var(--bg-card));
+}
+
+.exam-timeline-icon {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: var(--text-muted);
+}
+
+.exam-timeline-row--done .exam-timeline-icon {
+  color: var(--accent);
+}
+
+.exam-timeline-row--today .exam-timeline-icon {
+  color: var(--accent);
+}
+
+.exam-timeline-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.exam-timeline-date {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+
+.exam-timeline-subject {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.exam-timeline-sublabel {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 1px;
+  line-height: 1.4;
+}
+
+.exam-timeline-time {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.exam-timeline-right {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.exam-timeline-notes-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.exam-timeline-notes-link:hover {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.exam-timeline-gap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 4px;
+}
+
+.exam-timeline-gap-line {
+  flex: 1;
+  height: 1px;
+  background: var(--divider);
+  border-radius: 1px;
+}
+
+.exam-timeline-gap-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* ---- Study planner ---- */
+.exam-planner {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.exam-section-title {
+  font-family: var(--font-display, inherit);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.exam-planner-ratings-card {
+  padding: 16px 18px;
+}
+
+.exam-planner-ratings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exam-planner-rating-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.exam-planner-rating-label {
+  flex: 1;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.exam-planner-stars {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.exam-star-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1.5px solid var(--divider);
+  background: var(--bg-card-2);
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+}
+
+.exam-star-btn.active {
+  background: color-mix(in srgb, var(--accent) 18%, var(--bg-card));
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.exam-planner-progress-card {
+  padding: 16px 18px;
+}
+
+.exam-planner-progress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.exam-planner-progress-row {
+  /* flex column handled inline */
+}
+
+.exam-planner-missed-warning {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: color-mix(in srgb, #f97316 10%, var(--bg-card));
+  border: 1.5px solid color-mix(in srgb, #f97316 30%, transparent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #c2410c;
+}
+
+.dark-mode .exam-planner-missed-warning {
+  color: #fb923c;
+}
+
+/* ---- Planner day groups ---- */
+.exam-planner-day {
+  border-radius: 14px;
+  border: 1.5px solid var(--divider);
+  overflow: hidden;
+  background: var(--bg-card);
+}
+
+.exam-planner-day--today {
+  border-color: var(--accent);
+}
+
+.exam-planner-day--past {
+  opacity: 0.6;
+}
+
+.exam-planner-day-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px 8px;
+  border-bottom: 1px solid var(--divider);
+  background: var(--bg-card-2);
+}
+
+.exam-planner-day-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.exam-planner-tasks {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Individual tasks ---- */
+.exam-planner-task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--divider);
+  transition: background 0.12s;
+}
+
+.exam-planner-task:last-child {
+  border-bottom: none;
+}
+
+.exam-planner-task--done {
+  opacity: 0.5;
+}
+
+.exam-planner-task--missed {
+  background: color-mix(in srgb, #f97316 6%, var(--bg-card));
+}
+
+.exam-planner-task--quickrev {
+  background: color-mix(in srgb, var(--accent) 6%, var(--bg-card));
+}
+
+.exam-planner-task--mock {
+  background: color-mix(in srgb, #8b5cf6 6%, var(--bg-card));
+}
+
+.exam-task-check {
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  border: 2px solid var(--divider);
+  background: var(--bg-card-2);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--accent);
+  transition: border-color 0.12s, background 0.12s;
+}
+
+.exam-planner-task--done .exam-task-check {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, var(--bg-card));
+}
+
+.exam-task-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.exam-task-subject {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.exam-task-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+.exam-task-notes-link {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: 1.5px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  color: var(--accent);
+  text-decoration: none;
+  transition: background 0.12s;
+}
+
+.exam-task-notes-link:hover {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+/* ---- Dark mode overrides for exam ---- */
+.dark-mode .exam-lang-option,
+.dark-mode .exam-timeline-row,
+.dark-mode .exam-countdown-card,
+.dark-mode .exam-hero,
+.dark-mode .exam-planner-day,
+.dark-mode .exam-planner-ratings-card,
+.dark-mode .exam-planner-progress-card {
+  /* inherits --bg-card from .cn-body.dark-mode vars — no override needed */
+}
+
+/* ---- Responsive: 5-tab nav ---- */
+@media (max-width: 360px) {
+  .bottom-nav-tab span {
+    font-size: 0.6rem;
+  }
 }

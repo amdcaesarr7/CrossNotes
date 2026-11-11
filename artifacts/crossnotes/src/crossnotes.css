@@ -3707,6 +3707,7 @@ a:hover .tilt-left, a:hover .tilt-right { transform: translateY(-2px); }
 ::highlight(cn-search) { background-color: var(--gold-border); color: var(--ink); }
 @media (prefers-reduced-motion: reduce) {
   .note-search-field, .note-search-clear { transition: none; }
+}
 
 /* ============================================================
    EXAM MODE

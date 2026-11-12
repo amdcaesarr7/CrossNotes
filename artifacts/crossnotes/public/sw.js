@@ -2,11 +2,13 @@
 //
 // Two independent caches, on purpose, with different strategies:
 //
-//   APP_CACHE    the app shell + every hashed build asset (JS/CSS chunks,
-//                including the lazily-imported subject / quiz / flashcard
-//                content) + the brand icons. Auto-populated as the student
-//                uses the app, so any subject they have opened once works
-//                fully offline. Wiped when APP_VERSION is bumped.
+//   APP_CACHE    the app shell + every hashed build asset (JS/CSS chunks) and
+//                the brand icons. Wiped when APP_VERSION is bumped.
+//
+//   CONTENT_CACHE manifest.json and the chapter JSON files. The manifest is
+//                refreshed in the background; chapter URLs include their
+//                manifest hash and are cached first, so opened chapters work
+//                offline without bundling all 65 chapters into the app.
 //
 //   VAULT_CACHE  the ~115 MB of Vault PDFs / PPTX. NEVER auto-cached — a
 //                student on mobile data must not silently lose 115 MB of
@@ -18,8 +20,9 @@
 // Keep in sync: the VAULT_CACHE name here must equal the one in
 // src/lib/offlineVault.ts.
 
-const APP_VERSION = 'v2';
+const APP_VERSION = 'v3';
 const APP_CACHE = `crossnotes-app-${APP_VERSION}`;
+const CONTENT_CACHE = 'crossnotes-content-v1';
 const VAULT_CACHE = 'crossnotes-vault-v1';
 // Tiny store for the study-reminder settings, shared with the window
 // (src/hooks/useStudyReminders.ts). Read on periodicsync so a reminder can
@@ -56,10 +59,15 @@ self.addEventListener('activate', (event) => {
       .then((keys) =>
         Promise.all(
           keys
-            // Keep the current app cache, the vault cache (saved PDFs must
-            // survive an app update), and the reminder-settings cache; delete
-            // everything else (old app versions).
-            .filter((key) => key !== APP_CACHE && key !== VAULT_CACHE && key !== CONFIG_CACHE)
+            // Keep current app/content caches, the vault cache (saved PDFs
+            // must survive an app update), and reminder settings; delete old
+            // app versions.
+            .filter((key) =>
+              key !== APP_CACHE &&
+              key !== CONTENT_CACHE &&
+              key !== VAULT_CACHE &&
+              key !== CONFIG_CACHE,
+            )
             .map((key) => caches.delete(key)),
         ),
       )
@@ -68,8 +76,8 @@ self.addEventListener('activate', (event) => {
 });
 
 // Immutable hashed assets: serve from cache, only hit the network on a miss.
-function cacheFirst(request) {
-  return caches.open(APP_CACHE).then((cache) =>
+function cacheFirst(request, cacheName = APP_CACHE) {
+  return caches.open(cacheName).then((cache) =>
     cache.match(request).then((cached) => {
       if (cached) return cached;
       return fetch(request).then((response) => {
@@ -82,8 +90,8 @@ function cacheFirst(request) {
 
 // Everything else same-origin: return cache immediately if present, but also
 // refresh it in the background so a reconnect quietly picks up new content.
-function staleWhileRevalidate(request) {
-  return caches.open(APP_CACHE).then((cache) =>
+function staleWhileRevalidate(request, cacheName = APP_CACHE) {
+  return caches.open(cacheName).then((cache) =>
     cache.match(request).then((cached) => {
       const network = fetch(request)
         .then((response) => {
@@ -120,6 +128,19 @@ self.addEventListener('fetch', (event) => {
         .then((cache) => cache.match(request))
         .then((cached) => cached || fetch(request)),
     );
+    return;
+  }
+
+  // Chapter-wise content: the loader adds ?v=<sha256> from the manifest, so
+  // each content revision has a distinct cache key. The manifest itself is
+  // refreshed in the background but remains available when offline.
+  if (url.pathname === '/data/manifest.json') {
+    event.respondWith(staleWhileRevalidate(request, CONTENT_CACHE));
+    return;
+  }
+
+  if (url.pathname.startsWith('/data/')) {
+    event.respondWith(cacheFirst(request, CONTENT_CACHE));
     return;
   }
 

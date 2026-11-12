@@ -195,7 +195,22 @@
         }
       ]
     },
-    "subsec4": {},
+    "subsec4": {
+      "title": "Revision Sheets",
+      "emoji": "\ud83d\udcdd",
+      "entries": [
+        {
+          "id": "math2-coordinate-geometry-question-types",
+          "title": "Coordinate Geometry: All Question Types (Revision Sheet)",
+          "kind": "study_asset",
+          "year": 2026,
+          "medium": "English",
+          "license": "Caesar's own compilation",
+          "sourceUrl": "/vault/study-assets/maths-2/coordinate-geometry-question-types.pdf",
+          "status": "verified"
+        }
+      ]
+    },
     "subsec5": {}
   }
 }

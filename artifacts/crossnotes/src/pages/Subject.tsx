@@ -5,11 +5,10 @@ import { BookOpen, Layers, LayoutList, Loader2, AlertTriangle, ChevronRight, X, 
 import { useTheme } from '@/contexts/ThemeContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { useUserProgress } from '@/hooks/useFirestore';
-import { useStaticSubject, useStaticChapters, type StaticChapter } from '@/hooks/useContent';
-import { getSubjectBySlug } from '@/data/subjects';
+import { useStaticSubject, useStaticChapters, type StaticChapter, type ManifestChapterMeta } from '@/hooks/useContent';
+import { loadChapter } from '@/lib/contentLoader';
 import { useHead, useBreadcrumb, getSubjectMeta, buildSubjectSchema, setStructuredData, removeStructuredData } from '@/hooks/useSeo';
 import AppHeader from '@/components/AppHeader';
-import { isImportedSolution } from '@/lib/importedSolutions';
 import BottomNav from '@/components/BottomNav';
 import '../crossnotes.css';
 
@@ -22,8 +21,14 @@ function chapterStatus(p: { notesRead?: boolean; flashcardsCompleted?: boolean; 
 
 /** Short "what you'll learn" popup — deliberately NOT a full page. Opens with
  *  a scale-up "pop" so it visibly grows into place instead of just appearing. */
-function ChapterOverviewSheet({ chapter, slug, onClose }: { chapter: StaticChapter; slug: string; onClose: () => void }) {
-  const overview = chapter.overview;
+function ChapterOverviewSheet({ meta, chapter, loading, slug, onClose }: {
+  meta: ManifestChapterMeta;
+  chapter: StaticChapter | null;
+  loading: boolean;
+  slug: string;
+  onClose: () => void;
+}) {
+  const overview = chapter?.overview ?? meta.overview;
   const { isDark } = useTheme();
 
   // Rendered via portal straight into <body>. The trigger card (.chapter-row)
@@ -46,10 +51,10 @@ function ChapterOverviewSheet({ chapter, slug, onClose }: { chapter: StaticChapt
 
         <div className="flex items-start justify-between gap-3">
           <div className="flex items-center gap-3 min-w-0">
-            <span className="text-3xl shrink-0">{chapter.emoji || '📘'}</span>
+            <span className="text-3xl shrink-0">{chapter?.emoji || meta.emoji || '📘'}</span>
             <div className="min-w-0">
-              <p className="text-xs font-bold uppercase tracking-wide" style={{ color: 'var(--text-muted)' }}>Chapter {chapter.num}</p>
-              <h2 className="font-display font-black text-lg leading-tight" style={{ color: 'var(--text)' }}>{chapter.title}</h2>
+              <p className="text-xs font-bold uppercase tracking-wide" style={{ color: 'var(--text-muted)' }}>Chapter {meta.num}</p>
+              <h2 className="font-display font-black text-lg leading-tight" style={{ color: 'var(--text)' }}>{meta.title}</h2>
             </div>
           </div>
           <button onClick={onClose} aria-label="Close" className="shrink-0 p-1" style={{ color: 'var(--text-muted)' }}>
@@ -57,7 +62,9 @@ function ChapterOverviewSheet({ chapter, slug, onClose }: { chapter: StaticChapt
           </button>
         </div>
 
-        {overview?.summary ? (
+        {loading ? (
+          <p className="text-sm mt-4 italic" style={{ color: 'var(--text-muted)' }}>Loading chapter preview…</p>
+        ) : overview?.summary ? (
           <p className="text-sm mt-4 leading-relaxed" style={{ color: 'var(--text)' }}>{overview.summary}</p>
         ) : (
           <p className="text-sm mt-4 italic" style={{ color: 'var(--text-muted)' }}>No summary yet for this chapter — but the notes, flashcards, and quiz below are all ready.</p>
@@ -79,17 +86,17 @@ function ChapterOverviewSheet({ chapter, slug, onClose }: { chapter: StaticChapt
         )}
 
         <div className="flex gap-2 mt-6">
-          <Link href={`/notes/${slug}/${chapter.id}`} className="flex-1">
+          <Link href={`/notes/${slug}/${meta.id}`} className="flex-1">
             <button className="clay-btn py-3.5 w-full flex flex-col items-center gap-1 text-xs">
-              {chapter.kind === 'paper' ? <FileText size={18} /> : <BookOpen size={18} />} {chapter.kind === 'paper' ? 'Paper' : 'Notes'}
+              {chapter?.kind === 'paper' || meta.kind === 'paper' ? <FileText size={18} /> : <BookOpen size={18} />} {chapter?.kind === 'paper' || meta.kind === 'paper' ? 'Paper' : 'Notes'}
             </button>
           </Link>
-          <Link href={`/flashcards/${slug}/${chapter.id}`} className="flex-1">
+          <Link href={`/flashcards/${slug}/${meta.id}`} className="flex-1">
             <button className="clay-btn py-3.5 w-full flex flex-col items-center gap-1 text-xs">
               <Layers size={18} /> Cards
             </button>
           </Link>
-          <Link href={`/quiz/${slug}/${chapter.id}`} className="flex-1">
+          <Link href={`/quiz/${slug}/${meta.id}`} className="flex-1">
             <button className="clay-btn py-3.5 w-full flex flex-col items-center gap-1 text-xs">
               <LayoutList size={18} /> Quiz
             </button>
@@ -101,16 +108,30 @@ function ChapterOverviewSheet({ chapter, slug, onClose }: { chapter: StaticChapt
   );
 }
 
-function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: string; uid?: string }) {
+function ChapterRow({ chapter, slug, uid }: { chapter: ManifestChapterMeta; slug: string; uid?: string }) {
   const { progress } = useUserProgress(uid, chapter.id);
   const status = chapterStatus(progress);
-  const hasContent = chapter.notes.length > 0 || chapter.flashcards.length > 0 || chapter.quiz.length > 0;
-  const solutionCount = chapter.notes.filter(isImportedSolution).length;
-  const hasFlashcards = chapter.flashcards.length > 0;
-  const hasQuiz = chapter.quiz.length > 0;
+  const hasContent = chapter.noteCount > 0 || chapter.flashcardCount > 0 || chapter.quizCount > 0;
+  // The manifest carries note tags, so the list can identify Maths solution
+  // chapters without downloading every note just to render the subject page.
+  const solutionCount = chapter.tags.includes('markdown') ? chapter.noteCount : 0;
+  const hasFlashcards = chapter.flashcardCount > 0;
+  const hasQuiz = chapter.quizCount > 0;
   const [showOverview, setShowOverview] = useState(false);
+  const [preview, setPreview] = useState<StaticChapter | null>(null);
+  const [previewLoading, setPreviewLoading] = useState(false);
 
   const emojiOrNum = chapter.emoji || `${chapter.num}`;
+
+  const openOverview = () => {
+    if (!hasContent) return;
+    setShowOverview(true);
+    if (preview || previewLoading) return;
+    setPreviewLoading(true);
+    void loadChapter(slug, chapter.id)
+      .then(setPreview)
+      .finally(() => setPreviewLoading(false));
+  };
 
   return (
     <div
@@ -118,8 +139,8 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
       style={hasContent ? { cursor: 'pointer' } : undefined}
       role={hasContent ? 'button' : undefined}
       tabIndex={hasContent ? 0 : undefined}
-      onClick={() => hasContent && setShowOverview(true)}
-      onKeyDown={(e) => { if (hasContent && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); setShowOverview(true); } }}
+      onClick={openOverview}
+      onKeyDown={(e) => { if (hasContent && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openOverview(); } }}
     >
       <div className="flex items-center gap-3">
         {/* Chapter number/emoji badge */}
@@ -189,7 +210,13 @@ function ChapterRow({ chapter, slug, uid }: { chapter: StaticChapter; slug: stri
       )}
 
       {showOverview && (
-        <ChapterOverviewSheet chapter={chapter} slug={slug} onClose={() => setShowOverview(false)} />
+        <ChapterOverviewSheet
+          meta={chapter}
+          chapter={preview}
+          loading={previewLoading}
+          slug={slug}
+          onClose={() => setShowOverview(false)}
+        />
       )}
     </div>
   );
@@ -229,7 +256,10 @@ export default function Subject() {
   }, [subject, slug, chapters.length]);
 
   const colorKey = subject.color || 'violet';
-  const solutionSetCount = chapters.reduce((count, chapter) => count + chapter.notes.filter(isImportedSolution).length, 0);
+  const solutionSetCount = chapters.reduce(
+    (count, chapter) => count + (chapter.tags.includes('markdown') ? chapter.noteCount : 0),
+    0,
+  );
 
   const [selectedSection, setSelectedSection] = useState<string>('all');
 

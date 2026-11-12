@@ -1,14 +1,24 @@
 /**
  * Static content hooks — read subjects/chapters/notes/flashcards/quiz from
- * bundled JSON files in src/data/content/{slug}.json.
+ * per-chapter JSON files served from public/data/{slug}/{chapterId}.json.
+ * The manifest at /data/manifest.json is fetched once per session on mount.
  *
- * To add a new subject: drop a JSON file matching the slug into that folder.
+ * To add a new subject: add its chapter files and manifest entries under
+ * public/data/, then add the subject to subjects.ts. Source JSON remains the
+ * migration input; it is not bundled into the application.
  * These hooks NEVER touch Firestore. Firestore is only for leaderboard & XP.
  */
 
 import { useState, useEffect } from "react";
 import subjects, { getSubjectBySlug, type SubjectMeta } from "@/data/subjects";
+import {
+  loadManifest,
+  loadChapter,
+  type ManifestChapterMeta,
+} from "@/lib/contentLoader";
+
 export type { SubjectMeta };
+export type { ManifestChapterMeta };
 
 // ---- Types (match the JSON schema) ----
 
@@ -167,80 +177,6 @@ export interface StaticChapter {
   quiz: StaticQuizQuestion[];
 }
 
-interface SubjectContent {
-  chapters: StaticChapter[];
-}
-
-type OriginalSolutionMap = Record<string, Record<string, string>>;
-
-function applyOriginalSolutions(content: SubjectContent, solutions: OriginalSolutionMap): SubjectContent {
-  return {
-    ...content,
-    chapters: content.chapters.map(chapter => ({
-      ...chapter,
-      notes: chapter.notes.map(note => solutions[note.id]
-        ? { ...note, solutionPages: solutions[note.id] }
-        : note),
-    })),
-  };
-}
-
-// ---- Dynamic JSON loader ----
-// Vite bundles each import() as a separate lazy chunk.
-
-async function loadContent(slug: string): Promise<SubjectContent | null> {
-  try {
-    switch (slug) {
-      case "science-1": {
-        const m = await import("@/data/content/science-1.json");
-        return m.default as SubjectContent;
-      }
-      case "science-2": {
-        const m = await import("@/data/content/science-2.json");
-        return m.default as SubjectContent;
-      }
-      case "maths-1": {
-        const [m, generated] = await Promise.all([
-          import("@/data/content/maths-1.json"),
-          import("@/data/content/maths-1-original-solutions.json"),
-        ]);
-        return applyOriginalSolutions(m.default as SubjectContent, generated.default as OriginalSolutionMap);
-      }
-      case "maths-2": {
-        const [m, generated] = await Promise.all([
-          import("@/data/content/maths-2.json"),
-          import("@/data/content/maths-2-original-solutions.json"),
-        ]);
-        return applyOriginalSolutions(m.default as SubjectContent, generated.default as OriginalSolutionMap);
-      }
-      case "english": {
-        const m = await import("@/data/content/english.json");
-        return m.default as SubjectContent;
-      }
-      case "marathi": {
-        const m = await import("@/data/content/marathi.json");
-        return m.default as SubjectContent;
-      }
-      case "hindi": {
-        const m = await import("@/data/content/hindi.json");
-        return m.default as SubjectContent;
-      }
-      case "history": {
-        const m = await import("@/data/content/history.json");
-        return m.default as SubjectContent;
-      }
-      case "geography": {
-        const m = await import("@/data/content/geography.json");
-        return m.default as SubjectContent;
-      }
-      default:
-        return null;
-    }
-  } catch {
-    return null;
-  }
-}
-
 // ---- Hooks ----
 
 /** All subjects (instant — no async). */
@@ -253,39 +189,81 @@ export function useStaticSubject(slug: string): SubjectMeta | undefined {
   return getSubjectBySlug(slug);
 }
 
-/** Chapters for a subject (async JSON load). */
+/**
+ * Lightweight chapter list for a subject.
+ * Loads the manifest (once per session) and returns ManifestChapterMeta[]
+ * sorted by order. No chapter content is fetched — Subject page only needs
+ * title, id, num, and counts for the chapter list.
+ */
 export function useStaticChapters(slug: string) {
-  const [chapters, setChapters] = useState<StaticChapter[]>([]);
+  const [chapters, setChapters] = useState<ManifestChapterMeta[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!slug) { setLoading(false); return; }
-    setLoading(true);
-    loadContent(slug).then(content => {
-      setChapters(content?.chapters ?? []);
+    if (!slug) {
+      setChapters([]);
       setLoading(false);
-    });
+      return;
+    }
+
+    let alive = true;
+    setLoading(true);
+    loadManifest()
+      .then((manifest) => {
+        if (!alive) return;
+        const subject = manifest.subjects.find((s) => s.slug === slug);
+        const sorted = (subject?.chapters ?? [])
+          .slice()
+          .sort((a, b) => a.order - b.order);
+        setChapters(sorted);
+      })
+      .catch(() => {
+        if (alive) setChapters([]);
+      })
+      .finally(() => {
+        if (alive) setLoading(false);
+      });
+
+    return () => { alive = false; };
   }, [slug]);
 
   return { chapters, loading };
 }
 
-/** Single chapter by id. */
+/**
+ * Single chapter by id — fetches /data/{slug}/{chapterId}.json on demand.
+ * Returns the full StaticChapter (notes, flashcards, quiz included).
+ * `error` is non-null when the chapter could not be loaded.
+ */
 export function useStaticChapter(slug: string, chapterId: string) {
   const [chapter, setChapter] = useState<StaticChapter | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!slug || !chapterId) { setLoading(false); return; }
+    if (!slug || !chapterId) {
+      setChapter(null);
+      setError(null);
+      setLoading(false);
+      return;
+    }
+
+    let alive = true;
     setLoading(true);
-    loadContent(slug).then(content => {
-      const found = content?.chapters.find(c => c.id === chapterId) ?? null;
+    setError(null);
+    setChapter(null);
+
+    loadChapter(slug, chapterId).then((found) => {
+      if (!alive) return;
       setChapter(found);
+      if (!found) setError("Chapter could not be loaded.");
       setLoading(false);
     });
+
+    return () => { alive = false; };
   }, [slug, chapterId]);
 
-  return { chapter, loading };
+  return { chapter, loading, error };
 }
 
 /** Notes for a specific chapter. */

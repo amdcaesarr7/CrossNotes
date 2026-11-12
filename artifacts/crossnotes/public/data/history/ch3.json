@@ -1,0 +1,726 @@
+{
+  "id": "ch3",
+  "num": 3,
+  "title": "Applied History",
+  "emoji": "🏛️",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter introduces Applied History (Public History) and its direct role in bridging historical research with contemporary society. It examines cultural heritage (tangible and intangible), natural heritage, UNESCO global criteria, archive and museum management, and concrete solutions for preserving historical sources.",
+    "youWillLearn": [
+      "Define Applied History (Public History) and how it counters public misgivings about history",
+      "Distinguish between Tangible and Intangible Cultural Heritage with Indian examples",
+      "Understand Natural Heritage criteria and India's UNESCO World Natural Heritage Sites",
+      "Learn about the earliest museums and archives (Ur, National Archives of India, NFAI Pune)",
+      "Propose practical methods and civic solutions for preserving monuments and heritage sites"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "The main aim of applied history is ______.\n(i) To preserve the past (ii) To use historical knowledge for contemporary issues (iii) To entertain (iv) To make money",
+      "qnaAnswer": "Correct Answer: (ii) To use historical knowledge for contemporary issues"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "The National Archives of India is located in ______.\n(i) Mumbai (ii) Kolkata (iii) New Delhi (iv) Chennai",
+      "qnaAnswer": "Correct Answer: (iii) New Delhi"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "The Indian Museum in Kolkata was established in ______.\n(i) 1814 (ii) 1851 (iii) 1875 (iv) 1900",
+      "qnaAnswer": "Correct Answer: (i) 1814"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "The Chhatrapati Shivaji Maharaj Vastu Sangrahalaya is located in ______.\n(i) Pune (ii) Mumbai (iii) Nagpur (iv) Nashik",
+      "qnaAnswer": "Correct Answer: (ii) Mumbai"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "The main purpose of a museum is ______.\n(i) To store old objects (ii) To preserve and display cultural heritage (iii) To sell artefacts (iv) To provide entertainment",
+      "qnaAnswer": "Correct Answer: (ii) To preserve and display cultural heritage"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Person/Item",
+        "Description",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "National Archives of India",
+          "New Delhi",
+          "Correct"
+        ],
+        [
+          "Indian Museum",
+          "Kolkata",
+          "Correct"
+        ],
+        [
+          "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+          "Mumbai",
+          "Correct"
+        ],
+        [
+          "Salar Jung Museum",
+          "Hyderabad",
+          "Correct"
+        ],
+        [
+          "National Museum",
+          "Mumbai",
+          "WRONG — The National Museum is in New Delhi, not Mumbai."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Fields of Applied History",
+      "content": "Applied History → Heritage Management → Tourism → Museum Studies → Archives → Media → Policy Making",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Applied History",
+      "question": "Explain the following concept: Applied History",
+      "qnaAnswer": "\n1. Applied history is the practical application of historical knowledge and methods to contemporary issues.\n2. It involves using historical understanding to address present-day problems and challenges.\n3. It is used in various fields like heritage management, tourism, museum work, archives, media, and policy making.\n4. Applied history helps in preserving cultural heritage, promoting tourism, and making informed policy decisions.\n5. It bridges the gap between academic history and practical applications.",
+      "important": true
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Heritage Management",
+      "question": "Explain the following concept: Heritage Management",
+      "qnaAnswer": "\n1. Heritage management is the process of preserving, protecting, and managing cultural heritage.\n2. It involves identifying, documenting, and conserving historical sites, monuments, artefacts, and traditions.\n3. It aims to ensure that cultural heritage is passed on to future generations.\n4. It involves collaboration between government agencies, local communities, and other stakeholders.\n5. Applied history plays an important role in heritage management by providing historical context and understanding.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Museum Studies",
+      "question": "Explain the following concept: Museum Studies",
+      "qnaAnswer": "\n1. Museum studies is the study of the management, organisation, and functioning of museums.\n2. It involves collecting, preserving, documenting, and displaying artefacts and other cultural materials.\n3. It also involves educating the public about cultural heritage.\n4. Applied history plays an important role in museum studies by providing historical context and interpretation.\n5. Museums are important institutions for preserving and promoting cultural heritage.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Archives",
+      "question": "Explain the following concept: Archives",
+      "qnaAnswer": "\n1. Archives are places where historical documents and records are preserved.\n2. They include manuscripts, government records, private papers, photographs, and other materials.\n3. Archives are important sources of historical information.\n4. They are managed by trained archivists who organise, preserve, and provide access to these materials.\n5. Applied history plays an important role in archives by providing historical context and interpretation.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n17",
+      "type": "qna",
+      "title": "Short Note: National Archives of India",
+      "question": "Write a short note on: National Archives of India",
+      "qnaAnswer": "\n1. The National Archives of India is located in New Delhi.\n2. It was established in 1891.\n3. It is the largest repository of historical records in India.\n4. It preserves government records, manuscripts, private papers, and other historical documents.\n5. It is an important centre for historical research in India.",
+      "important": true
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Indian Museum, Kolkata",
+      "question": "Write a short note on: Indian Museum, Kolkata",
+      "qnaAnswer": "\n1. The Indian Museum in Kolkata was established in 1814.\n2. It is one of the oldest museums in India.\n3. It houses a large collection of artefacts, including sculptures, paintings, coins, and manuscripts.\n4. It has sections on archaeology, art, anthropology, and natural history.\n5. It is an important centre for cultural preservation and education.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+      "question": "Write a short note on: Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+      "qnaAnswer": "\n1. The Chhatrapati Shivaji Maharaj Vastu Sangrahalaya is located in Mumbai.\n2. It was formerly known as the Prince of Wales Museum.\n3. It was established in 1922.\n4. It houses a rich collection of artefacts, including sculptures, paintings, and decorative arts.\n5. It is an important cultural institution in Mumbai.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "qna",
+      "title": "Short Note: Applied History and Tourism",
+      "question": "Write a short note on: Applied History and Tourism",
+      "qnaAnswer": "\n1. Applied history plays an important role in the tourism industry.\n2. Historical knowledge helps in identifying and interpreting tourist sites.\n3. It helps in creating engaging narratives for tourists.\n4. It also helps in preserving and managing heritage sites.\n5. Tourism based on historical sites contributes to economic development and cultural preservation.",
+      "important": true
+    },
+    {
+      "id": "n21",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "What is Applied History?",
+      "question": "What is Applied History?",
+      "qnaAnswer": "\n1. Applied history is the practical application of historical knowledge and methods to contemporary issues.\n2. It involves using historical understanding to address present-day problems and challenges.\n3. It is used in various fields like heritage management, tourism, museum work, archives, media, and policy making.\n4. Applied history helps in preserving cultural heritage, promoting tourism, and making informed policy decisions.\n5. It bridges the gap between academic history and practical applications."
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Importance of Applied History",
+      "question": "Explain the importance of Applied History.",
+      "qnaAnswer": "\n1. Applied history helps in preserving cultural heritage.\n2. It promotes tourism by providing historical context and interpretation.\n3. It helps in making informed policy decisions.\n4. It contributes to education and public awareness.\n5. It provides career opportunities in various fields like museums, archives, tourism, and media."
+    },
+    {
+      "id": "n24",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "[IMPORTANT] Applied History Uses",
+      "question": "How can we increase people's participation in the field of applied history?",
+      "qnaAnswer": "\n1. Increasing people's participation in the field of applied history can be done by:\n\n(a) Creating awareness about the importance of history in daily life.\n\n(b) Involving local communities in heritage conservation and preservation.\n\n(c) Organising workshops, lectures, and exhibitions on applied history.\n\n(d) Encouraging the use of digital platforms for sharing historical knowledge.\n\n(e) Providing opportunities for volunteers to participate in archaeological excavations and museum work.\n\n(f) Including applied history in school and college curricula.",
+      "important": true
+    },
+    {
+      "id": "n26",
+      "type": "qna",
+      "title": "[IMPORTANT] Applied History in Various Fields",
+      "question": "Explain the role of applied history in various fields.",
+      "qnaAnswer": "\n1. Heritage Management: Applied history helps in identifying, documenting, and conserving historical sites and monuments.\n2. Tourism: It helps in creating engaging narratives for tourists and managing heritage sites.\n3. Museum Studies: It helps in collecting, preserving, and displaying artefacts.\n4. Archives: It helps in preserving and providing access to historical documents.\n5. Media: It helps in creating historical documentaries, films, and other media content.\n6. Policy Making: It helps in making informed policy decisions based on historical understanding.",
+      "important": true
+    },
+    {
+      "id": "fig-3-cultural_heritage",
+      "type": "figure",
+      "title": "Classification of Cultural Heritage",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDQwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ0MCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDQwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q3VsdHVyYWwgSGVyaXRhZ2UgQ2xhc3NpZmljYXRpb248L3RleHQ+CjxwYXRoIGQ9Ik0gNDAwLjAgOTMgViAxMTUgSCAyMTUuMCBWIDE0NSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iMjE1LjAiIHkxPSIxODUiIHgyPSIyMTUuMCIgeTI9IjIwMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48cGF0aCBkPSJNIDQwMC4wIDkzIFYgMTE1IEggNTg1LjAgViAxNDUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjU4NS4wIiB5MT0iMTg1IiB4Mj0iNTg1LjAiIHkyPSIyMDEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjI5MC4wIiB5PSI0NSIgd2lkdGg9IjIyMCIgaGVpZ2h0PSI0OCIgcng9IjEwIiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijc0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5DdWx0dXJhbCBIZXJpdGFnZTwvdGV4dD48cmVjdCB4PSIxMTAuMCIgeT0iMTQ1IiB3aWR0aD0iMjEwIiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjIxNS4wIiB5PSIxNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlRhbmdpYmxlIEhlcml0YWdlPC90ZXh0PjxyZWN0IHg9IjExMC4wIiB5PSIyMDEiIHdpZHRoPSIyMTAiIGhlaWdodD0iMTUwIiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIgc3Ryb2tlPSIjY2JkNWUxIiBzdHJva2Utd2lkdGg9IjEuMiIvPjx0ZXh0IHg9IjIxNS4wIiB5PSIyMjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzNDE1NSI+4oCiIEFuY2llbnQgU2l0ZXM8L3RleHQ+PHRleHQgeD0iMjE1LjAiIHk9IjI0MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgSGlzdG9yaWMgQnVpbGRpbmdzPC90ZXh0Pjx0ZXh0IHg9IjIxNS4wIiB5PSIyNjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzNDE1NSI+4oCiIEFydGVmYWN0cyAmIFJlbGljczwvdGV4dD48dGV4dCB4PSIyMTUuMCIgeT0iMjgzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzQxNTUiPuKAoiBNYW51c2NyaXB0czwvdGV4dD48dGV4dCB4PSIyMTUuMCIgeT0iMzAzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzQxNTUiPuKAoiBTY3VscHR1cmVzPC90ZXh0Pjx0ZXh0IHg9IjIxNS4wIiB5PSIzMjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzNDE1NSI+4oCiIFBhaW50aW5nczwvdGV4dD48cmVjdCB4PSI0ODAuMCIgeT0iMTQ1IiB3aWR0aD0iMjEwIiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjU4NS4wIiB5PSIxNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkludGFuZ2libGUgSGVyaXRhZ2U8L3RleHQ+PHJlY3QgeD0iNDgwLjAiIHk9IjIwMSIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIxNTAiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIiBzdHJva2U9IiNjYmQ1ZTEiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHRleHQgeD0iNTg1LjAiIHk9IjIyMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgT3JhbCB0cmFkaXRpb25zICYgbGFuZ3VhZ2VzPC90ZXh0Pjx0ZXh0IHg9IjU4NS4wIiB5PSIyNDMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzNDE1NSI+4oCiIFRyYWRpdGlvbmFsIGtub3dsZWRnZTwvdGV4dD48dGV4dCB4PSI1ODUuMCIgeT0iMjYzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzQxNTUiPuKAoiBTb2NpYWwgY3VzdG9tcyAmIHJpdHVhbHM8L3RleHQ+PHRleHQgeD0iNTg1LjAiIHk9IjI4MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgU3R5bGVzIG9mIHBlcmZvcm1pbmcgYXJ0czwvdGV4dD48dGV4dCB4PSI1ODUuMCIgeT0iMzAzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzQxNTUiPuKAoiBUcmFkaXRpb25hbCBjcmFmdHMgJiBza2lsbHM8L3RleHQ+PHRleHQgeD0iNTg1LjAiIHk9IjMyMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgUHJhY3RpY2luZyBjb21tdW5pdGllczwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Classification tree of Tangible and Intangible Cultural Heritage",
+      "figureCaption": "Division of Cultural Heritage into Tangible artifacts and Intangible traditions"
+    },
+    {
+      "id": "fig-3-natural_heritage_timeline",
+      "type": "figure",
+      "title": "UNESCO World Natural Heritage Sites in India Timeline",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMjQwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjI0MCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iMjQwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIxOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+V29ybGQgTmF0dXJhbCBIZXJpdGFnZSBTaXRlcyBpbiBJbmRpYTwvdGV4dD4KPGxpbmUgeDE9IjQwIiB5MT0iMTA1IiB4Mj0iNzYwIiB5Mj0iMTA1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMi41IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSIxNDUuMCIgeTE9IjEwNSIgeDI9IjE0NS4wIiB5Mj0iNTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iMTQ1LjAiIHkxPSIxMDUiIHgyPSIxNDUuMCIgeTI9IjE0NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSIzMTUuMCIgeTE9IjEwNSIgeDI9IjMxNS4wIiB5Mj0iNTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iMzE1LjAiIHkxPSIxMDUiIHgyPSIzMTUuMCIgeTI9IjE0NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0ODUuMCIgeTE9IjEwNSIgeDI9IjQ4NS4wIiB5Mj0iNTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNDg1LjAiIHkxPSIxMDUiIHgyPSI0ODUuMCIgeTI9IjE0NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI2NTUuMCIgeTE9IjEwNSIgeDI9IjY1NS4wIiB5Mj0iNTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNjU1LjAiIHkxPSIxMDUiIHgyPSI2NTUuMCIgeTI9IjE0NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPgo8cmVjdCB4PSI5Ny4wIiB5PSIyMiIgd2lkdGg9Ijk2IiBoZWlnaHQ9IjM0IiByeD0iOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE0NS4wIiB5PSI0NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+MTk4NTwvdGV4dD48cmVjdCB4PSI4NS4wIiB5PSIxNDUiIHdpZHRoPSIxMjAuMCIgaGVpZ2h0PSI0OCIgcng9IjgiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNDUuMCIgeT0iMTYzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkthemlyYW5nYSBOYXRpb25hbCBQYXJrPC90ZXh0Pjx0ZXh0IHg9IjE0NS4wIiB5PSIxNzgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEFzc2FtKTwvdGV4dD48cmVjdCB4PSIyNjcuMCIgeT0iMjIiIHdpZHRoPSI5NiIgaGVpZ2h0PSIzNCIgcng9IjgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIzMTUuMCIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPjE5ODc8L3RleHQ+PHJlY3QgeD0iMjU1LjAiIHk9IjE0NSIgd2lkdGg9IjEyMC4wIiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjMxNS4wIiB5PSIxNjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U3VuZGFyYmFucyBOYXRpb25hbCBQYXJrPC90ZXh0Pjx0ZXh0IHg9IjMxNS4wIiB5PSIxNzgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFdlc3QgQmVuZ2FsKTwvdGV4dD48cmVjdCB4PSI0MzcuMCIgeT0iMjIiIHdpZHRoPSI5NiIgaGVpZ2h0PSIzNCIgcng9IjgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0ODUuMCIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPjIwMTI8L3RleHQ+PHJlY3QgeD0iNDI1LjAiIHk9IjE0NSIgd2lkdGg9IjEyMC4wIiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQ4NS4wIiB5PSIxNjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+V2VzdGVybiBHaGF0czwvdGV4dD48dGV4dCB4PSI0ODUuMCIgeT0iMTc4IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihNYWhhcmFzaHRyYS9LYXJuYXRha2EpPC90ZXh0PjxyZWN0IHg9IjYwNy4wIiB5PSIyMiIgd2lkdGg9Ijk2IiBoZWlnaHQ9IjM0IiByeD0iOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY1NS4wIiB5PSI0NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+MjAxNDwvdGV4dD48cmVjdCB4PSI1OTUuMCIgeT0iMTQ1IiB3aWR0aD0iMTIwLjAiIGhlaWdodD0iNDgiIHJ4PSI4IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjU1LjAiIHk9IjE2MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5HcmVhdCBIaW1hbGF5YW4gUGFyazwvdGV4dD48dGV4dCB4PSI2NTUuMCIgeT0iMTc4IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihIaW1hY2hhbCBQcmFkZXNoKTwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Timeline of UNESCO World Natural Heritage Sites in India",
+      "figureCaption": "Chronological inscription of India's world natural heritage sites"
+    },
+    {
+      "id": "fig-3-cultural_sites_map",
+      "type": "figure",
+      "title": "Prominent World Cultural Heritage Sites in India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+V29ybGQgQ3VsdHVyYWwgSGVyaXRhZ2UgU2l0ZXMgaW4gSW5kaWE8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjM2MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI2NS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFqYW50YSAmIFZlcnVsIChFbGxvcmEpIENhdmVzPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oTWFoYXJhc2h0cmEpPC90ZXh0PjxyZWN0IHg9IjUzNS4yIiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MjUuMiIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UmVkIEZvcnQgQ29tcGxleDwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KERlbGhpKTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlN1biBUZW1wbGU8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihLb25hcmssIE9kaXNoYSk8L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMzNS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Hcm91cCBvZiBNb251bWVudHM8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM3MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihNYWhhYmFsaXB1cmFtLCBUYW1pbCBOYWR1KTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIyNjcuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMjg5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+S2hhanVyYWhvIEdyb3VwIG9mIFRlbXBsZXM8L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihNYWRoeWEgUHJhZGVzaCk8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkJ1ZGRoaXN0IE1vbnVtZW50czwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFNhbmNoaSwgTWFkaHlhIFByYWRlc2gpPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5Xb3JsZCBDdWx0dXJhbDwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkhlcml0YWdlIFNpdGVzPC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of UNESCO World Cultural Heritage Sites in India",
+      "figureCaption": "Globally recognized cultural monuments and sites across India"
+    },
+    {
+      "id": "answers-3-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-3-1",
+          "entries": [
+            {
+              "id": "a-3-1-1",
+              "question": "(1) The earliest museum in the world was discovered in the excavations at the city of ______. (a) Delhi (b) Harappa (c) Ur (d) Kolkata",
+              "answer": "Ur. (Discovered in Mesopotamia by Sir Leonard Woolley, built by Princess Ennigaldi in 6th century B.C.E.)",
+              "questionTag": "Sept. '21; July '22; March '25"
+            },
+            {
+              "id": "a-3-1-2",
+              "question": "(2) The National Archives of India is in ______. (a) Delhi (b) Kolkata (c) Mumbai (d) Chennai",
+              "answer": "Delhi. (It is the largest archival repository in Asia.)",
+              "questionTag": "March '19; Nov. '20; July '23"
+            },
+            {
+              "id": "a-3-1-3",
+              "question": "(3) Srushti Institute of Art Design and Technology at ______ has an independent department named 'Centre for Public History'. (a) Mumbai (b) Delhi (c) Bengaluru (d) Chennai",
+              "answer": "Bengaluru."
+            },
+            {
+              "id": "a-3-1-4",
+              "question": "(4) ______ is the mother of science and all other branches of knowledge. (a) Philosophy (b) History (c) Technology (d) Mythology",
+              "answer": "Philosophy. (People around the world contemplated origin of universe, nature, and human life, which gave birth to philosophical systems.)",
+              "questionTag": "March '20"
+            },
+            {
+              "id": "a-3-1-5",
+              "question": "(5) In order to preserve and conserve cultural and natural heritage for the benefit of future generations, ______ has given directives. (a) UNICEF (b) UN (c) UNESCO (d) INTACH",
+              "answer": "UNESCO."
+            },
+            {
+              "id": "a-3-1-6",
+              "question": "(6) The main office of the National Film Archive of India is located in ______. (a) Mumbai (b) Pune (c) Delhi (d) Kolkata",
+              "answer": "Pune. (Established in 1964 by the Ministry of Information and Broadcasting.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Identify and Write the Wrong Pair in the Following Sets",
+      "answerGroups": [
+        {
+          "id": "g-3-2",
+          "entries": [
+            {
+              "id": "a-3-2-1",
+              "question": "(1) (i) Red Fort - Udaipur\n(ii) Jantar Mantar - Jaipur\n(iii) Brihadeeshvara Temple - Thanjavur\n(iv) Capital Complex - Chandigarh",
+              "answer": "Wrong pair: Red Fort - Udaipur. (Red Fort is situated in Delhi.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Do as Directed (Concept Maps, Timelines & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-3-3",
+          "entries": [
+            {
+              "id": "a-3-3-1",
+              "question": "(1) Complete the concept map: Indian traditions included in UNESCO World Intangible Cultural Heritage list.\nJharkhand & Odisha — ______\nKerala — ______\nManipur — ______\nPunjab — ______",
+              "answer": "(1) Jharkhand and Odisha — Chhau dance\n(2) Kerala — Mudiyett (ritual theatre and dance drama)\n(3) Manipur — Sankirtana (ritual singing, drumming and dancing)\n(4) Punjab — Traditional brass and copper craft of utensil making by Thatheras"
+            },
+            {
+              "id": "a-3-3-2",
+              "question": "(2) Complete the concept map: World Cultural Heritage Sites in India.",
+              "answer": "(1) Ajanta and Verul (Ellora) Caves\n(2) Red Fort at Delhi\n(3) Temples at Mahabalipuram\n(4) Khajuraho Temples\n(5) Sanchi Stupa\n(6) Sun Temple, Konark",
+              "questionTag": "Nov. '20; July '22"
+            },
+            {
+              "id": "a-3-3-3",
+              "question": "(3) Complete the concept map: World Natural Heritage Sites in India.",
+              "answer": "(1) Western Ghats\n(2) Manas Wildlife Sanctuary\n(3) Sunderbans National Park\n(4) Nanda Devi and Valley of Flowers National Parks\n(5) Kaziranga National Park\n(6) Keoladeo National Park",
+              "questionTag": "March '20"
+            },
+            {
+              "id": "a-3-3-4",
+              "question": "(4) Complete the timeline: World Natural Heritage Sites in India.\n1985: ______ | 1987: ______ | 2012: ______ | 2014: ______",
+              "answer": "1985: Kaziranga National Park\n1987: Sundarban National Park\n2012: Western Ghats\n2014: Great Himalayan National Park Conservation Area",
+              "questionTag": "March '24"
+            },
+            {
+              "id": "a-3-3-5",
+              "question": "(5) Complete the chart: Cultural Heritage (Tangible and Intangible).",
+              "answer": "Tangible Heritage: (1) Ancient Sites, (2) Historic Buildings, (3) Artefacts, (4) Manuscripts, (5) Sculptures, (6) Paintings.\nIntangible Heritage: (1) Oral traditions and languages, (2) Traditional knowledge, (3) Social customs and rituals, (4) Performing arts, (5) Traditional craft skills, (6) Communities representing traditions.",
+              "questionTag": "Nov. '20; March '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-3-4",
+          "entries": [
+            {
+              "id": "a-3-4-1",
+              "question": "(1) Public History (Applied History)",
+              "answer": "(1) Public History (also known as Applied History) is a field of study concerned with the application of historical knowledge for the benefit of people in present and future times.\n(2) It helps in overcoming common misconceptions that history is relevant only to historians and has no practical utility.\n(3) It connects history with contemporary social planning, environmental conservation, tourism, and heritage management.\n(4) Institutions like the Centre for Public History at Srushti Institute in Bengaluru undertake significant projects in this field.",
+              "questionTag": "March '23"
+            },
+            {
+              "id": "a-3-4-2",
+              "question": "(2) Natural Heritage",
+              "answer": "(1) While cultural heritage is man-made, Natural Heritage is bestowed upon humanity by Nature.\n(2) It emphasizes the conservation of biodiversity and natural ecosystems.\n(3) Natural heritage includes: (a) Flora (plant life), (b) Fauna (animal life), (c) Regional ecology supporting living organisms, and (d) Unique geomorphic characteristics.\n(4) Sanctuaries, crater lakes (e.g. Lonar), mountain ranges (Western Ghats), and biosphere reserves form part of India's natural heritage.",
+              "questionTag": "March '20"
+            },
+            {
+              "id": "a-3-4-3",
+              "question": "(3) Archives",
+              "answer": "(1) An Archive is a specialized facility where historical documents, official state papers, treaties, rare manuscripts, and old films are systematically preserved.\n(2) Archives preserve original authentic records that serve as unassailable historical evidence.\n(3) They allow researchers to understand past languages, scripts, policies, and chronological events.\n(4) The National Archives of India is located in New Delhi and is the largest archive in Asia; every Indian state maintains its own independent state archive.",
+              "questionTag": "Sept. '21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Explain the Following Statements with Reasons",
+      "answerGroups": [
+        {
+          "id": "g-3-5",
+          "entries": [
+            {
+              "id": "a-3-5-1",
+              "question": "(1) It is essential to study the history of technology.",
+              "answer": "(1) At every stage of human evolution, man acquired new technological skills—from stone tool-making to advanced agricultural techniques and scientific machinery.\n(2) Mechanization brought radical transformations in agricultural production, commodity manufacture, architecture, and engineering.\n(3) Production increased manifold due to the mutual interdependence of science and technology.\n(4) Hence, studying the history of technology is essential to trace mechanization and harness scientific innovation responsibly.",
+              "questionTag": "Sept. '21; July '22 - '23 - '24; March '25"
+            },
+            {
+              "id": "a-3-5-2",
+              "question": "(2) The list of World Heritage Sites is announced by UNESCO.",
+              "answer": "(1) Cultural and natural heritage represent invaluable treasures created by ancestors or nature, binding us to our past.\n(2) Neglect, urbanization, vandalism, and climate change pose grave threats of destruction to these ancient assets.\n(3) UNESCO, an agency of the United Nations, formulated guidelines and directive principles to ensure global heritage conservation.\n(4) To promote awareness and international cooperation in preserving these sites, UNESCO periodically evaluates and declares the official list of World Heritage Sites.",
+              "questionTag": "March '19 - '20 - '24"
+            },
+            {
+              "id": "a-3-5-3",
+              "question": "(3) The method of history is useful in the research of many subjects.",
+              "answer": "(1) Every sphere of human activity—including science, philosophy, technology, industry, management, and arts—has evolved through historical chains of events.\n(2) The present state of knowledge in any field is built on foundations laid down in the past.\n(3) The direction of future development depends directly on understanding the historical trajectory of existing knowledge.\n(4) Therefore, the research methodology of history is indispensable across multidisciplinary academic and practical fields.",
+              "questionTag": "Nov. '20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Read the Passage and Answer the Questions",
+      "answerGroups": [
+        {
+          "id": "g-3-6",
+          "entries": [
+            {
+              "id": "a-3-6-1",
+              "question": "Read the extract on the earliest museum and answer the questions:\nExtract: 'The earliest museum in the world was discovered during excavations at the city of Ur in ancient Mesopotamia. The excavations were conducted by Sir Leonard Woolley (1922 to 1934). The museum was built by Princess Ennigaldi, the daughter of Nabonidus, the last king of Babylon. A noteworthy feature of this museum is the clay tablets inscribed with descriptions of exhibited artefacts.'\n\n(1) Who built this ancient museum?\n(2) Where was the earliest museum discovered, and who discovered it?\n(3) What is the most noteworthy feature of this museum?",
+              "answer": "(1) The museum was built by Princess Ennigaldi, daughter of King Nabonidus of Babylon.\n\n(2) It was discovered in the city of 'Ur' in ancient Mesopotamia by British archaeologist Sir Leonard Woolley during excavations between 1922 and 1934.\n\n(3) The most noteworthy feature of this museum is the clay tablets discovered alongside the exhibits, inscribed with descriptive labels and details of the displayed artefacts, functioning just like modern museum labels.",
+              "questionTag": "July '19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Answer the Following in Detail",
+      "answerGroups": [
+        {
+          "id": "g-3-7",
+          "entries": [
+            {
+              "id": "a-3-7-1",
+              "question": "(1) How can we correlate Applied History with our present?",
+              "answer": "Applied history directly enriches our present and future in multiple practical ways:\n(1) Informed Action: Knowledge of past experiences and decisions guides us in adopting rational, effective courses of action in contemporary governance and daily life.\n(2) Heritage Bonding: Tangible and intangible heritage inherited from ancestors reflects creative traditions; understanding them reinforces cultural identity and curiosity.\n(3) Conservation: Applied history provides scientific methods to conserve and preserve monuments, manuscripts, and ecological treasures for future generations.\n(4) Solving Social Issues: Historical insights provide practical guidance to tackle social challenges, incorporate empathy in public policies, and ensure inclusive social planning.\n(5) Future Direction: By analyzing the present through the lens of historical knowledge, societies can chart equitable and sustainable pathways for future development.",
+              "questionTag": "March '22"
+            },
+            {
+              "id": "a-3-7-2",
+              "question": "(2) Suggest at least 6 solutions for the preservation of sources of history.",
+              "answer": "Measures to preserve historical sources include:\n(1) Maintenance & Anti-Vandalism: Regular structural repairs and strict surveillance of forts, monuments, and palaces to prevent defacement and vandalism.\n(2) Safe Storage of Material Relics: Weapons, coins, and idols must be cataloged, displayed in secure museums with anti-theft alarms, and handled with gloves.\n(3) Climate-Controlled Environments: Ancient manuscripts, fabrics, and copper plates must be housed in humidity-controlled, sanitized, and pest-free archival vaults.\n(4) Documentation of Oral Heritage: Compiling, recording, and publishing folk songs, owis, and oral narratives before traditional languages and dialects vanish.\n(5) Public Awareness & Training: Conducting workshops, heritage walks, and public campaigns to foster community pride and volunteer participation in heritage preservation.\n(6) Stringent Legislation: Enacting and enforcing strict penalties under monument protection acts against illicit trade, smuggling, or encroachment upon heritage sites.",
+              "questionTag": "March '23; July '23"
+            },
+            {
+              "id": "a-3-7-3",
+              "question": "(3) What objectives can be fulfilled through heritage projects?",
+              "answer": "Heritage projects fulfill several vital objectives:\n(1) Authentic Conservation: Preserving and developing heritage sites without altering their architectural integrity or original structure.\n(2) Community Sensitivity: Respecting the sentiments, cultural values, and traditions of local populations while carrying out conservation work.\n(3) Public Participation: Facilitating the active involvement of local residents, youth, and craftspeople in preservation initiatives.\n(4) Economic Livelihoods: Generating sustainable employment in tourism, guiding, hospitality, and local handicrafts for regional communities.\n(5) Scientific Management: Designing comprehensive long-term plans to balance tourist footfalls with ecological and structural preservation.",
+              "questionTag": "March '19"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What is Applied History?",
+      "back": "The practical application of historical knowledge to contemporary issues",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "Where is the National Archives of India located?",
+      "back": "New Delhi",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "When was the Indian Museum in Kolkata established?",
+      "back": "1814",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "What is Heritage Management?",
+      "back": "The process of preserving, protecting, and managing cultural heritage",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "What is the role of applied history in tourism?",
+      "back": "It helps in identifying tourist sites, creating narratives, and preserving heritage sites",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "Name one career opportunity in applied history.",
+      "back": "Museum curator, archivist, tourism guide, heritage manager",
+      "order": 6
+    },
+    {
+      "id": "fc-3-1",
+      "front": "What is Public History (Applied History)?",
+      "back": "The application of historical knowledge for the practical benefit of people in present and future times.",
+      "order": 1
+    },
+    {
+      "id": "fc-3-2",
+      "front": "Where was the earliest known museum discovered?",
+      "back": "In Ur (Mesopotamia), discovered by Sir Leonard Woolley, built by Princess Ennigaldi.",
+      "order": 2
+    },
+    {
+      "id": "fc-3-3",
+      "front": "Where is the National Archives of India located?",
+      "back": "New Delhi (it is the largest archive in Asia).",
+      "order": 3
+    },
+    {
+      "id": "fc-3-4",
+      "front": "Where is the National Film Archive of India headquartered?",
+      "back": "Pune, Maharashtra.",
+      "order": 4
+    },
+    {
+      "id": "fc-3-5",
+      "front": "What are the two divisions of Cultural Heritage?",
+      "back": "Tangible Heritage (sites, monuments, objects) and Intangible Heritage (oral traditions, rituals, crafts).",
+      "order": 5
+    },
+    {
+      "id": "fc-3-6",
+      "front": "Name two World Natural Heritage Sites in India.",
+      "back": "Kaziranga National Park (Assam) and the Western Ghats.",
+      "order": 6
+    },
+    {
+      "id": "fc-3-7",
+      "front": "Which institution has a Centre for Public History in Bengaluru?",
+      "back": "Srushti Institute of Art, Design and Technology.",
+      "order": 7
+    },
+    {
+      "id": "fc-3-8",
+      "front": "Which traditional brass and copper craft is on UNESCO's Intangible list?",
+      "back": "Craft of making brass/copper utensils by Thatheras of Jandiala Guru, Punjab.",
+      "order": 8
+    },
+    {
+      "id": "fc-3-9",
+      "front": "Why is philosophy considered the mother of all sciences?",
+      "back": "Inquiry into nature, cosmos, and human existence gave rise to philosophical and scientific disciplines.",
+      "order": 9
+    },
+    {
+      "id": "fc-3-10",
+      "front": "What role does UNESCO play regarding heritage sites?",
+      "back": "It lays directives and announces the global list of World Heritage Sites to ensure international preservation.",
+      "order": 10
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The main aim of applied history is ______.",
+      "options": [
+        "To preserve the past",
+        "To use historical knowledge for contemporary issues",
+        "To entertain",
+        "To make money"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Applied history focuses on using historical knowledge for contemporary issues.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "The National Archives of India is located in ______.",
+      "options": [
+        "Mumbai",
+        "Kolkata",
+        "New Delhi",
+        "Chennai"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The National Archives of India is in New Delhi.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The Indian Museum in Kolkata was established in ______.",
+      "options": [
+        "1814",
+        "1851",
+        "1875",
+        "1900"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Indian Museum was established in 1814.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The Chhatrapati Shivaji Maharaj Vastu Sangrahalaya is located in ______.",
+      "options": [
+        "Pune",
+        "Mumbai",
+        "Nagpur",
+        "Nashik"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It is located in Mumbai.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The main purpose of a museum is ______.",
+      "options": [
+        "To store old objects",
+        "To preserve and display cultural heritage",
+        "To sell artefacts",
+        "To provide entertainment"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Museums preserve and display cultural heritage.",
+      "order": 5
+    },
+    {
+      "id": "quiz-3-1",
+      "qType": "mcq",
+      "question": "The earliest museum in the world was unearthed at which ancient city?",
+      "options": [
+        "Harappa",
+        "Ur",
+        "Mohenjo Daro",
+        "Babylon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sir Leonard Woolley excavated the 6th-century B.C.E. museum built by Princess Ennigaldi at Ur.",
+      "order": 1
+    },
+    {
+      "id": "quiz-3-2",
+      "qType": "mcq",
+      "question": "Which of the following is an example of Intangible Cultural Heritage?",
+      "options": [
+        "Ajanta Caves",
+        "Red Fort",
+        "Mudiyett ritual theatre",
+        "Sanchi Stupa"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mudiyett is a traditional ritual dance drama of Kerala included in UNESCO's Intangible Heritage list.",
+      "order": 2
+    },
+    {
+      "id": "quiz-3-3",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "Public History is only useful for professional historians working in universities.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Public History bridges history with everyday society, social planning, tourism, and community awareness.",
+      "order": 3
+    },
+    {
+      "id": "quiz-3-4",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "The headquarters of the National Film Archive of India is located in ____.",
+      "wordBank": [
+        "Pune",
+        "Mumbai",
+        "Kolkata",
+        "Chennai"
+      ],
+      "correctWord": "Pune",
+      "options": [
+        "Pune",
+        "Mumbai",
+        "Kolkata",
+        "Chennai"
+      ],
+      "correctAnswer": 0,
+      "explanation": "NFAI was established in Pune in 1964 to preserve Indian cinema heritage.",
+      "order": 4
+    },
+    {
+      "id": "quiz-3-5",
+      "qType": "mcq",
+      "question": "In which year were the Western Ghats inscribed as a UNESCO World Natural Heritage Site?",
+      "options": [
+        "1985",
+        "1987",
+        "2012",
+        "2014"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Western Ghats were declared a UNESCO World Natural Heritage Site in 2012.",
+      "order": 5
+    },
+    {
+      "id": "quiz-3-6",
+      "qType": "mcq",
+      "question": "Which international body issues guidelines and declares the list of World Heritage Sites?",
+      "options": [
+        "UNICEF",
+        "UNESCO",
+        "INTACH",
+        "WHO"
+      ],
+      "correctAnswer": 1,
+      "explanation": "UNESCO evaluates nominations and maintains the World Heritage List.",
+      "order": 6
+    }
+  ],
+  "part": 1,
+  "section": "History"
+}

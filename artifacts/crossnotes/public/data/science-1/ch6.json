@@ -1,0 +1,216 @@
+{
+  "id": "ch6",
+  "num": 6,
+  "title": "Refraction of Light",
+  "emoji": "🌈",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter explores the phenomenon of refraction of light, including dispersion, total internal reflection, and the critical angle. It also explains natural phenomena like advanced sunrise/delayed sunset, twinkling of stars, and the formation of a rainbow.",
+    "youWillLearn": [
+      "Define refraction of light.",
+      "Explain dispersion of light and the formation of a spectrum.",
+      "Understand total internal reflection and the critical angle.",
+      "Explain advanced sunrise and delayed sunset.",
+      "Understand why stars twinkle but planets don't.",
+      "Describe the formation of a rainbow."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Refraction",
+      "content": "The change in direction of propagation of light when it passes obliquely from one transparent medium to another is called refraction.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Dispersion",
+      "content": "The separation of light into its component colours while passing through a medium like a prism. Violet deviates the most, red the least.",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Total internal reflection and critical angle",
+      "content": "When light travels from a denser to rarer medium beyond the critical angle, it undergoes total internal reflection instead of refracting out. The critical angle is where the angle of refraction becomes exactly 90°.",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Why the sun is seen before sunrise/after sunset",
+      "content": "Sunlight bends towards the normal as it enters earth's denser atmosphere from space, so we see the sun slightly before actual sunrise and after actual sunset.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Why stars twinkle but planets don't",
+      "content": "Stars are distant point sources affected by continuously changing air refractive index, causing twinkling. Planets, being closer and appearing as extended sources, average out this effect.",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "paragraph",
+      "title": "Formation of a rainbow",
+      "content": "A rainbow forms from the combined effect of refraction, dispersion, and total internal reflection of sunlight inside water droplets, producing red on the outer edge and violet on the inner edge.",
+      "important": true
+    },
+    {
+      "id": "n7",
+      "type": "qna",
+      "title": "Define refraction of light",
+      "question": "Define refraction of light.",
+      "qnaAnswer": "The change in the direction of propagation of light when it passes obliquely from one transparent medium to another is called refraction of light."
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Define dispersion of light",
+      "question": "Define dispersion of light.",
+      "qnaAnswer": "The separation of light into its component colours while it is passing through a medium is called dispersion."
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "Total internal reflection and critical angle",
+      "question": "Explain the terms total internal reflection and critical angle.",
+      "qnaAnswer": "When light travels from a denser to a rarer medium beyond the critical angle, it undergoes total internal reflection instead of refracting out. The critical angle is the angle of incidence in the denser medium for which the angle of refraction in the rarer medium is exactly 90°."
+    },
+    {
+      "id": "n10",
+      "type": "qna",
+      "title": "Advanced sunrise and delayed sunset",
+      "question": "Explain advanced sunrise and delayed sunset.",
+      "qnaAnswer": "Sunlight bends towards the normal as it enters earth's denser atmosphere from space. This atmospheric refraction causes the sun to appear slightly higher than its actual position. Hence, we see the sun a little before actual sunrise (advanced sunrise) and for some time after actual sunset (delayed sunset). This increases the duration of the day by about four minutes."
+    },
+    {
+      "id": "n11",
+      "type": "qna",
+      "title": "Stars twinkle but planets don't",
+      "question": "Stars twinkle but we do not see the twinkling of planets. Why?",
+      "qnaAnswer": "Stars are distant point sources of light. The refractive index of air changes continuously, causing a continuous change in the apparent position and brightness of the star, making it twinkle. Planets are relatively closer and appear as extended sources (a collection of many point sources). The changes in brightness of these points average out, so planets do not twinkle."
+    },
+    {
+      "id": "n12",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "The incident ray and the refracted ray of light are on the opposite side of the normal at the point of incidence. (True)",
+        "In vacuum, the speed of light does not depend upon the frequency of light. (True)",
+        "Wavelength of red light is close to 700 nm. (True)",
+        "In a material medium, the speed of light depends on the frequency of light. (True)",
+        "The velocity of light is different in different media. (True)"
+      ]
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Solved Numerical: Refractive Index",
+      "question": "If the speed of light in a medium is 1.5 × 10⁸ m/s, what is the absolute refractive index of the medium? (Speed of light in vacuum = 3 × 10⁸ m/s)",
+      "qnaAnswer": "Data: v = 1.5 × 10⁸ m/s, c = 3 × 10⁸ m/s\n\nn = c/v = (3 × 10⁸)/(1.5 × 10⁸) = 2\n\nAns: The absolute refractive index of the medium is 2."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "Define refraction of light.",
+      "back": "The change in direction of light passing obliquely from one transparent medium to another"
+    },
+    {
+      "id": "f2",
+      "front": "Which colour deviates least in a glass prism's spectrum?",
+      "back": "Red"
+    },
+    {
+      "id": "f3",
+      "front": "What is the critical angle?",
+      "back": "The angle of incidence (denser medium) for which the angle of refraction is exactly 90°"
+    },
+    {
+      "id": "f4",
+      "front": "Why do stars twinkle but planets don't?",
+      "back": "Stars are point sources affected by air's changing refractive index; planets are extended sources so it averages out"
+    },
+    {
+      "id": "f5",
+      "front": "Name the three optical phenomena forming a rainbow.",
+      "back": "Refraction, dispersion, and total internal reflection"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "At the critical angle, the angle of refraction is:",
+      "options": [
+        "0°",
+        "30°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At the critical angle, the refracted ray grazes the boundary at 90°.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "A ray of light makes an angle of 50° with the surface of a glass slab. Its angle of incidence is:",
+      "options": [
+        "50°",
+        "40°",
+        "140°",
+        "90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angle of incidence is measured from the normal: 90° − 50° = 40°.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The process of separation of light into its component colours is called:",
+      "options": [
+        "reflection",
+        "refraction",
+        "dispersion",
+        "internal reflection"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Dispersion separates white light into colours.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "______ colour is deviated the least in the spectrum of white light from a glass prism.",
+      "options": [
+        "Red",
+        "Yellow",
+        "Violet",
+        "Blue"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Red has the least deviation; violet the most.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "A ray of light deviates when passing obliquely between media because:",
+      "options": [
+        "the colour changes",
+        "the frequency changes",
+        "the speed of light changes",
+        "the intensity changes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Change in speed between media causes bending.",
+      "order": 5
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "ch5",
+  "num": 5,
+  "title": "Heat",
+  "emoji": "🔥",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers the concepts of latent heat of fusion, boiling point, regelation, and the anomalous behaviour of water. It also explains why steam burns are worse than boiling water burns and describes Hope's apparatus.",
+    "youWillLearn": [
+      "Define latent heat of fusion and boiling point.",
+      "Understand the anomalous behaviour of water and its importance for aquatic life.",
+      "Explain why steam burns are more severe than boiling water burns.",
+      "Describe Hope's apparatus."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Latent heat of fusion",
+      "content": "When a solid converts to liquid at constant temperature (its melting point), the heat absorbed is called latent heat of fusion.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Boiling point",
+      "content": "The constant temperature at which a liquid transforms into gas is called the boiling point.",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Regelation and anomalous behaviour of water",
+      "content": "Regelation: crushed ice under pressure melts (lower melting point), then refreezes into a lump when pressure is released. Water's density is maximum at 4°C (not at 0°C) — this anomalous behaviour lets ice float and insulate water below, so aquatic life survives under frozen lakes.",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Why steam burns are worse than boiling-water burns",
+      "content": "Steam contains extra latent heat (~540 cal/g) that it releases on contact with skin, causing more serious burns than boiling water at the same temperature.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Hope's apparatus",
+      "content": "Used to demonstrate the anomalous expansion of water — showing water is densest at 4°C rather than 0°C.",
+      "important": false
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "Define latent heat of fusion",
+      "question": "Define latent heat of fusion.",
+      "qnaAnswer": "When a solid is converted into liquid at constant temperature (melting point of the substance), the amount of heat absorbed by it is called the latent heat of fusion."
+    },
+    {
+      "id": "n7",
+      "type": "qna",
+      "title": "Define specific latent heat of fusion",
+      "question": "What is specific latent heat of fusion?",
+      "qnaAnswer": "The amount of heat energy absorbed at constant temperature by a unit mass of solid to convert into liquid phase is called the specific latent heat of fusion."
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Define boiling point",
+      "question": "Define boiling point of a liquid.",
+      "qnaAnswer": "The constant temperature at which a liquid transforms into gaseous state is called the boiling point of the liquid."
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "Anomalous behaviour of water",
+      "question": "Explain the role of anomalous behaviour of water in preserving aquatic life in regions of cold climate.",
+      "qnaAnswer": "In cold regions, during winter, water at the surfaces of lakes and ponds cools to 4°C and sinks. As the surface water cools below 4°C, it expands and remains at the surface, eventually freezing into ice. Ice is a bad conductor of heat, so the layer of ice at the surface does not allow transfer of heat from the water to the atmosphere. The water below the ice remains at 4°C, allowing fish and other aquatic animals and plants to survive."
+    },
+    {
+      "id": "n10",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "Specific latent heat of fusion is expressed in cal/g. (True)",
+        "At dew point relative humidity is 100%. (True)",
+        "1 kcal = 4.18 joules. (False)"
+      ]
+    },
+    {
+      "id": "n11",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Temperature : Physical quantity : : Conduction, Convection, Radiation : ___",
+      "blanks": [
+        "Modes of transfer of heat"
+      ]
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Solved Numerical: Heat Energy",
+      "question": "How much heat energy is necessary to raise the temperature of 5 kg of water from 20°C to 100°C?",
+      "qnaAnswer": "Data: m = 5 kg, ΔT = 100°C - 20°C = 80°C, c = 1 kcal/kg·°C\n\nHeat energy necessary = mcΔT\n= 5 × 1 × 80\n= 400 kcal\n\nAns: 400 kcal"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What is latent heat of fusion?",
+      "back": "Heat absorbed when a solid converts to liquid at constant temperature"
+    },
+    {
+      "id": "f2",
+      "front": "At what temperature is the density of water maximum?",
+      "back": "4°C"
+    },
+    {
+      "id": "f3",
+      "front": "Why are steam burns worse than boiling water burns?",
+      "back": "Steam releases an extra ~540 cal/g of latent heat on contact with skin"
+    },
+    {
+      "id": "f4",
+      "front": "What apparatus demonstrates the anomalous expansion of water?",
+      "back": "Hope's apparatus"
+    },
+    {
+      "id": "f5",
+      "front": "Why can aquatic life survive under frozen lakes?",
+      "back": "Ice (a poor conductor) insulates the water below, which stays at ~4°C"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The phenomenon in which ice melts under pressure and refreezes when pressure is released is called:",
+      "options": [
+        "boiling",
+        "regelation",
+        "freezing",
+        "evaporation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the definition of regelation.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "Water shows its maximum density at:",
+      "options": [
+        "0°C",
+        "4°C",
+        "10°C",
+        "100°C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the anomalous behaviour of water.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "Which apparatus demonstrates the anomalous behaviour of water?",
+      "options": [
+        "Calorimeter",
+        "Joule's apparatus",
+        "Hope's apparatus",
+        "Thermos flask"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Hope's apparatus shows density is maximum at 4°C.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The amount of water vapour in air is measured using:",
+      "options": [
+        "absolute humidity",
+        "relative humidity",
+        "dew point",
+        "specific humidity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Relative humidity expresses vapour content as a percentage.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "Steam burns are worse than boiling water burns at the same temperature because steam:",
+      "options": [
+        "is at a higher temperature",
+        "contains more heat due to latent heat of vaporisation",
+        "is lighter than water",
+        "evaporates without releasing heat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Steam releases extra latent heat when it condenses on skin.",
+      "order": 5
+    }
+  ]
+}

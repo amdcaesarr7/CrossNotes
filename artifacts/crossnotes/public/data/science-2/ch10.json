@@ -1,0 +1,686 @@
+{
+  "id": "ch10",
+  "num": 10,
+  "title": "Disaster Management",
+  "emoji": "🚨",
+  "kind": "chapter",
+  "overview": {
+    "summary": "A disaster is a sudden accident, deliberate man-made activity or natural catastrophe that causes loss of life and property. Disasters are natural (geological such as volcano and earthquake, atmospheric such as storms and drought), man-made (accidental like toxic gas leakage or intentional like war and bomb blasts) and biological (pandemics). Disaster management has pre-disaster (preparation, warning), during-disaster (rescue, first aid) and post-disaster (resurgence and restoration) phases, supported by mock drills.",
+    "youWillLearn": [
+      "Define disaster and classify its types",
+      "Explain pre-, during and post-disaster management",
+      "Describe objectives of disaster management",
+      "Give first aid and rescue basics",
+      "Explain the role of mock drills and local authorities"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-10-disaster_cycle",
+      "type": "figure",
+      "title": "Disaster management cycle",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMzAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjMwMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RGlzYXN0ZXIgbWFuYWdlbWVudCBjeWNsZTwvdGV4dD48cmVjdCB4PSIzMDAiIHk9IjUwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI3NyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+UHJlcGFyZWRuZXNzPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSI5MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+KG1vY2sgZHJpbGwsIHdhcm5pbmcpPC90ZXh0PjxyZWN0IHg9IjUzMCIgeT0iMTIwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYzMC4wIiB5PSIxNDciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlJlc3BvbnNlPC90ZXh0Pjx0ZXh0IHg9IjYzMC4wIiB5PSIxNjEiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPihmaXJzdCBhaWQsIHJlc2N1ZSk8L3RleHQ+PHJlY3QgeD0iMzAwIiB5PSIyMDAiIHdpZHRoPSIyMDAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjIyNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+UmVjb3Zlcnk8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjI0MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+KHJlc3RvcmluZyBub3JtYWxjeSk8L3RleHQ+PHJlY3QgeD0iNzAiIHk9IjEyMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSI2MCIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzAuMCIgeT0iMTQ3IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5NaXRpZ2F0aW9uPC90ZXh0Pjx0ZXh0IHg9IjE3MC4wIiB5PSIxNjEiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPihyZWR1Y2Ugcmlzayk8L3RleHQ+PGxpbmUgeDE9IjUwMCIgeTE9IjgwIiB4Mj0iNTYwIiB5Mj0iMTE4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI1NjAiIHkxPSIxODAiIHgyPSI1MDAiIHkyPSIyMTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjgiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjMwMCIgeTE9IjIzMCIgeDI9IjIwMCIgeTI9IjE4NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuOCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iMTMwIiB5MT0iMTIwIiB4Mj0iMzAwIiB5Mj0iODUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjgiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PC9zdmc+",
+      "figureAlt": "Phases of disaster management",
+      "figureCaption": "Disaster management cycle"
+    },
+    {
+      "id": "answers-10-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-10-1",
+          "entries": [
+            {
+              "id": "a-1-10-1",
+              "question": "(1) After the subsidence of any type of disaster, rehabilitation work is started in phase. (A) later (B) transitional (C) terminal (D) ultimate",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-10-2",
+              "question": "(2) Which of the following is man-made disaster? (A) Earthquake (B) Flood (C) Meteor (D) Leakage of toxic gases (March ’19; July ’19)",
+              "answer": "(D),",
+              "questionTag": "March ’19; July ’19"
+            },
+            {
+              "id": "a-1-10-3",
+              "question": "(3) Volcano is a disaster. (A) social (B) political (C) biological (D) geological (March ’22)",
+              "answer": "(D),",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-1-10-4",
+              "question": "(4) There had been a huge in the village Malin, Tal. Ambegaon in 2014. (A) earthquake (B) storm (C) landslide (D) change",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-10-5",
+              "question": "(5) The atomic energy plant of Chernobyl was used only for generating . (A) electricity (B) solar power (C) atomic energy (D) wind energy",
+              "answer": "(A)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-10-2",
+          "entries": [
+            {
+              "id": "a-2-10-1",
+              "question": "(1) Earthquake, Flooding, Tsunami, War. (March ’22)",
+              "answer": "War. (All others are natural disasters.)",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-2-10-2",
+              "question": "(2) Drought, Bomb explosion, Forest fire, Floods.",
+              "answer": "Bomb explosion. (All others are natural disasters.)"
+            },
+            {
+              "id": "a-2-10-3",
+              "question": "(3) Preparation, Redemption, Preparedness, Resurgence.",
+              "answer": "Resurgence. (All others are pre-disaster management techniques.)"
+            },
+            {
+              "id": "a-2-10-4",
+              "question": "(4) Forest fire, Snow storms, Drought, Meteorite.",
+              "answer": "Forest fire. (All others are atmospheric disasters.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Find Out the Correlation",
+      "answerGroups": [
+        {
+          "id": "g-10-3",
+          "entries": [
+            {
+              "id": "a-3-10-1",
+              "question": "(1) Pre-disaster management : Preparation and warning : : Post- disaster management : .",
+              "answer": "Resurgence and restoration"
+            },
+            {
+              "id": "a-3-10-2",
+              "question": "(2) Floods : Geophysical disaster : : Covid-19 pandemic : .",
+              "answer": "Biological disaster"
+            },
+            {
+              "id": "a-3-10-3",
+              "question": "(3) Bringing normalcy to : Public life : Recovery phase : : Restoring and building house : .",
+              "answer": "Reconstruction phase"
+            },
+            {
+              "id": "a-3-10-4",
+              "question": "(4) Toxic gas leakage : Accidental disaster : : War : .",
+              "answer": "Intentional type of disaster."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-10-4",
+          "entries": [
+            {
+              "id": "a-4-10-1",
+              "question": "(1) Column A : Disaster Column B : Types of Disaster Snow fall (a) Geological (b) Atmospheric (c) Animal origin",
+              "answer": "Snow fall – Atmospheric."
+            },
+            {
+              "id": "a-4-10-2",
+              "question": "(2) Column A : Example Column B : Disaster Bomb explosion (a) Geological (b) Atmospheric (c) Intentional",
+              "answer": "Bomb explosion – Intentional."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-10-5",
+          "entries": [
+            {
+              "id": "a-5-10-1",
+              "question": "(1) Toxic gas leakage is an unknown man-made disaster.",
+              "answer": "True"
+            },
+            {
+              "id": "a-5-10-2",
+              "question": "(2) One must keep the accident victim in same condition till medical help arrives.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-10-3",
+              "question": "(3) Mock drill is done for virtual situation of disaster.",
+              "answer": "True."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-10-6",
+          "entries": [
+            {
+              "id": "a-6-10-1",
+              "question": "Q. Give functions : • Functions of Disaster Management Authority.",
+              "answer": "(1) Giving the necessary instructions.\n\n(2) Assessing whether the instructions are followed or not.\n\n(3) Reviewing the entire system.\n\n(4) Controlling the actions.\n\n(5) Planning and executing the plans.\n\n(6) Designing schemes for each district, separately for each type of disaster and getting those sanctioned from state-level authorities."
+            },
+            {
+              "id": "a-6-10-2",
+              "question": "Q. Give scientific reasons :",
+              "unavailableReason": "The source does not provide a separate answer for this item."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Give Scientific Reasons",
+      "answerGroups": [
+        {
+          "id": "g-10-7",
+          "entries": [
+            {
+              "id": "a-7-10-1",
+              "question": "• Mock drill is useful.",
+              "answer": "(1) Mock drill is the practice to check whether there is preparedness for dealing with the sudden attack of disaster.\n\n(2) For this purpose, virtual or apparent situations that simulate the disaster are created.\n\n(3) The reaction time for any type of disaster is checked by such activity. In the presence of trained personnel, the execution of the rescue plans are observed.\n\n(4) People also understand their responsibilities at the time of actual disaster.\n\n(5) The experts also check execution of plan designed for disaster redressal.\n\n(6) By such mock drills, the efficacy of the system can be understood. In future, when actual calamity strikes, there is already preparation for disaster redressal. Therefore, mock drill is useful.\n\n(7) e.g. In case of possible fire, the school can have mock drill with the help of fire fighters."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-10-8",
+          "entries": [
+            {
+              "id": "a-8-10-1",
+              "question": "Disaster",
+              "answer": "A sudden accident, man-made deliberate activity or a natural catastrophic event that cause great damage or loss of life is called a disaster."
+            },
+            {
+              "id": "a-8-10-2",
+              "question": "First aid",
+              "answer": "An immediate help given to a sick or injured person until full medical treatment is available is called a first aid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set9",
+      "type": "answer_sets",
+      "title": "Q. Set 9 : Distinguish Between the Following",
+      "answerGroups": [
+        {
+          "id": "g-10-9",
+          "entries": [
+            {
+              "id": "a-9-10-1",
+              "question": "• Natural and Man-made disasters : (2 marks) Natural disasters Man-made disasters 1. Disasters coming suddenly 1. Disasters caused either due due to natural phenomenon to accidents or by intentional are called natural disasters. actions are called man-made disasters. 2. All the people as well as their 2. Specific people are affected properties and wealth in who are in the target of man- affected area are affected due made disaster. to natural disasters. 3. Natural disasters are beyond 3. Man-made disasters can be human control. avoided or controlled. 4. Floods, droughts, tsunami, 4. Bomb explosion, terrorism, earthquake are some of the war, etc. are man-made natural disasters. disasters.",
+              "unavailableReason": "The source does not provide a separate answer for this item."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-10-10",
+          "entries": [
+            {
+              "id": "a-10-10-1",
+              "question": "(1) Nature of disaster management. (2 marks)",
+              "answer": "Disaster management involves either prevention of disasters (Pre-disaster management) or creating preparedness to face them (Post-disaster management). The action plans are prepared for managing disasters. This is done after studying the different aspects such as preventive measures, rehabilitation and reconstruction plans. The disasters are tackled by executing action plans in the following steps : Preparation, redemption, preparedness, action during actual disaster, response, resurgence and restoration. At every level there are other voluntary organisations and Government meteorological institutions for their help."
+            },
+            {
+              "id": "a-10-10-2",
+              "question": "(2) Mock drill. (Sept. ’21) (2 marks)",
+              "answer": "A mock drill is a practice exercise that simulates a disaster to check preparedness. It helps assess response time and rescue plans, clarifies people's responsibilities, and reveals improvements needed before an actual disaster occurs.",
+              "questionTag": "Sept. ’21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set11",
+      "type": "answer_sets",
+      "title": "Q. Set 11 : Explanations and Concepts",
+      "answerGroups": [
+        {
+          "id": "g-10-11",
+          "entries": [
+            {
+              "id": "a-11-10-1",
+              "question": "Q. Explain the role of district disaster control unit after occurrence of any disaster.",
+              "answer": "(1) District control unit looks after the disaster management of the district.\n\n(2) It is immediately formed either after the impact of disaster or if warning is given about some upcoming disaster.\n\n(3) District-wise Disaster Control Unit performs following role : (i) The review of various aspects of disasters is done. (ii) Through the disaster control unit, there is continuous contact established with various agencies like army, air force, navy, telecommunication department, paramilitary forces, etc. for obtaining help. (iii) The unit also coordinates with various voluntary organisations for their help in disaster management."
+            },
+            {
+              "id": "a-11-10-2",
+              "question": "Q. Answer the following questions :",
+              "unavailableReason": "The source does not provide a separate answer for this item."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set12",
+      "type": "answer_sets",
+      "title": "Q. Set 12 : Remedies/Measures on Problems",
+      "answerGroups": [
+        {
+          "id": "g-10-12",
+          "entries": [
+            {
+              "id": "a-12-10-1",
+              "question": "(1) The building in which you are residing has caught fire on the ground floor. What necessary rescue steps will you take? (July ’19)",
+              "answer": "(1) We shall call out for help.\n\n(2) We shall immediately call fire brigade.\n\n(3) We shall try to extinguish fire with the help of other people.\n\n(4) We will give first aid to people who are injured, till the medical help arrives.",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-12-10-2",
+              "question": "(2) Write down the reasons, effects and remedial measures taken for any one disaster seen or heard by you. (March ’25)",
+              "answer": "Disaster : Flood\n\n(1) Reasons for floods : Floods are often caused by heavy rainfall, rapid snow melt or tsunami in coastal areas.\n\n(2) Effects of flood : (a) Loss of human life and property occurs. (b) The fields get waterlogged. (c) Spreads water-borne diseases.\n\n(3) Remedial measures : (a) In preventive measures, planting trees to prevent soil erosion, construction of dams to control, river water flow can be done. (b) In past-Flood measures, providing relief by giving food, medical help to victims of flood, repairing roads, bridges, preventing the spread of diseases through clean drinking water and hygiene awareness can be done. Note : Students are expected to write the answer based on their own experience.",
+              "questionTag": "March ’25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-10-13",
+          "entries": [
+            {
+              "id": "a-13-10-1",
+              "question": "(1) Observe the following picture and write any two effects of this disaster : (March ’25) (2 marks)",
+              "answer": "The disaster shown in pictures is overflowing due to heavy rain. Effects of this disaster are as follows :\n\n(1) Due to overflowing, bridges and roads are affected.\n\n(2) It causes loss of human life and property.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-13-10-2",
+              "question": "(2) The following are some pictures of disasters. Which preliminary actions you will take during those disasters ? (Sept. ’21) (3 marks) (a) (b) (c)",
+              "answer": "The given pictures show three disasters. The first and second are man-made disasters while the third is a natural disaster. (a) The picture shows leakage of gas cylinder. The preliminary action to be taken in put a damp cloth over a cylinder and move out of the vicinity of such cylinder. (b) The picture is showing f light among the school children. We should immediately call teachers or seniors to intervene and stop fight. (c) The picture is showing excessive rain and flooding. We have to move immediately out of such low-lying areas and go to safer place which is on heights, where flood water will not reach.",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-13-10-3",
+              "question": "(3) Following are some pictures of disasters. Which precautions would you take during these disasters ? (July ’22) (3 marks) (a) (b) (c) Various disasters",
+              "answer": "The pictures shown above are showing (a) earthquake, (b) fire and (c) snake bite respectively. In the above disasters, the initial precautions to be taken are as follows : (a) Earthquake : In case of earthquake, one should immediately come out of house and stand in the open ground. If this is not possible, one has to go below table or any other cover to protect from head injury. Switch off the power supply. If in journey, stay inside the vehicle. (b) Fire : First and foremost is to save ourselves from fire. Then one can help others in rescue operations. Help others to extinguish fire. Call the fire department for immediate action. (c) Snake bite : The tourniquet should be tied in the region above the snake bite, so that the venom, should not rise and reach vital organs. The wound should be made near the bite-wound so that the blood will ooze out and some venom can automatically flow out. Though these are first-aid measures, the victim should be rushed to a qualified doctor for an injection of antivenin. Victim should be given psychological support.",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-13-10-4",
+              "question": "(4) Some symbols are given below. Explain those symbols. Which disasters may occur if those symbols are ignored ? (1 mark each) Explosive Inflammable Oxidising Compressed Gas Corrosive Toxic Irritant Environmentally Health hazardous hazard",
+              "answer": "The above signs are warning symbols which should never be ignored. The meaning of each is given below. They are giving warnings about explosive, inflammable, oxidising, compressed gas, corrosive, toxic, irritant, environmentally hazardous and health hazard.\n\n(1) Explosive : Some materials are explosive. If explosion occurs, there would be a major disaster causing great loss of life and property.\n\n(2) Inflammable : The inflammable materials can also catch fire easily.\n\n(3) Oxidising : Some chemical substances are oxidising. They carry out chemical reactions with a rapid speed. e.g. If potassium permanganate falls on the cloth, it starts the reaction on its C-C bonds. Due to such property of carrying out reactions, the cloths may catch fire.\n\n(4) Compressed : Compressed substances are filled under pressure in some containers. If mishandled, they can come out of the container by bursting it open.\n\n(5) Corrosive : The corrosive substances are very reactive. The mere touch or smell of corrosive substances can cause destruction of skin, eyes, respiratory passages, digestive organs, etc. rapidly.\n\n(6) Toxic : Tasting or smelling a toxic substance can lead to death.\n\n(7) Irritant : When skin, eyes, nasal mucosa and skin comes in contact with the irritant substance, it can cause harmful reaction.\n\n(8) Environmentally hazardous : Many substances cause harm to the environment due to their toxicity. By them air, water or soil can be polluted. Pollution can cause harm to human health.\n\n(9) Health hazard : Materials marked with health hazard can cause severe toxicity; therefore they should be distanced from us."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-10-14",
+          "entries": [
+            {
+              "id": "a-14-10-1",
+              "question": "(1) Complete the chart : Complete the chart as per the objectives of the first aid :",
+              "answer": "(Answers are directly given and underlined.) To give medical help To give treatment to victim till the Relieving the pain immediately doctor arrives Preventing deterioration Objectives of To provide safety of condition and security to of victims of First Aid the victims disasters Transporting the Attempt to improve Saving lives victims safely and with the condition care to the hospitals"
+            },
+            {
+              "id": "a-14-10-2",
+              "question": "(2) Complete the diagram : (Nov. ’20) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Wound gauze Necessary Torch materials in Antiseptic Dettol First-aid box Hand gloves",
+              "questionTag": "Nov. ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-10-15",
+          "entries": [
+            {
+              "id": "a-15-10-1",
+              "question": "Q. Read the given paragraph or information and answer the questions below.",
+              "unavailableReason": "The source does not provide a separate answer for this item."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-10-18",
+          "entries": [
+            {
+              "id": "a-18-10-1",
+              "question": "(1) State any four objectives of disaster management. (March ’19) OR State any two objectives of disaster management. (March ’23; July ’23)",
+              "answer": "Objectives of disaster management include:\n\n(1) Saving human lives through rapid action and evacuation.\n\n(2) Supplying essential commodities such as food, water and clothing to affected people.\n\n(3) Restoring affected communities to normal conditions.\n\n(4) Rehabilitating affected and displaced people.\n\n(5) Planning and implementing protective measures to improve preparedness for future disasters.",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-18-10-2",
+              "question": "(2) Write any four important facts which must be thought over while considering the scope of disaster. (March ’24)",
+              "answer": "Important facts for consideration of scope of disaster are as follows :\n\n(1) Pre-disaster phase\n\n(2) Warning phase\n\n(3) Emergency phase\n\n(4) Rehabilitation phase\n\n(5) Recovery phase\n\n(6) Reconstruction phase. (Write any four of the above facts.)",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-18-10-3",
+              "question": "(3) Why is it essential to get the training of first aid ? (July ’19)",
+              "answer": "When there is a disaster, we need to immediately help the victim. Till the medical help arrives, one should be in position to treat the injured and save his or her life. In such cases, knowing first-aid is essential. Such kind of a need may arise in case of our parents, our siblings at home or with friends in school. Those who are injured should be treated at once. If we know about techniques of first aid, we can save such person before the medical help arrives. Therefore, it is essential to get the training of the first aid.",
+              "questionTag": "July ’19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-10-19",
+          "entries": [
+            {
+              "id": "a-19-10-1",
+              "question": "(1) What is meant by disaster? Write any two examples of each natural and man-made disaster. (March ’22) (3 marks)",
+              "answer": "(1) Disaster is the incidence that occurs suddenly causing heavy damage to life and property. The disaster can be man-made or due to natural reason.\n\n(2) Natural disasters : Flood, earthquake, drought, landslide, volcano.\n\n(3) Man-made disasters : War, bomb explosion, gas leakage, terrorism.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-19-10-2",
+              "question": "(2) Answer the following. (Nov. ’20) (5 marks) (i) What is meant by disaster management ?",
+              "answer": "Disaster management is either prevention of disasters or making arrangements to face it or at least achieve the abilities to face it. (ii) Classify the following activities into pre-disaster management. (a) Identifying the pre-disaster areas. (b) Quick establishment of help centre. (c) Participation of preferably local peoples saved from the disaster in arranging the help to victims. (d) Getting special training for disaster management. Ans. (a) Pre-disaster management. (b) Post-disaster management. (c) Post-disaster management. (d) Pre-disaster management. (iii) Complete the diagram : Ans. (Answers are directly given and underlined.) Wound gauze Necessary Antiseptic Torch materials in Dettol First-aid box Hand gloves",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-19-10-3",
+              "question": "(3) Write names of any six materials which are to be in the first aid box. (March ’24) (3 marks)",
+              "answer": "(1) For wrapping the wounds : Bandage strips of different size, Wound gauze, Triangular and circular bandage, Medicated cotton, Band aid.\n\n(2) For cleanliness : Hand gloves, Clean and dry cloth pieces, Soap\n\n(3) Medicines : Antiseptic (Dettol/Savlon), Petroleum jelly (Any six materials to be written in answer.)",
+              "questionTag": "March ’24"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-10-1",
+      "front": "Disaster",
+      "back": "A sudden accident, man-made deliberate activity or natural catastrophe that causes great loss.",
+      "order": 1
+    },
+    {
+      "id": "fc-10-2",
+      "front": "Natural vs man-made disasters",
+      "back": "Natural: earthquake, flood, tsunami, drought, volcano. Man-made: bomb explosion, terrorism, war, toxic gas leakage.",
+      "order": 2
+    },
+    {
+      "id": "fc-10-3",
+      "front": "Volcano is which type of disaster?",
+      "back": "Geological (geophysical) disaster.",
+      "order": 3
+    },
+    {
+      "id": "fc-10-4",
+      "front": "Covid-19 pandemic is which type?",
+      "back": "Biological disaster.",
+      "order": 4
+    },
+    {
+      "id": "fc-10-5",
+      "front": "Toxic gas leakage and war",
+      "back": "Toxic gas leakage is an accidental disaster; war is an intentional man-made disaster.",
+      "order": 5
+    },
+    {
+      "id": "fc-10-6",
+      "front": "Pre-disaster management",
+      "back": "Preparation and warning (preparedness).",
+      "order": 6
+    },
+    {
+      "id": "fc-10-7",
+      "front": "Post-disaster management",
+      "back": "Resurgence and restoration: recovery (bringing normalcy), rehabilitation and reconstruction (rebuilding houses).",
+      "order": 7
+    },
+    {
+      "id": "fc-10-8",
+      "front": "Objectives of disaster management",
+      "back": "Save human life, supply essential commodities, bring back normalcy, rehabilitate victims and plan protective measures.",
+      "order": 8
+    },
+    {
+      "id": "fc-10-9",
+      "front": "First aid",
+      "back": "Immediate help given to a sick or injured person until full medical help is available.",
+      "order": 9
+    },
+    {
+      "id": "fc-10-10",
+      "front": "Mock drill",
+      "back": "A drill done for a virtual situation of disaster to train people.",
+      "order": 10
+    },
+    {
+      "id": "fc-10-11",
+      "front": "Malin (2014)",
+      "back": "Village in Ambegaon taluka that suffered a huge landslide.",
+      "order": 11
+    },
+    {
+      "id": "fc-10-12",
+      "front": "Chernobyl",
+      "back": "An atomic energy plant used only to generate electricity; the accident there was a major man-made disaster.",
+      "order": 12
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-10-1",
+      "qType": "mcq",
+      "question": "Which of these is a man-made disaster?",
+      "options": [
+        "Earthquake",
+        "Flood",
+        "Meteor",
+        "Leakage of toxic gases"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gas leakage is caused by human error or accident.",
+      "order": 1
+    },
+    {
+      "id": "quiz-10-2",
+      "qType": "mcq",
+      "question": "A volcano is a ____ disaster.",
+      "options": [
+        "social",
+        "political",
+        "biological",
+        "geological"
+      ],
+      "correctAnswer": 3,
+      "explanation": "It originates from the earth's interior.",
+      "order": 2
+    },
+    {
+      "id": "quiz-10-3",
+      "qType": "mcq",
+      "question": "In 2014 a huge ____ occurred in Malin village, Tal. Ambegaon.",
+      "options": [
+        "earthquake",
+        "storm",
+        "landslide",
+        "flood"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A landslide buried the village.",
+      "order": 3
+    },
+    {
+      "id": "quiz-10-4",
+      "qType": "mcq",
+      "question": "Which is the odd one out?",
+      "options": [
+        "Earthquake",
+        "Flooding",
+        "Tsunami",
+        "War"
+      ],
+      "correctAnswer": 3,
+      "explanation": "War is man-made; the rest are natural.",
+      "order": 4
+    },
+    {
+      "id": "quiz-10-5",
+      "qType": "mcq",
+      "question": "The Chernobyl atomic plant was used only for generating ____.",
+      "options": [
+        "electricity",
+        "solar power",
+        "atomic weapons",
+        "wind energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It produced electricity.",
+      "order": 5
+    },
+    {
+      "id": "quiz-10-6",
+      "qType": "mcq",
+      "question": "Covid-19 is an example of a ____ disaster.",
+      "options": [
+        "geophysical",
+        "biological",
+        "atmospheric",
+        "accidental"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pandemics are biological disasters.",
+      "order": 6
+    },
+    {
+      "id": "quiz-10-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "A mock drill is done for a virtual situation of disaster.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It trains people to respond.",
+      "order": 7
+    },
+    {
+      "id": "quiz-10-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "Immediate help given to an injured person before full medical aid is ____.",
+      "wordBank": [
+        "first aid",
+        "rehabilitation",
+        "mock drill",
+        "warning"
+      ],
+      "correctWord": "first aid",
+      "options": [
+        "first aid",
+        "rehabilitation",
+        "mock drill",
+        "warning"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the definition of first aid.",
+      "order": 8
+    },
+    {
+      "id": "quiz-10-9",
+      "qType": "match",
+      "question": "Match the disaster with its type.",
+      "left": [
+        "Toxic gas leakage",
+        "War",
+        "Drought"
+      ],
+      "right": [
+        "Intentional man-made",
+        "Accidental man-made",
+        "Natural"
+      ],
+      "answerKey": [
+        1,
+        0,
+        2
+      ],
+      "options": [
+        "Intentional man-made",
+        "Accidental man-made",
+        "Natural"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Accidental, intentional and natural types.",
+      "order": 9
+    }
+  ]
+}

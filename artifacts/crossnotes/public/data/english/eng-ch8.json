@@ -1,0 +1,55 @@
+{
+  "id": "eng-ch8",
+  "num": 8,
+  "title": "Writing Skills: Speech & View/Counterview",
+  "emoji": "🗣️",
+  "notes": [
+    {
+      "id": "eng8-n1",
+      "title": "Speech Writing",
+      "content": "Address the audience directly, end with a proper leave-taking expression. Use direct statements and rhetorical questions. 2-3 paragraphs.\n\n**Marking Scheme:**\nAppropriate beginning/conclusion (1), Body - Use of given points and additional points, appropriate use of language (2), Appropriate sequence and flow of language (1), Use of appropriate grammatical structures (1).",
+      "important": true
+    },
+    {
+      "id": "eng8-n2",
+      "title": "Example Speech: What I can give for India",
+      "content": "**What I can give for India**\nRespected Principal, teachers and my dear friends,\nGood morning. The topic of my speech today is : What I can give for India. I, XYZ, will share my views on this with you.\nAs I am still a student, perhaps I cannot do anything major for the country at this moment. However, I can still do many small but important things. I can take care of the environment and help to maintain a green cover. I can keep my surroundings clean and hygienic and persuade others to do so too. Saving water is the need of the day, and I can help to save every drop of water and prevent wastage. I will also recycle and reuse materials, and reduce my use of some. To whatever extent possible, I will encourage people to support and help each other. Thus, I will conclude my speech by saying that I know that there are many more things I can do for my country, and I will certainly try to do them. Thank you.",
+      "important": true
+    },
+    {
+      "id": "eng8-n3",
+      "title": "View/Counterview",
+      "content": "Write the view or counterview of the points given. Language should be formal. You can use exclamations and rhetorical questions. Give a title.\n\n**Marking Scheme:**\nProper beginning and conclusion (1), Appropriate vocabulary and grammar (1), Expressing opinion in good and lucid language with logical order (2), Appealing and convincing thoughts (1).",
+      "important": true
+    },
+    {
+      "id": "eng8-n4",
+      "title": "Example Counterview: Real Books Score Over E-Books",
+      "content": "**Real Books Score Over E-Books**\nToday, there is a lot of talk about the e-books being better than real books. I beg to differ. This is not possible.\nE-books are certainly cheaper and more easily accessible—to those fortunate enough to live in cities. In a vast country like India, where lakhs of people do not even have electric connections, let alone laptops and phones, the very thought of e-books replacing real books is laughable. One can certainly carry hundreds of e-books wherever one goes, but does this replace the pleasure of reading a real book? No, it does not.\nYes, publishing e-books may be fast and easy, and saves time, but at what cost? Continuous exposure to the computer screen affects our eyes and our health. Is it really worth it? E-books may be interactive for kids with audio, video, animation and other facilities, no doubt, but this also means that it does not allow the imagination of the reader to grow. It retards creativity. Besides, real books have a feel and smell that can never be replaced by e-books. No, e-books can supplement real books but can never replace real books.",
+      "important": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "eng8-f1",
+      "front": "What is the marking scheme for Speech Writing?",
+      "back": "Appropriate beginning/conclusion (1), Body - Use of given points and additional points (2), Appropriate sequence and flow (1), Use of appropriate grammatical structures (1). Total 5 marks.",
+      "order": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "eng8-q1",
+      "question": "What type of language should be used when writing a Counterview?",
+      "options": [
+        "Casual and friendly",
+        "Formal and argumentative",
+        "Humorous and light",
+        "Poetic and emotional"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A counterview requires a formal tone and should firmly present an argument.",
+      "order": 1
+    }
+  ]
+}

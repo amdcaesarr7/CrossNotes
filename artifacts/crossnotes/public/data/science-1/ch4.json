@@ -1,0 +1,263 @@
+{
+  "id": "ch4",
+  "num": 4,
+  "title": "Effects of Electric Current",
+  "emoji": "⚡",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter explores the heating and magnetic effects of electric current. It covers electric power and its SI unit, the kilowatt-hour, and important rules like the Right Hand Thumb Rule, Fleming's Left and Right Hand Rules, and Faraday's law of electromagnetic induction.",
+    "youWillLearn": [
+      "Define electric power and state its SI unit.",
+      "Understand the concept of a kilowatt-hour.",
+      "Apply the Right Hand Thumb Rule, Fleming's Left Hand Rule, and Fleming's Right Hand Rule.",
+      "Explain electromagnetic induction and Faraday's law.",
+      "Explain why Nichrome is used in heating devices."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Electric power",
+      "content": "Electric power is the electric work done per unit time. P = W/t = VI = I²R = V²/R. SI unit: watt (W); 1 watt = 1 joule/second.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Kilowatt-hour",
+      "content": "One kilowatt-hour is the electric energy used in one hour by an appliance of power one kilowatt. 1 kWh = 3.6 × 10⁶ J.",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Right Hand Thumb Rule",
+      "content": "If the thumb of the right hand points in the direction of current in a straight conductor, the curled fingers give the direction of the magnetic field around it.",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Fleming's Left Hand Rule",
+      "content": "With thumb, index and middle finger of the left hand mutually perpendicular: index finger = magnetic field, middle finger = current, thumb = force on the conductor. Used for motors.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Fleming's Right Hand Rule",
+      "content": "With thumb, index and middle finger of the right hand mutually perpendicular: thumb = motion of conductor, index finger = magnetic field, middle finger = induced current. Used for generators.",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "paragraph",
+      "title": "Electromagnetic induction & Faraday's law",
+      "content": "Electromagnetic induction: a current is induced in a conductor due to a changing magnetic field. Faraday's Law: whenever the magnetic flux through a coil changes, a current is induced in it.",
+      "important": true
+    },
+    {
+      "id": "n7",
+      "type": "paragraph",
+      "title": "Why Nichrome is used in heating devices",
+      "content": "Nichrome has high resistivity and resists oxidation at high temperatures, unlike pure metals, so it's used for heating coils in toasters/irons.",
+      "important": true
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Define electric power",
+      "question": "Define electric power.",
+      "qnaAnswer": "Electric power is the electric work done per unit time. It is the time rate at which electric energy is used."
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "What is one kilowatt-hour?",
+      "question": "What is one kilowatt-hour?",
+      "qnaAnswer": "One kilowatt-hour is the electric energy used in one hour by an electrical appliance of power one kilowatt. It is equal to 3.6 × 10⁶ J."
+    },
+    {
+      "id": "n10",
+      "type": "qna",
+      "title": "State the right hand thumb rule",
+      "question": "State the right hand thumb rule.",
+      "qnaAnswer": "Imagine that you have held a current-carrying straight conductor in your right hand in such a way that your thumb points in the direction of the current. Then turn your fingers around the conductor. The direction of the fingers is the direction of the magnetic lines of force produced by the current."
+    },
+    {
+      "id": "n11",
+      "type": "qna",
+      "title": "Write Fleming's left hand rule",
+      "question": "Write Fleming's left hand rule.",
+      "qnaAnswer": "The left hand thumb, index finger and middle finger are stretched so as to be perpendicular to each other. If the index finger is in the direction of the magnetic field, and the middle finger points the direction of the current, then the direction of the thumb is the direction of the force on the conductor."
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Write Fleming's right hand rule",
+      "question": "Write Fleming's right hand rule.",
+      "qnaAnswer": "Stretch the thumb, the index finger and the middle finger of the right hand in such a way that they are perpendicular to each other. The thumb indicates the direction of the motion of the conductor, the index finger the direction of the magnetic field, and the middle finger shows the direction of the induced current."
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "What is electromagnetic induction?",
+      "question": "What is electromagnetic induction?",
+      "qnaAnswer": "The process by which a changing magnetic field in a conductor induces a current in another conductor is called electromagnetic induction. A current can be induced in a conductor either by moving it in a magnetic field or by changing the magnetic field around the conductor."
+    },
+    {
+      "id": "n14",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "An electric motor converts mechanical energy into electrical energy. (False)",
+        "The frequency of AC is 50 Hz. (True)",
+        "The SI unit of electric power is the watt. (True)"
+      ]
+    },
+    {
+      "id": "n15",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Resistance : The ohm : : Potential difference : ___",
+      "blanks": [
+        "The volt"
+      ]
+    },
+    {
+      "id": "n16",
+      "type": "table",
+      "title": "Distinguish Between: Electric Motor and Electric Generator",
+      "headers": [
+        "Electric Motor",
+        "Electric Generator"
+      ],
+      "rows": [
+        [
+          "A battery is used to pass a current through the coil.",
+          "A battery is not used."
+        ],
+        [
+          "A current-carrying coil is set into rotation due to the magnetic field.",
+          "A potential difference and hence a current is produced when the coil is set into rotation by an external agent."
+        ],
+        [
+          "Split rings are used.",
+          "Rings used in an AC generator are not split."
+        ],
+        [
+          "Electric energy is converted into mechanical energy.",
+          "Mechanical energy is converted into electric energy."
+        ]
+      ]
+    },
+    {
+      "id": "n17",
+      "type": "qna",
+      "title": "Solved Numerical: Electric Power",
+      "question": "Two tungsten bulbs of wattage 50 W and 60 W work on 220 V potential difference. If they are connected in parallel, how much current will flow in the main conductor?",
+      "qnaAnswer": "Data: P₁ = 50 W, P₂ = 60 W, V = 220 V, I = ?\n\nP = VI ∴ I = P/V\n\nI₁ = P₁/V = 50/220\nI₂ = P₂/V = 60/220\n\nCurrent in main conductor (parallel connection):\nI = I₁ + I₂ = (50+60)/220 = 110/220 = 0.5 A\n\nAns: 0.5 A"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What is the SI unit of electric power?",
+      "back": "Watt (W) = 1 joule/second"
+    },
+    {
+      "id": "f2",
+      "front": "How much energy is 1 kWh in joules?",
+      "back": "3.6 × 10⁶ J"
+    },
+    {
+      "id": "f3",
+      "front": "Which rule gives the magnetic field direction around a straight conductor?",
+      "back": "The Right Hand Thumb Rule"
+    },
+    {
+      "id": "f4",
+      "front": "Fleming's Left Hand Rule is used for what device?",
+      "back": "Electric motors"
+    },
+    {
+      "id": "f5",
+      "front": "Why is Nichrome used in heating coils instead of pure metal?",
+      "back": "High resistivity and resists oxidation at high temperatures"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The direction of the magnetic field around a straight current-carrying conductor is given by:",
+      "options": [
+        "the right hand thumb rule",
+        "Fleming's left hand rule",
+        "Fleming's right hand rule",
+        "none of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This rule relates current direction to magnetic field direction.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "When current passes through a solenoid, it produces magnetic lines of force similar to a:",
+      "options": [
+        "bar magnet",
+        "horseshoe magnet",
+        "disc magnet",
+        "spherical magnet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A current-carrying solenoid behaves like a bar magnet.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The device used for producing (generating) current is called:",
+      "options": [
+        "a voltmeter",
+        "an ammeter",
+        "a galvanometer",
+        "a generator"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A generator converts mechanical energy into electrical energy.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The frequency of AC in India is:",
+      "options": [
+        "60 Hz",
+        "100 Hz",
+        "50 Hz",
+        "500 Hz"
+      ],
+      "correctAnswer": 2,
+      "explanation": "India's household AC supply operates at 50 Hz.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "A device used to convert electrical energy into mechanical energy is:",
+      "options": [
+        "Electric generator",
+        "Electric motor",
+        "Transformer",
+        "Galvanometer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A motor converts electrical to mechanical energy.",
+      "order": 5
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "ch10",
+  "num": 10,
+  "title": "Space Missions",
+  "emoji": "🚀",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers space missions, including space debris, satellite launch vehicles, and India's contributions to space technology. It also explains geostationary satellites, their characteristics, and the concept of escape velocity.",
+    "youWillLearn": [
+      "Define space debris.",
+      "Describe the working of a satellite launch vehicle.",
+      "Name the first artificial satellite and its launching country.",
+      "Explain why geostationary satellites are not useful for polar studies.",
+      "State the escape velocity from Earth."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Space debris",
+      "content": "Non-essential objects such as used launcher parts and defunct satellites revolving around the earth.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Satellite launch vehicle (SLV)",
+      "content": "A rocket system carrying a satellite into orbit, based on Newton's third law of motion. Example: PSLV (India).",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Sputnik",
+      "content": "The first artificial satellite, launched into space by Russia (USSR).",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Geostationary satellites and polar regions",
+      "content": "A geostationary satellite orbits in the equatorial plane with a period equal to earth's rotation, appearing stationary — but this equatorial-only coverage makes it unsuitable for studying polar regions.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Escape velocity for spacecraft",
+      "content": "The minimum velocity needed to escape earth's gravitational pull is about 11.2 km/s.",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "What is meant by space debris?",
+      "question": "What is meant by space debris?",
+      "qnaAnswer": "In space, nonessential objects such as the parts of launchers and satellites, revolving around the earth are called space debris."
+    },
+    {
+      "id": "n7",
+      "type": "qna",
+      "title": "What is a satellite launch vehicle?",
+      "question": "What is meant by a satellite launch vehicle? Name any one Indian satellite launch vehicle.",
+      "qnaAnswer": "A rocket system carrying a satellite into orbit is called a satellite launch vehicle. Its working is based on Newton's third law of motion. Example: PSLV (Polar Satellite Launch Vehicle)."
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Name the first artificial satellite.",
+      "question": "Name the first artificial satellite sent by Russia in space.",
+      "qnaAnswer": "Sputnik"
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "What is an artificial satellite?",
+      "question": "What is meant by an artificial satellite? Name the first satellite launched by Russia.",
+      "qnaAnswer": "A man-made object that revolves around the earth or any other planet in a fixed orbit is called an artificial satellite. The first satellite launched by Russia was Sputnik I."
+    },
+    {
+      "id": "n10",
+      "type": "qna",
+      "title": "Why are geostationary satellites not useful for polar studies?",
+      "question": "Why are geostationary satellites not useful for studies of polar regions?",
+      "qnaAnswer": "A geostationary satellite revolves in the equatorial plane of the earth. It does not fly above the polar regions. Hence, geostationary satellites are not useful for studies of polar regions."
+    },
+    {
+      "id": "n11",
+      "type": "list",
+      "title": "Multiple Choice Questions",
+      "ordered": false,
+      "items": [
+        "The astronomical object closest to us is in our galaxy. (A) Mars (B) Venus (C) Jupiter (D) Moon. Ans: (D)",
+        "The functioning of the satellite launch vehicle is based on: (A) Newton's first law (B) Newton's second law (C) Newton's third law (D) Newton's universal law of gravitation. Ans: (C)",
+        "______ is a satellite launch vehicle. (A) PSLV (B) GSAT (C) IRNSS (D) INSAT. Ans: (A)",
+        "The height of a medium earth orbit above the surface of the earth is: (A) 1500 km (B) 250 km (C) 45000 km (D) 25000 km. Ans: (D)",
+        "The minimum velocity of the spacecraft to escape from the earth's gravitational force must be: (A) 112 km/s (B) 11.2 km/s (C) 1.12 km/s (D) 0.112 km/s. Ans: (B)"
+      ]
+    },
+    {
+      "id": "n12",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "INSAT : Weather satellite : : IRS : ___",
+      "blanks": [
+        "Earth observation satellite"
+      ]
+    },
+    {
+      "id": "n13",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "IRNSS : Direction showing satellite : : INSAT : ___",
+      "blanks": [
+        "Weather satellite"
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What is space debris?",
+      "back": "Non-essential objects like used launcher parts and defunct satellites orbiting earth"
+    },
+    {
+      "id": "f2",
+      "front": "Which was the first artificial satellite, and who launched it?",
+      "back": "Sputnik, launched by Russia (USSR)"
+    },
+    {
+      "id": "f3",
+      "front": "On which of Newton's laws does a satellite launch vehicle depend?",
+      "back": "Newton's third law of motion"
+    },
+    {
+      "id": "f4",
+      "front": "Why aren't geostationary satellites useful for studying polar regions?",
+      "back": "They orbit only in the equatorial plane, giving poor coverage of the poles"
+    },
+    {
+      "id": "f5",
+      "front": "Minimum escape velocity needed for a spacecraft to leave earth's gravity?",
+      "back": "About 11.2 km/s"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The functioning of the satellite launch vehicle is based on:",
+      "options": [
+        "Newton's first law",
+        "Newton's second law",
+        "Newton's third law",
+        "Newton's law of gravitation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Thrust from expelled gases (action-reaction) propels the rocket.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "______ is a satellite launch vehicle.",
+      "options": [
+        "PSLV",
+        "GSAT",
+        "IRNSS",
+        "INSAT"
+      ],
+      "correctAnswer": 0,
+      "explanation": "PSLV launches satellites; GSAT/IRNSS/INSAT are satellites themselves.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The minimum velocity for a spacecraft to escape earth's gravity is about:",
+      "options": [
+        "8 km/s",
+        "11.2 km/s",
+        "1.12 km/s",
+        "0.112 km/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Matches earth's escape velocity.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "A geostationary satellite revolves in which plane of the earth?",
+      "options": [
+        "Polar plane",
+        "Equatorial plane",
+        "Meridian plane",
+        "Any random plane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is why it's unsuitable for polar observation.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "Non-essential objects like defunct satellites and launcher parts orbiting earth are called:",
+      "options": [
+        "Meteoroids",
+        "Space debris",
+        "Asteroids",
+        "Cosmic dust"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Definition of space debris.",
+      "order": 5
+    }
+  ]
+}

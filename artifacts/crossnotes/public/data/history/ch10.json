@@ -1,0 +1,656 @@
+{
+  "id": "ch10",
+  "num": 10,
+  "title": "Working of the Constitution",
+  "emoji": "⚖️",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This foundational Political Science chapter reviews how the Indian Constitution functions in practice. It analyzes India's evolution into the world's largest democracy through universal adult suffrage and the lowering of the voting age to 18, decentralization under the 73rd and 74th Amendments, transparency via the RTI Act 2005, protective legislation for women and marginalized groups, and the proactive role of the judiciary through the Basic Structure Doctrine.",
+    "youWillLearn": [
+      "Understand universal adult suffrage and why India is the world's largest democracy",
+      "Learn the significance of lowering the voting age from 21 to 18 years",
+      "Analyze democratic decentralization through the 73rd and 74th Amendments",
+      "Explore social justice policies for women, minorities, and weaker sections",
+      "Appreciate how the judiciary safeguards democracy through the Basic Structure Doctrine"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "The Indian Constitution came into force on ______.\n(A) 15th August 1947 (B) 26th November 1949 (C) 26th January 1950 (D) 2nd October 1950",
+      "qnaAnswer": "Correct Answer: (C) 26th January 1950"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "The Constitution of India is ______.\n(A) Written (B) Unwritten (C) Partly written (D) None of the above",
+      "qnaAnswer": "Correct Answer: (A) Written"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "______ is the guardian of the Constitution.\n(A) Parliament (B) President (C) Judiciary (D) Prime Minister",
+      "qnaAnswer": "Correct Answer: (C) Judiciary"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "The election of the President of India is conducted by ______.\n(A) Election Commission (B) Parliament (C) Supreme Court (D) Prime Minister",
+      "qnaAnswer": "Correct Answer: (A) Election Commission"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "The minimum voting age in India is ______.\n(A) 16 years (B) 18 years (C) 21 years (D) 25 years",
+      "qnaAnswer": "Correct Answer: (B) 18 years"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Item",
+        "Description",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "India",
+          "Republic",
+          "Correct"
+        ],
+        [
+          "Election Commission",
+          "Conducts elections",
+          "Correct"
+        ],
+        [
+          "Judiciary",
+          "Interprets the Constitution",
+          "Correct"
+        ],
+        [
+          "Voting age",
+          "18 years",
+          "Correct"
+        ],
+        [
+          "Fundamental Duties",
+          "Part III of the Constitution",
+          "WRONG — Fundamental Duties are in Part IV-A (Article 51A). Part III contains Fundamental Rights."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Features of the Indian Constitution",
+      "content": "Features of the Indian Constitution → Federal System with Unitary Bias → Parliamentary System → Independent Judiciary → Fundamental Rights → Fundamental Duties → Directive Principles → Secularism",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "paragraph",
+      "title": "Concept Chart — Election Process",
+      "content": "Election Process → Delimitation of Constituencies → Preparation of Voter List → Notification of Election → Filing of Nominations → Scrutiny → Campaigning → Polling → Counting → Declaration of Results",
+      "important": true
+    },
+    {
+      "id": "n12",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Federal System",
+      "question": "Explain the following concept: Federal System",
+      "qnaAnswer": "\n1. A federal system is a system of government in which powers are divided between a central government and regional governments.\n2. In India, there is a central government and state governments.\n3. The Constitution clearly divides powers between them through Union List, State List, and Concurrent List.\n4. However, the Indian Constitution also has a unitary bias, giving the central government more powers during emergencies.\n5. This system is also known as 'quasi-federal'.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Parliamentary System",
+      "question": "Explain the following concept: Parliamentary System",
+      "qnaAnswer": "\n1. In a parliamentary system, the executive is responsible to the legislature.\n2. The Prime Minister and the Council of Ministers are members of the legislature.\n3. The government remains in power as long as it has the support of the majority in the Lok Sabha.\n4. The President is the nominal head of the state, while the Prime Minister is the real head of the government.\n5. India follows the parliamentary system.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Independent Judiciary",
+      "question": "Explain the following concept: Independent Judiciary",
+      "qnaAnswer": "\n1. An independent judiciary is essential for the protection of fundamental rights.\n2. The judiciary in India is independent of the legislature and the executive.\n3. The Supreme Court is the highest court in the country.\n4. Judges are appointed through a transparent process and have security of tenure.\n5. The judiciary has the power of judicial review and can declare laws unconstitutional.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "qna",
+      "title": "Election Commission",
+      "question": "Explain the following concept: Election Commission",
+      "qnaAnswer": "\n1. The Election Commission is an independent constitutional body.\n2. It is responsible for conducting free and fair elections in India.\n3. It has the power to supervise, direct, and control the entire election process.\n4. It prepares and updates the voter list and registers political parties.\n5. It also has the power to disqualify candidates who violate the election code of conduct.",
+      "important": true
+    },
+    {
+      "id": "n17",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Fundamental Rights",
+      "question": "Write a short note on: Fundamental Rights",
+      "qnaAnswer": "\n1. Fundamental Rights are guaranteed by the Constitution of India.\n2. They are listed in Part III of the Constitution.\n3. They include the Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Constitutional Remedies.\n4. They are essential for the development of an individual and the protection of democracy.\n5. They can be enforced through the courts.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Directive Principles of State Policy",
+      "question": "Write a short note on: Directive Principles of State Policy",
+      "qnaAnswer": "\n1. Directive Principles of State Policy are listed in Part IV of the Constitution.\n2. They provide guidelines for the government to make policies for the welfare of the people.\n3. They aim to establish a welfare state and social and economic democracy.\n4. They are not justiciable (cannot be enforced by courts) but are fundamental in the governance of the country.\n5. Examples: Right to work, Right to education, Uniform Civil Code.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "qna",
+      "title": "Short Note: Fundamental Duties",
+      "question": "Write a short note on: Fundamental Duties",
+      "qnaAnswer": "\n1. Fundamental Duties are listed in Part IV-A (Article 51A) of the Constitution.\n2. They were added by the 42nd Amendment Act, 1976.\n3. They include duties like respecting the Constitution, the national flag, and the national anthem; protecting the environment; and promoting harmony.\n4. They remind citizens of their responsibilities towards the nation.\n5. They are not enforceable by courts but serve as moral obligations.",
+      "important": true
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "Short Note: Good Governance",
+      "question": "Write a short note on: Good Governance",
+      "qnaAnswer": "\n1. Good governance refers to the effective and efficient management of public affairs.\n2. It involves transparency, accountability, and participation.\n3. It ensures that the government is responsive to the needs of the people.\n4. It promotes the rule of law and protects human rights.\n5. It is essential for the development and progress of a nation.",
+      "important": true
+    },
+    {
+      "id": "n22",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Features of the Indian Constitution",
+      "question": "Explain the main features of the Indian Constitution.",
+      "qnaAnswer": "\n1. It is the longest written constitution in the world.\n2. It provides for a federal system with a unitary bias.\n3. It establishes a parliamentary system of government.\n4. It guarantees Fundamental Rights to all citizens.\n5. It provides for an independent judiciary.\n6. It includes Directive Principles of State Policy.\n7. It provides for a secular state.\n8. It provides for universal adult franchise."
+    },
+    {
+      "id": "n24",
+      "type": "qna",
+      "title": "Role of Judiciary in India",
+      "question": "Explain the role of the judiciary in India.",
+      "qnaAnswer": "\n1. The judiciary is the guardian of the Constitution.\n2. It interprets the Constitution and the laws.\n3. It protects the fundamental rights of citizens.\n4. It has the power of judicial review.\n5. It settles disputes between the centre and the states and between states.\n6. It ensures that the rule of law is upheld."
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "Importance of Elections",
+      "question": "Explain the importance of elections in a democracy.",
+      "qnaAnswer": "\n1. Elections are the foundation of democracy.\n2. They allow citizens to choose their representatives.\n3. They ensure that the government is accountable to the people.\n4. They provide an opportunity for peaceful transfer of power.\n5. They enable people to participate in the political process."
+    },
+    {
+      "id": "n26",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n27",
+      "type": "qna",
+      "title": "[IMPORTANT] Preamble",
+      "question": "Write a short note on: Preamble",
+      "qnaAnswer": "\n1. The Preamble is the introductory statement of the Indian Constitution.\n2. It declares India to be a Sovereign, Socialist, Secular, Democratic Republic.\n3. It states that the Constitution is established by the people of India.\n4. It outlines the objectives of the Constitution: Justice, Liberty, Equality, and Fraternity.\n5. It is the guiding principle for the interpretation of the Constitution.",
+      "important": true
+    },
+    {
+      "id": "n28",
+      "type": "qna",
+      "title": "[IMPORTANT] Universal Adult Franchise",
+      "question": "What is Universal Adult Franchise?",
+      "qnaAnswer": "Universal Adult Franchise means that all citizens who are 18 years of age or older have the right to vote in elections, without any discrimination based on caste, creed, religion, gender, or education. This is a fundamental principle of Indian democracy.",
+      "important": true
+    },
+    {
+      "id": "fig-10-democratic_values",
+      "type": "figure",
+      "title": "Fundamental Democratic Values of the Indian Constitution",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RGVtb2NyYXRpYyBWYWx1ZXMgb2YgSW5kaWFuIENvbnN0aXR1dGlvbjwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz4KPHJlY3QgeD0iMzEwLjAiIHk9IjY1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijg2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RnJlZWRvbSAmIExpYmVydHk8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwMS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihGcmVlZG9tIG9mIHNwZWVjaCwgYmVsaWVmICYgbW92ZW1lbnQpPC90ZXh0PjxyZWN0IHg9IjUzNS4yIiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MjUuMiIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RXF1YWxpdHk8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihTb2NpYWwsIGVjb25vbWljICYgcG9saXRpY2FsIGVxdWFsaXR5KTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNvY2lhbCBKdXN0aWNlPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oRWxpbWluYXRpbmcgZGlzY3JpbWluYXRpb24gJiBwb3ZlcnR5KTwvdGV4dD48cmVjdCB4PSIzMTAuMCIgeT0iMzM1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjM1Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNlY3VsYXJpc208L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM3MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihFcXVhbCByZXNwZWN0IGZvciBhbGwgZmFpdGhzKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIyNjcuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMjg5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RnJhdGVybml0eSAmIEJyb3RoZXJob29kPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oTmF0aW9uYWwgdW5pdHkgJiBkaWduaXR5IG9mIGluZGl2aWR1YWwpPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2NjZmJmMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5IdW1hbml0YXJpYW5pc208L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihDb21wYXNzaW9uICYgdW5pdmVyc2FsIGh1bWFuIHJpZ2h0cyk8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkNvbnN0aXR1dGlvbmFsPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VmFsdWVzPC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of democratic values enshrined in the Indian Constitution",
+      "figureCaption": "Guiding ethical and political values enshrined in the Preamble and Directive Principles"
+    },
+    {
+      "id": "fig-10-women_laws",
+      "type": "figure",
+      "title": "Landmark Laws for the Protection, Progress, and Empowerment of Women",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TGF3cyBmb3IgRW1wb3dlcm1lbnQgb2YgV29tZW48L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjM2MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI2NS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlJpZ2h0IHRvIEVxdWFsIFNoYXJlIGluPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5GYXRoZXIncyAmIEh1c2JhbmQncyBQcm9wZXJ0eTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkRvd3J5IFByb2hpYml0aW9uIEFjdDwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFByZXZlbnRpbmcgZG93cnkgaGFyYXNzbWVudCk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Qcm90ZWN0aW9uIEFnYWluc3Q8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkRvbWVzdGljIFZpb2xlbmNlIEFjdCAoMjAwNSk8L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMzNS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5QcmV2ZW50aW9uIG9mIFNleHVhbDwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMzcxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+SGFyYXNzbWVudCBhdCBXb3JrcGxhY2UgQWN0PC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj43M3JkICYgNzR0aCBBbWVuZG1lbnRzPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oNTAlIHJlc2VydmF0aW9uIGluIGxvY2FsIGJvZGllcyk8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNwZWNpYWwgRWR1Y2F0aW9uYWwgJjwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RW1wbG95bWVudCBTY2hlbWVzPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5Xb21lbjwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkVtcG93ZXJtZW50PC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of welfare and protective legislation for women in India",
+      "figureCaption": "Legislative protections and constitutional quotas transforming women's social status"
+    },
+    {
+      "id": "answers-10-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-10-1",
+          "entries": [
+            {
+              "id": "a-10-1-1",
+              "question": "(1) In Maharashtra, ______ seats are reserved for women in local self-governing institutions.\n(a) 25%\n(b) 30%\n(c) 40%\n(d) 50%",
+              "answer": "50%. (Maharashtra and several states increased women's reservation from one-third to 50% in Panchayats and Municipalities.)",
+              "questionTag": "March '20; July '22"
+            },
+            {
+              "id": "a-10-1-2",
+              "question": "(2) Which of the following laws created a favorable environment for women to secure freedom and self-development?\n(a) Right to Information Act\n(b) Dowry Prohibition Act\n(c) Food Security Act\n(d) Prevention of Atrocities Act",
+              "answer": "Dowry Prohibition Act. (Passed in 1961 to eradicate the menace of dowry demands and harassment.)"
+            },
+            {
+              "id": "a-10-1-3",
+              "question": "(3) The essence of democracy is ______.\n(a) Universal adult suffrage\n(b) Decentralisation of power\n(c) Policy of reservation of seats\n(d) Judicial decisions",
+              "answer": "Decentralisation of power. (Prevents concentration of authority and empowers grassroots self-governance under the 73rd and 74th Amendments.)"
+            },
+            {
+              "id": "a-10-1-4",
+              "question": "(4) The Right to Information Act was passed in the year ______ to make governance transparent.\n(a) 2000\n(b) 2005\n(c) 2010\n(d) 1986",
+              "answer": "\n2005. (The RTI Act empowers citizens to seek information, promoting accountability and transparency.)"
+            },
+            {
+              "id": "a-10-1-5",
+              "question": "(5) The voting age in India was reduced from 21 years to ______ years by the 61st Constitutional Amendment.\n(a) 18\n(b) 19\n(c) 20\n(d) 16",
+              "answer": "\n18. (Passed in 1988 and implemented in 1989, expanding youth political participation.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : State Whether the Following Statements are True or False, Giving Reasons",
+      "answerGroups": [
+        {
+          "id": "g-10-2",
+          "entries": [
+            {
+              "id": "a-10-2-1",
+              "question": "(1) Indian democracy is considered the largest democracy in the world.",
+              "answer": "The statement is True.\nReasons:\n(1) The Constitution of India abolished all pre-independence property, literacy, and tax qualifications for voting, adopting universal adult suffrage.\n(2) Reducing the voting age from 21 to 18 years gave voting rights to millions of literate, politically conscious young citizens.\n(3) Today, with over 900 million registered voters, India's electorate is larger than the combined populations of several continents.",
+              "questionTag": "March '20; July '22 - '23"
+            },
+            {
+              "id": "a-10-2-2",
+              "question": "(2) Secrecy in the working of Government has increased due to the Right to Information.",
+              "answer": "The statement is False.\nReasons:\n(1) In a vibrant democracy, mutual trust between government and citizens requires openness in administrative functioning.\n(2) Transparency and accountability are fundamental pillars of good governance.\n(3) The Right to Information (RTI) Act of 2005 legally entitles citizens to access government files, tenders, and decisions, drastically curbing official secrecy and corruption.",
+              "questionTag": "Sept. '21; March '25"
+            },
+            {
+              "id": "a-10-2-3",
+              "question": "(3) The 73rd and 74th Amendments strengthened democratic decentralisation in India.",
+              "answer": "The statement is True.\nReasons:\n(1) The Directive Principles of State Policy instructed the state to organize village panchayats as units of self-government.\n(2) The 73rd and 74th Constitutional Amendments (1992) granted constitutional recognition and financial powers to rural Panchayats and urban Municipalities.\n(3) These amendments ensured mandatory reservations for Scheduled Castes, Scheduled Tribes, and 50% for women in local governance.",
+              "questionTag": "March '24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Explain the Concepts / Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-10-3",
+          "entries": [
+            {
+              "id": "a-10-3-1",
+              "question": "(1) Right to Vote (Universal Adult Franchise):",
+              "answer": "(1) The Indian Constitution guaranteed universal adult suffrage, giving equal voting rights to every citizen irrespective of caste, religion, gender, or wealth.\n(2) The 61st Constitutional Amendment lowered the voting age from 21 to 18 years, enfranchising millions of youth.\n(3) It made Indian democracy the largest electorate in the world and enhanced youth participation in choosing public representatives.\n(4) Regular, competitive elections reflect the political maturity of the Indian electorate.",
+              "questionTag": "Nov. '20"
+            },
+            {
+              "id": "a-10-3-2",
+              "question": "(2) Provisions regarding Minorities:",
+              "answer": "(1) Non-Discrimination: The Constitution prohibits discrimination in state facilities, education, and employment on grounds of religion, race, caste, sex, or place of birth.\n(2) Cultural & Educational Rights: Articles 29 and 30 grant linguistic and religious minorities the right to preserve their distinct script, language, and culture, and establish their own educational institutions.\n(3) State Welfare Schemes: The government provides minority welfare schemes, pre-matric and post-matric scholarships, and coaching for civil services.",
+              "questionTag": "March '25"
+            },
+            {
+              "id": "a-10-3-3",
+              "question": "(3) Decentralisation of Democracy:",
+              "answer": "(1) Decentralisation prevents the concentration of power in a few hands and spreads decision-making authority to grassroots institutions.\n(2) The 73rd and 74th Constitutional Amendments recognized Gram Panchayats, Panchayat Samitis, Zilla Parishads, and Municipal Corporations as autonomous local governments.\n(3) It empowered local communities to manage village water, sanitation, schools, and roads directly.",
+              "questionTag": "Board Textual Reference"
+            },
+            {
+              "id": "a-10-3-4",
+              "question": "(4) Prevention of Atrocities Act (PoA Act):",
+              "answer": "(1) Enacted in 1989, the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act safeguards marginalized communities against humiliation, violence, and social boycott.\n(2) It establishes special fast-track courts to ensure swift trial and justice for victims.\n(3) The Act prescribes stringent punishments for hate crimes and upholds social justice and human dignity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Do as Directed (Concept Maps & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-10-4",
+          "entries": [
+            {
+              "id": "a-10-4-1",
+              "question": "Complete the concept map: Laws passed for liberation, protection and progress of women.",
+              "answer": "\n1. Dowry Prohibition Act (1961)\n\n2. Equal Remuneration Act (Equal pay for equal work)\n\n3. Protection of Women from Domestic Violence Act (2005)\n\n4. Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act (2013)\n\n5. 73rd & 74th Amendments (50% reservation for women in local bodies)\n\n6. Right to Equal Share in Father's and Husband's Ancestral Property",
+              "questionTag": "March '19; Sept. '21"
+            },
+            {
+              "id": "a-10-4-2",
+              "question": "Complete the concept map: Fundamental Democratic Values of Indian Constitution.",
+              "answer": "• Freedom & Liberty\n• Equality\n• Social Justice\n• Secularism\n• Fraternity / Brotherhood\n• Humanitarianism / Human Dignity",
+              "questionTag": "Board Activity Reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-10-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Answer the Following in Brief",
+      "answerGroups": [
+        {
+          "id": "g-10-5",
+          "entries": [
+            {
+              "id": "a-10-5-1",
+              "question": "(1) The Judiciary in India has played an important role in strengthening democracy. Explain.",
+              "answer": "(1) Guardian of Fundamental Rights: The Supreme Court and High Courts protect citizens against arbitrary executive and legislative actions.\n(2) Basic Structure Doctrine: In the historic Kesavananda Bharati judgment (1973), the Supreme Court ruled that while Parliament can amend the Constitution, it cannot alter its Basic Structure (democracy, federalism, secularism, rule of law).\n(3) Public Interest Litigation (PIL): The judiciary democratized access to courts by allowing citizens and social organizations to file petitions on behalf of poor and marginalized sections.\n(4) Upholding Social Justice: Judgments have expanded human rights to include clean environment, right to privacy, free education, and dignity.",
+              "questionTag": "March '22"
+            },
+            {
+              "id": "a-10-5-2",
+              "question": "(2) Which efforts are made to establish Social Justice and Equality in India?",
+              "answer": "(1) Reservation of Seats: Reserving educational and legislative seats for Scheduled Castes, Scheduled Tribes, and Other Backward Classes.\n(2) Protective Laws: Enacting the Prevention of Atrocities Act, Domestic Violence Act, and Child Labor Prohibition Act.\n(3) Economic Measures: Distributing land, extending subsidized loans, self-help groups, and welfare stipends to economically weaker sections.\n(4) Eradicating Untouchability: Abolishing untouchability under Article 17 and penalizing any form of caste-based discrimination.",
+              "questionTag": "Board Textual Reference"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "When did the Indian Constitution come into force?",
+      "back": "26th January 1950",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "What is the minimum voting age in India?",
+      "back": "18 years",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "Who is the guardian of the Constitution?",
+      "back": "Judiciary",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "What are Fundamental Rights?",
+      "back": "Rights guaranteed by the Constitution (Part III)",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "What are Directive Principles?",
+      "back": "Guidelines for the government (Part IV)",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "What is the role of the Election Commission?",
+      "back": "Conducting free and fair elections",
+      "order": 6
+    },
+    {
+      "id": "f7",
+      "front": "What is good governance?",
+      "back": "Effective, transparent, and accountable management of public affairs",
+      "order": 7
+    },
+    {
+      "id": "fc-10-1",
+      "front": "What percentage of seats are reserved for women in local self-governing bodies in Maharashtra?",
+      "back": "50% reservation.",
+      "order": 1
+    },
+    {
+      "id": "fc-10-2",
+      "front": "When was the voting age reduced from 21 to 18 years in India?",
+      "back": "Through the 61st Constitutional Amendment (effective 1989).",
+      "order": 2
+    },
+    {
+      "id": "fc-10-3",
+      "front": "In which year was the Right to Information (RTI) Act passed in India?",
+      "back": "2005.",
+      "order": 3
+    },
+    {
+      "id": "fc-10-4",
+      "front": "What is the Basic Structure Doctrine established by the Supreme Court?",
+      "back": "Parliament cannot amend core principles like secularism, democracy, federalism, and judicial independence (Kesavananda Bharati, 1973).",
+      "order": 4
+    },
+    {
+      "id": "fc-10-5",
+      "front": "What is the primary purpose of the Prevention of Atrocities Act (1989)?",
+      "back": "Protecting Scheduled Castes and Scheduled Tribes against atrocities, violence, and discrimination.",
+      "order": 5
+    },
+    {
+      "id": "fc-10-6",
+      "front": "Which constitutional amendments recognized rural and urban local self-government institutions?",
+      "back": "73rd and 74th Amendments (1992).",
+      "order": 6
+    },
+    {
+      "id": "fc-10-7",
+      "front": "What is the core essence of democracy?",
+      "back": "Decentralisation of political power and citizen participation.",
+      "order": 7
+    },
+    {
+      "id": "fc-10-8",
+      "front": "Which articles of the Constitution guarantee Cultural and Educational rights to minorities?",
+      "back": "Articles 29 and 30.",
+      "order": 8
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The Indian Constitution came into force on ______.",
+      "options": [
+        "15th August 1947",
+        "26th November 1949",
+        "26th January 1950",
+        "2nd October 1950"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Constitution came into force on 26th January 1950.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "The Constitution of India is ______.",
+      "options": [
+        "Written",
+        "Unwritten",
+        "Partly written",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Indian Constitution is a written constitution.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "______ is the guardian of the Constitution.",
+      "options": [
+        "Parliament",
+        "President",
+        "Judiciary",
+        "Prime Minister"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The judiciary is the guardian of the Constitution.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The election of the President of India is conducted by ______.",
+      "options": [
+        "Election Commission",
+        "Parliament",
+        "Supreme Court",
+        "Prime Minister"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Election Commission conducts the election of the President.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The minimum voting age in India is ______.",
+      "options": [
+        "16 years",
+        "18 years",
+        "21 years",
+        "25 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The minimum voting age in India is 18 years.",
+      "order": 5
+    },
+    {
+      "id": "quiz-10-1",
+      "qType": "mcq",
+      "question": "In Maharashtra, what percentage of seats are reserved for women in local self-governing institutions?",
+      "options": [
+        "25%",
+        "33%",
+        "40%",
+        "50%"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Maharashtra reserves 50% of local governance seats for women.",
+      "order": 1
+    },
+    {
+      "id": "quiz-10-2",
+      "qType": "mcq",
+      "question": "The Right to Information (RTI) Act was enacted in India in the year ______.",
+      "options": [
+        "2000",
+        "2005",
+        "2010",
+        "1998"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The RTI Act was enacted in 2005 to make governance accountable and transparent.",
+      "order": 2
+    },
+    {
+      "id": "quiz-10-3",
+      "qType": "true_false",
+      "question": "The Right to Information Act increased official secrecy in Indian administration.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "RTI reduced administrative secrecy and fostered transparency.",
+      "order": 3
+    },
+    {
+      "id": "quiz-10-4",
+      "qType": "fill_blank",
+      "question": "The voting age in India was reduced from 21 years to ____ years.",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 61st Amendment reduced the minimum voting age to 18 years.",
+      "order": 4
+    },
+    {
+      "id": "quiz-10-5",
+      "qType": "mcq",
+      "question": "Which landmark judicial principle holds that the fundamental framework of the Constitution cannot be amended by Parliament?",
+      "options": [
+        "Advisory Jurisdiction",
+        "Basic Structure Doctrine",
+        "Public Interest Litigation",
+        "Judicial Discretion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Basic Structure Doctrine preserves core constitutional values from alteration.",
+      "order": 5
+    },
+    {
+      "id": "quiz-10-6",
+      "qType": "mcq",
+      "question": "The 73rd and 74th Amendments of the Indian Constitution deal with ______.",
+      "options": [
+        "Judicial Appointments",
+        "Local Self-Governing Institutions",
+        "Emergency Provisions",
+        "Citizenship"
+      ],
+      "correctAnswer": 1,
+      "explanation": "73rd and 74th Amendments constitutionally empowered Panchayati Raj and Municipal bodies.",
+      "order": 6
+    }
+  ],
+  "part": 3,
+  "section": "Political Science"
+}

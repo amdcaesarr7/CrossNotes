@@ -1,0 +1,737 @@
+{
+  "id": "ch7",
+  "num": 7,
+  "title": "Introduction to Microbiology",
+  "emoji": "🦠",
+  "kind": "chapter",
+  "overview": {
+    "summary": "Microbiology studies microscopic organisms such as bacteria, fungi and yeast. Applied microbiology uses microbial enzymes and fermentation to make bread, curd, cheese, soya sauce, beverages such as wine, cider and coffee, vinegar and antibiotics. Microbes also help in bioremediation, for example hydrocarbonoclastic bacteria that clear oil spills, and in producing fuels such as hydrogen.",
+    "youWillLearn": [
+      "Define applied microbiology and antibiotics",
+      "Explain fermentation by yeast",
+      "List microbes and the products they give",
+      "Describe how microbes help clean the environment",
+      "Explain the production of cheese and bread"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-7-fermentation_map",
+      "type": "figure",
+      "title": "Products of microbes",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TWljcm9iZXMgYW5kIHRoZWlyIHByb2R1Y3RzPC90ZXh0PjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iNDAwLjAiIHkyPSI3OC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjEwLjAiIHgyPSI2MzUuNTU4OTA5ODI5MzY3MyIgeTI9IjE0NC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjEwLjAiIHgyPSI2MzUuNTU4OTA5ODI5MzY3NCIgeTI9IjI3Ni4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjEwLjAiIHgyPSI0MDAuMCIgeTI9IjM0Mi4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjEwLjAiIHgyPSIxNjQuNDQxMDkwMTcwNjMyNzIiIHkyPSIyNzYuMDAwMDAwMDAwMDAwMDYiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMTAuMCIgeDI9IjE2NC40NDEwOTAxNzA2MzI3IiB5Mj0iMTQ0LjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48cmVjdCB4PSIzMDUuMCIgeT0iNDguMCIgd2lkdGg9IjE5MCIgaGVpZ2h0PSI2MCIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iNzUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+WWVhc3Q8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9Ijg4IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPmJyZWFkLCB3aW5lLCBldGhhbm9sPC90ZXh0PjxyZWN0IHg9IjU0MC41NTg5MDk4MjkzNjczIiB5PSIxMTQuMCIgd2lkdGg9IjE5MCIgaGVpZ2h0PSI2MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MzUuNTU4OTA5ODI5MzY3MyIgeT0iMTQxIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkxhY3RvYmFjaWxsdXM8L3RleHQ+PHRleHQgeD0iNjM1LjU1ODkwOTgyOTM2NzMiIHk9IjE1NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5jdXJkLCBjaGVlc2U8L3RleHQ+PHJlY3QgeD0iNTQwLjU1ODkwOTgyOTM2NzQiIHk9IjI0Ni4wIiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYzNS41NTg5MDk4MjkzNjc0IiB5PSIyNzMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QXNwZXJnaWxsdXMgb3J5emFlPC90ZXh0Pjx0ZXh0IHg9IjYzNS41NTg5MDk4MjkzNjc0IiB5PSIyODYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+c295YSBzYXVjZTwvdGV4dD48cmVjdCB4PSIzMDUuMCIgeT0iMzEyLjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjMzOSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5BY2V0aWMgYWNpZCBiYWN0ZXJpYTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMzUyIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPnZpbmVnYXI8L3RleHQ+PHJlY3QgeD0iNjkuNDQxMDkwMTcwNjMyNzIiIHk9IjI0Ni4wMDAwMDAwMDAwMDAwNiIgd2lkdGg9IjE5MCIgaGVpZ2h0PSI2MCIgcng9IjkiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNjQuNDQxMDkwMTcwNjMyNzIiIHk9IjI3MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Qc2V1ZG9tb25hcywgQWxjYW5vdm9yYXg8L3RleHQ+PHRleHQgeD0iMTY0LjQ0MTA5MDE3MDYzMjcyIiB5PSIyODYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+b2lsIHNwaWxsIGNsZWFudXA8L3RleHQ+PHJlY3QgeD0iNjkuNDQxMDkwMTcwNjMyNjkiIHk9IjExNC4wIiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE2NC40NDEwOTAxNzA2MzI3IiB5PSIxNDEiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QWN0aW5vbXljZXRlczwvdGV4dD48dGV4dCB4PSIxNjQuNDQxMDkwMTcwNjMyNyIgeT0iMTU0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPnJ1YmJlciwgYW50aWJpb3RpY3M8L3RleHQ+PGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjEwLjAiIHJ4PSI3NSIgcnk9IjMyIiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjIxNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TWljcm9iZXM8L3RleHQ+PC9zdmc+",
+      "figureAlt": "Applications of fermentation by microbes",
+      "figureCaption": "Products of microbes"
+    },
+    {
+      "id": "answers-7-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-7-1",
+          "entries": [
+            {
+              "id": "a-1-7-1",
+              "question": "(1) The bacteria are useful for cleaning the hydrocarbons and oil pollutants from soil and water. (A) Lactobacilli (B) Acidobacillus (C) Pseudomonas (D) Streptococcus (July ’23)",
+              "answer": "(C),",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-1-7-2",
+              "question": "(2) Due to fermentation of carbohydrates by yeast, sugar is converted into carbon dioxide and . (A) methanol (B) ethanol (C) butanol (D) none of these",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-7-3",
+              "question": "(3) is produced by fermentation of the mixture of flour of wheat or rice and soybean with the help of the fungus Aspergillus oryzae. (A) Soya sauce (B) Curds (C) Cheese (D) Shrikand",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-7-4",
+              "question": "(4) Loctobacillus brevis gives us the beverage . (A) Cocoa (B) Coffee (C) Wine (D) Cider",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-7-5",
+              "question": "(5) beverage is obtained by fermentation of apple juice. (A) Cider (B) Wine (C) Coffee (D) Cocoa (July ’19)",
+              "answer": "(A),",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-1-7-6",
+              "question": "(6) Venegar contains acid. (A) acetic (B) lactic (C) tartaric (D) hydrochloric (March ’25)",
+              "answer": "(A),",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-1-7-7",
+              "question": "(7) gas is considered to be the fuel of future. (A) Hydrogen (B) Nitrogen (C) Methane (D) Butane",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-7-8",
+              "question": "(8) Bacteria used to clear the oil spills are called bacteria. (A) phenol oxidising (B) electrolytic (C) hydrocarbonoclastic (D) decomposing",
+              "answer": "(C)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-7-2",
+          "entries": [
+            {
+              "id": "a-2-7-1",
+              "question": "(1) β-carotene, lycopenes, xylitol, lutein. (July ’23)",
+              "answer": "Xylitol. (All others are edible colours.)",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-2-7-2",
+              "question": "(2) Actinomycetes, Streptomyces, Nocardia, Yeast.",
+              "answer": "Yeast. (All others have ability of decomposing rubber from garbage.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Find Out the Correlation",
+      "answerGroups": [
+        {
+          "id": "g-7-3",
+          "entries": [
+            {
+              "id": "a-3-7-1",
+              "question": "(1) Oil slick : Alcanovorax : : Rubber from garbage : .",
+              "answer": "Actinomycetes"
+            },
+            {
+              "id": "a-3-7-2",
+              "question": "(2) Coffee : Caffea arabica : : Cocoa : .",
+              "answer": "Theobroma cacao"
+            },
+            {
+              "id": "a-3-7-3",
+              "question": "(3) Bread : Baker’s yeast : : Soya sauce : .",
+              "answer": "Aspergillus oryzae."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-7-4",
+          "entries": [
+            {
+              "id": "a-4-7-1",
+              "question": "(1) Column ‘A’ Column ‘B’ Protease (a) Molasses (b) Production of cheese (c) Ice creams and puddings",
+              "answer": "Protease – Production of cheese."
+            },
+            {
+              "id": "a-4-7-2",
+              "question": "(2) Column ‘A’ Column ‘B’ Lycopene (a) Colouring (b) Sweetening (c) Giving Acidity",
+              "answer": "Lycopene – Colouring."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-7-5",
+          "entries": [
+            {
+              "id": "a-5-7-1",
+              "question": "(1) Rennet obtained from alimentary canal of human beings is used in production of cheese.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-7-2",
+              "question": "(2) Due to taking probiotics in diet, useful bacteria in the intestine are destroyed.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-7-3",
+              "question": "(3) Soya sauce is produced with the help of fungus Aspergillus oryzae.",
+              "answer": "True."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-7-6",
+          "entries": [
+            {
+              "id": "a-6-7-1",
+              "question": "(1) Emulsifiers.",
+              "answer": "Polysaccharides and glycolipids."
+            },
+            {
+              "id": "a-6-7-2",
+              "question": "(2) Microbe used in baking industry.",
+              "answer": "Saccharomyces cerevisiae."
+            },
+            {
+              "id": "a-6-7-3",
+              "question": "(3) Molecular formula for 4% Acetic acid (Vinegar). (Nov. ’20)",
+              "answer": "CH3COOH.",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-6-7-4",
+              "question": "(4) Microbial enzymes.",
+              "answer": "Oxidoreductases, Transferases, Hydrolases, Lyases, Isomerases, Ligases."
+            },
+            {
+              "id": "a-6-7-5",
+              "question": "(5) Effective antibiotic against tuberculosis.",
+              "answer": "Rifamycin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Give Scientific Reasons",
+      "answerGroups": [
+        {
+          "id": "g-7-7",
+          "entries": [
+            {
+              "id": "a-7-7-1",
+              "question": "(1) Enzymes obtained by microbial process are mixed with detergents.",
+              "answer": "(1) When detergents are mixed with microbial enzymes, they start working more efficiently.\n\n(2) The cleaning process takes place at lesser temperatures. Therefore, for better results, enzymes obtained by microbial process are mixed with detergents."
+            },
+            {
+              "id": "a-7-7-2",
+              "question": "(2) Microbial enzymes are used instead of chemical catalysts in chemical industry. (March ’19; Nov. ‘20) OR Microbial enzymes are said to be eco-friendly.",
+              "answer": "(1) Microbial enzymes are active at low temperature, pH and pressure.\n\n(2) Due to this property, the energy is saved. The costlier erosion-proof instruments need not be used.\n\n(3) In enzymatic reactions, the unnecessary byproducts are not formed as the reactions are highly specific.\n\n(4) The expenses on purification of the product are minimised as no unnecessary products are formed.\n\n(5) The elimination and decomposition of waste material is avoided and enzymes can be reused again. Hence, microbial enzymes are said to be eco-friendly.",
+              "questionTag": "March ’19; Nov. ‘20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-7-8",
+          "entries": [
+            {
+              "id": "a-8-7-1",
+              "question": "Applied Microbiology",
+              "answer": "Branch of biology in which study of the enzymes related to some prokaryotes and eukaryotic microbes, proteins, applied genetics, molecular biology, etc. Is performed; is called as applied microbiology."
+            },
+            {
+              "id": "a-8-7-2",
+              "question": "Antibiotic",
+              "answer": "An antibiotic is an antibacterial or antimicrobial drug used in the treatment and prevention of bacterial infections by either killing or inhibiting the growth of the bacteria."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set9",
+      "type": "answer_sets",
+      "title": "Q. Set 9 : Distinguish Between the Following",
+      "answerGroups": [
+        {
+          "id": "g-7-9",
+          "entries": [
+            {
+              "id": "a-9-7-1",
+              "question": "• Traditional fuels and Biofuels : (2 marks) Traditional fuels Biofuels 1. Traditional fuels are non- 1. Biofuels are renewable fuels. renewable fuels. 2. Traditional fuels are 2. Biofuels are inexhaustible. exhaustible. 3. They are usually used in liquid 3. They are usually used in solid, form and gaseous form. liquid or gaseous form. 4. These were the fuels of yester 4. These are fuels of the future. years. 5. Traditional fuels cause 5. Biofuels may not cause pollution. pollution.",
+              "unavailableReason": "The source does not provide a separate answer for this item."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-7-10",
+          "entries": [
+            {
+              "id": "a-10-7-1",
+              "question": "• Production of cheese. (3 marks)",
+              "answer": "Cheese is made from cow’s milk throughout the world. The steps in the process of cheese manufacture are as follows :\n\n(1) Chemical and microbiological testing of milk is done.\n\n(2) Three types of bacteria, viz. Lactobacillus lactis, Lactobacillus cremoris and Streptococcus thermophilus along with some colour is added to the milk.\n\n(3) It imparts sourness to the milk and it is converted into yoghurt like substance.\n\n(4) The water from this yoghurt, i.e. whey is not removed to make the yoghurt denser.\n\n(5) Enzyme, rennet or protease is added to the mixture to make it more denser.\n\n(6) Later cutting the solid yoghurt into pieces, washing, rubbing, salting, and mixing of essential microbes, pigments and flavours is done in suitable steps.\n\n(7) The pressed cheese is then cut into pieces and stored for ripening."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set11",
+      "type": "answer_sets",
+      "title": "Q. Set 11 : Explanations and Concepts",
+      "answerGroups": [
+        {
+          "id": "g-7-11",
+          "entries": [
+            {
+              "id": "a-11-7-1",
+              "question": "Q. ‘It is necessary to ban the use of plastic bags’, explain this statement.",
+              "answer": "(1) Plastic is a non-biodegradable substance. It cannot be degraded back into its original constituents. It remains just like that for many hundreds of years.\n\n(2) It causes solid waste pollution in any environment wherever it is thrown indiscriminately.\n\n(3) If burnt, it releases very toxic gases. If dumped in landfills, it obstructs the other decomposition processes.\n\n(4) If thrown in water bodies, it causes harm to aquatic life.\n\n(5) Cattle graze on plastic unknowingly and are killed by it as it clogs inside their alimentary canal.\n\n(6) The gutters and rain water drains get clogged due to plastic bags and this causes cities to submerge in water during heavy rains.\n\n(7) Nowadays, the fishermen get more than half of plastic if they cast their net in the sea. People use the plastic bags indiscriminately without any thought towards their environmental impact.\n\n(8) There are better alternatives for plastic bags such as cloth bags which can be reused again and again. Therefore, it is absolutely necessary to ban the use of plastic bag."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set12",
+      "type": "answer_sets",
+      "title": "Q. Set 12 : Remedies/Measures on Problems",
+      "answerGroups": [
+        {
+          "id": "g-7-12",
+          "entries": [
+            {
+              "id": "a-12-7-1",
+              "question": "(1) Which precautions are necessary for proper decomposition of domestic waste? (March ’20; July ‘22)",
+              "answer": "The domestic waste should be properly segregated into biodegradable (wet waste) and non-biodegradable (dry waste). After segregation, these wastes should be stored separately into two different containers. The non-biodegradable substances should be either reused or sent for recycling. The biodegradable substances are decomposed naturally. The decomposition process can be done at household level too in a pot or a tank. This decomposition will yield a rich manure. The pot should be covered by a thin layer of soil and it should be kept in a dark but airy place. The non-biodegradable things such as plastic articles, glass pieces, metal objects, unused medicines, e-waste should never be thrown in wet wastes. The toxic substances and the insecticides if added to wet waste, will never allow the natural decomposition process. Therefore, only after taking proper precautions we can aim at proper decomposition of domestic wastes.",
+              "questionTag": "March ’20; July ‘22"
+            },
+            {
+              "id": "a-12-7-2",
+              "question": "(2) There is an oil layer on the water surface of river in your area. What will you do? (March ’19) (1 mark)",
+              "answer": "If there is an oil layer on the water surface, we shall use hydrocarbonoclastic bacteria like Pseudomonas to clean up the oil spill.",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-12-7-3",
+              "question": "(3) How can the soil polluted by acid rain be made fertile again?",
+              "answer": "(1) The soil polluted by the acid rain is made fertile again by using bacteria.\n\n(2) Acidophillium spp. and Acidobacillus ferroxidens are the bacteria which have the capacity to use sulphuric acid as their energy source.\n\n(3) Since this sulphuric acid present in the acid rain, can be controlled by these bacteria.\n\n(4) In this way, bacteria can control the soil pollution occurring due to acid rain, making the soil fertile again."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-7-13",
+          "entries": [
+            {
+              "id": "a-13-7-1",
+              "question": "(1) Observe the diagram and answer the questions : (March ’22) (3 marks) Biomass ss s Solar energy + CO2 Harvesting Conversion of cellulose to glucose Threshing CO2 Cellulose Sugar CO2 Biofuel CO2 CO2 Liquid fuel production through fermentation Biofuel production (a) Which process is shown in the above given picture? (b) Give two examples for liquid fuels and solid fuels obtained by this process.",
+              "answer": "(a) The diagram shows process of production of biofuels. (b) (i) Liquid fuels : Vegetable oil, alcohol. (ii) Solid fuels : Coal, dung, crop, residue.\n\n(2) Observe the diagram and answer the following questions : (March ’19) (3 marks) Methane Gas Soil cover Processing Garbage on sewage Well to monitor ground water Collection of sewage level Modern landfill site (a) Identify the process shown in the figure. (b) Explain the process in short. Ans. (a) The figure shows modern landfill site where microbial biodegradation process is carried out. (b)\n\n(1) In the landfilling sites, the degradable wastes are transferred.\n\n(2) Large pits are dug in open spaces which are lined with plastic sheets. Therefore, the leaching of toxic and harmful materials is avoided to reduce the chance of soil pollution due to leachates.\n\n(3) Compressed waste is put in the pit and is covered with layers of soil, saw dust, leafy waste.\n\n(4) Specific biochemical substances are added for speedy decomposition. Bioreactors which are mixtures of bacteria are mixed at some places. Soil microbes and other top layers decompose the waste.\n\n(5) Soil slurry is used to seal the pits completely.\n\n(6) After a certain period, best quality compost is formed. Such landfilling sites can be reused after removal of compost.",
+              "questionTag": "March ’22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-7-14",
+          "entries": [
+            {
+              "id": "a-14-7-1",
+              "question": "(1) Complete the following conceptual picture : (Answers are directly given and underlined.) (i) Complete the following conceptual picture : (March ’25) (2 marks)",
+              "answer": "Cleaning Use in Biogas Sewage after Use of slurry plant processing as fertilizer Safe Water\n\n(ii) Complete the following conceptual picture with respect to its uses : (3 marks) Ans. Tooth paste High quality Pigments paper Xanthan gum Textile Fertilizers Pigments Weedicides",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-14-7-2",
+              "question": "(2) Complete the following table : (July ’19) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Source Microbe Amino acid\n\n(1) Sugar molasses and salt Aspergillus niger Citric acid\n\n(2) Molasses, corn steep Lactobacillus Lactic acid liquor delbrueckii\n\n(3) Corn steep liquor Aspergillus itaconius Itaconic acid",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-14-7-3",
+              "question": "(3) Complete the chart : (Nov. ’20) (3 marks)",
+              "answer": "(Answers are directly given and underlined.) Substance obtained by Roles microbial processing\n\n(1) Citric acid To impart acidity\n\n(2) Ascorbic acid Antioxidants, vitamins\n\n(3) Beta carotene Edible colours\n\n(4) Glycolipid Emulsifiers\n\n(5) Vanillin Essence\n\n(6) Xylitol Artificial sweetener (low caloric)",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-14-7-4",
+              "question": "(4) Complete the following conceptual picture : (March ’20) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Oil spill Microbial Inoculants Biofuels Biopesticides Microbes Biogas and Sewage composting Treatment Landfilling",
+              "questionTag": "March ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-7-15",
+          "entries": [
+            {
+              "id": "a-15-7-1",
+              "question": "(1) (nutritive, ethanol, salt, actinomycetes, fermentation, carbon dioxide, lactic acid, Saccharomyces cerevisiae) (July ’23) Different types of breads are produced from flour of cereals. Dough is formed by mixing of baker’s yeast − , water, and other necessary materials with flour. Due to of carbohydrates by yeast, sugar is converted into and . Dough rises up due to CO2 and the bread becomes spongy. Bread and other products produced with the help of yeast become .",
+              "answer": "Different types of breads are produced from flour of cereals. Dough is formed by mixing of baker’s yeast – Saccharomyces cerevisiae, water, salt and other necessary materials with flour. Due to fermentation of carbohydrates by yeast, sugar is converted into carbon dioxide and ethanol. Dough rises up due to CO2 and the bread becomes spongy. Bread and other products produced with the help of yeast become nutritive.",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-15-7-2",
+              "question": "(2) Complete the given paragraph by filling the blank spaces from the options given in the bracket : (oxygen, pyridines, mechanical, CO2, petroleum, fatal, polyester, Nocardia) (March ’20 – ’24) Spilling of oil occurs in ocean due to various reasons. This oil may prove and toxic to aquatic organisms. It is not easy to remove the oil layer from surface of water by method. However, bacteria like pseudomonas spp. and Alcanovorax borkumensis have the ability to destroy the and other chemicals. Hence, these bacteria are used to clear the oil spills. These are called as hydrocarbonoclastic bacteria (HCB). HCB decompose the hydrocarbons and bring about the reaction of carbon with . and water is formed in this process.",
+              "answer": "Spilling of petroleum oil occurs in ocean due to various reasons. This oil may prove fatal and toxic to aquatic organisms. It is not easy to remove the oil layer from surface of water by mechanical method. However, bacteria like Pseudomonas spp. and Alcanovorax borkumensis have the ability to destroy the pyridines and other chemicals. Hence, these bacteria are used to clear the oil spills. These are called as hydrocarbonoclastic bacteria (HCB). HCB decompose the hydrocarbons and bring about the reaction of carbon with oxygen. CO2 and water is formed in this process. Note : Similar question was asked in March ’20 with few changes in blanks.",
+              "questionTag": "March ’20 – ’24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set16",
+      "type": "answer_sets",
+      "title": "Q. Set 16 : Paragraph-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-7-16",
+          "entries": [
+            {
+              "id": "a-16-7-1",
+              "question": "(1) What is the meaning of remediation?",
+              "answer": "Remediation is the process by which the dangerous or toxic substances are removed from the environment."
+            },
+            {
+              "id": "a-16-7-2",
+              "question": "(2) What is the difference between phytoremediation and microbial remediation?",
+              "answer": "When any plant species are used for remediation process, then it is called phytoremediation, whereas when any microbe species used for remediation then it is called microbial remediation."
+            },
+            {
+              "id": "a-16-7-3",
+              "question": "(3) Which environmental pollutant is mainly removed through bioremediation processes?",
+              "answer": "Toxicants released through sewage and crude oil are removed by bioremediation processes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-7-18",
+          "entries": [
+            {
+              "id": "a-18-7-1",
+              "question": "(1) How can the soil polluted by acid rain be made fertile again?",
+              "answer": "(1) The soil polluted by the acid rain is made fertile again by using bacteria.\n\n(2) Acidophillium spp. and Acidobacillus ferroxidens are the bacteria which have the capacity to use sulphuric acid as their energy source.\n\n(3) Since this sulphuric acid present in the acid rain, can be controlled by these bacteria.\n\n(4) In this way, bacteria can control the soil pollution occurring due to acid rain, making the soil fertile again."
+            },
+            {
+              "id": "a-18-7-2",
+              "question": "(2) What are the benefits of mixing ethanol with petrol and diesel? (March ’23)",
+              "answer": "(1) When only diesel or petrol is used as fuel, there is increased air pollution. Moreover, since these are non-renewable and exhaustible fuels, they will be finished in next some years.\n\n(2) When petrol and diesel is mixed with ethanol, the proportion of CO2, CO and hydrocarbons which are emitted in the atmosphere becomes lesser. The particulate pollutants which otherwise are emitted through combustion of petrol and diesel are not formed when fuels are mixed with ethanol.\n\n(3) By adding ethanol to the fuels, the cost of expensive petrol or diesel also becomes less.\n\n(4) The ethanol burns more efficiently, hence ethanol is mixed with petrol and diesel.",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-18-7-3",
+              "question": "(3) Name two fuels obtained by microbial processes. Why is it necessary to increase the use of such fuels? (March ’24)",
+              "answer": "(1) Fuels obtained by microbial processes, which are : (i) Methane, (ii) Ethanol (iii) Hydrogen gas.\n\n(2) The conventional fuels are exhaustible. After few hundred years, they will be over completely. Moreover, these fossil fuels cause lot of air pollution due to emission of carbon dioxide. The fuels obtained by the microbial processes are not polluting. Therefore, it is necessary to increase the use of eco-friendly fuels.",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-18-7-4",
+              "question": "(4) Which plants are cultivated to obtain fuel?",
+              "answer": "(1) The ethanol is obtained from wheat, maize, beet, sugarcane and molasses of sugarcane.\n\n(2) For biodiesel, the soyabean, rapeseed, jatropa, mahua, flaxseed, mustard, sunflower, palm, jute and some types of algae are cultivated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-7-19",
+          "entries": [
+            {
+              "id": "a-19-7-1",
+              "question": "(1) What are the constituents of acid rain? What are its two effects on earth’s surface? (March ’25)",
+              "answer": "Constituents of acid rain are sulfur dioxide (SO2) and nitrogen dioxide (NO2). Effects of acid rain :\n\n(1) Erosion of metal statues and bridges.\n\n(2) Erosion of historical monuments occurs due to acid rain.\n\n(3) It also causes soil pollution.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-19-7-2",
+              "question": "(2) Answer the following questions : (March ’22) (3 marks) (a) Which substance is used to produce cheese? (b) Which enzyme was used earlier for cheese production? (c) Which enzyme is used to produce vegetarian cheese?",
+              "answer": "(a) Mostly cow’s milk is used to produce cheese throughout the world. (b) An enzyme obtained from alimentary canal of cattle, called rennet was traditionally used for making cheese. (c) Now enzyme obtained from fungi is used to produce vegetarian cheese.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-19-7-3",
+              "question": "(3) Which fuels are obtained from biomass ? (March ’23) (3 marks)",
+              "answer": "From biomass, the biogas and biodiesel are mainly obtained. The biogas is obtained from dung of cattle. The fermentation of cattle dung gives rise to methane. From methane, methanol is obtained. Ethanol is obtained from molasses of sugarcane and some other crops. In some countries, special crops are cultivated for the biodiesel.",
+              "questionTag": "March ’23"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-7-1",
+      "front": "Applied microbiology",
+      "back": "Branch of biology in which enzymes and other products of some prokaryotes and fungi are studied and used in industry and daily life.",
+      "order": 1
+    },
+    {
+      "id": "fc-7-2",
+      "front": "Antibiotic",
+      "back": "An antibacterial or antimicrobial drug used in the treatment of infections.",
+      "order": 2
+    },
+    {
+      "id": "fc-7-3",
+      "front": "What does yeast make from sugar?",
+      "back": "Carbon dioxide and ethanol by fermentation; CO2 makes bread dough rise.",
+      "order": 3
+    },
+    {
+      "id": "fc-7-4",
+      "front": "Baker's yeast",
+      "back": "Saccharomyces cerevisiae.",
+      "order": 4
+    },
+    {
+      "id": "fc-7-5",
+      "front": "Soya sauce",
+      "back": "Made from fermentation of wheat or rice flour with soybean using the fungus Aspergillus oryzae.",
+      "order": 5
+    },
+    {
+      "id": "fc-7-6",
+      "front": "Lactobacillus brevis",
+      "back": "Gives the beverage coffee (with Caffea arabica).",
+      "order": 6
+    },
+    {
+      "id": "fc-7-7",
+      "front": "Cider",
+      "back": "Beverage obtained by fermentation of apple juice.",
+      "order": 7
+    },
+    {
+      "id": "fc-7-8",
+      "front": "Vinegar",
+      "back": "Contains acetic acid.",
+      "order": 8
+    },
+    {
+      "id": "fc-7-9",
+      "front": "Hydrocarbonoclastic bacteria",
+      "back": "Bacteria like Pseudomonas and Alcanovorax that decompose hydrocarbons and clean oil spills, forming CO2 and water.",
+      "order": 9
+    },
+    {
+      "id": "fc-7-10",
+      "front": "Microbes that decompose rubber in garbage",
+      "back": "Actinomycetes such as Streptomyces and Nocardia.",
+      "order": 10
+    },
+    {
+      "id": "fc-7-11",
+      "front": "Fuel of the future",
+      "back": "Hydrogen gas.",
+      "order": 11
+    },
+    {
+      "id": "fc-7-12",
+      "front": "Edible colours from microbes/plants",
+      "back": "β-carotene, lycopene and lutein (xylitol is a sweetener, not a colour).",
+      "order": 12
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-7-1",
+      "qType": "mcq",
+      "question": "Due to fermentation by yeast, sugar is converted into carbon dioxide and ____.",
+      "options": [
+        "methanol",
+        "ethanol",
+        "butanol",
+        "acetone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Yeast fermentation produces ethanol.",
+      "order": 1
+    },
+    {
+      "id": "quiz-7-2",
+      "qType": "mcq",
+      "question": "Soya sauce is produced with the help of the fungus ____.",
+      "options": [
+        "Aspergillus oryzae",
+        "Penicillium",
+        "Mucor",
+        "Spirogyra"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aspergillus oryzae ferments flour and soybean.",
+      "order": 2
+    },
+    {
+      "id": "quiz-7-3",
+      "qType": "mcq",
+      "question": "Bacteria used to clear oil spills are called ____ bacteria.",
+      "options": [
+        "phenol oxidising",
+        "electrolytic",
+        "hydrocarbonoclastic",
+        "decomposing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "They break down hydrocarbons.",
+      "order": 3
+    },
+    {
+      "id": "quiz-7-4",
+      "qType": "mcq",
+      "question": "Which gas is considered the fuel of the future?",
+      "options": [
+        "Hydrogen",
+        "Nitrogen",
+        "Methane",
+        "Butane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hydrogen burns cleanly.",
+      "order": 4
+    },
+    {
+      "id": "quiz-7-5",
+      "qType": "mcq",
+      "question": "Vinegar contains ____ acid.",
+      "options": [
+        "acetic",
+        "lactic",
+        "tartaric",
+        "hydrochloric"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chemically vinegar is acetic acid.",
+      "order": 5
+    },
+    {
+      "id": "quiz-7-6",
+      "qType": "mcq",
+      "question": "Which is the odd one out among edible colours?",
+      "options": [
+        "β-carotene",
+        "Lycopene",
+        "Xylitol",
+        "Lutein"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Xylitol is not a colour.",
+      "order": 6
+    },
+    {
+      "id": "quiz-7-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "Soya sauce is produced with the help of the fungus Aspergillus oryzae.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct as per the textbook.",
+      "order": 7
+    },
+    {
+      "id": "quiz-7-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "Baker's yeast is ____.",
+      "wordBank": [
+        "Saccharomyces cerevisiae",
+        "Lactobacillus brevis",
+        "Pseudomonas",
+        "Nocardia"
+      ],
+      "correctWord": "Saccharomyces cerevisiae",
+      "options": [
+        "Saccharomyces cerevisiae",
+        "Lactobacillus brevis",
+        "Pseudomonas",
+        "Nocardia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It is used in making bread.",
+      "order": 8
+    },
+    {
+      "id": "quiz-7-9",
+      "qType": "match",
+      "question": "Match the microbe with its use.",
+      "left": [
+        "Alcanovorax",
+        "Actinomycetes",
+        "Baker's yeast"
+      ],
+      "right": [
+        "Bread",
+        "Oil slick cleaning",
+        "Decomposing rubber"
+      ],
+      "answerKey": [
+        1,
+        2,
+        0
+      ],
+      "options": [
+        "Bread",
+        "Oil slick cleaning",
+        "Decomposing rubber"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each microbe has its own industrial/environmental use.",
+      "order": 9
+    }
+  ]
+}

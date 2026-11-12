@@ -1,0 +1,750 @@
+{
+  "id": "ch4",
+  "num": 4,
+  "title": "History of Indian Arts",
+  "emoji": "🎨",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter surveys the multifaceted history of Indian arts, classifying them into Visual Arts (Drik Kala) and Performing Arts (Prastut Kala). It traces prehistoric rock art at Bhimbetka, folk traditions like Warli and Chitrakathi, classical sculpture and iconography from the Mathura and Gandhara schools, temple architectural styles (Nagara, Dravida, Hemadpanti, Indo-Gothic), and professional avenues in applied and commercial arts.",
+    "youWillLearn": [
+      "Differentiate between Visual Arts and Performing Arts, folk arts and classical arts",
+      "Trace the evolution of Indian folk paintings (Warli, Chitrakathi, Maratha murals)",
+      "Understand the development of Indian sculpture, iconography, and rock-cut architecture",
+      "Analyze major Indian architectural styles: Nagara, Dravida, Hemadpanti, and Indo-Gothic",
+      "Explore career and professional opportunities in fine arts, applied arts, and museum curation"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "The two main branches of Indian classical music are ______.\n(A) Hindustani and Carnatic (B) Folk and classical (C) Odissi and Kathak (D) Bharatanatyam and Kuchipudi",
+      "qnaAnswer": "Correct Answer: (A) Hindustani and Carnatic"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "______ is a blend of Indian and Persian styles of architecture.\n(A) Nagara (B) Dravid (C) Hemadpanti (D) Indo-Islamic",
+      "qnaAnswer": "Correct Answer: (D) Indo-Islamic"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "The word 'Raga' in Indian music means ______.\n(A) Melody (B) Rhythm (C) Colour/emotion (D) Beat",
+      "qnaAnswer": "Correct Answer: (C) Colour/emotion"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "The famous Kailasa temple at Ellora was built during the reign of the ______ dynasty.\n(A) Chola (B) Rashtrakuta (C) Pallava (D) Gupta",
+      "qnaAnswer": "Correct Answer: (B) Rashtrakuta"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "______ is the classical dance form of Kerala.\n(A) Kathakali (B) Odissi (C) Kuchipudi (D) Bharatanatyam",
+      "qnaAnswer": "Correct Answer: (A) Kathakali"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Item",
+        "Category",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "Kathakali",
+          "Kerala",
+          "Correct"
+        ],
+        [
+          "Bharatanatyam",
+          "Tamil Nadu",
+          "Correct"
+        ],
+        [
+          "Odissi",
+          "Odisha",
+          "Correct"
+        ],
+        [
+          "Kuchipudi",
+          "Karnataka",
+          "WRONG — Kuchipudi is from Andhra Pradesh."
+        ],
+        [
+          "Kathak",
+          "Uttar Pradesh",
+          "Correct"
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Styles of Temple Architecture",
+      "content": "Styles of Temple Architecture → Nagara Style → Dravid Style → Hemadpanti Style",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "paragraph",
+      "title": "Concept Chart — Classical Dance Forms",
+      "content": "Classical Dance Forms → Bharatanatyam (Tamil Nadu) → Kathakali (Kerala) → Odissi (Odisha) → Kuchipudi (Andhra Pradesh) → Kathak (Uttar Pradesh) → Manipuri (Manipur) → Mohiniattam (Kerala)",
+      "important": true
+    },
+    {
+      "id": "n12",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Nagara Style of Architecture",
+      "question": "Explain the following concept: Nagara Style of Temple Architecture",
+      "qnaAnswer": "\n1. The Nagara style is a style of temple architecture that developed in North India.\n2. The main characteristic is the curvilinear shikhara (tower) over the sanctum sanctorum.\n3. The temples are usually built on a raised platform with steps.\n4. Examples: Konark Sun Temple (Odisha), Khajuraho temples (Madhya Pradesh), Lingaraj Temple (Odisha).",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Dravid Style of Architecture",
+      "question": "Explain the following concept: Dravid Style of Temple Architecture",
+      "qnaAnswer": "\n1. The Dravid style is a style of temple architecture that developed in South India.\n2. The main characteristic is the pyramidal vimana (tower) over the sanctum.\n3. The temples are usually surrounded by a compound wall with gopurams (gateways).\n4. Examples: Brihadeeswarar Temple (Thanjavur), Meenakshi Temple (Madurai), Shore Temple (Mahabalipuram).",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Hemadpanti Style of Architecture",
+      "question": "Explain the following concept: Hemadpanti Style of Temple Architecture",
+      "qnaAnswer": "\n1. The Hemadpanti style is a style of temple architecture that developed in Maharashtra.\n2. It is named after Hemadpant, a minister in the Yadava dynasty.\n3. The main characteristic is the construction of temples using large stone blocks without any mortar or cement.\n4. Examples: Temples at Verul (Ellora), Trimbakeshwar, and Nashik.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "qna",
+      "title": "Indian Classical Music",
+      "question": "Explain the following concept: Indian Classical Music",
+      "qnaAnswer": "\n1. Indian classical music has two main branches: Hindustani (North Indian) and Carnatic (South Indian).\n2. It is based on ragas (melodic frameworks) and talas (rhythmic cycles).\n3. The main elements are swara (note), raga (melody), and tala (rhythm).\n4. It is performed both vocally and instrumentally.\n5. It has a rich tradition dating back to the Vedic period.",
+      "important": true
+    },
+    {
+      "id": "n17",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Ajanta Caves",
+      "question": "Write a short note on: Ajanta Caves",
+      "qnaAnswer": "\n1. The Ajanta Caves are located in Maharashtra.\n2. They are famous for their Buddhist paintings and sculptures.\n3. They date from the 2nd century BCE to the 6th century CE.\n4. The paintings depict scenes from the Jataka tales (stories of Buddha's previous lives).\n5. They are a UNESCO World Heritage Site and an important example of ancient Indian art.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Ellora Caves",
+      "question": "Write a short note on: Ellora Caves",
+      "qnaAnswer": "\n1. The Ellora Caves are located in Maharashtra.\n2. They are famous for their rock-cut temples and monasteries.\n3. They represent Hindu, Buddhist, and Jain traditions.\n4. The Kailasa temple (Cave 16) is the most famous, carved out of a single rock.\n5. They are a UNESCO World Heritage Site.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "qna",
+      "title": "Short Note: Classical Dance Forms of India",
+      "question": "Write a short note on: Classical Dance Forms of India",
+      "qnaAnswer": "\n1. India has several classical dance forms, each with its own distinctive style and regional roots.\n2. Bharatanatyam (Tamil Nadu), Kathakali (Kerala), Odissi (Odisha), Kuchipudi (Andhra Pradesh), Kathak (Uttar Pradesh), Manipuri (Manipur), and Mohiniattam (Kerala) are the main forms.\n3. They are based on the Natyashastra, an ancient treatise on dance and drama.\n4. They combine expressive gestures (mudras), facial expressions, and rhythmic footwork.\n5. They are an important part of India's cultural heritage.",
+      "important": true
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "Short Note: Indo-Islamic Architecture",
+      "question": "Write a short note on: Indo-Islamic Architecture",
+      "qnaAnswer": "\n1. Indo-Islamic architecture is a blend of Indian and Islamic architectural styles.\n2. It developed during the Delhi Sultanate and Mughal periods.\n3. Key features include domes, arches, minarets, and calligraphy.\n4. Examples: Qutub Minar (Delhi), Taj Mahal (Agra), Gol Gumbaz (Bijapur).\n5. It represents a synthesis of two great cultural traditions.",
+      "important": true
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "Short Note: Indian Painting",
+      "question": "Write a short note on: Indian Painting",
+      "qnaAnswer": "\n1. Indian painting has a long history dating back to prehistoric times.\n2. The earliest examples are the Bhimbetka cave paintings.\n3. The Ajanta and Ellora caves contain exquisite Buddhist paintings.\n4. The Mughal period saw the development of miniature painting.\n5. The Rajput and Pahari schools of painting flourished in the medieval period.\n6. Modern Indian painting has been influenced by both traditional and Western styles.",
+      "important": true
+    },
+    {
+      "id": "n23",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n24",
+      "type": "qna",
+      "title": "Main Styles of Indian Temple Architecture",
+      "question": "Describe the main styles of Indian temple architecture.",
+      "qnaAnswer": "\n1. Nagara Style: North Indian style with curvilinear shikhara. Examples: Konark Sun Temple, Khajuraho.\n2. Dravid Style: South Indian style with pyramidal vimana and gopurams. Examples: Brihadeeswarar Temple, Meenakshi Temple.\n3. Hemadpanti Style: Maharashtra style with stone blocks without mortar. Examples: Verul, Trimbakeshwar.\n4. Indo-Islamic Style: Blend of Indian and Islamic features. Examples: Qutub Minar, Taj Mahal."
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "Contribution of Indian Art to World Heritage",
+      "question": "Explain the contribution of Indian art to world heritage.",
+      "qnaAnswer": "\n1. Indian art has made significant contributions to world heritage.\n2. The Ajanta and Ellora caves are UNESCO World Heritage Sites.\n3. Indian temple architecture has influenced the architecture of many Southeast Asian countries.\n4. Indian classical music and dance have gained international recognition.\n5. Indian painting traditions have influenced modern art movements."
+    },
+    {
+      "id": "n26",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n27",
+      "type": "qna",
+      "title": "[IMPORTANT] Identify the Style of Temple",
+      "question": "Identify the style of temple: Kailasa Temple, Ellora",
+      "qnaAnswer": "The Kailasa temple at Ellora is an example of the Rashtrakuta style of rock-cut architecture. It was carved out of a single rock during the reign of the Rashtrakuta dynasty. It is a monolithic temple dedicated to Lord Shiva.",
+      "important": true
+    },
+    {
+      "id": "n28",
+      "type": "qna",
+      "title": "[IMPORTANT] Indian Classical Dances",
+      "question": "Name the classical dance forms of India.",
+      "qnaAnswer": "The classical dance forms of India are:\n\n1. Bharatanatyam (Tamil Nadu)\n\n2. Kathakali (Kerala)\n\n3. Odissi (Odisha)\n\n4. Kuchipudi (Andhra Pradesh)\n\n5. Kathak (Uttar Pradesh)\n\n6. Manipuri (Manipur)\n\n7. Mohiniattam (Kerala)\n\n8. Sattriya (Assam)",
+      "important": true
+    },
+    {
+      "id": "fig-4-rock_paintings",
+      "type": "figure",
+      "title": "Prominent Rock Painting Sites in India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Um9jayBQYWludGluZyBTaXRlcyBpbiBJbmRpYTwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2NDcuMyIgeTI9IjE4My4zIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNTUyLjgiIHkyPSIzMzQuMiIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjI0Ny4yIiB5Mj0iMzM0LjIiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNTIuNyIgeTI9IjE4My4zIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNjUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iODYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5NYWRoeWEgUHJhZGVzaDwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTAxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEJoaW1iZXRrYSAtIFVORVNDTyBTaXRlKTwvdGV4dD48cmVjdCB4PSI1NTcuMyIgeT0iMTU4LjMiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjQ3LjMiIHk9IjE3OS44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlV0dGFyIFByYWRlc2g8L3RleHQ+PHRleHQgeD0iNjQ3LjMiIHk9IjE5NC44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihNaXJ6YXB1ciAmIFZpbmRoeWFzKTwvdGV4dD48cmVjdCB4PSI0NjIuOCIgeT0iMzA5LjIiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNTUyLjgiIHk9IjMzMC43IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkJpaGFyPC90ZXh0Pjx0ZXh0IHg9IjU1Mi44IiB5PSIzNDUuNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oS2FpbXVyIEhpbGxzKTwvdGV4dD48cmVjdCB4PSIxNTcuMiIgeT0iMzA5LjIiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjQ3LjIiIHk9IjMzMC43IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlV0dGFyYWtoYW5kPC90ZXh0Pjx0ZXh0IHg9IjI0Ny4yIiB5PSIzNDUuNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oTGFraHVkaXlhciwgQWxtb3JhKTwvdGV4dD48cmVjdCB4PSI2Mi43IiB5PSIxNTguMyIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNTIuNyIgeT0iMTc5LjgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+S2FybmF0YWthICYgQW5kaHJhPC90ZXh0Pjx0ZXh0IHg9IjE1Mi43IiB5PSIxOTQuOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oS3VwZ2FsICYgUGlrbGloYWwpPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5Sb2NrIFBhaW50aW5nPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+U2l0ZXM8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map showing ancient rock painting sites in India",
+      "figureCaption": "Prehistoric rock art sites showcasing the evolution of folk visual traditions"
+    },
+    {
+      "id": "fig-4-dance_forms",
+      "type": "figure",
+      "title": "Classical and Folk Dance Traditions Across Indian States",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RGFuY2UgRm9ybXMgaW4gRGlmZmVyZW50IFN0YXRlcyBvZiBJbmRpYTwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz4KPHJlY3QgeD0iMzEwLjAiIHk9IjY1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijg2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TWFoYXJhc2h0cmE8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwMS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihMYXZhbmkgJiBLb2xpIERhbmNlKTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPktlcmFsYTwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEthdGhha2FsaSAmIE1vaGluaWF0dGFtKTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk5vcnRoIEluZGlhPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oS2F0aGFrKTwvdGV4dD48cmVjdCB4PSIzMTAuMCIgeT0iMzM1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjM1Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlRhbWlsIE5hZHU8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM3MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihCaGFyYXRhbmF0eWFtKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIyNjcuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMjg5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QW5kaHJhIFByYWRlc2g8L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihLdWNoaXB1ZGkpPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2NjZmJmMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5PZGlzaGE8L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihPZGlzc2kpPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5JbmRpYW4gRGFuY2U8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5UcmFkaXRpb25zPC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of regional dance forms of India",
+      "figureCaption": "Renowned classical and regional dance traditions across various Indian states"
+    },
+    {
+      "id": "fig-4-folk_arts",
+      "type": "figure",
+      "title": "Performing Folk Arts of Maharashtra",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Rm9sayBBcnRzIGluIE1haGFyYXNodHJhPC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSIzNjAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNjUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iODYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5KYWdhci1Hb25kaGFsPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oUml0dWFsaXN0aWMgZGV2b3Rpb25hbCBmb2xrIGZvcm0pPC90ZXh0PjxyZWN0IHg9IjUzNS4yIiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MjUuMiIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RGFzaGF2YXRhcmEgb2YgS29ua2FuPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oRm9sayB0aGVhdHJlIG9uIDEwIGF2YXRhcnMgb2YgVmlzaG51KTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlRhcmFwYSBEYW5jZTwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMzA0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFRyaWJhbCBkYW5jZSB3aXRoIHdpbmQgaW5zdHJ1bWVudCk8L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMzNS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Qb3dhZGE8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM3MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihIZXJvaWMgYmFsbGFkcyBjZWxlYnJhdGluZyB2YWxvdXIpPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5LZWVydGFuPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oT3JhdG9yeSwgc29uZyBhbmQgbW9yYWwgZGlzY291cnNlKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+S29saSBEYW5jZTwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFJoeXRobWljIGZpc2hlcm1lbiBmb2xrIGRhbmNlKTwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Rm9sayBBcnRzIG9mPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TWFoYXJhc2h0cmE8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of traditional folk performing arts in Maharashtra",
+      "figureCaption": "Vibrant folk performing arts traditions developed and preserved in Maharashtra"
+    },
+    {
+      "id": "fig-4-monuments",
+      "type": "figure",
+      "title": "Famous Indian Historical Places, Architectural Structures and Styles",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SW5kaWFuIEFyY2hpdGVjdHVyYWwgTWFydmVscyAmIFN0eWxlczwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz4KPHJlY3QgeD0iMzEwLjAiIHk9IjY1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijg2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+S29uYXJrLCBPZGlzaGE8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwMS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihTdW4gVGVtcGxlIC0gS2FsaW5nYSBTdHlsZSk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5CaWphcHVyLCBLYXJuYXRha2E8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihHb2wgR3VtYmF6IC0gSW5kby1Jc2xhbWljIFN0eWxlKTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk1laHJhdWxpIG5lYXIgRGVsaGk8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihRdXR1YiBNaW5hciAtIFN1bHRhbmF0ZSBTdHlsZSk8L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMzNS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5WZXJ1bCAoRWxsb3JhKTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMzcxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEthaWxhcyBUZW1wbGUgLSBSb2NrLWN1dCBNb25vbGl0aGljKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIyNjcuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMjg5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+VGhhbmphdnVyPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oQnJpaGFkZWVzaHZhcmEgLSBEcmF2aWRhIFN0eWxlKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TXVtYmFpIENTVDwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFZpY3RvcmlhIFRlcm1pbnVzIC0gSW5kby1Hb3RoaWMgU3R5bGUpPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5IaXN0b3JpYzwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkFyY2hpdGVjdHVyZTwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of monumental architectural heritage sites across India",
+      "figureCaption": "Major architectural wonders showcasing Nagara, Dravida, Hemadpanti, and Indo-Gothic styles"
+    },
+    {
+      "id": "answers-4-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-4-1",
+          "entries": [
+            {
+              "id": "a-4-1-1",
+              "question": "(1) The arts of painting and sculpting are ______.\n(a) visual arts\n(b) performing arts\n(c) folk arts\n(d) classical arts",
+              "answer": "visual arts. (Painting and sculpting are perceivable through vision, categorized as Drik Kala or visual arts.)"
+            },
+            {
+              "id": "a-4-1-2",
+              "question": "(2) The Chalukya King, Someshvara, mentioned in his book ______ the tradition of Chitrakathi.\n(a) Natyashastra\n(b) Kitab-e-Navras\n(c) Paintings of Ajanta\n(d) Abhilashithartha Chintamani",
+              "answer": "Abhilashithartha Chintamani (also known as Manasollasa). (Written in the 12th century C.E., it documents the Chitrakathi narrative painting tradition.)"
+            },
+            {
+              "id": "a-4-1-3",
+              "question": "(3) The lion capital of the Ashoka pillar found at ______ is the national emblem of India.\n(a) Bodhgaya\n(b) Pataliputra\n(c) Sanchi\n(d) Sarnath",
+              "answer": "Sarnath. (The four lions seated back-to-back at Sarnath symbolize sovereign power, justice, and righteousness.)"
+            },
+            {
+              "id": "a-4-1-4",
+              "question": "(4) The ______ school of art laid the foundation of Indian iconography.\n(a) Gandhara\n(b) Nagara\n(c) Dravida\n(d) Mathura",
+              "answer": "Mathura. (The Mathura school during the Kushana period created the earliest indigenous images of the Buddha, Jinas, and Hindu deities.)"
+            },
+            {
+              "id": "a-4-1-5",
+              "question": "(5) The text of ______ written by Bharatmuni is supposed to be the earliest one discussing music and theatre.\n(a) Manasollasa\n(b) Natyashastra\n(c) Abhilashitartha Chintamani\n(d) Rasaratnakar",
+              "answer": "Natyashastra. (Sage Bharata's Natyashastra is the ancient foundational treatise on drama, dramaturgy, rasa theory, and performing arts.)"
+            },
+            {
+              "id": "a-4-1-6",
+              "question": "(6) The ruler of Bijapur, Ibrahim Adilshah II wrote the text ______ in Persian language.\n(a) Tuzuk-i-Babari\n(b) Padmavat\n(c) Kitab-e-Navras\n(d) Akbarnama",
+              "answer": "Kitab-e-Navras. (This celebrated musical and poetic work describes Indian classical ragas and invokes Goddess Saraswati in Dhrupad style.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Identify and Write the Wrong Pair in the Following Sets",
+      "answerGroups": [
+        {
+          "id": "g-4-2",
+          "entries": [
+            {
+              "id": "a-4-2-1",
+              "question": "[Architectural structure — Place]\n(1) Kutub Minar — Mehrauli\n(2) Gol Gumbaz — Bijapur\n(3) Chhatrapati Shivaji Maharaj Railway Terminus — Delhi\n(4) Taj Mahal — Agra",
+              "answer": "Wrong pair: Chhatrapati Shivaji Maharaj Railway Terminus — Delhi. (CSMT is located in Mumbai, Maharashtra.)",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-4-2-2",
+              "question": "[Architectural structure — Style]\n(1) Chhatrapati Shivaji Maharaj Railway Terminus — Indo-Gothic architecture\n(2) Gol Gumbaz — Muslim architecture\n(3) Temples in South India — Nagara architecture\n(4) Gondeshwar Temple — Hemadpanti architecture",
+              "answer": "Wrong pair: Temples in South India — Nagara architecture. (Temples in South India are built in the Dravida architecture style, whereas Nagara style developed in North India.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Do as Directed (Concept Maps, Tables & Classifications)",
+      "answerGroups": [
+        {
+          "id": "g-4-3",
+          "entries": [
+            {
+              "id": "a-4-3-1",
+              "question": "Complete the concept map: Rock painting sites in India.",
+              "answer": "Rock painting sites in India include:\n\n1. Madhya Pradesh: Bhimbetka (caves in Vindhya ranges with Paleolithic and Mesolithic paintings).\n\n2. Uttar Pradesh: Mirzapur and Manikpur sites.\n\n3. Bihar: Kaimur hill caves.\n\n4. Uttarakhand: Lakhudiyar caves near Almora.",
+              "questionTag": "March '23"
+            },
+            {
+              "id": "a-4-3-2",
+              "question": "Complete the table: Dance forms in different states of India.",
+              "answer": "• Maharashtra: Lavani / Koli Dance / Lezim\n• Kerala: Kathakali / Mohiniattam\n• North India: Kathak\n• Tamil Nadu: Bharatanatyam\n• Andhra Pradesh: Kuchipudi",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-4-3-3",
+              "question": "Complete the concept map: Folk Arts in Maharashtra.",
+              "answer": "Prominent folk arts in Maharashtra include:\n\n1. Jagar-Gondhal (Ritual performance worshipping goddess Bhavani/Ambabai)\n\n2. Dashavatara of Konkan (Dramatic folk performance based on 10 incarnations of Vishnu)\n\n3. Tarapa Dance (Tribal dance of Warli community performed to wind instrument music)\n\n4. Powada (Inspiring ballad singing narrating heroic achievements)\n\n5. Keertan (Devotional musical storytelling tradition)\n\n6. Koli Dance (Lively rhythmic folk dance of fishermen community)"
+            },
+            {
+              "id": "a-4-3-4",
+              "question": "Complete the concept map: Famous Indian Historical Places and Monuments.",
+              "answer": "• Konark: Sun Temple (Black Pagoda)\n• Bijapur: Gol Gumbaz (Whispering Gallery)\n• Mehrauli near Delhi: Qutub Minar\n• Verul (Ellora): Kailas Temple (Cave 16 monolithic rock-cut wonder)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-4-4",
+          "entries": [
+            {
+              "id": "a-4-4-1",
+              "question": "(1) Maratha style of painting:",
+              "answer": "(1) The Maratha style of painting developed in the latter half of the 17th century C.E. under the patronage of Maratha rulers and nobility.\n(2) This style consists of colored murals (wall paintings) and miniature paintings used in manuscripts.\n(3) Murals of Maratha style can be seen at the entrance of old wadas, in reception halls, and on ceilings of temples in places like Wai, Menavali, Satara, and Jamgaon.\n(4) The style was influenced by Rajput and European painting styles. It helps historians reconstruct lifestyles, attire, ornaments, and customs of the Maratha period.",
+              "questionTag": "March '25"
+            },
+            {
+              "id": "a-4-4-2",
+              "question": "(2) Folk traditions of sculptural art:",
+              "answer": "(1) The tradition of sculptural folk art dates back to the Stone Age. The practice of making clay idols for domestic worship and seasonal rituals has continued since the Harappan civilization.\n(2) It is widespread across Bengal, Bihar, Gujarat, Rajasthan, and Maharashtra. Clay Ganesha idols, masks of Goddess Gauri, and bull figurines for Bailpola are notable examples.\n(3) Carved wooden memorial pillars, Veergals (hero stones), and decorative terracotta grain storage bins are distinct folk sculptural forms.\n(4) These sculptures reflect indigenous aesthetic sensibilities, community values, and religious devotion.",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-4-4-3",
+              "question": "(3) Chitrakathi Tradition:",
+              "answer": "(1) The tradition of narrating stories from the Ramayana or Mahabharata using puppet shows accompanied by paintings on paper is known as 'Chitrakathi' or 'Pinguli' tradition.\n(2) The Thakar community residing in Pinguli village near Kudal in Konkan has preserved this centuries-old tradition.\n(3) A sequence of pictures painted with natural colors on handmade paper is shown sequentially while singing poetic narratives.\n(4) In the 12th century C.E., Chalukya King Someshvara recorded this tradition in his encyclopedia 'Manasollasa' (Abhilashitartha Chintamani)."
+            },
+            {
+              "id": "a-4-4-4",
+              "question": "(4) Hemadpanti Architecture Style:",
+              "answer": "(1) Hemadpanti style is a distinctive medieval temple architecture of Maharashtra named after Hemadpant, prime minister in the Yadava court.\n(2) The walls of Hemadpanti temples are built without using mortar; stones are held together firmly by tenon-and-mortise interlocking joints.\n(3) The ground plan of these temples is often star-shaped, creating intricate geometric shadows and multiple faceted outer walls.\n(4) Famous examples include the Gondeshwar temple at Sinnar, Ambreshwar temple at Ambarnath, and temples at Aundha Nagnath."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Explain the Following Statements with Reasons",
+      "answerGroups": [
+        {
+          "id": "g-4-5",
+          "entries": [
+            {
+              "id": "a-4-5-1",
+              "question": "(1) It is necessary to preserve the tradition like Chitrakathi, which is on the verge of extinction.",
+              "answer": "(1) Chitrakathi is an ancient oral and visual storytelling tradition using handmade painted scrolls and wooden puppetry.\n(2) King Someshvara of the Chalukya dynasty documented its existence as early as the 12th century C.E.\n(3) It represents rare community wisdom, indigenous graphic art techniques, and mythological storytelling heritage preserved by the Thakar tribal community.\n(4) With the proliferation of modern cinema and electronic mass media, the livelihood of practitioners has eroded, endangering the transmission of this living art to next generations. Hence, deliberate cultural conservation is necessary.",
+              "questionTag": "Nov. '20; March '24"
+            },
+            {
+              "id": "a-4-5-2",
+              "question": "(2) An expert with deep understanding of art history is required in the art market.",
+              "answer": "(1) The international and domestic art market involves the purchase and sale of rare paintings, sculptures, and antiquities worth substantial commercial values.\n(2) The authenticity, provenance, age, and artist attribution of an art object can only be verified by an expert well-versed in artistic styles, mediums, pigments, and historical contexts.\n(3) Art historians can detect forged or spurious artifacts and correctly determine genuine aesthetic and monetary worth.\n(4) Therefore, collectors, auction houses, galleries, and museums rely strictly on qualified art historians to assess artifacts before transactions.",
+              "questionTag": "July '19 - '23; March '20"
+            },
+            {
+              "id": "a-4-5-3",
+              "question": "(3) The field of Applied Arts needs trained professionals.",
+              "answer": "(1) Applied arts encompass design fields that blend aesthetic beauty with practical utility, including interior design, advertising graphics, textile design, and stage architecture.\n(2) The creation of brand layouts, packaging, typography, digital animation, and multimedia interfaces requires technical command alongside artistic vision.\n(3) Industrial production of ceramics, glassware, metalcraft, and jewelry demands precise knowledge of material science, ergonomics, and cost economics.\n(4) Therefore, formal training in applied arts is essential to meet industrial standards and consumer demands.",
+              "questionTag": "Textual Board Reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Read the Passage and Answer the Questions",
+      "answerGroups": [
+        {
+          "id": "g-4-6",
+          "entries": [
+            {
+              "id": "a-4-6-1",
+              "question": "Read the extract on 'Kitab-e-Navras' and answer the following questions:\n\nExtract: Ibrahim Adilshah II, the ruler of Bijapur, authored the celebrated poetic work 'Kitab-e-Navras' in Persian language. It is dedicated to Indian classical music and contains verses composed in the Dhrupad style, designed for melodic performance. In this book, Sultan Ibrahim reverently addresses Goddess Saraswati, describing her as the 'divine light in the world', possessed of all celestial virtues. He believed that with the divine blessings of mother Saraswati, the poetry celebrating the nine rasas (Navras) would achieve immortality.\n\nQuestions:\n(1) What did Sultan Ibrahim Adilshah II believe would happen on receiving the blessings of goddess Saraswati?\n(2) How did Sultan Ibrahim describe Goddess Saraswati?\n(3) Write detailed information on the text 'Kitab-e-Navras'.",
+              "answer": "(1) Sultan Ibrahim Adilshah II believed that upon receiving the grace and blessings of Mother Goddess Saraswati, the musical poetry of the Navras would become eternal (immortal).\n\n(2) Sultan Ibrahim addressed Goddess Saraswati as 'Mother Saraswati', termed her the 'divine light in the world', and praised her as being complete with all auspicious virtues and celestial qualities.\n\n(3) Information on 'Kitab-e-Navras':\n• Author: Sultan Ibrahim Adilshah II, the tolerant and cultured ruler of the Bijapur Sultanate.\n• Subject: It is a treatise on Indian classical music containing rhythmic verses suitable for vocal singing.\n• Style: Composed primarily in the classical Dhrupad musical style, expressing profound aesthetic delight.\n• Significance: It synthesizes Persian literary expression with ancient Indian musical concepts, explaining the nine aesthetic emotions (Navras) originally expounded in Sanskrit poetics."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Answer the Following in Detail",
+      "answerGroups": [
+        {
+          "id": "g-4-7",
+          "entries": [
+            {
+              "id": "a-4-7-1",
+              "question": "(1) What kind of professional opportunities are available in the field of arts?",
+              "answer": "(1) Museum and Archive Curatorship: Art historians can work as curators, archivists, researchers, and conservators in museums, archaeological surveys, and art libraries.\n(2) Art Market and Valuations: Certified experts evaluate, authenticate, and manage sales in commercial art galleries, auction houses, and antique trade.\n(3) Film, Television, and Theatre: Art directors, stage backdrop designers (Nepathya), costume coordinators, lighting experts, and prop stylists are integral to cinema and stage productions.\n(4) Applied and Commercial Arts: Designers create book covers, typography, digital illustrations, greeting cards, brand identities, and packaging layouts.\n(5) Interior Design and Architecture: Specialists design functional spaces, residential layouts, landscapes, and heritage restorations.\n(6) Handicraft and Industrial Manufacturing: Professional opportunities abound in ceramic pottery, glassware, jewelry design, cane-bamboo craft, and handloom textiles.",
+              "questionTag": "March '20 - '24 - '25; Nov. '20"
+            },
+            {
+              "id": "a-4-7-2",
+              "question": "(2) Write in detail about the folk styles of painting in India.",
+              "answer": "(1) Ancient Origin: The tradition of folk painting dates back to prehistoric rock art discovered in rock shelters like Bhimbetka (Madhya Pradesh).\n(2) Themes: Early folk paintings depict human stick figures, wild beasts, hunting scenes, and ritualistic geometric motifs.\n(3) Materials & Pigments: Folk artists utilized natural colors extracted from crushed stones, mineral red (geru), charcoal black, plant leaves, and lime.\n(4) Transition to Settled Life: With the advent of agriculture, folk art expanded to household decorations, courtyard patterns (Rangoli), and wall murals (Lepana).\n(5) Regional Traditions: Warli painting (Maharashtra), Madhubani (Bihar), Kalamkari (Andhra Pradesh), and Pattachitra (Odisha) developed unique symbolic vocabularies representing daily community life, fertility rites, and folk deities.",
+              "questionTag": "July '23"
+            },
+            {
+              "id": "a-4-7-3",
+              "question": "(3) Observe the illustration of Warli painting and write about: (a) Depiction of nature (b) Drawings of human figures (c) Depiction of occupations (d) Houses.",
+              "answer": "(a) Depiction of nature: The Warli artists depict the natural environment with great warmth, sketching indigenous trees, flowering creepers, rising sun, animals (bulls, deer), and birds perched on branches.\n(b) Drawings of human figures: Human figures are drawn using simple geometric forms — two triangles joined at the tip, topped with a circle for the head. Men and women are shown holding hands in circular Tarapa dance or performing daily chores.\n(c) Depiction of occupations: The paintings vividly depict agriculture, tilling fields with oxen, animal husbandry, hunting, gathering forest produce, and fishing.\n(d) Houses: Huts are depicted with slanting thatched roofs made of dry grass and leaves. Walls are constructed using reed wattles daubed with clay and cow dung paste.\nConclusion: Warli painting reflects the harmonious, nature-centric lifestyle and deep spiritual unity of the tribal community of Thane and Palghar districts.",
+              "questionTag": "Textual Board Activity"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "Name the two main branches of Indian classical music.",
+      "back": "Hindustani and Carnatic",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "Which style of architecture is the Kailasa temple at Ellora?",
+      "back": "Rashtrakuta style (rock-cut)",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "Name the classical dance form of Kerala.",
+      "back": "Kathakali",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "Which UNESCO World Heritage Site is famous for Buddhist paintings?",
+      "back": "Ajanta Caves",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "What is the Nagara style of temple architecture?",
+      "back": "North Indian style with curvilinear shikhara",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "What is the Dravid style of temple architecture?",
+      "back": "South Indian style with pyramidal vimana and gopurams",
+      "order": 6
+    },
+    {
+      "id": "f7",
+      "front": "What is the Hemadpanti style of temple architecture?",
+      "back": "Maharashtra style with stone blocks without mortar",
+      "order": 7
+    },
+    {
+      "id": "f8",
+      "front": "What is Indo-Islamic architecture?",
+      "back": "A blend of Indian and Islamic architectural styles",
+      "order": 8
+    },
+    {
+      "id": "fc-4-1",
+      "front": "What are visual arts (Drik Kala)?",
+      "back": "Art forms perceivable through vision, primarily painting and sculpting.",
+      "order": 1
+    },
+    {
+      "id": "fc-4-2",
+      "front": "What is the Chitrakathi tradition?",
+      "back": "A storytelling tradition using puppetry and narrative painted scrolls, preserved by the Thakar community in Pinguli, Konkan.",
+      "order": 2
+    },
+    {
+      "id": "fc-4-3",
+      "front": "Which Sanskrit work mentions Chitrakathi in the 12th century?",
+      "back": "Abhilashitartha Chintamani (Manasollasa) authored by Chalukya King Someshvara.",
+      "order": 3
+    },
+    {
+      "id": "fc-4-4",
+      "front": "Where was the Lion Capital found that serves as India's National Emblem?",
+      "back": "Sarnath Ashoka Pillar.",
+      "order": 4
+    },
+    {
+      "id": "fc-4-5",
+      "front": "Which ancient school of art laid the foundation of Indian iconography?",
+      "back": "Mathura School of Art during the Kushana period.",
+      "order": 5
+    },
+    {
+      "id": "fc-4-6",
+      "front": "Who wrote Natyashastra?",
+      "back": "Bharatamuni, the earliest comprehensive treatise on performing arts, dance, and drama.",
+      "order": 6
+    },
+    {
+      "id": "fc-4-7",
+      "front": "What is Kitab-e-Navras?",
+      "back": "A book on Indian classical music and nine rasas in Persian by Sultan Ibrahim Adilshah II of Bijapur.",
+      "order": 7
+    },
+    {
+      "id": "fc-4-8",
+      "front": "What are the key architectural features of Hemadpanti temples?",
+      "back": "Star-shaped ground plan, mortarless stone interlocking (tenon and mortise), and faceted external walls.",
+      "order": 8
+    },
+    {
+      "id": "fc-4-9",
+      "front": "What geometric shapes form human figures in Warli painting?",
+      "back": "Two inverted triangles joined at the apex and a circle representing the head.",
+      "order": 9
+    },
+    {
+      "id": "fc-4-10",
+      "front": "What architectural style is Chhatrapati Shivaji Maharaj Terminus (Mumbai)?",
+      "back": "Indo-Gothic architectural style.",
+      "order": 10
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The two main branches of Indian classical music are ______.",
+      "options": [
+        "Hindustani and Carnatic",
+        "Folk and classical",
+        "Odissi and Kathak",
+        "Bharatanatyam and Kuchipudi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Indian classical music has two main branches: Hindustani and Carnatic.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "______ is a blend of Indian and Persian styles of architecture.",
+      "options": [
+        "Nagara",
+        "Dravid",
+        "Hemadpanti",
+        "Indo-Islamic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Indo-Islamic architecture blends Indian and Persian styles.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The famous Kailasa temple at Ellora was built during the reign of the ______ dynasty.",
+      "options": [
+        "Chola",
+        "Rashtrakuta",
+        "Pallava",
+        "Gupta"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Kailasa temple was built during the Rashtrakuta dynasty.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "______ is the classical dance form of Kerala.",
+      "options": [
+        "Kathakali",
+        "Odissi",
+        "Kuchipudi",
+        "Bharatanatyam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Kathakali is the classical dance form of Kerala.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "Which of the following is NOT a classical dance form of India?",
+      "options": [
+        "Bharatanatyam",
+        "Kathakali",
+        "Bhangra",
+        "Odissi"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bhangra is a folk dance, not a classical dance form.",
+      "order": 5
+    },
+    {
+      "id": "quiz-4-1",
+      "qType": "mcq",
+      "question": "Which of the following is categorized under visual arts?",
+      "options": [
+        "Music",
+        "Dance",
+        "Painting",
+        "Theatre"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Painting and sculpting are visual arts (Drik Kala), whereas music, dance, and theatre are performing arts.",
+      "order": 1
+    },
+    {
+      "id": "quiz-4-2",
+      "qType": "mcq",
+      "question": "The world-famous monolithic rock-cut Kailas Temple is located at which site?",
+      "options": [
+        "Ajanta",
+        "Verul (Ellora)",
+        "Elephanta",
+        "Badami"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cave 16 at Ellora (Verul) is the magnificent Kailas Temple carved out of a single gigantic rock.",
+      "order": 2
+    },
+    {
+      "id": "quiz-4-3",
+      "qType": "true_false",
+      "question": "Hemadpanti temples were constructed using heavy cement and lime mortar.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Hemadpanti architecture used no mortar; stones were joined using tenon-and-mortise interlocking joints.",
+      "order": 3
+    },
+    {
+      "id": "quiz-4-4",
+      "qType": "fill_blank",
+      "question": "The National Emblem of India is adapted from the Ashoka pillar at ____.",
+      "options": [
+        "Sarnath",
+        "Sanchi",
+        "Bodhgaya",
+        "Mehrauli"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Sarnath Lion Capital was adopted as India's National Emblem on 26 January 1950.",
+      "order": 4
+    },
+    {
+      "id": "quiz-4-5",
+      "qType": "mcq",
+      "question": "The Thakar community preserves the Chitrakathi folk tradition in which region of Maharashtra?",
+      "options": [
+        "Vidarbha",
+        "Marathwada",
+        "Konkan (Pinguli)",
+        "Khandesh"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pinguli village near Kudal in the Konkan region is famous for the Chitrakathi tradition.",
+      "order": 5
+    },
+    {
+      "id": "quiz-4-6",
+      "qType": "mcq",
+      "question": "Who composed the classical musical text 'Kitab-e-Navras'?",
+      "options": [
+        "Babur",
+        "Ibrahim Adilshah II",
+        "Akbar",
+        "Amir Khusrau"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ibrahim Adilshah II of Bijapur composed Kitab-e-Navras celebrating Indian music and the nine rasas.",
+      "order": 6
+    }
+  ],
+  "part": 2,
+  "section": "History"
+}

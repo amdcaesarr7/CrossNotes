@@ -1,0 +1,756 @@
+{
+  "id": "ch2",
+  "num": 2,
+  "title": "Historiography: Indian Tradition",
+  "emoji": "📚",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers the journey of Indian historiography from ancient oral traditions, epics, inscriptions (such as Sohgaura), and medieval chronicles (like Kalhana's Rajatarangini and Maratha Bakhars) to modern colonial, Orientalist, Nationalistic, Marxist, Subaltern, and Feminist historical perspectives.",
+    "youWillLearn": [
+      "Examine ancient Indian traditions of recording history via inscriptions, coins, and epics",
+      "Understand the critical historiographical value of Kalhana's Rajatarangini and Maratha Bakhars",
+      "Trace how British colonial officials wrote biased Indian history and the emergence of Orientalism",
+      "Assess the contribution of Nationalistic historians like V. K. Rajwade, Ranade, and Savarkar",
+      "Explore post-independence Marxist, Subaltern, and Feminist historiography in India"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "Which of the following is not a part of the ancient Indian tradition of historiography?\n(i) Vedas (ii) Puranas (iii) Ramayana (iv) Colonial records",
+      "qnaAnswer": "Correct Answer: (iv) Colonial records"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "The 'Rajatarangini' written by Kalhana is a history of ______.\n(i) Bengal (ii) Kashmir (iii) Maharashtra (iv) Gujarat",
+      "qnaAnswer": "Correct Answer: (ii) Kashmir"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "The first Director General of the Archaeological Survey of India was ______.\n(i) Sir William Jones (ii) Sir John Marshall (iii) Alexander Cunningham (iv) H.D. Sankalia",
+      "qnaAnswer": "Correct Answer: (iii) Alexander Cunningham"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "______ was the first Indian historian to write a history of India.\n(i) Vishwanath Kashinath Rajwade (ii) V.K. Rajwade (iii) Dr. Babasaheb Ambedkar (iv) Justice Mahadev Govind Ranade",
+      "qnaAnswer": "Correct Answer: (i) Vishwanath Kashinath Rajwade"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "'Bharatvarsha' was written by ______.\n(i) V.K. Rajwade (ii) Dr. Babasaheb Ambedkar (iii) Chitale (iv) Justice Mahadev Govind Ranade",
+      "qnaAnswer": "Correct Answer: (i) V.K. Rajwade"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Person",
+        "Contribution",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "V.K. Rajwade",
+          "'Bharatvarsha'",
+          "Correct"
+        ],
+        [
+          "Dr. Babasaheb Ambedkar",
+          "'Who were the Shudras?'",
+          "Correct"
+        ],
+        [
+          "Justice Mahadev Govind Ranade",
+          "'Rise of Maratha Power'",
+          "Correct"
+        ],
+        [
+          "Alexander Cunningham",
+          "First Director General of ASI",
+          "Correct"
+        ],
+        [
+          "Sir William Jones",
+          "Founded Asiatic Society of Bengal",
+          "Correct"
+        ],
+        [
+          "Vishwanath Kashinath Rajwade",
+          "'The History of the Marathas'",
+          "WRONG — V.K. Rajwade wrote 'Bharatvarsha'. 'The History of the Marathas' was written by James Grant Duff."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart 1 — Indian Historiography",
+      "content": "Ancient Indian Historiography → Medieval Indian Historiography → Colonial Historiography → Nationalist Historiography → Marxist Historiography → Subaltern Historiography → Feminist Historiography",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "paragraph",
+      "title": "Concept Chart 2 — Foreign Travelers",
+      "content": "Megasthenes → Fa-Hien → Hiuen Tsang → Al-Beruni → Marco Polo",
+      "important": true
+    },
+    {
+      "id": "n12",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Colonial Historiography",
+      "question": "Explain the following concept: Colonial Historiography",
+      "qnaAnswer": "\n1. Colonial historiography refers to the historical writings produced during the colonial period, primarily by British administrators and scholars.\n2. It was characterised by a biased perspective that portrayed Indian history as a story of decline and chaos before British rule.\n3. It emphasised the role of the British in bringing order, progress, and modernity to India.\n4. Key figures include James Mill, who wrote 'The History of British India', and Sir William Jones, who founded the Asiatic Society of Bengal.\n5. Colonial historiography was later challenged by nationalist and post-colonial historians.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Nationalist Historiography",
+      "question": "Explain the following concept: Nationalist Historiography",
+      "qnaAnswer": "\n1. Nationalist historiography emerged as a response to colonial historiography.\n2. It aimed to present Indian history from an Indian perspective, highlighting the achievements and contributions of Indian civilization.\n3. It emphasised the unity and continuity of Indian culture and the greatness of ancient India.\n4. Key figures include V.K. Rajwade, Justice Mahadev Govind Ranade, and Dr. Babasaheb Ambedkar.\n5. Nationalist historiography played an important role in the freedom struggle by fostering a sense of national pride and identity.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Subaltern Historiography",
+      "question": "Explain the following concept: Subaltern Historiography",
+      "qnaAnswer": "\n1. Subaltern historiography focuses on the history of marginalized and oppressed groups in society.\n2. It challenges the elite-dominated narrative of traditional historiography.\n3. It emphasises the agency and experiences of peasants, workers, women, and other subaltern groups.\n4. Key figures include Ranajit Guha and the Subaltern Studies Group.\n5. It has significantly influenced the writing of history in India and globally.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "qna",
+      "title": "Marxist Historiography",
+      "question": "Explain the following concept: Marxist Historiography",
+      "qnaAnswer": "\n1. Marxist historiography interprets history through the lens of class struggle and economic determinism.\n2. It emphasises the role of economic factors in shaping historical events.\n3. It focuses on the history of the working class and peasantry.\n4. Key Indian Marxist historians include D.D. Kosambi and Romila Thapar.\n5. It has made significant contributions to the understanding of Indian history, particularly the ancient and medieval periods.",
+      "important": true
+    },
+    {
+      "id": "n17",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Vishwanath Kashinath Rajwade",
+      "question": "Write a short note on: Vishwanath Kashinath Rajwade",
+      "qnaAnswer": "\n1. Vishwanath Kashinath Rajwade (1863-1926) was a pioneering Indian historian.\n2. He is considered the first Indian historian to write a history of India from an Indian perspective.\n3. His work 'Bharatvarsha' is a comprehensive history of India.\n4. He emphasised the use of original sources and critical examination of evidence.\n5. He inspired a generation of Indian historians to write history from an Indian standpoint.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Justice Mahadev Govind Ranade",
+      "question": "Write a short note on: Justice Mahadev Govind Ranade",
+      "qnaAnswer": "\n1. Justice Mahadev Govind Ranade (1842-1901) was a prominent Indian scholar, social reformer, and historian.\n2. His work 'Rise of Maratha Power' is a seminal text in Indian historiography.\n3. He emphasised the importance of using original sources and critical methods in historical research.\n4. He was a leading figure in the Indian National Congress and the social reform movement.\n5. His historical writings inspired a generation of nationalist historians.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "qna",
+      "title": "Short Note: Dr. Babasaheb Ambedkar",
+      "question": "Write a short note on: Dr. Babasaheb Ambedkar",
+      "qnaAnswer": "\n1. Dr. Babasaheb Ambedkar (1891-1956) was a jurist, social reformer, and historian.\n2. His works like 'Who were the Shudras?' and 'The Untouchables' challenged the traditional narrative of Indian history.\n3. He used historical analysis to critique the caste system and advocate for social justice.\n4. He emphasised the importance of writing history from the perspective of the marginalized.\n5. His contributions to historiography have been widely recognised.",
+      "important": true
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "Short Note: Kalhana's Rajatarangini",
+      "question": "Write a short note on: Kalhana's Rajatarangini",
+      "qnaAnswer": "\n1. 'Rajatarangini' is a historical chronicle written by Kalhana in the 12th century CE.\n2. It is a history of the kings of Kashmir.\n3. It is considered one of the earliest examples of historical writing in India.\n4. Kalhana used a variety of sources, including inscriptions, coins, and oral traditions.\n5. He emphasised the importance of critical examination of sources and objective writing.",
+      "important": true
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "Short Note: Asiatic Society of Bengal",
+      "question": "Write a short note on: Asiatic Society of Bengal",
+      "qnaAnswer": "\n1. The Asiatic Society of Bengal was founded by Sir William Jones in 1784.\n2. It was established in Calcutta (now Kolkata).\n3. It was a scholarly society dedicated to the study of Asian cultures, languages, and history.\n4. It played an important role in the development of Indology and the study of Indian history.\n5. It published research on Indian history, archaeology, and literature.",
+      "important": true
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Short Note: Archaeological Survey of India",
+      "question": "Write a short note on: Archaeological Survey of India (ASI)",
+      "qnaAnswer": "\n1. The Archaeological Survey of India (ASI) was established in 1861.\n2. Alexander Cunningham was its first Director General.\n3. It is responsible for archaeological research and the conservation of historical monuments in India.\n4. It has conducted excavations at many important sites like Harappa, Mohenjodaro, and Taxila.\n5. Its publications have contributed significantly to the understanding of Indian history and archaeology.",
+      "important": true
+    },
+    {
+      "id": "n24",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "Indian Historical Tradition",
+      "question": "Describe the Indian historical tradition.",
+      "qnaAnswer": "\n1. The Indian historical tradition is very ancient, going back to the Vedic period.\n2. The Vedas, Puranas, and epics like the Ramayana and Mahabharata contain historical information.\n3. Buddhist and Jain texts also provide historical information.\n4. Kalhana's 'Rajatarangini' (12th century CE) is one of the earliest examples of historical writing in India.\n5. During the medieval period, Persian and Sanskrit chronicles provided historical accounts.\n6. In the modern period, Indian historians developed various approaches like nationalist, Marxist, subaltern, and feminist historiography.",
+      "important": true
+    },
+    {
+      "id": "n26",
+      "type": "qna",
+      "title": "Sources of Indian History",
+      "question": "What are the sources of Indian history?",
+      "qnaAnswer": "\n1. Literary sources: Vedas, Puranas, epics, Buddhist and Jain texts, Persian chronicles, Sanskrit works.\n2. Archaeological sources: Inscriptions, coins, monuments, excavations.\n3. Foreign accounts: Writings of Megasthenes, Fa-Hien, Hiuen Tsang, Al-Beruni, Marco Polo.\n4. Archival records: Colonial documents, government records, private papers.\n5. Oral traditions: Folk songs, legends, oral histories.",
+      "important": true
+    },
+    {
+      "id": "fig-2-historians_books",
+      "type": "figure",
+      "title": "Medieval and Ancient Indian Historians and Works",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SGlzdG9yaWFucywgQm9va3MgYW5kIE9iamVjdGl2ZXM8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjYwLjAiIHkyPSIyMjUuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNDAuMCIgeTI9IjIyNS4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNTcuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iNzkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5aaWF1ZGRpbiBCYXJhbmk8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9Ijk0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+VGFyaWtoLWktUGhpcnV6IFNoYWhpPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oRHV0aWVzIG9mIGEgSGlzdG9yaWFuKTwvdGV4dD48cmVjdCB4PSI1NzAuMCIgeT0iMTkyLjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjYwLjAiIHk9IjIxNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkthbGhhbmE8L3RleHQ+PHRleHQgeD0iNjYwLjAiIHk9IjIyOS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlJhamF0YXJhbmdpbmk8L3RleHQ+PHRleHQgeD0iNjYwLjAiIHk9IjI0NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihIaXN0b3J5IG9mIEthc2htaXIpPC90ZXh0PjxyZWN0IHg9IjMxMC4wIiB5PSIzMjcuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iMzQ5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QmFidXI8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM2NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlR1enVrLWktQmFiYXJpPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNzkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oQmF0dGxlcyAmIE5hdHVyZSBvZiBIaW5kdXN0YW4pPC90ZXh0PjxyZWN0IHg9IjUwLjAiIHk9IjE5Mi4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE0MC4wIiB5PSIyMTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5LcmlzaG5hamkgQW5hbnQgU2FiaGFzYWQ8L3RleHQ+PHRleHQgeD0iMTQwLjAiIHk9IjIyOS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNhYmhhc2FkIEJha2hhcjwvdGV4dD48dGV4dCB4PSIxNDAuMCIgeT0iMjQ0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFJlaWduIG9mIFNoaXZhamkgTWFoYXJhaik8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkluZGlhbjwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkhpc3RvcmlvZ3JhcGh5PC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of Indian historians and historical texts",
+      "figureCaption": "Prominent medieval historians, their works, and historical objectives"
+    },
+    {
+      "id": "fig-2-nationalistic_historians",
+      "type": "figure",
+      "title": "Nationalistic Historians of India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TmF0aW9uYWxpc3RpYyBIaXN0b3JpYW5zIG9mIEluZGlhPC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSIzNjAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNjUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iODYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5WaW5heWFrIERhbW9kYXIgU2F2YXJrYXI8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwMS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihJbmRpYW4gV2FyIG9mIEluZGVwZW5kZW5jZSAxODU3KTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlZpc2hudXNoYXN0cmkgQ2hpcGx1bmthcjwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEluc3BpcmF0aW9uYWwgTWFyYXRoaSBXcml0aW5ncyk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5NYWhhZGV2IEdvdmluZCBSYW5hZGU8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihUaGUgUmlzZSBvZiB0aGUgTWFyYXRoYSBQb3dlcik8L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMzNS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5SYW1rcmlzaG5hIEdvcGFsIEJoYW5kYXJrYXI8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM3MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihDcml0aWNhbCBSZXNlYXJjaCBpbiBTYW5za3JpdCBTb3VyY2VzKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIyNjcuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMjg5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QW5hbnQgU2FkYXNoaXYgQWx0ZWthcjwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMzA0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEFuY2llbnQgSW5kaWFuIFN0YXRlICYgV29tZW4pPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2NjZmJmMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5WLiBLLiBSYWp3YWRlPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oTWFyYXRoeWFuY2h5YSBJdGloYXNhY2hpIFNhZGhhbmUpPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5OYXRpb25hbGlzdGljPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SGlzdG9yaWFuczwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of Nationalistic Historians of India",
+      "figureCaption": "Pioneering Indian scholars who restored pride in ancient Indian civilization"
+    },
+    {
+      "id": "fig-2-british_historians",
+      "type": "figure",
+      "title": "British Historians Who Wrote Indian History",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+QnJpdGlzaCBIaXN0b3JpYW5zIG9mIEluZGlhbiBIaXN0b3J5PC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjY0Ny4zIiB5Mj0iMTgzLjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI1NTIuOCIgeTI9IjMzNC4yIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMjQ3LjIiIHkyPSIzMzQuMiIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE1Mi43IiB5Mj0iMTgzLjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI2NS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkphbWVzIE1pbGw8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwMS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihUaGUgSGlzdG9yeSBvZiBCcml0aXNoIEluZGlhKTwvdGV4dD48cmVjdCB4PSI1NTcuMyIgeT0iMTU4LjMiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjQ3LjMiIHk9IjE3OS44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkphbWVzIEdyYW50IER1ZmY8L3RleHQ+PHRleHQgeD0iNjQ3LjMiIHk9IjE5NC44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihBIEhpc3Rvcnkgb2YgdGhlIE1haHJhdHRhcyk8L3RleHQ+PHJlY3QgeD0iNDYyLjgiIHk9IjMwOS4yIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjU1Mi44IiB5PSIzMzAuNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Nb3VudHN0dWFydCBFbHBoaW5zdG9uZTwvdGV4dD48dGV4dCB4PSI1NTIuOCIgeT0iMzQ1LjciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFRoZSBIaXN0b3J5IG9mIEluZGlhKTwvdGV4dD48cmVjdCB4PSIxNTcuMiIgeT0iMzA5LjIiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjQ3LjIiIHk9IjMzMC43IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkNvbG9uZWwgVG9kZDwvdGV4dD48dGV4dCB4PSIyNDcuMiIgeT0iMzQ1LjciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEFubmFscyBvZiBSYWphc3RoYW4pPC90ZXh0PjxyZWN0IHg9IjYyLjciIHk9IjE1OC4zIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE1Mi43IiB5PSIxNzkuOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5XaWxsaWFtIFdpbHNvbiBIdW50ZXI8L3RleHQ+PHRleHQgeD0iMTUyLjciIHk9IjE5NC44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihJbXBlcmlhbCBHYXpldHRlZXIgb2YgSW5kaWEpPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5Ccml0aXNoPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SGlzdG9yaWFuczwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of colonial British historians of India",
+      "figureCaption": "British officials and scholars who wrote colonial histories of India"
+    },
+    {
+      "id": "answers-2-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-2-1",
+          "entries": [
+            {
+              "id": "a-2-1-1",
+              "question": "(1) ______ was the first Director General of the Archaeological Survey of India. (a) Sir Alexander Cunningham (b) Sir William Jones (c) Sir John Marshall (d) Friedrich Max Muller",
+              "answer": "Sir Alexander Cunningham. (He oversaw extensive excavations of ancient Buddhist and archaeological sites.)",
+              "questionTag": "March '22"
+            },
+            {
+              "id": "a-2-1-2",
+              "question": "(2) ______ translated the Sanskrit text of Hitopadesh. (a) James Mill (b) Friedrich Max Muller (c) Mountstuart Elphinstone (d) Sir John Marshall",
+              "answer": "Friedrich Max Muller. (The German scholar was an ardent Orientalist who translated the Rigveda and Hitopadesh into German.)",
+              "questionTag": "July '19 - '22 - '23; March '25"
+            },
+            {
+              "id": "a-2-1-3",
+              "question": "(3) In the 12th century C.E., ______ wrote a book Rajatarangini about the history of Kashmir. (a) Banabhatta (b) Kalhana (c) Ziauddin Barani (d) Patanjali",
+              "answer": "Kalhana. (Kalhana critically examined coins, inscriptions, monuments, and dynastic records to write Rajatarangini.)"
+            },
+            {
+              "id": "a-2-1-4",
+              "question": "(4) 'Primitive Communism to Slavery' represents the ______ historiography. (a) Colonial (b) Orientalist (c) Nationalistic (d) Marxist",
+              "answer": "Marxist. (Written by Comrade S. A. Dange, a founding member of the Communist Party of India.)",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-2-1-5",
+              "question": "(5) ______ founded 'Bharat Itihas Samshodhak Mandal' in Pune on 7th July, 1910 to facilitate historical research. (a) Justice Mahadev Govind Ranade (b) Govind Sakharam Sardesai (c) Vinayak D. Savarkar (d) V. K. Rajwade",
+              "answer": "V. K. Rajwade."
+            },
+            {
+              "id": "a-2-1-6",
+              "question": "(6) The Nationalistic writings in Maharashtra were inspired by ______. (a) Vinayak Damodar Savarkar (b) Ramkrishna Gopal Bhandarkar (c) Vishnushastri Chiplunkar (d) Justice Mahadev Govind Ranade",
+              "answer": "Vishnushastri Chiplunkar. (Chiplunkar strongly criticized the prejudiced colonial views of British historians in his Nibandhamala.)"
+            },
+            {
+              "id": "a-2-1-7",
+              "question": "(7) 'Stripurush Tulana' written by ______ is acknowledged as the first feminist book in India. (a) Meera Kosambi (b) Dr. Sharmila Rege (c) Tarabai Shinde (d) Pandita Ramabai",
+              "answer": "Tarabai Shinde. (Published in 1882, it fiercely challenged male dominance and double standards in society.)",
+              "questionTag": "March '23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Identify and Write the Wrong Pair in the Following Sets",
+      "answerGroups": [
+        {
+          "id": "g-2-2",
+          "entries": [
+            {
+              "id": "a-2-2-1",
+              "question": "(1) (i) Who were the Shudras - Subaltern History\n(ii) Stri-Purush Tulana - Feminist History\n(iii) The Indian War of Independence 1857 - Marxist History\n(iv) A History of Mahrattas - Colonial History",
+              "answer": "Wrong pair: The Indian War of Independence 1857 - Marxist History. (The Indian War of Independence 1857 by V. D. Savarkar represents Nationalistic Historiography.)",
+              "questionTag": "July '19 – '23; Nov. '20"
+            },
+            {
+              "id": "a-2-2-2",
+              "question": "(2) (i) The Rise of the Maratha Power - Justice Mahadev Govind Ranade\n(ii) Marathyanchya Itihasachi Sadhane - Vishnushastri Chiplunkar\n(iii) Maratha Riyasat - Govind Sakharam Sardesai\n(iv) Gulamgiri - Mahatma Phule",
+              "answer": "Wrong pair: Marathyanchya Itihasachi Sadhane - Vishnushastri Chiplunkar. (Marathyanchya Itihasachi Sadhane in 22 volumes was compiled and edited by V. K. Rajwade.)",
+              "questionTag": "March '20"
+            },
+            {
+              "id": "a-2-2-3",
+              "question": "(3) (i) James Mill - Feminist Historian\n(ii) Friedrich Max Muller - Orientalist scholar\n(iii) Justice Mahadev Govind Ranade - Nationalistic Historian\n(iv) Damodar Kosambi - Marxist Historian",
+              "answer": "Wrong pair: James Mill - Feminist Historian. (James Mill was a British Colonial/Utilitarian historian who wrote The History of British India.)",
+              "questionTag": "March '24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Do as Directed (Concept Maps & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-2-3",
+          "entries": [
+            {
+              "id": "a-2-3-1",
+              "question": "(1) Complete the concept map: Historians, Books and Objectives.",
+              "answer": "(1) Ziauddin Barani — Tarikh-i-Phiruz Shahi (Critical purpose of historiography)\n(2) Kalhana — Rajatarangini (History of Kashmir)\n(3) Babur — Tuzuk-i-Babari (Descriptions of battles fought by Babur)\n(4) Krishnaji Anant Sabhasad — Sabhasad Bakhar (The reign of Chhatrapati Shivaji Maharaj)"
+            },
+            {
+              "id": "a-2-3-2",
+              "question": "(2) Complete the concept map: Nationalistic Historians of India.",
+              "answer": "Nationalistic historians:\n(1) Anant Sadashiv Altekar\n(2) Ramkrishna Gopal Bhandarkar\n(3) Mahadev Govind Ranade\n(4) Vinayak Damodar Savarkar\n(5) Vishnushastri Chiplunkar"
+            },
+            {
+              "id": "a-2-3-3",
+              "question": "(3) Complete the concept map: British historians who wrote Indian history.",
+              "answer": "(1) James Grant Duff (A History of the Mahrattas)\n(2) James Mill (The History of British India)\n(3) Colonel Todd (Annals and Antiquities of Rajasthan)\n(4) William Wilson Hunter (A History of India)"
+            },
+            {
+              "id": "a-2-3-4",
+              "question": "(4) Complete the table: Historian and Name of Book.\n(1) James Mill — The History of British India\n(2) James Grant Duff — ______\n(3) ______ — The History of India\n(4) S. A. Dange — ______\n(5) ______ — Who Were the Shudras",
+              "answer": "(1) James Mill — The History of British India\n(2) James Grant Duff — A History of the Mahrattas\n(3) Mountstuart Elphinstone — The History of India\n(4) S. A. Dange — Primitive Communism to Slavery\n(5) Dr. Babasaheb Ambedkar — Who Were the Shudras",
+              "questionTag": "July '19; Sept. '21; March '23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-2-4",
+          "entries": [
+            {
+              "id": "a-2-4-1",
+              "question": "(1) Orientalist Historiography",
+              "answer": "(1) In the later half of the eighteenth century, several European scholars took a keen interest in Eastern civilisations, cultures, and languages; these scholars were known as 'Orientalists'.\n(2) They studied similarities between Sanskrit and European languages, focusing on Vedic literature and ancient Sanskrit texts.\n(3) They formulated the notion that an ancient language may have been the common mother of all Indo-European languages.\n(4) Sir William Jones (founder of Asiatic Society of Bengal in 1784) and Friedrich Max Muller (who translated Hitopadesh and edited Sacred Books of the East) were leading Orientalists, though their interpretations occasionally reflected imperialist interests.",
+              "questionTag": "March '24"
+            },
+            {
+              "id": "a-2-4-2",
+              "question": "(2) Nationalistic Historiography",
+              "answer": "(1) Indian historians educated in the British system in the 19th and early 20th centuries sought to restore pride in ancient Indian civilization and boost self-esteem among Indians; their writings are called 'Nationalistic Historiography'.\n(2) They sharply countered the biased and disparaging views of British colonial writers like James Mill and Vincent Smith.\n(3) Scholars like R. G. Bhandarkar, M. G. Ranade, V. K. Rajwade, K. P. Jayaswal, and V. D. Savarkar sought the golden era of Indian history.\n(4) Their works inspired the national freedom movement and gave tremendous momentum to research in regional history.",
+              "questionTag": "March '24"
+            },
+            {
+              "id": "a-2-4-3",
+              "question": "(3) Subaltern History",
+              "answer": "(1) 'Subaltern' signifies bottom-most strata of society. Writing history from the viewpoint of marginalized, deprived, and oppressed classes is known as Subaltern History.\n(2) Italian Marxist philosopher Antonio Gramsci first articulated the concept that history should be written beginning from the bottom-most ranks of society.\n(3) In India, Mahatma Jyotirao Phule (in 'Gulamgiri') and Dr. Babasaheb Ambedkar (in 'Who Were the Shudras' and 'The Untouchables') laid the foundations of subaltern history.\n(4) Historian Ranjit Guha played a central role in establishing Subaltern Studies as a major academic school of historiography, utilizing folklore as an invaluable source.",
+              "questionTag": "March '22; July '23"
+            },
+            {
+              "id": "a-2-4-4",
+              "question": "(4) Indian Feminist Historiography",
+              "answer": "(1) In pre-independence India, pioneering women intellectuals like Tarabai Shinde, Pandita Ramabai, and Dr. Anandibai Joshi wrote against gender discrimination.\n(2) Tarabai Shinde wrote 'Stripurush Tulana' (1882), recognized as India's first feminist publication, attacking male chauvinism.\n(3) Pandita Ramabai authored 'The High Caste Hindu Woman' (1888), highlighting the plight of Hindu widows.\n(4) In post-independence times, feminist scholarship deepened: Dr. Sharmila Rege analyzed Dalit women's autobiographies in 'Writing Caste, Writing Gender', and Meera Kosambi explored women's social histories in 'Crossing Thresholds'.",
+              "questionTag": "March '20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Explain the Following Statements with Reasons",
+      "answerGroups": [
+        {
+          "id": "g-2-5",
+          "entries": [
+            {
+              "id": "a-2-5-1",
+              "question": "(1) Bakhar is an important type of historical document.",
+              "answer": "(1) Bakhars are a vital genre of Marathi historical narratives, comparable to coins, inscriptions, copper plates, and travelogues.\n(2) They contain eulogies of heroes, accounts of momentous battles, life stories of kings, and vivid descriptions of contemporary political, social, and economic life.\n(3) Bakhars come in diverse forms: biographies, dynastic histories, event descriptions (e.g. Panipatachi Bakhar), sect histories, and administrative records.\n(4) They provide authentic eyewitness details and contemporary perspectives. Hence, Bakhars are recognized as an indispensable historical source.",
+              "questionTag": "March '25; July '24 - '25"
+            },
+            {
+              "id": "a-2-5-2",
+              "question": "(2) Writing of the regional history received momentum.",
+              "answer": "(1) Nationalistic historians trained in the colonial educational system strove to restore self-esteem among Indians.\n(2) They rejected the prejudiced and monolithic portrayals of Indian history penned by British colonial officers.\n(3) As nationalistic historians celebrated regional heroes and localized resistances, scholars in different provinces turned their focus to their distinct geographical and cultural pasts.\n(4) In Maharashtra, South India, and other regions, rigorous research began into local dynasties, forts, and popular movements. Hence, regional historiography gained tremendous momentum.",
+              "questionTag": "March '19; July '19"
+            },
+            {
+              "id": "a-2-5-3",
+              "question": "(3) Govind Sakharam Sardesai was addressed as 'Riyasatkar'.",
+              "answer": "(1) Govind Sakharam Sardesai rendered exemplary service to Indian history by undertaking monumental research into Maratha history.\n(2) He published multiple detailed volumes under the title 'Maratha Riyasat'.\n(3) He also authored 'Muslim Riyasat' and 'British Riyasat', bringing vast archives of letters and state papers to light.\n(4) His life's work in documenting historical reigns (riyasats) was so celebrated that the public respectfully honored him with the title 'Riyasatkar'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Read the Passage and Answer the Questions",
+      "answerGroups": [
+        {
+          "id": "g-2-6",
+          "entries": [
+            {
+              "id": "a-2-6-1",
+              "question": "Read the extract on Sohgaura Copper-plate and answer the questions:\nExtract: 'The copper-plate was found at Sohgaura (Gorakhpur district, Uttar Pradesh). It is supposed to be from the Mauryan period. The inscription carved on it is in Brahmi script. The symbols known as 'tree-in-railing' and 'mountain' at the beginning of the inscription occur also on punch-marked coins. Another symbol looks like a structure erected on four pillars, indicative of a granary. The inscription records a royal order regarding grains stored in the granary to be distributed carefully during a famine.'\n\n(1) From which period is the Sohgaura copper-plate supposed to be?\n(2) In which script is the Sohgaura copper-plate carved?\n(3) Why is the Sohgaura copper-plate considered an important historical source?",
+              "answer": "(1) The Sohgaura copper-plate is supposed to belong to the Mauryan period.\n\n(2) The inscription on the Sohgaura copper-plate is carved in the Brahmi script.\n\n(3) The Sohgaura copper-plate is an important historical source because:\n(i) It depicts a four-pillared structure that denotes an ancient state granary.\n(ii) It contains a royal decree instructing that stored grains be carefully distributed during times of famine.\n(iii) It provides concrete historical proof of ancient Indian disaster management, relief administration, and state welfare policies during the Mauryan epoch."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Answer the Following in Detail",
+      "answerGroups": [
+        {
+          "id": "g-2-7",
+          "entries": [
+            {
+              "id": "a-2-7-1",
+              "question": "(1) What is the contribution of Itihasacharya V. K. Rajwade to historiography?",
+              "answer": "Itihasacharya Vishwanath Kashinath Rajwade made monumental contributions to Indian and Maratha historiography:\n(1) Monumental Source Compilation: He spent his life traveling, collecting, and compiling original records, publishing 22 volumes of 'Marathyanchya Itihasachi Sadhane'.\n(2) All-Inclusive History: He asserted that history is an all-inclusive record of past societies, encompassing literature, grammar, linguistics, and social traditions—not merely tales of political conspiracies, court rivalries, and wars.\n(3) Self-Reliance in History: He firmly proclaimed: 'We must write our own history', insisting that Indian history must be written by Indians using verified, original primary documents.\n(4) Triad of Historical Description: He maintained that the description of any human event in historiography requires a balanced combination of three essential dimensions: Time (Kaal), Space (Desh), and Individual Personalities (Vyakti).\n(5) Institutional Legacy: On 7th July 1910, he founded the 'Bharat Itihas Samshodhak Mandal' in Pune to provide institutional support for historical research.",
+              "questionTag": "Nov. '20; Sept. '21"
+            },
+            {
+              "id": "a-2-7-2",
+              "question": "(2) What is Bakhar? Explain the different types of Bakhars in detail.",
+              "answer": "A Bakhar is an important type of historical prose narrative originating in medieval Maharashtra:\n(1) Meaning and Character: Bakhars contain eulogies of heroes, narratives of historical battles, biographies of rulers, and depictions of contemporary socio-religious and economic life.\n(2) Types of Bakhars:\n  (a) Biographies of Kings: Examples include 'Sabhasad Bakhar' written by Krishnaji Anant Sabhasad during the reign of Rajaram Maharaj, detailing the life and administration of Chhatrapati Shivaji Maharaj.\n  (b) Dynastic Histories: 'Holkarranchi Kaiphiyat' provides comprehensive accounts of the Holkar dynasty and their contribution to Maratha rule.\n  (c) Event-Centric Narratives: 'Bhausahebranchi Bakhar' and 'Panipatachi Bakhar' furnish vivid, detailed accounts of the Third Battle of Panipat (1761).\n  (d) Sectarian & Mythological Histories: Bakhars detailing religious sects, traditions, and legendary origins of royal families.\n  (e) Autobiographies & Administration: Bakhars recording administrative codes, personal memoirs, and judicial proceedings.\n(3) Historical Value: Though written with some literary embellishment, Bakhars remain invaluable primary sources for reconstructing the Maratha period.",
+              "questionTag": "March '23"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "Who wrote 'Rajatarangini'?",
+      "back": "Kalhana",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "Who founded the Asiatic Society of Bengal?",
+      "back": "Sir William Jones in 1784",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "Who was the first Director General of ASI?",
+      "back": "Alexander Cunningham",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "Who wrote 'Rise of Maratha Power'?",
+      "back": "Justice Mahadev Govind Ranade",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "Who wrote 'Who were the Shudras?'",
+      "back": "Dr. Babasaheb Ambedkar",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "Who wrote 'Bharatvarsha'?",
+      "back": "V.K. Rajwade",
+      "order": 6
+    },
+    {
+      "id": "f7",
+      "front": "What is subaltern historiography?",
+      "back": "History from the perspective of marginalized and oppressed groups",
+      "order": 7
+    },
+    {
+      "id": "f8",
+      "front": "What is colonial historiography?",
+      "back": "Historical writings produced during the colonial period, often biased towards the British",
+      "order": 8
+    },
+    {
+      "id": "fc-2-1",
+      "front": "Who wrote Rajatarangini, and what region is it about?",
+      "back": "Kalhana; it is a critical 12th-century historical chronicle of Kashmir.",
+      "order": 1
+    },
+    {
+      "id": "fc-2-2",
+      "front": "Who was the first Director General of ASI?",
+      "back": "Sir Alexander Cunningham.",
+      "order": 2
+    },
+    {
+      "id": "fc-2-3",
+      "front": "Who wrote 'The History of British India'?",
+      "back": "James Mill in 1817 (in three volumes).",
+      "order": 3
+    },
+    {
+      "id": "fc-2-4",
+      "front": "Who founded Bharat Itihas Samshodhak Mandal in Pune?",
+      "back": "V. K. Rajwade on 7th July, 1910.",
+      "order": 4
+    },
+    {
+      "id": "fc-2-5",
+      "front": "What was V. K. Rajwade's motto regarding Indian history?",
+      "back": "'We must write our own history' using original authentic sources.",
+      "order": 5
+    },
+    {
+      "id": "fc-2-6",
+      "front": "Which book is recognized as India's first feminist text?",
+      "back": "'Stripurush Tulana' written by Tarabai Shinde in 1882.",
+      "order": 6
+    },
+    {
+      "id": "fc-2-7",
+      "front": "Name the famous Bakhar chronicling Shivaji Maharaj's reign.",
+      "back": "'Sabhasad Bakhar' written by Krishnaji Anant Sabhasad.",
+      "order": 7
+    },
+    {
+      "id": "fc-2-8",
+      "front": "What does the Sohgaura copper-plate record?",
+      "back": "A Mauryan royal order instructing careful distribution of granary food during famine.",
+      "order": 8
+    },
+    {
+      "id": "fc-2-9",
+      "front": "Who wrote 'Who Were the Shudras' and 'The Untouchables'?",
+      "back": "Dr. Babasaheb Ambedkar (Subaltern Historiography).",
+      "order": 9
+    },
+    {
+      "id": "fc-2-10",
+      "front": "What was Govind Sakharam Sardesai popularly called?",
+      "back": "'Riyasatkar' for his monumental multi-volume works on Maratha Riyasat.",
+      "order": 10
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "Which of the following is not a part of the ancient Indian tradition of historiography?",
+      "options": [
+        "Vedas",
+        "Puranas",
+        "Ramayana",
+        "Colonial records"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Colonial records are not part of ancient Indian tradition.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "The 'Rajatarangini' written by Kalhana is a history of ______.",
+      "options": [
+        "Bengal",
+        "Kashmir",
+        "Maharashtra",
+        "Gujarat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rajatarangini is a history of Kashmir.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The first Director General of the Archaeological Survey of India was ______.",
+      "options": [
+        "Sir William Jones",
+        "Sir John Marshall",
+        "Alexander Cunningham",
+        "H.D. Sankalia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alexander Cunningham was the first Director General of ASI.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "______ was the first Indian historian to write a history of India.",
+      "options": [
+        "Vishwanath Kashinath Rajwade",
+        "V.K. Rajwade",
+        "Dr. Babasaheb Ambedkar",
+        "Justice Mahadev Govind Ranade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "V.K. Rajwade was the first Indian historian to write a history of India.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "'Bharatvarsha' was written by ______.",
+      "options": [
+        "V.K. Rajwade",
+        "Dr. Babasaheb Ambedkar",
+        "Chitale",
+        "Justice Mahadev Govind Ranade"
+      ],
+      "correctAnswer": 0,
+      "explanation": "V.K. Rajwade wrote 'Bharatvarsha'.",
+      "order": 5
+    },
+    {
+      "id": "quiz-2-1",
+      "qType": "mcq",
+      "question": "Which ancient Indian text by Kalhana is regarded as a milestone in critical historiography?",
+      "options": [
+        "Harshacharita",
+        "Rajatarangini",
+        "Arthashastra",
+        "Padmavat"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kalhana critically evaluated inscriptions, coins, and local traditions to write the history of Kashmir.",
+      "order": 1
+    },
+    {
+      "id": "quiz-2-2",
+      "qType": "mcq",
+      "question": "Who translated the Sanskrit text of 'Hitopadesh' into German?",
+      "options": [
+        "James Mill",
+        "Friedrich Max Muller",
+        "Sir John Marshall",
+        "Mountstuart Elphinstone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Max Muller was a leading German Orientalist who translated Hitopadesh and edited the Sacred Books of the East.",
+      "order": 2
+    },
+    {
+      "id": "quiz-2-3",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "The book 'Primitive Communism to Slavery' by S. A. Dange represents ____ historiography.",
+      "wordBank": [
+        "Marxist",
+        "Colonial",
+        "Nationalistic",
+        "Orientalist"
+      ],
+      "correctWord": "Marxist",
+      "options": [
+        "Marxist",
+        "Colonial",
+        "Nationalistic",
+        "Orientalist"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comrade S. A. Dange applied Marxist principles to ancient Indian socio-economic development.",
+      "order": 3
+    },
+    {
+      "id": "quiz-2-4",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "Bakhars are only based on imaginary folk tales and have no historical value.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bakhars are vital historical narratives containing eyewitness battle reports, biographies, and contemporary socio-economic data.",
+      "order": 4
+    },
+    {
+      "id": "quiz-2-5",
+      "qType": "mcq",
+      "question": "In which city did V. K. Rajwade establish the Bharat Itihas Samshodhak Mandal?",
+      "options": [
+        "Mumbai",
+        "Pune",
+        "Kolhapur",
+        "Nagpur"
+      ],
+      "correctAnswer": 1,
+      "explanation": "V. K. Rajwade founded the institution in Pune on 7th July, 1910.",
+      "order": 5
+    },
+    {
+      "id": "quiz-2-6",
+      "qType": "mcq",
+      "question": "The Sohgaura copper-plate inscription is written in which ancient script?",
+      "options": [
+        "Modi",
+        "Devanagari",
+        "Brahmi",
+        "Persian"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Sohgaura copper-plate from the Mauryan period is inscribed in ancient Brahmi script.",
+      "order": 6
+    }
+  ],
+  "part": 1,
+  "section": "History"
+}

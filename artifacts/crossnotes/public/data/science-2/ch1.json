@@ -1,0 +1,679 @@
+{
+  "id": "ch1",
+  "num": 1,
+  "title": "Heredity and Evolution",
+  "emoji": "🧬",
+  "kind": "chapter",
+  "overview": {
+    "summary": "Heredity is the passing of characters from parents to offspring through genes carried on chromosomes. Genes work through the DNA → m-RNA → protein pathway (transcription and translation), and sudden changes in genetic material are called mutations. Evolution is the gradual change of living organisms, supported by morphological, anatomical, embryological and palaeontological evidence, vestigial organs and connecting links, and explained by the theories of Lamarck and Darwin.",
+    "youWillLearn": [
+      "Define heredity and describe how genes are carried by chromosomes",
+      "Explain transcription, translation, translocation and mutation",
+      "List the evidences of evolution with examples",
+      "Compare Lamarck's and Darwin's theories",
+      "Explain connecting links and vestigial organs"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-1-central_dogma",
+      "type": "figure",
+      "title": "Transcription and translation",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMjYwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjI2MCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjI2MCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RmxvdyBvZiBnZW5ldGljIGluZm9ybWF0aW9uPC90ZXh0PjxyZWN0IHg9IjQwIiB5PSIxMDAiIHdpZHRoPSIxNTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTE1LjAiIHk9IjEyNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RE5BPC90ZXh0Pjx0ZXh0IHg9IjExNS4wIiB5PSIxNDIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPihnZW5lKTwvdGV4dD48bGluZSB4MT0iMTkwIiB5MT0iMTMwIiB4Mj0iMzAwIiB5Mj0iMTMwIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjx0ZXh0IHg9IjI0NSIgeT0iMTE4IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5UcmFuc2NyaXB0aW9uPC90ZXh0PjxyZWN0IHg9IjMwMCIgeT0iMTAwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjM3NS4wIiB5PSIxMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPm0tUk5BPC90ZXh0PjxsaW5lIHgxPSI0NTAiIHkxPSIxMzAiIHgyPSI1NjAiIHkyPSIxMzAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjgiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PHRleHQgeD0iNTA1IiB5PSIxMTgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlRyYW5zbGF0aW9uPC90ZXh0PjxyZWN0IHg9IjU2MCIgeT0iMTAwIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY2MC4wIiB5PSIxMjciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlByb3RlaW48L3RleHQ+PHRleHQgeD0iNjYwLjAiIHk9IjE0MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+KGNoYWluIG9mIGFtaW5vIGFjaWRzKTwvdGV4dD48dGV4dCB4PSI0MDAiIHk9IjIxMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5UcmFuc2xvY2F0aW9uOiByaWJvc29tZSBtb3ZlcyBhbG9uZyBtLVJOQSBieSBvbmUgdHJpcGxldCBjb2RvbjwvdGV4dD48L3N2Zz4=",
+      "figureAlt": "Flow from DNA to m-RNA to protein",
+      "figureCaption": "Transcription and translation"
+    },
+    {
+      "id": "fig-1-evolution_evidence",
+      "type": "figure",
+      "title": "Evidences of evolution",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RXZpZGVuY2VzIG9mIGV2b2x1dGlvbjwvdGV4dD48bGluZSB4MT0iNDAwLjAiIHkxPSIyMTAuMCIgeDI9IjQwMC4wIiB5Mj0iNzguMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iNjM1LjU1ODkwOTgyOTM2NzMiIHkyPSIxNDQuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iNjM1LjU1ODkwOTgyOTM2NzQiIHkyPSIyNzYuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iNDAwLjAiIHkyPSIzNDIuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iMTY0LjQ0MTA5MDE3MDYzMjcyIiB5Mj0iMjc2LjAwMDAwMDAwMDAwMDA2IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjEwLjAiIHgyPSIxNjQuNDQxMDkwMTcwNjMyNyIgeTI9IjE0NC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHJlY3QgeD0iMzA1LjAiIHk9IjQ4LjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijc1IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk1vcnBob2xvZ2ljYWw8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9Ijg4IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPnNpbWlsYXIgYm9keSBmb3JtczwvdGV4dD48cmVjdCB4PSI1NDAuNTU4OTA5ODI5MzY3MyIgeT0iMTE0LjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjM1LjU1ODkwOTgyOTM2NzMiIHk9IjE0MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5BbmF0b21pY2FsPC90ZXh0Pjx0ZXh0IHg9IjYzNS41NTg5MDk4MjkzNjczIiB5PSIxNTQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+aG9tb2xvZ291cyBvcmdhbnM8L3RleHQ+PHJlY3QgeD0iNTQwLjU1ODkwOTgyOTM2NzQiIHk9IjI0Ni4wIiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYzNS41NTg5MDk4MjkzNjc0IiB5PSIyNzMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RW1icnlvbG9naWNhbDwvdGV4dD48dGV4dCB4PSI2MzUuNTU4OTA5ODI5MzY3NCIgeT0iMjg2IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPnNpbWlsYXIgZWFybHkgZW1icnlvczwvdGV4dD48cmVjdCB4PSIzMDUuMCIgeT0iMzEyLjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjMzOSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5QYWxhZW9udG9sb2dpY2FsPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Zm9zc2lscywgY2FyYm9uIGRhdGluZzwvdGV4dD48cmVjdCB4PSI2OS40NDEwOTAxNzA2MzI3MiIgeT0iMjQ2LjAwMDAwMDAwMDAwMDA2IiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE2NC40NDEwOTAxNzA2MzI3MiIgeT0iMjczIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlZlc3RpZ2lhbCBvcmdhbnM8L3RleHQ+PHRleHQgeD0iMTY0LjQ0MTA5MDE3MDYzMjcyIiB5PSIyODYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+YXBwZW5kaXgsIGNvY2N5eDwvdGV4dD48cmVjdCB4PSI2OS40NDEwOTAxNzA2MzI2OSIgeT0iMTE0LjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTY0LjQ0MTA5MDE3MDYzMjciIHk9IjE0MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Db25uZWN0aW5nIGxpbmtzPC90ZXh0Pjx0ZXh0IHg9IjE2NC40NDEwOTAxNzA2MzI3IiB5PSIxNTQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+cGxhdHlwdXMsIGx1bmcgZmlzaCwgUGVyaXBhdHVzPC90ZXh0PjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIxMC4wIiByeD0iNzUiIHJ5PSIzMiIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMTUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkV2b2x1dGlvbjwvdGV4dD48L3N2Zz4=",
+      "figureAlt": "Concept map of evidences of evolution",
+      "figureCaption": "Evidences of evolution"
+    },
+    {
+      "id": "answers-1-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-1-1",
+          "entries": [
+            {
+              "id": "a-1-1-1",
+              "question": "(1) is pioneer of the modern genetics. (A) Charles Darwin (B) Gregor Johann Mendel (C) Hargobind Khurana (D) Walter Sutton",
+              "answer": "Gregor Johann Mendel."
+            },
+            {
+              "id": "a-1-1-2",
+              "question": "(2) Any nucleotide of the gene suddenly changes its position that causes a minor change which is nothing but the . (A) changes (B) mutation (C) disability (D) translocation (March ’25)",
+              "answer": "Mutation. (All others are stages of protein synthesis.)",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-1-1-3",
+              "question": "(3) Walter Sutton observed the paired chromosomes in the cells of . (A) monkey (B) cockroach (C) grasshopper (D) housefly",
+              "answer": "Pomfret. (All others are connecting links.)"
+            },
+            {
+              "id": "a-1-1-4",
+              "question": "(4) Genes are carried via . (A) cells (B) chromosomes (C) mitochondria (D) Golgi body",
+              "answer": "Lung fish. (All others are fishes which are not connecting links.)"
+            },
+            {
+              "id": "a-1-1-5",
+              "question": "(5) The proof for the fact that protein synthesis occurs through was given by George Beadle and Edward Tatum. (A) genes (B) cells (C) tissues (D) amino acid",
+              "answer": "Cro-Magnon. (All others are ape like stages of human evolution.)"
+            },
+            {
+              "id": "a-1-1-6",
+              "question": "(6) Transfer of information from molecule of DNA to mRNA is called process. (A) translocation (B) translation (C) transcription (D) mutation (March ’20)",
+              "answer": "(C),",
+              "questionTag": "March ’20"
+            },
+            {
+              "id": "a-1-1-7",
+              "question": "(7) A minor change occurs due to change in position of any nucleotide is termed as . (A) transcription (B) translocation (C) mutation (D) translation (March ’24)",
+              "answer": "(C),",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-1-1-8",
+              "question": "(8) is a connecting link between Annelida and Arthropoda. (A) Duck-billed platypus (B) Peripatus (C) Lungfish (D) Whale (March ’19)",
+              "answer": "(B),",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-1-1-9",
+              "question": "(9) Similarities in the initial stages of living beings indicate the evidence. (A) connecting links (B) anatomical (C) embryological (D) palaentological",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-1-10",
+              "question": "(10) About 10 thousand years ago, started to practise agriculture. (A) Gorilla (B) wise man (C) Ramapithecus (D) Australopithecus",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-1-11",
+              "question": "(11) can be considered as the first example of wise man. (A) Australopithecus (B) Ramapithecus (C) Cro Magnon (D) Neanderthal man",
+              "answer": "(D),"
+            },
+            {
+              "id": "a-1-1-12",
+              "question": "(12) Genetic disorder like sickle cell anemia my be caused due to . (A) mutation (B) translation (C) translocation (D) transcription (July ’23)",
+              "answer": "(A).",
+              "questionTag": "July ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-1-2",
+          "entries": [
+            {
+              "id": "a-2-1-1",
+              "question": "(1) Survival of fittest : Darwin : : Acquired characters : .",
+              "answer": "Lamarck"
+            },
+            {
+              "id": "a-2-1-2",
+              "question": "(2) Father of Evolution : Darwin : : Father of Genetic : .",
+              "answer": "Mendel"
+            },
+            {
+              "id": "a-2-1-3",
+              "question": "(3) m-RNA : Transcription : : t-RNA : .",
+              "answer": "Translation"
+            },
+            {
+              "id": "a-2-1-4",
+              "question": "(4) Wisdom teeth : Vestigial organs : : Lung fish : . (Sept. ’21)",
+              "answer": "Connecting link",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-2-1-5",
+              "question": "(5) Peripatus : Connecting link : : Appendix : .",
+              "answer": "Vestigial organ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-1-4",
+          "entries": [
+            {
+              "id": "a-4-1-1",
+              "question": "(1) Scientist Discovery Hugo de Vries (a) Pioneer of the modern genetics (b) Theory of natural selection (c) Mutational theory",
+              "answer": "Hugo de Vries – Mutational theory."
+            },
+            {
+              "id": "a-4-1-2",
+              "question": "(2) Theory Scientist Survival of fittest (a) Lamarck (b) Walter Sutton (c) Charles Darwin",
+              "answer": "Survival of fittest – Charles Darwin.\n\n(1) Changes acquired during life time are transferred to next generation.\n\n(2) It seems that invertebrates have been slowly originated from vertebrates.\n\n(3) The decaying process of C-12 occurs continuously from the dead remains of living organisms.\n\n(4) Mesozoic era was dominated by variety of mammals.\n\n(5) Dr. Har Govind Khorana was awarded Nobel prize for his invention and publication in the journal Radio Carbon.\n\n(6) Study of fossils is an important aspect of the study of evolution. (March ’25) Ans.\n\n(1) False\n\n(2) False\n\n(3) False\n\n(4) False\n\n(5) False\n\n(6) True."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-1-5",
+          "entries": [
+            {
+              "id": "a-5-1-1",
+              "question": "(1) Genetic disorder caused due to mutation.",
+              "answer": "Sickle cell anaemia."
+            },
+            {
+              "id": "a-5-1-2",
+              "question": "(2) Being a fish, I perform respiration with the help of lungs. Who am I? (March ’25)",
+              "answer": "Lungfish.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-5-1-3",
+              "question": "(3) Father of modern genetics.",
+              "answer": "Johann Gregor Mendel."
+            },
+            {
+              "id": "a-5-1-4",
+              "question": "(4) Vestigial organs in human beings.",
+              "answer": "Appendix, tail-bone or coccyx, wisdom teeth and body hair."
+            },
+            {
+              "id": "a-5-1-5",
+              "question": "(5) I am connecting link between Reptilia and mammals. What is my name ? (March ’20)",
+              "answer": "Duck-billed Platypus.",
+              "questionTag": "March ’20"
+            },
+            {
+              "id": "a-5-1-6",
+              "question": "(6) Examples of connecting links.",
+              "answer": "(1) Peripatus\n\n(2) Duck-billed Platypus\n\n(3) Lungfish."
+            },
+            {
+              "id": "a-5-1-7",
+              "question": "(7) Scientific name of human being. (July ’22)",
+              "answer": "Homo sapiens.",
+              "questionTag": "July ’22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-1-6",
+          "entries": [
+            {
+              "id": "a-6-1-1",
+              "question": "(1) t-RNA.",
+              "answer": "t-RNA is present in the cytoplasm. According to the message of the m-RNA, it carries the specific amino acid up to the ribosomes."
+            },
+            {
+              "id": "a-6-1-2",
+              "question": "(2) Gene.",
+              "answer": "Genes in the form of DNA participate in process of protein synthesis. They help in the functioning of cell and maintain the structure of a cell."
+            },
+            {
+              "id": "a-6-1-3",
+              "question": "(3) m-RNA.",
+              "answer": "m-RNA is a messenger RNA molecule which transcribes the information present on the DNA to cytoplasm for protein synthesis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-1-8",
+          "entries": [
+            {
+              "id": "a-8-1-1",
+              "question": "(1) Darwin’s theory of natural selection.",
+              "answer": "Charles Darwin (1809 – 1882) proposed the theory of natural selection. Theory of natural selection : ‘The survival of fittest’, i.e. organisms which are fit for survival, evolve while those that are not, perish. The natural selection thus acts to produce new species."
+            },
+            {
+              "id": "a-8-1-2",
+              "question": "(2) Lamarck’s principle of ‘use or disuse of organs’.",
+              "answer": "The theory of use and disuse of organs says that the morphological characters of organism develop because of specific activities that the organisms perform. If some organ is not used it gets degenerated. If excessively used, it develops. Thus, the morphological changes take place due to activities or non-working of a particular body parts in an organism. II. Give definitions :\n\n(1) Heredity : The transfer of biological characters from one generation to another through genes is called heredity.\n\n(2) Transcription : Process of synthesis of m-RNA according to the nucleotide sequence present on DNA is called transcription.\n\n(3) Translocation : The process of movement of the ribosome from one end of m-RNA to other end by the distance of one triplet codon is called translocation.\n\n(4) Mutation : Sudden and drastic change that occurs in the genetic material is called mutation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set9",
+      "type": "answer_sets",
+      "title": "Q. Set 9 : Distinguish Between the Following",
+      "answerGroups": [
+        {
+          "id": "g-1-9",
+          "entries": [
+            {
+              "id": "a-9-1-1",
+              "question": "(1) Evolution. (2 marks)",
+              "answer": "(1) The sequential changes in the groups of living organisms that take place very gradually is called evolution.\n\n(2) Evolution is also described as the formation of new species due to natural selection.\n\n(3) The process of evolution takes millions of years for development and speciation of different organisms.\n\n(4) Changes in stars and planets in space and the changes in biosphere occurring on the Earth are all included under study of evolution.\n\n(5) Due to evolution organisms become fit, biodiversity is increased, and new species are created.\n\n(6) Different scientists have put forth theories to explain the process of evolution. Among these Charles Darwin’s theory of natural selection and speciation is accepted worldwide."
+            },
+            {
+              "id": "a-9-1-2",
+              "question": "(2) Connecting link. OR Explain the concept of connecting links with two suitable examples. (July ’22) (3 marks)",
+              "answer": "Connecting links are organisms that show characteristics of two different groups, indicating an evolutionary relationship.\n\n(1) Duck-billed platypus is a connecting link between reptiles and mammals: it lays eggs like reptiles and has mammary glands and hair like mammals.\n\n(2) Lung fish is a connecting link between fishes and amphibians: it is a fish but has lungs for respiration, as in amphibians.",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-9-1-3",
+              "question": "(3) Embryology. (2 marks)",
+              "answer": "(1) Embryology is the study of developing embryos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-1-10",
+          "entries": [
+            {
+              "id": "a-10-1-1",
+              "question": "(1) Study of fossils is an important aspect of study of evolution.",
+              "answer": "(1) Fossils offer palaeontological evidence for the evolutionary process.\n\n(2) Due to some natural calamities the organisms got buried during ancient times.\n\n(3) The impressions and remnants of such organisms remain preserved underground. The hot lava also traps some organisms or their impressions. All such formations form fossils.\n\n(4) Study of fossils help the researcher to understand the characteristics of the organisms that existed in the past.\n\n(5) Carbon dating method helps in finding out exact age of the fossil. According to the structure of earth’s crust, the fossils are obtained at specific depths.\n\n(6) The oldest ones are obtained at the depth while the relatively recent ones occupy the upper surface. Thus, fossils of invertebrates were seen in very old Palaeozoic era. Later were seen fossils of Pisces, Amphibia and Reptilia. The Mesozoic era was dominated by reptiles while Coenozoic era showed presence of mammals.\n\n(7) In this way, study of fossils unfold the evolutionary secrets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-1-13",
+          "entries": [
+            {
+              "id": "a-13-1-1",
+              "question": "(1) Identify and define the evidence of evolution shown by the arrow in the given figure. (2 marks)",
+              "answer": "The evidence of evolution shown in the diagram is appendix which is vestigial organ. Definition of vestigial organ : The degenerated or underdeveloped organ which cannot perform any function is known as vestigial organ."
+            },
+            {
+              "id": "a-13-1-2",
+              "question": "(2) Write the name of indicated part in the diagram : (March ’23) (1 mark)",
+              "answer": "Wisdom teeth Human jaw",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-13-1-3",
+              "question": "(3) Observe the picture given and discuss the characters observed. (5 marks) Duck-billed Lung fish Peripatus",
+              "answer": "The pictures given show connecting links. These are as follows :\n\n(1) Duck-billed platypus : This is a connecting link between reptiles and mammals. Like reptiles it lays eggs but like mammals it has mammary glands and hairy skin.\n\n(2) Lung fish : Lung fish is a connecting link between fishes and amphibians. Though a fish, it shows lungs for respiration as in amphibian animals.\n\n(3) Peripatus : Peripatus is the connecting link between Annelida and Arthropoda. It shows characters of both animal phyla. Like annelid worm, it shows segmented body, thin cuticle and parapodia. Like an arthropod, it shows open circulatory system and tracheal system for respiration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-1-14",
+          "entries": [
+            {
+              "id": "a-14-1-1",
+              "question": "(1) Complete the following diagram : (Sept. ’21) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Cat’s/Bull’s Human hand foreleg Anatomical evidences Flipper of Patagium of Whale Bat",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-14-1-2",
+              "question": "(2) Complete the following diagram : (March ’22; July ’22) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Paleontological evidence Morphological Vestigial organs Evidences of Evolution Similarities in Anatomical bone structure evidence Embryological evidences",
+              "questionTag": "March ’22; July ’22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-1-15",
+          "entries": [
+            {
+              "id": "a-15-1-1",
+              "question": "(1) Which part of the cell control the structure and functioning of the body?",
+              "answer": "Genes present in the form of DNA along with RNA control the structure and functioning of the body."
+            },
+            {
+              "id": "a-15-1-2",
+              "question": "(2) What is the similarity between m-RNA and DNA?",
+              "answer": "The sequence of nucleotides on DNA is copied on m-RNA. The nucleotide sequence on m-RNA is thus complementary to DNA."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set17",
+      "type": "answer_sets",
+      "title": "Q. Set 17 : Classification-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-1-17",
+          "entries": [
+            {
+              "id": "a-17-1-1",
+              "question": "(1) What is meant by carbon dating method?",
+              "answer": "(1) Carbon dating method is technique used for determining the age of fossils.\n\n(2) After the death of the organisms, their consumption of carbon stops. But right from that moment the decaying process of C-14 occurs continuously.\n\n(3) This results in change in the ratio between C-14 and C-12. C-12 is not radioactive as C-14.\n\n(4) Thus, the time passed since the death of a plant or animal is calculated by measuring the radioactivity of C-14 and ratio of C-14 to C-12 present in their body.\n\n(5) The points noted during carbon dating are : (i) The period after the organism has been dead. (ii) The activity of C-14 in the dead organism. (iii) Ratio between C-14 and C-12."
+            },
+            {
+              "id": "a-17-1-2",
+              "question": "(2) Describe briefly the Darwin’s theory of Natural Selection. (Nov. ’20)",
+              "answer": "Charles Darwin (1809–1882) proposed the theory of natural selection. Organisms that are fit for survival survive and reproduce, while those that are not perish. Over generations, natural selection can lead to the formation of new species.",
+              "questionTag": "Nov. ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-1-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-1-18",
+          "entries": [
+            {
+              "id": "a-18-1-1",
+              "question": "(1) Define heredity. Explain the mechanism of hereditary changes. (March ’25)",
+              "answer": "(1) Heredity : Heredity is the process by which the biological characters from parental generation are transmitted to the next generation through genes.\n\n(2) The mechanism of hereditary changes : (i) Mutation : Sudden change in the parental DNA can cause mutations. This results into changes in the hereditary characters. (ii) At the time of meiosis, the crossing over takes place. This creates new recombination of the genetic information. Therefore, the haploid gametes produced carry changed hereditary characters.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-18-1-2",
+              "question": "(2) Answer the following questions : (March ’19) (3 marks) (a) What do you mean by central dogma? (b) What is transcription ? (c) What is meant by triplet codon ?",
+              "answer": "(a) Information about protein synthesis is present in DNA. As per this information, proteins are produced by DNA through RNA molecules. This is called central dogma. (b) The process of synthesis of m-RNA as per the nucleotide sequence present in DNA is called transcription. The nucleotide sequence on m-RNA is complimentary to that of the single DNA strand used in synthesis. Instead of thymine, m-RNA possesses uracil. (c) The code for each amino acid always consists of three nucleotides which is known as triplet codon.",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-18-1-3",
+              "question": "(3) Explain with suitable examples importance of anatomical evidences in evolution. (July ’19; March ’20) (3 marks)",
+              "answer": "(1) There are similarities in the structure and anatomy of different animal groups. e.g. Human hand, forelimb of bull, patagium of bat and flipper of whale are all similar in their internal anatomy. There is similarity in the bones and joints of all these specimens.\n\n(2) External morphology does not show any similarity. Use of each of the organ is also different in different animals. Structurally, they may not be related.\n\n(3) However, the similarities in the anatomy is an evidence that they may have a common ancestor. In this way, the anatomical evidence throws light on the process of evolution.",
+              "questionTag": "July ’19; March ’20"
+            },
+            {
+              "id": "a-18-1-4",
+              "question": "(4) Write about Darwin’s theory of Natural Selection. (March ’23) (3 marks)",
+              "answer": "Charles Darwin (1809–1882) proposed the theory of natural selection. Organisms that are fit for survival survive and reproduce, while those that are not perish. Over generations, natural selection can lead to the formation of new species.",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-18-1-5",
+              "question": "(5) Write the objections raised against Darwin’s theory of Natural Selection. (March ’22) (3 marks)",
+              "answer": "Objections to Darwin’s theory of Natural Selection :\n\n(1) There are other factors too for evolution and just not the Natural Selection.\n\n(2) Arrival of useful and useless modifications were not explained by Darwin, though he said about the survival of the fittest.\n\n(3) He has not given any explanation about slow changes and abrupt changes occurring during evolution.\n\n(4) Darwin did not give any explanation for arrival of the fittest.",
+              "questionTag": "March ’22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-1-1",
+      "front": "What is heredity?",
+      "back": "The transfer of biological characters from one generation to another through genes.",
+      "order": 1
+    },
+    {
+      "id": "fc-1-2",
+      "front": "Who is the pioneer of modern genetics?",
+      "back": "Gregor Johann Mendel.",
+      "order": 2
+    },
+    {
+      "id": "fc-1-3",
+      "front": "What did Walter Sutton observe?",
+      "back": "Paired chromosomes in grasshopper cells; genes are carried via chromosomes.",
+      "order": 3
+    },
+    {
+      "id": "fc-1-4",
+      "front": "Transcription",
+      "back": "Synthesis of m-RNA according to the nucleotide sequence present on DNA.",
+      "order": 4
+    },
+    {
+      "id": "fc-1-5",
+      "front": "Translation",
+      "back": "Synthesis of a protein (chain of amino acids) on the ribosome according to the codons of m-RNA, with the help of t-RNA.",
+      "order": 5
+    },
+    {
+      "id": "fc-1-6",
+      "front": "Translocation",
+      "back": "Movement of the ribosome along m-RNA by the distance of one triplet codon.",
+      "order": 6
+    },
+    {
+      "id": "fc-1-7",
+      "front": "Mutation",
+      "back": "A sudden and drastic change in the genetic material (for example, change in the position of a nucleotide).",
+      "order": 7
+    },
+    {
+      "id": "fc-1-8",
+      "front": "Name three connecting links and what they connect.",
+      "back": "Duck-billed platypus: reptiles and mammals. Lung fish: fishes and amphibians. Peripatus: Annelida and Arthropoda.",
+      "order": 8
+    },
+    {
+      "id": "fc-1-9",
+      "front": "What are vestigial organs? Give examples.",
+      "back": "Degenerated or underdeveloped organs that perform no function, e.g. appendix, tail-bone (coccyx), wisdom teeth, body hair.",
+      "order": 9
+    },
+    {
+      "id": "fc-1-10",
+      "front": "Lamarckism",
+      "back": "Two ideas: use and disuse of organs, and inheritance of acquired characters. Acquired characters are not actually inherited, so the theory is not accepted.",
+      "order": 10
+    },
+    {
+      "id": "fc-1-11",
+      "front": "Darwin's theory of natural selection",
+      "back": "\"Survival of the fittest\": organisms fit for survival evolve, those that are not perish; natural selection thus produces new species.",
+      "order": 11
+    },
+    {
+      "id": "fc-1-12",
+      "front": "What does carbon dating tell us?",
+      "back": "The age of fossils, measured from the ratio of radioactive C-14 to C-12 left in the remains.",
+      "order": 12
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-1-1",
+      "qType": "mcq",
+      "question": "Who is regarded as the pioneer of modern genetics?",
+      "options": [
+        "Charles Darwin",
+        "Gregor Johann Mendel",
+        "Hargobind Khorana",
+        "Walter Sutton"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mendel's work on inheritance laid the foundation of modern genetics.",
+      "order": 1
+    },
+    {
+      "id": "quiz-1-2",
+      "qType": "mcq",
+      "question": "Transfer of information from DNA to m-RNA is called ____.",
+      "options": [
+        "translation",
+        "translocation",
+        "transcription",
+        "mutation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Transcription copies the nucleotide sequence of DNA into m-RNA.",
+      "order": 2
+    },
+    {
+      "id": "quiz-1-3",
+      "qType": "mcq",
+      "question": "Which animal is the connecting link between Annelida and Arthropoda?",
+      "options": [
+        "Duck-billed platypus",
+        "Peripatus",
+        "Lung fish",
+        "Whale"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Peripatus shows features of both phyla.",
+      "order": 3
+    },
+    {
+      "id": "quiz-1-4",
+      "qType": "mcq",
+      "question": "Similarities in the early stages of vertebrate embryos give ____ evidence for evolution.",
+      "options": [
+        "palaeontological",
+        "anatomical",
+        "embryological",
+        "morphological"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Comparative embryology shows a common ancestry.",
+      "order": 4
+    },
+    {
+      "id": "quiz-1-5",
+      "qType": "mcq",
+      "question": "Which of these is a vestigial organ in humans?",
+      "options": [
+        "Appendix",
+        "Heart",
+        "Liver",
+        "Kidney"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The appendix is degenerated in humans but functional in ruminants.",
+      "order": 5
+    },
+    {
+      "id": "quiz-1-6",
+      "qType": "mcq",
+      "question": "Carbon dating compares the amounts of which two forms of carbon?",
+      "options": [
+        "C-14 and C-12",
+        "C-12 and C-13",
+        "C-14 and C-16",
+        "C-11 and C-12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "C-14 decays after death while C-12 does not.",
+      "order": 6
+    },
+    {
+      "id": "quiz-1-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "Changes acquired during an organism's life time are transferred to the next generation.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only genetic characters are transmitted, so acquired characters are not inherited.",
+      "order": 7
+    },
+    {
+      "id": "quiz-1-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "A sudden and drastic change in the genetic material is called ____.",
+      "wordBank": [
+        "mutation",
+        "translation",
+        "transcription",
+        "translocation"
+      ],
+      "correctWord": "mutation",
+      "options": [
+        "mutation",
+        "translation",
+        "transcription",
+        "translocation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mutation changes the genetic material suddenly.",
+      "order": 8
+    },
+    {
+      "id": "quiz-1-9",
+      "qType": "match",
+      "question": "Match each connecting link with the groups it connects.",
+      "left": [
+        "Duck-billed platypus",
+        "Lung fish",
+        "Peripatus"
+      ],
+      "right": [
+        "Fishes and amphibians",
+        "Annelida and Arthropoda",
+        "Reptiles and mammals"
+      ],
+      "answerKey": [
+        2,
+        0,
+        1
+      ],
+      "options": [
+        "Fishes and amphibians",
+        "Annelida and Arthropoda",
+        "Reptiles and mammals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each shows characters of two groups.",
+      "order": 9
+    }
+  ]
+}

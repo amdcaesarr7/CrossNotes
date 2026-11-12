@@ -1,0 +1,698 @@
+{
+  "id": "ch8",
+  "num": 8,
+  "title": "Tourism and History",
+  "emoji": "✈️",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter explores tourism from its historical origins to its modern standing as a major economic powerhouse. It traces the adventures of ancient global travelers (Benjamin of Tudela, Marco Polo, Ibn Battuta, Yuan Chwang) and commercial travel pioneer Thomas Cook, categorizes contemporary tourism types (historical, geographic, cultural, agro, health, and sports tourism), maps destinations across Maharashtra, and highlights crucial issues in hospitality and conservation.",
+    "youWillLearn": [
+      "Understand the historical evolution of travel and tourism through renowned global travelers",
+      "Learn how Thomas Cook established the foundations of modern commercial tourism agencies",
+      "Classify modern tourism types: historical, geographic, cultural, agro-tourism, and health tourism",
+      "Explore Maharashtra's heritage destinations, pilgrim sites, hill stations, and Bhilar Village of Books",
+      "Identify employment opportunities and infrastructure requirements for sustainable tourism"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "Tourism based on historical sites is called ______.\n(A) Historical tourism (B) Cultural tourism (C) Eco-tourism (D) Adventure tourism",
+      "qnaAnswer": "Correct Answer: (A) Historical tourism"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "______ is the most popular type of tourism in Maharashtra.\n(A) Historical tourism (B) Cultural tourism (C) Eco-tourism (D) Religious tourism",
+      "qnaAnswer": "Correct Answer: (D) Religious tourism"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "The Ajanta and Ellora caves are examples of ______ tourism.\n(A) Historical (B) Cultural (C) Eco (D) Religious",
+      "qnaAnswer": "Correct Answer: (A) Historical"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "Tourism that focuses on natural environments is called ______.\n(A) Historical tourism (B) Cultural tourism (C) Eco-tourism (D) Adventure tourism",
+      "qnaAnswer": "Correct Answer: (C) Eco-tourism"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "The tourism industry contributes to ______.\n(A) Economic development (B) Cultural preservation (C) Both (A) and (B) (D) None of the above",
+      "qnaAnswer": "Correct Answer: (C) Both (A) and (B)"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Item",
+        "Description",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "Ajanta Caves",
+          "Historical tourism",
+          "Correct"
+        ],
+        [
+          "Mahabaleshwar",
+          "Hill station",
+          "Correct"
+        ],
+        [
+          "Tadoba",
+          "Wildlife sanctuary",
+          "Correct"
+        ],
+        [
+          "Shirdi",
+          "Religious tourism",
+          "Correct"
+        ],
+        [
+          "Elephanta Caves",
+          "Beach tourism",
+          "WRONG — Elephanta Caves are an example of historical/heritage tourism, not beach tourism."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Types of Tourism",
+      "content": "Types of Tourism → Historical Tourism → Cultural Tourism → Eco-Tourism → Religious Tourism → Adventure Tourism → Medical Tourism",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Historical Tourism",
+      "question": "Explain the following concept: Historical Tourism",
+      "qnaAnswer": "\n1. Historical tourism involves visiting historical sites, monuments, and places of historical importance.\n2. It helps people learn about the past and understand different cultures.\n3. Examples: Ajanta and Ellora caves, Taj Mahal, Red Fort, Gateway of India.\n4. It contributes to the preservation of historical sites.\n5. It is an important source of revenue for the tourism industry.",
+      "important": true
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Cultural Tourism",
+      "question": "Explain the following concept: Cultural Tourism",
+      "qnaAnswer": "\n1. Cultural tourism involves experiencing the culture, traditions, and lifestyle of a place.\n2. It includes visiting museums, art galleries, festivals, and local communities.\n3. It helps in preserving and promoting cultural heritage.\n4. It provides economic benefits to local communities.\n5. Examples: Folk festivals, traditional arts and crafts, local cuisine.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Eco-Tourism",
+      "question": "Explain the following concept: Eco-Tourism",
+      "qnaAnswer": "\n1. Eco-tourism focuses on visiting natural environments while minimizing the negative impact on the environment.\n2. It promotes conservation and sustainable development.\n3. It provides economic benefits to local communities.\n4. Examples: Wildlife sanctuaries, national parks, and natural reserves.\n5. It is an important tool for environmental awareness and education.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Religious Tourism",
+      "question": "Explain the following concept: Religious Tourism",
+      "qnaAnswer": "\n1. Religious tourism involves visiting places of religious importance.\n2. It is one of the oldest forms of tourism.\n3. It includes pilgrimages to temples, mosques, churches, and other religious sites.\n4. Examples: Shirdi, Tirupati, Varanasi, Mecca, Vatican City.\n5. It is an important source of revenue for many religious institutions.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n17",
+      "type": "qna",
+      "title": "Short Note: Role of History in Tourism",
+      "question": "Write a short note on: Role of History in Tourism",
+      "qnaAnswer": "\n1. History plays an important role in promoting tourism.\n2. Historical sites and monuments attract tourists from all over the world.\n3. Historical knowledge helps in interpreting and presenting tourist sites.\n4. It helps in creating engaging narratives for tourists.\n5. History also helps in preserving and managing heritage sites.",
+      "important": true
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Tourism in Maharashtra",
+      "question": "Write a short note on: Tourism in Maharashtra",
+      "qnaAnswer": "\n1. Maharashtra is one of the most popular tourist destinations in India.\n2. It has a rich history and cultural heritage.\n3. Major tourist attractions include Ajanta and Ellora caves, Elephanta caves, Gateway of India, and hill stations like Mahabaleshwar and Lonavala.\n4. Religious tourism is also important, with places like Shirdi, Trimbakeshwar, and Pandharpur.\n5. The tourism industry in Maharashtra contributes significantly to the state's economy.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Economic Importance of Tourism",
+      "question": "Write a short note on: Economic Importance of Tourism",
+      "qnaAnswer": "\n1. Tourism is an important source of revenue for many countries.\n2. It provides employment opportunities in various sectors like hospitality, transport, and handicrafts.\n3. It promotes local businesses and industries.\n4. It contributes to infrastructure development.\n5. It also helps in the preservation of cultural and natural heritage.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "Relationship Between Tourism and History",
+      "question": "Explain the relationship between tourism and history.",
+      "qnaAnswer": "\n1. Tourism and history are closely related.\n2. Historical sites and monuments are major tourist attractions.\n3. Historical knowledge helps in interpreting and presenting tourist sites.\n4. Tourism helps in preserving and promoting historical heritage.\n5. It also provides economic benefits for the maintenance of historical sites."
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "Types of Tourism in India",
+      "question": "Describe the various types of tourism in India.",
+      "qnaAnswer": "\n1. Historical Tourism: Visiting historical sites like Ajanta, Ellora, Taj Mahal.\n2. Cultural Tourism: Experiencing local culture, festivals, and traditions.\n3. Eco-Tourism: Visiting natural environments like wildlife sanctuaries and national parks.\n4. Religious Tourism: Visiting places of religious importance like Shirdi, Varanasi, Tirupati.\n5. Adventure Tourism: Activities like trekking, rafting, and paragliding.\n6. Medical Tourism: Visiting India for medical treatment."
+    },
+    {
+      "id": "n23",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n24",
+      "type": "qna",
+      "title": "[IMPORTANT] Tourist Places in Maharashtra",
+      "question": "Name any five tourist places in Maharashtra.",
+      "qnaAnswer": "Five tourist places in Maharashtra are:\n\n1. Ajanta and Ellora Caves (Aurangabad)\n\n2. Elephanta Caves (Mumbai)\n\n3. Gateway of India (Mumbai)\n\n4. Mahabaleshwar (Hill Station)\n\n5. Shirdi (Religious Site)",
+      "important": true
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "[IMPORTANT] Role of Tourism in Economic Development",
+      "question": "Explain the role of tourism in economic development.",
+      "qnaAnswer": "\n1. Tourism is an important source of foreign exchange earnings.\n2. It provides direct and indirect employment opportunities.\n3. It promotes local industries and handicrafts.\n4. It contributes to infrastructure development like roads, airports, and hotels.\n5. It also helps in the preservation of cultural and natural heritage, which in turn attracts more tourists.",
+      "important": true
+    },
+    {
+      "id": "fig-8-types_of_tourism",
+      "type": "figure",
+      "title": "Classification of Modern Tourism Types",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q2xhc3NpZmljYXRpb24gb2YgVG91cmlzbSBUeXBlczwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MDMuMyIgeTI9IjE0MC44IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjUzLjUiIHkyPSIyNTUuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjUxMi44IiB5Mj0iMzQ2LjYiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIyODcuMiIgeTI9IjM0Ni42IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTQ2LjUiIHkyPSIyNTUuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE5Ni43IiB5Mj0iMTQwLjgiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI2NS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkhpc3RvcmljYWwgVG91cmlzbTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTAxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEZvcnRzLCBtb251bWVudHMsIGJhdHRsZWZpZWxkcyk8L3RleHQ+PHJlY3QgeD0iNTEzLjMiIHk9IjExNS44IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYwMy4zIiB5PSIxMzcuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5HZW9ncmFwaGljIFRvdXJpc208L3RleHQ+PHRleHQgeD0iNjAzLjMiIHk9IjE1Mi4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihCZWFjaGVzLCB3aWxkbGlmZSBzYW5jdHVhcmllcywgdmFsbGV5cyk8L3RleHQ+PHJlY3QgeD0iNTYzLjUiIHk9IjIzMC4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY1My41IiB5PSIyNTEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5SZWxpZ2lvdXMgVG91cmlzbSAoUGlsZ3JpbWFnZXMpPC90ZXh0Pjx0ZXh0IHg9IjY1My41IiB5PSIyNjYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oQ2hhciBEaGFtLCBQYW5kaGFycHVyLCBWYXJhbmFzaSk8L3RleHQ+PHJlY3QgeD0iNDIyLjgiIHk9IjMyMS42IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjUxMi44IiB5PSIzNDMuMSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5DdWx0dXJhbCBUb3VyaXNtPC90ZXh0Pjx0ZXh0IHg9IjUxMi44IiB5PSIzNTguMSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oRm9sayBmZXN0aXZhbHMsIGFydHMgJiBjcmFmdHMgZmFpcnMpPC90ZXh0PjxyZWN0IHg9IjE5Ny4yIiB5PSIzMjEuNiIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyODcuMiIgeT0iMzQzLjEiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QWdyby1Ub3VyaXNtPC90ZXh0Pjx0ZXh0IHg9IjI4Ny4yIiB5PSIzNTguMSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oRmFybSBzdGF5cywgYWdyaWN1bHR1cmFsIHJlc2VhcmNoIHZpc2l0cyk8L3RleHQ+PHJlY3QgeD0iNTYuNSIgeT0iMjMwLjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTQ2LjUiIHk9IjI1MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNwb3J0cyBUb3VyaXNtPC90ZXh0Pjx0ZXh0IHg9IjE0Ni41IiB5PSIyNjYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oT2x5bXBpY3MsIFdvcmxkIEN1cHMsIG1hcmF0aG9ucyk8L3RleHQ+PHJlY3QgeD0iMTA2LjciIHk9IjExNS44IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE5Ni43IiB5PSIxMzcuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5IZWFsdGggLyBNZWRpY2FsIFRvdXJpc208L3RleHQ+PHRleHQgeD0iMTk2LjciIHk9IjE1Mi4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihBeXVydmVkYSwgWW9nYSwgYWZmb3JkYWJsZSBzdXJnZXJpZXMpPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5UeXBlcyBvZjwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlRvdXJpc208L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map classifying different types of tourism",
+      "figureCaption": "Comprehensive categorization of historical, geographic, cultural, and specialized modern tourism"
+    },
+    {
+      "id": "fig-8-tourist_places_maharashtra",
+      "type": "figure",
+      "title": "Diverse Tourist Destinations in Maharashtra",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VG91cmlzdCBQbGFjZXMgaW4gTWFoYXJhc2h0cmE8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjM2MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI2NS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlBpbGdyaW0gQ2VudHJlczwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTAxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFBhbmRoYXJwdXIsIEplanVyaSwgU2hpcmRpLCBUdWxqYXB1cik8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5IaWxsIFN0YXRpb25zPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oTWFoYWJhbGVzaHdhciwgUGFuY2hnYW5pLCBNYXRoZXJhbiwgQ2hpa2hhbGRhcmEpPC90ZXh0PjxyZWN0IHg9IjUzNS4yIiB5PSIyNjcuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MjUuMiIgeT0iMjg5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RGFtcyBhbmQgUmVzZXJ2b2lyczwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMzA0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEtveW5hLCBCaGF0Z2hhciwgSmF5YWt3YWRpLCBCaGFuZGFyZGFyYSk8L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMzNS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Sb2NrLWN1dCBDYXZlcyAmIEhlcml0YWdlPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNzEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oQWphbnRhLCBWZXJ1bCwgRWxlcGhhbnRhIC8gR2hhcmFwdXJpLCBLYXJsYSk8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk5hdHVyYWwgV29uZGVyczwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMzA0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEthYXMgUGxhdGVhdSwgTG9uYXIgQ3JhdGVyIExha2UsIE5pZ2hvaiBQb3Rob2xlcyk8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkhpc3RvcmljIEZvcnRzPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oUmFpZ2FkLCBTaGl2bmVyaSwgU2luaGFnYWQsIFByYXRhcGdhZCwgSmFuamlyYSk8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPk1haGFyYXNodHJhPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VG91cmlzbTwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of tourist destinations across Maharashtra",
+      "figureCaption": "Prominent pilgrimage sites, hill stations, water bodies, caves, and forts attracting tourists in Maharashtra"
+    },
+    {
+      "id": "fig-8-historic_travellers",
+      "type": "figure",
+      "title": "Historic Global Travellers and Travel Pioneers",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SGlzdG9yaWMgR2xvYmFsIFRyYXZlbGxlcnMgJiBQaW9uZWVyczwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz4KPHJlY3QgeD0iMzEwLjAiIHk9IjY1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijg2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QmVuamFtaW4gb2YgVHVkZWxhICgxMnRoIEMuKTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTAxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U3BhaW47IGRvY3VtZW50ZWQgSmV3aXNoIGNvbW11bml0aWVzPC90ZXh0PjxyZWN0IHg9IjUzNS4yIiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MjUuMiIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TWFyY28gUG9sbyAoMTN0aCBDLik8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkl0YWx5OyB0cmF2ZWxlZCB0byBDaGluYSwgQXNpYSAmIEluZGlhPC90ZXh0PjxyZWN0IHg9IjUzNS4yIiB5PSIyNjcuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MjUuMiIgeT0iMjg5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+SWJuIEJhdHR1dGEgKDE0dGggQy4pPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Nb3JvY2NvOyB0cmF2ZWxlZCBJc2xhbWljIHdvcmxkICYgSW5kaWEgZm9yIDMwIHlyczwvdGV4dD48cmVjdCB4PSIzMTAuMCIgeT0iMzM1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjM1Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkdlcmFyZHVzIE1lcmNhdG9yICgxNnRoIEMuKTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMzcxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Q2FydG9ncmFwaGVyOyBjcmVhdGVkIHdvcmxkIG1hcCBwcm9qZWN0aW9uPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5ZdWFuIENod2FuZyAoN3RoIEMuKTwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMzA0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Q2hpbmE7IEJ1ZGRoaXN0IG1vbmsgdHJhdmVsZXIgdG8gSW5kaWEgKDYzMCBDLkUuKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+VGhvbWFzIENvb2sgKDE5dGggQy4pPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5FbmdsYW5kOyBmYXRoZXIgb2YgbW9kZXJuIGNvbW1lcmNpYWwgdG91cmlzbSBhZ2VuY3k8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkhpc3RvcmljPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VHJhdmVsbGVyczwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of legendary historic global travelers",
+      "figureCaption": "Pioneering explorers whose travelogues and innovations laid the foundations of world tourism"
+    },
+    {
+      "id": "answers-8-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-8-1",
+          "entries": [
+            {
+              "id": "a-8-1-1",
+              "question": "(1) Thomas Cook established a travel agency selling ______.\n(a) handicrafts\n(b) toys\n(c) food items\n(d) tourist tickets",
+              "answer": "tourist tickets. (Organized a historic railway tour for 570 passengers in England in 1841, pioneering the commercial travel agency.)",
+              "questionTag": "Nov. '20; March '23"
+            },
+            {
+              "id": "a-8-1-2",
+              "question": "(2) Near Mahabaleshwar, Bhilar is known as the 'Village of ______'.\n(a) Books\n(b) Plants\n(c) Mangoes\n(d) Pandits",
+              "answer": "Books. (Initiated by the Government of Maharashtra, every household maintains a mini-library of Marathi literature for tourists.)",
+              "questionTag": "July '19 - '22; March '20 - '24"
+            },
+            {
+              "id": "a-8-1-3",
+              "question": "(3) The Chinese monk ______ travelled in India in 630 C.E.\n(a) Hiuen Tsang / Yuan Chwang\n(b) Fa-Hien\n(c) Ho Chi Minh\n(d) Itsing",
+              "answer": "Yuan Chwang (Hiuen Tsang). (Documented Indian monastic education, Nalanda university, and King Harsha's empire.)"
+            },
+            {
+              "id": "a-8-1-4",
+              "question": "(4) Foreign tourists visit India for ______.\n(a) Yoga training and Ayurvedic therapies\n(b) Ayurveda and Unani therapies\n(c) Unani and Allopathy therapies\n(d) Homeopathy and Naturopathy",
+              "answer": "Yoga training and Ayurvedic therapies. (India offers traditional holistic wellness combined with cost-effective medical treatments.)"
+            },
+            {
+              "id": "a-8-1-5",
+              "question": "(5) ______ successfully circumnavigated Europe and organized round-the-world tours.\n(a) Marco Polo\n(b) Thomas Cook\n(c) Benjamin of Tudela\n(d) Gerardus Mercator",
+              "answer": "Thomas Cook."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Identify and Write the Wrong Pair in the Following Sets",
+      "answerGroups": [
+        {
+          "id": "g-8-2",
+          "entries": [
+            {
+              "id": "a-8-2-1",
+              "question": "[Place — Tourist Attraction Type]\n(1) Gharapuri (Elephanta) — Rock-cut caves\n(2) Pandharpur — Pilgrim centre\n(3) Sagareshwar — Dam\n(4) Panchgani — Hill station",
+              "answer": "Wrong pair: Sagareshwar — Dam. (Sagareshwar is a famous deer sanctuary and wildlife sanctuary, not a dam; dams in Maharashtra include Koyna, Bhatghar, and Jayakwadi.)",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-8-2-2",
+              "question": "[Tourism Type — Activity]\n(1) Historical Tourism — Visit to historical places\n(2) Tourism based on special events — Visit to film festivals and book exhibitions\n(3) International Tourism — Visit to hill stations\n(4) Sports Tourism — Visit to sports events",
+              "answer": "Wrong pair: International Tourism — Visit to hill stations. (Visiting local hill stations is domestic geographic tourism, whereas international tourism involves crossing national borders.)"
+            },
+            {
+              "id": "a-8-2-3",
+              "question": "[Traveller — Origin Country]\n(1) Benjamin of Tudela — Spain\n(2) Marco Polo — Italy\n(3) Ibn Battuta — India\n(4) Yuan Chwang — China",
+              "answer": "Wrong pair: Ibn Battuta — India. (Ibn Battuta was a legendary 14th-century traveler born in Morocco, Africa.)",
+              "questionTag": "March '22"
+            },
+            {
+              "id": "a-8-2-4",
+              "question": "[Tour Destination — Nature of Tourism]\n(1) Ranjankhalage at Nighoj — Geographic Tourism\n(2) Forts in Rajasthan — Historical Tourism\n(3) Visit to Agricultural University — Agro-Tourism\n(4) Himalayan Car Rally — Health tourism",
+              "answer": "Wrong pair: Himalayan Car Rally — Health tourism. (Himalayan Car Rally is an adventurous sports tourism activity, not health tourism.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Do as Directed (Concept Maps & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-8-3",
+          "entries": [
+            {
+              "id": "a-8-3-1",
+              "question": "Complete the concept map: Types of Tourism.",
+              "answer": "• Historical Tourism: Visiting forts, battlefields, and palaces.\n• Geographic Tourism: Visiting beaches, valleys, and sanctuaries.\n• Religious Tourism: Pilgrimages to holy shrines and temples.\n• Agro-Tourism: Visiting farms, vineyards, and agricultural universities.\n• Sports Tourism: Traveling to attend Olympic games and World Cups.\n• Health / Medical Tourism: Traveling for affordable surgery, Ayurveda, and Yoga.",
+              "questionTag": "March '20; Nov. '20; July '22"
+            },
+            {
+              "id": "a-8-3-2",
+              "question": "Complete the concept map: Tourist Places in Maharashtra.",
+              "answer": "• Pilgrim Centres: Pandharpur, Jejuri, Tuljapur, Shirdi.\n• Hill Stations: Mahabaleshwar, Panchgani, Matheran, Chikhaldara.\n• Dams: Bhatghar, Koyna, Jayakwadi, Radhanagari.\n• Rock-cut Caves: Ajanta, Verul (Ellora), Gharapuri (Elephanta), Karla.",
+              "questionTag": "July '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-8-4",
+          "entries": [
+            {
+              "id": "a-8-4-1",
+              "question": "(1) Marco Polo:",
+              "answer": "(1) Marco Polo was an Italian merchant traveler from Venice who lived in the 13th century C.E.\n(2) He traveled across Asia and reached China, residing in the royal court of the Mongol Emperor Kublai Khan for 17 years.\n(3) His travel memoirs, 'The Travels of Marco Polo', introduced Europeans to the wealth, trade routes, culture, and civilizations of China, Central Asia, and India.\n(4) His writings stimulated European curiosity, inspiring maritime explorations that led to the Age of Discovery."
+            },
+            {
+              "id": "a-8-4-2",
+              "question": "(2) Agro-Tourism:",
+              "answer": "(1) Concept: Agro-tourism (rural tourism) involves urban dwellers visiting operational agricultural farms to experience rural life and agrarian activities.\n(2) Activities: Tourists witness fruit harvesting, cow milking, organic farming, jaggery making, and taste traditional rustic meals.\n(3) Research & Education: Farmers and students visit agricultural research institutes, agricultural universities, and innovative model farms (e.g., grape vineyards in Nashik).\n(4) Rural Economy: It provides vital supplemental income to farming families and creates rural self-employment."
+            },
+            {
+              "id": "a-8-4-3",
+              "question": "(3) Heritage Walk:",
+              "answer": "(1) Definition: A guided educational walking tour through historical urban quarters to observe monuments, historic architecture, and heritage streets is called a Heritage Walk.\n(2) Pioneer Cities: In India, popular heritage walks are organized in Ahmedabad (India's first UNESCO World Heritage City), Mumbai, Pune, and Delhi.\n(3) Community Awareness: It connects citizens directly with their city's living history and instills civic pride and conservation responsibility.\n(4) Economic Benefit: Local guides, neighborhood food vendors, and traditional artisans gain sustainable livelihood from heritage walks."
+            },
+            {
+              "id": "a-8-4-4",
+              "question": "(4) Bhilar - The Village of Books:",
+              "answer": "(1) Unique Initiative: Bhilar is a picturesque village near Mahabaleshwar, renowned across India as 'Pustakanche Gaav' (Village of Books).\n(2) Concept: Established by the Government of Maharashtra, around 25 to 30 households in the village maintain curated mini-libraries with books on Marathi literature, poetry, history, and autobiographies.\n(3) Tourist Appeal: Tourists visiting Mahabaleshwar can stay in Bhilar, freely read books in a peaceful rustic ambiance, and enjoy local strawberries.\n(4) Literary Promotion: It blends cultural tourism with reading promotion, setting a benchmark for community development."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Explain the Following Statements with Reasons",
+      "answerGroups": [
+        {
+          "id": "g-8-5",
+          "entries": [
+            {
+              "id": "a-8-5-1",
+              "question": "(1) Foreigners come to India to avail medical facilities.",
+              "answer": "(1) Advanced Healthcare at Lower Cost: Medical treatments and surgeries in world-class Indian hospitals cost a fraction of the charges in Western nations.\n(2) Holistic Therapies: India is the birthplace of Ayurveda, Yoga, Naturopathy, and Siddha medicine, attracting global seekers of alternative wellness.\n(3) Favorable Climate: Being a tropical country with abundant sunlight year-round, India attracts patients from cold European and North American regions for recuperation.\n(4) English-Speaking Doctors: Highly skilled, English-proficient medical specialists ensure smooth communication and exceptional care.",
+              "questionTag": "March '23"
+            },
+            {
+              "id": "a-8-5-2",
+              "question": "(2) The number of people travelling back and forth from India has increased considerably.",
+              "answer": "(1) Modern Transportation: Expansion of aviation, high-speed rail, and expressways has made domestic and international journeys swift and convenient.\n(2) Economic Liberalization: The opening of the Indian economy post-1991 facilitated international corporate business, trade delegations, and student migrations.\n(3) Disposable Income & Leisure: A growing middle class with higher disposable income now actively travels for vacations, religious yatras, and family reunions.\n(4) Global Events & Film Shooting: Indians travel for international conferences, sporting tournaments, and cinematic productions worldwide.",
+              "questionTag": "March '19; Sept. '21; July '23"
+            },
+            {
+              "id": "a-8-5-3",
+              "question": "(3) We must preserve our natural and cultural heritage.",
+              "answer": "(1) Irreplaceable National Wealth: India inherits thousands of years of architectural marvels (Taj Mahal, Ajanta caves, Red Fort) and pristine natural habitats (Western Ghats, Kaas Plateau).\n(2) Identity & Pride: Heritage sites link contemporary generations to their ancestral history, fostering civic unity and patriotic pride.\n(3) Economic Engine: Preserved monuments attract millions of domestic and global tourists, generating substantial foreign exchange and local jobs.\n(4) Responsibility to Posterity: Once ruined or defaced through neglect or vandalism, ancient heritage cannot be recreated. Hence, preservation is an urgent ethical obligation.",
+              "questionTag": "March '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Read the Passage and Answer the Questions",
+      "answerGroups": [
+        {
+          "id": "g-8-6",
+          "entries": [
+            {
+              "id": "a-8-6-1",
+              "question": "Read the extract on 'Heritage Walks' and answer the following questions:\n\nExtract: A tour organized for visiting historical places is known as a 'Heritage Walk'. It allows participants to experience living history by walking through historic precincts. In India, heritage walks are actively organized in cities like Ahmedabad, Mumbai, and Pune. It fosters public awareness regarding conservation of architectural treasures. Heritage walks also encourage civic schemes to restore historic streetscapes and support traditional craftsmen.\n\nQuestions:\n(1) What is meant by Heritage Walk?\n(2) In which cities in India are heritage walks organized?\n(3) Name the place in your district that you would like to visit as part of a heritage walk and explain why.",
+              "answer": "(1) A guided walking tour conducted to visit and experience historical monuments, precincts, and heritage quarters is known as a 'Heritage Walk'.\n\n(2) In India, popular heritage walks are organized in cities such as Ahmedabad, Mumbai, Pune, and Delhi.\n\n(3) Heritage walk place in district (Mumbai):\n• I would like to visit the 'Gateway of India' and the historic Fort precinct in Mumbai.\n• Gateway of India is an imposing basalt monument built in Indo-Saracenic architectural style to commemorate the royal landing of British monarch King George V in 1911 (completed in 1924).\n• It served as the symbolic ceremonial gateway for arriving British Viceroys and later witnessed the symbolic final departure of British troops (First Battalion of the Somerset Light Infantry) from sovereign India on 28th February 1948.",
+              "questionTag": "July '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Answer the Following in Detail",
+      "answerGroups": [
+        {
+          "id": "g-8-7",
+          "entries": [
+            {
+              "id": "a-8-7-1",
+              "question": "(1) Tourism can generate career and employment opportunities. Give your opinion.",
+              "answer": "(1) Hospitality Industry: The expansion of tourism fuels demand for hotels, resorts, home-stays, restaurants, catering services, and bakeries.\n(2) Transportation Services: Airlines, railways, luxury buses, taxis, boat charters, and auto-rickshaws experience continuous commercial growth.\n(3) Travel Management: Employment surges for travel agencies, tour planners, certified guides, multilingual translators, and ticketing executives.\n(4) Revival of Handicrafts: Tourists purchase regional handicrafts, handloom textiles, wooden toys, and metal artifacts, revitalizing village artisan industries.\n(5) Agro-Allied Sectors: Increased demand from hotels boosts local farming, dairy, poultry, fisheries, and floriculture businesses.\n(6) Foreign Exchange: International tourism brings substantial foreign exchange, strengthening the national economy without exporting raw physical assets.",
+              "questionTag": "March '19 - '22 - '23"
+            },
+            {
+              "id": "a-8-7-2",
+              "question": "(2) Describe any three types of tourism.",
+              "answer": "(1) Historical Tourism:\n• Focuses on visiting monuments, ancient forts, battlegrounds, and historic palaces.\n• Examples include tours of Chhatrapati Shivaji Maharaj's forts (Raigad, Shivneri), monuments of the 1857 war of independence, and ashrams of Mahatma Gandhi (Sabarmati, Sevagram).\n\n(2) Geographic Tourism:\n• Involves travel to experience natural wonders, scenic landscapes, pristine beaches, and wildlife.\n• Examples include visiting the meteorite-formed Lonar Crater Lake, Kaas Plateau (valley of flowers), and hill stations like Mahabaleshwar and Matheran.\n\n(3) Tourism Based on Special Events:\n• Modern tourists travel to attend specialized global cultural and literary events.\n• Examples include attending international film festivals, book exhibitions, music concerts, and the annual Akhil Bharatiya Marathi Sahitya Sammelan.",
+              "questionTag": "July '23; March '25"
+            },
+            {
+              "id": "a-8-7-3",
+              "question": "(3) What are the crucial issues in the development of tourism?",
+              "answer": "(1) Safety and Security: Ensuring safe transport, reliable law enforcement, and protection of solo and foreign travelers, especially women, from fraud and harassment.\n(2) Cleanliness and Hygiene: Providing clean drinking water, well-maintained sanitation facilities, and eco-friendly waste disposal at heritage sites and travel corridors.\n(3) Quality Amenities & Transport: Developing high-speed, well-connected road and rail networks, affordable lodging, and verified home-stays.\n(4) Multilingual Information: Publishing authentic guidebooks, maps, interactive apps, and deploying certified guides speaking international and regional languages.\n(5) Accessibility: Upgrading tourist infrastructure to ensure easy wheelchair access and dedicated facilities for specially challenged and elderly tourists.",
+              "questionTag": "Board Activity Reference"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What is historical tourism?",
+      "back": "Tourism focused on visiting historical sites and monuments",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "Name two historical tourist sites in Maharashtra.",
+      "back": "Ajanta Caves and Ellora Caves",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "What is eco-tourism?",
+      "back": "Tourism focused on natural environments with minimal impact",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "Name a famous religious tourist site in Maharashtra.",
+      "back": "Shirdi",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "How does history help tourism?",
+      "back": "By providing context, narratives, and preservation of heritage sites",
+      "order": 5
+    },
+    {
+      "id": "fc-8-1",
+      "front": "Who pioneered the commercial travel agency selling tourist tickets in 1841?",
+      "back": "Thomas Cook (England).",
+      "order": 1
+    },
+    {
+      "id": "fc-8-2",
+      "front": "Which village in Maharashtra is celebrated as the 'Village of Books'?",
+      "back": "Bhilar, near Mahabaleshwar.",
+      "order": 2
+    },
+    {
+      "id": "fc-8-3",
+      "front": "Which famous Chinese Buddhist monk traveled in India in 630 C.E.?",
+      "back": "Yuan Chwang (Hiuen Tsang).",
+      "order": 3
+    },
+    {
+      "id": "fc-8-4",
+      "front": "Which Moroccan traveler traveled the world for 30 years in the 14th century?",
+      "back": "Ibn Battuta.",
+      "order": 4
+    },
+    {
+      "id": "fc-8-5",
+      "front": "What is Agro-Tourism?",
+      "back": "Tourism focused on visiting working farms, rural countryside, and agricultural research institutes.",
+      "order": 5
+    },
+    {
+      "id": "fc-8-6",
+      "front": "What is a Heritage Walk?",
+      "back": "A guided walking tour organized through historical districts and monuments.",
+      "order": 6
+    },
+    {
+      "id": "fc-8-7",
+      "front": "What unique geological feature is found at Nighoj in Ahmednagar district?",
+      "back": "Ranjankhalage (naturally carved potholes in the Kukadi riverbed).",
+      "order": 7
+    },
+    {
+      "id": "fc-8-8",
+      "front": "Why do foreigners visit India for health tourism?",
+      "back": "World-class, cost-effective surgeries combined with traditional Ayurveda and Yoga therapies.",
+      "order": 8
+    },
+    {
+      "id": "fc-8-9",
+      "front": "Which Italian traveler wrote 'The Travels of Marco Polo' after living in China?",
+      "back": "Marco Polo.",
+      "order": 9
+    },
+    {
+      "id": "fc-8-10",
+      "front": "Which UNESCO World Heritage City in India pioneered urban heritage walks?",
+      "back": "Ahmedabad.",
+      "order": 10
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "Tourism based on historical sites is called ______.",
+      "options": [
+        "Historical tourism",
+        "Cultural tourism",
+        "Eco-tourism",
+        "Adventure tourism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Historical tourism focuses on visiting historical sites.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "______ is the most popular type of tourism in Maharashtra.",
+      "options": [
+        "Historical tourism",
+        "Cultural tourism",
+        "Eco-tourism",
+        "Religious tourism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Religious tourism is very popular in Maharashtra.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The Ajanta and Ellora caves are examples of ______ tourism.",
+      "options": [
+        "Historical",
+        "Cultural",
+        "Eco",
+        "Religious"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Ajanta and Ellora caves are historical sites.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "Tourism that focuses on natural environments is called ______.",
+      "options": [
+        "Historical tourism",
+        "Cultural tourism",
+        "Eco-tourism",
+        "Adventure tourism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eco-tourism focuses on natural environments.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The tourism industry contributes to ______.",
+      "options": [
+        "Economic development",
+        "Cultural preservation",
+        "Both (A) and (B)",
+        "None of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tourism contributes to both economic development and cultural preservation.",
+      "order": 5
+    },
+    {
+      "id": "quiz-8-1",
+      "qType": "mcq",
+      "question": "Thomas Cook founded a pioneering travel agency in England selling ______.",
+      "options": [
+        "handicrafts",
+        "tourist tickets",
+        "books",
+        "antiquities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Thomas Cook organized the first commercial railway tour in 1841 selling tourist tickets.",
+      "order": 1
+    },
+    {
+      "id": "quiz-8-2",
+      "qType": "mcq",
+      "question": "Which village near Mahabaleshwar is famously known as the 'Village of Books' (Pustakanche Gaav)?",
+      "options": [
+        "Bhilar",
+        "Panchgani",
+        "Wai",
+        "Menavali"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bhilar is renowned as the Village of Books where households maintain reader libraries.",
+      "order": 2
+    },
+    {
+      "id": "quiz-8-3",
+      "qType": "true_false",
+      "question": "Ibn Battuta was a famous 14th-century traveler who originated from India.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ibn Battuta was born in Tangier, Morocco; he visited India during the Delhi Sultanate.",
+      "order": 3
+    },
+    {
+      "id": "quiz-8-4",
+      "qType": "fill_blank",
+      "question": "A guided walking tour conducted through historical places and precincts is termed a ____.",
+      "options": [
+        "Nature Trek",
+        "Heritage Walk",
+        "Agro Safari",
+        "Picnic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heritage Walks provide an experiential journey through living urban history.",
+      "order": 4
+    },
+    {
+      "id": "quiz-8-5",
+      "qType": "mcq",
+      "question": "Sagareshwar in Maharashtra is primarily categorized as which type of tourist site?",
+      "options": [
+        "Hydroelectric Dam",
+        "Deer Wildlife Sanctuary",
+        "Hill Station",
+        "Pilgrim Centre"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sagareshwar is a human-made wildlife sanctuary in Sangli district.",
+      "order": 5
+    },
+    {
+      "id": "quiz-8-6",
+      "qType": "mcq",
+      "question": "Which Italian merchant traveled across Asia to China in the 13th century and introduced it to Europe?",
+      "options": [
+        "Marco Polo",
+        "Benjamin of Tudela",
+        "Gerardus Mercator",
+        "Christopher Columbus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Marco Polo's memoirs opened European eyes to Chinese and Asian trade.",
+      "order": 6
+    }
+  ],
+  "part": 3,
+  "section": "History"
+}

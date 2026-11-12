@@ -1,0 +1,737 @@
+{
+  "id": "ch8",
+  "num": 8,
+  "title": "Cell Biology and Biotechnology",
+  "emoji": "🧫",
+  "kind": "chapter",
+  "overview": {
+    "summary": "Biotechnology brings about artificial genetic changes and uses cells and their products. It gives insulin, interferon, interleukin, vaccines, gene therapy and stem cell research for health; BT cotton, biofertilizers and biopesticides for agriculture; artificial insemination and embryo transfer for animal husbandry; and DNA fingerprinting for forensic science. Organ donation after death saves lives. Green, white and blue revolutions increased food, milk and aquatic production.",
+    "youWillLearn": [
+      "Define biotechnology, cloning and stem cells",
+      "Name biotechnology products used against diseases",
+      "Explain GM crops, biofertilizers and biopesticides",
+      "Describe DNA fingerprinting and its use",
+      "Understand organ donation and food preservation"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-8-biotech_map",
+      "type": "figure",
+      "title": "Applications of biotechnology",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+QmlvdGVjaG5vbG9neTwvdGV4dD48ZWxsaXBzZSBjeD0iNDAwIiBjeT0iMjE1IiByeD0iODAiIHJ5PSIzNCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPjx0ZXh0IHg9IjQwMCIgeT0iMjIwIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5CaW90ZWNobm9sb2d5PC90ZXh0PjxyZWN0IHg9IjEwIiB5PSI2MCIgd2lkdGg9IjI0MCIgaGVpZ2h0PSI4MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxMzAuMCIgeT0iOTEiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+SGVhbHRoPC90ZXh0Pjx0ZXh0IHg9IjEzMC4wIiB5PSIxMDQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+aW5zdWxpbiwgaW50ZXJmZXJvbiw8L3RleHQ+PHRleHQgeD0iMTMwLjAiIHk9IjExNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj52YWNjaW5lcywgZ2VuZSB0aGVyYXB5PC90ZXh0PjxsaW5lIHgxPSIzMDUuNSIgeTE9IjE4NSIgeDI9IjEzMCIgeTI9IjE0MCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxyZWN0IHg9IjI4MCIgeT0iNjAiIHdpZHRoPSIyNDAiIGhlaWdodD0iODAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijk3IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlN0ZW0gY2VsbHM8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjExMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5yZWdlbmVyYXRpdmUgdGhlcmFweTwvdGV4dD48bGluZSB4MT0iNDAwLjAiIHkxPSIxODUiIHgyPSI0MDAiIHkyPSIxNDAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48cmVjdCB4PSI1NTAiIHk9IjYwIiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjgwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY3MC4wIiB5PSI5MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5BZ3JpY3VsdHVyZTwvdGV4dD48dGV4dCB4PSI2NzAuMCIgeT0iMTA0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkJUIGNvdHRvbiwgYmlvZmVydGlsaXplcnMsPC90ZXh0Pjx0ZXh0IHg9IjY3MC4wIiB5PSIxMTciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+YmlvcGVzdGljaWRlczwvdGV4dD48bGluZSB4MT0iNDk0LjUiIHkxPSIxODUiIHgyPSI2NzAiIHkyPSIxNDAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48cmVjdCB4PSIxMCIgeT0iMjkwIiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjgwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjEzMC4wIiB5PSIzMjEiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QW5pbWFsIGh1c2JhbmRyeTwvdGV4dD48dGV4dCB4PSIxMzAuMCIgeT0iMzM0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPmFydGlmaWNpYWwgaW5zZW1pbmF0aW9uLDwvdGV4dD48dGV4dCB4PSIxMzAuMCIgeT0iMzQ3IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPmVtYnJ5byB0cmFuc2ZlcjwvdGV4dD48bGluZSB4MT0iMzA1LjUiIHkxPSIyNDUiIHgyPSIxMzAiIHkyPSIyOTAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48cmVjdCB4PSIyODAiIHk9IjI5MCIgd2lkdGg9IjI0MCIgaGVpZ2h0PSI4MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iMzI3IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkROQSBmaW5nZXJwcmludGluZzwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMzQwIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPmZvcmVuc2ljIHNjaWVuY2U8L3RleHQ+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjQ1IiB4Mj0iNDAwIiB5Mj0iMjkwIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHJlY3QgeD0iNTUwIiB5PSIyOTAiIHdpZHRoPSIyNDAiIGhlaWdodD0iODAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjcwLjAiIHk9IjMyMSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5FbnZpcm9ubWVudDwvdGV4dD48dGV4dCB4PSI2NzAuMCIgeT0iMzM0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkdyZWVuIC8gV2hpdGUgLyBCbHVlPC90ZXh0Pjx0ZXh0IHg9IjY3MC4wIiB5PSIzNDciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+cmV2b2x1dGlvbjwvdGV4dD48bGluZSB4MT0iNDk0LjUiIHkxPSIyNDUiIHgyPSI2NzAiIHkyPSIyOTAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48L3N2Zz4=",
+      "figureAlt": "Concept map of applications of biotechnology",
+      "figureCaption": "Applications of biotechnology"
+    },
+    {
+      "id": "answers-8-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-8-1",
+          "entries": [
+            {
+              "id": "a-1-8-1",
+              "question": "(1) Protein like interleukin produced by biotechnology is used against disease. (A) anaemia (B) cancer (C) diabetes (D) haemophilia (July ’23)",
+              "answer": "(B),",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-1-8-2",
+              "question": "(2) is the revolutionary event in biotechnology after cloning. (A) Human genome project (B) DNA discovery (C) Stem cell research (D) All the above",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-8-3",
+              "question": "(3) The property of stem cells is called . (A) diversity (B) equality (C) differentiation (D) pluripotency",
+              "answer": "(D),"
+            },
+            {
+              "id": "a-1-8-4",
+              "question": "(4) Organs like can be donated after death. (A) skin (B) heart (C) lungs (D) bones (March ’22)",
+              "answer": "(B),",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-1-8-5",
+              "question": "(5) Genetically modified crop has capacity to destroy bollworms. (A) BT brinjal (B) Golden rice (C) BT cotton (D) Maize (Sept. ’21)",
+              "answer": "(C),",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-1-8-6",
+              "question": "(6) Due to use of biofertilizers, solubilisation abilities of the plants are improved. (A) sulphates (B) oxides (C) nitrates (D) phosphates",
+              "answer": "(D),"
+            },
+            {
+              "id": "a-1-8-7",
+              "question": "(7) The disease related with the synthesis of insulin is . (A) cancer (B) diabetes (C) viral infection (D) dwarfness (Sept. ’21)",
+              "answer": "(B),",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-1-8-8",
+              "question": "(8) Transgenic raw potatoes generate the immunity against disease. (A) plague (B) cholera (C) leprosy (D) TB",
+              "answer": "(B)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-8-2",
+          "entries": [
+            {
+              "id": "a-2-8-1",
+              "question": "(1) DDT, malathion, chloropyriphos, Humus.",
+              "answer": "Humus. (All others are chemical insecticides.)"
+            },
+            {
+              "id": "a-2-8-2",
+              "question": "(2) Diabetes, Anaemia, Leukaemia, Thalassemia. (July ’19)",
+              "answer": "Diabetes. (All others are diseases concerned with blood cells.)",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-2-8-3",
+              "question": "(3) Drying, Salting, Cooking, Soaking with sugar. (March ’20)",
+              "answer": "Cooking. (All others are food preservation methods.)",
+              "questionTag": "March ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Find Out the Correlation",
+      "answerGroups": [
+        {
+          "id": "g-8-3",
+          "entries": [
+            {
+              "id": "a-3-8-1",
+              "question": "(1) Diabetes : Insulin : : Cancer : . (March ’25)",
+              "answer": "Interleukin",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-3-8-2",
+              "question": "(2) Insulin : Diabetes : : Interferon : . (March ’23)",
+              "answer": "Viral infection",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-3-8-3",
+              "question": "(3) : Dwarfness : : Factor VIII : Haemophilia.",
+              "answer": "Somatostatin"
+            },
+            {
+              "id": "a-3-8-4",
+              "question": "(4) White revolution : Increase in dairy production : : Green revolution : . (March ’19)",
+              "answer": "Increase in agricultural production or crop yield.",
+              "questionTag": "March ’19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-8-4",
+          "entries": [
+            {
+              "id": "a-4-8-1",
+              "question": "(1) Organism Substance that is absorbed Factor VIII (a) Haemophilia (b) Viral infection (c) Cancer",
+              "answer": "Factor VIII – Haemophilia."
+            },
+            {
+              "id": "a-4-8-2",
+              "question": "(2) Organism Substance that is absorbed Pseudomonas (a) Radiations (b) Hydrocarbons (c) Arsenic",
+              "answer": "Pseudomonas – Hydrocarbons."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-8-5",
+          "entries": [
+            {
+              "id": "a-5-8-1",
+              "question": "(1) Manufacturing alcohol by using transgenic yeast on sugarcane molasses is one of the examples of white revolution.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-8-2",
+              "question": "(2) Malaria arises due to genetic changes in hepatocytes.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-8-3",
+              "question": "(3) Various essential elements like N, P, K can be available to crops due to earthworms and fungi.",
+              "answer": "True"
+            },
+            {
+              "id": "a-5-8-4",
+              "question": "(4) DNA fingerprinting is mainly useful in forensic sciences. (Nov. ’20)",
+              "answer": "True",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-5-8-5",
+              "question": "(5) Production of various useful aquatic organisms with the help of water is called blue revolution. (March ’24)",
+              "answer": "True.",
+              "questionTag": "March ’24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-8-6",
+          "entries": [
+            {
+              "id": "a-6-8-1",
+              "question": "(1) Sources of stem cells.",
+              "answer": "(1) Umbilical cord\n\n(2) Embryonic cells\n\n(3) Red bone marrow\n\n(4) Adipose connective tissue and blood of adult human being."
+            },
+            {
+              "id": "a-6-8-2",
+              "question": "(2) Organs that can be used in transplantation.",
+              "answer": "Heart, Kidney, Liver, Eyes, Skin."
+            },
+            {
+              "id": "a-6-8-3",
+              "question": "(3) Genetically modified crops.",
+              "answer": "BT Cotton, BT Brinjal, Golden rice."
+            },
+            {
+              "id": "a-6-8-4",
+              "question": "(4) Two main methods used in animal husbandry.",
+              "answer": "(1) Artificial insemination\n\n(2) Embryo transfer."
+            },
+            {
+              "id": "a-6-8-5",
+              "question": "(5) Place where DNA fingerprinting research is done in India.",
+              "answer": "Centre for DNA fingerprinting and Diagnostics, Hyderabad."
+            },
+            {
+              "id": "a-6-8-6",
+              "question": "(6) Organisms used as biofertilizers.",
+              "answer": "Rhizobium, Azotobacter, Nostoc, Anabaena, Azolla."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Give Scientific Reasons",
+      "answerGroups": [
+        {
+          "id": "g-8-7",
+          "entries": [
+            {
+              "id": "a-7-8-1",
+              "question": "• Nowadays, safer vaccines are being produced.",
+              "answer": "(1) Before the advent of biotechnology, the vaccines were made from inactive or dead pathogens of that disease.\n\n(2) But now the vaccine is made artificially using biotechnological processes.\n\n(3) Such vaccines produced some disease symptoms in some cases.\n\n(4) The antigen of the disease is researched upon and its genetic code is found out.\n\n(5) A similar antigen is made in the laboratories which is used as a vaccine.\n\n(6) Such vaccines are more thermostable and remain active for longer duration. Therefore, the vaccines are now safer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-8-8",
+          "entries": [
+            {
+              "id": "a-8-8-1",
+              "question": "Stem cell",
+              "answer": "The special cells having pluripotency and ability to divide and differentiate into new cells are called stem cells."
+            },
+            {
+              "id": "a-8-8-2",
+              "question": "Biotechnology",
+              "answer": "Technology that brings about artificial genetic changes and hybridization in organisms for human welfare is called biotechnology."
+            },
+            {
+              "id": "a-8-8-3",
+              "question": "Genetically modified crops",
+              "answer": "Crops having desired characters are developed by integrating foreign gene with their genome, such crops have modified genome and are known as genetically modified crops."
+            },
+            {
+              "id": "a-8-8-4",
+              "question": "Vaccine",
+              "answer": "The ‘antigen’ containing material given to a person or animal to acquire either permanent or temporary immunity against a specific pathogen or disease is called a vaccine."
+            },
+            {
+              "id": "a-8-8-5",
+              "question": "Cloning",
+              "answer": "Production of replica of any cell or organ or entire organism through biotechnological process is called cloning."
+            },
+            {
+              "id": "a-8-8-6",
+              "question": "Green revolution",
+              "answer": "All the methods applied for harvesting maximum yield from minimum land are collectively referred to as green revolution."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-8-10",
+          "entries": [
+            {
+              "id": "a-10-8-1",
+              "question": "• DNA fingerprinting. (March ’24) (2 marks)",
+              "answer": "(1) As the fingerprints are unique for every individual, similarly the nucleotide sequence in the DNA molecule is also unique.\n\n(2) By knowing this sequence, one can find out the identity of any person. Such technique to establish the identity of a person by taking into consideration the nucleotide sequence is called DNA fingerprinting.\n\n(3) Its main use is in forensic sciences to confirm the identity of the criminal.\n\n(4) Similarly, identity of parents in case of disputed parentage for any child can be understood by taking DNA fingerprints of both the parents and a child.",
+              "questionTag": "March ’24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-8-13",
+          "entries": [
+            {
+              "id": "a-13-8-1",
+              "question": "(1) Rearrange and write proper alphabetical sequence only and complete the given blanks : (July ’23) (3 marks) Inject virus in the plant Entire plant is Consumption developed from of raw potatoes the leaf pieces helps to develop containing immunity genes of human against that pathogen. pathogen. (A) (B) (C) Virus infects the pieces of potato leaves. (D) (E)",
+              "answer": "(1) Correct arrangement of the given diagrams is : B→E→D→A→C\n\n(2) Blank places : (B) : Isolation of desired gene from human beings (E) : Transgenic plant virus",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-13-8-2",
+              "question": "(2) Complete the diagram showing various processes in tissue culture : (March ’23) (3 marks)",
+              "answer": "(Answers are given directly in bold.) Primary Tissue Primary hardening culture treatment Shooting and Rooting",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-13-8-3",
+              "question": "(3) Observe the given diagram and write proper names in the blocks. (July ’22) (2 marks)",
+              "answer": "(Answers are given directly in bold.) 1 2 Neuron Stem cells Brain Bone Intestine Heart Liver 3 4",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-13-8-4",
+              "question": "(4) Answer the following questions after observing the diagram : (March ’22) (3 marks) (a) Which process is shown in the given diagram ? (b) What is the importance of this process ? (c) Which organs can be transplanted in this process ?",
+              "answer": "(a) The process shown in the diagram is stem cell therapy. (b) Stem cells are used in treatment of diseases such as diabetes, myocardial infarction, Parkinson’s disease, etc. to replace the damaged cells with new functioning cells. The stem cell therapy can be used in organ transplantation also, to save a life of a patient. (c) Kidney and liver can be replaced by using stem cell therapy technique.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-13-8-5",
+              "question": "(5) Observe the figure and answer the following questions : (Nov. ’20) (5 marks) Inject virus in the plant I II III IV (a) Identify the process given in the above figure. (b) Write the importance of above process. (c) Write any two benefits of Biotechnology.",
+              "answer": "(a) The process of making transgenic potatoes is shown in the figure. (b)\n\n(1) These potatoes act against bacteria causing cholera e.g. vibrio cholerae. Also they are effective against Escherichia coli.\n\n(2) Consumption of raw potatoes produces immunity against cholera and colitis – disease caused by Escherichia coli. (c)\n\n(1) Per hectare yield is increased though there are limitation in crop agriculture.\n\n(2) Expenses of disease control are minimised due to development of resistant varieties.",
+              "questionTag": "Nov. ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-8-14",
+          "entries": [
+            {
+              "id": "a-14-8-1",
+              "question": "(1) Complete the given flow chart : (July ’23) (1 mark)",
+              "answer": "(Answers are directly given and underlined.) Types of stem cells depending upon source Embryonic stem cells Adult stem cells",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-14-8-2",
+              "question": "(2) Complete the following chart : (3 marks)",
+              "answer": "(Answers are directly given and underlined.) Remediation Increase in Crops that can resist measures for agricultural the environmental environment production stress Merits of Animal Gene therapy Biotechnology Husbandry Hormones and DNA finger Different vaccines Medicines for printing and Edible vaccines human health"
+            },
+            {
+              "id": "a-14-8-3",
+              "question": "(3) Complete the following table : (July ’19) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Plant/Microbes Functions\n\n(1) Pteris vitata Absorbs arsenic from soil\n\n(2) Pseudomonas Separates hydrocarbon and oil from water and soil\n\n(3) Sunflower Absorption of uranium and arsenic\n\n(4) Deinococcus Absorption of radiations of radiodurans nuclear waste",
+              "questionTag": "July ’19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-8-15",
+          "entries": [
+            {
+              "id": "a-15-8-1",
+              "question": "Q. (degenerated, red bone marrow, adipose connective tissue, blastocyst, umbilical cord, Differentiation) of stem cells can form various tissues in the body. Stem cells are present in the by which the foetus is joined to the uterus of the mother. Stem cells are also present in the stage of embryonic development. Stem cells are present in and of adult human beings. It has become possible to produce different types of tissues and the part of any organ with the help of these stem cells.",
+              "answer": "Differentiation of stem cells can form various tissues in the body. Stem cells are present in the umbilical cord by which the foetus is joined to the uterus of the mother. Stem cells are also present in the blastocyst stage of embryonic development. Stem cells are present in red bone marrow and adipose connective tissue of adult human beings. It has become possible to produce different types of tissues and the degenerated part of any organ with the help of these stem cells."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set16",
+      "type": "answer_sets",
+      "title": "Q. Set 16 : Paragraph-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-8-16",
+          "entries": [
+            {
+              "id": "a-16-8-1",
+              "question": "(1) What is the liberal view behind the organ and body donation?",
+              "answer": "By body donation, research in medical studies is possible. The needy persons can get vital organs which can save their lives."
+            },
+            {
+              "id": "a-16-8-2",
+              "question": "(2) Name any four organs that can be donated.",
+              "answer": "Liver, kidneys, heart, eyes, skin, etc. can be donated."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-8-18",
+          "entries": [
+            {
+              "id": "a-18-8-1",
+              "question": "(1) What are edible vaccines?",
+              "answer": "(1) Edible vaccines are those which are given as a food by incorporating them into the foodstuff.\n\n(2) Such edible vaccines are produced through biotechnology.\n\n(3) Transgenic potatoes are produced with the help of biotechnology which contain vaccine that act against bacteria like Vibrio cholerae, Escherichia coli.\n\n(4) If raw potatoes are consumed, then the immunity is generated in the body of a person. However, eating only raw potatoes generates the immunity against cholera and the disease caused due to E. coli."
+            },
+            {
+              "id": "a-18-8-2",
+              "question": "(2) Define genetically modified crops and give any two examples. (March ’22)",
+              "answer": "(1) Definition of genetically modified crops : Crops having desired characters are developed by integrating foreign gene with their genome, such crops have modified genome and are known as genetically modified crops.\n\n(2) Examples of genetically modified crops : BT cotton, BT Brinjal and Golden rice are the GMOs.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-18-8-3",
+              "question": "(3) What is DNA Fingerprinting? Where is it mainly useful? (March ’24)",
+              "answer": "(1) DNA fingerprint : The nucleotic sequence present on the DNA of each person is unique just like the fingerprint, thus for establishing the identity of any person DNA can be analysed, this technique is known as DNA fingerprinting.\n\n(2) Uses of DNA fingerprinting : (i) Investigations used in forensic sciences. (ii) To establish identity of the criminal. (iii) To identify parents of any child in case of disputed parentage.",
+              "questionTag": "March ’24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-8-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-8-19",
+          "entries": [
+            {
+              "id": "a-19-8-1",
+              "question": "(1) What is stem cell? Write any four uses of stem cell. (March ’25)",
+              "answer": "Stem cells : The special cells having pluripotency and ability to divide and differentiate into new cells are called Stem cells. They are present in multicellular living beings. Uses of stem cells :\n\n(1) Stem cells are used for regenerative therapy.\n\n(2) In case of diseased conditions like diabetes, myocardial infarction, Alzheimer’s disease, Parkinson’s disease, etc. Stem cells can be used to replace the damaged or functionless, cells.\n\n(3) In conditions such as anaemia, thalassaemia, leukaemia, etc., there is always the need of newer blood cells. Here, stem cells can be used to restore the number of blood cells.\n\n(4) In techniques of organ transplantation, stem cells can be used and they can help in the transplantation of new organs such as kidney and liver. The defective organs can be replaced by those that defective organs are produced with the help of stem cells and transplanted.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-19-8-2",
+              "question": "(2) Answer the following questions : (a) What is Biotechnology? (b) Give one use of Biotechnology. (c) Give one commercial use of Biotechnology. (d) Write two bacterial examples of biofertilizer. (e) Write two names of crops genetically developed. (March ’20) (5 marks)",
+              "answer": "(a) Biotechnology : Technology that brings about artificial genetic changes and hybridisation in organisms for human welfare is called biotechnology. (b) Biotechnology is very useful in improving the yield and variety of agricultural products. (c) Commercial use of Biotechnology : Production of hormones, interferons, antibiotics and different vaccines. (d) Rhizobium and Azotobacter are used to prepare natural fertilizers. (e) Genetically modified crops : Golden Rice and Bt. Cotton.",
+              "questionTag": "March ’20"
+            },
+            {
+              "id": "a-19-8-3",
+              "question": "(3) Explain the following terms : (a) Stem cells (b) Cloning (c) Genetically modified crops (March ’24) (3 marks)",
+              "answer": "(a) Stem cells: Special cells with the ability to divide and differentiate into different cell types. (b) Cloning: The production of a genetically identical copy of a cell, organism or other biological material. (c) Genetically modified crops: Crops whose genomes have been altered by introducing desired foreign genes to give them specific characteristics.",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-19-8-4",
+              "question": "(4) Which precautions will you take during spraying of pesticides? (Sept. ’21) (3 marks)",
+              "answer": "(1) Pesticides are toxic chemicals. By using them indiscriminately, they contaminate the water, soil and also crops.\n\n(2) The D.D.T., chloropyriphos and malathion are very dangerous. They spread through the food chain causing biomagnification.\n\n(3) Therefore, we shall not use such insecticides and pesticides. We shall use organic pesticides.\n\n(4) At the time of spraying, nose, eyes and skin will be covered and protected.\n\n(5) Care will be taken not to allow children or domestic animals to come in contact with a pesticide.\n\n(6) Excessive use will not be done.",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-19-8-5",
+              "question": "(5) Answer the following questions : (3 marks) (a) What is meant by green revolution? (b) Who is a father of green revolution in India? (c) What is AMUL and who was the founder director of AMUL ?",
+              "answer": "(a) Green revolution is collective method used in agriculture practices where different methods are used to harvest maximum yield from minimum land. (b) Dr. M.S. Swaminathan is a father of green revolution in India. (c) AMUL means Anand Milk Union Limited whose founder director was Dr. Verghese Kurien."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-8-1",
+      "front": "Biotechnology",
+      "back": "Technology that brings about artificial genetic changes and hybridization in organisms to get useful products.",
+      "order": 1
+    },
+    {
+      "id": "fc-8-2",
+      "front": "Stem cell",
+      "back": "A special cell with pluripotency and the ability to divide and differentiate into other cell types.",
+      "order": 2
+    },
+    {
+      "id": "fc-8-3",
+      "front": "Cloning",
+      "back": "Production of a replica of any cell, organ or entire organism through artificial methods.",
+      "order": 3
+    },
+    {
+      "id": "fc-8-4",
+      "front": "Insulin is used for ...",
+      "back": "Diabetes (disease related to insulin synthesis).",
+      "order": 4
+    },
+    {
+      "id": "fc-8-5",
+      "front": "Interferon and interleukin are used against ...",
+      "back": "Interferon: viral infections; interleukin: cancer.",
+      "order": 5
+    },
+    {
+      "id": "fc-8-6",
+      "front": "Vaccine",
+      "back": "Antigen-containing material given to a person or animal to acquire immunity against a disease.",
+      "order": 6
+    },
+    {
+      "id": "fc-8-7",
+      "front": "BT cotton",
+      "back": "Genetically modified crop that can destroy bollworms.",
+      "order": 7
+    },
+    {
+      "id": "fc-8-8",
+      "front": "Genetically modified crops",
+      "back": "Crops with desired characters developed by integrating foreign genes.",
+      "order": 8
+    },
+    {
+      "id": "fc-8-9",
+      "front": "Biofertilizers",
+      "back": "Improve phosphate solubilisation in plants; earthworms and fungi make N, P, K available to crops.",
+      "order": 9
+    },
+    {
+      "id": "fc-8-10",
+      "front": "DNA fingerprinting",
+      "back": "Mainly useful in forensic science, for example to identify criminals.",
+      "order": 10
+    },
+    {
+      "id": "fc-8-11",
+      "front": "Green, white and blue revolution",
+      "back": "Green: more crop yield; white: more dairy production; blue: production of aquatic organisms.",
+      "order": 11
+    },
+    {
+      "id": "fc-8-12",
+      "front": "Which organs can be donated after death?",
+      "back": "Organs such as heart, lungs, kidneys, eyes and skin.",
+      "order": 12
+    },
+    {
+      "id": "fc-8-13",
+      "front": "Methods of food preservation",
+      "back": "Drying, salting and soaking in sugar; cooking is not a preservation method.",
+      "order": 13
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-8-1",
+      "qType": "mcq",
+      "question": "The protein interleukin produced by biotechnology is used against ____.",
+      "options": [
+        "anaemia",
+        "cancer",
+        "diabetes",
+        "haemophilia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Interleukin is used in cancer treatment.",
+      "order": 1
+    },
+    {
+      "id": "quiz-8-2",
+      "qType": "mcq",
+      "question": "Stem cells have the property of ____.",
+      "options": [
+        "diversity",
+        "equality",
+        "differentiation only",
+        "pluripotency"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Pluripotency lets them form many cell types.",
+      "order": 2
+    },
+    {
+      "id": "quiz-8-3",
+      "qType": "mcq",
+      "question": "Which GM crop can destroy bollworms?",
+      "options": [
+        "BT brinjal",
+        "Golden rice",
+        "BT cotton",
+        "Maize"
+      ],
+      "correctAnswer": 2,
+      "explanation": "BT cotton resists bollworms.",
+      "order": 3
+    },
+    {
+      "id": "quiz-8-4",
+      "qType": "mcq",
+      "question": "Biofertilizers improve ____ solubilisation by plants.",
+      "options": [
+        "sulphate",
+        "oxide",
+        "nitrate",
+        "phosphate"
+      ],
+      "correctAnswer": 3,
+      "explanation": "They help plants take up phosphates.",
+      "order": 4
+    },
+    {
+      "id": "quiz-8-5",
+      "qType": "mcq",
+      "question": "The disease related to insulin synthesis is ____.",
+      "options": [
+        "cancer",
+        "diabetes",
+        "viral infection",
+        "dwarfness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Insufficient insulin causes diabetes.",
+      "order": 5
+    },
+    {
+      "id": "quiz-8-6",
+      "qType": "mcq",
+      "question": "DNA fingerprinting is mainly useful in ____.",
+      "options": [
+        "forensic science",
+        "astronomy",
+        "metallurgy",
+        "geology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It helps identify individuals in crime investigation.",
+      "order": 6
+    },
+    {
+      "id": "quiz-8-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "Transgenic raw potatoes generate immunity against cholera.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "They carry genes against cholera.",
+      "order": 7
+    },
+    {
+      "id": "quiz-8-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "The production of replicas of cells or organisms is called ____.",
+      "wordBank": [
+        "cloning",
+        "fermentation",
+        "budding",
+        "mutation"
+      ],
+      "correctWord": "cloning",
+      "options": [
+        "cloning",
+        "fermentation",
+        "budding",
+        "mutation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cloning makes genetically identical copies.",
+      "order": 8
+    },
+    {
+      "id": "quiz-8-9",
+      "qType": "match",
+      "question": "Match the product with the disease/condition.",
+      "left": [
+        "Insulin",
+        "Interferon",
+        "Factor VIII"
+      ],
+      "right": [
+        "Haemophilia",
+        "Diabetes",
+        "Viral infection"
+      ],
+      "answerKey": [
+        1,
+        2,
+        0
+      ],
+      "options": [
+        "Haemophilia",
+        "Diabetes",
+        "Viral infection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Insulin - diabetes, interferon - viral infection, Factor VIII - haemophilia.",
+      "order": 9
+    }
+  ]
+}

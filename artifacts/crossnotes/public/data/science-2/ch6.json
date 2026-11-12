@@ -1,0 +1,795 @@
+{
+  "id": "ch6",
+  "num": 6,
+  "title": "Animal Classification",
+  "emoji": "🐾",
+  "kind": "chapter",
+  "overview": {
+    "summary": "Animals are classified on the basis of body symmetry, germinal layers, body cavity (coelom), segmentation, notochord and other features. Non-chordates include the phyla Porifera, Cnidaria, Platyhelminthes, Aschelminthes, Annelida, Arthropoda, Mollusca and Echinodermata; chordates include protochordates and the vertebrate classes Cyclostomata, Pisces, Amphibia, Reptilia, Aves and Mammalia. Arthropoda is the largest phylum and Mollusca is the second largest.",
+    "youWillLearn": [
+      "Explain the basis of animal classification",
+      "Identify the main non-chordate phyla with examples",
+      "Distinguish chordates from non-chordates",
+      "Classify vertebrates into classes with features",
+      "Identify animals from their descriptions"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-6-classification_tree",
+      "type": "figure",
+      "title": "Classification of animals",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q2xhc3NpZmljYXRpb24gb2YgS2luZ2RvbSBBbmltYWxpYTwvdGV4dD48cmVjdCB4PSIzMjAiIHk9IjQwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjQwIiByeD0iOSIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI2NSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+QW5pbWFsIGtpbmdkb208L3RleHQ+PHJlY3QgeD0iMTIwIiB5PSIxMjAiIHdpZHRoPSIyMDAiIGhlaWdodD0iNDAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjIwLjAiIHk9IjE0NSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Tm9uLWNob3JkYXRlczwvdGV4dD48cmVjdCB4PSI0ODAiIHk9IjEyMCIgd2lkdGg9IjIwMCIgaGVpZ2h0PSI0MCIgcng9IjkiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI1ODAuMCIgeT0iMTQ1IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5DaG9yZGF0ZXM8L3RleHQ+PGxpbmUgeDE9IjQwMCIgeTE9IjgwIiB4Mj0iNDAwIiB5Mj0iMTAwIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjIyMCIgeTE9IjEwMCIgeDI9IjU4MCIgeTI9IjEwMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSIyMjAiIHkxPSIxMDAiIHgyPSIyMjAiIHkyPSIxMjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNTgwIiB5MT0iMTAwIiB4Mj0iNTgwIiB5Mj0iMTIwIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHJlY3QgeD0iMjAiIHk9IjE5MCIgd2lkdGg9IjM2MCIgaGVpZ2h0PSI3MCIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyMDAuMCIgeT0iMjE2IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlBvcmlmZXJhLCBDbmlkYXJpYSwgUGxhdHloZWxtaW50aGVzLDwvdGV4dD48dGV4dCB4PSIyMDAuMCIgeT0iMjI5IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFzY2hlbG1pbnRoZXMsIEFubmVsaWRhLDwvdGV4dD48dGV4dCB4PSIyMDAuMCIgeT0iMjQyIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFydGhyb3BvZGEsIE1vbGx1c2NhLCBFY2hpbm9kZXJtYXRhPC90ZXh0PjxsaW5lIHgxPSIyMjAiIHkxPSIxNjAiIHgyPSIyMDAiIHkyPSIxOTAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48cmVjdCB4PSI0MjAiIHk9IjE5MCIgd2lkdGg9IjE3MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI1MDUuMCIgeT0iMjE5IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlByb3RvY2hvcmRhdGE8L3RleHQ+PHJlY3QgeD0iNjEwIiB5PSIxOTAiIHdpZHRoPSIxNzAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjk1LjAiIHk9IjIxOSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5WZXJ0ZWJyYXRhPC90ZXh0PjxsaW5lIHgxPSI1ODAiIHkxPSIxNjAiIHgyPSI1MDUiIHkyPSIxOTAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNTgwIiB5MT0iMTYwIiB4Mj0iNjk1IiB5Mj0iMTkwIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHJlY3QgeD0iNDAwIiB5PSIyOTAiIHdpZHRoPSIzODAiIGhlaWdodD0iNzAiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNTkwLjAiIHk9IjMyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5DeWNsb3N0b21hdGEsIFBpc2NlcywgQW1waGliaWEsPC90ZXh0Pjx0ZXh0IHg9IjU5MC4wIiB5PSIzMzYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UmVwdGlsaWEsIEF2ZXMsIE1hbW1hbGlhPC90ZXh0PjxsaW5lIHgxPSI2OTUiIHkxPSIyNDAiIHgyPSI1OTAiIHkyPSIyOTAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48L3N2Zz4=",
+      "figureAlt": "Classification tree of the animal kingdom",
+      "figureCaption": "Classification of animals"
+    },
+    {
+      "id": "answers-6-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-6-1",
+          "entries": [
+            {
+              "id": "a-1-6-1",
+              "question": "(1) Artificial method of animal classification was proposed by . (A) Aristotle (B) Darwin (C) Lamarck (D) Whittaker",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-6-2",
+              "question": "(2) Animal with bilateral symmetry is . (A) Star fish (B) human (C) Paramoecium (D) Amoeba (March ’23)",
+              "answer": "(B),",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-1-6-3",
+              "question": "(3) Body cavity between the body and internal organs is called . (A) gastrocoel (B) enteron (C) coelom (D) cave",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-6-4",
+              "question": "(4) Planet Earth has highest number of animals from phylum. (A) Mollusca (B) Porifera (C) Arthropoda (D) Platyhelminthes",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-6-5",
+              "question": "(5) Animals attached to substratum are called animals. (A) sessile (B) sedentary (C) lame (D) motionless",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-6-6",
+              "question": "(6) Which of the following is not in phylum Cnidaria ? (A) Hydra (B) Sea anemone (C) Star fish (D) Physalia",
+              "answer": "(D),"
+            },
+            {
+              "id": "a-1-6-7",
+              "question": "(7) Example of phylum Arthropoda is . (A) Scorpion (B) Star fish (C) Earthworm (D) Hydra (March ’24)",
+              "answer": "(A),",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-1-6-8",
+              "question": "(8) Due to which similar characteristics honey bee and cockroach are included in the same phylum ? (A) Wings (B) Three pair of legs (C) Jointed appendages (D) Antenna",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-6-9",
+              "question": "(9) is second largest phylum in animal kingdom. (A) Mollusca (B) Arthropoda (C) Porifera (D) Platyhelminthes",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-6-10",
+              "question": "(10) Calcareous spines are present on the body of animal. (A) fish (B) snail (C) sponge (D) star fish (July ’19)",
+              "answer": "(D),",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-1-6-11",
+              "question": "(11) is a cold blooded animal. (A) Bat (B) Snake (C) Rabbit (D) Elephant (March ’19)",
+              "answer": "(B),",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-1-6-12",
+              "question": "(12) Human being belongs to class. (A) Mammalia (B) Amphibia (C) Reptilia (D) Cyclostomata (March ’22)",
+              "answer": "(A).",
+              "questionTag": "March ’22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-6-2",
+          "entries": [
+            {
+              "id": "a-2-6-1",
+              "question": "(1) Starfish, Sea-urchin, Nereis, Sea-cucumber.",
+              "answer": "Nereis. (Nereis belongs to Annelida, all the remaining are Echinoderm animals.)"
+            },
+            {
+              "id": "a-2-6-2",
+              "question": "(2) Planaria, Liverfluke, Filarial worm, Tape worm.",
+              "answer": "Filarial worm. (Filarial worm belongs to Aschelminthes, remaining are platyhelminthes.)"
+            },
+            {
+              "id": "a-2-6-3",
+              "question": "(3) Tube feet, Setae, Parapodia, Suckers.",
+              "answer": "Tube feet. (Tube feet are locomotory organs of Echinoderms, the remaining are locomotory organs of Annelids.)"
+            },
+            {
+              "id": "a-2-6-4",
+              "question": "(4) Frog, Tortoise, Toad, Salamander.",
+              "answer": "Tortoise. (Tortoise is a reptile, the remaining are amphibians.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Find Out the Correlation",
+      "answerGroups": [
+        {
+          "id": "g-6-3",
+          "entries": [
+            {
+              "id": "a-3-6-1",
+              "question": "(1) Acoelomate : Porifera : : Pseudocoelomate : .",
+              "answer": "Aschelminthes"
+            },
+            {
+              "id": "a-3-6-2",
+              "question": "(2) Annelida : Earthworm : : Platyhelminthes : . (March ’20)",
+              "answer": "Planaria",
+              "questionTag": "March ’20"
+            },
+            {
+              "id": "a-3-6-3",
+              "question": "(3) Proboscis : Hemichordata : : Suctorial mouth : .",
+              "answer": "Cyclostomata"
+            },
+            {
+              "id": "a-3-6-4",
+              "question": "(4) Horse : Mammal : : Seahorse : .",
+              "answer": "Pisces"
+            },
+            {
+              "id": "a-3-6-5",
+              "question": "(5) Dog fish : Cartilaginous : : Cat fish : .",
+              "answer": "Bony."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-6-4",
+          "entries": [
+            {
+              "id": "a-4-6-1",
+              "question": "(1) Phylum Characteristics Cnidaria (a) Tunic (b) Collar cells (c) Tentacles with Cnidoblasts",
+              "answer": "Cnidaria – Tentacles with Cnidoblasts."
+            },
+            {
+              "id": "a-4-6-2",
+              "question": "(2) Phylum Characteristics Hemichordata (a) Collar cells (b) Mantle (c) Proboscis",
+              "answer": "Hemichordata – Proboscis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-6-5",
+          "entries": [
+            {
+              "id": "a-5-6-1",
+              "question": "(1) Planet Earth has highest number of animals from phylum Mollusca.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-6-2",
+              "question": "(2) Animals belonging to phylum Echinodermata perform locomotion with the help of tube-feet.",
+              "answer": "True"
+            },
+            {
+              "id": "a-5-6-3",
+              "question": "(3) Herdmania has notochord in only tail region and hence it is called Urochordate.",
+              "answer": "True."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-6-6",
+          "entries": [
+            {
+              "id": "a-6-6-1",
+              "question": "(1) I have chitinous exoskeleton, I have four pairs of walking appendages. I can sting you. Who am I?",
+              "answer": "Scorpion."
+            },
+            {
+              "id": "a-6-6-2",
+              "question": "(2) Though I am multicellular, there are no tissues in my body. What is the name of my phylum?",
+              "answer": "Name of my phylum is Porifera."
+            },
+            {
+              "id": "a-6-6-3",
+              "question": "(3) I am diploblastic and acoelomate. Which phylum do I belong to?",
+              "answer": "I am from phylum Cnidaria or Coelenterata."
+            },
+            {
+              "id": "a-6-6-4",
+              "question": "(4) I live in your small intestine. Pseudocoelom is present in my thread-like body. In which phylum will you include me?",
+              "answer": "I am Ascaris. I am included in Aschelminthes."
+            },
+            {
+              "id": "a-6-6-5",
+              "question": "(5) I am metamerically segmented, blood sucking, ectoparasite. I have suckers. Who am I ? (July ’19)",
+              "answer": "I am Leech. Classified as Annelidan.",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-6-6-6",
+              "question": "(6) My body is radially symmetrical. Water vascular system is present in my body. I am referred as fish though I am not. What is my name?",
+              "answer": "I am Starfish. I am from Echinodermata phylum."
+            },
+            {
+              "id": "a-6-6-7",
+              "question": "(7) To which class does Bat belong ? (March ’23)",
+              "answer": "Mammals/Mammalia.",
+              "questionTag": "March ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Give Scientific Reasons",
+      "answerGroups": [
+        {
+          "id": "g-6-7",
+          "entries": [
+            {
+              "id": "a-7-6-1",
+              "question": "(1) Our body gets irritated when it comes in contact with jellyfish. (Sept. ’21)",
+              "answer": "(1) Jellyfish is a coelenterate that has cnidoblasts bearing tentacles.\n\n(2) These cnidoblasts inject toxins to paralyse the prey at the time of feeding.\n\n(3) When jellyfish comes in contact with our body, this toxin is released causing reaction to our skin. Therefore, our body gets irritation when we come in contact with jellyfish.",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-7-6-2",
+              "question": "(2) Cockroach belongs to phylum Arthropoda. (March ’22)",
+              "answer": "(1) Cockroach has jointed appendages.\n\n(2) It has chitinous exoskeleton.\n\n(3) The body is triploblastic, bilaterally symmetrical and segmented. Therefore, cockroach is included under phylum Arthropoda.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-7-6-3",
+              "question": "(3) Balanoglossus is connecting link between non-chordates and chordates. (Nov. ’20)",
+              "answer": "(1) Balanoglossus shows some characters of non-chordates.\n\n(2) It also has notochord as in case of chordates.\n\n(3) Since it shares the characters of non-chordates and chordates, from the view point of evolution, it is called connecting link between them.",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-7-6-4",
+              "question": "(4) Body temperature of reptiles is not constant.",
+              "answer": "(1) Reptiles are cold-blooded animals.\n\n(2) The thermo- regulatory system is not there in their bodies.\n\n(3) Their body temperatures, fluctuate as per the environmental temperatures. Therefore, the body temperature is not maintained at constant level in reptiles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-6-8",
+          "entries": [
+            {
+              "id": "a-8-6-1",
+              "question": "Diploblastic",
+              "answer": "When in animal body there are two germinal layers, viz. ectoderm and endoderm then such animals are called diploblastic."
+            },
+            {
+              "id": "a-8-6-2",
+              "question": "Coelom",
+              "answer": "Coelom is the body cavity present in the animals which is formed during initial embryonic development period from either mesoderm or gut."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set9",
+      "type": "answer_sets",
+      "title": "Q. Set 9 : Distinguish Between the Following",
+      "answerGroups": [
+        {
+          "id": "g-6-9",
+          "entries": [
+            {
+              "id": "a-9-6-1",
+              "question": "Class Pisces and Class Reptiles : (March ’25) (2 marks)",
+              "answer": "Class Pisces: 1. These are aquatic animals living in marine and fresh water. 2. Respiration occurs with the help of gills.  |  Class Reptiles: 1. These are mainly terrestrial animals. 2. Respiration occurs with the help of lungs.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-9-6-2",
+              "question": "Butterfly and Bat",
+              "answer": "(July ’22) (2 marks) Butterfly Bat 1. Butterfly is an insect which 1. Bat is a vertebrate belonging is an invertebrate classified to class Mammals. under phylum Arthropoda. 2. Butterfly is diurnal, 2. Bat is nocturnal, homeotherm poikilothermic and lays eggs. and gives birth to offspring."
+            },
+            {
+              "id": "a-9-6-3",
+              "question": "Non-chordates and Chordates",
+              "answer": "(March ’23) Non-chordates Chordates 1. Non-chordates are less evolved 1. Chordates are more evolved animals and are on the lower animals and are on the higher levels of evolution. levels of evolution. 2. Non-chordates do not have 2. Chordates have notochord notochord. at least in some stage of development. 3. In non-chordates, there are no 3. In chordates, there are pharyngeal gill slits. pharyngeal gill slits. 4. Nerve cord, if present is double 4. Nerve cord is single and and solid. hollow. 5. Nerve cord is located on the 5. Nerve cord is located on the ventral side of the body. dorsal side of the body. 6. Heart if present is on the 6. Heart if present is on the dorsal side of the body. ventral side of the body."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-6-10",
+          "entries": [
+            {
+              "id": "a-10-6-1",
+              "question": "• Progressive changes in animal classification. (3 marks)",
+              "answer": "There were different methods of classification of animals.\n\n(1) The first classification method was given by the Greek philosopher Aristotle. He took into account the criteria like body size, habits and habitats of the animals. This method was called artificial method of classification.\n\n(2) The same artificial method was used by other scientists such as Theophrastus, Pliny, John Ray, Linnaeus, etc.\n\n(3) Further due to advances in science, the references were changed and there were some new methods of classification proposed.\n\n(4) The system of classification called ‘Natural system of classification’ was then proposed. This system of classification was based on criteria such as body organisation, types of cells, chromosomes, bio-chemical properties, etc.\n\n(5) Later, Dobzhansky and Meyer gave the system of classification based on evolution.\n\n(6) In 1977, Carl Woese has also proposed the three domain system of animal classification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set11",
+      "type": "answer_sets",
+      "title": "Q. Set 11 : Explanations and Concepts",
+      "answerGroups": [
+        {
+          "id": "g-6-11",
+          "entries": [
+            {
+              "id": "a-11-6-1",
+              "question": "Q. Animals like ghariyal and crocodile live in water as well as on land. Are they amphibians or reptiles?",
+              "answer": "Ghariyal and crocodile are reptiles. They can swim in water and crawl on land. But they can respire only with the help of lungs. Their breathing is through nostrils. Even when in water, they have to inhale and exhale by coming up to the surface of water for air. Amphibians can breathe through the skin when in water and by lungs when on land. They also have hard exoskeleton which amphibians do not have. Hence, ghariyal and crocodile are not amphibians, but they are reptiles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-6-13",
+          "entries": [
+            {
+              "id": "a-13-6-1",
+              "question": "(1) Identify the types of body symmetry and give one example of each apart from the given figure. (July ’23) (3 marks) OR Identify and explain from the given figure different types of symmetry. (Nov. ’20) (3 marks) (a) (b) (c)",
+              "answer": "(a) Asymmetrical body : In asymmetrical body, there is no imaginary axis that can pass through body and divide it into two equal halves, e.g. Amoeba, Sponge, Paramoecium. (b) Radial symmetry : In this type of body, if imaginary cut passes through central axis, in any plane of body, then it can give two equal halves. e.g. starfish, sea anemone, sea cucumber. (c) Bilateral symmetry : In such type of symmetry, there is only one imaginary axis that can pass through the body dividing it into two equal halves. e.g. fishes, frog, birds, mammals.",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-13-6-2",
+              "question": "(2) (a) Identify the class of the animals shown in the figure : (b) Write two characteristics of that class. (July ’22) (3 marks)",
+              "answer": "(a) Animals shown in the figure are frog and toad. They belong to class Amphibia. (b) (i) Amphibians live in water as well as on land by breathing in both environments. (ii) The exoskeleton is absent and the skin is soft, slimy and moist. (iii) Body is divided into head and trunk. Neck is absent. (iv) Digits are without claws. Two pairs of limbs present.",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-13-6-3",
+              "question": "(3) Name the locomotory organ of animal shown in the given figure : (Nov. ’20) (1 mark)",
+              "answer": "Tube feet.",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-13-6-4",
+              "question": "(4) Observe the following diagram. Write the answer of the following questions : (March ’20) (3 marks) (a) To which phylum does the animal included in the diagram belong? (b) What is the exoskeleton made up? (c) What is the symmetry?",
+              "answer": "(a) This animal is cockroach. It belongs to phylum Arthropoda and class Insecta. (b) Its exoskeleton is made up of chitin. (c) It has bilateral symmetry.",
+              "questionTag": "March ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-6-14",
+          "entries": [
+            {
+              "id": "a-14-6-1",
+              "question": "Q. Complete the chart by taking into consideration the criteria for classification : (3 marks)",
+              "answer": "(Answers are directly given and underlined.) Living organisms Prokaryote Eukaryote Kingdom : Unicellular Multicellular Monera organisms organisms Kingdom : Protista Those with Those without cell wells cell wells Kingdom : Animalia Autotrophs Heterotrophs Kingdom : Kingdom : Plantae Fungi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-6-15",
+          "entries": [
+            {
+              "id": "a-15-6-1",
+              "question": "Q. (Dobzhansky, Carl Woese, Theophrastus, Artificial method, Aristotle, Natural system, Traditional system) Time to time, different scientists have tried to classify the animals. Greek philosopher was the first to perform the animal classification. Aristotle classified the animals, according to the criteria like body size, habits and habitats. Classification proposed by Aristotle is known as . Besides Aristotle, artificial method of classification was followed by , Pliny, John Ray and Linnaeus. Later on, ‘ of classification’ was followed. Natural system of classification was based on various other criteria. By the time, system of classification based on evolution was also brought into practice. It was used by and Meyer. Recently, has also proposed the animal classification.",
+              "answer": "Time to time, different scientists have tried to classify the animals. Greek philosopher Aristotle was the first to perform the animal classification. Aristotle classified the animals, according to the criteria like body size, habits and habitats. Classification proposed by Aristotle is known as ‘Artificial method’. Besides Aristotle, artificial method of classification was followed by Theophrastus, Pliny, John Ray and Linnaeus. Later on, ‘Natural system of classification’ was followed. Natural system of classification was based on various other criteria. By the time, system of classification based on evolution was also brought into practice. It was used by Dobzhansky and Meyer. Recently, Carl Woese has also proposed the animal classification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set17",
+      "type": "answer_sets",
+      "title": "Q. Set 17 : Classification-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-6-17",
+          "entries": [
+            {
+              "id": "a-17-6-1",
+              "question": "(1) Read the statements and answer accordingly : (March ’24) (3 marks) (a) Calcareous spines are present on the body. Tube feet are used for locomotion and capturing prey also. — Identify the phylum and give one example. (b) I live in your small intestine. Pseudocoelom is present in my thread like body. — Identify the phylum and give one example. (c) My body is spindle-shaped. I respire with the help of gills. — Identify my class and give one example.",
+              "answer": "(a) Phylum : Echinodermata Examples : Star fish, Sea cucumber, Brittle star, Sea urchin. (b) Phylum : Aschelminthes Examples : Ascaris, Loa loa, Filarial worm. (c) Class : Pisces Examples : Pomfret, Shark, Sting ray, Sea-horse.",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-17-6-2",
+              "question": "(2) Identify the class of given animals and write one characteristic of each animal : (a) Kangaroo (b) Penguin (c) Crocodile (d) Frog (e) Sea-horse. (July ’19) (5 marks)",
+              "answer": "(a) Kangaroo : Class Mammalia. It is a marsupial animal with pouch for development of offspring. Long hind limbs for jumping. (b) Penguin : Class Aves. It is flightless bird. Body covered with thick feathery coat. Oviparous mode. (c) Crocodile : Class Reptilia. It is a large animal seen near waterbodies. Can swim in water but cannot respire in water. Body covered with exoskeleton of scaly plates. Limbs very weak in comparison with huge bodies. (d) Frog : Class Amphibia. Shows aquatic as well as terrestrial mode. Can breathe with lungs and skin. No exoskeleton and skin is slimy. (e) Sea-horse : Class Pisces. Bony fish. Highly modified body structure showing brood pouch for development of offspring, gills for respiration, fins for swimming.",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-17-6-3",
+              "question": "(3) Identify my class/phylum and give one example of it : (March ’19) (3 marks) (a) I have mammary glands and exoskeleton in the form of hair. (b) We form the highest number of animals on the planet. We have bilateral symmetry and our exoskeleton is in the form of chitin. (c) I live in your small intestine, my body is long and thread like and pseudocoelomate.",
+              "answer": "(a) Class : Mammalia, Example : Cat, Dog, Man. (b) Phylum : Arthropoda, Example : Prawn, Crab. (c) Phylum : Aschelminthes, Example : Ascaris or round worm, Filarial worm.",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-17-6-4",
+              "question": "(4) Identify me : I am metamerically segmented, blood sucking, ectoparasite. I have suckers. Who am I and to what phylum do I belong to ? OR (i) Who am I ? (July ’19) (1 mark) I have suckers. I am blood sucking.",
+              "answer": "Leech, Phylum Annelida. (ii) I have chitinous exoskeleton, I have three pairs of walking appendages, what phylum do I belong to ? (Sept. ’21) (1 mark) Ans. Phylum : Arthropoda; Class : Insecta. (iii) I have calcareous spines and I move with tube feet, which phylum do I belong to ? (July ’22) (1 mark) Ans. Echinodermata.",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-17-6-5",
+              "question": "(5) Tell me who am I ? What is my class/phylum ? (1 mark each) (i) I am sedentary marine animal drinking water all the time through numerous pores on the body. (ii) I am male as well as female. I am endoparasite having a coelomate and bilaterally symmetrical and flattened body. (iii) I stay inside two shells. My body is divided into head, foot and visceral mass. (iv) My body is divided into proboscis, collar and trunk. I am marine animal.",
+              "answer": "(i) Sponge; Phylum : Porifera. (ii) Liver fluke or tape worm; Phylum : Platyhelminthes. (iii) Bivalve or Oyster; Phylum : Mollusca. (iv) Balanoglossus; Phylum : Hemichordata.\n\n(6) Sketch, label and classify the following organisms :\n\n(1) Planaria : Eyes Classification : Kingdom : Animalia Division : Non-chordata Auricle Phylum : Platyhelminthes Example : Planaria\n\n(2) Hydra : (2 marks each) Classification : Tentacles Kingdom : Animalia Mouth Testes Division : Non-chordata Body Phylum : Coelenterata Ovary New bud Example : Hydra\n\n(3) Round worm : Mouth Classification : Genital aperture Kingdom : Animalia Division : Non-chordata Mouth Female Ascaris Phylum : Aschelminthes Male Example : Ascaris (Round worm) Ascaris Hole Hole Tail Tail\n\n(7) Observe the given animal and answer the following questions : (July ’23) (2 marks) (a) Identify the given animal and its phylum. (b) Write any two characteristics of that phylum. Ans. (a) The given animal is Balanoglossus. It belongs to phylum Hemichordata. (b)\n\n(1) Body is divisible into proboscis, collar and trunk. Pharyngeal gill slits present.\n\n(2) Notochord present in the region of proboscis.\n\n(8) Write the characters of each of the following animals with the help of classification chart : (3 marks each)\n\n(1) Jellyfish : Ans. Classification : Kingdom : Animalia Subkingdom : Non-chordata Phylum : Cnidaria or Coelenterata Characters : O Multicellular organisms without cell wall O Tissue grade organisation O Radially symmetrical O Diploplastic and Acoelomate Jellyfish or Aurelia is a coelenterate. Its body is medusa. It appears as a transparent balloon seen floating in the marine waters. Since it has appearance like a jelly, it is known commonly as jellyfish. There are tentacles provided with cnidoblasts or stinging cells. Tentacles are used for catching the prey. Cnidoblasts are used to secrete a toxin which paralyses the prey.\n\n(2) Bath sponge : Ans. Classification : Kingdom : Animalia Subkingdom : Non-chordata Phylum : Porifera Characters : O Multicellular organisms without cell wall O Cellular grade organisation. O Asymmetrical body O Acoelomate Bath sponge is a marine animal. Blackish in colour and round in shape having porous body. It has spongin fibres and spicules which serve as skeleton. Bath sponges have good water-holding capacity. It is sedentary animal which is fixed to some substratum in the aquatic environment. Reproduction is by budding. It also has a good regeneration capacity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-6-18",
+          "entries": [
+            {
+              "id": "a-18-6-1",
+              "question": "(1) Write four distinguishing characters of phylum – Echinodermata.",
+              "answer": "Distinguishing characters of Echinodermata :\n\n(1) Marine organisms with skeleton made up of calcareous spines. Calcareous material on the body hence the name is Echinodermata. Some are sedentary while some are free swimming.\n\n(2) Body is triploblastic, eucoelomate and radially symmetrical when adult. The larvae are bilateral symmetrical.\n\n(3) Locomotion with the help of tube-feet which are also used for capturing the prey.\n\n(4) Echinoderms have regeneration capability. Hence they can restore their lost parts.\n\n(5) Most of them are unisexual. Examples : Starfish, sea-urchin, brittle star, sea-cucumber, etc."
+            },
+            {
+              "id": "a-18-6-2",
+              "question": "(2) In what way the leech is used in ayurvedic system of treatment?",
+              "answer": "Leeches are blood sucking ectoparasite. In Ayurveda, leech is used to remove impure blood and blood clots. Such blood is sucked up by leeches and then the patient gets some relief. In the leech body there is a substance called hirudine which prevent blood clotting as it sucks up the blood. This hirudine is also used for medicinal purpose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-6-19",
+          "entries": [
+            {
+              "id": "a-19-6-1",
+              "question": "(1) Write three characteristics of phylum-Mollusca. (March ’25)",
+              "answer": "Characteristics of phylum-Mollusca :\n\n(1) Body of these animals is soft and slimy.\n\n(2) These animals are aquatic or terrestrial.\n\n(3) These animals are unisexual.\n\n(4) This is second largest phylum in animal kingdom. (Any three characteristics, each 1 mark)",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-19-6-2",
+              "question": "(2) What is the exact difference between grades of organisation and symmetry ? Explain with examples. (5 marks)",
+              "answer": "(I) Grades of organisation :\n\n(1) The grades of organisation mean the way an organism has different body formation.\n\n(2) Unicellular organisms like amoeba have a single cell in the body and hence the organisation in its body is called protoplasmic grade of organisation.\n\n(3) Some organisms have only cells in their body which is called cellular grade of organisation. e.g. Poriferans.\n\n(4) Some have tissues. e.g. Coelenterates. They are said to have tissue grade organisation. Some have organs, they are said to have organisation – organ grade. e.g. Platyhelminthes. All other higher animals have organ-system grade organisation. (II) Symmetry :\n\n(1) Symmetry on the other hand shows the base of the body formation.\n\n(2) The symmetry can be understood by taking an imaginary cut through the animal body.\n\n(3) Based on the symmetry there can be three types.\n\n(4) In asymmetric animals, there is no symmetry in any plane. e.g. Amoeba.\n\n(5) The bilateral symmetry is the one in which an imaginary axis can pass through only one median plane to divide the body into two equal halves. Most of the animals have bilateral symmetry and hence their organs are arranged in symmetric way on both the sides.\n\n(6) The imaginary cut passing through the central axis but any plane of body can give more than one equal half. The organs of such animals are arranged in a radius of an imaginary circle. e.g. Cnidarians and some echinoderms. Both grades of organisation and symmetry are the bases for classifying animals into different phyla."
+            },
+            {
+              "id": "a-19-6-3",
+              "question": "(3) Name the largest phylum in animal kingdom. Write any two characters of that phylum. (Sept. ’21) (3 marks)",
+              "answer": "(1) Arthropoda is the largest phylum in animal kingdom.\n\n(2) Characteristics of Arthropoda :\n\n(1) Eucoelomate, triploblastic, bilaterally symmetrical and segmented body.\n\n(2) Body covered over by chitinous exoskeleton. Jointed appendages present.",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-19-6-4",
+              "question": "(4) Write any three characteristics of class Reptilia. (March ’22) (3 marks)",
+              "answer": "Characteristics of class Reptilia :\n\n(1) Reptilia consists of weak limbed terrestrial animals that crawl on the ground. The limbs cannot support their body weight. Hence the name Reptilia or creeping animals. Few are seen in water such as crocodile or turtle, but they cannot breathe in water.\n\n(2) The body is divided into head, neck and trunk and is covered with dry and scaly skin.\n\n(3) Four limbs which are provided by clawed digits. (Except in snakes.)\n\n(4) External ear is absent. Respiration is by lungs.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-19-6-5",
+              "question": "(5) Cockroach, frog, sparrow, starfish from these animals which can regenerate its broken body part ? (March ’23) (3 marks)",
+              "answer": "(1) Out of cockroach, frog, sparrow and starfish only starfish can show regeneration.\n\n(2) Starfish belongs to phylum Echinodermata. Only in this phylum, organism can show capacity to regenerate the broken body part.\n\n(3) Remaining animals cannot show regeneration, so only starfish is able to regenerate.",
+              "questionTag": "March ’23"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-6-1",
+      "front": "Who proposed the artificial method of animal classification?",
+      "back": "Aristotle.",
+      "order": 1
+    },
+    {
+      "id": "fc-6-2",
+      "front": "Coelom",
+      "back": "The body cavity between the body wall and the internal organs, formed during development.",
+      "order": 2
+    },
+    {
+      "id": "fc-6-3",
+      "front": "Diploblastic animals",
+      "back": "Animals with two germinal layers (ectoderm and endoderm), e.g. phylum Cnidaria.",
+      "order": 3
+    },
+    {
+      "id": "fc-6-4",
+      "front": "Largest and second largest animal phyla",
+      "back": "Largest: Arthropoda; second largest: Mollusca.",
+      "order": 4
+    },
+    {
+      "id": "fc-6-5",
+      "front": "Phylum Porifera",
+      "back": "Multicellular but no tissues in the body; sponges.",
+      "order": 5
+    },
+    {
+      "id": "fc-6-6",
+      "front": "Phylum Cnidaria (Coelenterata)",
+      "back": "Diploblastic and acoelomate; examples Hydra, Physalia, sea anemone.",
+      "order": 6
+    },
+    {
+      "id": "fc-6-7",
+      "front": "Phylum Aschelminthes",
+      "back": "Pseudocoelomate, thread-like body; examples Ascaris, Loa loa, filarial worm.",
+      "order": 7
+    },
+    {
+      "id": "fc-6-8",
+      "front": "Phylum Annelida",
+      "back": "Metamerically segmented body; examples earthworm, leech, Nereis; locomotory organs setae or parapodia.",
+      "order": 8
+    },
+    {
+      "id": "fc-6-9",
+      "front": "Phylum Arthropoda",
+      "back": "Chitinous exoskeleton and jointed appendages; examples scorpion, cockroach, honey bee.",
+      "order": 9
+    },
+    {
+      "id": "fc-6-10",
+      "front": "Phylum Echinodermata",
+      "back": "Calcareous spines, tube feet and water vascular system; examples starfish, sea urchin, sea cucumber.",
+      "order": 10
+    },
+    {
+      "id": "fc-6-11",
+      "front": "Class Pisces",
+      "back": "Aquatic, breathe with gills; dogfish is cartilaginous, catfish is bony.",
+      "order": 11
+    },
+    {
+      "id": "fc-6-12",
+      "front": "Class Mammalia",
+      "back": "Mammary glands and hair as exoskeleton; examples bat and human being.",
+      "order": 12
+    },
+    {
+      "id": "fc-6-13",
+      "front": "Why is a tortoise not an amphibian?",
+      "back": "It breathes only with lungs and has an exoskeleton; it is a reptile.",
+      "order": 13
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-6-1",
+      "qType": "mcq",
+      "question": "The artificial method of animal classification was proposed by ____.",
+      "options": [
+        "Aristotle",
+        "Darwin",
+        "Lamarck",
+        "Whittaker"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Aristotle gave the artificial classification.",
+      "order": 1
+    },
+    {
+      "id": "quiz-6-2",
+      "qType": "mcq",
+      "question": "Which animal has bilateral symmetry?",
+      "options": [
+        "Starfish",
+        "Human",
+        "Paramoecium",
+        "Amoeba"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Human body can be divided into two similar halves.",
+      "order": 2
+    },
+    {
+      "id": "quiz-6-3",
+      "qType": "mcq",
+      "question": "Planet Earth has the highest number of animals from phylum ____.",
+      "options": [
+        "Mollusca",
+        "Porifera",
+        "Arthropoda",
+        "Platyhelminthes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Arthropoda is the largest phylum.",
+      "order": 3
+    },
+    {
+      "id": "quiz-6-4",
+      "qType": "mcq",
+      "question": "Calcareous spines are present on the body of a ____.",
+      "options": [
+        "fish",
+        "snail",
+        "sponge",
+        "starfish"
+      ],
+      "correctAnswer": 3,
+      "explanation": "They are a feature of Echinodermata.",
+      "order": 4
+    },
+    {
+      "id": "quiz-6-5",
+      "qType": "mcq",
+      "question": "Honey bee and cockroach belong to the same phylum because of ____.",
+      "options": [
+        "wings",
+        "three pairs of legs",
+        "jointed appendages",
+        "antennae"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Jointed appendages are an arthropod feature.",
+      "order": 5
+    },
+    {
+      "id": "quiz-6-6",
+      "qType": "mcq",
+      "question": "Which of these is a cold-blooded animal?",
+      "options": [
+        "Bat",
+        "Snake",
+        "Rabbit",
+        "Elephant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reptiles like snakes are cold blooded.",
+      "order": 6
+    },
+    {
+      "id": "quiz-6-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "Animals of phylum Echinodermata move with the help of tube feet.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tube feet are their locomotory organs.",
+      "order": 7
+    },
+    {
+      "id": "quiz-6-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "The body cavity between the body wall and internal organs is called the ____.",
+      "wordBank": [
+        "coelom",
+        "enteron",
+        "gastrocoel",
+        "notochord"
+      ],
+      "correctWord": "coelom",
+      "options": [
+        "coelom",
+        "enteron",
+        "gastrocoel",
+        "notochord"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It forms during embryonic development.",
+      "order": 8
+    },
+    {
+      "id": "quiz-6-9",
+      "qType": "match",
+      "question": "Match the phylum with an example.",
+      "left": [
+        "Annelida",
+        "Echinodermata",
+        "Aschelminthes"
+      ],
+      "right": [
+        "Ascaris",
+        "Leech",
+        "Starfish"
+      ],
+      "answerKey": [
+        1,
+        2,
+        0
+      ],
+      "options": [
+        "Ascaris",
+        "Leech",
+        "Starfish"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leech is an annelid, starfish an echinoderm, Ascaris an aschelminth.",
+      "order": 9
+    }
+  ]
+}

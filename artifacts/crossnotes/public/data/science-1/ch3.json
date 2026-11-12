@@ -1,0 +1,275 @@
+{
+  "id": "ch3",
+  "num": 3,
+  "title": "Chemical Reactions and Equations",
+  "emoji": "⚗️",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers the basics of chemical reactions and equations, including types of reactions (combination, decomposition, displacement, double displacement), endothermic and exothermic processes, and redox reactions. It also explains corrosion and rancidity.",
+    "youWillLearn": [
+      "Define chemical change and chemical reaction.",
+      "Identify and distinguish between different types of chemical reactions.",
+      "Understand endothermic and exothermic reactions.",
+      "Explain oxidation and reduction in terms of oxygen/hydrogen gain or loss.",
+      "Describe corrosion and rancidity and methods to prevent them."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Chemical change and chemical reaction",
+      "content": "A chemical change converts a substance into a new substance with different properties, and the original cannot be recovered by simple means. A chemical reaction is the process of bond breaking and formation of new bonds producing new substances.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Types of reactions",
+      "content": "Decomposition: two or more products form from a single reactant (thermal or electrolytic decomposition). Displacement: a more reactive element displaces a less reactive one from its compound. Double displacement: ions of reactants are exchanged, often forming a precipitate.",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Endothermic and Exothermic reactions",
+      "content": "Endothermic: heat is absorbed, e.g. KNO₃(s) + H₂O(l) + Heat → KNO₃(aq). Exothermic: heat is given out, e.g. NaOH(s) + H₂O(l) → NaOH(aq) + Heat.",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Oxidation, Reduction, Oxidant, Reductant",
+      "content": "Oxidation: a reactant combines with oxygen/loses hydrogen. Reduction: a reactant gains hydrogen/loses oxygen. Oxidant: supplies oxygen (e.g. potassium dichromate). Reductant: supplies hydrogen.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Redox reaction",
+      "content": "A reaction where oxidation and reduction occur simultaneously. Example: CuO(s) + H₂(g) → Cu(s) + H₂O — CuO is reduced, H₂ is oxidised.",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "paragraph",
+      "title": "Corrosion and Rancidity",
+      "content": "Corrosion is the slow decay/oxidation of metals due to atmospheric components (e.g. rusting of iron). Rancidity is the foul odour/taste from oxidation of oils/fats on prolonged storage.",
+      "important": true
+    },
+    {
+      "id": "n7",
+      "type": "paragraph",
+      "title": "Rust formation",
+      "content": "Rust is hydrated ferric oxide (Fe₂O₃·H₂O). At the anode: Fe(s) → Fe²⁺(aq) + 2e⁻. At the cathode: O₂(g) + 4H⁺(aq) + 4e⁻ → 2H₂O(l).",
+      "important": true
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Types of Chemical Reactions",
+      "question": "Identify the type of chemical reaction given below:\n(a) CuSO₄ + Fe → FeSO₄ + Cu\n(b) 2Mg + O₂ → 2MgO\n(c) 2KClO₃ → 2KCl + 3O₂↑",
+      "qnaAnswer": "(a) Displacement reaction\n(b) Combination reaction\n(c) Decomposition reaction"
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "Balanced Equation: H₂S₂O₇ + H₂O",
+      "question": "Write the balanced equation for: H₂S₂O₇(l) + H₂O(l) → H₂SO₄(l)",
+      "qnaAnswer": "Step 1: Rewrite the given equation:\nH₂S₂O₇(l) + H₂O(l) → H₂SO₄(l)\n\nStep 2: Count atoms:\nReactants: H=4, S=2, O=8\nProducts: H=2, S=1, O=4\n\nStep 3: Balance by using 2 as coefficient for H₂SO₄:\nH₂S₂O₇ + H₂O → 2H₂SO₄\n\nNow: Reactants: H=4, S=2, O=8; Products: H=4, S=2, O=8\n\nBalanced equation: H₂S₂O₇(l) + H₂O(l) → 2H₂SO₄(l)"
+    },
+    {
+      "id": "n10",
+      "type": "qna",
+      "title": "Balanced Equation: H₂SO₄ + NaOH",
+      "question": "Write the balanced equation for: H₂SO₄(aq) + NaOH(aq) → Na₂SO₄(aq) + H₂O(l)",
+      "qnaAnswer": "Step 1: Rewrite the given equation:\nH₂SO₄(aq) + NaOH(aq) → Na₂SO₄(aq) + H₂O(l)\n\nStep 2: Balance sodium atoms by using 2 as coefficient for NaOH:\nH₂SO₄ + 2NaOH → Na₂SO₄ + H₂O\n\nStep 3: Balance hydrogen atoms by using 2 as coefficient for H₂O:\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n\nBalanced equation: H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l)"
+    },
+    {
+      "id": "n11",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "In a chemical equation the reactants are written on the right hand side and the products on the left hand side. (False)",
+        "The simple form of representation of a chemical reaction in words is known as word reaction. (True)",
+        "When calcium carbonate is heated, it decomposes into calcium oxide and oxygen gas. (False)",
+        "The reaction between salt and water is an example of exothermic reaction. (False)",
+        "The speed of a chemical reaction depends on the catalyst used in the chemical reaction. (True)",
+        "The rate of reaction increases on increasing the temperature. (True)",
+        "Antioxidants are used to prevent oxidation of food containing fats and oils. (True)",
+        "Glucose combines with oxygen in our body and provides energy. The reaction is an endothermic reaction. (False)",
+        "The chemical formula of rust is Fe₃O₄·xH₂O. (False)"
+      ]
+    },
+    {
+      "id": "n12",
+      "type": "list",
+      "title": "Balanced Chemical Equations",
+      "ordered": true,
+      "items": [
+        "CaCO₃(s) →(heat) CaO(s) + CO₂(g)",
+        "CuSO₄(aq) + Fe(s) → FeSO₄(aq) + Cu(s)",
+        "Fe(s) + S(s) →(heat) FeS(s)",
+        "NH₃(g) + HCl(g) → NH₄Cl(s)",
+        "2Mg + O₂ → 2MgO",
+        "C₁₂H₂₂O₁₁ →(Δ) 12C + 11H₂O",
+        "2H₂O(l) →(electrolysis) 2H₂↑ + O₂↑",
+        "CuSO₄(aq) + Zn(s) → ZnSO₄(aq) + Cu(s) + Heat",
+        "Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s) + Heat",
+        "K₂CrO₄(aq) + BaSO₄(aq) → BaCrO₄↓ + K₂SO₄",
+        "NaCl(aq) + AgNO₃(aq) → AgCl↓ + NaNO₃",
+        "BaCl₂(aq) + H₂SO₄(aq) → BaSO₄↓ + 2HCl(aq)"
+      ]
+    },
+    {
+      "id": "n13",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "2H₂ + O₂ → 2H₂O : Combination reaction : : 2HgO → 2Hg + O₂ : ___",
+      "blanks": [
+        "Decomposition reaction"
+      ]
+    },
+    {
+      "id": "n14",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "CuI₂ : Brown : : AgCl : ___",
+      "blanks": [
+        "White"
+      ]
+    },
+    {
+      "id": "n15",
+      "type": "table",
+      "title": "Match the Columns",
+      "headers": [
+        "Reactants",
+        "Products",
+        "Type of Chemical Reaction"
+      ],
+      "rows": [
+        [
+          "BaCl₂(aq) + ZnSO₄(aq)",
+          "BaSO₄↓ + ZnCl₂(aq)",
+          "Double displacement"
+        ],
+        [
+          "2AgCl(s)",
+          "2Ag(s) + Cl₂(g)",
+          "Decomposition"
+        ],
+        [
+          "CuSO₄(aq) + Fe(s)",
+          "FeSO₄(aq) + Cu(s)",
+          "Displacement"
+        ],
+        [
+          "H₂O(l) + CO₂(g)",
+          "H₂CO₃(aq)",
+          "Combination"
+        ]
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "Define a decomposition reaction.",
+      "back": "A reaction in which two or more products are formed from a single reactant"
+    },
+    {
+      "id": "f2",
+      "front": "What is a redox reaction?",
+      "back": "A reaction where oxidation and reduction occur simultaneously"
+    },
+    {
+      "id": "f3",
+      "front": "Give the chemical formula of rust.",
+      "back": "Fe₂O₃·H₂O (hydrated ferric oxide)"
+    },
+    {
+      "id": "f4",
+      "front": "What is rancidity?",
+      "back": "The foul smell/taste that develops when oils or fats oxidise on long storage"
+    },
+    {
+      "id": "f5",
+      "front": "Give an example of an exothermic reaction.",
+      "back": "NaOH(s) + H₂O(l) → NaOH(aq) + Heat"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "Combustion of coal in air is a ______ reaction.",
+      "options": [
+        "combination",
+        "displacement",
+        "decomposition",
+        "double displacement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon combines with oxygen to form CO₂.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "In a double displacement reaction:",
+      "options": [
+        "ions remain at rest",
+        "ions get liberated",
+        "ions are exchanged",
+        "ions are not produced"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ions of reactants swap partners.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "Which of the following is a decomposition reaction?",
+      "options": [
+        "CaCO₃ → CaO + CO₂",
+        "H₂O + CO₂ → H₂CO₃",
+        "CaS + 2HCl → CaCl₂ + H₂S",
+        "2H₂ + O₂ → 2H₂O"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One reactant breaks into two products.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The reaction KNO₃(s) + H₂O(l) + Heat → KNO₃(aq) is a/an ______ reaction.",
+      "options": [
+        "exothermic",
+        "endothermic",
+        "oxidation",
+        "reduction"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heat is absorbed during dissolution.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "To prevent rusting, a layer of ______ metal is applied on iron sheets.",
+      "options": [
+        "potassium",
+        "sodium",
+        "magnesium",
+        "zinc"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Galvanization coats iron with zinc.",
+      "order": 5
+    }
+  ]
+}

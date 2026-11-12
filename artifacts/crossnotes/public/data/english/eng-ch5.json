@@ -1,0 +1,43 @@
+{
+  "id": "eng-ch5",
+  "num": 5,
+  "title": "Non-Textual Passages & Summary",
+  "emoji": "📰",
+  "notes": [
+    {
+      "id": "eng5-n1",
+      "title": "Q.4 (A) Comprehension & Q.4 (B) Summary",
+      "content": "**Comprehension:** Same format as Q.2 (A1 to A5). Read passage carefully, find answers in the text.\n\n**Summary:**\n1. Should be about 1/3 of the original passage.\n2. Contain only essential ideas. Exclude repetitions, illustrations, proverbs, quotes.\n3. Language should be crystal clear.\n4. Write in your own words. Do not copy sentences except keywords.\n5. Provide a suitable title.\n\n**Marking Scheme:**\n- Suitable title: 1 mark\n- Central idea/Theme: 2 marks\n- Use of appropriate language: 2 marks",
+      "important": true
+    },
+    {
+      "id": "eng5-n2",
+      "title": "Example Summary: Importance of Fruits and Vegetables in our Diet",
+      "content": "Different fruits and vegetables contain different nutrients and antioxidants. Most fruits and vegetables reduce mortality rate. However, fruit juices and starchy vegetables have a greater ability to increase blood sugar levels, and those having type 2 diabetes must consult their doctors about the portions to be consumed. Our five daily servings can be met by eating a variety of fruits and vegetables, either fresh, frozen or canned. They may be conventional or organic, but should be affordable and appealing. Canned and frozen goods are good options when necessary. It is not essential to consume organic foods for good health.",
+      "important": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "eng5-f1",
+      "front": "What is the marking scheme for Summary Writing?",
+      "back": "Suitable title (1 mark), Central idea/Theme (2 marks), Use of appropriate language (2 marks). Total 5 marks.",
+      "order": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "eng5-q1",
+      "question": "What is the ideal length of a summary compared to the original passage?",
+      "options": [
+        "Half",
+        "One-quarter",
+        "One-third",
+        "Exactly the same"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A summary should ideally be about one-third of the length of the original passage.",
+      "order": 1
+    }
+  ]
+}

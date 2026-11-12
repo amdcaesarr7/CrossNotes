@@ -1,0 +1,744 @@
+{
+  "id": "ch7",
+  "num": 7,
+  "title": "Sports and History",
+  "emoji": "🏏",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter traces the historical interplay between sports, society, and globalization. It explores ancient sports origins (Olympia in Greece, Harappan toys, Kathasaritsagara), contrasts indoor and outdoor Indian and international games, highlights legendary Indian sportspersons like Major Dhyan Chand, Khashaba Jadhav, and Mary Kom, and analyzes how television broadcasting and globalization revolutionized the modern sports economy.",
+    "youWillLearn": [
+      "Understand the historical roots of sports from ancient Greek Olympics to indigenous Indian games",
+      "Classify games systematically into indoor games and Indian/international outdoor games",
+      "Appreciate the cultural and historical testimony provided by ancient toys (Pompeii ivory doll)",
+      "Study the heroic contributions of Major Dhyan Chand, Khashaba Jadhav, and Mary Kom",
+      "Analyze the transformation of sports into a multi-billion-dollar globalized commercial economy"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "The Olympic Games were held for the first time in ______.\n(A) Athens (B) Rome (C) London (D) Paris",
+      "qnaAnswer": "Correct Answer: (A) Athens"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "The Olympic Games are held every ______ years.\n(A) 2 (B) 3 (C) 4 (D) 5",
+      "qnaAnswer": "Correct Answer: (C) 4"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "______ is a traditional Indian sport.\n(A) Cricket (B) Kabaddi (C) Football (D) Tennis",
+      "qnaAnswer": "Correct Answer: (B) Kabaddi"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "The first Cricket World Cup was held in ______.\n(A) 1975 (B) 1983 (C) 1992 (D) 1996",
+      "qnaAnswer": "Correct Answer: (A) 1975"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "India won its first Cricket World Cup in ______.\n(A) 1975 (B) 1983 (C) 1992 (D) 1996",
+      "qnaAnswer": "Correct Answer: (B) 1983"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Item",
+        "Description",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "Kabaddi",
+          "Traditional Indian sport",
+          "Correct"
+        ],
+        [
+          "Cricket",
+          "Modern sport popular in India",
+          "Correct"
+        ],
+        [
+          "Olympic Games",
+          "Held every 4 years",
+          "Correct"
+        ],
+        [
+          "India's first Cricket World Cup win",
+          "1983",
+          "Correct"
+        ],
+        [
+          "Milkha Singh",
+          "Hockey player",
+          "WRONG — Milkha Singh was a sprinter (athletics), not a hockey player. Dhyan Chand was a hockey player."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Sports in India",
+      "content": "Sports in India → Traditional Sports (Kabaddi, Kho-Kho, Gilli-Danda, Malkhamb) → Modern Sports (Cricket, Hockey, Football, Tennis, Badminton)",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Olympic Movement",
+      "question": "Explain the following concept: Olympic Movement",
+      "qnaAnswer": "\n1. The Olympic movement is a global sports movement that promotes participation in sports and physical activity.\n2. The modern Olympic Games were first held in Athens in 1896.\n3. They are held every four years.\n4. The motto of the Olympic movement is 'Citius, Altius, Fortius' (Faster, Higher, Stronger).\n5. India has participated in the Olympic Games since 1900.",
+      "important": true
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Traditional Indian Sports",
+      "question": "Explain the following concept: Traditional Indian Sports",
+      "qnaAnswer": "\n1. Traditional Indian sports have been played in India for centuries.\n2. Examples: Kabaddi, Kho-Kho, Gilli-Danda, Malkhamb, and wrestling.\n3. They are an important part of India's cultural heritage.\n4. They promote physical fitness, teamwork, and discipline.\n5. Many traditional sports are now being revived and promoted at the national and international levels.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "History of Cricket in India",
+      "question": "Explain the following concept: History of Cricket in India",
+      "qnaAnswer": "\n1. Cricket was introduced to India by the British in the 18th century.\n2. The first cricket club was established in Calcutta in 1792.\n3. India played its first Test match in 1932.\n4. India won its first Cricket World Cup in 1983 under the captaincy of Kapil Dev.\n5. Today, cricket is one of the most popular sports in India.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "History of Hockey in India",
+      "question": "Explain the following concept: History of Hockey in India",
+      "qnaAnswer": "\n1. Hockey is one of the oldest sports in India.\n2. India won its first Olympic gold medal in hockey in 1928.\n3. India has won 8 Olympic gold medals in hockey, a record.\n4. Dhyan Chand is considered one of the greatest hockey players of all time.\n5. India has also produced many other great hockey players like Dhanraj Pillay and Balbir Singh Sr.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n17",
+      "type": "qna",
+      "title": "Short Note: Dhyan Chand",
+      "question": "Write a short note on: Dhyan Chand",
+      "qnaAnswer": "\n1. Dhyan Chand (1905-1979) was an Indian hockey player.\n2. He is considered one of the greatest hockey players of all time.\n3. He won three Olympic gold medals (1928, 1932, 1936).\n4. He was known for his exceptional ball control and goal-scoring ability.\n5. The Dhyan Chand Award, India's highest award for lifetime achievement in sports, is named after him.",
+      "important": true
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Milkha Singh",
+      "question": "Write a short note on: Milkha Singh",
+      "qnaAnswer": "\n1. Milkha Singh (1929-2021) was an Indian sprinter.\n2. He is known as the 'Flying Sikh'.\n3. He represented India in the 1956, 1960, and 1964 Olympic Games.\n4. He won a gold medal in the 1958 Commonwealth Games.\n5. He was awarded the Padma Shri in 1959.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Kabaddi",
+      "question": "Write a short note on: Kabaddi",
+      "qnaAnswer": "\n1. Kabaddi is a traditional Indian sport.\n2. It is played between two teams of seven players each.\n3. The objective is to raid the opponent's court and touch as many defenders as possible without being tackled.\n4. It is an ancient sport that has been played in India for centuries.\n5. It is now an international sport, with the Kabaddi World Cup being held regularly.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "qna",
+      "title": "Short Note: Olympic Games",
+      "question": "Write a short note on: Olympic Games",
+      "qnaAnswer": "\n1. The Olympic Games are a major international multi-sport event.\n2. The modern Olympic Games were first held in Athens in 1896.\n3. They are held every four years.\n4. The motto of the Olympic movement is 'Citius, Altius, Fortius'.\n5. India has participated in the Olympic Games since 1900 and has won several medals in hockey, shooting, wrestling, and badminton.",
+      "important": true
+    },
+    {
+      "id": "n21",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "History of Sports in India",
+      "question": "Explain the history of sports in India.",
+      "qnaAnswer": "\n1. India has a rich history of sports dating back to ancient times.\n2. Traditional sports like Kabaddi, Kho-Kho, and Malkhamb have been played for centuries.\n3. Modern sports like cricket and hockey were introduced during the British colonial period.\n4. India has achieved significant success in hockey, cricket, and other sports.\n5. Today, sports are an important part of Indian society and culture."
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Role of Sports in Society",
+      "question": "Explain the role of sports in society.",
+      "qnaAnswer": "\n1. Sports promote physical fitness and mental well-being.\n2. They teach important values like teamwork, discipline, and sportsmanship.\n3. They bring people together and promote social harmony.\n4. They provide career opportunities for athletes and sports professionals.\n5. They contribute to national pride and international recognition."
+    },
+    {
+      "id": "n24",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "[IMPORTANT] India's Olympic History",
+      "question": "Describe India's participation in the Olympic Games.",
+      "qnaAnswer": "\n1. India first participated in the Olympic Games in 1900.\n2. India has won the most medals in hockey, with 8 gold medals.\n3. India's first individual Olympic medal was won by K.D. Jadhav (wrestling) in 1952.\n4. Abhinav Bindra won India's first individual gold medal in shooting in 2008.\n5. India has also won medals in badminton (Saina Nehwal, P.V. Sindhu), wrestling (Sushil Kumar, Yogeshwar Dutt), and boxing (Vijender Singh, Mary Kom).",
+      "important": true
+    },
+    {
+      "id": "n26",
+      "type": "qna",
+      "title": "[IMPORTANT] Traditional Indian Sports",
+      "question": "Name any five traditional Indian sports.",
+      "qnaAnswer": "Five traditional Indian sports are:\n\n1. Kabaddi\n\n2. Kho-Kho\n\n3. Gilli-Danda\n\n4. Malkhamb\n\n5. Wrestling (Kushti)",
+      "important": true
+    },
+    {
+      "id": "fig-7-sports_competitions",
+      "type": "figure",
+      "title": "Major International Sports Competitions",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TWFqb3IgSW50ZXJuYXRpb25hbCBTcG9ydHMgVG91cm5hbWVudHM8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjM2MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI2NS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk9seW1waWMgR2FtZXM8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwMS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihTdW1tZXIgJiBXaW50ZXIgLSBRdWFkcmVubmlhbCk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5QYXJhbHltcGljczwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFNwZWNpYWwgT2x5bXBpYyBHYW1lcyk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Bc2lhZCAoQXNpYW4gR2FtZXMpPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oQ29udGluZW50YWwgY2hhbXBpb25zaGlwKTwvdGV4dD48cmVjdCB4PSIzMTAuMCIgeT0iMzM1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjM1Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkNyaWNrZXQgV29ybGQgQ3VwPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNzEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oSUNDIGdsb2JhbCB0b3VybmFtZW50KTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIyNjcuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMjg5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Rm9vdGJhbGwgV29ybGQgQ3VwPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oRklGQSBnbG9iYWwgY2hhbXBpb25zaGlwKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+V2ltYmxlZG9uICYgR3JhbmQgU2xhbXM8L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihUZW5uaXMgY2hhbXBpb25zaGlwcyk8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkdsb2JhbCBTcG9ydHM8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5FdmVudHM8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of major international sports competitions",
+      "figureCaption": "Prestigious international sporting tournaments held globally across disciplines"
+    },
+    {
+      "id": "fig-7-types_of_games",
+      "type": "figure",
+      "title": "Classification of Games: Indoor and Outdoor Sports",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDQwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ0MCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDQwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q2xhc3NpZmljYXRpb24gb2YgR2FtZXM8L3RleHQ+CjxwYXRoIGQ9Ik0gNDAwLjAgOTMgViAxMTUgSCAxNTMuMzMzMzMzMzMzMzMzMzEgViAxNDUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjE1My4zMzMzMzMzMzMzMzMzMSIgeTE9IjE4NSIgeDI9IjE1My4zMzMzMzMzMzMzMzMzMSIgeTI9IjIwMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48cGF0aCBkPSJNIDQwMC4wIDkzIFYgMTE1IEggMzk5Ljk5OTk5OTk5OTk5OTk0IFYgMTQ1IiBmaWxsPSJub25lIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSIzOTkuOTk5OTk5OTk5OTk5OTQiIHkxPSIxODUiIHgyPSIzOTkuOTk5OTk5OTk5OTk5OTQiIHkyPSIyMDEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PHBhdGggZD0iTSA0MDAuMCA5MyBWIDExNSBIIDY0Ni42NjY2NjY2NjY2NjY2IFYgMTQ1IiBmaWxsPSJub25lIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI2NDYuNjY2NjY2NjY2NjY2NiIgeTE9IjE4NSIgeDI9IjY0Ni42NjY2NjY2NjY2NjY2IiB5Mj0iMjAxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIyOTAuMCIgeT0iNDUiIHdpZHRoPSIyMjAiIGhlaWdodD0iNDgiIHJ4PSIxMCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI3NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VHlwZXMgb2YgR2FtZXM8L3RleHQ+PHJlY3QgeD0iNDguMzMzMzMzMzMzMzMzMzE0IiB5PSIxNDUiIHdpZHRoPSIyMTAiIGhlaWdodD0iNDAiIHJ4PSI4IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTUzLjMzMzMzMzMzMzMzMzMxIiB5PSIxNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkluZG9vciBHYW1lczwvdGV4dD48cmVjdCB4PSI0OC4zMzMzMzMzMzMzMzMzMTQiIHk9IjIwMSIgd2lkdGg9IjIxMCIgaGVpZ2h0PSIxMjgiIHJ4PSI4IiBmaWxsPSIjZjhmYWZjIiBzdHJva2U9IiNjYmQ1ZTEiIHN0cm9rZS13aWR0aD0iMS4yIi8+PHRleHQgeD0iMTUzLjMzMzMzMzMzMzMzMzMxIiB5PSIyMjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzNDE1NSI+4oCiIFBsYXllZCBzaXR0aW5nIGF0IG9uZSBwbGFjZTwvdGV4dD48dGV4dCB4PSIxNTMuMzMzMzMzMzMzMzMzMzEiIHk9IjI0MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgQ2hlc3MgKFNoYXRyYW5qKTwvdGV4dD48dGV4dCB4PSIxNTMuMzMzMzMzMzMzMzMzMzEiIHk9IjI2MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgQ2Fycm9tICYgRGljZSAoRHl1dCk8L3RleHQ+PHRleHQgeD0iMTUzLjMzMzMzMzMzMzMzMzMxIiB5PSIyODMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzNDE1NSI+4oCiIENhcmRzICYgU2FnYXJnb3RlPC90ZXh0Pjx0ZXh0IHg9IjE1My4zMzMzMzMzMzMzMzMzMSIgeT0iMzAzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzQxNTUiPuKAoiBLYWNoa2F2YWR5YSAmIEJoYXR1a2FsaTwvdGV4dD48cmVjdCB4PSIyOTQuOTk5OTk5OTk5OTk5OTQiIHk9IjE0NSIgd2lkdGg9IjIxMCIgaGVpZ2h0PSI0MCIgcng9IjgiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIzOTkuOTk5OTk5OTk5OTk5OTQiIHk9IjE3MCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SW5kaWFuIE91dGRvb3IgR2FtZXM8L3RleHQ+PHJlY3QgeD0iMjk0Ljk5OTk5OTk5OTk5OTk0IiB5PSIyMDEiIHdpZHRoPSIyMTAiIGhlaWdodD0iMTI4IiByeD0iOCIgZmlsbD0iI2Y4ZmFmYyIgc3Ryb2tlPSIjY2JkNWUxIiBzdHJva2Utd2lkdGg9IjEuMiIvPjx0ZXh0IHg9IjM5OS45OTk5OTk5OTk5OTk5NCIgeT0iMjIzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzQxNTUiPuKAoiBMYW5nYWRpICYgS2FiYWRkaTwvdGV4dD48dGV4dCB4PSIzOTkuOTk5OTk5OTk5OTk5OTQiIHk9IjI0MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgS2hvLUtobyAmIEF0eWFwYXR5YTwvdGV4dD48dGV4dCB4PSIzOTkuOTk5OTk5OTk5OTk5OTQiIHk9IjI2MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgTWFsbGFraGFtYiAmIFJvcGUgTWFsbGFraGFtYjwvdGV4dD48dGV4dCB4PSIzOTkuOTk5OTk5OTk5OTk5OTQiIHk9IjI4MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgVml0dGktRGFuZHUgJiBMYWdvcmk8L3RleHQ+PHRleHQgeD0iMzk5Ljk5OTk5OTk5OTk5OTk0IiB5PSIzMDMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzMzNDE1NSI+4oCiIEJob3ZhcmUgKFRvcHMpICYgUGh1Z2FkaTwvdGV4dD48cmVjdCB4PSI1NDEuNjY2NjY2NjY2NjY2NiIgeT0iMTQ1IiB3aWR0aD0iMjEwIiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY0Ni42NjY2NjY2NjY2NjY2IiB5PSIxNzAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkludGVybmF0aW9uYWwgT3V0ZG9vcjwvdGV4dD48cmVjdCB4PSI1NDEuNjY2NjY2NjY2NjY2NiIgeT0iMjAxIiB3aWR0aD0iMjEwIiBoZWlnaHQ9IjEyOCIgcng9IjgiIGZpbGw9IiNmOGZhZmMiIHN0cm9rZT0iI2NiZDVlMSIgc3Ryb2tlLXdpZHRoPSIxLjIiLz48dGV4dCB4PSI2NDYuNjY2NjY2NjY2NjY2NiIgeT0iMjIzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzQxNTUiPuKAoiBCYWRtaW50b24gJiBUYWJsZSBUZW5uaXM8L3RleHQ+PHRleHQgeD0iNjQ2LjY2NjY2NjY2NjY2NjYiIHk9IjI0MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgQ3JpY2tldCAmIEhvY2tleTwvdGV4dD48dGV4dCB4PSI2NDYuNjY2NjY2NjY2NjY2NiIgeT0iMjYzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzQxNTUiPuKAoiBGb290YmFsbCAmIFZvbGxleWJhbGw8L3RleHQ+PHRleHQgeD0iNjQ2LjY2NjY2NjY2NjY2NjYiIHk9IjI4MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgR29sZiAmIFBvbG88L3RleHQ+PHRleHQgeD0iNjQ2LjY2NjY2NjY2NjY2NjYiIHk9IjMwMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzM0MTU1Ij7igKIgVHJhY2sgJiBGaWVsZCBBdGhsZXRpY3M8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Tree diagram classifying indoor and outdoor sports",
+      "figureCaption": "Comprehensive tree structure showing Indian and international indoor/outdoor games"
+    },
+    {
+      "id": "fig-7-sports_achievers",
+      "type": "figure",
+      "title": "Indian Sports Legends and Pioneers",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SW5kaWFuIFNwb3J0aW5nIExlZ2VuZHMgJiBQaW9uZWVyczwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz4KPHJlY3QgeD0iMzEwLjAiIHk9IjY1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijg2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TWFqb3IgRGh5YW4gQ2hhbmQ8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwMS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPldpemFyZCBvZiBIb2NrZXkgKDMgT2x5bXBpYyBHb2xkcyk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5LaGFzaGFiYSBKYWRoYXY8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkZpcnN0IEluZGl2aWR1YWwgT2x5bXBpYyBNZWRhbCAoMTk1Mik8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5NYXJ5IEtvbTwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMzA0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Rmlyc3QgSW5kaWFuIEZlbWFsZSBCb3hlciBPbHltcGljIE1lZGFsaXN0PC90ZXh0PjxyZWN0IHg9IjMxMC4wIiB5PSIzMzUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iMzU2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UGhvZ2F0IFNpc3RlcnM8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM3MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihHZWV0YSAmIEJhYml0YSAtIFdvcmxkIFdyZXN0bGluZyk8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkJhbGFtYmhhdCBEZW9kaGFyPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5SZXZpdmVkICYgdHJhaW5lZCBNYWxsYWtoYW1iPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2NjZmJmMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5CYWwgSi4gUGFuZGl0PC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5QaW9uZWVyaW5nIENyaWNrZXQgQ29tbWVudGF0b3I8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlNwb3J0aW5nPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TGVnZW5kczwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of historic Indian sports personalities",
+      "figureCaption": "Trailblazing Indian athletes, trainers, and commentators who shaped Indian sports history"
+    },
+    {
+      "id": "answers-7-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-7-1",
+          "entries": [
+            {
+              "id": "a-7-1-1",
+              "question": "(1) The ancient event of Olympic competitions used to be held at ______.\n(a) Olympia, Greece\n(b) Rome\n(c) India\n(d) China",
+              "answer": "Olympia, Greece. (Organized every four years in ancient Greece to foster physical excellence and camaraderie.)",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-7-1-2",
+              "question": "(2) The wooden dolls made in Maharashtra are known as ______.\n(a) Thaki\n(b) Kalichandika\n(c) Gangavati\n(d) Champavati",
+              "answer": "Thaki. (Traditional handcrafted wooden dolls cherished in Maharashtrian households.)",
+              "questionTag": "July '23"
+            },
+            {
+              "id": "a-7-1-3",
+              "question": "(3) ______ is the national game of India.\n(a) Hockey\n(b) Cricket\n(c) Football\n(d) Kabaddi",
+              "answer": "Hockey. (India has an illustrious legacy of winning six consecutive Olympic gold medals in hockey.)"
+            },
+            {
+              "id": "a-7-1-4",
+              "question": "(4) The National Sports Day of India is celebrated on 29th August which is the birth date of ______.\n(a) Khashaba Jadhav\n(b) Sachin Tendulkar\n(c) Major Dhyan Chand\n(d) Bal J. Pandit",
+              "answer": "Major Dhyan Chand. (Instituted in honor of the legendary hockey wizard.)",
+              "questionTag": "March '24"
+            },
+            {
+              "id": "a-7-1-5",
+              "question": "(5) Major Dhyan Chand was honoured in 1956 with ______ for his marvellous achievements in hockey.\n(a) Padma Shri\n(b) Padma Bhushan\n(c) Padma Vibhushan\n(d) Bharat Ratna",
+              "answer": "Padma Bhushan.",
+              "questionTag": "Sept. '21"
+            },
+            {
+              "id": "a-7-1-6",
+              "question": "(6) ______ has very interesting descriptions of games and toys.\n(a) Panchatantra\n(b) Kathasaritsagara\n(c) Mirchchhakatika\n(d) Hitopdesh",
+              "answer": "Kathasaritsagara. (Contains fascinating ancient accounts of mechanical, flying, and dancing dolls.)"
+            },
+            {
+              "id": "a-7-1-7",
+              "question": "(7) In 1936, the Olympic games were held at ______.\n(a) Tokyo\n(b) Berlin\n(c) Portugal\n(d) Amsterdam",
+              "answer": "Berlin. (The Indian hockey team won the gold medal under Major Dhyan Chand's captaincy.)",
+              "questionTag": "Sept. '21"
+            },
+            {
+              "id": "a-7-1-8",
+              "question": "(8) ______ was the first Indian female boxer to win a bronze medal in the Olympics.\n(a) P. V. Sindhu\n(b) Mary Kom\n(c) Geeta Phogat\n(d) Saina Nehwal",
+              "answer": "Mary Kom. (Achieved at the 2012 London Olympics in the flyweight category.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Identify and Write the Wrong Pair in the Following Sets",
+      "answerGroups": [
+        {
+          "id": "g-7-2",
+          "entries": [
+            {
+              "id": "a-7-2-1",
+              "question": "[Game — Category]\n(1) Table Tennis — International game\n(2) Kabaddi — Outdoor game\n(3) Ice hockey — Adventurous game\n(4) Atyapatya — Indoor game",
+              "answer": "Wrong pair: Atyapatya — Indoor game. (Atyapatya is a traditional Indian outdoor game played on an open ground.)",
+              "questionTag": "March '22"
+            },
+            {
+              "id": "a-7-2-2",
+              "question": "[Sports Personality — Recognition]\n(1) Mallakhamb trainer — Balambhat Deodhar\n(2) Wizard of Hockey — Milkha Singh\n(3) First Indian female boxer in Olympics — Mary Kom\n(4) First Indian female wrestlers — Phogat sisters",
+              "answer": "Wrong pair: Wizard of Hockey — Milkha Singh. (Major Dhyan Chand was the Wizard of Hockey, while Milkha Singh was known as 'The Flying Sikh' in track athletics.)"
+            },
+            {
+              "id": "a-7-2-3",
+              "question": "[Game — Nature of Game]\n(1) Mallakhamb — Outdoor game based on physical skills\n(2) Water Polo — Water sport\n(3) Skating — Adventure ice sport\n(4) Chess — Outdoor game",
+              "answer": "Wrong pair: Chess — Outdoor game. (Chess is an intellectual indoor game played sitting at a board.)",
+              "questionTag": "March '22; July '23 - '24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Do as Directed (Concept Maps, Tree Diagrams & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-7-3",
+          "entries": [
+            {
+              "id": "a-7-3-1",
+              "question": "Complete the concept map: International Sports Competitions.",
+              "answer": "\n1. Olympics (Summer and Winter Olympic Games)\n\n2. Paralympics (Olympics for differently-abled athletes)\n\n3. Asiad (Asian Games)\n\n4. Cricket World Cup / Football World Cup (Global single-sport tournaments)",
+              "questionTag": "March '22"
+            },
+            {
+              "id": "a-7-3-2",
+              "question": "Prepare a Tree Diagram on 'Types of Games':",
+              "answer": "• Types of Games:\n  \n1. Outdoor Games (Played on fields/playgrounds):\n     a. Indian Sports: Langadi, Kabaddi, Kho-Kho, Atyapatya, Mallakhamb, Vitti-Dandu, Lagori.\n     b. International Sports: Badminton, Cricket, Hockey, Football, Table Tennis, Golf.\n  \n2. Indoor Games (Played sitting in closed spaces):\n     - Chess, Carrom, Playing Cards, Dice, Sagargote, Bhatukali, Kachkavadya.",
+              "questionTag": "March '20; Nov. '20"
+            },
+            {
+              "id": "a-7-3-3",
+              "question": "Complete the table regarding Sports Personalities and their Achievements:",
+              "answer": "• Bal J. Pandit: Famous pioneering cricket commentator on Akashvani.\n• Khashaba Jadhav: First individual Olympic medal winner for independent India (Bronze in Wrestling at 1952 Helsinki Olympics).\n• Major Dhyan Chand: Indian hockey team won Olympic gold under his captainship in 1936 Berlin Olympics (Wizard of Hockey).\n• Mary Kom: First Indian female boxer to participate in Olympics and win an Olympic medal (Bronze, London 2012)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-7-4",
+          "entries": [
+            {
+              "id": "a-7-4-1",
+              "question": "(1) Toys and Festivals:",
+              "answer": "(1) Cultural Tradition: The tradition of making clay toys and models during religious and seasonal festivals has existed since ancient times.\n(2) Fort Building in Diwali: In Maharashtra, children construct clay model forts during Diwali and place figurines of Chhatrapati Shivaji Maharaj, mavale (soldiers), and animals on them, learning fortification architecture.\n(3) Bailpola Festival: Clay bullocks are crafted and decorated for the rural agrarian festival of Bailpola to honor draught animals.\n(4) Material Evidence: Archaeological excavations reveal clay, ivory, and terracotta toys dating from Harappan and Roman civilizations, proving that toys reflect prevailing craftsmanship, trade, and social life."
+            },
+            {
+              "id": "a-7-4-2",
+              "question": "(2) Importance of sports:",
+              "answer": "(1) Physical Health: Engaging in sports provides invigorating exercise, builds physical stamina, muscular strength, and resistance to disease.\n(2) Mental Well-being: Sports alleviate daily stress, anxiety, and depression, refreshing the mind and boosting cognitive focus.\n(3) Character Building: Sports impart vital virtues such as discipline, sportsmanship, tenacity, courage, and resilience against failures.\n(4) Team Spirit: Group sports nurture cooperation, leadership qualities, mutual respect, and social camaraderie.",
+              "questionTag": "March '20"
+            },
+            {
+              "id": "a-7-4-3",
+              "question": "(3) Sports and Movies:",
+              "answer": "(1) Trend of Biopics: In recent decades, making biographical films (biopics) on the lives of iconic athletes has become a prominent cinematic trend.\n(2) Acclaimed Examples: Bollywood produced 'Mary Kom' (on the boxing champion) and 'Dangal' (narrating the journey of Mahavir Singh Phogat and wrestlers Geeta and Babita Phogat).\n(3) Cinema on Hockey & Cricket: Movies like 'Chak De! India' (women's hockey), 'Lagaan', 'M. S. Dhoni: The Untold Story', and '83' captured historic sporting milestones.\n(4) Research Requirement: Filmmakers require rigorous historical research into athlete careers, period costumes, authentic equipment, and match archives.",
+              "questionTag": "Nov. '20; July '23"
+            },
+            {
+              "id": "a-7-4-4",
+              "question": "(4) Professional opportunities available in the field of sports:",
+              "answer": "(1) Active Careers: Athletes can pursue professional careers as players, coaches, umpires, referees, and team managers.\n(2) Commentary & Journalism: Sports writers, photographers, and television/radio commentators cover live tournaments.\n(3) Sports Medicine & Physiology: Physiotherapists, fitness trainers, sports psychologists, and nutritionists are in high demand.\n(4) Manufacturing & Tourism: Manufacturing sporting goods, apparel, and stadium infrastructure, alongside sports event tourism, creates substantial employment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Explain the Following Statements with Reasons",
+      "answerGroups": [
+        {
+          "id": "g-7-5",
+          "entries": [
+            {
+              "id": "a-7-5-1",
+              "question": "(1) Currently the structure of sports economy has significantly changed.",
+              "answer": "(1) Global Live Telecast: Television and digital streaming broadcast sporting events worldwide, allowing millions of non-participating citizens to follow matches live.\n(2) Commercial Sponsorships: Massive viewership attracts multinational corporations who pay billions for broadcasting rights and advertise goods during matches.\n(3) Professional Leagues: Commercial leagues like IPL, Pro Kabaddi, and ISL have transformed games into high-revenue corporate industries where players command hefty fees.\n(4) Celebrity Endorsements: Retired and active sportsmen work as commentators, analysts, and brand ambassadors, making sports an enormous commercial economy.",
+              "questionTag": "July '19; Sept. '21"
+            },
+            {
+              "id": "a-7-5-2",
+              "question": "(2) Toys can tell us about cultural history.",
+              "answer": "(1) Reflection of Technology: Materials used for making toys (clay, terracotta, ivory, wood, metal) reveal historical craftsmanship and metallurgical techniques.\n(2) Cross-Cultural Trade: An ivory doll discovered in the ruins of ancient Pompeii (Italy) proved thriving maritime trade and cultural ties between India and the Roman Empire in the 1st century C.E.\n(3) Literary Documentation: Texts like 'Kathasaritsagara' describe flying, dancing, and mechanical dolls, illuminating ancient mechanical inventions.\n(4) Living Traditions: Model fort-building during Diwali in Maharashtra preserves memory of Maratha military architecture.",
+              "questionTag": "March '22 - '24; July '22"
+            },
+            {
+              "id": "a-7-5-3",
+              "question": "(3) Bal J. Pandit's commentary on Akashvani was entertaining.",
+              "answer": "(1) Deep Historical Knowledge: Bal J. Pandit did not merely describe ball-by-ball action; he enriched commentary with the detailed history of the stadium and ground.\n(2) Career Insights: He shared fascinating historical anecdotes about the past performances, records, and career milestones of players.\n(3) Eloquent Delivery: His fluent Marathi diction, vivid metaphors, and lively oratorical style brought cricket alive for radio listeners.\n(4) Informative & Captivating: Listeners felt as if they were witnessing the match live while simultaneously gaining rich historical sporting knowledge.",
+              "questionTag": "March '19; March '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Read the Passage and Answer the Questions",
+      "answerGroups": [
+        {
+          "id": "g-7-6",
+          "entries": [
+            {
+              "id": "a-7-6-1",
+              "question": "Read the extract on 'Ancient Olympic Games' and answer the following questions:\n\nExtract: The relationship between sports and ancient Greece dates back to antiquity. The ancient Olympic competitions were organized at Olympia, a sacred site in Greece, every four years. The Greeks systematized sports rules and organized athletic competitions in wrestling, boxing, discus throw, pentathlon, and chariot racing. Winning at Olympia was considered the highest honor for an athlete.\n\nQuestions:\n(1) In which city were the ancient Olympic competitions held?\n(2) From which period does the relation of sports and Greece date?\n(3) Write in your own words about Olympic games.",
+              "answer": "(1) The ancient Olympic competitions were held at Olympia in Greece.\n\n(2) The relationship between sports and Greece dates back to the ancient period (antiquity).\n\n(3) Note on Olympic Games:\n• The Olympic Games are the premier international multi-sport competitions held every four years.\n• The modern Olympics were revived in 1896 in Athens, inspired by ancient Greek ideals of peace and excellence.\n• The Olympic symbol of five interlocked rings in five colors represents the solidarity of the world's five continents.\n• It promotes universal brotherhood, fair play, sportsmanship, and global harmony among nations.",
+              "questionTag": "March '23"
+            },
+            {
+              "id": "a-7-6-2",
+              "question": "Read the extract on 'Major Dhyan Chand' and answer the following questions:\n\nExtract: Major Dhyan Chand, the peerless maestro of hockey, was the captain of the Indian hockey team. Under his captaincy and inspiring presence, India clinched Olympic Gold medals in 1928 (Amsterdam), 1932 (Los Angeles), and 1936 (Berlin). In 1956, the Government of India conferred upon him the Padma Bhushan. His birth anniversary on 29th August is celebrated across the nation as National Sports Day.\n\nQuestions:\n(1) Who is celebrated as the 'Wizard of Hockey'?\n(2) In which city were the Olympic Games held in 1936?\n(3) How is the birth date of Major Dhyan Chand celebrated in India?\n(4) Write about Major Dhyan Chand's performance in the Olympics.",
+              "answer": "(1) Major Dhyan Chand is celebrated as the 'Wizard of Hockey'.\n\n(2) In 1936, the Olympic Games were held in Berlin, Germany.\n\n(3) Major Dhyan Chand's birth date, 29th August, is celebrated annually across India as 'National Sports Day'.\n\n(4) Performance in Olympics:\n• Major Dhyan Chand was a pivotal forward player in the Indian Olympic teams that won Gold in 1928 and 1932.\n• In the 1936 Berlin Olympics, he captained the Indian team to a historic Gold medal victory, scoring spectacular goals.\n• His magical stick control was so extraordinary that opponents famously inspected his hockey stick to check for hidden magnets.",
+              "questionTag": "Sept. '21; March '23 - '24 - '25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-7-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Answer the Following in Detail",
+      "answerGroups": [
+        {
+          "id": "g-7-7",
+          "entries": [
+            {
+              "id": "a-7-7-1",
+              "question": "(1) Explain the importance of sports in human life.",
+              "answer": "(1) Physical Conditioning: Physical sports improve blood circulation, respiratory stamina, muscular fitness, and reflex agility.\n(2) Psychological Stress Relief: Regular play acts as a natural therapy against tension, anxieties, depression, and mental exhaustion.\n(3) Cultivating Character: Athletes learn to accept victory with humility and defeat with grace, imbibing perseverance and fair play.\n(4) Fostering Teamwork: Collective games instill cooperation, collective strategy, communicative empathy, and dynamic leadership skills.\n(5) National & Global Pride: International sports foster patriotic unity within nations and build bridges of peace across borders.",
+              "questionTag": "March '20"
+            },
+            {
+              "id": "a-7-7-2",
+              "question": "(2) Explain the difference between Indoor Games and Outdoor Games.",
+              "answer": "\n1. Playing Arena:\n• Indoor Games: Played inside rooms, halls, or closed environments sitting at one spot.\n• Outdoor Games: Played on open playgrounds, turf grounds, courts, or stadium fields.\n2. Physical Exertion:\n• Indoor Games: Involve mental strategy and manual dexterity with minimal bodily exertion.\n• Outdoor Games: Require rigorous physical stamina, running, muscular strength, and endurance.\n3. Adventure Factor:\n• Indoor Games: Generally safe without physical hazard or extreme adventure.\n• Outdoor Games: Often involve adventurous challenges (e.g., mountaineering, car rallying, surfing).\n4. Examples:\n• Indoor Games: Chess, Carrom, Playing Cards, Scrabble, Bhatukali.\n• Outdoor Games: Cricket, Football, Hockey, Kabaddi, Kho-Kho, Athletics.",
+              "questionTag": "July '19 - '22; Sept. '21; March '22"
+            },
+            {
+              "id": "a-7-7-3",
+              "question": "(3) Write about the history of sports equipment and toys in ancient India.",
+              "answer": "(1) Harappan Antiquity: Archaeological digs at Harappa, Mohenjo-daro, and Lothal unearthed terracotta toy carts, whistles shaped like birds, animal figurines, and stone dice.\n(2) Sanskrit Epics: The Mahabharata highlights dice games (Dyut), archery competitions, and chariot races, while the Ramayana describes wrestling bouts.\n(3) Regional Folk Dolls: Maharashtra developed the wooden 'Thaki' dolls, while clay fort building during Diwali preserved traditional military engineering.\n(4) Global Trade Testimony: An Indian ivory doll found at Pompeii (Italy) proved flourishing international trade and cultural links with the ancient Roman world.",
+              "questionTag": "Textual Board Reference"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "Where were the first modern Olympic Games held?",
+      "back": "Athens (1896)",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "How often are the Olympic Games held?",
+      "back": "Every 4 years",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "Who is known as the 'Flying Sikh'?",
+      "back": "Milkha Singh",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "Which sport is Dhyan Chand associated with?",
+      "back": "Hockey",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "When did India win its first Cricket World Cup?",
+      "back": "1983",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "Name two traditional Indian sports.",
+      "back": "Kabaddi and Kho-Kho",
+      "order": 6
+    },
+    {
+      "id": "f7",
+      "front": "How many Olympic gold medals has India won in hockey?",
+      "back": "8",
+      "order": 7
+    },
+    {
+      "id": "fc-7-1",
+      "front": "Where were the ancient Olympic Games held?",
+      "back": "Olympia, ancient Greece (every 4 years).",
+      "order": 1
+    },
+    {
+      "id": "fc-7-2",
+      "front": "What are traditional handcrafted wooden dolls called in Maharashtra?",
+      "back": "Thaki.",
+      "order": 2
+    },
+    {
+      "id": "fc-7-3",
+      "front": "When is National Sports Day celebrated in India and why?",
+      "back": "29th August, commemorating the birth anniversary of Major Dhyan Chand.",
+      "order": 3
+    },
+    {
+      "id": "fc-7-4",
+      "front": "Who was honoured with the title 'Wizard of Hockey'?",
+      "back": "Major Dhyan Chand.",
+      "order": 4
+    },
+    {
+      "id": "fc-7-5",
+      "front": "Who was the first individual Olympic medal winner for independent India?",
+      "back": "Khashaba Jadhav (Bronze in Wrestling at 1952 Helsinki Olympics).",
+      "order": 5
+    },
+    {
+      "id": "fc-7-6",
+      "front": "Who was the first Indian female boxer to win an Olympic medal?",
+      "back": "Mary Kom (Bronze medal at London 2012 Olympics).",
+      "order": 6
+    },
+    {
+      "id": "fc-7-7",
+      "front": "Which ancient Indian text contains vivid descriptions of games and mechanical toys?",
+      "back": "Kathasaritsagara.",
+      "order": 7
+    },
+    {
+      "id": "fc-7-8",
+      "front": "What does an ivory doll found in Pompeii (Italy) prove?",
+      "back": "Indo-Roman cultural and commercial trade relations in antiquity.",
+      "order": 8
+    },
+    {
+      "id": "fc-7-9",
+      "front": "Who pioneered lively cricket commentary on Akashvani?",
+      "back": "Bal J. Pandit.",
+      "order": 9
+    },
+    {
+      "id": "fc-7-10",
+      "front": "Who revived and popularized Mallakhamb training in Maharashtra?",
+      "back": "Balambhat Deodhar.",
+      "order": 10
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The Olympic Games were held for the first time in ______.",
+      "options": [
+        "Athens",
+        "Rome",
+        "London",
+        "Paris"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first modern Olympic Games were held in Athens in 1896.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "The Olympic Games are held every ______ years.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Olympic Games are held every 4 years.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "______ is a traditional Indian sport.",
+      "options": [
+        "Cricket",
+        "Kabaddi",
+        "Football",
+        "Tennis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kabaddi is a traditional Indian sport.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The first Cricket World Cup was held in ______.",
+      "options": [
+        "1975",
+        "1983",
+        "1992",
+        "1996"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first Cricket World Cup was held in 1975.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "India won its first Cricket World Cup in ______.",
+      "options": [
+        "1975",
+        "1983",
+        "1992",
+        "1996"
+      ],
+      "correctAnswer": 1,
+      "explanation": "India won its first Cricket World Cup in 1983.",
+      "order": 5
+    },
+    {
+      "id": "quiz-7-1",
+      "qType": "mcq",
+      "question": "Where were the ancient Olympic competitions held?",
+      "options": [
+        "Olympia, Greece",
+        "Rome, Italy",
+        "Athens, Greece",
+        "Sparta, Greece"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ancient Olympic games were held every four years at the sacred site of Olympia in Greece.",
+      "order": 1
+    },
+    {
+      "id": "quiz-7-2",
+      "qType": "mcq",
+      "question": "National Sports Day in India is celebrated on 29th August in honor of ______.",
+      "options": [
+        "Khashaba Jadhav",
+        "Major Dhyan Chand",
+        "Milkha Singh",
+        "Sachin Tendulkar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "29th August is Major Dhyan Chand's birth date, commemorated as National Sports Day.",
+      "order": 2
+    },
+    {
+      "id": "quiz-7-3",
+      "qType": "true_false",
+      "question": "Atyapatya and Langadi are examples of indoor games.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Atyapatya and Langadi are traditional Indian outdoor games played on open fields.",
+      "order": 3
+    },
+    {
+      "id": "quiz-7-4",
+      "qType": "fill_blank",
+      "question": "The first individual Olympic medal for independent India was won by wrestler ____ in 1952.",
+      "options": [
+        "Major Dhyan Chand",
+        "Khashaba Jadhav",
+        "Milkha Singh",
+        "Balambhat Deodhar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Khashaba Jadhav won the bronze medal in freestyle wrestling at the 1952 Helsinki Olympics.",
+      "order": 4
+    },
+    {
+      "id": "quiz-7-5",
+      "qType": "mcq",
+      "question": "An ancient Indian ivory doll was discovered in which archaeological excavation site in Italy?",
+      "options": [
+        "Rome",
+        "Pompeii",
+        "Venice",
+        "Florence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The discovery of an ivory doll in Pompeii proved ancient Indo-Roman maritime trade links.",
+      "order": 5
+    },
+    {
+      "id": "quiz-7-6",
+      "qType": "mcq",
+      "question": "Which award was conferred on Major Dhyan Chand in 1956 by the Government of India?",
+      "options": [
+        "Padma Shri",
+        "Padma Bhushan",
+        "Padma Vibhushan",
+        "Bharat Ratna"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Major Dhyan Chand was honored with the Padma Bhushan in 1956.",
+      "order": 6
+    }
+  ],
+  "part": 2,
+  "section": "History"
+}

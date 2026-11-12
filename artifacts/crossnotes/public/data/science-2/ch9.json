@@ -1,0 +1,616 @@
+{
+  "id": "ch9",
+  "num": 9,
+  "title": "Social Health",
+  "emoji": "🤝",
+  "kind": "chapter",
+  "overview": {
+    "summary": "Social health is the ability of a person to establish positive relationships with others. It depends on good amenities, education, cleanliness, playgrounds and healthy friendships, and is harmed by addictions such as tobacco and alcohol, stress, misuse of mobile phones and the internet, selfiecide and cybercrime. Remedies include hobbies, meditation, laughter clubs, counselling, awareness and cyber laws like the IT Act 2000.",
+    "youWillLearn": [
+      "Define social health and the factors affecting it",
+      "Explain harmful effects of addictions",
+      "Describe problems from mobile phones and the internet",
+      "Know cyber laws and awareness efforts",
+      "Suggest ways of managing stress"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-9-social_health",
+      "type": "figure",
+      "title": "Social health",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RmFjdG9ycyBhZmZlY3Rpbmcgc29jaWFsIGhlYWx0aDwvdGV4dD48bGluZSB4MT0iNDAwLjAiIHkxPSIyMTAuMCIgeDI9IjQwMC4wIiB5Mj0iNzguMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iNjM1LjU1ODkwOTgyOTM2NzMiIHkyPSIxNDQuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iNjM1LjU1ODkwOTgyOTM2NzQiIHkyPSIyNzYuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iNDAwLjAiIHkyPSIzNDIuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIxMC4wIiB4Mj0iMTY0LjQ0MTA5MDE3MDYzMjcyIiB5Mj0iMjc2LjAwMDAwMDAwMDAwMDA2IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjEwLjAiIHgyPSIxNjQuNDQxMDkwMTcwNjMyNyIgeTI9IjE0NC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHJlY3QgeD0iMzA1LjAiIHk9IjQ4LjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijc1IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkVkdWNhdGlvbjwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iODgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+ZXF1YWwgb3Bwb3J0dW5pdGllczwvdGV4dD48cmVjdCB4PSI1NDAuNTU4OTA5ODI5MzY3MyIgeT0iMTE0LjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjM1LjU1ODkwOTgyOTM2NzMiIHk9IjE0MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5BbWVuaXRpZXM8L3RleHQ+PHRleHQgeD0iNjM1LjU1ODkwOTgyOTM2NzMiIHk9IjE1NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5mb29kLCB3YXRlciwgc2hlbHRlcjwvdGV4dD48cmVjdCB4PSI1NDAuNTU4OTA5ODI5MzY3NCIgeT0iMjQ2LjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjM1LjU1ODkwOTgyOTM2NzQiIHk9IjI3MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5IZWFsdGh5IGhhYml0czwvdGV4dD48dGV4dCB4PSI2MzUuNTU4OTA5ODI5MzY3NCIgeT0iMjg2IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPnNwb3J0cywgaG9iYmllczwvdGV4dD48cmVjdCB4PSIzMDUuMCIgeT0iMzEyLjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9IjMzOSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Bdm9pZCBhZGRpY3Rpb25zPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+dG9iYWNjbywgYWxjb2hvbDwvdGV4dD48cmVjdCB4PSI2OS40NDEwOTAxNzA2MzI3MiIgeT0iMjQ2LjAwMDAwMDAwMDAwMDA2IiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE2NC40NDEwOTAxNzA2MzI3MiIgeT0iMjczIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkN5YmVyIHNhZmV0eTwvdGV4dD48dGV4dCB4PSIxNjQuNDQxMDkwMTcwNjMyNzIiIHk9IjI4NiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5saW1pdCBtb2JpbGUgYW5kIG1lZGlhIHVzZTwvdGV4dD48cmVjdCB4PSI2OS40NDEwOTAxNzA2MzI2OSIgeT0iMTE0LjAiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTY0LjQ0MTA5MDE3MDYzMjciIHk9IjE0MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5GcmVlZG9tIGZyb20gZGlzZWFzZTwvdGV4dD48dGV4dCB4PSIxNjQuNDQxMDkwMTcwNjMyNyIgeT0iMTU0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFJRFMsIFRCLCBsZXByb3N5PC90ZXh0PjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIxMC4wIiByeD0iNzUiIHJ5PSIzMiIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMTUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlNvY2lhbCBoZWFsdGg8L3RleHQ+PC9zdmc+",
+      "figureAlt": "Factors affecting social health",
+      "figureCaption": "Social health"
+    },
+    {
+      "id": "answers-9-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-9-1",
+          "entries": [
+            {
+              "id": "a-1-9-1",
+              "question": "(1) IT Act 2000 is to control the . (A) house breaking (B) cybercrimes (C) cheating (D) pickpocketing",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-9-2",
+              "question": "(2) Laughter club is a remedy to drive away . (A) stress (B) addictions (C) lethargy (D) epidemics",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-9-3",
+              "question": "(3) Alcohol consumption mainly affects system. (A) Respiratory (B) Nervous (C) Digestive (D) Circulatory (July ’22)",
+              "answer": "(B),",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-1-9-4",
+              "question": "(4) Persons continuously using computers and the internet become . (A) courageous (B) timid (C) solitary (D) criminal",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-9-5",
+              "question": "(5) has been newly launched in Police Department. (A) Cybercrime unit (B) Women protection unit (C) Senior citizen care unit (D) Forensic unit",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-9-6",
+              "question": "(6) helps to improve concentration in the studies. (A) Meditation (B) Music (C) Dancing (D) Laughing (Sept. ’21)",
+              "answer": "(A).",
+              "questionTag": "Sept. ’21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-9-2",
+          "entries": [
+            {
+              "id": "a-2-9-1",
+              "question": "(1) Tobacco, Laughter club, Alcoholism, Drug abuse.",
+              "answer": "Laughter club. (All others are addictions.)"
+            },
+            {
+              "id": "a-2-9-2",
+              "question": "(2) Aadhaar card, PAN card, Greeting card, Credit card.",
+              "answer": "Greeting card. (All others are important cards of personal use.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Find Out the Correlation",
+      "answerGroups": [
+        {
+          "id": "g-9-3",
+          "entries": [
+            {
+              "id": "a-3-9-1",
+              "question": "(1) Addictive substances : Drugs : : Carcinogenic (Cancer causing) substances : .",
+              "answer": "Tobacco"
+            },
+            {
+              "id": "a-3-9-2",
+              "question": "(2) Radiations from cell phones : Headache : : : Hindrance to the brain development.",
+              "answer": "Alcoholism"
+            },
+            {
+              "id": "a-3-9-3",
+              "question": "(3) Movement against tobacco : Tata trust : : Education of slum children : .",
+              "answer": "Salaam Mumbai Foundation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-9-4",
+          "entries": [
+            {
+              "id": "a-4-9-1",
+              "question": "(1) Column ‘A’ Column ‘B’ Cyber crime (a) Bank frauds (b) Drug peddling (c) Burglary by breaking into house",
+              "answer": "Cyber crime – Bank frauds."
+            },
+            {
+              "id": "a-4-9-2",
+              "question": "(2) Column ‘A’ Column ‘B’ Laughter club (a) Stress Management (b) Self-centred attitude (c) Alcoholism",
+              "answer": "Laughter club – Stress Management."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-9-5",
+          "entries": [
+            {
+              "id": "a-5-9-1",
+              "question": "(1) Communication media like mobile phone, television, internet should be used often. (July ’23)",
+              "answer": "False",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-5-9-2",
+              "question": "(2) Tobacco containing substances cannot cause cancer of mouth and lungs. (March ’20)",
+              "answer": "False",
+              "questionTag": "March ’20"
+            },
+            {
+              "id": "a-5-9-3",
+              "question": "(3) Children who watch cartoon films may imitate the characters of those films.",
+              "answer": "True"
+            },
+            {
+              "id": "a-5-9-4",
+              "question": "(4) To take selfie on the road is the invitation for accident. (March ’23)",
+              "answer": "True.",
+              "questionTag": "March ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-9-6",
+          "entries": [
+            {
+              "id": "a-6-9-1",
+              "question": "• Counsellor.",
+              "answer": "To empathetically listen to persons who have some psychological or emotional problems. To understand problems of them and give remedial measures by talking to them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Give Scientific Reasons",
+      "answerGroups": [
+        {
+          "id": "g-9-7",
+          "entries": [
+            {
+              "id": "a-7-9-1",
+              "question": "(1) Girls are facing the problem of stress due to such gender inequality. (Sept. ’21)",
+              "answer": "(1) In most of the households there are many bindings on girls and excessive freedom for boys.\n\n(2) Boys do not participate in the domestic duties whereas girls have compulsion for the same.\n\n(3) In society too, girls have to face the problems like teasing and molestation. This creates insecurity in the minds of girls.\n\n(4) The social change has made women independent and equal but still the male dominated society and the gender inequality persists causing more stress for young girls.",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-7-9-2",
+              "question": "(2) Tobacco chewing is injurious to health. (July ’22)",
+              "answer": "(1) Tobacco chewing is an addictive habit. It has toxic substance, nicotine in it.\n\n(2) Nicotine has bad impact on nervous system and heart.\n\n(3) Cancer of oral cavity and pharynx can be the outcome of tobacco chewing.\n\n(4) Fumes of tobacco can also cause lung cancer. Therefore, tobacco chewing is considered to be injurious to health.",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-7-9-3",
+              "question": "(3) Importance of outdoor games is unparalleled.",
+              "answer": "(1) Outdoor games give good physical exercise. These games give many physical benefits.\n\n(2) It improves personal discipline, interaction with fellow players and creates sense of unity.\n\n(3) Through play by driving away the loneliness, mental stress and depression is reduced.\n\n(4) The person becomes more social. Therefore, it is said that the importance of outdoor games is unparalleled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-9-8",
+          "entries": [
+            {
+              "id": "a-8-9-1",
+              "question": "Selfiecide",
+              "answer": "Person indulging in selfie is not aware about the world around and the risks. This is called as selfiecide."
+            },
+            {
+              "id": "a-8-9-2",
+              "question": "Social health",
+              "answer": "Ability of a person to establish the positive relationship with other persons and developing a strong personality is called social health."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-9-10",
+          "entries": [
+            {
+              "id": "a-10-9-1",
+              "question": "• Cybercrimes. (3 marks)",
+              "answer": "(1) No personal information should be shared on the phone, especially the details of bank account, Aadhaar card, PAN card, credit card or debit card number, etc. Cheating persons by using this information is a greatest cybercrime.\n\n(2) If PIN of any debit or credit card is known to a stranger, he or she can make fraudulent transactions.\n\n(3) The PIN number and CVV number should be kept total secret. Otherwise, the bank transactions are done using PIN without the knowledge of consumers.\n\n(4) In on-line purchases, many a times consumers are cheated. In this, the consumers are shown superior items on websites but actually the inferior ones are sold to them.\n\n(5) ‘Hacking of information’ is done by some programmers in which the confidential information about government, institutes and companies is obtained from internet with the help of computer programs.\n\n(6) Fake Facebook accounts are opened and false information is displayed there. This is for harassing girls or financially exploiting others.\n\n(7) In internet piracy, written literature, software, photos, videos, music, etc. of other persons are misused or illegally used.\n\n(8) Misuse of electronic media sending derogatory messages, spreading vulgar pictures and provocative statements is also a cybercrime. Very rapid exchange of information through media like email, Facebook and WhatsApp takes place these days. But we have to take care about leaking of our own important information. However, when our personal information and phone numbers are automatically spread and reached to fraudulent people, then they commit malpractices which can hinder the function or shut of the cell phones or computers. All these are cybercrimes which are also indicative of mental health."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set12",
+      "type": "answer_sets",
+      "title": "Q. Set 12 : Remedies/Measures on Problems",
+      "answerGroups": [
+        {
+          "id": "g-9-12",
+          "entries": [
+            {
+              "id": "a-12-9-1",
+              "question": "Q. 1. What will you do?\n\n(1) Child of your neighbour is addicted to tobacco chewing. (July ’19; March ’20 – ’22; Nov. ’20)",
+              "answer": "The hazards of tobacco chewing will be explained to this child. Different photographs and videos showing the conditions of oral cancer will be shown to this child to persuade him, so that he can stay away from tobacco. This addiction has to be removed, so help of his parents will be taken. They will be told about the child’s habit and asked to help him free from his addiction.\n\n(2) Your sister has become incommunicative. She prefers to remain alone. (July ’19; March ’20 – ’22) Ans. The individual who prefers to be incommunicative has lots of thoughts in his/her mind. If this is the case with sister, she will be taken into confidence and the reason behind this lack of communication will be found out. Most often such persons have depression. So she will not be left alone. Her friends will be invited at home, so that she can converse with them. She should be motivated to mix with her favourite people. She should be encouraged to pursue her hobbies. She should be helped in selecting such work. If nothing changes her, then the help of counsellor should be taken.\n\n(3) You have to use free space around your home for good purpose. (Nov. ’20; March ’22; July ’22) Ans. The free space around our home can be used to make a small garden. The garden-soil can be bought and spread in this free space. Small saplings can be planted here and nurtured for further growth. Nursery of saplings can also be started in this free space. The space can also be used for outdoor games. The net for Badminton can be fixed and evening times can be spent in playing the game. Also care will be taken to keep the space clean and without any garbage.\n\n(4) Your friend has developed the hobby of snapping selfies. (July ’19; March ’20 ; Nov. ’20) Ans. The habit of continuously taking selfie is bad. It shows that the friend is constantly thinking of himself only. His self- centredness is to be removed by counselling him. The reason behind this behaviour should also be understood. He should be diverted and motivated to take some other tasks so that his habit can be lessened. Taking selfies is not a hobby. It is a bad habit if someone is repeatedly engaged in it.\n\n(5) Your maid’s husband has started drinking and beating her. (Sept. ’21) Ans. We shall try to tell maid’s husband about the ill-effects of alcoholism and will help him for de-addiction. We also ask maid to be self-reliant and able to protect herself. In order to stop social, mental and societal problems, help of police can also be taken.\n\n(6) Your younger brother plays games on cellphone while eating. (Sept. ’21) Ans. We will explain him ill-effects of over use of cellphone. We will also tell him that paying attention towards proper nutrition is important. If he does not obey, we will take help of parents.\n\n(7) Your brother studying in Class XII has developed the stress. (March ’22; July ’22) Ans. The syllabus for Class XII is vast. If the studies are not taken seriously from the beginning of the academic year, then the stress develops due to the fear of examination and result. Therefore, instead of being stressed, he should practise time management and study schedule. He should think of only one subject at a time. The atmosphere in the house should be maintained happy and tension- free. Everybody in the house should interact with him so that he gets a feeling that he is not alone. He should be convinced, “study is for you and you are not for study”.",
+              "questionTag": "July ’19; March ’20 – ’22; Nov. ’20"
+            },
+            {
+              "id": "a-12-9-2",
+              "question": "Q. 2. What are the various ways to minimise mental stress ? OR Write four methods to reduce stress. (March ’25) (2 marks)",
+              "answer": "Methods to reduce stress are as follows :\n\n(1) Photography\n\n(2) Reading\n\n(3) Cooking\n\n(4) Drawing\n\n(5) Sculpturing\n\n(6) Rangoli\n\n(7) Laughter club\n\n(8) Outdoor games, etc.",
+              "questionTag": "March ’25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-9-13",
+          "entries": [
+            {
+              "id": "a-13-9-1",
+              "question": "(1) Observe the following pictures and answer the following : (July ’23) (2 marks) (a) Whether the incidence shown in the picture is rational or irrational? Justify your answer. (b) Identify the picture. What is the punishment given to the person shown in the picture?",
+              "answer": "(a) In one way, the picture looks proper as the beggar may be causing inconvenience to the people in that house. He is unhygienic and may spread the infection. But from the humanitarian point of view, he may be needing help. He may be starving. He may be sick. In such a case, he should be given food and help. (b) The picture shown is of cybercrime of some kind, such as hacking of information or cheating the consumers. The criminal should be punished according to the law against cybercrime. There is provision of imprisonment for three years and a fine of up to 5 lakh rupees.",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-13-9-2",
+              "question": "(2) Observe the pictures and answer the questions. (March ’19) (3 marks) (a) Playing games on mobile while eating is right or wrong. Justify.",
+              "answer": "The boy taking his lunch is shown in the adjoining picture. He is busy with his mobile while having his food. His nutrition may affect due to such behaviour. (b) What do you conclude from the adjacent picture ? Ans. Cigarette contains carcinogenic nicotine. It should never be smoked. Similarly, always stay away from addictions such as drugs, alcohol, gutkha, etc. The pictures give message for control of addictions. (c) Observe the adjacent picture and state what can be the outcome. Ans. In the picture, a young man is taking selfie while standing in the busy road. He is not aware of the approaching car too. This may cause an accident.",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-13-9-3",
+              "question": "(3) Identify the picture and name it : (March ’22) (1 mark)",
+              "answer": "Laughter club",
+              "questionTag": "March ’22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-9-14",
+          "entries": [
+            {
+              "id": "a-14-9-1",
+              "question": "(1) Complete the following chart : (July ’23) (3 marks); (March ’24) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Education Water Financial status Factors affecting the Social Health Residential Toilets areas Gardens\n\n(2) Solve the following cross word : (March ’23) (5 marks) 1. Continuous consumption of alcoholic and tobacco materials. (March ’25) 2. This app may cause the cybercrimes. (March ’25) 3. A remedy to resolve stress. (March ’25) 4. Requirement for stress free life. (March ’25) 5. Various factors affect ......... health. 6. Art of preparing food items. 5 6 1 A D D I C T I O N Ans.\n\n(1) Addiction\n\n(2) Facebook\n\n(3) Singing\n\n(4) Good food\n\n(5) Social\n\n(6) Cooking.\n\n(3) Complete the following chart. (March ’24) (3 marks) Ans. (Answers are directly given and underlined.) Dancing Music Hobbies bird Drawing helpful to watching, overcome stress Photography Gardening, Reading good Cooking literature",
+              "questionTag": "July ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-9-15",
+          "entries": [
+            {
+              "id": "a-15-9-1",
+              "question": "Q. (personality, thoughts, virtual, health, converse, relative) When we interact with the , it becomes easier to mix with other strangers later. The moulds when we talk and interact with different people. We can exchange the . We learn to in a rightful way. When we go to playground and take part in outdoor games, we get benefits. Sitting at home and spending time in just mobile or computer games, does not benefit in any way. Most of the serials on the television are of no use for any kind of personality development, instead they push us in a world.",
+              "answer": "When we interact with the relative, it becomes easier to mix with other strangers later. The personality moulds when we talk and interact with different people. We can exchange the thoughts. We learn to converse in a rightful way. When we go to playground and take part in outdoor games, we get health benefits. Sitting at home and spending time in just mobile or computer games, does not benefit in any way. Most of the serials on the television are of no use for any kind of personality development, instead they push us in a virtual world."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-9-18",
+          "entries": [
+            {
+              "id": "a-18-9-1",
+              "question": "(1) Write down impact of alcoholism on human health. (July ’19)",
+              "answer": "(1) Consuming liquor becomes an addiction for a long- term. Due to alcohol, the efficiency of nervous system and especially the brain is affected.\n\n(2) Other vital organs such as kidneys and liver are adversely affected.\n\n(3) Lifespan of an alcoholic decreases due to constant drinking and malnourishment.\n\n(4) Especially in adolescent age, if alcohol is consumed the brain functioning does not take place properly. The mental ability of memorisation and learning becomes slow. There is lack of concentration in studies.\n\n(5) The alcoholic person lacks the rational thinking and hence faces social, mental and familial problems along with physical illness.",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-18-9-2",
+              "question": "(2) How is the excessive use of social media and technology proving harmful?",
+              "answer": "Excessive use of social media and modern technology is disturbing the social health. It is also affecting physical and mental health. Increase in cybercrimes take place. People waste their time by watching useless and obscene material. Violence develops by watching few weird cartoon serials. Dependency on machine rises and persons lose self-reliance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-9-19",
+          "entries": [
+            {
+              "id": "a-19-9-1",
+              "question": "Q. Write any six factors affecting social health. (Nov. ’20) (3 marks)",
+              "answer": "(1) In order to maintain the social health of any community there should be good amenities for the people. e.g. Food, water, shelter, clothing, medicines and medical help.\n\n(2) There should be equal opportunities for education, cleanliness of the surroundings, transport facilities, etc. should be properly provided.\n\n(3) The social and political conditions of the surrounding should be such that there should not be any connections with world of criminals. The presence of such criminal ties can affect the social health to a great extent.\n\n(4) The gardens, playgrounds, the empty plots for outdoor games, sports clubs, etc. are important criteria for overall development of the society. This results into personality development and make people happy and strong.\n\n(5) Addictions, criminal tendencies, pervert behaviour and perverse thinking affects other people in the society and this reflects negatively on the social health.\n\n(6) Having large number of friends and relatives, proper use of time when alone and when along the peer group, trust in others, respect and acceptance for others build stronger social health.",
+              "questionTag": "Nov. ’20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-9-1",
+      "front": "Social health",
+      "back": "The ability of a person to establish positive relationships with others.",
+      "order": 1
+    },
+    {
+      "id": "fc-9-2",
+      "front": "Selfiecide",
+      "back": "Death caused when a person taking a selfie is unaware of the surroundings and the danger.",
+      "order": 2
+    },
+    {
+      "id": "fc-9-3",
+      "front": "Which system does alcohol mainly affect?",
+      "back": "The nervous system - memory loss and lack of concentration; liver and kidney are also affected.",
+      "order": 3
+    },
+    {
+      "id": "fc-9-4",
+      "front": "Substances in tobacco",
+      "back": "Tobacco is carcinogenic and can cause cancer of the mouth and lungs.",
+      "order": 4
+    },
+    {
+      "id": "fc-9-5",
+      "front": "IT Act 2000",
+      "back": "An Indian law to control cybercrimes.",
+      "order": 5
+    },
+    {
+      "id": "fc-9-6",
+      "front": "Physical problems from excessive use of mobile phones",
+      "back": "Headache, vision problems and joint pains.",
+      "order": 6
+    },
+    {
+      "id": "fc-9-7",
+      "front": "Hobbies that reduce stress",
+      "back": "Listening to music, bird watching and nature trails, reading good books.",
+      "order": 7
+    },
+    {
+      "id": "fc-9-8",
+      "front": "Which activity improves concentration in studies?",
+      "back": "Meditation.",
+      "order": 8
+    },
+    {
+      "id": "fc-9-9",
+      "front": "Laughter club",
+      "back": "A remedy to drive away stress.",
+      "order": 9
+    },
+    {
+      "id": "fc-9-10",
+      "front": "Diseases that endanger social health",
+      "back": "AIDS, tuberculosis and leprosy.",
+      "order": 10
+    },
+    {
+      "id": "fc-9-11",
+      "front": "Examples of cybercrime",
+      "back": "Banking transactions using someone else's PIN, misuse of someone's written material, hacking information of institutions.",
+      "order": 11
+    },
+    {
+      "id": "fc-9-12",
+      "front": "Why keep your debit card PIN secret?",
+      "back": "To prevent misuse and cybercrime on your bank account.",
+      "order": 12
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-9-1",
+      "qType": "mcq",
+      "question": "The IT Act 2000 is meant to control ____.",
+      "options": [
+        "house breaking",
+        "cybercrimes",
+        "cheating",
+        "pickpocketing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It deals with cybercrimes.",
+      "order": 1
+    },
+    {
+      "id": "quiz-9-2",
+      "qType": "mcq",
+      "question": "A laughter club is a remedy to drive away ____.",
+      "options": [
+        "stress",
+        "addictions",
+        "lethargy",
+        "epidemics"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Laughter relieves stress.",
+      "order": 2
+    },
+    {
+      "id": "quiz-9-3",
+      "qType": "mcq",
+      "question": "Alcohol consumption mainly affects the ____ system.",
+      "options": [
+        "respiratory",
+        "nervous",
+        "digestive",
+        "circulatory"
+      ],
+      "correctAnswer": 1,
+      "explanation": "It affects the nervous system and brain.",
+      "order": 3
+    },
+    {
+      "id": "quiz-9-4",
+      "qType": "mcq",
+      "question": "Persons continuously using computers and the internet may become ____.",
+      "options": [
+        "courageous",
+        "timid",
+        "solitary",
+        "outgoing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "They tend to isolate themselves.",
+      "order": 4
+    },
+    {
+      "id": "quiz-9-5",
+      "qType": "mcq",
+      "question": "Which helps to improve concentration in studies?",
+      "options": [
+        "Meditation",
+        "Alcohol",
+        "Tobacco",
+        "Gaming all night"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Meditation calms and focuses the mind.",
+      "order": 5
+    },
+    {
+      "id": "quiz-9-6",
+      "qType": "mcq",
+      "question": "Which is the odd one out?",
+      "options": [
+        "Tobacco",
+        "Laughter club",
+        "Alcoholism",
+        "Drug abuse"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The others are addictions.",
+      "order": 6
+    },
+    {
+      "id": "quiz-9-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "Tobacco-containing substances cannot cause cancer of the mouth and lungs.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tobacco is carcinogenic.",
+      "order": 7
+    },
+    {
+      "id": "quiz-9-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "A person taking a selfie without noticing danger may face ____.",
+      "wordBank": [
+        "selfiecide",
+        "meditation",
+        "fermentation",
+        "regeneration"
+      ],
+      "correctWord": "selfiecide",
+      "options": [
+        "selfiecide",
+        "meditation",
+        "fermentation",
+        "regeneration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Selfiecide is death from risky selfies.",
+      "order": 8
+    },
+    {
+      "id": "quiz-9-9",
+      "qType": "match",
+      "question": "Match the problem with its cause.",
+      "left": [
+        "Headache and vision problems",
+        "Memory loss",
+        "Cancer of mouth"
+      ],
+      "right": [
+        "Alcoholism",
+        "Tobacco",
+        "Excessive mobile use"
+      ],
+      "answerKey": [
+        2,
+        0,
+        1
+      ],
+      "options": [
+        "Alcoholism",
+        "Tobacco",
+        "Excessive mobile use"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mobile overuse, alcohol and tobacco each cause specific harm.",
+      "order": 9
+    }
+  ]
+}

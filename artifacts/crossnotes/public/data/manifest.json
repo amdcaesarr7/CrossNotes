@@ -1,0 +1,1182 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "661f5d45b376",
+  "generatedAt": "2026-11-12T02:18:04.637Z",
+  "subjects": [
+    {
+      "slug": "history",
+      "name": "History",
+      "chapters": [
+        {
+          "id": "ch1",
+          "num": 1,
+          "title": "Historiography: Development in the West",
+          "order": 1,
+          "path": "/data/history/ch1.json",
+          "size": 60813,
+          "hash": "8ffdbb0381708ba9de778423d00857b92bdb7b0e625a6af7a6059b50410b0624",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "fill_blank",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 55,
+          "flashcardCount": 20,
+          "quizCount": 11
+        },
+        {
+          "id": "ch2",
+          "num": 2,
+          "title": "Historiography: Indian Tradition",
+          "order": 2,
+          "path": "/data/history/ch2.json",
+          "size": 54907,
+          "hash": "87effd827c74fa0c19c2c0865c8710b122f2ccca222347f56113706be657973a",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 36,
+          "flashcardCount": 18,
+          "quizCount": 11
+        },
+        {
+          "id": "ch3",
+          "num": 3,
+          "title": "Applied History",
+          "order": 3,
+          "path": "/data/history/ch3.json",
+          "size": 51829,
+          "hash": "4d3380a2c6f4337021c231875ede7700120a76edd4649b838f16fa74d36b970a",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 36,
+          "flashcardCount": 16,
+          "quizCount": 11
+        },
+        {
+          "id": "ch4",
+          "num": 4,
+          "title": "History of Indian Arts",
+          "order": 4,
+          "path": "/data/history/ch4.json",
+          "size": 59893,
+          "hash": "1bc0f3b884e06f3a8f1be243a9f429f1ad30c0ad1d3086734bfcf2415c03567b",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 39,
+          "flashcardCount": 18,
+          "quizCount": 11
+        },
+        {
+          "id": "ch5",
+          "num": 5,
+          "title": "Mass Media and History",
+          "order": 5,
+          "path": "/data/history/ch5.json",
+          "size": 52447,
+          "hash": "0d31db29e429f041a639c329624c71a30700f871e31381991d631a58c057bdd6",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 36,
+          "flashcardCount": 16,
+          "quizCount": 11
+        },
+        {
+          "id": "ch6",
+          "num": 6,
+          "title": "Entertainment and History",
+          "order": 6,
+          "path": "/data/history/ch6.json",
+          "size": 52115,
+          "hash": "249a3f4def42484dd0ad38d7a226e7e7a7adb8436a4c3c9c06dcf712fd7dd456",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 35,
+          "flashcardCount": 16,
+          "quizCount": 11
+        },
+        {
+          "id": "ch7",
+          "num": 7,
+          "title": "Sports and History",
+          "order": 7,
+          "path": "/data/history/ch7.json",
+          "size": 55480,
+          "hash": "5e641f67c0ff74b75d184b9ada4448034a15a56e9cbaa35c29d542c8cac550d0",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 36,
+          "flashcardCount": 17,
+          "quizCount": 11
+        },
+        {
+          "id": "ch8",
+          "num": 8,
+          "title": "Tourism and History",
+          "order": 8,
+          "path": "/data/history/ch8.json",
+          "size": 53418,
+          "hash": "544efb61ad3c5c7ac3daffa02aaedcc01fc14f20e3d8291458490cb5fb3c1cb9",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 35,
+          "flashcardCount": 15,
+          "quizCount": 11
+        },
+        {
+          "id": "ch9",
+          "num": 9,
+          "title": "Heritage Management",
+          "order": 9,
+          "path": "/data/history/ch9.json",
+          "size": 59605,
+          "hash": "8b42a4fe8eda34a46accef44efb647773b8febe922b3aab613ee04f5697d90d6",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 37,
+          "flashcardCount": 16,
+          "quizCount": 11
+        },
+        {
+          "id": "ch10",
+          "num": 10,
+          "title": "Working of the Constitution",
+          "order": 10,
+          "path": "/data/history/ch10.json",
+          "size": 41887,
+          "hash": "a3f9a1564fb94e3f08013cb2e5ce10afef3ff73958ab98f0cb5906850813cc9d",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 35,
+          "flashcardCount": 15,
+          "quizCount": 11
+        },
+        {
+          "id": "ch11",
+          "num": 11,
+          "title": "Political Parties",
+          "order": 11,
+          "path": "/data/history/ch11.json",
+          "size": 37014,
+          "hash": "2c79e665f9e35685569062cd21a3f53f89b81b0ece42057ca6ea12979616d35d",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 33,
+          "flashcardCount": 14,
+          "quizCount": 11
+        },
+        {
+          "id": "ch12",
+          "num": 12,
+          "title": "Social and Political Movements",
+          "order": 12,
+          "path": "/data/history/ch12.json",
+          "size": 50172,
+          "hash": "9fb9dfa3ee1d2353eebdb373f6a25bbacde6c8f693a26686099c51418850623d",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 35,
+          "flashcardCount": 14,
+          "quizCount": 11
+        },
+        {
+          "id": "ch13",
+          "num": 13,
+          "title": "Challenges Faced by Indian Democracy",
+          "order": 13,
+          "path": "/data/history/ch13.json",
+          "size": 40026,
+          "hash": "2844495139c1e6ee01a39ed6cb3186a6a46fe1d2becea922b3cc019e60bf4a08",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure",
+            "heading",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 34,
+          "flashcardCount": 14,
+          "quizCount": 11
+        },
+        {
+          "id": "ch14",
+          "num": 14,
+          "title": "Challenges Faced by Indian Democracy",
+          "order": 14,
+          "path": "/data/history/ch14.json",
+          "size": 28905,
+          "hash": "1a7cbaf6507471ed2560413629221af407b4d84c533b0cc0fd3ce8f327337821",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 7,
+          "flashcardCount": 8,
+          "quizCount": 6
+        }
+      ]
+    },
+    {
+      "slug": "geography",
+      "name": "Geography",
+      "chapters": [
+        {
+          "id": "geo-ch1",
+          "num": 1,
+          "title": "Field Visit",
+          "order": 1,
+          "path": "/data/geography/geo-ch1.json",
+          "size": 18933,
+          "hash": "77dd56e7a816bac998017ce251a546469ae76495d701ace86b6f57752b44a5ed",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 10,
+          "flashcardCount": 16,
+          "quizCount": 4
+        },
+        {
+          "id": "geo-ch2",
+          "num": 2,
+          "title": "Location and Extent",
+          "order": 2,
+          "path": "/data/geography/geo-ch2.json",
+          "size": 20547,
+          "hash": "e0395cc4a54b97a3479c9de435a48633a8c0b0beaa0d26e32017be5d858e8590",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 14,
+          "flashcardCount": 17,
+          "quizCount": 4
+        },
+        {
+          "id": "geo-ch3",
+          "num": 3,
+          "title": "Physiography and Drainage",
+          "order": 3,
+          "path": "/data/geography/geo-ch3.json",
+          "size": 30987,
+          "hash": "1a57b7fdd7ac7f6466fdf0593b918469cb9c35df67c5cc4677b7463fcc3b4821",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 15,
+          "flashcardCount": 17,
+          "quizCount": 4
+        },
+        {
+          "id": "geo-ch4",
+          "num": 4,
+          "title": "Climate",
+          "order": 4,
+          "path": "/data/geography/geo-ch4.json",
+          "size": 25554,
+          "hash": "0eff02ff4f16f0c92a5a08d65a7104af8fa213aa2ac5325c6d2234f4d1468688",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 13,
+          "flashcardCount": 16,
+          "quizCount": 4
+        },
+        {
+          "id": "geo-ch5",
+          "num": 5,
+          "title": "Natural Vegetation and Wildlife",
+          "order": 5,
+          "path": "/data/geography/geo-ch5.json",
+          "size": 23674,
+          "hash": "144dfca76a19a6bf54877fe7658e03d4843a64156ab0eb3cc5170fa4fae80cce",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 12,
+          "flashcardCount": 16,
+          "quizCount": 4
+        },
+        {
+          "id": "geo-ch6",
+          "num": 6,
+          "title": "Population",
+          "order": 6,
+          "path": "/data/geography/geo-ch6.json",
+          "size": 26634,
+          "hash": "4b09d748b4610d86440b84c8a20cc0caa31152312f499b8e378868808060bb15",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 14,
+          "flashcardCount": 16,
+          "quizCount": 4
+        },
+        {
+          "id": "geo-ch7",
+          "num": 7,
+          "title": "Human Settlements",
+          "order": 7,
+          "path": "/data/geography/geo-ch7.json",
+          "size": 21567,
+          "hash": "d350543aed9ffe8fc80befa5bf395b47d9316669e7ef01d55c4593ed57de6b9e",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 12,
+          "flashcardCount": 16,
+          "quizCount": 4
+        },
+        {
+          "id": "geo-ch8",
+          "num": 8,
+          "title": "Economy and Occupations",
+          "order": 8,
+          "path": "/data/geography/geo-ch8.json",
+          "size": 28152,
+          "hash": "78b51ed1cc9d535b161a083d5ad89a9d219d0c02cc6d48a24f4cbf93ec71afe2",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 12,
+          "flashcardCount": 16,
+          "quizCount": 4
+        },
+        {
+          "id": "geo-ch9",
+          "num": 9,
+          "title": "Tourism, Transport and Communication",
+          "order": 9,
+          "path": "/data/geography/geo-ch9.json",
+          "size": 28550,
+          "hash": "cdb63ffe8943c4ee32b90ee1cf033028197b486179d89ffd47e4d4549e41d1f6",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "paragraph"
+          ],
+          "noteCount": 14,
+          "flashcardCount": 20,
+          "quizCount": 8
+        }
+      ]
+    },
+    {
+      "slug": "maths-1",
+      "name": "Maths 1",
+      "chapters": [
+        {
+          "id": "ch1",
+          "num": 1,
+          "title": "Linear Equations in Two Variables",
+          "order": 1,
+          "path": "/data/maths-1/ch1.json",
+          "size": 166834,
+          "hash": "4debfd992e2220717e8b5618f14bca6ca5946f2ff288d321a74142c17505ec16",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "markdown"
+          ],
+          "noteCount": 6,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch2",
+          "num": 2,
+          "title": "Quadratic Equations",
+          "order": 2,
+          "path": "/data/maths-1/ch2.json",
+          "size": 151358,
+          "hash": "716030664907edfcd59a65900980d66243bea026e5451f9a60c521c62dc3b556",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "markdown"
+          ],
+          "noteCount": 7,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch3",
+          "num": 3,
+          "title": "Arithmetic Progression",
+          "order": 3,
+          "path": "/data/maths-1/ch3.json",
+          "size": 86228,
+          "hash": "139397cc82039f423ce9b9d5704dc0a5bdd1117c09e44cc32ea2fa09d7d7e29d",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "markdown"
+          ],
+          "noteCount": 5,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch4",
+          "num": 4,
+          "title": "Financial Planning",
+          "order": 4,
+          "path": "/data/maths-1/ch4.json",
+          "size": 156989,
+          "hash": "fa0b1d45545f97a466b151a0959dfe1e0fda518b3e2296cbd7eb830032f388cf",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "markdown"
+          ],
+          "noteCount": 6,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch5",
+          "num": 5,
+          "title": "Probability",
+          "order": 5,
+          "path": "/data/maths-1/ch5.json",
+          "size": 98460,
+          "hash": "76474267e2b39b6d97f7e8155597c22a255721aaa557164a2c430d56f67dbc45",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "markdown"
+          ],
+          "noteCount": 5,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch6",
+          "num": 6,
+          "title": "Statistics",
+          "order": 6,
+          "path": "/data/maths-1/ch6.json",
+          "size": 217151,
+          "hash": "c06593bed47504bfcd78fd2e298bb1aa0df8847ce8096c51b483f12699ababa2",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "markdown"
+          ],
+          "noteCount": 7,
+          "flashcardCount": 0,
+          "quizCount": 0
+        }
+      ]
+    },
+    {
+      "slug": "maths-2",
+      "name": "Maths 2",
+      "chapters": [
+        {
+          "id": "ch1",
+          "num": 1,
+          "title": "Similarity",
+          "order": 1,
+          "path": "/data/maths-2/ch1.json",
+          "size": 130075,
+          "hash": "f7aa060e3b4bc2c00563d0eb85277d221c84c61c09951541cf7f5d2cf6db1331",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 5,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch2",
+          "num": 2,
+          "title": "Pythagoras Theorem",
+          "order": 2,
+          "path": "/data/maths-2/ch2.json",
+          "size": 114794,
+          "hash": "a53c7bcda9b8b2c35f14fff255ee7afaa1b50c1e4ff6a0fff82e0bc675b9b003",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 3,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch3",
+          "num": 3,
+          "title": "Circle",
+          "order": 3,
+          "path": "/data/maths-2/ch3.json",
+          "size": 279692,
+          "hash": "6852d75df4113e9d2bcd9676ce9bb15a4fc87144396934a10eea6e71ad5d2d4e",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 6,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch4",
+          "num": 4,
+          "title": "Geometric Constructions",
+          "order": 4,
+          "path": "/data/maths-2/ch4.json",
+          "size": 99312,
+          "hash": "99a519fa95fa61fa0245635f44bca0dba813b60c70bd6ac839fbfb4f30d28614",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 3,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch5",
+          "num": 5,
+          "title": "Co-ordinate Geometry",
+          "order": 5,
+          "path": "/data/maths-2/ch5.json",
+          "size": 163758,
+          "hash": "f9ed392ef2d4fb621fb95dc8d9c6a997a90f25ddfc230803515099ce67df53dd",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 4,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch6",
+          "num": 6,
+          "title": "Trigonometry",
+          "order": 6,
+          "path": "/data/maths-2/ch6.json",
+          "size": 92485,
+          "hash": "25a7d60f588c6095c83fcc74d95ee604c6c14e9c7a9b8cf609ee040703baec47",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 3,
+          "flashcardCount": 0,
+          "quizCount": 0
+        },
+        {
+          "id": "ch7",
+          "num": 7,
+          "title": "Mensuration",
+          "order": 7,
+          "path": "/data/maths-2/ch7.json",
+          "size": 142923,
+          "hash": "c49957dfeec50e9b5a5e2a3ade1108abfff721abf6bb0038c37c45f5a66f93da",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 5,
+          "flashcardCount": 0,
+          "quizCount": 0
+        }
+      ]
+    },
+    {
+      "slug": "science-1",
+      "name": "Science 1",
+      "chapters": [
+        {
+          "id": "ch1",
+          "num": 1,
+          "title": "Gravitation",
+          "order": 1,
+          "path": "/data/science-1/ch1.json",
+          "size": 13225,
+          "hash": "baa538fe8e52731f44fcf2c59e0a902284173096c8707077173647385f25cf3c",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "callout",
+            "diagram",
+            "figure",
+            "list",
+            "match_column",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 18,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch2",
+          "num": 2,
+          "title": "Periodic Classification of Elements",
+          "order": 2,
+          "path": "/data/science-1/ch2.json",
+          "size": 10495,
+          "hash": "b277b1e8f6db6991e41f2472a698a594b1ac2b81f2a691f221878355009465c1",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "fill_blank",
+            "list",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 18,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch3",
+          "num": 3,
+          "title": "Chemical Reactions and Equations",
+          "order": 3,
+          "path": "/data/science-1/ch3.json",
+          "size": 10440,
+          "hash": "72e1841f88f3f8520179f455273bb2d0f650d3dd58ca91aefb15bcd96b4a3168",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "fill_blank",
+            "list",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 15,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch4",
+          "num": 4,
+          "title": "Effects of Electric Current",
+          "order": 4,
+          "path": "/data/science-1/ch4.json",
+          "size": 10131,
+          "hash": "af43bfd638d11fd8df698bc04ecbb93885c9afde5080111f67950e9f98a79e2a",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "fill_blank",
+            "list",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 17,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch5",
+          "num": 5,
+          "title": "Heat",
+          "order": 5,
+          "path": "/data/science-1/ch5.json",
+          "size": 7608,
+          "hash": "f661e42797af6e1653fa96f1e0ad2ce86dba2f3ec8697b093bf7e8ed266ea1d4",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "fill_blank",
+            "list",
+            "paragraph",
+            "qna"
+          ],
+          "noteCount": 12,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch6",
+          "num": 6,
+          "title": "Refraction of Light",
+          "order": 6,
+          "path": "/data/science-1/ch6.json",
+          "size": 8837,
+          "hash": "d379db9eec44df8da26575fbd588c2818268a3659f1f402cf266f19b7dc7bba4",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "list",
+            "paragraph",
+            "qna"
+          ],
+          "noteCount": 13,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch7",
+          "num": 7,
+          "title": "Lenses",
+          "order": 7,
+          "path": "/data/science-1/ch7.json",
+          "size": 8748,
+          "hash": "ffdd3d92740bc9b5e6823d42de3a9a38674e3413cb0756b03942b2640f42c38f",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "fill_blank",
+            "list",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 14,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch8",
+          "num": 8,
+          "title": "Metallurgy",
+          "order": 8,
+          "path": "/data/science-1/ch8.json",
+          "size": 9124,
+          "hash": "dd53018b92f2bd343ba228351bbd59ea4ba721cff362fdb6181f15e028944196",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "fill_blank",
+            "list",
+            "paragraph",
+            "qna"
+          ],
+          "noteCount": 13,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch9",
+          "num": 9,
+          "title": "Carbon Compounds",
+          "order": 9,
+          "path": "/data/science-1/ch9.json",
+          "size": 10556,
+          "hash": "045e999ca5057545d26f1eba145c99184874a52fdec6d796547ab618a0b8674a",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "fill_blank",
+            "list",
+            "paragraph",
+            "qna",
+            "table"
+          ],
+          "noteCount": 16,
+          "flashcardCount": 5,
+          "quizCount": 5
+        },
+        {
+          "id": "ch10",
+          "num": 10,
+          "title": "Space Missions",
+          "order": 10,
+          "path": "/data/science-1/ch10.json",
+          "size": 7914,
+          "hash": "e239861a99da6a4c5569cedd18ea5ea8ad4e8a6253a2bf0e7433f4a681c0ca91",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "fill_blank",
+            "list",
+            "paragraph",
+            "qna"
+          ],
+          "noteCount": 13,
+          "flashcardCount": 5,
+          "quizCount": 5
+        }
+      ]
+    },
+    {
+      "slug": "science-2",
+      "name": "Science 2",
+      "chapters": [
+        {
+          "id": "ch1",
+          "num": 1,
+          "title": "Heredity and Evolution",
+          "order": 1,
+          "path": "/data/science-2/ch1.json",
+          "size": 39674,
+          "hash": "e7a01189bd5a7e860db201828654d7412ca70b437299d402467fe6484a54c51a",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 15,
+          "flashcardCount": 12,
+          "quizCount": 9
+        },
+        {
+          "id": "ch2",
+          "num": 2,
+          "title": "Life Processes in Living Organisms : Part 1",
+          "order": 2,
+          "path": "/data/science-2/ch2.json",
+          "size": 37007,
+          "hash": "845b48da3ec43fcac4132a08ff6ed1a4e5f4785dcb258d11478295ab9f8c10f9",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 16,
+          "flashcardCount": 12,
+          "quizCount": 9
+        },
+        {
+          "id": "ch3",
+          "num": 3,
+          "title": "Life Processes in Living Organisms : Part 2",
+          "order": 3,
+          "path": "/data/science-2/ch3.json",
+          "size": 54903,
+          "hash": "ab535509cca31c6ec38472bb1f46cc3ca935fc4622fc5c97d0b5782eb701e6ce",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 19,
+          "flashcardCount": 13,
+          "quizCount": 9
+        },
+        {
+          "id": "ch4",
+          "num": 4,
+          "title": "Environmental Management",
+          "order": 4,
+          "path": "/data/science-2/ch4.json",
+          "size": 39804,
+          "hash": "fba4af768656d588b1b45467da22b369967ec0230758ac3b175add2cbc7d4ac9",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 16,
+          "flashcardCount": 12,
+          "quizCount": 9
+        },
+        {
+          "id": "ch5",
+          "num": 5,
+          "title": "Towards Green Energy",
+          "order": 5,
+          "path": "/data/science-2/ch5.json",
+          "size": 39587,
+          "hash": "cec2469bb16d32136bfdfb5c1d2046906f7481a85a17b06cb2ab7ce187b5f2bd",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 18,
+          "flashcardCount": 12,
+          "quizCount": 9
+        },
+        {
+          "id": "ch6",
+          "num": 6,
+          "title": "Animal Classification",
+          "order": 6,
+          "path": "/data/science-2/ch6.json",
+          "size": 46049,
+          "hash": "6020f75fcf7b6c22e3e735e2a97fdabcce1fbbb5c074745c9fe4dc1b9003ea4e",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 18,
+          "flashcardCount": 13,
+          "quizCount": 9
+        },
+        {
+          "id": "ch7",
+          "num": 7,
+          "title": "Introduction to Microbiology",
+          "order": 7,
+          "path": "/data/science-2/ch7.json",
+          "size": 40293,
+          "hash": "3d8a1265b49c6263fac09c7257c6214ac41daf82903025388fd96ac08cb9661c",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 19,
+          "flashcardCount": 12,
+          "quizCount": 9
+        },
+        {
+          "id": "ch8",
+          "num": 8,
+          "title": "Cell Biology and Biotechnology",
+          "order": 8,
+          "path": "/data/science-2/ch8.json",
+          "size": 38357,
+          "hash": "cc535ff0020ad06d47ae2ae8db538e8c1a4e2eb59cbe1f0f5d668f2ad2b36942",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 16,
+          "flashcardCount": 13,
+          "quizCount": 9
+        },
+        {
+          "id": "ch9",
+          "num": 9,
+          "title": "Social Health",
+          "order": 9,
+          "path": "/data/science-2/ch9.json",
+          "size": 35783,
+          "hash": "df3b50da5d489b97ebc736f7be68c5cf48f2eba3125feec7387f4e61b12c7e3e",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 16,
+          "flashcardCount": 12,
+          "quizCount": 9
+        },
+        {
+          "id": "ch10",
+          "num": 10,
+          "title": "Disaster Management",
+          "order": 10,
+          "path": "/data/science-2/ch10.json",
+          "size": 35942,
+          "hash": "d36a46583c5b8837a886c2369db3b20d646da967a47ce8463c7cfaeaf6ad6ccc",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [
+            "answer_sets",
+            "figure"
+          ],
+          "noteCount": 18,
+          "flashcardCount": 12,
+          "quizCount": 9
+        }
+      ]
+    },
+    {
+      "slug": "english",
+      "name": "English",
+      "chapters": [
+        {
+          "id": "eng-ch1",
+          "num": 1,
+          "title": "Exam Pattern & Study Tips",
+          "order": 1,
+          "path": "/data/english/eng-ch1.json",
+          "size": 3354,
+          "hash": "438dfdabaf2d1ce78af1ff1b1a37aae94c640ebad37f0bcde7239ee595f23e82",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 2,
+          "flashcardCount": 2,
+          "quizCount": 1
+        },
+        {
+          "id": "eng-ch2",
+          "num": 2,
+          "title": "Language Study",
+          "order": 2,
+          "path": "/data/english/eng-ch2.json",
+          "size": 3237,
+          "hash": "984c6a7b4a1398bd396d3ad9a8971049f1257098059065061f832a10e716bc2c",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 8,
+          "flashcardCount": 2,
+          "quizCount": 1
+        },
+        {
+          "id": "eng-ch3",
+          "num": 3,
+          "title": "Seen Passages",
+          "order": 3,
+          "path": "/data/english/eng-ch3.json",
+          "size": 5251,
+          "hash": "74426ad188ce7aa31307a0265d98f83c3bd10f867cfc80f1fb6e3fe0f584e108",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 7,
+          "flashcardCount": 2,
+          "quizCount": 1
+        },
+        {
+          "id": "eng-ch4",
+          "num": 4,
+          "title": "Seen Poems & Appreciation",
+          "order": 4,
+          "path": "/data/english/eng-ch4.json",
+          "size": 8125,
+          "hash": "b7a9c0114e9679f912c20189a6195f54ef5769f8115e5c2bde7f368b52af92b5",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 9,
+          "flashcardCount": 2,
+          "quizCount": 1
+        },
+        {
+          "id": "eng-ch5",
+          "num": 5,
+          "title": "Non-Textual Passages & Summary",
+          "order": 5,
+          "path": "/data/english/eng-ch5.json",
+          "size": 2233,
+          "hash": "8654093a16add9c9f512c8eb22e3e809e3015a1a0e5b949766cd937e444f9791",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 2,
+          "flashcardCount": 1,
+          "quizCount": 1
+        },
+        {
+          "id": "eng-ch6",
+          "num": 6,
+          "title": "Writing Skills: Letters",
+          "order": 6,
+          "path": "/data/english/eng-ch6.json",
+          "size": 3182,
+          "hash": "e757b74995432169533fe26d325b09b1b8772d51840e4889f8ad145837a031f6",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 3,
+          "flashcardCount": 1,
+          "quizCount": 1
+        },
+        {
+          "id": "eng-ch7",
+          "num": 7,
+          "title": "Writing Skills: Information Transfer",
+          "order": 7,
+          "path": "/data/english/eng-ch7.json",
+          "size": 4828,
+          "hash": "4a97f92471b07a721ab75039656762c4eee4e8eba968d22abdffbc79c93d2834",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 4,
+          "flashcardCount": 2,
+          "quizCount": 1
+        },
+        {
+          "id": "eng-ch8",
+          "num": 8,
+          "title": "Writing Skills: Speech & View/Counterview",
+          "order": 8,
+          "path": "/data/english/eng-ch8.json",
+          "size": 4191,
+          "hash": "aea7d1704b82f66e82ed390d994aea92bde8c4409261f35d0e598467c56de8fb",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 4,
+          "flashcardCount": 1,
+          "quizCount": 1
+        },
+        {
+          "id": "eng-ch9",
+          "num": 9,
+          "title": "Writing Skills: Expansion, Report, Story",
+          "order": 9,
+          "path": "/data/english/eng-ch9.json",
+          "size": 5892,
+          "hash": "bcca09de374e4d5a8a21e9f09a9e48809f3439e3aa2dea08ef78047f61f24b9c",
+          "updatedAt": "2026-11-12T02:18:04.637Z",
+          "tags": [],
+          "noteCount": 6,
+          "flashcardCount": 2,
+          "quizCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "hindi",
+      "name": "Hindi",
+      "chapters": []
+    },
+    {
+      "slug": "marathi",
+      "name": "Marathi",
+      "chapters": []
+    }
+  ]
+}

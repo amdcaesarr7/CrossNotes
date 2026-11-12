@@ -1,0 +1,319 @@
+{
+  "id": "ch14",
+  "num": 14,
+  "title": "Challenges Faced by Indian Democracy",
+  "emoji": "🌐",
+  "kind": "chapter",
+  "section": "Political Science",
+  "overview": {
+    "summary": "This concluding Political Science chapter analyzes the formidable challenges confronting Indian democracy. It evaluates systemic threats including corruption, the criminalisation of politics, communalism, terrorism, and Left-Wing Extremism (Naxalism). It highlights the imperative of deepening democratic roots, decentralizing authority, and fostering a vigilant, ethically active citizenry capable of defending constitutional values.",
+    "youWillLearn": [
+      "Understand the universal challenge of deepening the roots of democracy",
+      "Examine the root causes and grave consequences of the criminalisation of politics",
+      "Trace the origins and violent trajectory of Left-Wing Extremism (Naxalism)",
+      "Analyze how communalism and terrorism fracture social cohesion and state stability",
+      "Identify institutional reforms and civic duties required to make Indian democracy resilient"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-14-democracy_challenges",
+      "type": "figure",
+      "title": "Major Internal Challenges Confronting Indian Democracy",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q2hhbGxlbmdlcyBGYWNlZCBieSBJbmRpYW4gRGVtb2NyYWN5PC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSIzNjAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNTcuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iNzkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Db3JydXB0aW9uPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSI5NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihXZWFrZW5zIGFkbWluaXN0cmF0aXZlIGVmZmljaWVuY3kgJjwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTA5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+ZXJvZGVzIHB1YmxpYyB0cnVzdCk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjEyNC41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIxNDYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5DcmltaW5hbGlzYXRpb24gb2YgUG9saXRpY3M8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE2MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihVc2Ugb2YgbW9uZXksIG11c2NsZSBwb3dlciAmPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIxNzYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5maWVsZGluZyBjYW5kaWRhdGVzIHdpdGggY3JpbWluYWwgcmVjb3Jkcyk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjI1OS41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIyODEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Db21tdW5hbGlzbSAmIFRlcnJvcmlzbTwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMjk2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFJlbGlnaW91cyBpbnRvbGVyYW5jZSwgcmlvdHMgJjwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMzExLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+dmlvbGVudCBhdHRhY2tzIGRpdmlkaW5nIHNvY2lldHkpPC90ZXh0PjxyZWN0IHg9IjMxMC4wIiB5PSIzMjcuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iMzQ5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TGVmdC1XaW5nIEV4dHJlbWlzbSAoTmF4YWxpc20pPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNjQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oVmlvbGVudCBhcm1lZCByZWJlbGxpb24gYXR0YWNraW5nPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNzkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5wb2xpY2UsIG1pbGl0YXJ5ICYgcG9saXRpY2FsIGxlYWRlcnMpPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Tb2Npby1FY29ub21pYyBJbmVxdWFsaXRpZXM8L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihQb3ZlcnR5LCB1bmVtcGxveW1lbnQgJiBtYXJnaW5hbGl6YXRpb24pPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2NjZmJmMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Nb3JiaWQgUmVnaW9uYWxpc208L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihEaXZpc2l2ZSBsaW5ndWlzdGljICYgcmVnaW9uYWwgY29uZmxpY3RzKTwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RGVtb2NyYXRpYzwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkNoYWxsZW5nZXM8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of challenges faced by Indian democracy",
+      "figureCaption": "Serious systemic hurdles threatening democratic governance, rule of law, and national solidarity"
+    },
+    {
+      "id": "fig-14-strengthening_democracy",
+      "type": "figure",
+      "title": "Measures for Deepening and Strengthening Indian Democracy",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TWVhc3VyZXMgdG8gU3RyZW5ndGhlbiBJbmRpYW4gRGVtb2NyYWN5PC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjY0Ny4zIiB5Mj0iMTgzLjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI1NTIuOCIgeTI9IjMzNC4yIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMjQ3LjIiIHkyPSIzMzQuMiIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE1Mi43IiB5Mj0iMTgzLjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI1Ny4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI3OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkRlY2VudHJhbGlzYXRpb24gb2YgUG93ZXI8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9Ijk0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEVtcG93ZXJpbmcgR3JhbSBQYW5jaGF5YXRzICY8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwOS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk11bmljaXBhbGl0aWVzIHVuZGVyIDczcmQvNzR0aCBBbWVuZG1lbnRzKTwvdGV4dD48cmVjdCB4PSI1NTcuMyIgeT0iMTUwLjMiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjQ3LjMiIHk9IjE3Mi4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFjdGl2ZSBDaXRpemVuIFBhcnRpY2lwYXRpb248L3RleHQ+PHRleHQgeD0iNjQ3LjMiIHk9IjE4Ny4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihWaWdpbGFudCB2b3RpbmcsIFJUSSB1c2UgJjwvdGV4dD48dGV4dCB4PSI2NDcuMyIgeT0iMjAyLjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+aW52b2x2ZW1lbnQgaW4gcG9saWN5IG1ha2luZyk8L3RleHQ+PHJlY3QgeD0iNDYyLjgiIHk9IjMwMS4yIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjU1Mi44IiB5PSIzMjMuMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5UcmFuc3BhcmVuY3kgJiBBY2NvdW50YWJpbGl0eTwvdGV4dD48dGV4dCB4PSI1NTIuOCIgeT0iMzM4LjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KERpZ2l0YWwgZ292ZXJuYW5jZSwgYW50aS1jb3JydXB0aW9uIHdhdGNoZG9nczwvdGV4dD48dGV4dCB4PSI1NTIuOCIgeT0iMzUzLjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+JiBvcGVuIGFkbWluaXN0cmF0aXZlIHByb2Nlc3Nlcyk8L3RleHQ+PHJlY3QgeD0iMTU3LjIiIHk9IjMwMS4yIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjI0Ny4yIiB5PSIzMjMuMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TdHJpY3QgRWxlY3RvcmFsIFJlZm9ybXM8L3RleHQ+PHRleHQgeD0iMjQ3LjIiIHk9IjMzOC4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihEaXNxdWFsaWZ5aW5nIGNyaW1pbmFscywgc3RhdGUgZnVuZGluZyAmPC90ZXh0Pjx0ZXh0IHg9IjI0Ny4yIiB5PSIzNTMuMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj50cmFuc3BhcmVudCBwYXJ0eSBmaW5hbmNlcyk8L3RleHQ+PHJlY3QgeD0iNjIuNyIgeT0iMTUwLjMiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTUyLjciIHk9IjE3Mi4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkp1ZGljaWFsIEluZGVwZW5kZW5jZSAmIEludGVncml0eTwvdGV4dD48dGV4dCB4PSIxNTIuNyIgeT0iMTg3LjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFNwZWVkeSB0cmlhbHMsIHByb3RlY3RpbmcgcmlnaHRzICY8L3RleHQ+PHRleHQgeD0iMTUyLjciIHk9IjIwMi4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkJhc2ljIFN0cnVjdHVyZSBEb2N0cmluZSk8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlN0cmVuZ3RoZW5pbmc8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5EZW1vY3JhY3k8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of pathways to strengthen Indian democracy",
+      "figureCaption": "Institutional safeguards, reforms, and civic vigilance required to deepen democratic roots"
+    },
+    {
+      "id": "answers-14-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-14-1",
+          "entries": [
+            {
+              "id": "a-14-1-1",
+              "question": "(1) The major challenge faced by all democratic nations in the world is ______.\n(a) religious conflicts\n(b) naxalite activities\n(c) to ensure deepening the roots of democracy\n(d) importance to muscle power",
+              "answer": "to ensure deepening the roots of democracy. (Extending democratic practices beyond formal elections into every social and economic sphere.)",
+              "questionTag": "March '19 - '24; July '19"
+            },
+            {
+              "id": "a-14-1-2",
+              "question": "(2) The main objective of democracy is ______.\n(a) to hold elections\n(b) public welfare\n(c) public campaigns\n(d) social work",
+              "answer": "public welfare. (Ensuring the well-being, dignity, and rights of all citizens.)"
+            },
+            {
+              "id": "a-14-1-3",
+              "question": "(3) In order to make democracy meaningful, the Government of India adopted ______.\n(a) internal party elections\n(b) public welfare schemes\n(c) decentralisation of power\n(d) protection of democratic values",
+              "answer": "decentralisation of power. (Through Panchayati Raj and urban local governance reforms.)"
+            },
+            {
+              "id": "a-14-1-4",
+              "question": "(4) The ______ in India is making conscious efforts to make the political process transparent.\n(a) Parliament\n(b) Government\n(c) Judiciary\n(d) Political parties",
+              "answer": "Judiciary. (Enforcing mandatory disclosure of candidates' assets and criminal records.)"
+            },
+            {
+              "id": "a-14-1-5",
+              "question": "(5) Due to an increase in ______, there is an increase in religious conflict.\n(a) terrorism\n(b) communalism\n(c) corruption\n(d) casteism",
+              "answer": "communalism. (Aggressive religious chauvinism harms inter-community harmony.)"
+            },
+            {
+              "id": "a-14-1-6",
+              "question": "(6) In order to make democracy successful in India, participation of ______ should increase.\n(a) government\n(b) citizens\n(c) political parties\n(d) social organisations",
+              "answer": "citizens. (Democracy thrives on informed, vigilant, and active public participation.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-14-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : State Whether the Following Statements are True or False, Giving Reasons",
+      "answerGroups": [
+        {
+          "id": "g-14-2",
+          "entries": [
+            {
+              "id": "a-14-2-1",
+              "question": "(1) Alertness is required to sustain democracy.",
+              "answer": "The statement is True.\nReasons:\n(1) Democracy is not merely a form of government; it is a living principle of social equality and personal dignity.\n(2) Threats like corruption, violence, communalism, and administrative lethargy constantly undermine democratic institutions.\n(3) If citizens remain vigilant, question public representatives, and defend their constitutional rights, democracy stays resilient and accountable.",
+              "questionTag": "July '19 - '23; Nov. '20"
+            },
+            {
+              "id": "a-14-2-2",
+              "question": "(2) People may lose confidence in the democratic process due to corruption during elections.",
+              "answer": "The statement is True.\nReasons:\n(1) Free and fair elections are the cornerstone of public trust in democratic representation.\n(2) When elections are tarnished by cash distribution, liquor luring, voter intimidation, and bogus voting, citizens perceive representatives as corrupt.\n(3) This disillusionment causes voter apathy, reducing participation and eroding democratic credibility.",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-14-2-3",
+              "question": "(3) Communalism does not cause much harm to the nation.",
+              "answer": "The statement is False.\nReasons:\n(1) Communalism fosters narrow religious bigotry, mutual distrust, and hatred among citizens of diverse faiths.\n(2) It incites communal riots, destroys public and private property, and can lead to violent terrorism.\n(3) It fractures social cohesion, distracts national focus from economic development, and gravely endangers national integrity.",
+              "questionTag": "Board Textual Reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-14-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Explain the Concepts / Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-14-3",
+          "entries": [
+            {
+              "id": "a-14-3-1",
+              "question": "(1) Left-Wing Extremism (Naxalism):",
+              "answer": "(1) Origin: The Naxalite movement originated in 1967 at Naxalbari (West Bengal) as an agitation against the exploitation of landless peasants by oppressive landlords.\n(2) Shift to Violence: Influenced by Maoist ideology, the movement abandoned democratic methods, taking up arms to overthrow the constitutional Indian state.\n(3) Guerrilla Tactics: Naxalite insurgent groups set up parallel administrative systems and ambush security forces, police, and infrastructure projects.\n(4) Threat: Naxalism threatens internal security in remote tribal belts of Chhattisgarh, Jharkhand, Odisha, and Maharashtra (Gadchiroli)."
+            },
+            {
+              "id": "a-14-3-2",
+              "question": "(2) Criminalisation of Politics:",
+              "answer": "(1) Growing Participation: Political parties increasingly give election tickets to individuals with serious criminal charges because of their financial power and local intimidation ability.\n(2) Subversion of Democracy: Criminal candidates who win office manipulate police forces, engage in corruption, and intimidate opponents.\n(3) Judicial Counter-measures: The Supreme Court made it mandatory for all candidates to publish details of their criminal antecedents, assets, and liabilities in newspapers and affidavits.",
+              "questionTag": "March '24"
+            },
+            {
+              "id": "a-14-3-3",
+              "question": "(3) Communalism and Terrorism:",
+              "answer": "(1) Communalism stems from religious fundamentalism where religious identity is placed above national unity and humanitarian values.\n(2) It triggers communal riots, deepens social cleavages, and is exploited by foreign anti-national elements to sponsor terrorism.\n(3) Terrorism aims to destabilize national sovereignty, create widespread panic, and stall economic progress through bombings and targeted killings.\n(4) Combatting communalism requires secular education, strict law enforcement, and fostering interfaith harmony.",
+              "questionTag": "July '19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-14-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Do as Directed (Concept Maps & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-14-4",
+          "entries": [
+            {
+              "id": "a-14-4-1",
+              "question": "Complete the concept map: Challenges Faced by Indian Democracy.",
+              "answer": "\n1. Corruption in public life and administration\n\n2. Criminalisation of politics\n\n3. Communalism and terrorism\n\n4. Left-wing extremism (Naxalism)\n\n5. Growing socio-economic inequalities and unemployment\n\n6. Morbid regionalism and linguistic tensions",
+              "questionTag": "Board Activity Reference"
+            },
+            {
+              "id": "a-14-4-2",
+              "question": "Complete the concept map: Measures to make Democracy Successful in India.",
+              "answer": "• Decentralisation of power to grassroots local bodies\n• Increasing active, informed citizen participation\n• Strict judicial supervision and fast-track courts\n• Electoral transparency and curbing money/muscle power\n• Spreading values of equality, fraternity, and secularism"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-14-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Answer the Following in Brief",
+      "answerGroups": [
+        {
+          "id": "g-14-5",
+          "entries": [
+            {
+              "id": "a-14-5-1",
+              "question": "(1) Which factors are required for making democracy truly successful in India?",
+              "answer": "(1) Tolerant Democratic Culture: Respecting divergent opinions, protecting minority rights, and resolving social conflicts peacefully through dialogue.\n(2) Active Citizen Engagement: Citizens must move beyond voting every five years to actively monitoring civic works, using RTI, and demanding administrative accountability.\n(3) Free & Independent Press: An impartial media that questions the ruling establishment and highlights grassroots issues without fear or favor.\n(4) Socio-Economic Justice: Eradicating poverty, illiteracy, and unemployment so that every citizen enjoys equal life opportunities.\n(5) Institutional Integrity: Maintaining the autonomous independence and incorruptibility of the Judiciary, Election Commission, and investigative agencies.",
+              "questionTag": "Board Textual Reference"
+            },
+            {
+              "id": "a-14-5-2",
+              "question": "(2) What steps should be taken to prevent the criminalisation of politics?",
+              "answer": "(1) Legal Disqualification: Amending the Representation of the People Act to bar individuals facing framed charges for heinous crimes from contesting elections.\n(2) Fast-Track Courts: Establishing dedicated fast-track courts to decide criminal cases against sitting MPs and MLAs within a strict one-year timeline.\n(3) Political Ethics: Political parties must voluntarily resolve never to grant tickets to candidates with criminal histories.\n(4) Public Awareness: Voters must actively reject candidates with tainted records and utilize NOTA (None of the Above) when necessary.",
+              "questionTag": "Board Textual Reference"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-14-1",
+      "front": "What is the primary challenge faced by all democratic nations globally?",
+      "back": "Deepening the roots of democracy and extending democratic practices across all spheres.",
+      "order": 1
+    },
+    {
+      "id": "fc-14-2",
+      "front": "What is the ultimate objective of democracy?",
+      "back": "Public welfare and protection of human dignity and rights.",
+      "order": 2
+    },
+    {
+      "id": "fc-14-3",
+      "front": "Where did the Naxalite movement originate in 1967?",
+      "back": "Naxalbari, West Bengal (as a peasant uprising against landlords).",
+      "order": 3
+    },
+    {
+      "id": "fc-14-4",
+      "front": "What is criminalisation of politics?",
+      "back": "The entry and participation of individuals with criminal backgrounds in the electoral and political process.",
+      "order": 4
+    },
+    {
+      "id": "fc-14-5",
+      "front": "How does communalism harm a nation?",
+      "back": "It incites religious riots, divides communities, threatens social unity, and can fuel terrorism.",
+      "order": 5
+    },
+    {
+      "id": "fc-14-6",
+      "front": "Which institution in India makes active efforts to curb criminalisation in politics?",
+      "back": "The Judiciary (Supreme Court of India).",
+      "order": 6
+    },
+    {
+      "id": "fc-14-7",
+      "front": "Why is decentralisation of power essential in a democracy?",
+      "back": "It prevents concentration of power and empowers local communities to solve their own problems.",
+      "order": 7
+    },
+    {
+      "id": "fc-14-8",
+      "front": "What civic virtue is required from citizens to sustain democracy?",
+      "back": "Continuous alertness, vigilance, and active democratic participation.",
+      "order": 8
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-14-1",
+      "qType": "mcq",
+      "question": "The major challenge faced by all democratic nations in the world is ______.",
+      "options": [
+        "religious conflicts",
+        "deepening the roots of democracy",
+        "naxalite activities",
+        "military expansion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deepening democratic values across everyday social and economic life is the universal democratic challenge.",
+      "order": 1
+    },
+    {
+      "id": "quiz-14-2",
+      "qType": "mcq",
+      "question": "The ultimate objective of a democratic system is ______.",
+      "options": [
+        "public campaigns",
+        "public welfare",
+        "party rivalries",
+        "bureaucratic rule"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Democracy exists fundamentally to serve public welfare and guarantee human dignity.",
+      "order": 2
+    },
+    {
+      "id": "quiz-14-3",
+      "qType": "true_false",
+      "question": "Constant civic alertness and public vigilance are necessary to sustain democracy.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Democracy stays alive and accountable only when citizens remain vigilant.",
+      "order": 3
+    },
+    {
+      "id": "quiz-14-4",
+      "qType": "fill_blank",
+      "question": "To make democracy meaningful at the grassroots level, India adopted the policy of ____ of power.",
+      "options": [
+        "centralisation",
+        "decentralisation",
+        "militarisation",
+        "nationalisation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Decentralisation of power empowers local self-governing bodies.",
+      "order": 4
+    },
+    {
+      "id": "quiz-14-5",
+      "qType": "mcq",
+      "question": "The Naxalite movement originated in 1967 in which state of India?",
+      "options": [
+        "West Bengal",
+        "Maharashtra",
+        "Punjab",
+        "Kerala"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The movement originated in Naxalbari village in West Bengal.",
+      "order": 5
+    },
+    {
+      "id": "quiz-14-6",
+      "qType": "mcq",
+      "question": "Which institution made it mandatory for election candidates to submit sworn affidavits detailing criminal cases and assets?",
+      "options": [
+        "Parliament",
+        "Supreme Court / Judiciary",
+        "Ministry of Home Affairs",
+        "Local Police"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Supreme Court mandated full disclosure of criminal cases and wealth.",
+      "order": 6
+    }
+  ]
+}

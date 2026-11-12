@@ -1,0 +1,340 @@
+{
+  "id": "ch1",
+  "num": 1,
+  "title": "Gravitation",
+  "emoji": "🪐",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers Newton's universal law of gravitation, the concept of acceleration due to gravity (g), centripetal force, gravitational potential energy, and escape velocity. It also explains why weight changes from place to place but mass remains constant.",
+    "youWillLearn": [
+      "State Newton's universal law of gravitation and express it mathematically.",
+      "Understand the factors affecting the value of acceleration due to gravity (g).",
+      "Define centripetal force and gravitational potential energy.",
+      "Calculate escape velocity and understand its significance.",
+      "Differentiate between mass and weight."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Newton's Universal Law of Gravitation",
+      "content": "Every object in the universe attracts every other object with a definite force. This force is directly proportional to the product of the masses of the two objects and inversely proportional to the square of the distance between them: F = G(m1m2)/r², where G is the universal gravitational constant.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Acceleration due to gravity (g)",
+      "content": "The acceleration produced in a body due to the gravitational force of the earth is called the acceleration due to gravity. Its value is maximum at the poles (9.832 m/s²) and minimum at the equator (9.78 m/s²) because the earth is not perfectly spherical. g also decreases with height above and depth below the earth's surface, becoming zero at the earth's centre.",
+      "important": true
+    },
+    {
+      "id": "n-fig-grav",
+      "type": "figure",
+      "title": "Mutual gravitational force",
+      "figureSrc": "/figures/gravitation-force.svg",
+      "figureAlt": "Two masses M1 and M2 with equal and opposite gravitational forces along the line joining them",
+      "figureCaption": "Forces are equal in magnitude, opposite in direction, and act along the line joining the centres.",
+      "figureLabels": [
+        {
+          "text": "M₁",
+          "x": 18,
+          "y": 42,
+          "side": "left"
+        },
+        {
+          "text": "M₂",
+          "x": 82,
+          "y": 42,
+          "side": "right"
+        },
+        {
+          "text": "r",
+          "x": 50,
+          "y": 58,
+          "side": "bottom"
+        },
+        {
+          "text": "F",
+          "x": 40,
+          "y": 28,
+          "side": "top"
+        },
+        {
+          "text": "F",
+          "x": 60,
+          "y": 72,
+          "side": "bottom"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "n-call-grav",
+      "type": "callout",
+      "calloutKind": "formula",
+      "title": "Newton’s law of gravitation",
+      "content": "F = G · (M₁ M₂) / r²\n\nG is the universal gravitational constant. Bigger masses → bigger pull. Bigger distance → weaker pull (inverse square)."
+    },
+    {
+      "id": "n-diag-grav",
+      "type": "diagram",
+      "title": "Ways gravity shows up",
+      "diagramRoot": "Gravitation",
+      "branches": [
+        {
+          "label": "Universal law",
+          "note": "Any two masses",
+          "children": [
+            "F ∝ M₁M₂",
+            "F ∝ 1/r²"
+          ]
+        },
+        {
+          "label": "On Earth",
+          "note": "g ≈ 9.8 m/s²",
+          "children": [
+            "Weight = mg",
+            "Free fall"
+          ]
+        },
+        {
+          "label": "In space",
+          "note": "Orbits",
+          "children": [
+            "Satellites",
+            "Moon"
+          ]
+        }
+      ],
+      "content": "Use this map when a board question asks you to “explain types / effects” — pick the branch that matches the prompt."
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Centripetal force",
+      "content": "In uniform circular motion of a body, the force acting on the body which is directed towards the centre of the circle is called centripetal force.",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Gravitational potential energy",
+      "content": "The energy stored in a body due to the gravitational force between the body and the earth is called gravitational potential energy.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Escape velocity",
+      "content": "The minimum initial velocity with which a body must be thrown vertically upward from the earth's surface so that it overcomes the earth's downward gravitational pull and escapes forever is called escape velocity. Its value from earth is about 11.2 km/s.",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "paragraph",
+      "title": "Why weight changes but mass doesn't",
+      "content": "Mass is the amount of matter in an object and a measure of its inertia, so it stays constant. Weight (W = mg) is the gravitational force of attraction, and since g varies from place to place, weight also varies even though mass remains the same.",
+      "important": true
+    },
+    {
+      "id": "n7",
+      "type": "qna",
+      "title": "State Newton's universal law of gravitation",
+      "question": "State Newton's universal law of gravitation.",
+      "qnaAnswer": "Every object in the Universe attracts every other object with a definite force. This force is directly proportional to the product of the masses of the two objects and inversely proportional to the square of the distance between them."
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Express Newton's law mathematically",
+      "question": "Express Newton's law of gravitation in mathematical form.",
+      "qnaAnswer": "F = G × (m₁ × m₂) / r², where G is the universal gravitational constant."
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "Factors affecting g",
+      "question": "Explain the factors affecting the value of g.",
+      "qnaAnswer": "The factors affecting the value of g are the shape of the earth, altitude, and depth below the earth's surface:\n\n1. The earth is not perfectly spherical; it is flat at the poles and bulging at the equator. g is maximum at the poles (9.832 m/s²) and minimum at the equator (9.78 m/s²).\n\n2. As height (h) above the earth's surface increases, the value of g decreases. It varies as 1/(R+h)².\n\n3. As depth below the earth's surface increases, the value of g decreases and finally becomes zero at the centre of the earth."
+    },
+    {
+      "id": "n10",
+      "type": "qna",
+      "title": "Kepler's Laws",
+      "question": "State Kepler's laws of planetary motion.",
+      "qnaAnswer": "Kepler's first law: The orbit of a planet is an ellipse with the Sun at one of the foci.\n\nKepler's second law: The line joining the planet and the Sun sweeps equal areas in equal intervals of time.\n\nKepler's third law: The square of the period of revolution of a planet around the Sun is directly proportional to the cube of the mean distance of the planet from the Sun."
+    },
+    {
+      "id": "n11",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "If the separation between two particles is decreased by a factor of 2, the gravitational force between the particles becomes double the force. (False)",
+        "The SI unit of the universal constant of gravitation is N·m²/kg². (True)",
+        "At the centre of the earth, the value of the acceleration due to gravity becomes zero. (True)",
+        "The weight of a body is minimum at the poles. (False)",
+        "The value of G changes from place to place. (False)",
+        "The value of g increases with altitude. (False)",
+        "The escape velocity of a body does not depend on the mass of the body. (True)"
+      ]
+    },
+    {
+      "id": "n12",
+      "type": "match_column",
+      "title": "Match the following",
+      "left": [
+        "Escape velocity"
+      ],
+      "right": [
+        "√(GM/R)",
+        "√(2GM/R)"
+      ],
+      "answerKey": [
+        1
+      ]
+    },
+    {
+      "id": "n13",
+      "type": "table",
+      "title": "Distinguish Between: Mass and Weight",
+      "headers": [
+        "Mass",
+        "Weight"
+      ],
+      "rows": [
+        [
+          "The mass of a body is the amount of matter present in it.",
+          "The weight of a body is the force with which the earth attracts it."
+        ],
+        [
+          "It has magnitude, but not direction (scalar quantity).",
+          "It has both magnitude and direction (vector quantity)."
+        ],
+        [
+          "It does not change from place to place.",
+          "It changes from place to place as g changes."
+        ],
+        [
+          "It can never be zero.",
+          "It can be zero in space or at the centre of the earth."
+        ]
+      ]
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Solved Numerical: Ages Problem",
+      "question": "The sum of the present ages of Manish and Savita is 31 years. Manish's age 3 years ago was 4 times the age of Savita at that time. Find their present ages.",
+      "qnaAnswer": "Let Manish's present age be x years and Savita's present age be y years.\n\nFrom the first condition: x + y = 31 ...(1)\n\n3 years ago: Manish's age = (x - 3), Savita's age = (y - 3)\n\nFrom the second condition: x - 3 = 4(y - 3)\n∴ x - 3 = 4y - 12\n∴ x - 4y = -9 ...(2)\n\nSubtracting equation (2) from equation (1):\n(x + y) - (x - 4y) = 31 - (-9)\n5y = 40\n∴ y = 8\n\nSubstituting y = 8 in equation (1):\nx + 8 = 31\n∴ x = 23\n\nTherefore, Manish is 23 years old and Savita is 8 years old."
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Solved Numerical: Cramer's Rule",
+      "question": "Solve the following simultaneous equations using Cramer's rule: 3x - 4y = 1 and 4x - 3y = 6.",
+      "qnaAnswer": "D = 3×(-3) - 4×(-4) = -9 + 16 = 7\nDₓ = 1×(-3) - 6×(-4) = -3 + 24 = 21\nDᵧ = 3×6 - 4×1 = 18 - 4 = 14\n\nx = Dₓ/D = 21/7 = 3\ny = Dᵧ/D = 14/7 = 2\n\nSolution: (x, y) = (3, 2)"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "State Newton's universal law of gravitation in one line.",
+      "back": "Every object attracts every other object with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them."
+    },
+    {
+      "id": "f2",
+      "front": "Where on earth is g maximum, and what's its value?",
+      "back": "At the poles, g ≈ 9.832 m/s²"
+    },
+    {
+      "id": "f3",
+      "front": "What is escape velocity from Earth?",
+      "back": "About 11.2 km/s"
+    },
+    {
+      "id": "f4",
+      "front": "Why does weight change from place to place but mass doesn't?",
+      "back": "Mass measures the amount of matter (constant); weight = mg depends on g, which varies with location"
+    },
+    {
+      "id": "f5",
+      "front": "What is centripetal force?",
+      "back": "The force on a body in uniform circular motion, directed towards the centre of the circle"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The gravitational force between two particles separated by a distance r varies as:",
+      "options": [
+        "r",
+        "r²",
+        "1/r",
+        "1/r²"
+      ],
+      "correctAnswer": 3,
+      "explanation": "F is inversely proportional to the square of the distance.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "As we go above the earth's surface, the value of g:",
+      "options": [
+        "increases",
+        "becomes zero immediately",
+        "remains the same",
+        "decreases"
+      ],
+      "correctAnswer": 3,
+      "explanation": "g decreases with increasing height above the earth's surface.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "If an object weighs 120 N on the moon, what will be its weight on the earth (approx.)?",
+      "options": [
+        "240 N",
+        "360 N",
+        "720 N",
+        "600 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Weight on earth ≈ 6 × weight on moon = 720 N.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The value of g is highest at the:",
+      "options": [
+        "Equator",
+        "Poles",
+        "Centre of the earth",
+        "Tropic of Cancer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Polar radius is minimum, making g maximum there.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The energy stored in a body due to gravitational force between it and the earth is called:",
+      "options": [
+        "Kinetic energy",
+        "Gravitational potential energy",
+        "Elastic potential energy",
+        "Escape energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the definition of gravitational potential energy.",
+      "order": 5
+    }
+  ]
+}

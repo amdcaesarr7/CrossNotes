@@ -1,0 +1,703 @@
+{
+  "id": "ch4",
+  "num": 4,
+  "title": "Environmental Management",
+  "emoji": "🌍",
+  "kind": "chapter",
+  "overview": {
+    "summary": "An ecosystem is the basic functional unit of ecology, linked by food chains in which energy flows in one direction. Pollution, including radioactive pollution that causes genetic changes, and human activity threaten biodiversity. Species are classed as endangered, rare, vulnerable or indeterminate, and India's endangered heritage places include the Western Ghats, Manas and the Sundarbans. Conservation laws, organisations and individual action maintain the balance.",
+    "youWillLearn": [
+      "Describe an ecosystem and its food chain",
+      "Define environment and pollution",
+      "Classify threatened species with examples",
+      "Name endangered heritage places of India",
+      "Explain conservation measures and your role"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-4-food_chain",
+      "type": "figure",
+      "title": "Food chain",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMjIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjIyMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjIyMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Rm9vZCBjaGFpbjogZmxvdyBvZiBlbmVyZ3k8L3RleHQ+PHJlY3QgeD0iNiIgeT0iNzAiIHdpZHRoPSIxMzgiIGhlaWdodD0iNTgiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNzUuMCIgeT0iOTYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlByb2R1Y2VyPC90ZXh0Pjx0ZXh0IHg9Ijc1LjAiIHk9IjExMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+UGxhbnRzPC90ZXh0PjxsaW5lIHgxPSIxNDQiIHkxPSI5OSIgeDI9IjE1NyIgeTI9Ijk5IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxyZWN0IHg9IjE1NyIgeT0iNzAiIHdpZHRoPSIxMzgiIGhlaWdodD0iNTgiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjI2LjAiIHk9Ijk2IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5QcmltYXJ5IGNvbnN1bWVyPC90ZXh0Pjx0ZXh0IHg9IjIyNi4wIiB5PSIxMTAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkdyYXNzaG9wcGVyPC90ZXh0PjxsaW5lIHgxPSIyOTUiIHkxPSI5OSIgeDI9IjMwOCIgeTI9Ijk5IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxyZWN0IHg9IjMwOCIgeT0iNzAiIHdpZHRoPSIxMzgiIGhlaWdodD0iNTgiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMzc3LjAiIHk9Ijk2IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5TZWNvbmRhcnkgY29uc3VtZXI8L3RleHQ+PHRleHQgeD0iMzc3LjAiIHk9IjExMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RnJvZzwvdGV4dD48bGluZSB4MT0iNDQ2IiB5MT0iOTkiIHgyPSI0NTkiIHkyPSI5OSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuOCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48cmVjdCB4PSI0NTkiIHk9IjcwIiB3aWR0aD0iMTM4IiBoZWlnaHQ9IjU4IiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjUyOC4wIiB5PSI5NiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VGVydGlhcnkgY29uc3VtZXI8L3RleHQ+PHRleHQgeD0iNTI4LjAiIHk9IjExMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+U25ha2U8L3RleHQ+PGxpbmUgeDE9IjU5NyIgeTE9Ijk5IiB4Mj0iNjEwIiB5Mj0iOTkiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjgiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PHJlY3QgeD0iNjEwIiB5PSI3MCIgd2lkdGg9IjEzOCIgaGVpZ2h0PSI1OCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2NzkuMCIgeT0iOTYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPlRvcCBjb25zdW1lcjwvdGV4dD48dGV4dCB4PSI2NzkuMCIgeT0iMTEwIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5FYWdsZTwvdGV4dD48dGV4dCB4PSI0MDAiIHk9IjE3NSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TdW4gaXMgdGhlIHNvdXJjZSBvZiBlbmVyZ3k7IGZsb3cgb2YgZW5lcmd5IGlzIHVuaWRpcmVjdGlvbmFsLjwvdGV4dD48L3N2Zz4=",
+      "figureAlt": "A food chain showing energy flow",
+      "figureCaption": "Food chain"
+    },
+    {
+      "id": "answers-4-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-4-1",
+          "entries": [
+            {
+              "id": "a-1-4-1",
+              "question": "(1) In a food chain, autotrophic plants are present at the level. (A) tertiary nutrition (B) secondary nutrition (C) producer (D) apex (March ’19)",
+              "answer": "(C),",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-1-4-2",
+              "question": "(2) The apex consumer is . (A) eagle (B) frog (C) snake (D) grasshopper (March ’23)",
+              "answer": "(A),",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-1-4-3",
+              "question": "(3) Basic functional unit to study the ecology is termed as . (A) environment (B) niche (C) ecosystem (D) food chain",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-4-4",
+              "question": "(4) Genetic changes occur due to pollution. (A) radioactive (B) air (C) water (D) soil (Nov. ’20)",
+              "answer": "(A),",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-1-4-5",
+              "question": "(5) is world’s largest organisation engaged in environmental activities. (A) Green peace (B) Hariyali (C) B.N.H.S. (D) I.I.T.",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-4-6",
+              "question": "(6) Which sanctuary of Assam is under threat due to dams and indiscriminate use of water ? (A) Tadoba (B) Kaziranga (C) Manas (D) Sundarbans (Nov. ’20)",
+              "answer": "(C),",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-1-4-7",
+              "question": "(7) from Manas sanctuary in Assam is under threat. (A) One -horned rhino (B) Lion (C) Musk deer (D) Giant squirrel/Shekhru",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-4-8",
+              "question": "(8) World Biodiversity Day is celebrated on every year. (A) 22nd April (B) 5th June (C) 16th September (D) 22nd May",
+              "answer": "(D),"
+            },
+            {
+              "id": "a-1-4-9",
+              "question": "(9) Giant squirrel is an example of threatened species. (A) endangered (B) rare (C) vulnerable (D) indeterminate (March ’22)",
+              "answer": "(D).",
+              "questionTag": "March ’22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-4-2",
+          "entries": [
+            {
+              "id": "a-2-4-1",
+              "question": "(1) Lion tailed monkey, White rats, Musk deer, Tiger.",
+              "answer": "White rats. (All others are threatened species.)"
+            },
+            {
+              "id": "a-2-4-2",
+              "question": "(2) Conservation, Regulation, Pollution, Prohibition.",
+              "answer": "Pollution. (All others are ways of environmental protection.)"
+            },
+            {
+              "id": "a-2-4-3",
+              "question": "(3) Manas sanctuary, Sunderbans sanctuary, The Western Ghats, Tadoba National Park.",
+              "answer": "Tadoba National Park. (All others are endangered heritage places of India.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Find Out the Correlation",
+      "answerGroups": [
+        {
+          "id": "g-4-3",
+          "entries": [
+            {
+              "id": "a-3-4-1",
+              "question": "(1) Western Ghat : Asiatic lion : : Sundarbans sanctuary : . (March ’22)",
+              "answer": "Tiger",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-3-4-2",
+              "question": "(2) Manas : One-horned rhino : : Gir : .",
+              "answer": "Asiatic Lion"
+            },
+            {
+              "id": "a-3-4-3",
+              "question": "(3) Red panda : Rare species : : Giant Squirrel : .",
+              "answer": "Indeterminate species."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-4-4",
+          "entries": [
+            {
+              "id": "a-4-4-1",
+              "question": "(1) Column ‘A’ Column ‘B’ (March ’23) Forest Conservation Act (a) 1986 (b) 1980 (c) 1970",
+              "answer": "Forest Conservation Act – 1980.",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-4-4-2",
+              "question": "(2) Species Examples Rare Species (a) Red panda, Musk deer (b) Tiger, Lion (c) Lion-tailed monkey, Lesser florican",
+              "answer": "Rare Species – Red panda, Musk deer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-4-5",
+          "entries": [
+            {
+              "id": "a-5-4-1",
+              "question": "(1) Environmental balance is not maintained due to various food chains of ecosystem.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-4-2",
+              "question": "(2) Flow of nutrients in an ecosystem is unidirectional.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-4-3",
+              "question": "(3) Environmental pollution is unnecessary and never acceptable change in the surrounding environment.",
+              "answer": "True"
+            },
+            {
+              "id": "a-5-4-4",
+              "question": "(4) There are clusters of thick forests only in Western Ghats of India.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-4-5",
+              "question": "(5) 34 highly sensitive biodiversity spots are reported all over the world.",
+              "answer": "True."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-4-6",
+          "entries": [
+            {
+              "id": "a-6-4-1",
+              "question": "(1) Colour of the pages in Red List of Endangered Species.",
+              "answer": "Pink and Green."
+            },
+            {
+              "id": "a-6-4-2",
+              "question": "(2) Endangered Heritage Places of the country.",
+              "answer": "Manas sanctuary, Western ghat, Sunderbans sanctuary."
+            },
+            {
+              "id": "a-6-4-3",
+              "question": "(3) Factors responsible for creating environmental pollution.",
+              "answer": "Industrialisation, Deforestation, Indiscriminate use of natural resources, Unplanned urbanisation."
+            },
+            {
+              "id": "a-6-4-4",
+              "question": "(4) Levels of biodiversity.",
+              "answer": "Genetic diversity, Species diversity, Ecosystem diversity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Give Scientific Reasons",
+      "answerGroups": [
+        {
+          "id": "g-4-7",
+          "entries": [
+            {
+              "id": "a-7-4-1",
+              "question": "(1) There is no definite information about indeterminate species.",
+              "answer": "(1) Indeterminate species do not have substantial information about them.\n\n(2) The organisms belonging to such species appear to be endangered due to their some behavioural habits.\n\n(3) They are shy and do not come in open so that they can be observed keenly.\n\n(4) For example, animals like Giant squirrel also do not provide such information."
+            },
+            {
+              "id": "a-7-4-2",
+              "question": "(2) Humans have a crucial role in maintaining environmental balance. (July ’23)",
+              "answer": "(1) Humans have exploited all the natural resources and degraded most of the ecosystems.\n\n(2) He created pollution and degradation due to his urbanisation and industrialisation.\n\n(3) He has not protected other species on the earth.\n\n(4) But due to his intelligence and will to conserve the natural resources, he can restore the lost environment balance.",
+              "questionTag": "July ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-4-8",
+          "entries": [
+            {
+              "id": "a-8-4-1",
+              "question": "Environment",
+              "answer": "Physical, chemical and biological factors which act upon the living organisms in any possible way is called the environment."
+            },
+            {
+              "id": "a-8-4-2",
+              "question": "Endangered species",
+              "answer": "The organisms which are very likely to become extinct in near future are called endangered species."
+            },
+            {
+              "id": "a-8-4-3",
+              "question": "Rare species",
+              "answer": "A group of organisms that are very uncommon, in a particular place scarce and not easily spotted are called rare species."
+            },
+            {
+              "id": "a-8-4-4",
+              "question": "Indeterminate species",
+              "answer": "Due to behavioural habits organisms appear to be endangered, but their status cannot be determined. Then such organisms are called indeterminate species."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-4-10",
+          "entries": [
+            {
+              "id": "a-10-4-1",
+              "question": "(1) Environmental Conservation. (March ’23) (2 marks)",
+              "answer": "(1) Due to natural and man-made causes, there are many environmental problems on the earth. These problems affect the existence of various living organisms. In order to save these organisms and maintain the environmental balance, there is need for environmental conservation.\n\n(2) If this is not done, then there will not be any quality of life for the resident humans.\n\n(3) For environmental conservation, the Government has formulated acts and rules.\n\n(4) UN has established UNEP for the conservation programs. The people’s participation in the conservation movement is essential.\n\n(5) From school age, the environmental values are inculcated in the young minds. Conservation of environment is the social responsibility of everyone. Judicial use of natural resources is also a way of environmental conservation.\n\n(6) On personal level, we should plant trees and also undertake solid waste management for the conservation of our environment.",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-10-4-2",
+              "question": "(2) Sacred Groves. (Nov. ’20) (2 marks)",
+              "answer": "(1) Sacred grove is the green patch of the forest which is conserved by local people in the name of God.\n\n(2) It does not belong to forest department. It is like a sanctuary that is conserved by the common people and tribals in the area.\n\n(3) It is rich in the biodiversity. It is conserved as there is a faith that God or deity reside in the sacred grove. Hence, in local language, they are known as Devrai.\n\n(4) Due to this reason, people do not fell the trees. Also hunting of any wildlife is not done here.\n\n(5) More than 13,000 sacred groves have been reported in India in western Ghats in Maharashtra, Karnataka and Kerala.",
+              "questionTag": "Nov. ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set11",
+      "type": "answer_sets",
+      "title": "Q. Set 11 : Explanations and Concepts",
+      "answerGroups": [
+        {
+          "id": "g-4-11",
+          "entries": [
+            {
+              "id": "a-11-4-1",
+              "question": "(1) Explain the statement – ‘We have got this Earth planet on lease from our future generations and not as an ancestral property from our ancestors.’",
+              "answer": "(1) The earth was inhabited by older generations before us. We have replaced them.\n\n(2) But during their life time, they have created hazardous impact on the earth. The industrialisation, the quest for more and more natural resources, wars fought, the construction activities such as dams, roads and bridges, extensive deforestation, etc. were their thoughtless activities.\n\n(3) All these activities were for development of mankind. But most of them have destroyed the delicate balance between the producers and different levels of consumers.\n\n(4) Due to ever increasing population of human beings there is shortage of food, clothing and shelter. To procure these basic needs, we have exploited many natural resources causing destruction of the earth’s natural ecosystem.\n\n(5) Now it is our turn to protect the earth as on the same planet the next generations have to survive. We have to hand over the ecosystems of the earth which are in perfect balance to the new generations.\n\n(6) The future generations need a good quality of air, water and land along with all other living organisms.\n\n(7) Due to problems like climate change, global warming, pollution, droughts, etc. the environment is impacted, thus in order to keep sustainability of earth, we have to remember that the earth has not been obtained only as ancestral property but we have to save it for future generations."
+            },
+            {
+              "id": "a-11-4-2",
+              "question": "(2) Attempts at various levels are performed for conserving environment. Which role would you like to perform. Give two actions each : (a) Prevention (b) Control (c) Production (d) Awareness (e) Conservation. (March ’20)",
+              "answer": "I like the role of control for environmental conservation. By control we can change the attitude of population. We can carry out significant project to explain about harmful effects of plastic. (a) Prevention : (i) I will not allow anybody to cut down the trees. (ii) I will take care of birds and animals. (b) Control : (i) I will control the use of water. (ii) I will control the excessive use of plastic. (c) Production : (i) I will help in creating gardens. (ii) I will help in growing medicinal plants. (d) Awareness : I will work for important issues such as climate change by carrying out awareness campaigns. (e) Conservation : (i) I will not waste food, clothing. (ii) I will help in foresting. Q. Which projects will you run in relation to environmental conservation? How? OR Write six strategies implemented by you for conservation of the environment. Ans. Initially, assessment of the environmental problems will be done. The nature and severity of these problems will be understood by detailed study of the same. Then the projects can be undertaken to combat these problems.\n\n(1) Tree plantation is one such easier project that can be undertaken to conserve environment. The further nurturing of the tree will also be our responsibility. While selecting the tree, the local and sturdy varieties will be selected. Such trees can survive in polluted environment too and even under the pressure of urbanization.\n\n(2) Solid waste management is another very important project that should be undertaken by every society, colony or school. Segregation of waste into dry and wet types and then its proper disposal will be taught to all the people in the neighbouring area.\n\n(3) To ban the plastic and make people aware about harmful effects of plastic is another very significant project.\n\n(4) Fossil fuels are non-renewable and polluting. Therefore, their use should be reduced as far as possible. Therefore, using bicycle, or walking down for shorter distances or using public transport systems are the better alternatives. The awareness drive about these facts will be taken up as a project.\n\n(5) To take care of stray animals, provide shelter, feeding endangered birds like sparrows and allowing them to survive with our support is also one of the essential acts to conserve other species.",
+              "questionTag": "March ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-4-13",
+          "entries": [
+            {
+              "id": "a-13-4-1",
+              "question": "(1)\n\n(2)\n\n(3)",
+              "answer": "(1) The first symbol is for giving the message, “Reduce, reuse and recycle”. This is important mantra for the utilization of natural resources. The second gives the message about ‘Save water’. The third advocates the use of solar energy.\n\n(2) These symbols inculcate the importance of being eco-friendly. The first symbol is essential to maintain the natural resources by reusing and recycling them. One should reduce the excessive use of resources.\n\n(3) The message about saving water or to make judicious use of water should be spread far and wide because the water problems are rising everywhere.\n\n(4) The solar energy is the renewable energy option. By using solar energy, we can replace the polluting and exhaustible fuels. Such symbols, teach us environment conservation."
+            },
+            {
+              "id": "a-13-4-2",
+              "question": "(2) Explain the meaning of following symbols A and B. (1 mark each)",
+              "answer": "(A) The symbol shows types of green energy such as solar energy and wind energy. This symbol promotes use of eco-friendly energy. (B) This symbol is giving the message ‘Save water’. Sustainable use of water is necessary for our future. (March ’19 – ‘22)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-4-14",
+          "entries": [
+            {
+              "id": "a-14-4-1",
+              "question": "(1) Complete the following food chain : (March ’25) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Grass Grass → → Frog → Snake → Eagle → Decomposer hopper",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-14-4-2",
+              "question": "(2) Complete the flow chart. Colour of the pages in Red List of Endangered species : (March ’24) (1 mark)",
+              "answer": "(Answers are directly given and underlined.) Red List Pink colour Green colour",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-14-4-3",
+              "question": "(3) Complete the following chart : (March ’20; July ’23) (2 marks)",
+              "answer": "(Answers are directly given and underlined.) Cancerous ulceration Effect of Destruction of Genetic radioactive body tissues changes pollution Vision affected adversely",
+              "questionTag": "March ’20; July ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-4-15",
+          "entries": [
+            {
+              "id": "a-15-4-1",
+              "question": "Q. (conserving, pledge, biodiversity, judicious, wildlife, diversity, destruction) I am aware that the on the Earth is for the existence of me, my family and the entire mankind. I am aware about the responsibility of and protecting the rich diversity. I am aware about the fast-declining number of , plants and animals. I am accepting the responsibility of use of natural resources and management of . I for adopting the following principles for happy and satisfactory life of all organisms on the Earth.",
+              "answer": "I am aware that the diversity on the Earth is for the existence of me, my family and the entire mankind. I am aware about the responsibility of conserving and protecting the rich diversity. I am aware about the fast declining number of wildlife, plants and animals. I am accepting the responsibility of judicious use of natural resources and management of biodiversity. I pledge for adopting the following principles for happy and satisfactory life of all organisms on the Earth."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-4-18",
+          "entries": [
+            {
+              "id": "a-18-4-1",
+              "question": "(1) What is environment ? Write two types of environment. (July ’22)",
+              "answer": "(1) Environment : Physical, chemical and biological factors affecting the living organisms in any possible way is collectively called as environment.\n\n(2) Two types of environment : Natural environment and Artificial environment.",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-18-4-2",
+              "question": "(2) Write four adverse effects of radiations on human body. (July ’23; March ’24)",
+              "answer": "(1) Cancerous ulcerations due to X-rays.\n\n(2) Destruction of body tissues.\n\n(3) Change in the genes.\n\n(4) Adverse effect on vision.",
+              "questionTag": "July ’23; March ’24"
+            },
+            {
+              "id": "a-18-4-3",
+              "question": "(3) What do we learn from the story of Jadav Molai Payeng? (March ’22)",
+              "answer": "Jadav Molai Payeng is a common man who was just a simple forest worker. But he has conscience about plants and tree plantations. He single-handedly planted thousands of trees. He converted a barren patch of land into forest which is spread over 1360 acres. For these plantations he continuously worked. He has shown that a single determined person, can establish a new forest! We understand the values of hard work, sincerity and devotion to the nature through the story of Jadav Molai Payeng. Even a common man can contribute a lot for the conservation and protection of the environment by learning the story of Payeng.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-18-4-4",
+              "question": "(4) Explain any two types of threatened species. (Sept. ’21)",
+              "answer": "(1) Threatened species are of four main types i.e. endangered species, rare species, vulnerable species and indeterminate species.\n\n(2) Endangered species : Number of organisms belonging to such type of species is declining and habitat is shrinking at great speed. If conservative measures are not implemented, such species will be extinct in near future. e.g. Lesser florican.\n\n(3) Rare species : Number of organisms belonging to this type is considerably declined. Their organisms are endemic and also on the verge of extinction. e.g. Red Panda.",
+              "questionTag": "Sept. ’21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-4-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-4-19",
+          "entries": [
+            {
+              "id": "a-19-4-1",
+              "question": "(1) Write the factors affecting environment. (March ’23) (3 marks)",
+              "answer": "(1) The biotic and abiotic factors affect the environment. Among abiotic factors, the physical and chemical factors can alter the conditions of the environment.\n\n(2) Abiotic factors are either natural or man-made.\n\n(3) The various interrelationships between different living organisms can also affect environment.\n\n(4) The natural disasters such as earthquake, forest fires, cyclones, cloud bursting, drought, etc. change the environment.\n\n(5) The human activities such as deforestation, urbanisation, constructions, etc. cause permanent damage to the ecosystems. Due to man-made impact, there can be large scale changes in the environment.",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-19-4-2",
+              "question": "(2) Explain the three different levels of biodiversity. (Nov. ’20) (3 marks)",
+              "answer": "Biodiversity is documented on the following three levels, viz. genetic diversity, species diversity and ecosystem diversity.\n\n(1) Genetic Diversity : Diversity seen among the organisms of same species due to genetic differences is called genetic diversity. e.g. The individual human beings are different from each other. No two animals or plants are exactly alike.\n\n(2) Species Diversity : The difference between the different species is the species diversity. e.g. All the species of plants, animals and microbes which are seen in any natural environment.\n\n(3) Ecosystem Diversity : In one region there may be different ecosystems, such diversity in the ecosystems is called ecosystem diversity. Ecosystems are natural or artificial. Every region shows different types of ecosystems such as aquatic, terrestrial, desert or forest ecosystems. Each ecosystem has its own habitats with resident flora and fauna.",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-19-4-3",
+              "question": "(3) Which are three endangered heritage places of India ? Explain with reasons. Suggest any two measures for their protection. (Sept. ’21) (5 marks)",
+              "answer": "(1) Three endangered heritage places of India are as follows : (a) Western Ghats (b) Manas sanctuary – Assam (c) Sunderban sanctuary – West Bengal.\n\n(2) In Western Ghats, mining industry and exploration for natural gas is taking place. Due to many development projects this place has become endangered. Asiatic lion and wild bison are under threat due to disturbed habitats in this region.\n\n(3) In Manas sanctuary, there is construction of dams and indiscriminate use of water. Rhinoceros and tigers are endangered in this area.\n\n(4) In Sunderban, the environment is threatened due to dams, deforestation, excessive fishing, trenches dug for fishing, etc. In addition to this, there is sea level rise in this area due to global warming causing threat for tigers.\n\n(5) Measures : (i) To curtail the developmental projects, environmental impact assessment should be done before taking up such projects. (ii) Afforestation and stopping destruction of environment.",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-19-4-4",
+              "question": "(4) Answer the following questions based on environmental conservation and biodiversity : (March ’24) (5 marks) (a) Complete the flow chart :",
+              "answer": "(Answers are directly given and underlined.) Classification of threatened species Endangered Rare Vulnerable Indeterminate species species species species (b) How can biodiversity be conserved? Give any four points. Ans. Biodiversity can be conserved by the following ways :\n\n(1) Protection of the rare species of plants and animals.\n\n(2) Creating habitats for the animals and plants by establishing national parks and sanctuaries.\n\n(3) Declaration of bioreserves, the areas which are protected through conservation.\n\n(4) Projects for conservation of special species.\n\n(5) Conserving of all flora and fauna.\n\n(6) Strict observance of the acts and rules.\n\n(7) Use of traditional knowledge and maintaining record of traditional knowledge. (Write any four points.) (c) Complete the flow chart : Ans. Colour of the pages in Red List of Endangered Species. Red List Pink colour Green colour",
+              "questionTag": "March ’24"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-4-1",
+      "front": "Environment",
+      "back": "Physical, chemical and biological factors which act upon living organisms.",
+      "order": 1
+    },
+    {
+      "id": "fc-4-2",
+      "front": "Ecosystem",
+      "back": "The basic functional unit used to study ecology.",
+      "order": 2
+    },
+    {
+      "id": "fc-4-3",
+      "front": "Position of autotrophic plants in a food chain",
+      "back": "Producers.",
+      "order": 3
+    },
+    {
+      "id": "fc-4-4",
+      "front": "Apex consumer in a grass - grasshopper - frog - snake chain",
+      "back": "Eagle (top consumer).",
+      "order": 4
+    },
+    {
+      "id": "fc-4-5",
+      "front": "Endangered species",
+      "back": "Organisms very likely to become extinct in the near future.",
+      "order": 5
+    },
+    {
+      "id": "fc-4-6",
+      "front": "Rare species",
+      "back": "A group of organisms that are very uncommon and scattered in a particular place, e.g. red panda, musk deer.",
+      "order": 6
+    },
+    {
+      "id": "fc-4-7",
+      "front": "Indeterminate species",
+      "back": "Organisms appear endangered because of behavioural habits (shy), but there is not enough information about them, e.g. giant squirrel (Shekhru).",
+      "order": 7
+    },
+    {
+      "id": "fc-4-8",
+      "front": "Endangered heritage places of India",
+      "back": "The Western Ghats, Manas sanctuary (Assam) and Sundarbans sanctuary (West Bengal).",
+      "order": 8
+    },
+    {
+      "id": "fc-4-9",
+      "front": "Which animal is under threat at Manas sanctuary?",
+      "back": "The one-horned rhinoceros; the sanctuary is threatened by dams and heavy use of water.",
+      "order": 9
+    },
+    {
+      "id": "fc-4-10",
+      "front": "Which pollution causes genetic changes?",
+      "back": "Radioactive pollution.",
+      "order": 10
+    },
+    {
+      "id": "fc-4-11",
+      "front": "World Biodiversity Day",
+      "back": "22 May every year.",
+      "order": 11
+    },
+    {
+      "id": "fc-4-12",
+      "front": "Forest Conservation Act",
+      "back": "Enacted in 1980.",
+      "order": 12
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-4-1",
+      "qType": "mcq",
+      "question": "In a food chain, autotrophic plants are at the ____ level.",
+      "options": [
+        "tertiary",
+        "secondary",
+        "producer",
+        "primary consumer"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Plants produce food, so they are producers.",
+      "order": 1
+    },
+    {
+      "id": "quiz-4-2",
+      "qType": "mcq",
+      "question": "The apex consumer in a food chain among these is the ____.",
+      "options": [
+        "eagle",
+        "frog",
+        "snake",
+        "grasshopper"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The eagle sits at the top.",
+      "order": 2
+    },
+    {
+      "id": "quiz-4-3",
+      "qType": "mcq",
+      "question": "Which basic unit is used to study ecology?",
+      "options": [
+        "Environment",
+        "Niche",
+        "Ecosystem",
+        "Habitat"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ecosystem is the functional unit.",
+      "order": 3
+    },
+    {
+      "id": "quiz-4-4",
+      "qType": "mcq",
+      "question": "Genetic changes occur due to ____ pollution.",
+      "options": [
+        "radioactive",
+        "air",
+        "water",
+        "soil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Radiation damages genetic material.",
+      "order": 4
+    },
+    {
+      "id": "quiz-4-5",
+      "qType": "mcq",
+      "question": "The giant squirrel is an example of ____ species.",
+      "options": [
+        "endangered",
+        "rare",
+        "vulnerable",
+        "indeterminate"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Little information is available about it.",
+      "order": 5
+    },
+    {
+      "id": "quiz-4-6",
+      "qType": "mcq",
+      "question": "World Biodiversity Day is celebrated on ____.",
+      "options": [
+        "22 April",
+        "5 June",
+        "16 September",
+        "22 May"
+      ],
+      "correctAnswer": 3,
+      "explanation": "It is celebrated on 22 May.",
+      "order": 6
+    },
+    {
+      "id": "quiz-4-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "The flow of nutrients/energy in an ecosystem is unidirectional.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Energy flows from producers to consumers and is not recycled.",
+      "order": 7
+    },
+    {
+      "id": "quiz-4-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "The red panda is an example of a ____ species.",
+      "wordBank": [
+        "rare",
+        "endangered",
+        "extinct",
+        "indeterminate"
+      ],
+      "correctWord": "rare",
+      "options": [
+        "rare",
+        "endangered",
+        "extinct",
+        "indeterminate"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Red panda and musk deer are rare species.",
+      "order": 8
+    },
+    {
+      "id": "quiz-4-9",
+      "qType": "match",
+      "question": "Match the sanctuary with its animal.",
+      "left": [
+        "Manas",
+        "Sundarbans",
+        "Gir"
+      ],
+      "right": [
+        "Asiatic lion",
+        "One-horned rhino",
+        "Tiger"
+      ],
+      "answerKey": [
+        1,
+        2,
+        0
+      ],
+      "options": [
+        "Asiatic lion",
+        "One-horned rhino",
+        "Tiger"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Manas - rhino, Sundarbans - tiger, Gir - lion.",
+      "order": 9
+    }
+  ]
+}

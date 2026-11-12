@@ -1,0 +1,275 @@
+{
+  "id": "ch9",
+  "num": 9,
+  "title": "Carbon Compounds",
+  "emoji": "🧬",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter focuses on the unique properties of carbon, including catenation and the formation of covalent bonds. It covers functional groups, homologous series, and the nomenclature of alkanes, alkenes, and alkynes, along with important reactions like addition, substitution, esterification, and saponification.",
+    "youWillLearn": [
+      "Explain catenation and the formation of covalent bonds.",
+      "Identify functional groups and hetero atoms in carbon compounds.",
+      "Understand homologous series and its characteristics.",
+      "Distinguish between alkanes, alkenes, and alkynes.",
+      "Define addition, substitution, esterification, and saponification reactions.",
+      "Explain structural isomerism."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Catenation",
+      "content": "Carbon's unique ability to form strong covalent bonds with other carbon atoms, forming large molecules — the reason carbon forms an unlimited number of compounds.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Covalent bond",
+      "content": "A bond formed by sharing a pair of valence electrons between two atoms, e.g. H₂ formed by two hydrogen atoms sharing electrons.",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Functional group and hetero atom",
+      "content": "Hetero atoms (O, N, S, halogens) substituted into a hydrocarbon chain give the compound specific properties — called functional groups, e.g. −OH (alcohol), −COOH (carboxylic acid).",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Homologous series",
+      "content": "Compounds with the same functional group, each successive member differing by one −CH₂− unit (14u), e.g. alkanes CH₄, C₂H₆, C₃H₈...",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Alkanes, Alkenes, Alkynes",
+      "content": "Alkane: all single bonds (e.g. methane). Alkene: has a C=C double bond (e.g. ethene). Alkyne: has a C≡C triple bond (e.g. ethyne).",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "paragraph",
+      "title": "Addition, Substitution, Esterification, Saponification",
+      "content": "Addition: unsaturated compound + H₂ → saturated product (hydrogenation, e.g. vegetable oil → vanaspati ghee, Ni catalyst). Substitution: an atom replaces another (CH₄+Cl₂→CH₃Cl+HCl). Esterification: acid+alcohol→ester+water. Saponification: ester+NaOH→alcohol+soap.",
+      "important": true
+    },
+    {
+      "id": "n7",
+      "type": "paragraph",
+      "title": "Structural isomerism",
+      "content": "Compounds with different structural formulae but the same molecular formula, e.g. straight-chain and branched-chain butane (both C₄H₁₀).",
+      "important": true
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Catenation",
+      "question": "What is meant by catenation power?",
+      "qnaAnswer": "Carbon has a unique ability to form strong covalent bonds with other carbon atoms; this results in the formation of big molecules. This property of carbon is called catenation power."
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "Covalent bond",
+      "question": "What is meant by a covalent bond? Explain with an example.",
+      "qnaAnswer": "The chemical bond formed by sharing of two valence electrons between the two atoms is called a covalent bond. Example: Two hydrogen atoms share their electrons with each other to form an H₂ molecule. One covalent bond is formed between two hydrogen atoms by sharing of two electrons."
+    },
+    {
+      "id": "n10",
+      "type": "qna",
+      "title": "Structural isomerism",
+      "question": "Explain the term structural isomerism with an example.",
+      "qnaAnswer": "The phenomenon in which compounds having different structural formulae have the same molecular formula is called structural isomerism. Example: Butane (C₄H₁₀) can exist as n-butane (straight chain) and isobutane (branched chain)."
+    },
+    {
+      "id": "n11",
+      "type": "qna",
+      "title": "Hetero atom",
+      "question": "Explain the term hetero atom in a carbon compound with an example.",
+      "qnaAnswer": "Carbon compounds are formed by bonds of carbon with other elements such as halogens, oxygen, nitrogen, and sulphur. The atoms of these elements substitute one or more hydrogen atoms in the hydrocarbon chain. The atom of the element which is substituted for hydrogen is referred to as a hetero atom. Example: In chloromethane (CH₃Cl), chlorine is the hetero atom."
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Homologous series",
+      "question": "What is meant by a homologous series?",
+      "qnaAnswer": "A homologous series is a series of compounds with the same functional group, each successive member differing by one -CH₂- unit (14u). Example: Alkanes (CH₄, C₂H₆, C₃H₈...). Characteristics include similarity in chemical properties and a gradation in physical properties."
+    },
+    {
+      "id": "n13",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "Unsaturated hydrocarbons are less reactive than saturated hydrocarbons. (False)",
+        "The chemical bonds in carbon compounds do not produce ions. (True)",
+        "Naphthalene burns with a yellow flame. (True)",
+        "Benzene is an aromatic compound. (True)",
+        "Saturated fats are healthy. (False)",
+        "When vegetable oil and tincture iodine react, the colour of iodine does not change. (False)",
+        "Vinegar is a 12-15% aqueous solution of acetic acid. (False)",
+        "The functional group of ethanoic acid is a carboxylic group. (True)"
+      ]
+    },
+    {
+      "id": "n14",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Alkene : C=C : : Alkyne : ___",
+      "blanks": [
+        "C≡C"
+      ]
+    },
+    {
+      "id": "n15",
+      "type": "list",
+      "title": "Name the Following",
+      "ordered": false,
+      "items": [
+        "The number of double bonds in benzene: Three.",
+        "The functional group in ether: -O-",
+        "The functional group in halogen: -X (-Cl, -Br, -I)",
+        "The higher homologue of hexane: Heptane (C₇H₁₆).",
+        "A nomenclature system based on the structure of compounds and accepted worldwide: IUPAC.",
+        "IUPAC name of sodium acetate: Sodium ethanoate.",
+        "The main component of natural gas: Methane.",
+        "Two oxidising compounds: Potassium permanganate, Potassium dichromate."
+      ]
+    },
+    {
+      "id": "n16",
+      "type": "table",
+      "title": "Distinguish Between: Saturated and Unsaturated Hydrocarbons",
+      "headers": [
+        "Saturated Hydrocarbons",
+        "Unsaturated Hydrocarbons"
+      ],
+      "rows": [
+        [
+          "Carbon atoms are linked to each other only by single covalent bonds.",
+          "Carbon to carbon double or triple bonds are present."
+        ],
+        [
+          "They contain only a single bond.",
+          "They contain carbon to carbon double or triple bonds."
+        ],
+        [
+          "They are chemically less reactive.",
+          "They are chemically more reactive."
+        ],
+        [
+          "Substitution reaction is a characteristic property.",
+          "Addition reaction is a characteristic property."
+        ],
+        [
+          "Their general formula is CₙH₂ₙ₊₂.",
+          "Their general formula is CₙH₂ₙ or CₙH₂ₙ₋₂."
+        ]
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What is catenation?",
+      "back": "Carbon's ability to form strong covalent bonds with other carbon atoms, forming long chains/rings"
+    },
+    {
+      "id": "f2",
+      "front": "Define a homologous series.",
+      "back": "A series of compounds with the same functional group, each differing by one −CH₂− unit"
+    },
+    {
+      "id": "f3",
+      "front": "What is an alkyne? Give an example.",
+      "back": "A hydrocarbon with a carbon-carbon triple bond, e.g. ethyne"
+    },
+    {
+      "id": "f4",
+      "front": "What is saponification?",
+      "back": "An ester reacting with NaOH to give an alcohol and soap"
+    },
+    {
+      "id": "f5",
+      "front": "What is structural isomerism?",
+      "back": "Different structural formulae sharing the same molecular formula"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The melting point of pure ethanoic acid is about:",
+      "options": [
+        "17°C",
+        "19°C",
+        "15°C",
+        "0°C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pure ethanoic acid melts around 16-17°C.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "Direct bonding between atoms of the same element to form a chain is called:",
+      "options": [
+        "catenation",
+        "isomerism",
+        "dehydration",
+        "polymerization"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Unique property of carbon.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "In a homologous series, consecutive members differ by a mass of:",
+      "options": [
+        "16 units",
+        "20 units",
+        "14 units",
+        "12 units"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each −CH₂− unit adds 14u.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The general formula of an alkene is:",
+      "options": [
+        "CₙH₂ₙ",
+        "CₙH₂ₙ₊₂",
+        "CₙH₂ₙ₋₂",
+        "CₙH₂ₙ₋₁"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alkenes follow CₙH₂ₙ due to one C=C bond.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The reaction of methane with chlorine in sunlight is called a/an:",
+      "options": [
+        "pyrolysis",
+        "elimination reaction",
+        "substitution reaction",
+        "addition reaction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chlorine substitutes hydrogen atoms in methane.",
+      "order": 5
+    }
+  ]
+}

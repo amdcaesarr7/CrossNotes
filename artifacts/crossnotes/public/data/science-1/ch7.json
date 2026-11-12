@@ -1,0 +1,246 @@
+{
+  "id": "ch7",
+  "num": 7,
+  "title": "Lenses",
+  "emoji": "🔍",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers defects of vision like myopia, hypermetropia, and presbyopia, and their correction using lenses. It also explains the concept of the power of a lens, persistence of vision, and the working of a simple microscope.",
+    "youWillLearn": [
+      "Explain myopia, its causes, and its correction using a concave lens.",
+      "Explain hypermetropia, its causes, and its correction using a convex lens.",
+      "Understand the need for a bifocal lens.",
+      "Define persistence of vision and give examples.",
+      "Calculate the power of a lens using the formula P = 1/f."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Myopia and its correction",
+      "content": "Myopia (nearsightedness): distant objects form image in front of the retina. Corrected with a concave lens, which diverges rays before they enter the eye.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Hypermetropia and its correction",
+      "content": "Hypermetropia (farsightedness): nearby objects form image behind the retina. Corrected with a convex lens, which converges rays before they enter the eye.",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Bifocal lens",
+      "content": "Needed by people with both myopia and hypermetropia together, combining concave and convex corrections.",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Persistence of vision",
+      "content": "An image stays imprinted on the retina for about 1/16 second after the object is removed — explains why a fast-moving light source appears as a continuous streak/circle.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Power of a lens",
+      "content": "P = 1/f (f in metres), measured in dioptres (D). Convex lenses have positive power; concave lenses have negative power.",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "What is myopia and how is it corrected?",
+      "question": "What is myopia or nearsightedness? How is myopia corrected?",
+      "qnaAnswer": "Myopia is the defect of vision in which a human eye can see nearby objects distinctly but is unable to see distant objects clearly. In this case, the image of a distant object is formed in front of the retina. Myopia is corrected using a suitable concave lens, which diverges light rays before they strike the eye lens."
+    },
+    {
+      "id": "n7",
+      "type": "qna",
+      "title": "What is hypermetropia and how is it corrected?",
+      "question": "What is hypermetropia or farsightedness? How is hypermetropia corrected?",
+      "qnaAnswer": "Hypermetropia is the defect of vision in which a human eye can see distant objects clearly but is unable to see nearby objects clearly. In this case, the image of a nearby object would fall behind the retina. Hypermetropia is corrected using a suitable convex lens, which converges light rays before they strike the eye lens."
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "What is a bifocal lens?",
+      "question": "What is a bifocal lens?",
+      "qnaAnswer": "A bifocal lens is a lens of which the upper part is a concave lens to correct myopia and the lower part is a convex lens to correct hypermetropia."
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "Persistence of vision",
+      "question": "Write a note on persistence of vision.",
+      "qnaAnswer": "The sensation of an image on the retina persists for about 1/16th of a second after the object is removed. This effect is known as the persistence of vision. It is due to this persistence that we continue to see an object for a short while after it is removed. An example is seeing a circle of red light when a burning stick of incense is moved fast in a circle."
+    },
+    {
+      "id": "n10",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "When the incident ray is parallel to the principal axis, the refracted ray does not pass through the principal focus. (False)",
+        "A concave lens is a converging lens. (False)",
+        "A concave lens always forms a virtual image. (True)",
+        "Due to the light sensitive cells in the eye, we get information about the brightness or dimness of the object and the colour of the object. (True)",
+        "A simple microscope is used for watch repairs. (True)"
+      ]
+    },
+    {
+      "id": "n11",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Torch : Concave lens : : Camera : ___",
+      "blanks": [
+        "Convex lens"
+      ]
+    },
+    {
+      "id": "n12",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Nearsightedness : Elongated eyeball : : Farsightedness : ___",
+      "blanks": [
+        "Flattened eyeball"
+      ]
+    },
+    {
+      "id": "n13",
+      "type": "table",
+      "title": "Distinguish Between: Concave Lens and Convex Lens",
+      "headers": [
+        "Concave Lens",
+        "Convex Lens"
+      ],
+      "rows": [
+        [
+          "Has its surfaces curved inwards.",
+          "Has its surfaces puffed up outwards."
+        ],
+        [
+          "Is thicker at the edges than in the middle.",
+          "Is thicker in the middle than at the edges."
+        ],
+        [
+          "Can form only a virtual image.",
+          "Can form a real image as well as a virtual image."
+        ],
+        [
+          "Can form only a diminished image.",
+          "Can form a magnified, diminished or the same sized image depending on the position of the object."
+        ]
+      ]
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Solved Numerical: Power of Lens",
+      "question": "The power of a convex lens of focal length 20 cm is:",
+      "qnaAnswer": "Data: f = 20 cm = 0.20 m\n\nP = 1/f = 1/0.20 = +5.0 D\n\nAns: The power of the convex lens is +5.0 D."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "Which lens corrects myopia?",
+      "back": "Concave lens"
+    },
+    {
+      "id": "f2",
+      "front": "Which lens corrects hypermetropia?",
+      "back": "Convex lens"
+    },
+    {
+      "id": "f3",
+      "front": "Why is a bifocal lens needed in old age sometimes?",
+      "back": "When a person has both myopia and hypermetropia together"
+    },
+    {
+      "id": "f4",
+      "front": "What is persistence of vision?",
+      "back": "The image stays on the retina for about 1/16 second after the object is removed"
+    },
+    {
+      "id": "f5",
+      "front": "Formula for power of a lens?",
+      "back": "P = 1/f (f in metres), in dioptres (D)"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The image formed by a concave lens is always:",
+      "options": [
+        "real and erect",
+        "virtual and erect",
+        "virtual and inverted",
+        "real and inverted"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A concave lens always forms a virtual, erect, diminished image.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "To get an image the same size as the object with a convex lens, the object should be at:",
+      "options": [
+        "infinity",
+        "beyond 2F₁",
+        "between F₁ and 2F₁",
+        "2F₁"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At 2F₁, image forms at 2F₂, same size.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The power of a convex lens of focal length 20 cm is:",
+      "options": [
+        "+5.0 D",
+        "0.20 D",
+        "−5.0 D",
+        "0.5 D"
+      ],
+      "correctAnswer": 0,
+      "explanation": "P = 1/0.20 m = +5.0 D.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The ______ controls the amount of light entering the eye.",
+      "options": [
+        "iris",
+        "pupil",
+        "cornea",
+        "retina"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The pupil's size regulates light entry.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "For the normal human eye, the near point is at about:",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "25 cm",
+        "50 cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Least distance of distinct vision is 25 cm.",
+      "order": 5
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "eng-ch6",
+  "num": 6,
+  "title": "Writing Skills: Letters",
+  "emoji": "✉️",
+  "notes": [
+    {
+      "id": "eng6-n1",
+      "title": "Formal Letter Format",
+      "content": "1. Sender's Address & Pin Code\n2. Date\n3. Name, Designation and address of the recipient\n4. Subject (A phrase about the general content)\n5. Reference\n6. Salutation (Dear Sir/Madam)\n7. Body of the letter (3 or 4 paragraphs)\n8. Subscription (Yours faithfully)\n9. Your name\n10. Correct use of grammar.\n\n**Marking Scheme:**\n- Sender's Address and Date (1)\n- Recipient's Address (1/2)\n- Subject (1/2)\n- Main body (2)\n- Subscription/Closing (1/2)\n- Grammar (1/2)",
+      "important": true
+    },
+    {
+      "id": "eng6-n2",
+      "title": "Informal Letter Format",
+      "content": "1. Sender's Address & Pin Code\n2. Date\n3. Salutation (My dear..., Dear...)\n4. Body of the letter (3 or 4 paragraphs)\n5. Subscription (Yours affectionately, Your loving friend)\n6. Your name\n7. Proper use of Grammar.\n\n**Marking Scheme:**\n- Sender's Address and Date (1)\n- Salutation (1/2)\n- Main body (2)\n- Closing (1/2)\n- Grammar (1)",
+      "important": true
+    },
+    {
+      "id": "eng6-n3",
+      "title": "Example Formal Letter: Inviting a Chief Guest",
+      "content": "Pooja Aurade, 102, Prestige Chambers, Shivpuri Road, Solapur - 420 003.\n25th September, 2025\n\nMr Anil Tripathi, 201, Neelkant Complex, 60 feet Road, Solapur - 420 005.\n\nSubject : Invitation to preside as Chief Guest on Oct 15, 'Reading Inspiration Day'\n\nRespected Sir,\nWe are celebrating Dr A.P.J. Abdul Kalam's Birth Anniversary on October 15th as 'Reading Inspiration Day' in our school.\nOn behalf of the Literary Club of our school, I would like to invite you to grace the occasion as Chief Guest and address the students of Std. IX and Std. X on the benefits of reading, so that they are inspired to read. A brief survey done at our school revealed that barely 10% of the students read books unrelated to the school syllabus. This was indeed a shocking discovery.\nThe function will begin at 10 a.m. and conclude at 12 noon. This will be followed by a discussion and lunch. Our Headmaster and senior teachers too will be present for the function. We will be honoured if you accept our invite. We really admire you for your work in the field of education.\nHoping for a positive reply. Thanking you, Yours faithfully,\nPooja Aurade, Secretary, 'Literary Club', Navjivan School.",
+      "important": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "eng6-f1",
+      "front": "What is the format of a Formal Letter?",
+      "back": "Sender's Address -> Date -> Recipient's Address -> Subject -> Salutation (Sir/Madam) -> Body -> Subscription (Yours faithfully) -> Name.",
+      "order": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "eng6-q1",
+      "question": "Which of the following is the correct salutation for a formal letter?",
+      "options": [
+        "My dear Sir",
+        "Dear Sir/Madam",
+        "Hi Sir",
+        "Respected Friend"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Formal letters use formal salutations like 'Dear Sir/Madam'.",
+      "order": 1
+    }
+  ]
+}

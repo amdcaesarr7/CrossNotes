@@ -1,0 +1,740 @@
+{
+  "id": "ch5",
+  "num": 5,
+  "title": "Towards Green Energy",
+  "emoji": "⚡",
+  "kind": "chapter",
+  "overview": {
+    "summary": "Electricity is generated from conventional sources such as coal (thermal), uranium (nuclear) and falling water (hydro), and from non-conventional green sources such as the Sun and wind. In a thermal plant the chemical energy of coal becomes heat, then mechanical energy of a turbine, then electrical energy. Fossil-fuel plants pollute; solar, wind and hydro energy are eco-friendly and renewable.",
+    "youWillLearn": [
+      "Trace energy transformations in thermal, hydro and nuclear plants",
+      "Explain the solar photovoltaic effect",
+      "Name important power plants of India",
+      "Compare conventional and non-conventional energy",
+      "State the problems of burning fossil fuels"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-5-thermal_plant",
+      "type": "figure",
+      "title": "Thermal power plant",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMjMwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjIzMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjIzMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VGhlcm1hbCBwb3dlciBwbGFudDogZW5lcmd5IHRyYW5zZm9ybWF0aW9uczwvdGV4dD48cmVjdCB4PSIzMCIgeT0iODAiIHdpZHRoPSIxNTAiIGhlaWdodD0iNzAiIHJ4PSI5IiBmaWxsPSIjZjFmNWY5IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTA1LjAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q29hbDwvdGV4dD48dGV4dCB4PSIxMDUuMCIgeT0iMTI2IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5jaGVtaWNhbCBlbmVyZ3k8L3RleHQ+PGxpbmUgeDE9IjE4MCIgeTE9IjExNSIgeDI9IjIyMCIgeTI9IjExNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuOCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48cmVjdCB4PSIyMjAiIHk9IjgwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjcwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjI5NS4wIiB5PSIxMTIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkJvaWxlcjwvdGV4dD48dGV4dCB4PSIyOTUuMCIgeT0iMTI2IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5oZWF0IGVuZXJneTwvdGV4dD48bGluZSB4MT0iMzcwIiB5MT0iMTE1IiB4Mj0iNDEwIiB5Mj0iMTE1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxyZWN0IHg9IjQxMCIgeT0iODAiIHdpZHRoPSIxNTAiIGhlaWdodD0iNzAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDg1LjAiIHk9IjEwNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VHVyYmluZTwvdGV4dD48dGV4dCB4PSI0ODUuMCIgeT0iMTE5IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5tZWNoYW5pY2FsPC90ZXh0Pjx0ZXh0IHg9IjQ4NS4wIiB5PSIxMzQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPmVuZXJneTwvdGV4dD48bGluZSB4MT0iNTYwIiB5MT0iMTE1IiB4Mj0iNjAwIiB5Mj0iMTE1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxyZWN0IHg9IjYwMCIgeT0iODAiIHdpZHRoPSIxNTAiIGhlaWdodD0iNzAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjc1LjAiIHk9IjExMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+R2VuZXJhdG9yPC90ZXh0Pjx0ZXh0IHg9IjY3NS4wIiB5PSIxMjYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPmVsZWN0cmljYWwgZW5lcmd5PC90ZXh0Pjx0ZXh0IHg9IjQwMCIgeT0iMTk1IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlN0ZWFtIGZyb20gdGhlIGJvaWxlciByb3RhdGVzIHRoZSB0dXJiaW5lLCB3aGljaCByb3RhdGVzIHRoZSBtYWduZXQgaW4gdGhlIGdlbmVyYXRvci48L3RleHQ+PC9zdmc+",
+      "figureAlt": "Energy changes in a thermal power plant",
+      "figureCaption": "Thermal power plant"
+    },
+    {
+      "id": "answers-5-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-5-1",
+          "entries": [
+            {
+              "id": "a-1-5-1",
+              "question": "(1) Solar photovoltaic cell converts the solar radiation energy directly into energy. (A) chemical (B) solar (C) mechanical (D) electrical (March ’25)",
+              "answer": "(D),",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-1-5-2",
+              "question": "(2) In thermal power plants, the energy in the coal is converted into electrical energy through several steps. (A) solar (B) nuclear (C) thermal (D) chemical (Sept. ’21)",
+              "answer": "(D),",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-1-5-3",
+              "question": "(3) is used in thermal power plant. (A) Coal (B) Uranium (C) Thermal (D) Water (July ’22)",
+              "answer": "(A),",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-1-5-4",
+              "question": "(4) Burning of coal may cause serious health problems related to system. (A) digestive (B) respiratory (C) nervous (D) excretory",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-5-5",
+              "question": "(5) Atomic power plant in Maharashtra is . (A) Chandrapur (B) Koyana (C) Tarapur (D) Anjanwel (March ’24)",
+              "answer": "(C),",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-1-5-6",
+              "question": "(6) Incomplete combustion of fuels leads to formation of . (A) carbon monoxide (B) carbon dioxide (C) chlorofluorocarbon (D) hydrogen sulphide (March ’20)",
+              "answer": "(A),",
+              "questionTag": "March ’20"
+            },
+            {
+              "id": "a-1-5-7",
+              "question": "(7) Water reservoir possesses energy. (A) nuclear (B) thermal (C) kinetic (D) potential (Nov. ’20)",
+              "answer": "(D),",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-1-5-8",
+              "question": "(8) The hydroelectric capacity of Koyna dam is . (A) 2400 MW (B) 1960 MW (C) 1900 MW (D) 1961 MW (March ’23)",
+              "answer": "(B),",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-1-5-9",
+              "question": "(9) Solar cells are made of a special type of material called semiconductor such as . (A) silicon (B) uranium (C) borosilicate (D) hydrogen",
+              "answer": "(A)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-5-2",
+          "entries": [
+            {
+              "id": "a-2-5-1",
+              "question": "(1) Kudankulam, Tarapur, Ravatabhata, Anjanvel.",
+              "answer": "Anjanvel. (All others are places having nuclear power plants.)"
+            },
+            {
+              "id": "a-2-5-2",
+              "question": "(2) Atomic energy, Hydroelectric energy, Wind energy, Solar energy.",
+              "answer": "Atomic energy. (All others are green energies.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Find Out the Correlation",
+      "answerGroups": [
+        {
+          "id": "g-5-3",
+          "entries": [
+            {
+              "id": "a-3-5-1",
+              "question": "(1) Steam engine : Thermal energy : : Solar panels : .",
+              "answer": "Solar energy"
+            },
+            {
+              "id": "a-3-5-2",
+              "question": "(2) Uranium : Nuclear energy : : Coal : .",
+              "answer": "Thermal energy"
+            },
+            {
+              "id": "a-3-5-3",
+              "question": "(3) Electrical energy generated through solar cells : DC : : Electrical energy required for domestic appliances : .",
+              "answer": "AC."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-5-4",
+          "entries": [
+            {
+              "id": "a-4-5-1",
+              "question": "(1) Redraw the table taking into account the relation between entries in the three columns. (July ’22) Column I Column II Column III Coal Kinetic energy Nuclear Power plant Uranium Thermal energy Wind electricity plant Wind Nuclear energy Thermal plant",
+              "answer": "Column I Column II Column III Coal Thermal energy Thermal plant Uranium Nuclear energy Nuclear Power plant Wind Kinetic energy Wind electricity plant",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-4-5-2",
+              "question": "(2) Column I Column II Eco-friendly energy (a) Thermal energy (b) Wind energy (c) Nuclear energy",
+              "answer": "Eco-friendly energy – Wind energy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-5-5",
+          "entries": [
+            {
+              "id": "a-5-5-1",
+              "question": "(1) Turbine is used to rotate the magnet in a generator.",
+              "answer": "True"
+            },
+            {
+              "id": "a-5-5-2",
+              "question": "(2) In thermal power plants, the turbines work on solar energy. (Sept. ’21)",
+              "answer": "False",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-5-5-3",
+              "question": "(3) In nuclear power plants, the chain reactions cannot be controlled.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-5-4",
+              "question": "(4) The potential difference available from a solar cell is independent of its area.",
+              "answer": "True"
+            },
+            {
+              "id": "a-5-5-5",
+              "question": "(5) The power available from the solar cell is AC. (July ’22)",
+              "answer": "False.",
+              "questionTag": "July ’22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-5-6",
+          "entries": [
+            {
+              "id": "a-6-5-1",
+              "question": "(1) Which type of fuel is used in thermal power plant? (March ’22)",
+              "answer": "Coal.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-6-5-2",
+              "question": "(2) Major thermal power plants in India.",
+              "answer": "Vindhyanagar, Mundra, Tamnaar, Chandrapur."
+            },
+            {
+              "id": "a-6-5-3",
+              "question": "(3) Important nuclear power plants in India.",
+              "answer": "Kudankulam, Tarapur, Ravatbhata, Kaiga."
+            },
+            {
+              "id": "a-6-5-4",
+              "question": "(4) Natural gas-based power plants in India.",
+              "answer": "Samaralkota, Anjanvel, Bavanna, Kondapalli."
+            },
+            {
+              "id": "a-6-5-5",
+              "question": "(5) Major hydroelectric plants in India.",
+              "answer": "Tehari, Koyana, Srishailam, Nathpa zakri."
+            },
+            {
+              "id": "a-6-5-6",
+              "question": "(6) Sources of green energy or environment-friendly energy.",
+              "answer": "Wind energy, solar energy, Hydroelectric energy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Give Scientific Reasons",
+      "answerGroups": [
+        {
+          "id": "g-5-7",
+          "entries": [
+            {
+              "id": "a-7-5-1",
+              "question": "(1) The energy generated from nuclear fuels is not environment friendly. (March ’25)",
+              "answer": "(1) Radioactive and harmful radiations are emitted after fission of nuclei occurs.\n\n(2) There is a problem of disposal of nuclear waste.\n\n(3) Very fatal accidents can happen in nuclear power plant which emits very harmful radiations. Hence, The energy generated from nuclear fuels is not environment friendly.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-7-5-2",
+              "question": "(2) It is absolutely necessary to control the fission reaction in nuclear power plants. (July ’22; March ’23)",
+              "answer": "(1) Nuclear fission reaction is a type of chain reaction.\n\n(2) In nuclear power plants these reactions are closely controlled.\n\n(3) If these reactions are not managed properly, there can be more production of neutrons in an uncontrolled way.\n\n(4) Each released neutron further causes fission of 3 Uranium (U-235) atoms, such uncontrolled reactions can cause hazardous accidents. Hence it is absolutely necessary to control the fission reaction in nuclear power plants.",
+              "questionTag": "July ’22; March ’23"
+            },
+            {
+              "id": "a-7-5-3",
+              "question": "(3) The construction of turbine is different for different types of power plants.",
+              "answer": "(1) Generators work on the principles of electromagnetic induction.\n\n(2) For this the generator must be rotated.\n\n(3) For this purpose, there is a turbine for each generator.\n\n(4) This rotation needs energy. The turbines are different according to the type of energy source that is used for its rotation.\n\n(5) Therefore, the construction of turbine is different for each power plant."
+            },
+            {
+              "id": "a-7-5-4",
+              "question": "(4) Biofuel is important among the renewable sources of energy. (July ’23)",
+              "answer": "(1) Using biofuel is eco-friendly.\n\n(2) It does not cause pollution.\n\n(3) The fuel can be made from discarded biomass. This biomass is plenty and not exhaustible like fossil fuels.\n\n(4) Biofuels are renewable and green energy.",
+              "questionTag": "July ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-5-8",
+          "entries": [
+            {
+              "id": "a-8-5-1",
+              "question": "Solar photovoltaic effect",
+              "answer": "Solar photovoltaic effect is the conversion of solar energy directly into electrical energy."
+            },
+            {
+              "id": "a-8-5-2",
+              "question": "Wind-turbine",
+              "answer": "The machine which converts the kinetic energy of wind to electrical energy is called wind-turbine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set9",
+      "type": "answer_sets",
+      "title": "Q. Set 9 : Distinguish Between the Following",
+      "answerGroups": [
+        {
+          "id": "g-5-9",
+          "entries": [
+            {
+              "id": "a-9-5-1",
+              "question": "• Conventional and Non-conventional sources of energy : (3 marks) Conventional sources Non-conventional sources of of energy energy 1. Conventional sources of energy 1. Non-conventional sources of are largely polluting, they energy are not polluting. They release lot of carbon through do not release carbon or other its emissions. toxic gases. 2. Conventional sources of energy 2. Non-conventional sources of are not eco-friendly. energy are eco-friendly. 3. The fuels produced from the 3. The energy obtained from conventional sources of energy the non-conventional sources are comparatively costlier. of energy are comparatively cheaper. 4. Conventional energy power 4. Non-conventional energy power plants require less area and its plants require more area and management cost is also less. its management cost is also more. 5. Conventional source of energy 5. Non-conventional source of are non-renewable. energy are renewable. 6. Conventional sources of energy 6. Non-conventional energy are in the form of limited sources are in abundance on reserves. After few years they the earth. They are persistent will be completely over. e.g. and sustainable. Thus, they Fossil fuels, coal, crude oil, will not get over. e.g. Solar diesel, petrol, natural gas, etc. energy, wind energy, etc.",
+              "unavailableReason": "The source does not provide a separate answer for this item."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-5-10",
+          "entries": [
+            {
+              "id": "a-10-5-1",
+              "question": "• Electrical energy generation and Environment. (3 marks)",
+              "answer": "The energy obtained through the fossil fuels as well as nuclear energy can cause degradation of the environment. If such energy sources are used, they can cause harm to the environment.\n\n(1) The burning of fossil fuels cause air pollution. The incomplete combustion of fossil fuels cause release of carbon monoxide. Some more toxic gases and soot particles cause various respiratory diseases. The carbon dioxide produced is creating global warming and climate change. The nitrogen dioxide released through burning is responsible for acid rains.\n\n(2) Fossil fuels are limited. They are depleting at a fast rate. It has taken millions of years for the fossil fuels to form. The exploration of such fuels also cause environmental degradation and marine pollution too.\n\n(3) In production of nuclear energy, there is a great risk of accidents. The safe disposal of nuclear waste is also a problem.\n\n(4) Hydroelectric power from water reservoirs, wind power from wind, solar energy from sun and electricity from biofuels are eco- friendly alternatives."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set11",
+      "type": "answer_sets",
+      "title": "Q. Set 11 : Explanations and Concepts",
+      "answerGroups": [
+        {
+          "id": "g-5-11",
+          "entries": [
+            {
+              "id": "a-11-5-1",
+              "question": "(1) Explain the statement : Energy obtained from fossil fuels is not green energy.",
+              "answer": "Fossil fuels like petrol, diesel or natural gas when burnt, emit toxic gases and soot particles. Thus, fossil fuels cause air pollution. Burning of fossil fuels cause increased levels of carbon dioxide, carbon monoxide and nitrogen dioxide. The increased carbon dioxide emission results in global warming. Nitrogen oxide results later in acid-rain. Soot particles generated through burning of fuels cause respiratory problems like asthma. Moreover, the fossil fuels are non-renewable and exhaustible fuels. They have to be explored from the deeper layers of the earth causing lots of environmental problems. Green energy is sustainable, renewable and abundant. It never creates any environmental problems and is non-polluting. Thus, energy obtained from fossil fuels is not at all a green energy."
+            },
+            {
+              "id": "a-11-5-2",
+              "question": "(2) Explain the statement : Saving energy is the need of the hour.",
+              "answer": "In modern civilisation, continuous energy supply is needed for the technology and development. The energy has become a basic need for man. Most of the energy used in India is obtained from thermal power plant. For this energy generation, various fuels are used. The coal and fossil fuels are limited. Due to over-exploitation, these reserves are getting fast depleted. Use of fossil fuels is also resulting in pollution and climate change. Nuclear energy can be very hazardous. Lot of research is being done in the field of green energy, but the tremendous human population always is in need of more energy. Therefore, each and every person should save the energy, as saving energy is the need of the hour."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-5-13",
+          "entries": [
+            {
+              "id": "a-13-5-1",
+              "question": "(1) Observe the given picture and answer the questions : Questions : (a) Identify the given diagram. (b) What is the source of energy in this project? (c) Why this source is supposed to be eco-friendly? (March ’24) (3 marks)",
+              "answer": "(a) Schematic of wind mill is shown in the given diagram. (b) The kinetic energy of wind is the source of energy in this project. (c) This source is eco-friendly because it does not cause pollution. Wind energy is green energy which is non-exhaustible, perpetual and sustainable.",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-13-5-2",
+              "question": "(2) Observe the figure and answer the questions given below. (Sept. ’21) (3 marks) Nuclear fission Neutron absorption Nuclear fission (a) Which reaction is in the figure? (b) Where is this process used? (c) Which element is used in this reaction? OR Identify the process shown in figure and name it. (March ’19) (1 mark)",
+              "answer": "(a) The reaction shown is nuclear fissiaction is used in nuclear power plants where electricity is generated. (c) Uraniumon or chain reaction. (b) This re–235 is used in the nuclear fission reactions. OR The above figure shows nuclear fission chain reaction of Uranium-236.",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-13-5-3",
+              "question": "(3) Answer the following questions from figure. (March ’23) (3 marks) Power lines Dam Power house A Wall Generator Sluice B gates Reservoir Pensto C ck Turbine (i) With reference to point B, potential energy of how much water reservoir in the dam will be converted into kinetic energy? (ii) What will be the effect on electricity generation, if the channel taking water to turbine starts at point A? (iii) What will be the effect on electricity generation, if the channel taking water to turbine starts at point C?",
+              "answer": "(i) When the sluice gate at point B is opened, the water from reservoir will start flowing. The potential energy of the stored water will become kinetic energy of the quantity of water that is let out through the sluice gates. (ii) If the channel taking water to turbine starts at point A, then the water will flow with a greater speed. Since point A is at height, water will acquire speed. This will result into more efficient rotation of the blades of turbine. The electricity generation will thus become more efficient. (iii) If the channel taking water to turbine starts at point C, it will affect the electricity generation adversely. Point C is on the lower height as compared to the channel that carries water to the turbine. The flow of the water thus will be affected resulting into improper rotation of blades of turbine. This will certainly affect the electricity generation.",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-13-5-4",
+              "question": "(4) Observe the connections of cells shown in the following images : (3 marks) (i) Which connection will give maximum potential difference ? (ii) Give one advantage and one disadvantage of this energy. I1 Cell 1 Cell 1 Cell 2 I2 Cell 2 Fig (a) Fig (b)",
+              "answer": "(i) The solar cells shown in the diagram are connected in series. This gives maximum potential difference. (ii) Advantage of solar energy : Solar energy is eco-friendly which does not create pollution. It is boundless source. Disadvantage of solar energy : Solar energy is available only when sun is in the sky. Therefore, it has to be stored in batteries."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-5-14",
+          "entries": [
+            {
+              "id": "a-14-5-1",
+              "question": "(1) Complete the given flow chart for electrical energy production based on energy of natural gas. (2 marks)",
+              "answer": "(Answers are given directly and underlined.) Compressor for Combustion Gas pressurised air chamber turbine Natural gas Electrical energy Generator"
+            },
+            {
+              "id": "a-14-5-2",
+              "question": "(2) Make a table based on forms of energy and corresponding devices. (March ’20) (3 marks)",
+              "answer": "(Answers are directly given and underlined.) Forms of energy Devices based on this type of energy\n\n(1) Electric Electric iron, Geyser, Heater, Oven, Refrigerator, Fans, Lights, Elevator.\n\n(2) Mechanical Sewing machine, Car, Bicycle, Different machines.\n\n(3) Thermal Chulha, Furnace, Steam engine.\n\n(4) Solar Solar cooker, Solar heater.",
+              "questionTag": "March ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-5-15",
+          "entries": [
+            {
+              "id": "a-15-5-1",
+              "question": "Q. (marginal, array, string, current, power station, potential difference) Many solar panels are connected in series and in parallel to generate required and . Solar cell is the basic unit in solar electric plant. Many solar cells come together to form a solar panel. Many solar panels connected in series form a solar , and, many solar strings connected in parallel form a solar . As we can obtain as much electrical power as needed, they are used in applications which need power (e.g. calculators that run on solar energy) to of MW capacity.",
+              "answer": "Many solar panels are connected in series and in parallel to generate required current and potential difference. Solar cell is the basic unit in solar electric plant. Many solar cells come together to form a solar panel. Many solar panels connected in series form a solar string, and, many solar strings connected in parallel form a solar array. As we can obtain as much electrical power as needed, they are used in applications which need marginal power (e.g. calculators that run on solar energy) to power station of MW capacity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set16",
+      "type": "answer_sets",
+      "title": "Q. Set 16 : Paragraph-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-5-16",
+          "entries": [
+            {
+              "id": "a-16-5-1",
+              "question": "(1) What is renewable energy ?",
+              "answer": "Renewable energy is energy that is produced from sources which will not get exhausted within a human’s life time."
+            },
+            {
+              "id": "a-16-5-2",
+              "question": "(2) Give the examples of renewable energy.",
+              "answer": "Wind, solar, geothermal, biomass and hydroelectric power are some examples of renewable energy."
+            },
+            {
+              "id": "a-16-5-3",
+              "question": "(3) Why will energy from fossil fuel be over soon ?",
+              "answer": "Fossil fuels are exhaustible in their amount. We have been using these extensively in the past 100 years and hence it may get over soon. It is a non-renewable resource."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-5-18",
+          "entries": [
+            {
+              "id": "a-18-5-1",
+              "question": "(1) Write advantages of solar energy.",
+              "answer": "(1) While generating the power through solar radiations, no fuel is burnt.\n\n(2) Solar energy generation thus does not create any type of pollution. The technology can be completely utilised in regions with abundant sunlight.\n\n(3) Solar energy is eco-friendly, green energy."
+            },
+            {
+              "id": "a-18-5-2",
+              "question": "(2) Write the limitations of solar energy.",
+              "answer": "(1) Sunlight is available only during day time. Thus, solar cells can generate power only during day.\n\n(2) In rainy season and in cloudy conditions, solar power generation suffers.\n\n(3) The power present in the solar cells is DC while most of the domestic equipments work on AC."
+            },
+            {
+              "id": "a-18-5-3",
+              "question": "(3) Why steam is used to rotate the turbine?",
+              "answer": "When water is heated, it converts into steam. This steam in under high pressure and temperature. This force of steam rotates the turbines. The same steam is again condensed and converted back into water. The excess heat in turbine again makes this water turn into steam. In this way turbine rotates very effectively due to steam."
+            },
+            {
+              "id": "a-18-5-4",
+              "question": "(4) Write the advantages of hydroelectric power generation. (March ’19) (2 marks) (Nov. ’20) (3 marks)",
+              "answer": "(1) Hydroelectric energy does not cause pollution.\n\n(2) Generation of hydroelectric energy does not involve burning of fossil fuels.\n\n(3) If sufficient water storage is available, then electricity generation can be done as per requirement.\n\n(4) Rainwater can replenish the water storage and power generation can thus be done uninterrupted.",
+              "questionTag": "March ’19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-5-19",
+          "entries": [
+            {
+              "id": "a-19-5-1",
+              "question": "(1) How is nuclear fission reaction carried out in nuclear power plants?",
+              "answer": "(1) In nuclear power plants, neutrons are bombarded on atom of Uranium-235.\n\n(2) This causes conversion of Uranium-235 into its isotope U-236.\n\n(3) U-236 is very unstable and thus forms atoms of Barium and Krypton by nuclear fission. This forms 3 neutrons and 200 MeV energy.\n\n(4) In a similar way three more Uranium-235 atoms are subjected to nuclear fission which then releases energy.\n\n(5) The neutrons released are again used for further nuclear fission reactions. In this way, nuclear fission reactions are carried out in controlled manner in nuclear power plants."
+            },
+            {
+              "id": "a-19-5-2",
+              "question": "(2) Draw schematic of power plant based on natural gas and answer the following questions : (July ’19) (5 marks) (a) At which place natural gas power plant is situated in Maharashtra? (b) How is pollution reduced in natural gas based power plant? (c) Give two examples of eco-friendly electricity process.",
+              "answer": "(a) Natural gas power plant is situated at Anjanvel in Maharashtra. (b) Natural gas does not contain sulphur. Burning of such natural gas does not produce pollution. (c) Solar energy and wind energy are two examples of eco- friendly energy. Emission of hot gases Fuel Combustion chamber Generator Gas Compressor Air turbine Electrical energy\n\n(2) Answer the following questions : (March ’22) (3 marks) (a) Complete the stages in electric generator using wind energy.    (b) Write limitations in an electric generator using wind energy. Ans. (a) Stages in electric generator using wind : Wind with Wind Electrical required Turbine with Generator energy velocity large fins (b) The installation of windmills to produce electricity from wind energy depends upon following factors :\n\n(1) The wind velocity available at the site of installation.\n\n(2) Geographical factors. If these factors such as wind velocity are not suitable, use of wind energy is limited.",
+              "questionTag": "July ’19"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-5-1",
+      "front": "Fuel used in a thermal power plant",
+      "back": "Coal.",
+      "order": 1
+    },
+    {
+      "id": "fc-5-2",
+      "front": "Energy transformation in a thermal power plant",
+      "back": "Chemical energy of coal → heat → kinetic/mechanical energy of turbine → electrical energy.",
+      "order": 2
+    },
+    {
+      "id": "fc-5-3",
+      "front": "Role of the turbine",
+      "back": "It rotates the magnet in the generator.",
+      "order": 3
+    },
+    {
+      "id": "fc-5-4",
+      "front": "Pollutants from thermal plants",
+      "back": "Carbon dioxide, sulphur oxides and nitrogen oxides, causing air pollution.",
+      "order": 4
+    },
+    {
+      "id": "fc-5-5",
+      "front": "Nuclear power plants in India",
+      "back": "Kudankulam, Tarapur, Ravatbhata and Kaiga.",
+      "order": 5
+    },
+    {
+      "id": "fc-5-6",
+      "front": "Atomic power plant in Maharashtra",
+      "back": "Tarapur.",
+      "order": 6
+    },
+    {
+      "id": "fc-5-7",
+      "front": "Hydroelectric capacity of Koyna dam",
+      "back": "1960 MW; a water reservoir holds potential energy.",
+      "order": 7
+    },
+    {
+      "id": "fc-5-8",
+      "front": "Solar photovoltaic effect",
+      "back": "Conversion of solar energy directly into electrical energy in a solar cell.",
+      "order": 8
+    },
+    {
+      "id": "fc-5-9",
+      "front": "Material of solar cells",
+      "back": "A semiconductor such as silicon.",
+      "order": 9
+    },
+    {
+      "id": "fc-5-10",
+      "front": "Type of current from solar cells and in homes",
+      "back": "Solar cells give DC; domestic supply is AC.",
+      "order": 10
+    },
+    {
+      "id": "fc-5-11",
+      "front": "Wind turbine",
+      "back": "A machine that converts the kinetic energy of wind into electrical energy.",
+      "order": 11
+    },
+    {
+      "id": "fc-5-12",
+      "front": "Incomplete combustion of fuel forms which gas?",
+      "back": "Carbon monoxide.",
+      "order": 12
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-5-1",
+      "qType": "mcq",
+      "question": "A solar photovoltaic cell converts solar radiation directly into ____ energy.",
+      "options": [
+        "chemical",
+        "thermal",
+        "kinetic",
+        "electrical"
+      ],
+      "correctAnswer": 3,
+      "explanation": "This is the photovoltaic effect.",
+      "order": 1
+    },
+    {
+      "id": "quiz-5-2",
+      "qType": "mcq",
+      "question": "The atomic power plant in Maharashtra is at ____.",
+      "options": [
+        "Chandrapur",
+        "Koyana",
+        "Tarapur",
+        "Anjanvel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tarapur is the atomic power plant of Maharashtra.",
+      "order": 2
+    },
+    {
+      "id": "quiz-5-3",
+      "qType": "mcq",
+      "question": "A water reservoir possesses ____ energy.",
+      "options": [
+        "nuclear",
+        "thermal",
+        "kinetic",
+        "potential"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Stored water has potential energy.",
+      "order": 3
+    },
+    {
+      "id": "quiz-5-4",
+      "qType": "mcq",
+      "question": "Incomplete combustion of fuels forms ____.",
+      "options": [
+        "carbon monoxide",
+        "carbon dioxide",
+        "chlorofluorocarbon",
+        "hydrogen sulphide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lack of oxygen gives CO.",
+      "order": 4
+    },
+    {
+      "id": "quiz-5-5",
+      "qType": "mcq",
+      "question": "Which of these is made of a semiconductor?",
+      "options": [
+        "Solar cell",
+        "Turbine blade",
+        "Water reservoir",
+        "Boiler"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solar cells use silicon.",
+      "order": 5
+    },
+    {
+      "id": "quiz-5-6",
+      "qType": "mcq",
+      "question": "The energy stored in coal is ____ energy.",
+      "options": [
+        "chemical",
+        "kinetic",
+        "electrical",
+        "sound"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Coal stores chemical energy.",
+      "order": 6
+    },
+    {
+      "id": "quiz-5-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "In nuclear power plants the chain reactions cannot be controlled.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The chain reaction is controlled in a reactor.",
+      "order": 7
+    },
+    {
+      "id": "quiz-5-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "The power obtained from a solar cell is ____ current.",
+      "wordBank": [
+        "DC",
+        "AC",
+        "static",
+        "alternating"
+      ],
+      "correctWord": "DC",
+      "options": [
+        "DC",
+        "AC",
+        "static",
+        "alternating"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Solar cells produce direct current.",
+      "order": 8
+    },
+    {
+      "id": "quiz-5-9",
+      "qType": "match",
+      "question": "Match the plant with its energy source.",
+      "left": [
+        "Thermal plant",
+        "Nuclear plant",
+        "Hydroelectric plant"
+      ],
+      "right": [
+        "Uranium",
+        "Flowing water",
+        "Coal"
+      ],
+      "answerKey": [
+        2,
+        0,
+        1
+      ],
+      "options": [
+        "Uranium",
+        "Flowing water",
+        "Coal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each plant uses its own source.",
+      "order": 9
+    }
+  ]
+}

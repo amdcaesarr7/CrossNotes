@@ -1,0 +1,619 @@
+{
+  "id": "ch11",
+  "num": 11,
+  "title": "Political Parties",
+  "emoji": "🗳️",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter examines the autonomous electoral machinery that sustains Indian democracy. It explores the constitutional mandate of the Election Commission under Article 324, traces the pioneering contributions of first Chief Election Commissioner Sukumar Sen and first voter Shyam Sharan Negi, outlines the sequential stages of elections from delimitation to counting, discusses the Model Code of Conduct, and proposes crucial electoral reforms.",
+    "youWillLearn": [
+      "Understand the constitutional status and powers of the Election Commission of India",
+      "Learn the roles of first Chief Election Commissioner Sukumar Sen and first voter Shyam Sharan Negi",
+      "Trace the full sequential lifecycle of an election from delimitation to declaration of results",
+      "Examine how the Delimitation Commission and Model Code of Conduct ensure fair play",
+      "Identify modern electoral reforms including EVM-VVPAT technology and curbing criminalisation"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "A political party is a group of people who come together to ______.\n(A) Contest elections (B) Make policies (C) Both (A) and (B) (D) None of the above",
+      "qnaAnswer": "Correct Answer: (C) Both (A) and (B)"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "The Indian National Congress was founded in ______.\n(A) 1885 (B) 1920 (C) 1947 (D) 1950",
+      "qnaAnswer": "Correct Answer: (A) 1885"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "The Communist Party of India was founded in ______.\n(A) 1920 (B) 1925 (C) 1930 (D) 1940",
+      "qnaAnswer": "Correct Answer: (B) 1925"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "The Bharatiya Janata Party (BJP) was founded in ______.\n(A) 1977 (B) 1980 (C) 1984 (D) 1990",
+      "qnaAnswer": "Correct Answer: (B) 1980"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "The All India Trinamool Congress was founded in ______.\n(A) 1980 (B) 1984 (C) 1998 (D) 2000",
+      "qnaAnswer": "Correct Answer: (C) 1998"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Party",
+        "Foundation Year",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "Indian National Congress",
+          "1885",
+          "Correct"
+        ],
+        [
+          "Communist Party of India",
+          "1925",
+          "Correct"
+        ],
+        [
+          "Bharatiya Janata Party",
+          "1980",
+          "Correct"
+        ],
+        [
+          "All India Trinamool Congress",
+          "1998",
+          "Correct"
+        ],
+        [
+          "Nationalist Congress Party",
+          "1990",
+          "WRONG — NCP was founded in 1999."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Political Parties in India",
+      "content": "Political Parties in India → National Parties (Congress, BJP, CPI, CPI(M), BSP, NCP, TMC) → Regional Parties (Shiv Sena, DMK, AIADMK, Akali Dal, Samajwadi Party, RJD)",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Political Party",
+      "question": "Explain the following concept: Political Party",
+      "qnaAnswer": "\n1. A political party is a group of people who come together to contest elections and hold power in the government.\n2. It has a specific ideology, policies, and programs.\n3. It aims to promote the collective good and the interests of its members.\n4. It has a leader, an active member base, and a support base among the people.\n5. It plays an important role in a democracy by providing a link between the government and the people.",
+      "important": true
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "National Party",
+      "question": "Explain the following concept: National Party",
+      "qnaAnswer": "\n1. A national party is a political party that is recognized as such by the Election Commission of India.\n2. It has a presence in multiple states and a significant vote share across the country.\n3. It has a national-level organization and leadership.\n4. Examples: Indian National Congress, Bharatiya Janata Party, Communist Party of India.\n5. National parties play an important role in national politics and governance.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Regional Party",
+      "question": "Explain the following concept: Regional Party",
+      "qnaAnswer": "\n1. A regional party is a political party that is active in a specific region or state.\n2. It focuses on regional issues and interests.\n3. It is recognized as a state party by the Election Commission of India.\n4. Examples: Shiv Sena (Maharashtra), DMK (Tamil Nadu), Akali Dal (Punjab).\n5. Regional parties play an important role in state politics and coalition governments.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n16",
+      "type": "qna",
+      "title": "Short Note: Indian National Congress",
+      "question": "Write a short note on: Indian National Congress",
+      "qnaAnswer": "\n1. The Indian National Congress (INC) was founded in 1885.\n2. It played a leading role in the Indian freedom struggle.\n3. After independence, it became a major political party in India.\n4. It has been in power at the centre for many years.\n5. Its ideology is based on secularism, socialism, and democracy.",
+      "important": true
+    },
+    {
+      "id": "n17",
+      "type": "qna",
+      "title": "Short Note: Bharatiya Janata Party",
+      "question": "Write a short note on: Bharatiya Janata Party",
+      "qnaAnswer": "\n1. The Bharatiya Janata Party (BJP) was founded in 1980.\n2. It is one of the major national parties in India.\n3. Its ideology is based on Hindutva, nationalism, and cultural conservatism.\n4. It has been in power at the centre since 2014.\n5. It has a strong organizational base across the country.",
+      "important": true
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Shiv Sena",
+      "question": "Write a short note on: Shiv Sena",
+      "qnaAnswer": "\n1. Shiv Sena is a regional political party in Maharashtra.\n2. It was founded in 1966 by Bal Thackeray.\n3. It focuses on Marathi identity and regional issues.\n4. It has been a major political force in Maharashtra.\n5. It has been part of both state and central governments.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Functions of Political Parties",
+      "question": "Write a short note on: Functions of Political Parties",
+      "qnaAnswer": "\n1. Contesting elections and forming governments.\n2. Making policies and programs.\n3. Providing a link between the government and the people.\n4. Articulating and aggregating interests.\n5. Socializing and mobilizing citizens.\n6. Providing leadership and recruiting political leaders.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "Characteristics of Political Parties",
+      "question": "Explain the characteristics of political parties.",
+      "qnaAnswer": "\n1. A political party is a group of people who come together to contest elections.\n2. It has a specific ideology and policies.\n3. It aims to promote the collective good.\n4. It has a leader and an active member base.\n5. It has a support base among the people.\n6. It plays an important role in a democracy."
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "Role of Political Parties in Democracy",
+      "question": "Explain the role of political parties in democracy.",
+      "qnaAnswer": "\n1. Political parties contest elections and form governments.\n2. They make policies and programs for the welfare of the people.\n3. They provide a link between the government and the people.\n4. They articulate and aggregate the interests of different sections of society.\n5. They socialize and mobilize citizens.\n6. They provide leadership and recruit political leaders."
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Challenges Faced by Political Parties",
+      "question": "What are the challenges faced by political parties?",
+      "qnaAnswer": "\n1. Lack of internal democracy.\n2. Dynastic succession.\n3. Money and muscle power.\n4. Lack of meaningful choice for voters.\n5. Criminalization of politics.\n6. Lack of ideological commitment."
+    },
+    {
+      "id": "n24",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "[IMPORTANT] National Parties in India",
+      "question": "Name any five national parties in India.",
+      "qnaAnswer": "Five national parties in India are:\n\n1. Indian National Congress (INC)\n\n2. Bharatiya Janata Party (BJP)\n\n3. Communist Party of India (CPI)\n\n4. Communist Party of India (Marxist) — CPI(M)\n\n5. Bahujan Samaj Party (BSP)",
+      "important": true
+    },
+    {
+      "id": "n26",
+      "type": "qna",
+      "title": "[IMPORTANT] Foundation Years of Parties",
+      "question": "Match the following political parties with their foundation years.",
+      "qnaAnswer": "\n1. Indian National Congress — 1885\n\n2. Communist Party of India — 1925\n\n3. Bharatiya Janata Party — 1980\n\n4. All India Trinamool Congress — 1998\n\n5. Nationalist Congress Party — 1999",
+      "important": true
+    },
+    {
+      "id": "fig-11-election_process",
+      "type": "figure",
+      "title": "Flowchart: Sequential Steps in the Indian Election Process",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDgwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ4MCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDgwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VGhlIFByb2Nlc3Mgb2YgRWxlY3Rpb25zIGluIEluZGlhPC90ZXh0Pgo8bGluZSB4MT0iMjM1LjAiIHkxPSI5OSIgeDI9IjIzNS4wIiB5Mj0iMTQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS41IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSIyMzUuMCIgeTE9IjE4OSIgeDI9IjIzNS4wIiB5Mj0iMjM1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS41IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSIyMzUuMCIgeTE9IjI3OSIgeDI9IjIzNS4wIiB5Mj0iMzI1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS41IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxwYXRoIGQ9Ik0gMjM1LjAgMzY5IHYgMjIgSCA1NjUuMCBWIDUwIiBmaWxsPSJub25lIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS41IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI1NjUuMCIgeTE9Ijk5IiB4Mj0iNTY1LjAiIHkyPSIxNDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjUiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjU2NS4wIiB5MT0iMTg5IiB4Mj0iNTY1LjAiIHkyPSIyMzUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjUiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjkwIiB5PSI1NSIgd2lkdGg9IjI5MCIgaGVpZ2h0PSI0NCIgcng9IjgiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyMzUuMCIgeT0iODIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9IjUwMCI+MS4gRXN0YWJsaXNobWVudCAmIERlbGltaXRhdGlvbiBvZiBDb25zdGl0dWVuY2llczwvdGV4dD48cmVjdCB4PSI5MCIgeT0iMTQ1IiB3aWR0aD0iMjkwIiBoZWlnaHQ9IjQ0IiByeD0iOCIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjIzNS4wIiB5PSIxNzIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9IjUwMCI+Mi4gUHJlcGFyYXRpb24gJiBVcGRhdGluZyBvZiBWb3RlcnMnIExpc3RzPC90ZXh0PjxyZWN0IHg9IjkwIiB5PSIyMzUiIHdpZHRoPSIyOTAiIGhlaWdodD0iNDQiIHJ4PSI4IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjM1LjAiIHk9IjI2MiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iNTAwIj4zLiBOb21pbmF0aW9uIG9mIENhbmRpZGF0ZXMgJiBTY3J1dGlueSBvZiBQYXBlcnM8L3RleHQ+PHJlY3QgeD0iOTAiIHk9IjMyNSIgd2lkdGg9IjI5MCIgaGVpZ2h0PSI0NCIgcng9IjgiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyMzUuMCIgeT0iMzUyIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSI1MDAiPjQuIEVsZWN0aW9uIENhbXBhaWduaW5nICYgRW5mb3JjZW1lbnQgb2YgTW9kZWwgQ29kZTwvdGV4dD48cmVjdCB4PSI0MjAiIHk9IjU1IiB3aWR0aD0iMjkwIiBoZWlnaHQ9IjQ0IiByeD0iOCIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjU2NS4wIiB5PSI4MiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iNTAwIj41LiBBY3R1YWwgVm90aW5nIC8gUG9sbGluZyAodmlhIEVWTSAmIFZWUEFUKTwvdGV4dD48cmVjdCB4PSI0MjAiIHk9IjE0NSIgd2lkdGg9IjI5MCIgaGVpZ2h0PSI0NCIgcng9IjgiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI1NjUuMCIgeT0iMTcyIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSI1MDAiPjYuIENvdW50aW5nIG9mIFZvdGVzICYgRGVjbGFyYXRpb24gb2YgRWxlY3Rpb24gUmVzdWx0czwvdGV4dD48cmVjdCB4PSI0MjAiIHk9IjIzNSIgd2lkdGg9IjI5MCIgaGVpZ2h0PSI0NCIgcng9IjgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI1NjUuMCIgeT0iMjYyIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSI1MDAiPjcuIFJlc29sdXRpb24gb2YgRWxlY3Rpb24gRGlzcHV0ZXMgYnkgRWxlY3Rpb24gQ29tbWlzc2lvbjwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Flowchart depicting the step-by-step electoral process in India",
+      "figureCaption": "Systematic stages managed by the Election Commission from delimitation to declaration of results"
+    },
+    {
+      "id": "fig-11-election_roles",
+      "type": "figure",
+      "title": "Key Stakeholders in the Indian Electoral System",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+U3Rha2Vob2xkZXJzIGluIHRoZSBFbGVjdG9yYWwgUHJvY2VzczwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2NDcuMyIgeTI9IjE4My4zIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNTUyLjgiIHkyPSIzMzQuMiIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjI0Ny4yIiB5Mj0iMzM0LjIiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNTIuNyIgeTI9IjE4My4zIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNTcuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iNzkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5FbGVjdGlvbiBDb21taXNzaW9uPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSI5NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkF1dG9ub21vdXMgYm9keSB1bmRlciBBcnRpY2xlIDMyNDs8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwOS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPmNvbmR1Y3RzIGZyZWUgJiBmYWlyIGVsZWN0aW9uczwvdGV4dD48cmVjdCB4PSI1NTcuMyIgeT0iMTUwLjMiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjQ3LjMiIHk9IjE3Mi4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlBvbGl0aWNhbCBQYXJ0aWVzPC90ZXh0Pjx0ZXh0IHg9IjY0Ny4zIiB5PSIxODcuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Ob21pbmF0ZSBjYW5kaWRhdGVzLCBkcmFmdCBtYW5pZmVzdG9zPC90ZXh0Pjx0ZXh0IHg9IjY0Ny4zIiB5PSIyMDIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4mIGNhbXBhaWduIGFjcm9zcyBjb25zdGl0dWVuY2llczwvdGV4dD48cmVjdCB4PSI0NjIuOCIgeT0iMzAxLjIiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNTUyLjgiIHk9IjMyMy4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkNhbmRpZGF0ZXM8L3RleHQ+PHRleHQgeD0iNTUyLjgiIHk9IjMzOC4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlN1Ym1pdCBub21pbmF0aW9uIHBhcGVycywgZGlzY2xvc2UgYXNzZXRzPC90ZXh0Pjx0ZXh0IHg9IjU1Mi44IiB5PSIzNTMuMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4mIGFwcGVhbCB0byBlbGVjdG9yYXRlPC90ZXh0PjxyZWN0IHg9IjE1Ny4yIiB5PSIzMDEuMiIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyNDcuMiIgeT0iMzIzLjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Vm90ZXJzIChFbGVjdG9yYXRlKTwvdGV4dD48dGV4dCB4PSIyNDcuMiIgeT0iMzM4LjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Q2FzdCB2b3RlcyBmcmVlbHksIHZlcmlmeSBiYWxsb3Q8L3RleHQ+PHRleHQgeD0iMjQ3LjIiIHk9IjM1My4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPm9uIFZWUEFUICYgZWxlY3QgcmVwcmVzZW50YXRpdmVzPC90ZXh0PjxyZWN0IHg9IjYyLjciIHk9IjE1MC4zIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE1Mi43IiB5PSIxNzIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5EZWxpbWl0YXRpb24gQ29tbWlzc2lvbjwvdGV4dD48dGV4dCB4PSIxNTIuNyIgeT0iMTg3LjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UmVzdHJ1Y3R1cmVzIGNvbnN0aXR1ZW5jeSBib3JkZXJzPC90ZXh0Pjx0ZXh0IHg9IjE1Mi43IiB5PSIyMDIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj53aXRob3V0IHBvbGl0aWNhbCBpbnRlcmZlcmVuY2U8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkVsZWN0b3JhbDwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkVjb3N5c3RlbTwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of key stakeholders in the Indian electoral system",
+      "figureCaption": "Autonomous machinery, political organizations, and vigilant citizens ensuring democratic elections"
+    },
+    {
+      "id": "answers-11-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-11-1",
+          "entries": [
+            {
+              "id": "a-11-1-1",
+              "question": "(1) The Election Commissioner is appointed by the ______.\n(a) President\n(b) Prime Minister\n(c) Speaker of Lok Sabha\n(d) Vice President",
+              "answer": "President. (Appointed under Article 324 of the Constitution.)",
+              "questionTag": "March '19 - '22"
+            },
+            {
+              "id": "a-11-1-2",
+              "question": "(2) ______ was appointed as the first Chief Election Commissioner of independent India.\n(a) Sukumar Sen\n(b) T. N. Seshan\n(c) K. V. K. Sundaram\n(d) Dr. Nagendra Singh",
+              "answer": "Sukumar Sen. (Administered India's mammoth first general elections in 1951–52.)"
+            },
+            {
+              "id": "a-11-1-3",
+              "question": "(3) Constituencies are created and restructured by the ______ Committee of the Election Commission.\n(a) Selection\n(b) Delimitation\n(c) Voting\n(d) Timetable",
+              "answer": "Delimitation. (The Delimitation Commission restructures parliamentary and assembly boundaries based on census migration data.)"
+            },
+            {
+              "id": "a-11-1-4",
+              "question": "(4) ______ from Himachal Pradesh was the first voter of independent India.\n(a) Sham Sharan Negi\n(b) Sukumar Sen\n(c) T. N. Seshan\n(d) K. C. Pant",
+              "answer": "Sham Sharan Negi. (Cast the first vote on 25th October 1951 in Kinnaur, Himachal Pradesh.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-11-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : State Whether the Following Statements are True or False, Giving Reasons",
+      "answerGroups": [
+        {
+          "id": "g-11-2",
+          "entries": [
+            {
+              "id": "a-11-2-1",
+              "question": "(1) Under special circumstances, the Election Commission holds elections in a particular constituency for a second time.",
+              "answer": "The statement is True.\nReasons:\n(1) The Election Commission is constitutionally empowered to ensure free, fair, and credible elections.\n(2) If reports of booth capturing, violence, or EVM tampering occur, the Commission cancels voting and orders repolling.\n(3) If a sitting representative dies or resigns, mid-term bye-elections are conducted in that constituency.",
+              "questionTag": "March '23 - '24 - '25"
+            },
+            {
+              "id": "a-11-2-2",
+              "question": "(2) The state government decides when and in how many stages elections would be held in a particular state.",
+              "answer": "The statement is False.\nReasons:\n(1) Under Article 324, the superintendence, direction, and control of all elections is vested exclusively in the Election Commission of India.\n(2) If state governments managed election schedules, ruling parties might manipulate dates to their political advantage.\n(3) As an autonomous constitutional body, the Election Commission independently decides polling dates, stages, and phases.",
+              "questionTag": "March '19 - '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-11-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Explain the Concepts / Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-11-3",
+          "entries": [
+            {
+              "id": "a-11-3-1",
+              "question": "(1) Reorganising the Constituencies (Delimitation Commission):",
+              "answer": "(1) The total number of members in Lok Sabha is 543, with each member representing one geographic constituency.\n(2) Over decades, demographic migration from rural areas to urban centers altered voter populations significantly across regions.\n(3) The Delimitation Commission, an independent sub-committee of the Election Commission, restructures constituency boundaries to equalize voter counts.\n(4) It functions strictly without bowing to political influence or executive interference.",
+              "questionTag": "Sept. '21"
+            },
+            {
+              "id": "a-11-3-2",
+              "question": "(2) Mid-Term Elections:",
+              "answer": "(1) If an elected government loses its parliamentary majority before completing its full five-year term due to the withdrawal of support by coalition partners, and no alternative coalition can form a government, the house is dissolved.\n(2) In such situations, the Election Commission conducts mid-term general elections before the expiration of the full five-year tenure.\n(3) Mid-term elections restore democratic mandates and governance stability.",
+              "questionTag": "March '24"
+            },
+            {
+              "id": "a-11-3-3",
+              "question": "(3) Model Code of Conduct:",
+              "answer": "(1) The Model Code of Conduct is a set of guidelines issued by the Election Commission to regulate political parties and candidates during election season.\n(2) It takes effect the moment election dates are announced and remains in force until results are declared.\n(3) It bars ruling parties from using government vehicles, advertising official schemes, or announcing financial grants to influence voters.\n(4) It ensures that campaigns remain peaceful, fair, and ethical.",
+              "questionTag": "Board Textual Reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-11-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Do as Directed (Flowcharts & Concept Maps)",
+      "answerGroups": [
+        {
+          "id": "g-11-4",
+          "entries": [
+            {
+              "id": "a-11-4-1",
+              "question": "Prepare a Flowchart showing the Process of Elections in India.",
+              "answer": "\n1. Delimitation and establishment of Constituencies\n\n2. Finalization and updating of Voters' Lists\n\n3. Nomination of Candidates and Scrutiny of Application Forms\n\n4. Election Campaigning across constituencies\n\n5. Actual Voting (Polling via EVM & VVPAT)\n\n6. Counting of Votes\n\n7. Declaration of Election Results\n\n8. Resolution of Election Disputes by Election Commission",
+              "questionTag": "Board Activity Reference"
+            },
+            {
+              "id": "a-11-4-2",
+              "question": "Complete the concept map: Stakeholders and Roles in the Electoral Process.",
+              "answer": "• Role of Election Commission: Schedules dates, enforces Model Code, monitors polling, counts votes.\n• Role of Political Parties: Select candidates, formulate policies and manifestos, conduct campaigns.\n• Role of Candidates: File nomination affidavits, follow spending caps, present vision to voters.\n• Role of Voters: Check names in electoral roll, turn out to vote fearlessly, use VVPAT to verify ballot.",
+              "questionTag": "March '25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-11-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Answer the Following in Brief",
+      "answerGroups": [
+        {
+          "id": "g-11-5",
+          "entries": [
+            {
+              "id": "a-11-5-1",
+              "question": "(1) Explain the functions and powers of the Election Commission of India.",
+              "answer": "(1) Preparing & Updating Electoral Rolls: Enrolls all eligible citizens who reach 18 years of age and issues Voter Identity Cards (EPIC).\n(2) Election Timetables: Formulates complete polling schedules, phases, and booth allocations.\n(3) Scrutiny of Nominations: Examines candidates' affidavits, educational qualifications, asset disclosures, and criminal antecedents.\n(4) Recognition of Political Parties: Grants national or regional status to parties and allocates exclusive election symbols.\n(5) Resolving Disputes: Acts as a quasi-judicial body to resolve electoral disputes, disqualify corrupt candidates, and order repolling where irregularities occur.",
+              "questionTag": "July '22"
+            },
+            {
+              "id": "a-11-5-2",
+              "question": "(2) Explain the major Electoral Reforms required to strengthen Indian democracy.",
+              "answer": "(1) Curbing Criminalisation: Legally barring candidates facing serious criminal charges from contesting elections.\n(2) Controlling Money Power: Enforcing state funding of election expenses and imposing strict audits on party expenditure.\n(3) Women's Representation: Enacting statutory 33% or 50% reservation for female candidates in Parliament and State Assemblies.\n(4) Technological Security: Utilizing modern Electronic Voting Machines (EVM) coupled with Voter Verifiable Paper Audit Trail (VVPAT) systems.\n(5) Internal Party Democracy: Mandating transparent internal elections and financial audits for all recognized parties.",
+              "questionTag": "July '22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "When was the Indian National Congress founded?",
+      "back": "1885",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "When was the Bharatiya Janata Party founded?",
+      "back": "1980",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "What is a political party?",
+      "back": "A group of people who come together to contest elections and hold power",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "Name two national parties in India.",
+      "back": "Indian National Congress and Bharatiya Janata Party",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "What is a regional party?",
+      "back": "A party active in a specific region or state",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "Who founded Shiv Sena?",
+      "back": "Bal Thackeray",
+      "order": 6
+    },
+    {
+      "id": "fc-11-1",
+      "front": "Who appoints the Chief Election Commissioner of India?",
+      "back": "The President of India (under Article 324).",
+      "order": 1
+    },
+    {
+      "id": "fc-11-2",
+      "front": "Who was the first Chief Election Commissioner of independent India?",
+      "back": "Sukumar Sen (1950–1958).",
+      "order": 2
+    },
+    {
+      "id": "fc-11-3",
+      "front": "Who was the first registered voter to cast a vote in independent India?",
+      "back": "Shyam Sharan Negi (Himachal Pradesh, 1951).",
+      "order": 3
+    },
+    {
+      "id": "fc-11-4",
+      "front": "Which body restructures the borders of parliamentary constituencies?",
+      "back": "The Delimitation Commission.",
+      "order": 4
+    },
+    {
+      "id": "fc-11-5",
+      "front": "What does EVM and VVPAT stand for?",
+      "back": "Electronic Voting Machine and Voter Verifiable Paper Audit Trail.",
+      "order": 5
+    },
+    {
+      "id": "fc-11-6",
+      "front": "What is the Model Code of Conduct?",
+      "back": "A set of rules regulating party behavior, government spending, and campaigns during elections.",
+      "order": 6
+    },
+    {
+      "id": "fc-11-7",
+      "front": "What are Mid-Term Elections?",
+      "back": "Elections held before the full five-year term expires because a government loses its majority and dissolves the house.",
+      "order": 7
+    },
+    {
+      "id": "fc-11-8",
+      "front": "How many elected constituencies are there in the Lok Sabha?",
+      "back": "543 constituencies.",
+      "order": 8
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "A political party is a group of people who come together to ______.",
+      "options": [
+        "Contest elections",
+        "Make policies",
+        "Both (A) and (B)",
+        "None of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Political parties contest elections and make policies.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "The Indian National Congress was founded in ______.",
+      "options": [
+        "1885",
+        "1920",
+        "1947",
+        "1950"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The INC was founded in 1885.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The Communist Party of India was founded in ______.",
+      "options": [
+        "1920",
+        "1925",
+        "1930",
+        "1940"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CPI was founded in 1925.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The Bharatiya Janata Party (BJP) was founded in ______.",
+      "options": [
+        "1977",
+        "1980",
+        "1984",
+        "1990"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BJP was founded in 1980.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The All India Trinamool Congress was founded in ______.",
+      "options": [
+        "1980",
+        "1984",
+        "1998",
+        "2000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "TMC was founded in 1998.",
+      "order": 5
+    },
+    {
+      "id": "quiz-11-1",
+      "qType": "mcq",
+      "question": "The Election Commissioners of India are appointed by the ______.",
+      "options": [
+        "Prime Minister",
+        "President",
+        "Chief Justice of India",
+        "Speaker of Lok Sabha"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Under Article 324, the President appoints the Election Commissioners.",
+      "order": 1
+    },
+    {
+      "id": "quiz-11-2",
+      "qType": "mcq",
+      "question": "Who served as the first Chief Election Commissioner of independent India?",
+      "options": [
+        "T. N. Seshan",
+        "Sukumar Sen",
+        "Dr. B. R. Ambedkar",
+        "K. V. K. Sundaram"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sukumar Sen laid the groundwork for India's electoral machinery in 1950.",
+      "order": 2
+    },
+    {
+      "id": "quiz-11-3",
+      "qType": "true_false",
+      "question": "State governments decide when and in how many stages elections are conducted in their state.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only the independent Election Commission of India decides election schedules.",
+      "order": 3
+    },
+    {
+      "id": "quiz-11-4",
+      "qType": "fill_blank",
+      "question": "Constituencies are created and reorganized by the ____ Commission.",
+      "options": [
+        "Delimitation",
+        "Finance",
+        "Planning",
+        "Selection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Delimitation Commission restructures parliamentary and assembly boundaries.",
+      "order": 4
+    },
+    {
+      "id": "quiz-11-5",
+      "qType": "mcq",
+      "question": "Who was recognized as the first voter of independent India from Kalpa, Himachal Pradesh?",
+      "options": [
+        "Shyam Sharan Negi",
+        "Sukumar Sen",
+        "Balraj Sahni",
+        "Sohan Singh"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Shyam Sharan Negi cast the first vote in October 1951.",
+      "order": 5
+    },
+    {
+      "id": "quiz-11-6",
+      "qType": "mcq",
+      "question": "Which system verifies an electronic vote on paper for the voter to inspect?",
+      "options": [
+        "EVM",
+        "VVPAT",
+        "NOTA",
+        "EPIC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "VVPAT generates a paper slip for 7 seconds confirming the cast vote.",
+      "order": 6
+    }
+  ],
+  "part": 3,
+  "section": "Political Science"
+}

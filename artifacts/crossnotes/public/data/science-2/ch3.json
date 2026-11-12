@@ -1,0 +1,829 @@
+{
+  "id": "ch3",
+  "num": 3,
+  "title": "Life Processes in Living Organisms : Part 2",
+  "emoji": "🌱",
+  "kind": "chapter",
+  "overview": {
+    "summary": "Reproduction ensures continuity of species. Asexual reproduction includes binary and multiple fission, budding, fragmentation, regeneration, vegetative propagation and spore formation. Sexual reproduction involves gametes: flowers in plants and testes, ovaries, placenta and hormones in humans. The father determines the sex of the child, and modern techniques such as IVF help in reproductive problems.",
+    "youWillLearn": [
+      "List methods of asexual reproduction with examples",
+      "Explain pollination and the parts of a flower",
+      "Describe human reproductive hormones and the menstrual cycle",
+      "Explain sex determination",
+      "Know modern reproductive techniques"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-3-sex_determination",
+      "type": "figure",
+      "title": "Father determines sex of child",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMzMwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjMzMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjMzMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+U2V4IGRldGVybWluYXRpb24gaW4gaHVtYW4gYmVpbmdzPC90ZXh0PjxyZWN0IHg9IjExMCIgeT0iNTAiIHdpZHRoPSIyMjAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjIwLjAiIHk9Ijc5IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5GYXRoZXI6IDIyICsgWCBvciAyMiArIFk8L3RleHQ+PHJlY3QgeD0iNDcwIiB5PSI1MCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI1ODAuMCIgeT0iNzkiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPk1vdGhlcjogMjIgKyBYPC90ZXh0PjxsaW5lIHgxPSIyMjAiIHkxPSIxMDAiIHgyPSIyMjAiIHkyPSIxNzAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjgiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjU4MCIgeTE9IjEwMCIgeDI9IjMwMCIgeTI9IjE3MCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuOCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iMjIwIiB5MT0iMTAwIiB4Mj0iNTIwIiB5Mj0iMTcwIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI1ODAiIHkxPSIxMDAiIHgyPSI1ODAiIHkyPSIxNzAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjgiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PHJlY3QgeD0iMTIwIiB5PSIxNzAiIHdpZHRoPSIyMjAiIGhlaWdodD0iNTYiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjMwLjAiIHk9IjE5NSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5EYXVnaHRlciAoNDQgKyBYWCk8L3RleHQ+PHRleHQgeD0iMjMwLjAiIHk9IjIwOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5YIGZyb20gZmF0aGVyICsgWCBmcm9tIG1vdGhlcjwvdGV4dD48cmVjdCB4PSI0NzAiIHk9IjE3MCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSI1NiIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI1ODAuMCIgeT0iMTk1IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNvbiAoNDQgKyBYWSk8L3RleHQ+PHRleHQgeD0iNTgwLjAiIHk9IjIwOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5ZIGZyb20gZmF0aGVyICsgWCBmcm9tIG1vdGhlcjwvdGV4dD48dGV4dCB4PSI0MDAiIHk9IjI5MCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TZXggb2YgdGhlIGNoaWxkIGlzIGRlY2lkZWQgYnkgdGhlIHNwZXJtIChmYXRoZXIpLjwvdGV4dD48L3N2Zz4=",
+      "figureAlt": "Sex determination in humans",
+      "figureCaption": "Father determines sex of child"
+    },
+    {
+      "id": "fig-3-asexual_map",
+      "type": "figure",
+      "title": "Types of asexual reproduction",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDQwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ0MCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQ0MCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+QXNleHVhbCByZXByb2R1Y3Rpb248L3RleHQ+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjMwLjAiIHgyPSI0MDAuMCIgeTI9Ijg0Ljc5OTk5OTk5OTk5OTk4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjMwLjAiIHgyPSI2MTIuNjU4MTYzMjMxMzA0MSIgeTI9IjEzOS40NjkyODA3NzAxMTE4OCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIzMC4wIiB4Mj0iNjY1LjE4MDM5MjExMzQ1NiIgeTI9IjI2Mi4zMTAwMzk2MTA0NTY4NCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIzMC4wIiB4Mj0iNTE4LjAxNjM3NzAzOTk3NTkiIHkyPSIzNjAuODIwNjc5NjE5NDMxMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIzMC4wIiB4Mj0iMjgxLjk4MzYyMjk2MDAyNDIiIHkyPSIzNjAuODIwNjc5NjE5NDMxMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIzMC4wIiB4Mj0iMTM0LjgxOTYwNzg4NjU0Mzk2IiB5Mj0iMjYyLjMxMDAzOTYxMDQ1NjkiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMzAuMCIgeDI9IjE4Ny4zNDE4MzY3Njg2OTU4NiIgeTI9IjEzOS40NjkyODA3NzAxMTE5IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHJlY3QgeD0iMzA1LjAiIHk9IjU0Ljc5OTk5OTk5OTk5OTk4IiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4MiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5CaW5hcnkgZmlzc2lvbjwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iOTUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QW1vZWJhPC90ZXh0PjxyZWN0IHg9IjUxNy42NTgxNjMyMzEzMDQxIiB5PSIxMDkuNDY5MjgwNzcwMTExODgiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjEyLjY1ODE2MzIzMTMwNDEiIHk9IjEzNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5NdWx0aXBsZSBmaXNzaW9uPC90ZXh0Pjx0ZXh0IHg9IjYxMi42NTgxNjMyMzEzMDQxIiB5PSIxNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UGxhc21vZGl1bTwvdGV4dD48cmVjdCB4PSI1NzAuMTgwMzkyMTEzNDU2IiB5PSIyMzIuMzEwMDM5NjEwNDU2ODQiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjY1LjE4MDM5MjExMzQ1NiIgeT0iMjYwIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkJ1ZGRpbmc8L3RleHQ+PHRleHQgeD0iNjY1LjE4MDM5MjExMzQ1NiIgeT0iMjczIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkh5ZHJhLCB5ZWFzdDwvdGV4dD48cmVjdCB4PSI0MjMuMDE2Mzc3MDM5OTc1ODUiIHk9IjMzMC44MjA2Nzk2MTk0MzEzIiB3aWR0aD0iMTkwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjUxOC4wMTYzNzcwMzk5NzU5IiB5PSIzNTgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RnJhZ21lbnRhdGlvbjwvdGV4dD48dGV4dCB4PSI1MTguMDE2Mzc3MDM5OTc1OSIgeT0iMzcxIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNwaXJvZ3lyYTwvdGV4dD48cmVjdCB4PSIxODYuOTgzNjIyOTYwMDI0MiIgeT0iMzMwLjgyMDY3OTYxOTQzMTMiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjgxLjk4MzYyMjk2MDAyNDIiIHk9IjM1OCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5SZWdlbmVyYXRpb248L3RleHQ+PHRleHQgeD0iMjgxLjk4MzYyMjk2MDAyNDIiIHk9IjM3MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5QbGFuYXJpYTwvdGV4dD48cmVjdCB4PSIzOS44MTk2MDc4ODY1NDM5NiIgeT0iMjMyLjMxMDAzOTYxMDQ1NjkiIHdpZHRoPSIxOTAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTM0LjgxOTYwNzg4NjU0Mzk2IiB5PSIyNjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+VmVnZXRhdGl2ZSBwcm9wYWdhdGlvbjwvdGV4dD48dGV4dCB4PSIxMzQuODE5NjA3ODg2NTQzOTYiIHk9IjI3MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Sb3NlLCBwb3RhdG88L3RleHQ+PHJlY3QgeD0iOTIuMzQxODM2NzY4Njk1ODYiIHk9IjEwOS40NjkyODA3NzAxMTE5MSIgd2lkdGg9IjE5MCIgaGVpZ2h0PSI2MCIgcng9IjkiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxODcuMzQxODM2NzY4Njk1ODYiIHk9IjEzNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TcG9yZSBmb3JtYXRpb248L3RleHQ+PHRleHQgeD0iMTg3LjM0MTgzNjc2ODY5NTg2IiB5PSIxNTAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TXVjb3IsIFJoaXpvcHVzPC90ZXh0PjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIzMC4wIiByeD0iNzUiIHJ5PSIzMiIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkFzZXh1YWwgcmVwcm9kdWN0aW9uPC90ZXh0Pjwvc3ZnPg==",
+      "figureAlt": "Concept map of asexual reproduction",
+      "figureCaption": "Types of asexual reproduction"
+    },
+    {
+      "id": "fig-3-female_system",
+      "type": "figure",
+      "title": "Parts of the female reproductive system",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SHVtYW4gZmVtYWxlIHJlcHJvZHVjdGl2ZSBzeXN0ZW0gKHNjaGVtYXRpYyk8L3RleHQ+PGVsbGlwc2UgY3g9IjQwMCIgY3k9IjE3MCIgcng9IjkwIiByeT0iNzAiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz48dGV4dCB4PSI0MDAiIHk9IjE3NSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VXRlcnVzPC90ZXh0PjxlbGxpcHNlIGN4PSI0MDAiIGN5PSIyNjAiIHJ4PSI0MCIgcnk9IjYwIiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+PHRleHQgeD0iNDAwIiB5PSIyNjQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Q2Vydml4IC8gVmFnaW5hPC90ZXh0PjxwYXRoIGQ9Ik0zMTAgMTUwIFEyMDAgMTIwIDE1MCAxNTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSI1Ii8+PHBhdGggZD0iTTQ5MCAxNTAgUTYwMCAxMjAgNjUwIDE1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjUiLz48ZWxsaXBzZSBjeD0iMTMwIiBjeT0iMTcwIiByeD0iMzIiIHJ5PSIyNCIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPjx0ZXh0IHg9IjEzMCIgeT0iMTc0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5PdmFyeTwvdGV4dD48ZWxsaXBzZSBjeD0iNjcwIiBjeT0iMTcwIiByeD0iMzIiIHJ5PSIyNCIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPjx0ZXh0IHg9IjY3MCIgeT0iMTc0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5PdmFyeTwvdGV4dD48dGV4dCB4PSIyMzAiIHk9IjEwOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5PdmlkdWN0IChmYWxsb3BpYW4gdHViZSk8L3RleHQ+PHRleHQgeD0iNTgwIiB5PSIxMDgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+T3ZpZHVjdCAoZmFsbG9waWFuIHR1YmUpPC90ZXh0Pjx0ZXh0IHg9IjQwMCIgeT0iMzc1IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk92YXJpZXMgc2VjcmV0ZSBlc3Ryb2dlbiBhbmQgcHJvZ2VzdGVyb25lLjwvdGV4dD48L3N2Zz4=",
+      "figureAlt": "Human female reproductive system",
+      "figureCaption": "Parts of the female reproductive system"
+    },
+    {
+      "id": "answers-3-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-3-1",
+          "entries": [
+            {
+              "id": "a-1-3-1",
+              "question": "(1) Human males have numbers of chromosomes. (A) 44 + XX (B) 44 + XY (C) 22 + XY (D) 22 + XX (July ’23)",
+              "answer": "(B),",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-1-3-2",
+              "question": "(2) Body breaks up into several fragments and each fragment begins to live as a new individual. This is type of reproduction. (A) regeneration (B) fragmentation (C) binary fission (D) budding (March ’20)",
+              "answer": "(B),",
+              "questionTag": "March ’20"
+            },
+            {
+              "id": "a-1-3-3",
+              "question": "(3) Regeneration occurs in . (A) amoeba (B) paramoecium (C) euglena (D) planaria (March ’24)",
+              "answer": "(D),",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-1-3-4",
+              "question": "(4) Type of sexual reproduction is . (A) fragmentation (B) regeneration (C) gamete formation (D) budding (March ’23)",
+              "answer": "(C),",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-1-3-5",
+              "question": "(5) Pollen grains are formed by division in locules of anthers. (A) meiosis (B) mitosis (C) amitosis (D) binary",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-3-6",
+              "question": "(6) In humans, sperm production occurs in the organ . (A) vas deferens (B) ejaculator duct (C) testes (D) urinogenital duct (Nov. ’20; March ’25)",
+              "answer": "(C),",
+              "questionTag": "Nov. ’20; March ’25"
+            },
+            {
+              "id": "a-1-3-7",
+              "question": "(7) The length of a sperm is about micrometres. (A) 400 (B) 5 (C) 60 (D) 600 (July ’19)",
+              "answer": "(C),",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-1-3-8",
+              "question": "(8) Pregnant mother supplies nourishment to her foetus through . (A) breasts (B) uterus (C) placenta (D) ovaries",
+              "answer": "(C),"
+            },
+            {
+              "id": "a-1-3-9",
+              "question": "(9) Progesterone is secreted from . (A) corpus albicans (B) corpus luteum (C) testis (D) uterus",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-3-10",
+              "question": "(10) is modern remedial reproductive technique used if there is a problem in implantation of embryo in the uterus. (A) surrogacy (B) sperm bank (C) in vitro fertilization (D) adoption",
+              "answer": "(A),"
+            },
+            {
+              "id": "a-1-3-11",
+              "question": "(11) Pranav and Pritee are twins in your class. They belong to twins type. (A) monozygotic (B) dizygotic (C) Siamese (D) none of the above (March ’19)",
+              "answer": "(C).",
+              "questionTag": "March ’19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-3-2",
+          "entries": [
+            {
+              "id": "a-2-3-1",
+              "question": "(1) Fragmentation, Regeneration, Budding, Fertilization. (March ’25)",
+              "answer": "Fertilization. (All others are processes of asexual reproduction in multicellular organisms.)",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-2-3-2",
+              "question": "(2) Circulation, Excretion, Sensation, Reproduction.",
+              "answer": "Reproduction. (All others are the processes responsible for the survival of the individual.)"
+            },
+            {
+              "id": "a-2-3-3",
+              "question": "(3) Carrot, Potato, Radish, Sweet Potato.",
+              "answer": "Potato. (All others are edible roots.)"
+            },
+            {
+              "id": "a-2-3-4",
+              "question": "(4) Stigma, Style, Pollen, Ovary.",
+              "answer": "Pollen. (All others are parts of gynoecium.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Find Out the Correlation",
+      "answerGroups": [
+        {
+          "id": "g-3-3",
+          "entries": [
+            {
+              "id": "a-3-3-1",
+              "question": "(1) Ovary : Estrogen : : Testes : . (July ’23)",
+              "answer": "Testosterone",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-3-3-2",
+              "question": "(2) Transverse binary fission : Paramoecium : : Longitudinal binary fission : . (July ’19)",
+              "answer": "Euglena",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-3-3-3",
+              "question": "(3) Spirogyra : Fragmentations : : Planaria : . (Nov. ’20)",
+              "answer": "Regeneration",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-3-3-4",
+              "question": "(4) Amoeba : Fission : : Hydra :",
+              "answer": "Budding"
+            },
+            {
+              "id": "a-3-3-5",
+              "question": "(5) FSH : Development of oocyte : : LH : .",
+              "answer": "Ovulation"
+            },
+            {
+              "id": "a-3-3-6",
+              "question": "(6) Female hormone : Estrogen : : Male hormone :",
+              "answer": "Testosterone."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-3-4",
+          "entries": [
+            {
+              "id": "a-4-3-1",
+              "question": "(1) Example Types of Reproduction Mucor (a) Fragmentation (b) Spore formation (c) Binary fission",
+              "answer": "Mucor – Spore formation."
+            },
+            {
+              "id": "a-4-3-2",
+              "question": "(2) Column ‘A’ Column ‘B’ (March ’24) Male (a) 44 + XX (b) 44 + XY (c) 44 + YY",
+              "answer": "Male – 44 + XY.",
+              "questionTag": "March ’24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-3-5",
+          "entries": [
+            {
+              "id": "a-5-3-1",
+              "question": "(1) If oocyte is fertilized, secretion of estrogen and progesterone stops completely.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-3-2",
+              "question": "(2) During unfavourable conditions, binary fission is performed by amoeba.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-3-3",
+              "question": "(3) The pollen grains from anthers fall on stigma of carpel.",
+              "answer": "True"
+            },
+            {
+              "id": "a-5-3-4",
+              "question": "(4) There is glucose sugar in semen.",
+              "answer": "False"
+            },
+            {
+              "id": "a-5-3-5",
+              "question": "(5) There is need of rest along with special personal hygiene during phase of menstruation.",
+              "answer": "True."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-3-6",
+          "entries": [
+            {
+              "id": "a-6-3-1",
+              "question": "(1) Different glands associated with male reproductive system.",
+              "answer": "Seminal vesicles, Prostate gland, Cowper’s or bulbourethral glands."
+            },
+            {
+              "id": "a-6-3-2",
+              "question": "(2) Hormones secreted by ovary of female reproductive system.",
+              "answer": "Estrogen and progesteron."
+            },
+            {
+              "id": "a-6-3-3",
+              "question": "(3) Types of twins.",
+              "answer": "Monozygotic twins, Siamese twins and Dizygotic twins."
+            },
+            {
+              "id": "a-6-3-4",
+              "question": "(4) Methods of (things used for) family planning.",
+              "answer": "Copper T, condoms, oral contraceptive pills."
+            },
+            {
+              "id": "a-6-3-5",
+              "question": "(5) Fallopian tubes/ducts. (July ’22)",
+              "answer": "Transporting the released oocyte after ovulation to the uterus. Providing space for fertilization of oocyte by sperm. Conception is possible only when sperm and oocyte meet in the fallopian tube.",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-6-3-6",
+              "question": "(6) Placenta.",
+              "answer": "Supplying nourishment to the growing foetus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Give Scientific Reasons",
+      "answerGroups": [
+        {
+          "id": "g-3-7",
+          "entries": [
+            {
+              "id": "a-7-3-1",
+              "question": "(1) Gender of child is determined by the male partner of couple. OR It is not right to consider the mother responsible, for giving birth to a girl child. (March ’25)",
+              "answer": "(1) In males, XY sex-chromosomes are present and in females, XX sex-chromosomes are present.\n\n(2) At the time of fertilization, if X-chromosome comes from male, the child will be a girl and if Y-chromosome comes from male, the child will be a boy.\n\n(3) Therefore, it is not right to consider the mother responsible, for giving birth to a girl child.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-7-3-2",
+              "question": "(2) Flower is the structural unit of sexual reproduction in plant. (March ’23)",
+              "answer": "(1) Flower produces male and female gametes.\n\n(2) For this purpose there are essential whorls of androecium and gynoecium.\n\n(3) The double fertilization also takes place in flower.\n\n(4) Therefore, flower is called the structural unit of sexual reproduction in plants.",
+              "questionTag": "March ’23"
+            },
+            {
+              "id": "a-7-3-3",
+              "question": "(3) Indians should follow family planning for controlling the population. (March ’20)",
+              "answer": "(1) There is severe population explosion in India. It has almost reached to 121 crores.\n\n(2) This results into unemployment, decreasing per capita income and increasing loan, stress on natural resources, etc.\n\n(3) Only by controlling population, the quality of life can be restored.\n\n(4) Therefore, Indians should follow family planning for controlling the population.",
+              "questionTag": "March ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-3-8",
+          "entries": [
+            {
+              "id": "a-8-3-1",
+              "question": "Fragmentation",
+              "answer": "Fragmentation is the asexual type of reproduction in which the body of parent organism breaks up into many fragments. Each fragment can start living independently."
+            },
+            {
+              "id": "a-8-3-2",
+              "question": "Regeneration",
+              "answer": "Regeneration is the asexual reproduction in planeria in which the body is broken up into two parts and resulting each part regenerates remaining part of the body."
+            },
+            {
+              "id": "a-8-3-3",
+              "question": "Pollination",
+              "answer": "Transfer of pollen grains from anther to the stigma is called pollination."
+            },
+            {
+              "id": "a-8-3-4",
+              "question": "Menopause",
+              "answer": "Stoppage of functioning of female reproductive system due to lack of synthesis of hormones due to advancing age is called menopause."
+            },
+            {
+              "id": "a-8-3-5",
+              "question": "Placenta",
+              "answer": "An organ developed in the uterus of the pregnant mother, through which the embryo is given nourishment is called placenta."
+            },
+            {
+              "id": "a-8-3-6",
+              "question": "Menstrual cycle",
+              "answer": "The repetitive changes at the interval of every 28 – 30 days in female reproductive system that take place after puberty, form menstrual cycle."
+            },
+            {
+              "id": "a-8-3-7",
+              "question": "IVF",
+              "answer": "In Vitro Fertilization is the technique in which fertilization is brought about outside the female body but in the test-tube and the embryo is implanted in uterus of woman."
+            },
+            {
+              "id": "a-8-3-8",
+              "question": "Ovulation",
+              "answer": "Bursting of mature ovarian follicle under the influence of LH hormone to release the oocyte is called ovulation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-3-10",
+          "entries": [
+            {
+              "id": "a-10-3-1",
+              "question": "(1) Menstrual cycle. (3 marks)",
+              "answer": "(1) Menstrual cycle is the events of cyclic changes that takes place with the interval of 28 to 30 days in mature woman.\n\n(2) Hormones from pituitary, FSH (Follicle Stimulating Hormone) and LH (Luteinizing Hormone) and hormones from ovary, estrogen and progesterone control the menstrual cycle.\n\n(3) Due to influence of FSH, the ovarian follicle grows along with the oocyte that is present in it.\n\n(4) This growing follicle produces estrogen.\n\n(5) Under the influence of estrogen, the uterine inner layer called endometrium grows or regenerates. In the meantime, the development of follicle is completed.\n\n(6) LH from pituitary stimulates the bursting of ovarian follicle and releases the mature oocyte out of the follicle and the ovarian wall. This process is called ovulation.\n\n(7) The empty ovarian follicle after the ovulation becomes corpus luteum. Corpus luteum produces hormone progesterone.\n\n(8) Under the influence of progesterone, the glands from uterine endometrium start secreting. The oocyte if fertilized is implanted over this endometrium.\n\n(9) If oocyte is not fertilized, the corpus luteum becomes a degenerate body called corpus albicans. The corpus albicans cannot secrete estrogen and progesterone.\n\n(10) Due to lack of these hormones, the endometrial layer of the uterus collapses. The tissue debris, along with unfertilized egg is given out through the vagina as menstrual flow. This results in bleeding for about 5 days.\n\n(11) If woman is not pregnant, then this menstrual cycle keeps on repeating with regularity."
+            },
+            {
+              "id": "a-10-3-2",
+              "question": "(2) Seed germination. (2 marks)",
+              "answer": "(1) Seed germination is the process in which the seed develops into a new plantlet.\n\n(2) In the plants, after fertilization the ovule develops into seed and ovary turns into fruit.\n\n(3) Seeds fallen on the ground due to bursting of the fruits start germinating. Only under favourable conditions in the soil, this germination takes place.\n\n(4) The zygote present inside the seed uses food stored in endosperm of seed and hence develops further to produce a new plantlet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set11",
+      "type": "answer_sets",
+      "title": "Q. Set 11 : Explanations and Concepts",
+      "answerGroups": [
+        {
+          "id": "g-3-11",
+          "entries": [
+            {
+              "id": "a-11-3-1",
+              "question": "(1) Gender of child is determined by the male partner of couple. Explain with reasons whether this statement is true or false.",
+              "answer": "Father/Male Mother/Female (Sperms) (Oocytes) (22 + X) or (22 + Y) (22 + X) Daughter (44 + XX) Son (44 + XY) Sex determination in Human being\n\n(1) The statement Gender of child is determined by the male partner of couple is true.\n\n(2) It is clearly seen from the diagram that there are two types of sperms produced by males. One sperm has a X-chromosome while the other has a Y-chromosome, apart from autosomes. The mother on the other hand has all X-bearing oocytes. Thus, the sperm that fertilizes the oocyte decides the sex of the child.\n\n(3) If X-bearing sperm fertilizes the oocyte, daughter is born and when Y-bearing sperm fertilizes the oocyte, son is born.\n\n(4) Thus, father or male partner is responsible for the determination of the sex."
+            },
+            {
+              "id": "a-11-3-2",
+              "question": "(2) Explain the term : Modern technology of reproduction IVF. (Nov. ’20)",
+              "answer": "(1) IVF means In Vitro Fertilization (IVF).\n\n(2) This is the technique in the modern medical field where childless couples can be blessed by their own child.\n\n(3) IVF technique is used for childless couples who are faced with problems such as less sperm count, obstacles in oviduct, etc.\n\n(4) The IVF technique is done by removing the oocyte from the mother and artificially fertilizing by the sperms collected from father. This fertilization is done in a test-tube. Thus, it is also called test tube baby. The embryo formed is implanted in uterus of real mother or a surrogate mother at appropriate time.\n\n(1) Which precautions will you follow to maintain the reproductive health? (July ’22) (2 marks) Ans. About reproductive health one should have scientific and authentic information. The cleanliness of body is very essential but keeping the mind clean is also important to maintain good reproductive health. One should be careful about sexual relationships. These things should not be experimented in young age. Mistakes committed like these can change the sexual health forever. The cleanliness and hygiene during menstruation, the cleanliness of genitals and other private parts are the aspects of personal hygiene. When living in a society, one should always be away from cross- infections of venereal type.\n\n(2) Explain the following concepts in short : (a) Surrogacy (b) In Vitro Fertilization (IVF) (c) Sperm Bank. (March ’19 – ’20) Ans. (a) Surrogacy : In woman, if there is problem regarding the implantation of embryo in uterus, then help of another woman is taken. This woman is called surrogate mother. Oocyte from real mother is taken out and fertilized with sperms collected from her husband. These gametes are fertilized outside in a test-tube and then the fertilized zygote is implanted in the surrogate mother. (b) In Vitro Fertilization (IVF): The oocyte and sperm are fertilized outside the body in a laboratory, and the resulting embryo is transferred to the uterus of the mother or a surrogate mother. (c) Sperm bank : If man has problems with the sperm production, then the sperms are collected from the sperm bank. Sperm bank is the place where the donors donate the sperms and such sperms are kept stored. The donors identity is kept secret and he should also be physically and medically fit person.",
+              "questionTag": "Nov. ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-3-13",
+          "entries": [
+            {
+              "id": "a-13-3-1",
+              "question": "(1) Draw a neat and labelled diagram of ‘Parts of Flower’. OR Flower with its sexual reproductive organs. (2 marks)",
+              "answer": "Stigma Style Petal Carpel Ovary Anther Stamen Filament Sepal L.S. of a flower showing different parts"
+            },
+            {
+              "id": "a-13-3-2",
+              "question": "(2) Identify the type of asexual reproduction. In which organism do you find it? (5 marks) (a) (b) (c) (d) (e)",
+              "answer": "(a) Simple binary fission – Amoeba (b) Transverse binary fission – Paramoecium (c) Multiple fission – Amoeba (d) Spore formation – Mucor (e) Fragmentation – Spirogyra."
+            },
+            {
+              "id": "a-13-3-3",
+              "question": "(3) Sketch and label the given diagram : (2 marks) Human male reproductive system.",
+              "answer": "Urinary bladder Seminal vesicle Prostate gland Ejaculatory duct Cowper’s gland Vas deferens Urino genital duct Epididymis Testis Scrotum Penis Male reproductive system of human"
+            },
+            {
+              "id": "a-13-3-4",
+              "question": "(4) Draw a neat and labelled diagram of female reproductive system and give the functions of : (a) Oviduct (b) Ovary (c) Uterus. (July ’22) (5 marks)",
+              "answer": "Draw and label the female reproductive system: ovaries, oviducts (fallopian tubes), uterus and vagina.\n\n(1) Oviduct: Transports the released oocyte towards the uterus and is the usual site of fertilization.\n\n(2) Ovary: Produces oocytes and secretes estrogen and progesterone.\n\n(3) Uterus: Supports implantation and the growth and development of the foetus during pregnancy.",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-13-3-5",
+              "question": "(5) Answer the following questions in complete sentence based on female reproductive system : (July ’23) (5 marks) (a) How many immature oocytes are present at the time of birth in the ovary of female foetus? (b) What is ovulation? (c) What is menopause? (d) Draw scientifically correct diagram of female reproductive system. (e) Label the following parts : (i) Ovary (ii) Uterus.",
+              "answer": "(a) At the time of birth, there are about 2 to 4 million of immature oocytes in the ovary of female foetus. (b) Ovulation is the release of an oocyte when a mature ovarian follicle bursts under the influence of luteinizing hormone (LH). (c) Menopause is the permanent cessation of the menstrual cycle and reproductive function due to reduced ovarian hormone production with advancing age. (d) Draw and label the female reproductive system. (e) Label the ovary and uterus.\n\n(6) Answer the following questions by observing the diagram of menstrual cycle. (March ’23) (5 marks) (a) What is the period of menstruation ? (b) On which day does ovulation occur during menstrual cycle ? (c) In menstrual cycle which reproductive organs undergo changes ? (d) Which period is said to be period of regeneration of endometrium ? (e) Which period is said to be period of secretions of glands in endometrium ? Hypothalamus GnRH FSH LH Corpus Corpus luteum albicans Fully grown Ovulation Changes in the follicle ovary during menstruation Progesterone and estrogens Estrogens Beginning of new Changes in menstruation the uterus during menstruation Period of Menstruation Ovulation Period of period Period of regeneration of secretions of glands endometrium in endometrium Ans. (a) 1 to 5 days is the period of menstruation. (b) Ovulation occurs on 14th or 15th day. (c) Ovary and uterus undergo changes during menstrual cycle. (d) In menstrual cycle, days 5 to 14 are period of regeneration of endometrium. (e) Period of secretions of glands in endometrium is 15 to 28 days.",
+              "questionTag": "July ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-3-14",
+          "entries": [
+            {
+              "id": "a-14-3-1",
+              "question": "Q Complete a concept map to show different methods of asexual reproduction : (3 marks)",
+              "answer": "( Answers are directly given and underlined.) Reproduction Simple e.g. Amoeba Asexual Binary Transverse In Fission e.g. Paramoecium ì Multiple unicellular í Longitudinal organisms î Budding e.g. Amoeba e.g. Euglena e.g. Yeast ì ï Fragmentation In ï multicellular ïí e.g. Sycon organisms ï Regeneration ï e.g. Planaria ï î Budding e.g. Hydra Vegetative propagation/plants Spore formation e.g. Mucor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-3-15",
+          "entries": [
+            {
+              "id": "a-15-3-1",
+              "question": "Q. (Luteinizing hormone, endometrium of uterus, follicle stimulating hormone, estrogen, progesterone, corpus luteum) Growth of follicles present in the ovary occurs under the effect of . This follicle secretes estrogen. Ovarian follicle along with oocyte grows/regenerates under the effect of estrogen. Under the effect of , fully grown up follicle bursts, ovulation occurs and is formed from remaining part of follicle. It secretes and . Under the effect of these hormones, glands of are activated and it becomes ready for implantation.",
+              "answer": "Growth of follicles present in the ovary occurs under the effect of follicle stimulating hormone. This follicle secretes estrogen. Ovarian follicle along with oocyte grows/regenerates under the effect of estrogen. Under the effect of Luteinizing hormone, fully grown up follicle bursts, ovulation occurs and corpus luteum is formed from remaining part of follicle. It secretes estrogen and progesterone. Under the effect of these hormones, glands of endometrium of uterus are activated and it becomes ready for implantation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set16",
+      "type": "answer_sets",
+      "title": "Q. Set 16 : Paragraph-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-3-16",
+          "entries": [
+            {
+              "id": "a-16-3-1",
+              "question": "(1) How do living species continue their existence?",
+              "answer": "Through the process of reproduction, living species continue their existence."
+            },
+            {
+              "id": "a-16-3-2",
+              "question": "(2) Which are asexual methods of reproduction in kingdom Animalia?",
+              "answer": "Fission, budding and parthenogenesis are the asexual methods of reproduction in kingdom Animalia."
+            },
+            {
+              "id": "a-16-3-3",
+              "question": "(3) Why is regeneration not true method of reproduction?",
+              "answer": "Regeneration is the repair process than a reproductive process. It is not done with the intention of producing offspring, but is for healing or repairing the lost part."
+            },
+            {
+              "id": "a-16-3-4",
+              "question": "(4) What are methods of reproduction in plants?",
+              "answer": "Plants reproduce by asexual as well as sexual methods. Asexual reproduction is by fragmentation, vegetative propagation, budding, spore formation, while by formation of gametes, sexual reproduction is done."
+            },
+            {
+              "id": "a-16-3-5",
+              "question": "(5) What is the modern method of reproduction aimed at in higher organisms?",
+              "answer": "Cloning is the modern method of reproduction by which production of young one can be aimed at."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-3-18",
+          "entries": [
+            {
+              "id": "a-18-3-1",
+              "question": "(1) Why has the Government of India enacted the law to fix the minimum age of marriage as 18 in girls and 21 in boys?",
+              "answer": "The full growth of female body is not completed till the age of 18. Till 18 years of age the physical and emotional maturity is not attained. Therefore, she is not suitable for marriage, sexual relationship and pregnancy. Similarly, boy attains complete growth only by the age of 21. Therefore, to keep individuals and their progeny safe and healthy, the Government of India enacted the law to fix the minimum age of marriage as 18 in girls and 21 in boys."
+            },
+            {
+              "id": "a-18-3-2",
+              "question": "(2) Explain the process of reproduction in fungus.",
+              "answer": "(1) Mucor reproduces Sporangium Spores asexually by spore formation.\n\n(2) It has filamentous body that possess sporangia. Sporangiophore\n\n(3) When the spores are Hyphae formed, the sporangia burst. The spores are released which Rhizoids settle down at suitable places.\n\n(4) They germinate in moist and warm place forming Spore formation a new fungal colony."
+            },
+            {
+              "id": "a-18-3-3",
+              "question": "(3) What precautions should be followed to maintain the reproductive health? (July ’22)",
+              "answer": "(1) Genitals should be kept clean. There should not be lack of awareness about reproductive health.\n\n(2) Social customs, traditions, illiteracy, shyness, etc. should not result in negative attitude towards reproductive health.",
+              "questionTag": "July ’22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-3-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-3-19",
+          "entries": [
+            {
+              "id": "a-19-3-1",
+              "question": "(1) Answer the following questions : (March ’19) (5 marks) (a) ‘‘Gender of child is determined by the male partner of couple.’’ Draw a diagram explaining the above statement. (b) Prepare a slogan for campaign against female foeticide. (c) In the following figure, explain how new fungal colonies of mucor are formed. (d) Identify and state the type of reproduction represented in the above figure.",
+              "answer": "(a) The male determines the sex of the child because males produce two types of sperm, carrying either an X or a Y chromosome, while every ovum carries an X chromosome. An X-bearing sperm fertilizing the ovum results in XX (female); a Y-bearing sperm results in XY (male). (b)\n\n(1) Save the girl child.\n\n(2) Daughters bring joy; value them equally. (c) Mucor reproduces asexually by spore formation. Spores develop in sporangia at the tips of sporangiophores. When mature, the sporangia burst and release spores; in warm, moist conditions, the spores germinate and form new fungal colonies. (d) This is asexual reproduction by spore formation.",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-19-3-2",
+              "question": "(2) With the help of neat labelled diagram, explain any three functions of parts of a flower. (Sept. ’21) (5 marks) Stigma Style Petal Carpel Ovary Anther Stamen Filament Sepal L.S. of a flower showing different parts",
+              "answer": "(1) The structural unit of sexual reproduction in plants is flower. There are total four floral whorls. Of these two are accessory floral whorls while two are essential floral whorls.\n\n(2) Calyx and corolla are accessory whorls. They are protective in nature.\n\n(3) Members of calyx are known as sepals. They are usually green in colour. They protect the inner whorls.\n\n(4) The members of corolla are called petals. They can be of different colours.\n\n(5) Androecium and gynoecium are essential whorls as they participate in sexual reproduction.\n\n(6) The male whorl androecium is made up of stamens. Each stamen has a filament with anther located at the upper end. In the anther there are four locules. Inside the locules the meiosis takes place forming pollen grains. During suitable time, the pollen grains are released from anther lobes.\n\n(7) Gynoecium is made up of carpels, either in separate form or are united. Each carpel is formed of ovary at the basal end, hollow ‘style’ and the stigma at the tip of style. There are one or many ovules inside the ovary.\n\n(8) In bisexual flowers both androecium and gynoecium are located in the same flower. e.g. Hibiscus.\n\n(9) In unisexual flowers, androecium is present in male flowers and gynoecium is present in the female flowers. e.g. Papaya.",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-19-3-3",
+              "question": "(3) Answer the following questions : (March ’22) (5 marks) (a) Sketch and label the essential and accessory whorls of flower. (b) What is pollination? (c) Give any two examples of agents of pollination.",
+              "answer": "(a) Label the flower diagram: stigma, style and ovary (carpel/gynoecium); anther and filament (stamen/androecium); petals (corolla); and sepals (calyx). The essential whorls are androecium and gynoecium; the accessory whorls are calyx and corolla. (b) Pollination is the transfer of pollen grains from anthers to the stigma. (c) Agents include insects and wind.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-19-3-4",
+              "question": "(4) Answer the following questions based on human male reproductive system : (March ’24) (5 marks) (a) In which organ sperms are formed? (b) What is the length of a sperm? (c) What is the work of vas deferens? (d) By which type of cell division, sperms are formed? (e) Name any two unpaired organs of male reproductive system.",
+              "answer": "(a) Sperms are formed in testes. (b) Length of sperms is about 60 micrometres. (c) Carrying the sperms from testes to penis by helping their forward movement, is the function of vas deferens. (d) Sperms are formed by meiosis. (e) Penis, Scrotum, Prostate gland are the unpaired organs of male reproductive system.",
+              "questionTag": "March ’24"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-3-1",
+      "front": "Fragmentation",
+      "back": "Asexual reproduction in which the body of the parent breaks into many fragments and each fragment lives as a new individual (e.g. Spirogyra).",
+      "order": 1
+    },
+    {
+      "id": "fc-3-2",
+      "front": "Regeneration",
+      "back": "Asexual reproduction in Planaria in which the body is broken into two parts and each part regenerates the missing part.",
+      "order": 2
+    },
+    {
+      "id": "fc-3-3",
+      "front": "Examples: binary fission types",
+      "back": "Simple - Amoeba; transverse - Paramoecium; longitudinal - Euglena.",
+      "order": 3
+    },
+    {
+      "id": "fc-3-4",
+      "front": "Name an organism for budding and one for spore formation.",
+      "back": "Budding - Hydra or yeast; spore formation - Mucor.",
+      "order": 4
+    },
+    {
+      "id": "fc-3-5",
+      "front": "Pollination",
+      "back": "Transfer of pollen grains from the anther to the stigma.",
+      "order": 5
+    },
+    {
+      "id": "fc-3-6",
+      "front": "What are the parts of the gynoecium?",
+      "back": "Stigma, style and ovary.",
+      "order": 6
+    },
+    {
+      "id": "fc-3-7",
+      "front": "Chromosomes of human male and female",
+      "back": "Male 44 + XY; female 44 + XX. Sperms are 22 + X or 22 + Y; oocytes are 22 + X.",
+      "order": 7
+    },
+    {
+      "id": "fc-3-8",
+      "front": "Where are sperms produced and how long are they?",
+      "back": "In the testes; about 60 micrometres long.",
+      "order": 8
+    },
+    {
+      "id": "fc-3-9",
+      "front": "Role of placenta",
+      "back": "An organ developed in the uterus of a pregnant mother through which the embryo is given nourishment.",
+      "order": 9
+    },
+    {
+      "id": "fc-3-10",
+      "front": "FSH and LH",
+      "back": "FSH helps development of the oocyte; LH brings about ovulation.",
+      "order": 10
+    },
+    {
+      "id": "fc-3-11",
+      "front": "Which hormone is secreted by corpus luteum?",
+      "back": "Progesterone.",
+      "order": 11
+    },
+    {
+      "id": "fc-3-12",
+      "front": "Menstrual cycle and menopause",
+      "back": "Cycle: repetitive changes every 28 - 30 days after puberty. Menopause: stoppage of the female reproductive system, at 45 - 50 years of age.",
+      "order": 12
+    },
+    {
+      "id": "fc-3-13",
+      "front": "IVF",
+      "back": "In Vitro Fertilization: fertilization is brought about outside the body; used when there is a problem with fertilization or implantation.",
+      "order": 13
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-3-1",
+      "qType": "mcq",
+      "question": "Human males have ____ chromosomes.",
+      "options": [
+        "44 + XX",
+        "44 + XY",
+        "22 + XY",
+        "22 + XX"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Males are 44 + XY.",
+      "order": 1
+    },
+    {
+      "id": "quiz-3-2",
+      "qType": "mcq",
+      "question": "Regeneration occurs in which of these?",
+      "options": [
+        "Amoeba",
+        "Paramoecium",
+        "Euglena",
+        "Planaria"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Planaria regenerates lost body parts.",
+      "order": 2
+    },
+    {
+      "id": "quiz-3-3",
+      "qType": "mcq",
+      "question": "Pollen grains are formed by ____ division in the locules of anthers.",
+      "options": [
+        "meiosis",
+        "mitosis",
+        "amitosis",
+        "binary fission"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Haploid pollen grains form by meiosis.",
+      "order": 3
+    },
+    {
+      "id": "quiz-3-4",
+      "qType": "mcq",
+      "question": "Sperm production in humans occurs in the ____.",
+      "options": [
+        "vas deferens",
+        "ejaculatory duct",
+        "testes",
+        "urinogenital duct"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sperms are produced in the testes.",
+      "order": 4
+    },
+    {
+      "id": "quiz-3-5",
+      "qType": "mcq",
+      "question": "The mother supplies nourishment to the foetus through the ____.",
+      "options": [
+        "breasts",
+        "uterus",
+        "placenta",
+        "ovaries"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Placenta transfers nourishment.",
+      "order": 5
+    },
+    {
+      "id": "quiz-3-6",
+      "qType": "mcq",
+      "question": "Progesterone is secreted from the ____.",
+      "options": [
+        "corpus albicans",
+        "corpus luteum",
+        "testis",
+        "uterus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Corpus luteum secretes progesterone.",
+      "order": 6
+    },
+    {
+      "id": "quiz-3-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "The sex of a child is determined by the sperm that fertilizes the oocyte.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sperms are X or Y; oocytes are always X.",
+      "order": 7
+    },
+    {
+      "id": "quiz-3-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "Transfer of pollen grains from anther to stigma is called ____.",
+      "wordBank": [
+        "pollination",
+        "fertilization",
+        "germination",
+        "regeneration"
+      ],
+      "correctWord": "pollination",
+      "options": [
+        "pollination",
+        "fertilization",
+        "germination",
+        "regeneration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the definition of pollination.",
+      "order": 8
+    },
+    {
+      "id": "quiz-3-9",
+      "qType": "match",
+      "question": "Match the organism with its type of asexual reproduction.",
+      "left": [
+        "Amoeba",
+        "Planaria",
+        "Hydra"
+      ],
+      "right": [
+        "Budding",
+        "Binary fission",
+        "Regeneration"
+      ],
+      "answerKey": [
+        1,
+        2,
+        0
+      ],
+      "options": [
+        "Budding",
+        "Binary fission",
+        "Regeneration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Amoeba divides by fission, Planaria regenerates and Hydra buds.",
+      "order": 9
+    }
+  ]
+}

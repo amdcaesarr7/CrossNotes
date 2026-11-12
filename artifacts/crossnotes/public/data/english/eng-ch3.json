@@ -1,0 +1,79 @@
+{
+  "id": "eng-ch3",
+  "num": 3,
+  "title": "Seen Passages",
+  "emoji": "📖",
+  "notes": [
+    {
+      "id": "eng3-n1",
+      "title": "How to attempt Seen Passages",
+      "content": "1. Read the activities first, then the passage.\n2. **A1/B1 (Simple Factual - 2 marks):** Objective type (True/False, Fill in the blanks, Match columns, Complete the web). Answers are directly in the passage.\n3. **A2/B2 (Complex Factual - 2 marks):** Information transfer, Wh- questions. Answers found in different parts of the passage.\n4. **A3/B3 (Vocabulary - 2 marks):** Meanings, opposites, word forms.\n5. **A4/B4 (Contextual Grammar - 2 marks):** Tenses, voice, narration based on the passage.\n6. **A5/B5 (Personal Response - 2 marks):** Your opinion/views on an issue arising from the passage.",
+      "important": true
+    },
+    {
+      "id": "eng3-n2",
+      "title": "Lesson 1.2 The Thief's Story - A1. Complete the following",
+      "content": "(i) The 'I' in the story refers to the narrator, who called himself Hari Singh. (ii) Anil kept Hari as a cook because he wanted someone to cook for him. He perhaps also felt sorry for Hari.",
+      "important": true
+    },
+    {
+      "id": "eng3-n3",
+      "title": "Lesson 1.2 The Thief's Story - A2. Complete the web diagram: Anil's virtues",
+      "content": "kind, easy-going, pleasant, simple",
+      "important": true
+    },
+    {
+      "id": "eng3-n4",
+      "title": "Anil's Virtues Web Diagram",
+      "content": "<svg width='400' height='300' xmlns='http://www.w3.org/2000/svg'><rect x='150' y='120' width='100' height='60' fill='#e2e8f0' stroke='#4a5568'/><text x='200' y='145' font-family='Arial' font-size='12' text-anchor='middle' font-weight='bold'>Anil's virtues</text><rect x='50' y='40' width='80' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='90' y='60' font-family='Arial' font-size='12' text-anchor='middle'>kind</text><line x1='200' y1='120' x2='130' y2='70' stroke='black'/><rect x='270' y='40' width='80' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='310' y='60' font-family='Arial' font-size='12' text-anchor='middle'>easy-going</text><line x1='250' y1='150' x2='270' y2='60' stroke='black'/><rect x='270' y='230' width='80' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='310' y='250' font-family='Arial' font-size='12' text-anchor='middle'>pleasant</text><line x1='250' y1='180' x2='270' y2='240' stroke='black'/><rect x='50' y='230' width='80' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='90' y='250' font-family='Arial' font-size='12' text-anchor='middle'>simple</text><line x1='200' y1='180' x2='130' y2='240' stroke='black'/></svg>",
+      "important": true
+    },
+    {
+      "id": "eng3-n5",
+      "title": "Lesson 2.5 Let's March - B1. True or False",
+      "content": "(i) Kailash Satyarthi sees children growing freely with dignity. -> True\n(ii) Let us march from morality to divinity. -> False",
+      "important": true
+    },
+    {
+      "id": "eng3-n6",
+      "title": "Lesson 2.5 Let's March - B2. Complete the given diagram: Children's Rights",
+      "content": "Right to life, right to freedom, right to health, right to education, right to safety, right to dignity, right to equality, and right to peace.",
+      "important": true
+    },
+    {
+      "id": "eng3-n7",
+      "title": "Children's Rights Tree Diagram",
+      "content": "<svg width='400' height='200' xmlns='http://www.w3.org/2000/svg'><rect x='125' y='140' width='150' height='40' fill='#e2e8f0' stroke='#4a5568'/><text x='200' y='165' font-family='Arial' font-size='14' text-anchor='middle' font-weight='bold'>Children's Rights</text><line x1='200' y1='140' x2='50' y2='50' stroke='black' marker-end='url(#arrow)'/><line x1='200' y1='140' x2='150' y2='50' stroke='black' marker-end='url(#arrow)'/><line x1='200' y1='140' x2='250' y2='50' stroke='black' marker-end='url(#arrow)'/><line x1='200' y1='140' x2='350' y2='50' stroke='black' marker-end='url(#arrow)'/><circle cx='50' cy='35' r='25' fill='white' stroke='black'/><circle cx='150' cy='35' r='25' fill='white' stroke='black'/><circle cx='250' cy='35' r='25' fill='white' stroke='black'/><circle cx='350' cy='35' r='25' fill='white' stroke='black'/><defs><marker id='arrow' markerWidth='10' markerHeight='10' refX='10' refY='3' orient='auto'><path d='M0,0 L0,6 L9,3 z' fill='black'/></marker></defs></svg>",
+      "important": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "eng3-f1",
+      "front": "I can't pay you. (Make it affirmative.)",
+      "back": "I am unable to pay you.",
+      "order": 1
+    },
+    {
+      "id": "eng3-f2",
+      "front": "What are the qualities of Anil in 'The Thief's Story'?",
+      "back": "Kind, easy-going, pleasant, simple.",
+      "order": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "eng3-q1",
+      "question": "In 'The Thief's Story', why did Anil keep Hari as a cook?",
+      "options": [
+        "Because Hari was an excellent chef",
+        "Because Anil wanted someone to cook and felt sorry for him",
+        "Because Anil needed a partner for his business",
+        "Because Hari threatened him"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anil wanted someone to cook for him and perhaps also felt sorry for Hari.",
+      "order": 1
+    }
+  ]
+}

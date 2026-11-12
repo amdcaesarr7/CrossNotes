@@ -1,0 +1,230 @@
+{
+  "id": "ch8",
+  "num": 8,
+  "title": "Metallurgy",
+  "emoji": "⛏️",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers the processes involved in extracting metals from their ores, including roasting, calcination, and various methods of preventing corrosion like galvanizing, tinning, electroplating, anodizing, and alloying.",
+    "youWillLearn": [
+      "Define roasting and calcination and distinguish between them.",
+      "Explain methods of preventing corrosion: galvanizing, tinning, electroplating, anodizing, and alloying.",
+      "Explain why sodium is stored in kerosene.",
+      "Describe the role of cryolite and fluorspar in aluminium electrolysis.",
+      "Describe the froth floatation process for concentrating ores."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Roasting and Calcination",
+      "content": "Roasting: heating a sulphide ore in excess air. Calcination: heating a carbonate ore in limited air.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Galvanizing, Tinning, Electroplating, Anodizing, Alloying",
+      "content": "Galvanizing: zinc coating on iron/steel. Tinning: tin coating on copper/brass vessels. Electroplating: coating a less reactive metal via electrolysis. Anodizing: protective oxide film via electrolysis. Alloying: mixing metals for better properties, e.g. brass (Cu+Zn), bronze (Cu+Sn).",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Why sodium is kept in kerosene",
+      "content": "Sodium reacts violently with air/moisture but not with kerosene, so it's stored in kerosene to prevent fires.",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Cryolite and fluorspar in aluminium electrolysis",
+      "content": "These lower alumina's very high melting point (>2000°C to ~1000°C), saving energy, and increase the conductivity of the molten mixture.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Froth floatation process",
+      "content": "Ore is mixed with water and pine oil; air bubbled through forms a froth that carries oil-wetted mineral particles up, while gangue (water-wetted) settles down.",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "Reactivity series of metals",
+      "question": "Explain the reactivity series of the metals.",
+      "qnaAnswer": "The arrangement of metals in decreasing order of their reactivity in the form of a series is called the reactivity or activity series. The most reactive metal is placed at the top and the least reactive at the bottom.\n\nClassification of metals based on reactivity:\n1. Highly reactive metals: Na, K, Ca, Al — obtained by electrolytic reduction.\n2. Moderately reactive metals: Fe, Zn, Pb, Cu — obtained from their oxides.\n3. Less reactive metals: Au, Ag, Cu — occur in free state or obtained by heating their ores in air."
+    },
+    {
+      "id": "n7",
+      "type": "qna",
+      "title": "Why sodium is kept in kerosene?",
+      "question": "Why is sodium always kept in kerosene?",
+      "qnaAnswer": "Sodium reacts so vigorously with atmospheric oxygen that it catches fire if kept in the open. It does not react with kerosene and sinks in it. Hence, to protect sodium and prevent accidental fires, it is always kept in kerosene."
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Why cryolite and fluorspar are added",
+      "question": "Why are cryolite (Na₃AlF₆) and fluorspar (CaF₂) added to the electrolytic mixture containing pure alumina?",
+      "qnaAnswer": "Alumina has a very high melting point (>2000°C). Cryolite and fluorspar lower the fusion temperature of the mixture from 2000°C to 1000°C, saving electrical energy. They also increase the conductivity and the mobility of the fused mixture."
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "Froth floatation process",
+      "question": "Describe the froth floatation method.",
+      "qnaAnswer": "In this method, the finely ground mineral is put into a big tank containing water and vegetable oil (like pine oil). Pressurised air is blown through the mixture, forming froth. Sulphide minerals get wetted by the oil and float with the froth, while gangue particles are wetted by water and settle down. This method is used for the concentration of ores like zinc blende (ZnS) and copper pyrite (CuFeS₂)."
+    },
+    {
+      "id": "n10",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "Ionic compounds are soluble in kerosine. (False)",
+        "Ionic compounds in the solid state conduct electricity. (False)",
+        "Electrolysis is used to obtain pure metals from impure metals. (True)",
+        "Aquaregia is a mixture of conc. HCl and conc. HNO₃ in the ratio of 1 : 3. (False)",
+        "Mercury, silver and gold are very reactive metals. (False)",
+        "In electroplating, a metal is coated with another metal using electrolysis. (True)",
+        "Corrosion of metals can be stopped by detaching the air from metals. (True)"
+      ]
+    },
+    {
+      "id": "n11",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "The sulphide ores are strongly heated in air : Roasting : : The carbonate ores are strongly heated in a limited supply of air : ___",
+      "blanks": [
+        "Calcination"
+      ]
+    },
+    {
+      "id": "n12",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Tinning : Tin : : Galvanizing : ___",
+      "blanks": [
+        "Zinc"
+      ]
+    },
+    {
+      "id": "n13",
+      "type": "list",
+      "title": "Name the Following",
+      "ordered": false,
+      "items": [
+        "Two highly reactive metals: Sodium and potassium.",
+        "A metal which does not react with cold water but reacts with steam: Aluminium.",
+        "Two metals used for making cooking vessels: Copper and aluminium.",
+        "The process of heating sulphide ore to high temperature in excess air: Roasting.",
+        "The process of heating carbonate ore to high temperature in limited air: Calcination.",
+        "The device used for grinding an ore: Grinding mill.",
+        "Compounds added to lower the fusion temperature: Cryolite and fluorspar.",
+        "An alloy of copper and zinc: Brass."
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What is roasting (in metallurgy)?",
+      "back": "Heating a sulphide ore to high temperature in excess of air"
+    },
+    {
+      "id": "f2",
+      "front": "What is calcination?",
+      "back": "Heating a carbonate ore to high temperature in limited air"
+    },
+    {
+      "id": "f3",
+      "front": "What is galvanizing?",
+      "back": "Coating iron/steel with zinc to prevent rusting"
+    },
+    {
+      "id": "f4",
+      "front": "Why is sodium stored in kerosene?",
+      "back": "It reacts violently with air/moisture but not with kerosene"
+    },
+    {
+      "id": "f5",
+      "front": "What is an alloy? Give an example.",
+      "back": "A homogeneous mixture of metals; e.g. brass = copper + zinc"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "______ is a metal in liquid form at ordinary temperature and pressure.",
+      "options": [
+        "Magnesium",
+        "Sodium",
+        "Scandium",
+        "Mercury"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mercury is the only metal liquid at room temperature.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "Ores are strongly heated in a limited supply of air during:",
+      "options": [
+        "leaching",
+        "electrolysis",
+        "roasting",
+        "calcination"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Calcination uses limited air; roasting uses excess air.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "Gold-plated ornaments are an example of:",
+      "options": [
+        "electroplating",
+        "alloying",
+        "anodizing",
+        "galvanizing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Electroplating uses electrolysis to coat gold.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "Bronze is an alloy of:",
+      "options": [
+        "copper and tin",
+        "copper and zinc",
+        "copper and iron",
+        "iron and nickel"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bronze = copper + tin.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "______ is used as the anode during electrolytic reduction of alumina.",
+      "options": [
+        "Sulphur",
+        "Graphite",
+        "Platinum",
+        "Aluminium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Graphite rods serve as the anode and erode over time.",
+      "order": 5
+    }
+  ]
+}

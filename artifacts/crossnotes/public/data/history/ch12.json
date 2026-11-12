@@ -1,0 +1,647 @@
+{
+  "id": "ch12",
+  "num": 12,
+  "title": "Social and Political Movements",
+  "emoji": "✊",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter examines the indispensable role of political parties as democratic vehicles of governance and representation. It explores party characteristics and functions, criteria established by the Election Commission for National and Regional recognition, profiles major National parties (INC, BJP, CPI, CPI(M), BSP, NCP, AITC), analyzes key regional parties across Indian states, and traces the historical shift from single-party dominance to multi-party coalition governance.",
+    "youWillLearn": [
+      "Define political parties and understand their core features, functions, and ideological roots",
+      "Learn the Election Commission criteria for recognizing National and Regional parties",
+      "Profile major National parties: Congress, BJP, Communist parties, BSP, NCP, and Trinamool Congress",
+      "Examine prominent state regional parties: Shiv Sena, Akali Dal, DMK, AGP, and National Conference",
+      "Understand the dynamics of coalition politics and how it accommodates India's federal diversity"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "A social movement is a ______.\n(A) Collective action (B) Individual action (C) Government action (D) None of the above",
+      "qnaAnswer": "Correct Answer: (A) Collective action"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "The Chipko movement was related to ______.\n(A) Forest conservation (B) Women's rights (C) Farmers' rights (D) Tribal rights",
+      "qnaAnswer": "Correct Answer: (A) Forest conservation"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "The Narmada Bachao Andolan was led by ______.\n(A) Medha Patkar (B) Sunderlal Bahuguna (C) Baba Amte (D) Anna Hazare",
+      "qnaAnswer": "Correct Answer: (A) Medha Patkar"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "The farmers' movement in Maharashtra was related to ______.\n(A) Land rights (B) Crop prices (C) Water rights (D) All of the above",
+      "qnaAnswer": "Correct Answer: (D) All of the above"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "The women's movement in India fought for ______.\n(A) Equal rights (B) Right to vote (C) Right to education (D) All of the above",
+      "qnaAnswer": "Correct Answer: (D) All of the above"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Movement",
+        "Leader",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "Chipko Movement",
+          "Sunderlal Bahuguna",
+          "Correct"
+        ],
+        [
+          "Narmada Bachao Andolan",
+          "Medha Patkar",
+          "Correct"
+        ],
+        [
+          "Farmers' Movement",
+          "Sharad Joshi",
+          "Correct"
+        ],
+        [
+          "Women's Movement",
+          "Pandita Ramabai",
+          "Correct"
+        ],
+        [
+          "Tribal Movement",
+          "Medha Patkar",
+          "WRONG — Medha Patkar is associated with Narmada Bachao Andolan, not the tribal movement."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Social and Political Movements",
+      "content": "Social and Political Movements → Farmers' Movement → Tribal Movement → Women's Movement → Environmental Movement → Labour Movement",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Social Movement",
+      "question": "Explain the following concept: Social Movement",
+      "qnaAnswer": "\n1. A social movement is a collective action by a group of people to bring about social change.\n2. It is usually organized and sustained over a period of time.\n3. It aims to address social issues and problems.\n4. It can be reformist or revolutionary in nature.\n5. Examples: Chipko movement, women's movement, environmental movement.",
+      "important": true
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Farmers' Movement",
+      "question": "Explain the following concept: Farmers' Movement",
+      "qnaAnswer": "\n1. The farmers' movement in India is a social and political movement aimed at addressing the issues faced by farmers.\n2. It focuses on issues like land rights, crop prices, water rights, and debt relief.\n3. Key leaders include Sharad Joshi and Mahendra Singh Tikait.\n4. The movement has been active in various states including Maharashtra, Punjab, and Uttar Pradesh.\n5. It has played an important role in shaping agricultural policies in India.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Tribal Movement",
+      "question": "Explain the following concept: Tribal Movement",
+      "qnaAnswer": "\n1. The tribal movement in India is a social and political movement aimed at protecting the rights of tribal communities.\n2. It focuses on issues like land rights, forest rights, and cultural preservation.\n3. Key movements include the Jharkhand movement and the Bodo movement.\n4. It has been active in various states including Jharkhand, Odisha, and the North-East.\n5. It has played an important role in shaping tribal policies in India.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Women's Movement",
+      "question": "Explain the following concept: Women's Movement",
+      "qnaAnswer": "\n1. The women's movement in India is a social movement aimed at achieving gender equality and women's rights.\n2. It focuses on issues like education, employment, political representation, and safety.\n3. Key leaders include Pandita Ramabai, Savitribai Phule, and Medha Patkar.\n4. The movement has been active since the 19th century.\n5. It has played an important role in shaping women's policies in India.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "qna",
+      "title": "Environmental Movement",
+      "question": "Explain the following concept: Environmental Movement",
+      "qnaAnswer": "\n1. The environmental movement in India is a social movement aimed at protecting the environment.\n2. It focuses on issues like forest conservation, pollution control, and sustainable development.\n3. Key movements include the Chipko movement and the Narmada Bachao Andolan.\n4. Key leaders include Sunderlal Bahuguna and Medha Patkar.\n5. It has played an important role in shaping environmental policies in India.",
+      "important": true
+    },
+    {
+      "id": "n17",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Chipko Movement",
+      "question": "Write a short note on: Chipko Movement",
+      "qnaAnswer": "\n1. The Chipko movement was a forest conservation movement in India.\n2. It began in the 1970s in the Garhwal Himalayas.\n3. It was led by Sunderlal Bahuguna and Chandi Prasad Bhatt.\n4. Villagers, especially women, hugged trees to prevent them from being cut down.\n5. The movement was successful in preventing deforestation and promoting afforestation.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Narmada Bachao Andolan",
+      "question": "Write a short note on: Narmada Bachao Andolan",
+      "qnaAnswer": "\n1. The Narmada Bachao Andolan (NBA) is a social movement in India.\n2. It was started in 1985 to protest against the construction of large dams on the Narmada River.\n3. It was led by Medha Patkar and Baba Amte.\n4. The movement focused on the displacement of people and environmental destruction caused by the dams.\n5. It raised important issues about development and displacement.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "qna",
+      "title": "Short Note: Farmers' Movement in Maharashtra",
+      "question": "Write a short note on: Farmers' Movement in Maharashtra",
+      "qnaAnswer": "\n1. The farmers' movement in Maharashtra is a social and political movement.\n2. It was led by Sharad Joshi.\n3. It focused on issues like crop prices, debt relief, and land rights.\n4. It was part of the larger farmers' movement in India.\n5. It has played an important role in shaping agricultural policies in Maharashtra.",
+      "important": true
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "Short Note: Women's Movement in India",
+      "question": "Write a short note on: Women's Movement in India",
+      "qnaAnswer": "\n1. The women's movement in India is a social movement aimed at achieving gender equality.\n2. It began in the 19th century with social reformers like Pandita Ramabai and Savitribai Phule.\n3. It focused on issues like education, employment, and political representation.\n4. It has been active in various forms, including the anti-dowry movement and the anti-rape movement.\n5. It has played an important role in shaping women's policies in India.",
+      "important": true
+    },
+    {
+      "id": "n22",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Characteristics of Social Movements",
+      "question": "Explain the characteristics of social movements.",
+      "qnaAnswer": "\n1. Collective action: Social movements involve a group of people working together.\n2. Organized: They have some form of organization and leadership.\n3. Sustained: They are sustained over a period of time.\n4. Aim for social change: They aim to bring about social change.\n5. Use of various tactics: They use various tactics like protests, strikes, and campaigns.\n6. Ideology: They are based on a specific ideology or set of beliefs."
+    },
+    {
+      "id": "n24",
+      "type": "qna",
+      "title": "Role of Social Movements in Democracy",
+      "question": "Explain the role of social movements in a democracy.",
+      "qnaAnswer": "\n1. Social movements provide a voice to marginalized groups.\n2. They raise important social and political issues.\n3. They hold the government accountable.\n4. They bring about social change.\n5. They promote democratic participation.\n6. They contribute to the development of civil society."
+    },
+    {
+      "id": "n25",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n26",
+      "type": "qna",
+      "title": "[IMPORTANT] Chipko Movement",
+      "question": "Explain the Chipko movement.",
+      "qnaAnswer": "\n1. The Chipko movement was a forest conservation movement in India.\n2. It began in the 1970s in the Garhwal Himalayas.\n3. It was led by Sunderlal Bahuguna and Chandi Prasad Bhatt.\n4. Villagers, especially women, hugged trees to prevent them from being cut down.\n5. The movement was successful in preventing deforestation and promoting afforestation.\n6. It raised awareness about environmental conservation.",
+      "important": true
+    },
+    {
+      "id": "n27",
+      "type": "qna",
+      "title": "[IMPORTANT] Narmada Bachao Andolan",
+      "question": "Explain the Narmada Bachao Andolan.",
+      "qnaAnswer": "\n1. The Narmada Bachao Andolan (NBA) is a social movement in India.\n2. It was started in 1985 to protest against the construction of large dams on the Narmada River.\n3. It was led by Medha Patkar and Baba Amte.\n4. The movement focused on the displacement of people and environmental destruction caused by the dams.\n5. It raised important issues about development and displacement.",
+      "important": true
+    },
+    {
+      "id": "fig-12-national_parties",
+      "type": "figure",
+      "title": "Major National Political Parties in India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TWFqb3IgTmF0aW9uYWwgUG9saXRpY2FsIFBhcnRpZXMgaW4gSW5kaWE8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjAzLjMiIHkyPSIxNDAuOCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjY1My41IiB5Mj0iMjU1LjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI1MTIuOCIgeTI9IjM0Ni42IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMjg3LjIiIHkyPSIzNDYuNiIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE0Ni41IiB5Mj0iMjU1LjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxOTYuNyIgeTI9IjE0MC44IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNTcuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iNzkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5JbmRpYW4gTmF0aW9uYWwgQ29uZ3Jlc3MgKDE4ODUpPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSI5NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNlY3VsYXJpc20sIGFsbC1yb3VuZCBkZXZlbG9wbWVudCw8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwOS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPiYgd2VsZmFyZSBvZiBtaW5vcml0aWVzPC90ZXh0PjxyZWN0IHg9IjUxMy4zIiB5PSIxMDcuOCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MDMuMyIgeT0iMTI5LjgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QmhhcmF0aXlhIEphbmF0YSBQYXJ0eSAoMTk4MCk8L3RleHQ+PHRleHQgeD0iNjAzLjMiIHk9IjE0NC44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFuY2llbnQgSW5kaWFuIGN1bHR1cmUsIEhpbmR1dHZhPC90ZXh0Pjx0ZXh0IHg9IjYwMy4zIiB5PSIxNTkuOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4mIG5hdGlvbmFsIGludGVncmF0aW9uPC90ZXh0PjxyZWN0IHg9IjU2My41IiB5PSIyMjIuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2NTMuNSIgeT0iMjQ0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Q29tbXVuaXN0IFBhcnR5IG9mIEluZGlhICgxOTI1KTwvdGV4dD48dGV4dCB4PSI2NTMuNSIgeT0iMjU5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+V29ya2luZyBjbGFzcywgZmFybWVycyAmPC90ZXh0Pjx0ZXh0IHg9IjY1My41IiB5PSIyNzQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5NYXJ4aXN0IGlkZW9sb2d5PC90ZXh0PjxyZWN0IHg9IjQyMi44IiB5PSIzMTMuNiIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI1MTIuOCIgeT0iMzM1LjYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Q29tbXVuaXN0IFBhcnR5IG9mIEluZGlhIChNYXJ4aXN0KSAoMTk2NCk8L3RleHQ+PHRleHQgeD0iNTEyLjgiIHk9IjM1MC42IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNvY2lhbGlzbSwgYW50aS1pbXBlcmlhbGlzbSAmPC90ZXh0Pjx0ZXh0IHg9IjUxMi44IiB5PSIzNjUuNiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj53b3JrZXJzJyByaWdodHM8L3RleHQ+PHJlY3QgeD0iMTk3LjIiIHk9IjMxMy42IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjI4Ny4yIiB5PSIzMzUuNiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5CYWh1amFuIFNhbWFqIFBhcnR5ICgxOTg0KTwvdGV4dD48dGV4dCB4PSIyODcuMiIgeT0iMzUwLjYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RW1wb3dlcm1lbnQgb2YgRGFsaXRzLCBBZGl2YXNpczwvdGV4dD48dGV4dCB4PSIyODcuMiIgeT0iMzY1LjYiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+JiBiYWNrd2FyZCBjb21tdW5pdGllczwvdGV4dD48cmVjdCB4PSI1Ni41IiB5PSIyMzAuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNDYuNSIgeT0iMjUxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TmF0aW9uYWxpc3QgQ29uZ3Jlc3MgUGFydHkgKDE5OTkpPC90ZXh0Pjx0ZXh0IHg9IjE0Ni41IiB5PSIyNjYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5EZW1vY3JhY3ksIGVxdWFsaXR5ICYgc2VjdWxhcmlzbTwvdGV4dD48cmVjdCB4PSIxMDYuNyIgeT0iMTE1LjgiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTk2LjciIHk9IjEzNy4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFsbCBJbmRpYSBUcmluYW1vb2wgQ29uZ3Jlc3MgKDE5OTgpPC90ZXh0Pjx0ZXh0IHg9IjE5Ni43IiB5PSIxNTIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TZWN1bGFyaXNtICYgZmVkZXJhbGlzbTwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TmF0aW9uYWw8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5QYXJ0aWVzPC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of recognized national political parties in India",
+      "figureCaption": "Leading national parties fulfilling Election Commission criteria across multiple states"
+    },
+    {
+      "id": "fig-12-regional_parties",
+      "type": "figure",
+      "title": "Prominent Regional Parties Across Indian States",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+UHJvbWluZW50IFJlZ2lvbmFsIFBhcnRpZXMgaW4gSW5kaWE8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjQ3LjMiIHkyPSIxODMuMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjU1Mi44IiB5Mj0iMzM0LjIiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIyNDcuMiIgeTI9IjMzNC4yIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTUyLjciIHkyPSIxODMuMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz4KPHJlY3QgeD0iMzEwLjAiIHk9IjU3LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijc5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U2hpdiBTZW5hICgxOTY2KTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iOTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5NYWhhcmFzaHRyYTsgcHJpZGUgb2YgTWFyYXRoaSBNYW5vb3M8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwOS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPiYgSGluZHV0dmEgaWRlb2xvZ3k8L3RleHQ+PHJlY3QgeD0iNTU3LjMiIHk9IjE1MC4zIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY0Ny4zIiB5PSIxNzIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TaGlyb21hbmkgQWthbGkgRGFsICgxOTIwKTwvdGV4dD48dGV4dCB4PSI2NDcuMyIgeT0iMTg3LjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UHVuamFiOyByZWdpb25hbCBpZGVudGl0eTwvdGV4dD48dGV4dCB4PSI2NDcuMyIgeT0iMjAyLjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+JiBmYXJtZXJzJyB3ZWxmYXJlPC90ZXh0PjxyZWN0IHg9IjQ2Mi44IiB5PSIzMDEuMiIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI1NTIuOCIgeT0iMzIzLjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TmF0aW9uYWwgQ29uZmVyZW5jZSAoMTkzMik8L3RleHQ+PHRleHQgeD0iNTUyLjgiIHk9IjMzOC4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkphbW11ICYgS2FzaG1pcjsgcmVnaW9uYWwgYXV0b25vbXk8L3RleHQ+PHRleHQgeD0iNTUyLjgiIHk9IjM1My4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPiYgc3RhdGVob29kPC90ZXh0PjxyZWN0IHg9IjE1Ny4yIiB5PSIzMDEuMiIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyNDcuMiIgeT0iMzIzLjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QXNzYW0gR2FuYSBQYXJpc2hhZCAoMTk4NSk8L3RleHQ+PHRleHQgeD0iMjQ3LjIiIHk9IjMzOC4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFzc2FtOyBpbmRpZ2Vub3VzIEFzc2FtZXNlIHJpZ2h0czwvdGV4dD48dGV4dCB4PSIyNDcuMiIgeT0iMzUzLjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+JiBzb2x2aW5nIGluZmlsdHJhdGlvbiBpc3N1ZTwvdGV4dD48cmVjdCB4PSI2Mi43IiB5PSIxNTAuMyIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNTIuNyIgeT0iMTcyLjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RHJhdmlkYSBNdW5uZXRyYSBLYXpoYWdhbSAoRE1LKSAoMTk0OSk8L3RleHQ+PHRleHQgeD0iMTUyLjciIHk9IjE4Ny4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlRhbWlsIE5hZHU7IERyYXZpZGlhbiBpZGVudGl0eTwvdGV4dD48dGV4dCB4PSIxNTIuNyIgeT0iMjAyLjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+JiBzb2NpYWwganVzdGljZTwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+UmVnaW9uYWw8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5QYXJ0aWVzPC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of prominent regional political parties in India",
+      "figureCaption": "State-based regional parties advocating regional pride, development, and cultural autonomy"
+    },
+    {
+      "id": "fig-12-party_timeline",
+      "type": "figure",
+      "title": "Timeline of Establishment of Major Political Parties in India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMjQwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjI0MCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iMjQwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIxOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VGltZWxpbmUgb2YgTWFqb3IgUG9saXRpY2FsIFBhcnRpZXMgaW4gSW5kaWE8L3RleHQ+CjxsaW5lIHgxPSI0MCIgeTE9IjEwNSIgeDI9Ijc2MCIgeTI9IjEwNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjIuNSIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iMTE2LjciIHkxPSIxMDUiIHgyPSIxMTYuNyIgeTI9IjU1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjExNi43IiB5MT0iMTA1IiB4Mj0iMTE2LjciIHkyPSIxNDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iMjMwLjAiIHkxPSIxMDUiIHgyPSIyMzAuMCIgeTI9IjU1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjIzMC4wIiB5MT0iMTA1IiB4Mj0iMjMwLjAiIHkyPSIxNDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iMzQzLjMiIHkxPSIxMDUiIHgyPSIzNDMuMyIgeTI9IjU1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjM0My4zIiB5MT0iMTA1IiB4Mj0iMzQzLjMiIHkyPSIxNDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNDU2LjciIHkxPSIxMDUiIHgyPSI0NTYuNyIgeTI9IjU1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjQ1Ni43IiB5MT0iMTA1IiB4Mj0iNDU2LjciIHkyPSIxNDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNTcwLjAiIHkxPSIxMDUiIHgyPSI1NzAuMCIgeTI9IjU1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjU3MC4wIiB5MT0iMTA1IiB4Mj0iNTcwLjAiIHkyPSIxNDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNjgzLjMiIHkxPSIxMDUiIHgyPSI2ODMuMyIgeTI9IjU1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PGxpbmUgeDE9IjY4My4zIiB5MT0iMTA1IiB4Mj0iNjgzLjMiIHkyPSIxNDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz4KPHJlY3QgeD0iNjguNyIgeT0iMjIiIHdpZHRoPSI5NiIgaGVpZ2h0PSIzNCIgcng9IjgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxMTYuNyIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPjE4ODU8L3RleHQ+PHJlY3QgeD0iNjUuMCIgeT0iMTQ1IiB3aWR0aD0iMTAzLjMiIGhlaWdodD0iNDgiIHJ4PSI4IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTE2LjciIHk9IjE2MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5JbmRpYW4gTmF0aW9uYWw8L3RleHQ+PHRleHQgeD0iMTE2LjciIHk9IjE3OCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Db25ncmVzcyAoSU5DKTwvdGV4dD48cmVjdCB4PSIxODIuMCIgeT0iMjIiIHdpZHRoPSI5NiIgaGVpZ2h0PSIzNCIgcng9IjgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyMzAuMCIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPjE5MjA8L3RleHQ+PHJlY3QgeD0iMTc4LjMiIHk9IjE0NSIgd2lkdGg9IjEwMy4zIiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjIzMC4wIiB5PSIxNjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U2hpcm9tYW5pPC90ZXh0Pjx0ZXh0IHg9IjIzMC4wIiB5PSIxNzgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QWthbGkgRGFsPC90ZXh0PjxyZWN0IHg9IjI5NS4zIiB5PSIyMiIgd2lkdGg9Ijk2IiBoZWlnaHQ9IjM0IiByeD0iOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjM0My4zIiB5PSI0NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+MTkyNTwvdGV4dD48cmVjdCB4PSIyOTEuNyIgeT0iMTQ1IiB3aWR0aD0iMTAzLjMiIGhlaWdodD0iNDgiIHJ4PSI4IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMzQzLjMiIHk9IjE2MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Db21tdW5pc3QgUGFydHk8L3RleHQ+PHRleHQgeD0iMzQzLjMiIHk9IjE3OCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5vZiBJbmRpYSAoQ1BJKTwvdGV4dD48cmVjdCB4PSI0MDguNyIgeT0iMjIiIHdpZHRoPSI5NiIgaGVpZ2h0PSIzNCIgcng9IjgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0NTYuNyIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPjE5ODA8L3RleHQ+PHJlY3QgeD0iNDA1LjAiIHk9IjE0NSIgd2lkdGg9IjEwMy4zIiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQ1Ni43IiB5PSIxNjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QmhhcmF0aXlhIEphbmF0YTwvdGV4dD48dGV4dCB4PSI0NTYuNyIgeT0iMTc4IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlBhcnR5IChCSlApPC90ZXh0PjxyZWN0IHg9IjUyMi4wIiB5PSIyMiIgd2lkdGg9Ijk2IiBoZWlnaHQ9IjM0IiByeD0iOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjU3MC4wIiB5PSI0NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+MTk4NDwvdGV4dD48cmVjdCB4PSI1MTguMyIgeT0iMTQ1IiB3aWR0aD0iMTAzLjMiIGhlaWdodD0iNDgiIHJ4PSI4IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNTcwLjAiIHk9IjE2MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5CYWh1amFuIFNhbWFqPC90ZXh0Pjx0ZXh0IHg9IjU3MC4wIiB5PSIxNzgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UGFydHkgKEJTUCk8L3RleHQ+PHJlY3QgeD0iNjM1LjMiIHk9IjIyIiB3aWR0aD0iOTYiIGhlaWdodD0iMzQiIHJ4PSI4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjgzLjMiIHk9IjQ0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj4xOTk5PC90ZXh0PjxyZWN0IHg9IjYzMS43IiB5PSIxNDUiIHdpZHRoPSIxMDMuMyIgaGVpZ2h0PSI0OCIgcng9IjgiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2ODMuMyIgeT0iMTYzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk5hdGlvbmFsaXN0IENvbmdyZXNzPC90ZXh0Pjx0ZXh0IHg9IjY4My4zIiB5PSIxNzgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UGFydHkgKE5DUCk8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Timeline showing establishment dates of key Indian political parties",
+      "figureCaption": "Historical milestones in the emergence of Indian national and regional political parties"
+    },
+    {
+      "id": "answers-12-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-12-1",
+          "entries": [
+            {
+              "id": "a-12-1-1",
+              "question": "(1) When people come together and participate in the electoral process to acquire political power, such organisations are called ______.\n(a) Government\n(b) Society\n(c) Political Parties\n(d) Social Organisations",
+              "answer": "Political Parties. (Organized groups sharing a common ideology seeking power through democratic elections.)"
+            },
+            {
+              "id": "a-12-1-2",
+              "question": "(2) National Conference is a prominent regional party in ______ state.\n(a) Odisha\n(b) Assam\n(c) Bihar\n(d) Jammu and Kashmir",
+              "answer": "Jammu and Kashmir. (Founded by Sheikh Abdullah in 1932 to advocate regional self-rule.)"
+            },
+            {
+              "id": "a-12-1-3",
+              "question": "(3) Justice Party — a non-Brahmin movement was transformed into a Political Party called ______.\n(a) Assam Gana Parishad\n(b) Shiv Sena\n(c) Dravida Munnetra Kazhagam (DMK)\n(d) National Conference",
+              "answer": "Dravida Munnetra Kazhagam. (Periyar E. V. Ramasamy led the Self-Respect movement, which transformed into Dravidar Kazhagam and later DMK under C. N. Annadurai.)",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-12-1-4",
+              "question": "(4) ______ act as an indispensable link between the government and the people.\n(a) Ministers\n(b) Members of Parliament\n(c) Political parties\n(d) Courts",
+              "answer": "Political parties. (They convey citizens' demands to the administration and explain state policies to the public.)"
+            },
+            {
+              "id": "a-12-1-5",
+              "question": "(5) Shiromani Akali Dal is a prominent regional party in ______ state.\n(a) Odisha\n(b) Assam\n(c) Punjab\n(d) Haryana",
+              "answer": "Punjab. (Formed in 1920 to cultivate Sikh and regional Punjabi identity.)",
+              "questionTag": "July '19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-12-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : State Whether the Following Statements are True or False, Giving Reasons",
+      "answerGroups": [
+        {
+          "id": "g-12-2",
+          "entries": [
+            {
+              "id": "a-12-2-1",
+              "question": "(1) Political parties are social organisations.",
+              "answer": "The statement is True.\nReasons:\n(1) Political parties are formed voluntarily by citizens who share common ideologies and social perspectives.\n(2) They mobilize public opinion on social grievances, poverty, unemployment, and community welfare.\n(3) By fielding representatives, they seek to implement solutions for social betterment through the state machinery.\nTherefore, political parties function as integral social organizations in a democracy."
+            },
+            {
+              "id": "a-12-2-2",
+              "question": "(2) Shiromani Akali Dal is a national party.",
+              "answer": "The statement is False.\nReasons:\n(1) The Election Commission accords 'National Party' status only if a party secures at least 6% of valid votes in four or more states or wins 2% of Lok Sabha seats across three states.\n(2) Shiromani Akali Dal's electoral presence and influence is concentrated in the state of Punjab.\n(3) Hence, the Election Commission recognizes Shiromani Akali Dal as a regional party.",
+              "questionTag": "July '19 - '23; Nov. '20"
+            },
+            {
+              "id": "a-12-2-3",
+              "question": "(3) Coalition politics leads to instability in government.",
+              "answer": "The statement is False.\nReasons:\n(1) Since 1989, when no single party won a clear majority in the Lok Sabha, coalition governments have successfully governed at the Centre and in states.\n(2) Both the NDA (led by BJP) and the UPA (led by Congress) governed stably for full five-year terms.\n(3) Coalition politics promotes consensus-building, accommodates regional aspirations, and dispels the myth that multi-party coalitions are inherently fragile.",
+              "questionTag": "July '22; March '24 - '25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-12-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Explain the Concepts / Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-12-3",
+          "entries": [
+            {
+              "id": "a-12-3-1",
+              "question": "(1) Regionalism:",
+              "answer": "(1) India possesses extraordinary linguistic, geographic, and cultural diversity, inspiring deep local pride.\n(2) When cultural pride turns into an excessive sentiment prioritizing one's own region above national welfare, it becomes 'Regionalism'.\n(3) Regionalism demands exclusive control over natural resources, employment for 'sons of the soil', and state autonomy.\n(4) While healthy regional pride enriches cultural diversity, extreme regionalism poses threats to national integration.",
+              "questionTag": "March '19 - '20"
+            },
+            {
+              "id": "a-12-3-2",
+              "question": "(2) National Party Criteria:",
+              "answer": "(1) Vote Share Criterion: Must secure at least 6% of valid votes in four or more states in the Lok Sabha or Assembly elections, and win at least four Lok Sabha seats. OR\n(2) Seat Share Criterion: Must win at least 2% of the total seats in the Lok Sabha (11 seats) elected from a minimum of three distinct states.\n(3) Recognized Examples: Indian National Congress, BJP, CPI, CPI(M), BSP, NCP, and AITC.",
+              "questionTag": "March '23 - '25; July '23"
+            },
+            {
+              "id": "a-12-3-3",
+              "question": "(3) Multi-Party System:",
+              "answer": "(1) When three or more influential political parties compete actively for political power, the framework is called a multi-party system.\n(2) India adopted a multi-party system to accommodate its immense religious, linguistic, and socio-economic diversity.\n(3) It ensures diverse regional voices, caste interests, and minority viewpoints find democratic representation in Parliament.",
+              "questionTag": "March '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-12-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Do as Directed (Timelines & Concept Maps)",
+      "answerGroups": [
+        {
+          "id": "g-12-4",
+          "entries": [
+            {
+              "id": "a-12-4-1",
+              "question": "Complete the Timeline of major Political Parties in India with year of establishment:",
+              "answer": "• 1885: Indian National Congress (INC)\n• 1920: Shiromani Akali Dal\n• 1925: Communist Party of India (CPI)\n• 1980: Bharatiya Janata Party (BJP)\n• 1984: Bahujan Samaj Party (BSP)\n• 1999: Nationalist Congress Party (NCP)",
+              "questionTag": "March '19 - '20"
+            },
+            {
+              "id": "a-12-4-2",
+              "question": "Complete the concept map: Regional Parties in India and their states.",
+              "answer": "• Maharashtra: Shiv Sena, Maharashtra Navnirman Sena (MNS)\n• Punjab: Shiromani Akali Dal\n• Jammu & Kashmir: Jammu & Kashmir National Conference, PDP\n• Assam: Assam Gana Parishad\n• Tamil Nadu: Dravida Munnetra Kazhagam (DMK), AIADMK",
+              "questionTag": "July '19 - '22 - '23; Nov. '20; March '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-12-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Answer the Following in Brief",
+      "answerGroups": [
+        {
+          "id": "g-12-5",
+          "entries": [
+            {
+              "id": "a-12-5-1",
+              "question": "(1) What are the major characteristics and functions of political parties?",
+              "answer": "(1) Capturing Political Power: Unlike social welfare clubs, the primary aim of a political party is to achieve political power through democratic electoral competition.\n(2) Common Ideology: Members coalesce around a shared set of socio-political ideas, policies, and vision for governance.\n(3) Formulating Agendas: Parties draft election manifestos presenting concrete solutions for economic growth, health, defense, and education.\n(4) Forming Government or Opposition: The majority party forms the government to implement laws, while minority parties act as the vigilant Opposition to check authoritarian excess.\n(5) Communicative Bridge: They channel citizens' grievances to the legislature and communicate government policies to the public.",
+              "questionTag": "Sept. '21"
+            },
+            {
+              "id": "a-12-5-2",
+              "question": "(2) Explain the changing nature of the political party system in India.",
+              "answer": "(1) One-Party Dominance (1947–1977): The Indian National Congress dominated the political landscape at the Centre and in almost all states.\n(2) Challenge to Dominance (1977): Non-Congress opposition parties united under the Janata Party, forming the first non-Congress central government.\n(3) Rise of Multi-Party Coalitions (1989–2014): No single party achieved an absolute majority, leading to durable multi-party coalitions (NDA and UPA) accommodating regional parties.\n(4) Post-2014 Era: A single dominant party (BJP) secured an absolute majority while retaining a broad coalition framework (NDA), showcasing dynamic democratic maturity.",
+              "questionTag": "Board Textual Reference"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What is a social movement?",
+      "back": "Collective action by a group of people to bring about social change",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "What was the Chipko movement about?",
+      "back": "Forest conservation",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "Who led the Narmada Bachao Andolan?",
+      "back": "Medha Patkar",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "Who led the farmers' movement in Maharashtra?",
+      "back": "Sharad Joshi",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "What was the main aim of the women's movement?",
+      "back": "Gender equality and women's rights",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "What is the role of social movements in democracy?",
+      "back": "Giving voice to marginalized groups, raising issues, and bringing social change",
+      "order": 6
+    },
+    {
+      "id": "fc-12-1",
+      "front": "When was the Indian National Congress (INC) founded?",
+      "back": "1885.",
+      "order": 1
+    },
+    {
+      "id": "fc-12-2",
+      "front": "When was the Bharatiya Janata Party (BJP) established?",
+      "back": "1980 (originating from Bharatiya Jana Sangh formed in 1951).",
+      "order": 2
+    },
+    {
+      "id": "fc-12-3",
+      "front": "Which regional party in Maharashtra was founded in 1966 for the pride of Marathi Manoos?",
+      "back": "Shiv Sena.",
+      "order": 3
+    },
+    {
+      "id": "fc-12-4",
+      "front": "What are the criteria to be recognized as a National Party in India?",
+      "back": "At least 6% valid votes in 4+ states and 4 Lok Sabha seats, OR at least 2% of Lok Sabha seats across 3 states.",
+      "order": 4
+    },
+    {
+      "id": "fc-12-5",
+      "front": "In which state does Shiromani Akali Dal operate as a prominent regional party?",
+      "back": "Punjab.",
+      "order": 5
+    },
+    {
+      "id": "fc-12-6",
+      "front": "Which party originated from the non-Brahmin Justice Party movement in Tamil Nadu?",
+      "back": "Dravida Munnetra Kazhagam (DMK).",
+      "order": 6
+    },
+    {
+      "id": "fc-12-7",
+      "front": "Who founded the Bahujan Samaj Party (BSP) in 1984?",
+      "back": "Kanshi Ram (championing the cause of Bahujan Samaj / Dalits).",
+      "order": 7
+    },
+    {
+      "id": "fc-12-8",
+      "front": "Which regional party was formed in Assam in 1985 after the student movement against foreign infiltration?",
+      "back": "Assam Gana Parishad.",
+      "order": 8
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "A social movement is a ______.",
+      "options": [
+        "Collective action",
+        "Individual action",
+        "Government action",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Social movements involve collective action.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "The Chipko movement was related to ______.",
+      "options": [
+        "Forest conservation",
+        "Women's rights",
+        "Farmers' rights",
+        "Tribal rights"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Chipko movement was about forest conservation.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "The Narmada Bachao Andolan was led by ______.",
+      "options": [
+        "Medha Patkar",
+        "Sunderlal Bahuguna",
+        "Baba Amte",
+        "Anna Hazare"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Medha Patkar led the Narmada Bachao Andolan.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The farmers' movement in Maharashtra was related to ______.",
+      "options": [
+        "Land rights",
+        "Crop prices",
+        "Water rights",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The farmers' movement addressed all these issues.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The women's movement in India fought for ______.",
+      "options": [
+        "Equal rights",
+        "Right to vote",
+        "Right to education",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The women's movement fought for all these rights.",
+      "order": 5
+    },
+    {
+      "id": "quiz-12-1",
+      "qType": "mcq",
+      "question": "Which of the following regional parties belongs to the state of Punjab?",
+      "options": [
+        "National Conference",
+        "Assam Gana Parishad",
+        "Shiromani Akali Dal",
+        "Shiv Sena"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Shiromani Akali Dal was founded in Punjab in 1920.",
+      "order": 1
+    },
+    {
+      "id": "quiz-12-2",
+      "qType": "mcq",
+      "question": "The Justice Party — an anti-caste movement in Tamil Nadu — evolved into which political party?",
+      "options": [
+        "DMK",
+        "Shiv Sena",
+        "Akali Dal",
+        "Telugu Desam Party"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Justice Party transformed into Dravidar Kazhagam and subsequently DMK.",
+      "order": 2
+    },
+    {
+      "id": "quiz-12-3",
+      "qType": "true_false",
+      "question": "Coalition governments in India inevitably lead to governmental instability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Coalition governments (NDA and UPA) have ruled stably for full terms in India.",
+      "order": 3
+    },
+    {
+      "id": "quiz-12-4",
+      "qType": "fill_blank",
+      "question": "The Bharatiya Janata Party (BJP) was formally established in the year ____.",
+      "options": [
+        "1977",
+        "1980",
+        "1984",
+        "1951"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The BJP was established on 6 April 1980.",
+      "order": 4
+    },
+    {
+      "id": "quiz-12-5",
+      "qType": "mcq",
+      "question": "National Conference is a major regional party operating in which state / UT?",
+      "options": [
+        "Assam",
+        "Punjab",
+        "Jammu and Kashmir",
+        "Himachal Pradesh"
+      ],
+      "correctAnswer": 2,
+      "explanation": "National Conference is a regional party in Jammu and Kashmir.",
+      "order": 5
+    },
+    {
+      "id": "quiz-12-6",
+      "qType": "mcq",
+      "question": "Which political organization acts as the primary link between the government and common citizens?",
+      "options": [
+        "Courts",
+        "Bureaucracy",
+        "Political Parties",
+        "Armed Forces"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Political parties communicate public demands to the administration.",
+      "order": 6
+    }
+  ],
+  "part": 3,
+  "section": "Political Science"
+}

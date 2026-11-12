@@ -1,0 +1,85 @@
+{
+  "id": "eng-ch2",
+  "num": 2,
+  "title": "Language Study",
+  "emoji": "📝",
+  "notes": [
+    {
+      "id": "eng2-n1",
+      "title": "Q.1 (A) A1. Simple Activities (Any 4, 1 mark each)",
+      "content": "Topics include: Compound words, Pick out Infinitives/Gerund/Present Participles, Punctuate the sentence, Find hidden words, Make sentences from given phrase, Spot the error and rewrite, Identify the type of sentence, Word chain of nouns/verbs/adjectives, Form present/past participle where last letter is doubled, Arrange words in Alphabetical order.",
+      "important": false
+    },
+    {
+      "id": "eng2-n2",
+      "title": "Example: Pick out the infinitive from the following sentence: He was asking to go for the concert.",
+      "content": "to go",
+      "important": true
+    },
+    {
+      "id": "eng2-n3",
+      "title": "Example: Identify the type of the sentence: Get out and wait in the yard.",
+      "content": "Imperative sentence",
+      "important": true
+    },
+    {
+      "id": "eng2-n4",
+      "title": "Q.1 (A) A2. Medium Level Activities (Any 2, 2 marks each)",
+      "content": "Topics include: Homographs, Homophones, Direct-Indirect narration, Conversion of tenses, Change the voice, Word register.",
+      "important": false
+    },
+    {
+      "id": "eng2-n5",
+      "title": "Example: The king said to the hermit, \"Who are the people I most need?\" (Rewrite the sentence in indirect speech.)",
+      "content": "The king asked the hermit who were the people he most needed.",
+      "important": true
+    },
+    {
+      "id": "eng2-n6",
+      "title": "Q.1 (B) Challenging Activities (Any 1, 2 marks)",
+      "content": "Topics include: Usage of words in noun and verb form, Clause Analysis/Synthesis/Transformation, Degree of Comparison, Modal Auxiliaries, Use of two words in one meaningful sentence.",
+      "important": false
+    },
+    {
+      "id": "eng2-n7",
+      "title": "Example: Make two different sentences to bring out the difference between homophones : wear, ware",
+      "content": "(a) I like to wear bright clothes. (b) The cooking ware we bought for the new house was expensive.",
+      "important": true
+    },
+    {
+      "id": "eng2-n8",
+      "title": "Example: Identify the subordinate clause and state its type : When the train had gone, I found myself standing alone on the deserted platform.",
+      "content": "When the train had gone - Subordinate adverb clause of time.",
+      "important": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "eng2-f1",
+      "front": "We must keep our promises. (Pick out the modal auxiliary and state its function)",
+      "back": "must - compulsion",
+      "order": 1
+    },
+    {
+      "id": "eng2-f2",
+      "front": "What is an infinitive?",
+      "back": "The base form of a verb preceded by 'to' (e.g., to go, to sleep).",
+      "order": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "eng2-q1",
+      "question": "Identify the type of sentence: 'Please close the door.'",
+      "options": [
+        "Declarative",
+        "Interrogative",
+        "Imperative",
+        "Exclamatory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An imperative sentence gives a command or makes a request.",
+      "order": 1
+    }
+  ]
+}

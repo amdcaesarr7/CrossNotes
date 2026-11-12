@@ -1,0 +1,49 @@
+{
+  "id": "eng-ch1",
+  "num": 1,
+  "title": "Exam Pattern & Study Tips",
+  "emoji": "🎯",
+  "notes": [
+    {
+      "id": "eng1-n1",
+      "title": "Format of the Activity Sheet",
+      "content": "**Total Marks:** 80 | **Total Time:** 180 min\n\n1. **(A) Language Study** (08 Marks, 10 min) \n   **(B) Language Study** (02 Marks, 05 min)\n2. **(A) Comprehension of Textual Passage** (10 Marks, 15 min) \n   **(B) Comprehension of Textual Passage** (10 Marks, 15 min)\n3. **(A) Comprehension of Poem/Extract** (05 Marks, 10 min) \n   **(B) Appreciation of Poem** (05 Marks, 10 min)\n4. **(A) Non-textual Passage for Comprehension** (10 Marks, 20 min) \n   **(B) Summary of Passage for Comprehension** (05 Marks, 10 min)\n5. **Letter Writing (Formal OR Informal)** (05 Marks, 15 min)\n6. **(A) Information Transfer: Verbal to Non-verbal OR Non-verbal to Verbal** (05 Marks, 15 min) \n   **(B) Views/Counterview OR Drafting a Speech** (05 Marks, 15 min)\n7. **(A) Expand the theme: Expansion of Proverbs/Maxims/Quotations/Slogans OR News Report based on the given headline** (05 Marks, 15 min) \n   **(B) Developing a Story OR Narrating an experience with a given beginning/ending** (05 Marks, 15 min)\n   **Review of solved Activity Sheet** (10 min)",
+      "important": true
+    },
+    {
+      "id": "eng1-n2",
+      "title": "General Instructions & Study Tips",
+      "content": "*   **General:** Read each poem/lesson as many times as you can. Study all activities in the textbook. The wording may differ, but the content will be based on the textbook.\n*   **Comprehension:** Be familiar with every lesson (Prose and Poetry). Solve ALL side panel activities and 'English Workshop' questions.\n*   **Vocabulary:** Solve all vocabulary exercises. Learn meanings of words and phrases from every lesson. Practise forming nouns, verbs, adjectives, adverbs. Learn antonyms, prefixes, and suffixes.\n*   **Grammar:** Brush up on grammar. Learn Transformation of Sentences (use 'no sooner... than', add question tag, frame wh- questions, remove 'too', use 'unless', remove 'not'). Learn different tenses, prepositions, adverbs, articles. Grammar and Vocabulary carry 22 marks total—aim for full marks.\n*   **Poetry:** Mark out figures of speech and rhyme schemes while revising. Repeatedly read the appreciation of all poems beforehand.\n*   **Summary:** Understand what to include and exclude. Read the instructions in Question Set 5.\n*   **Writing Skills:** Read as many topics as you can in addition to the textbook. Keep your general knowledge and knowledge of current topics good.",
+      "important": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "eng1-f1",
+      "front": "What is the total mark and time for the English (HL) Activity Sheet?",
+      "back": "80 Marks, 180 Minutes.",
+      "order": 1
+    },
+    {
+      "id": "eng1-f2",
+      "front": "How many marks are dedicated to Grammar and Vocabulary?",
+      "back": "22 marks.",
+      "order": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "eng1-q1",
+      "question": "What is the total time allotted for the English (HL) Activity Sheet?",
+      "options": [
+        "120 minutes",
+        "150 minutes",
+        "180 minutes",
+        "200 minutes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The total time given is 180 minutes (3 hours).",
+      "order": 1
+    }
+  ]
+}

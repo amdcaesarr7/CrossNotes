@@ -1,0 +1,285 @@
+{
+  "id": "ch2",
+  "num": 2,
+  "title": "Periodic Classification of Elements",
+  "emoji": "🧪",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers the historical development of the periodic table, including Dobereiner's Triads, Newlands' Law of Octaves, and Mendeleev's and Modern Periodic Laws. It also explains the structure of the modern periodic table, its blocks, and periodic trends.",
+    "youWillLearn": [
+      "State Dobereiner's law of triads and Newlands' law of octaves.",
+      "Understand Mendeleev's periodic law and its merits and demerits.",
+      "State the modern periodic law and explain the structure of the modern periodic table.",
+      "Define periods and groups.",
+      "Explain periodic trends in atomic size and metallic/non-metallic character."
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "paragraph",
+      "title": "Dobereiner's Triads",
+      "content": "Dobereiner grouped elements with similar properties into sets of three (triads) such that the atomic mass of the middle element was approximately the average of the other two. Example: Li, Na, K — atomic mass of Na ≈ (6.9 + 39.1)/2 = 23.",
+      "important": true
+    },
+    {
+      "id": "n2",
+      "type": "paragraph",
+      "title": "Newlands' Law of Octaves",
+      "content": "When elements are arranged in order of increasing atomic mass, every eighth element has properties similar to those of the first. Example: Na is the eighth element from Li. Limitation: it worked only up to calcium and failed for heavier elements.",
+      "important": true
+    },
+    {
+      "id": "n3",
+      "type": "paragraph",
+      "title": "Mendeleev's Periodic Law",
+      "content": "The physical and chemical properties of elements are a periodic function of their atomic masses.",
+      "important": true
+    },
+    {
+      "id": "n4",
+      "type": "paragraph",
+      "title": "Modern Periodic Law",
+      "content": "The physical and chemical properties of elements are a periodic function of their atomic numbers. This solved the problem of isotope placement that troubled Mendeleev's table.",
+      "important": true
+    },
+    {
+      "id": "n5",
+      "type": "paragraph",
+      "title": "Period and Group",
+      "content": "A period is the horizontal row of elements in the periodic table. A group is the vertical column of elements. Elements in the same group have the same number of valence electrons and similar chemical properties.",
+      "important": true
+    },
+    {
+      "id": "n6",
+      "type": "paragraph",
+      "title": "Why zero group elements are called noble gases",
+      "content": "In inert gas atoms, all electron shells including the outermost are completely filled, giving a stable configuration. These elements don't take part in chemical reactions, so they are called noble/inert gases.",
+      "important": true
+    },
+    {
+      "id": "n7",
+      "type": "qna",
+      "title": "Dobereiner's law of triads",
+      "question": "State Dobereiner's law of triads.",
+      "qnaAnswer": "Dobereiner grouped elements with similar properties into sets of three (triads) such that the atomic mass of the middle element was approximately the average of the other two."
+    },
+    {
+      "id": "n8",
+      "type": "qna",
+      "title": "Newlands' law of octaves",
+      "question": "State Newlands' law of octaves.",
+      "qnaAnswer": "Newlands' law of octaves states that when the elements are arranged in the order of their increasing atomic masses, every eighth element has properties similar to those of the first."
+    },
+    {
+      "id": "n9",
+      "type": "qna",
+      "title": "Mendeleev's periodic law",
+      "question": "State Mendeleev's periodic law.",
+      "qnaAnswer": "The physical and chemical properties of elements are a periodic function of their atomic masses."
+    },
+    {
+      "id": "n10",
+      "type": "qna",
+      "title": "Modern periodic law",
+      "question": "State the modern periodic law.",
+      "qnaAnswer": "The chemical and physical properties of elements are a periodic function of their atomic numbers."
+    },
+    {
+      "id": "n11",
+      "type": "list",
+      "title": "True or False Statements",
+      "ordered": false,
+      "items": [
+        "Newlands was the first to classify elements having similar chemical properties into groups of three. (False)",
+        "Newlands stated the law of triads. (False)",
+        "Dobereiner stated the law of octet. (False)",
+        "Dobereiner named the group of elements having similar properties triad. (True)",
+        "Eka-aluminium was later named as germanium. (False)",
+        "Mendeleev's periodic table is more useful because it gives information about known and unknown elements. (True)",
+        "Mendeleev arranged elements in the increasing order of their atomic masses. (True)",
+        "The d-block elements are called transition elements. (True)"
+      ]
+    },
+    {
+      "id": "n12",
+      "type": "list",
+      "title": "Find the Odd One Out",
+      "ordered": false,
+      "items": [
+        "Newlands, Moseley, Dobereiner, Mendeleev. (Moseley - brought out the importance of atomic number, while the others tried to classify the elements on the basis of atomic mass.)",
+        "Fluorine, Sulphur, Bromine, Iodine. (Sulphur - is a nonmetal. Others are halogens.)",
+        "Sodium, Aluminium, Chlorine, Carbon. (Carbon - belongs to the second row, while the others belong to the third row.)"
+      ]
+    },
+    {
+      "id": "n13",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Solid : Iodine : : ___ : Bromine",
+      "blanks": [
+        "Liquid"
+      ]
+    },
+    {
+      "id": "n14",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Dobereiner : Triad : : Newlands' law : ___",
+      "blanks": [
+        "Octaves"
+      ]
+    },
+    {
+      "id": "n15",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Mendeleev's periodic table : Atomic mass : Modern periodic table : ___",
+      "blanks": [
+        "Atomic number"
+      ]
+    },
+    {
+      "id": "n16",
+      "type": "fill_blank",
+      "title": "Complete the correlation",
+      "content": "Group-1 : Alkali metals : : ___ : Halogens",
+      "blanks": [
+        "Group-17"
+      ]
+    },
+    {
+      "id": "n17",
+      "type": "table",
+      "title": "Distinguish Between: Mendeleev's and Modern Periodic Table",
+      "headers": [
+        "Mendeleev's Periodic Table",
+        "Modern Periodic Table"
+      ],
+      "rows": [
+        [
+          "Elements are arranged in order of increasing atomic weights.",
+          "Elements are arranged in order of increasing atomic numbers."
+        ],
+        [
+          "Position of an element is based on its properties and atomic weight.",
+          "Position of an element is based on its electronic configuration."
+        ],
+        [
+          "There are 8 groups in this table.",
+          "There are 18 groups in this table."
+        ],
+        [
+          "Isotopes do not find separate places in this table.",
+          "Isotopes of an element can be placed at the same place as their atomic number is the same."
+        ]
+      ]
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Solved: Atomic mass of sodium in triad",
+      "question": "In Dobereiner's triad containing Li, Na, K, if the atomic masses of lithium and potassium are 6.9 and 39.1, then what is the atomic mass of sodium?",
+      "qnaAnswer": "The atomic mass of sodium is equal to the average of the atomic masses of Li and K:\n= (6.9 + 39.1)/2\n= 46/2\n= 23\n\nThe atomic mass of sodium is 23."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "State Dobereiner's Law of Triads with one example.",
+      "back": "The atomic mass of the middle element in a triad is roughly the average of the other two, e.g. Li, Na, K"
+    },
+    {
+      "id": "f2",
+      "front": "What is Newlands' Law of Octaves?",
+      "back": "Every eighth element (by increasing atomic mass) has properties similar to the first"
+    },
+    {
+      "id": "f3",
+      "front": "State the Modern Periodic Law.",
+      "back": "Physical and chemical properties of elements are a periodic function of their atomic numbers"
+    },
+    {
+      "id": "f4",
+      "front": "What is a 'period' in the periodic table?",
+      "back": "A horizontal row of elements"
+    },
+    {
+      "id": "f5",
+      "front": "Why are zero-group elements called noble gases?",
+      "back": "Their outermost electron shell is completely filled, making them stable and unreactive"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "Lithium (Li), ______, and potassium (K) form a Dobereiner triad.",
+      "options": [
+        "magnesium (Mg)",
+        "aluminium (Al)",
+        "sodium (Na)",
+        "calcium (Ca)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Na's atomic mass (23) is the average of Li (6.9) and K (39.1).",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "According to Mendeleev's periodic law, properties of elements are a periodic function of their:",
+      "options": [
+        "atomic numbers",
+        "atomic masses",
+        "densities",
+        "boiling points"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mendeleev's law was based on atomic mass.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "In which block of the modern periodic table are the nonmetals mainly found?",
+      "options": [
+        "s-block",
+        "p-block",
+        "d-block",
+        "f-block"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Most nonmetals are found in the p-block.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "Halogens belong to group ______ of the modern periodic table.",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Group 17 contains F, Cl, Br, I, At.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The number of electrons in the outermost shell of alkali metals is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alkali metals (Group 1) have a single valence electron.",
+      "order": 5
+    }
+  ]
+}

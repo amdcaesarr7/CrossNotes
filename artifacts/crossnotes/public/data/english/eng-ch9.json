@@ -1,0 +1,73 @@
+{
+  "id": "eng-ch9",
+  "num": 9,
+  "title": "Writing Skills: Expansion, Report, Story",
+  "emoji": "📰",
+  "notes": [
+    {
+      "id": "eng9-n1",
+      "title": "Expansion of Themes",
+      "content": "Elaborate on a proverb/maxim in 2-3 paragraphs (about 100 words). Give a suitable title.\n\n**Marking Scheme:**\nTitle and Beginning (1), Vocabulary and Grammar (1), Appropriate Points (1), Logical Order (1), Conclusion (1).",
+      "important": true
+    },
+    {
+      "id": "eng9-n2",
+      "title": "Example Expansion: Go Green : Breathe Clean",
+      "content": "'Going green' is a term used to describe a number of things. It means afforestation: that is, planting more trees to provide more oxygen for breathing. It means protecting and expanding the forests we have. It means trying to reduce air pollution in various ways, like car-pooling, controlling vehicular and industrial emissions, stopping burning of leaves and waste material, and limiting the use of nonrenewable resources. Going green can also mean adopting the three Rs- recycle, reuse and reduce. Recycling means putting something old to fresh use. Reuse means putting to use things that we would normally have thrown out. Reduce means to decrease our extravagant needs and try to live in a more frugal manner. Nature has already begun to give us human beings a warning- go green, or there will be serious climate changes that will affect the planet in a negative way. Thus, the only way out for us is to prevent climate change by going green- only then will we breathe clean.",
+      "important": true
+    },
+    {
+      "id": "eng9-n3",
+      "title": "News Report",
+      "content": "Write a report based on a given headline. Must include a headline, dateline, byline, introduction, and main body.\n\n**Marking Scheme:**\nTitle/Headline/Dateline (1), Logical sequence of events (2), Use of appropriate grammar and vocabulary (1), Conclusion and layout (1).",
+      "important": true
+    },
+    {
+      "id": "eng9-n4",
+      "title": "Example News Report: Book Lovers' Society organises a Book Fair",
+      "content": "**Book Lovers' Society organises a Book Fair**\n-By a News Reporter\nMarch 6, Jaipur : A mega book fair spanning over five days was organised by the Book Lovers' Society of Jaipur. The event took place at the Jaipur Gymkhana near Rani Bagh.\nThe book fair had books to please all sections of society, right from toddlers to senior citizens. There were about seven tents put up and the division of the books was primarily based on the language of the book. There were also special bookstalls set up by publishers. Most of the stalls displayed signs of some type of sale. It was heartening to see the crowds, showing that the reading of real books still held an important place in the lives of people.\n\"It's wonderful to be able to browse through so many books,\" gushed a young mother. \"I have managed to buy quite a number for my daughter as well as for myself. The discounts given are really good. I've travelled twenty kms to come here, and it was well worth it.\" Long live the habit of book reading!",
+      "important": true
+    },
+    {
+      "id": "eng9-n5",
+      "title": "Developing a Story / Narrating an Experience",
+      "content": "Complete the story or narrate your experience based on the given beginning or end. Give a suitable title.\n\n**Marking Scheme:**\nTitle and Beginning (1), Vocabulary and Grammar (1), Appropriate Points (1), Logical Order (1), Conclusion (1).",
+      "important": true
+    },
+    {
+      "id": "eng9-n6",
+      "title": "Example Story: Lost in the Forest",
+      "content": "It was Sunday. Anuj, along with his friends, was going trekking. As soon as they reached the beginning of the trail, they collected sticks from the local guide.\nThe five friends were going trekking into the nearby forest. They soon set off briskly with the guide. Anuj lagged behind looking curiously at the various plants and flowers. He was fond of plants and planned to become a botanist when he grew up.\nHe bent down to examine a pretty plant closely. What was it? After a few moments, when he straightened, he found that he was alone. Where had all the others disappeared? How had they just vanished? He called out to them loudly, but all the response he got was the swishing of leaves and some rustling in the undergrowth. His heart beat loudly. Were there snakes or other creepy crawlies around? He wished he had not fallen behind the others and ignored the warnings of the guide.\nHis continued to call loudly, waving his stick fiercely. \"Oh, where are all of you? I'm lost! I'm lost!\" Now there was panic in his voice.\nSuddenly the bushes moved aside and the face of the guide appeared. \"I told you to keep up with the others,\" he said sternly. \"You would have been lost in the jungle. Come along!\" Feeling tremendously relieved, Anuj joined the group waiting patiently for him. He would never be so foolish again!",
+      "important": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "eng9-f1",
+      "front": "What is the marking scheme for Expansion of Themes?",
+      "back": "Title and Beginning (1), Vocabulary and Grammar (1), Appropriate Points (1), Logical Order (1), Conclusion (1). Total 5 marks.",
+      "order": 1
+    },
+    {
+      "id": "eng9-f2",
+      "front": "What elements must a News Report include?",
+      "back": "Headline, Dateline, Byline, Introductory paragraph, Body, Conclusion.",
+      "order": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "eng9-q1",
+      "question": "Which of the following is NOT a required element of a News Report?",
+      "options": [
+        "Headline",
+        "Dateline",
+        "Dialogue between characters",
+        "Byline"
+      ],
+      "correctAnswer": 2,
+      "explanation": "News reports should be formal and factual, not fictional stories with dialogue.",
+      "order": 1
+    }
+  ]
+}

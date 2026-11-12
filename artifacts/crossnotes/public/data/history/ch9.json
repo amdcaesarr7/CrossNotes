@@ -1,0 +1,725 @@
+{
+  "id": "ch9",
+  "num": 9,
+  "title": "Heritage Management",
+  "emoji": "🏛️",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This concluding History chapter investigates institutional Heritage Management, focusing on museums, archives, libraries, and encyclopaedias. It surveys world-renowned museums (Louvre, British Museum, National Museum Delhi), explores archival conservation protocols and manuscript research, classifies historical encyclopaedias (Vishwakosh, Charitrakosh, Sthalakosh), and underscores the rigorous scientific methods needed to preserve written and material sources.",
+    "youWillLearn": [
+      "Understand the history and collections of world-famous museums (Louvre, British Museum)",
+      "Study archival management, digitization, and conservation protocols for old documents",
+      "Learn the history and classification of Indian encyclopaedias (Vishwakosh, Sthalakosh, Charitrakosh)",
+      "Explore historic libraries in India including Saraswati Mahal Granthalay and National Library",
+      "Identify specialized scientific methods for analyzing and preserving written and material sources"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "Heritage can be classified into ______ types.\n(A) 2 (B) 3 (C) 4 (D) 5",
+      "qnaAnswer": "Correct Answer: (A) 2 — Natural Heritage and Cultural Heritage"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "______ is an example of natural heritage.\n(A) Taj Mahal (B) Western Ghats (C) Ajanta Caves (D) Red Fort",
+      "qnaAnswer": "Correct Answer: (B) Western Ghats"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "UNESCO stands for ______.\n(A) United Nations Educational, Scientific and Cultural Organization (B) United Nations Environmental and Scientific Organization (C) United Nations Educational and Social Organization (D) None of the above",
+      "qnaAnswer": "Correct Answer: (A) United Nations Educational, Scientific and Cultural Organization"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "______ is a cultural heritage site in India.\n(A) Kaziranga National Park (B) Sundarbans (C) Taj Mahal (D) Western Ghats",
+      "qnaAnswer": "Correct Answer: (C) Taj Mahal"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "The main aim of heritage management is ______.\n(A) To destroy heritage (B) To preserve and protect heritage (C) To sell heritage (D) To ignore heritage",
+      "qnaAnswer": "Correct Answer: (B) To preserve and protect heritage"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Item",
+        "Description",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "Taj Mahal",
+          "Cultural heritage",
+          "Correct"
+        ],
+        [
+          "Western Ghats",
+          "Natural heritage",
+          "Correct"
+        ],
+        [
+          "UNESCO",
+          "International organization for heritage preservation",
+          "Correct"
+        ],
+        [
+          "Ajanta Caves",
+          "Natural heritage",
+          "WRONG — Ajanta Caves are cultural heritage, not natural heritage."
+        ],
+        [
+          "Kaziranga National Park",
+          "Natural heritage",
+          "Correct"
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Heritage",
+      "content": "Heritage → Natural Heritage → Cultural Heritage → Tangible Cultural Heritage → Intangible Cultural Heritage",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "paragraph",
+      "title": "Concept Chart — Organizations for Heritage Management",
+      "content": "Heritage Management Organizations → UNESCO → Archaeological Survey of India (ASI) → Indian National Trust for Art and Cultural Heritage (INTACH) → State Departments of Archaeology",
+      "important": true
+    },
+    {
+      "id": "n12",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Natural Heritage",
+      "question": "Explain the following concept: Natural Heritage",
+      "qnaAnswer": "\n1. Natural heritage refers to natural features, geological formations, and natural sites that have outstanding universal value.\n2. It includes mountains, rivers, forests, wildlife, and biodiversity.\n3. Examples: Western Ghats, Sundarbans, Kaziranga National Park, Himalayan ranges.\n4. Natural heritage is important for ecological balance and biodiversity.\n5. It is preserved through national parks, wildlife sanctuaries, and biosphere reserves.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Cultural Heritage",
+      "question": "Explain the following concept: Cultural Heritage",
+      "qnaAnswer": "\n1. Cultural heritage refers to the traditions, customs, beliefs, and artefacts of a society.\n2. It includes tangible heritage (monuments, artefacts) and intangible heritage (music, dance, festivals).\n3. Examples: Taj Mahal, Ajanta Caves, classical music, folk dances.\n4. Cultural heritage is important for maintaining cultural identity and diversity.\n5. It is preserved through museums, archives, and cultural institutions.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "UNESCO",
+      "question": "Explain the following concept: UNESCO",
+      "qnaAnswer": "\n1. UNESCO stands for United Nations Educational, Scientific and Cultural Organization.\n2. It is a specialized agency of the United Nations.\n3. It works to promote international collaboration in education, science, and culture.\n4. It designates World Heritage Sites to recognize and protect cultural and natural heritage of outstanding universal value.\n5. Examples of UNESCO World Heritage Sites in India: Taj Mahal, Ajanta and Ellora Caves, Western Ghats.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n17",
+      "type": "qna",
+      "title": "Short Note: World Heritage Sites in India",
+      "question": "Write a short note on: World Heritage Sites in India",
+      "qnaAnswer": "\n1. India has 40 UNESCO World Heritage Sites.\n2. Examples: Taj Mahal, Ajanta and Ellora Caves, Khajuraho temples, Hampi, Konark Sun Temple, Sundarbans, Western Ghats, Kaziranga National Park.\n3. These sites are important for cultural and natural heritage.\n4. They attract tourists from all over the world.\n5. They are preserved and managed by the Archaeological Survey of India (ASI) and other organizations.",
+      "important": true
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Archaeological Survey of India (ASI)",
+      "question": "Write a short note on: Archaeological Survey of India (ASI)",
+      "qnaAnswer": "\n1. The Archaeological Survey of India (ASI) was established in 1861.\n2. It is responsible for archaeological research and the conservation of historical monuments in India.\n3. Alexander Cunningham was its first Director General.\n4. It manages and preserves many World Heritage Sites in India.\n5. It conducts excavations and research to uncover India's historical past.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: INTACH",
+      "question": "Write a short note on: INTACH",
+      "qnaAnswer": "\n1. INTACH stands for Indian National Trust for Art and Cultural Heritage.\n2. It was founded in 1984.\n3. It is a non-profit organization dedicated to the conservation and preservation of India's cultural heritage.\n4. It works to create awareness about heritage and to promote heritage education.\n5. It also provides technical support for heritage conservation projects.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "Importance of Heritage Management",
+      "question": "Explain the importance of heritage management.",
+      "qnaAnswer": "\n1. Heritage management helps in preserving cultural and natural heritage.\n2. It ensures that heritage is passed on to future generations.\n3. It promotes tourism and economic development.\n4. It helps in maintaining cultural identity and diversity.\n5. It contributes to education and research."
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "Challenges in Heritage Conservation",
+      "question": "What are the challenges in heritage conservation?",
+      "qnaAnswer": "\n1. Urbanization and development pressures.\n2. Pollution and environmental degradation.\n3. Lack of awareness and public participation.\n4. Inadequate funding and resources.\n5. Natural disasters and climate change.\n6. Vandalism and illegal trade of artefacts."
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Role of Individuals in Heritage Management",
+      "question": "Explain the role of individuals in heritage management.",
+      "qnaAnswer": "\n1. Individuals can create awareness about heritage in their communities.\n2. They can participate in heritage conservation activities.\n3. They can visit heritage sites and support their preservation.\n4. They can document and record oral histories and traditions.\n5. They can join heritage organizations like INTACH.\n6. They can promote responsible tourism."
+    },
+    {
+      "id": "n24",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "[IMPORTANT] UNESCO World Heritage Sites",
+      "question": "Name any five UNESCO World Heritage Sites in India.",
+      "qnaAnswer": "Five UNESCO World Heritage Sites in India are:\n\n1. Taj Mahal (Agra)\n\n2. Ajanta Caves (Maharashtra)\n\n3. Ellora Caves (Maharashtra)\n\n4. Khajuraho Temples (Madhya Pradesh)\n\n5. Western Ghats",
+      "important": true
+    },
+    {
+      "id": "n26",
+      "type": "qna",
+      "title": "[IMPORTANT] Heritage Conservation",
+      "question": "Why is heritage conservation important?",
+      "qnaAnswer": "\n1. Heritage conservation is important for preserving cultural and natural heritage.\n2. It helps in maintaining cultural identity and diversity.\n3. It promotes tourism and economic development.\n4. It ensures that heritage is passed on to future generations.\n5. It contributes to education and research.",
+      "important": true
+    },
+    {
+      "id": "fig-9-world_museums",
+      "type": "figure",
+      "title": "World Famous Museums and Historic Antiquities",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+V29ybGQgRmFtb3VzIE11c2V1bXMgYW5kIEFudGlxdWl0aWVzPC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjY0Ny4zIiB5Mj0iMTgzLjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI1NTIuOCIgeTI9IjMzNC4yIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMjQ3LjIiIHkyPSIzMzQuMiIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE1Mi43IiB5Mj0iMTgzLjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI1Ny4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI3OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkxvdXZyZSBNdXNldW0gKFBhcmlzKTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iOTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5MZW9uYXJkbydzIE1vbmEgTGlzYSAmPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5BbnRpcXVpdGllcyBjb2xsZWN0ZWQgYnkgTmFwb2xlb248L3RleHQ+PHJlY3QgeD0iNTU3LjMiIHk9IjE1MC4zIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY0Ny4zIiB5PSIxNzIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Ccml0aXNoIE11c2V1bSAoTG9uZG9uKTwvdGV4dD48dGV4dCB4PSI2NDcuMyIgeT0iMTg3LjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U2lyIEhhbnMgU2xvYW5lIGNvbGxlY3Rpb24gJjwvdGV4dD48dGV4dCB4PSI2NDcuMyIgeT0iMjAyLjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Um9zZXR0YSBTdG9uZTwvdGV4dD48cmVjdCB4PSI0NjIuOCIgeT0iMzAxLjIiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNTUyLjgiIHk9IjMyMy4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk5hdGlvbmFsIE11c2V1bSBvZiBOYXR1cmFsIEhpc3RvcnkgKFVTQSk8L3RleHQ+PHRleHQgeD0iNTUyLjgiIHk9IjMzOC4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNtaXRoc29uaWFuIEluc3RpdHV0aW9uIC08L3RleHQ+PHRleHQgeD0iNTUyLjgiIHk9IjM1My4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk92ZXIgMTQ1TSBuYXR1cmFsIHNwZWNpbWVuczwvdGV4dD48cmVjdCB4PSIxNTcuMiIgeT0iMzAxLjIiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjQ3LjIiIHk9IjMyMy4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk5hdGlvbmFsIE11c2V1bSAoTmV3IERlbGhpKTwvdGV4dD48dGV4dCB4PSIyNDcuMiIgeT0iMzM4LjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RXN0YWJsaXNoZWQgMTk0OSAtPC90ZXh0Pjx0ZXh0IHg9IjI0Ny4yIiB5PSIzNTMuMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5IYXJhcHBhbiByZWxpY3MsIHBhaW50aW5ncyAmIGNvaW5zPC90ZXh0PjxyZWN0IHg9IjYyLjciIHk9IjE1OC4zIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE1Mi43IiB5PSIxNzkuOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5DaGhhdHJhcGF0aSBTaGl2YWppIE1haGFyYWogVmFzdHUgU2FuZ3JhaGFsYXlhIChNdW1iYWkpPC90ZXh0Pjx0ZXh0IHg9IjE1Mi43IiB5PSIxOTQuOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5JbmRvLVNhcmFjZW5pYyBtdXNldW0gYnVpbHQgMTkyMjwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+V29ybGQ8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5NdXNldW1zPC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of renowned museums globally and in India",
+      "figureCaption": "Leading world museums preserving invaluable cultural, historical, and natural antiquities"
+    },
+    {
+      "id": "fig-9-types_of_encyclopaedia",
+      "type": "figure",
+      "title": "Classification of Encyclopaedias (Kosh) in History",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VHlwZXMgb2YgRW5jeWNsb3BhZWRpYXM8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjYwLjAiIHkyPSIyMjUuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNDAuMCIgeTI9IjIyNS4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNTcuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iNzkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Db21wcmVoZW5zaXZlIEVuY3ljbG9wYWVkaWE8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9Ijk0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KFZpc2h3YWtvc2ggLSBVbml2ZXJzYWwga25vd2xlZGdlKTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTA5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TWFyYXRoaSBWaXNod2Frb3NoPC90ZXh0PjxyZWN0IHg9IjU3MC4wIiB5PSIxOTIuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2NjAuMCIgeT0iMjE0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QmlvZ3JhcGhpY2FsIEVuY3ljbG9wYWVkaWE8L3RleHQ+PHRleHQgeD0iNjYwLjAiIHk9IjIyOS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihDaGFyaXRyYWtvc2ggLSBMaXZlcyBvZiBncmVhdCBwZXJzb25hbGl0aWVzKTwvdGV4dD48dGV4dCB4PSI2NjAuMCIgeT0iMjQ0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QmhhcmF0dmFyc2hpeWEgQ2hhcml0cmFrb3NoPC90ZXh0PjxyZWN0IHg9IjMxMC4wIiB5PSIzMjcuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iMzQ5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+R2VvZ3JhcGhpY2FsIEVuY3ljbG9wYWVkaWE8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM2NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihTdGhhbGFrb3NoIC0gSGlzdG9yaWNhbCBnZW9ncmFwaHkgJiBwbGFjZXMpPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNzkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TdGhhbGFrb3NoIGJ5IE11bmkgVnlhczwvdGV4dD48cmVjdCB4PSI1MC4wIiB5PSIxOTIuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNDAuMCIgeT0iMjE0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U3ViamVjdCAvIFNwZWNpYWxpemVkIEtvc2g8L3RleHQ+PHRleHQgeD0iMTQwLjAiIHk9IjIyOS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihWaXNoYXlrb3NoIC0gRGVkaWNhdGVkIHN1YmplY3QgZGljdGlvbmFyaWVzKTwvdGV4dD48dGV4dCB4PSIxNDAuMCIgeT0iMjQ0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U2Ftc2tydXRpIEtvc2ggJiBWeWF2YWhhcmtvc2g8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkVuY3ljbG9wYWVkaWE8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5UeXBlczwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map classifying encyclopaedias into four main categories",
+      "figureCaption": "Systematic classification of encyclopaedias into comprehensive, biographical, geographical, and subject koshas"
+    },
+    {
+      "id": "fig-9-encyclopaedia_timeline",
+      "type": "figure",
+      "title": "Timeline of Landmark Encyclopaedias Related to History in Maharashtra",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMjQwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjI0MCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iMjQwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIxOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VGltZWxpbmUgb2YgSGlzdG9yaWNhbCBFbmN5Y2xvcGFlZGlhczwvdGV4dD4KPGxpbmUgeDE9IjQwIiB5MT0iMTA1IiB4Mj0iNzYwIiB5Mj0iMTA1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMi41IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSIxNDUuMCIgeTE9IjEwNSIgeDI9IjE0NS4wIiB5Mj0iNTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iMTQ1LjAiIHkxPSIxMDUiIHgyPSIxNDUuMCIgeTI9IjE0NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSIzMTUuMCIgeTE9IjEwNSIgeDI9IjMxNS4wIiB5Mj0iNTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iMzE1LjAiIHkxPSIxMDUiIHgyPSIzMTUuMCIgeTI9IjE0NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI0ODUuMCIgeTE9IjEwNSIgeDI9IjQ4NS4wIiB5Mj0iNTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNDg1LjAiIHkxPSIxMDUiIHgyPSI0ODUuMCIgeTI9IjE0NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjxsaW5lIHgxPSI2NTUuMCIgeTE9IjEwNSIgeDI9IjY1NS4wIiB5Mj0iNTUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48bGluZSB4MT0iNjU1LjAiIHkxPSIxMDUiIHgyPSI2NTUuMCIgeTI9IjE0NSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPgo8cmVjdCB4PSI5Ny4wIiB5PSIyMiIgd2lkdGg9Ijk2IiBoZWlnaHQ9IjM0IiByeD0iOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE0NS4wIiB5PSI0NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+MTg3NjwvdGV4dD48cmVjdCB4PSI4NS4wIiB5PSIxNDUiIHdpZHRoPSIxMjAuMCIgaGVpZ2h0PSI2MSIgcng9IjgiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNDUuMCIgeT0iMTYzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkJoYXJhdHZhcnNoaXlhPC90ZXh0Pjx0ZXh0IHg9IjE0NS4wIiB5PSIxNzgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UHJhY2hpbiBBaXRpaGFzaWs8L3RleHQ+PHRleHQgeD0iMTQ1LjAiIHk9IjE5MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Lb3NoIChHb2Rib2xlKTwvdGV4dD48cmVjdCB4PSIyNjcuMCIgeT0iMjIiIHdpZHRoPSI5NiIgaGVpZ2h0PSIzNCIgcng9IjgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIzMTUuMCIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPjE5MzI8L3RleHQ+PHJlY3QgeD0iMjU1LjAiIHk9IjE0NSIgd2lkdGg9IjEyMC4wIiBoZWlnaHQ9IjYxIiByeD0iOCIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjMxNS4wIiB5PSIxNjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QmhhcmF0dmFyc2hpeWE8L3RleHQ+PHRleHQgeD0iMzE1LjAiIHk9IjE3OCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5QcmFjaGluIENoYXJpdHJha29zaDwvdGV4dD48dGV4dCB4PSIzMTUuMCIgeT0iMTkzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihDaGl0cmF2IFNoYXN0cmkpPC90ZXh0PjxyZWN0IHg9IjQzNy4wIiB5PSIyMiIgd2lkdGg9Ijk2IiBoZWlnaHQ9IjM0IiByeD0iOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQ4NS4wIiB5PSI0NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+MTk2OTwvdGV4dD48cmVjdCB4PSI0MjUuMCIgeT0iMTQ1IiB3aWR0aD0iMTIwLjAiIGhlaWdodD0iNjEiIHJ4PSI4IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDg1LjAiIHk9IjE2MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5NYWhhcmFzaHRyaXlhPC90ZXh0Pjx0ZXh0IHg9IjQ4NS4wIiB5PSIxNzgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RG55YW5rb3NoPC90ZXh0Pjx0ZXh0IHg9IjQ4NS4wIiB5PSIxOTMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KERyLiBTLiBWLiBLZXRrYXIpPC90ZXh0PjxyZWN0IHg9IjYwNy4wIiB5PSIyMiIgd2lkdGg9Ijk2IiBoZWlnaHQ9IjM0IiByeD0iOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY1NS4wIiB5PSI0NCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+MTk3NjwvdGV4dD48cmVjdCB4PSI1OTUuMCIgeT0iMTQ1IiB3aWR0aD0iMTIwLjAiIGhlaWdodD0iNjEiIHJ4PSI4IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjU1LjAiIHk9IjE2MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5NYXJhdGhpPC90ZXh0Pjx0ZXh0IHg9IjY1NS4wIiB5PSIxNzgiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+VmlzaHdha29zaDwvdGV4dD48dGV4dCB4PSI2NTUuMCIgeT0iMTkzIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihMYXhtYW5zaGFzdHJpIEpvc2hpKTwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Timeline of prominent historical encyclopaedias in India",
+      "figureCaption": "Chronological development of Marathi historical encyclopaedias and reference works"
+    },
+    {
+      "id": "fig-9-noteworthy_libraries",
+      "type": "figure",
+      "title": "Noteworthy Libraries and Archives in India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Tm90ZXdvcnRoeSBMaWJyYXJpZXMgYW5kIEFyY2hpdmVzIGluIEluZGlhPC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSIzNjAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNjUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iODYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5OYXRpb25hbCBMaWJyYXJ5IChLb2xrYXRhKTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTAxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TGFyZ2VzdCBwdWJsaWMgbGlicmFyeSBpbiBJbmRpYTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk5laHJ1IE1lbW9yaWFsIE11c2V1bSAmIExpYnJhcnkgKE5ldyBEZWxoaSk8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlByZW1pZXIgcmVzZWFyY2ggYXJjaGl2ZXM8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TdGF0ZSBDZW50cmFsIExpYnJhcnkgKEh5ZGVyYWJhZCk8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFzYWZpYSBMaWJyYXJ5IGhlcml0YWdlIGNvbGxlY3Rpb248L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMzNS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5MaWJyYXJ5IG9mIEFzaWF0aWMgU29jaWV0eSAoTXVtYmFpKTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMzcxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+UmFyZSBtYW51c2NyaXB0cyAmIG1hcHM8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNhcmFzd2F0aSBNYWhhbCBHcmFudGhhbGF5IChUaGFuamF2dXIpPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5OYXlhayAmIE1hcmF0aGEgcm95YWwgY29sbGVjdGlvbiAoU2VyZm9qaSBJSSk8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk5hdGlvbmFsIEFyY2hpdmVzIG9mIEluZGlhIChOZXcgRGVsaGkpPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5MYXJnZXN0IGFyY2hpdmFsIHJlcG9zaXRvcnkgaW4gQXNpYTwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SGlzdG9yaWM8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5MaWJyYXJpZXM8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of historic libraries and archives across India",
+      "figureCaption": "Premier historical research libraries preserving invaluable books, manuscripts, and government records"
+    },
+    {
+      "id": "answers-9-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-9-1",
+          "entries": [
+            {
+              "id": "a-9-1-1",
+              "question": "(1) Louvre Museum has in its collection the much acclaimed painting of ______ by Leonardo-da-Vinci.\n(a) Napoleon\n(b) Mona Lisa\n(c) Hans Sloane\n(d) George II",
+              "answer": "Mona Lisa. (Painted in the 16th century during the Italian Renaissance, it is the museum's prized centerpiece.)",
+              "questionTag": "March '23"
+            },
+            {
+              "id": "a-9-1-2",
+              "question": "(2) ______ was the 16th century artist who worked under the patronage of French King Francis I.\n(a) Leonardo-da-Vinci\n(b) Michelangelo\n(c) Raphael\n(d) Dante",
+              "answer": "Leonardo-da-Vinci. (Spent his final years in the service of King Francis I at Château du Clos Lucé.)"
+            },
+            {
+              "id": "a-9-1-3",
+              "question": "(3) India's National Museum is in ______.\n(a) Mumbai\n(b) Delhi\n(c) Chennai\n(d) Pune",
+              "answer": "Delhi. (Inaugurated at Rashtrapati Bhavan in 1949 and moved to Janpath in 1960.)",
+              "questionTag": "July '23"
+            },
+            {
+              "id": "a-9-1-4",
+              "question": "(4) ______ prepared during the reign of Chhatrapati Shivaji Maharaj is considered as an important encyclopedia.\n(a) Bharatiya Vyavahar Kosh\n(b) Rajavyavaharkosh\n(c) Vyavaharik Kosh\n(d) Bharatiya Prachin Charitrakosh",
+              "answer": "Rajavyavaharkosh. (Compiled by Raghunath Narayan Hanmante to replace Persian administrative terms with Sanskrit terminology.)"
+            },
+            {
+              "id": "a-9-1-5",
+              "question": "(5) The first Chief Minister of Maharashtra, Honourable ______, initiated the compilation of Marathi Vishwakosh.\n(a) Vasantrao Naik\n(b) Sharad Pawar\n(c) Yashwantrao Chavan\n(d) Shankarrao Chavan",
+              "answer": "Yashwantrao Chavan. (Appointed Tarkateertha Laxmanshastri Joshi as chairman of the Maharashtra Rajya Marathi Vishwakosh Mandal.)",
+              "questionTag": "Sept. '21; March '25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Identify and Write the Wrong Pair in the Following Sets",
+      "answerGroups": [
+        {
+          "id": "g-9-2",
+          "entries": [
+            {
+              "id": "a-9-2-1",
+              "question": "[University / Research Institution — Location]\n(1) Maharaja Sayajirao University — New Delhi\n(2) Banaras Hindu University — Varanasi\n(3) Aligarh Muslim University — Aligarh\n(4) Jiwaji University — Gwalior",
+              "answer": "Wrong pair: Maharaja Sayajirao University — New Delhi. (MS University is located in Vadodara / Baroda, Gujarat, known for museology training.)",
+              "questionTag": "Sept. '21"
+            },
+            {
+              "id": "a-9-2-2",
+              "question": "[Encyclopaedia — Editor / Compiler]\n(1) Bharatvarshiya Charitrakosh — Siddheshwarshastri Chitrav\n(2) Marathi Vishwakosh — Raghunath Bhaskar Godbole\n(3) Bharatiya Samskruti Kosh — Pandit Mahadevshastri Joshi\n(4) Maharashtra Dnyankosh — Shridhar Vyankatesh Ketkar",
+              "answer": "Wrong pair: Marathi Vishwakosh — Raghunath Bhaskar Godbole. (Marathi Vishwakosh was edited by Tarkateertha Laxmanshastri Joshi; Raghunath Bhaskar Godbole compiled Bharatvarshiya Prachin Aitihasik Kosh in 1876.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Do as Directed (Timelines, Concept Maps & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-9-3",
+          "entries": [
+            {
+              "id": "a-9-3-1",
+              "question": "Complete the timeline regarding Encyclopaedias related to History:",
+              "answer": "• 1876: Bharatvarshiya Prachin Aitihasik Kosh compiled by Raghunath Bhaskar Godbole.\n• 1932: Bharatvarshiya Prachin Charitrakosh compiled by Siddheshwarshastri Chitrav.\n• 1969: Maharashtriya Dnyankosh edited by Shridhar Vyankatesh Ketkar.\n• 1976: Marathi Vishwakosh compiled under Tarkateertha Laxmanshastri Joshi.",
+              "questionTag": "March '22"
+            },
+            {
+              "id": "a-9-3-2",
+              "question": "Complete the concept map: Noteworthy Libraries in India.",
+              "answer": "\n1. National Library: Kolkata (West Bengal)\n\n2. Nehru Memorial Museum and Library: New Delhi\n\n3. State Central Library (Asafia): Hyderabad (Telangana)\n\n4. Library of Asiatic Society: Mumbai (Maharashtra)",
+              "questionTag": "March '19 - '23 - '25"
+            },
+            {
+              "id": "a-9-3-3",
+              "question": "Complete the concept map: Types of Encyclopaedias (Kosh).",
+              "answer": "\n1. Comprehensive Encyclopaedias (Vishwakosh)\n\n2. Biographical Encyclopaedias (Charitrakosh)\n\n3. Geographical Encyclopaedias (Sthalakosh)\n\n4. Specialized Subject Encyclopaedias (Vishaykosh / Samskruti Kosh)",
+              "questionTag": "July '19 - '23"
+            },
+            {
+              "id": "a-9-3-4",
+              "question": "Complete the concept map: Famous Museums in the World.",
+              "answer": "• Louvre Museum: Paris, France (Mona Lisa and Napoleon's antiquities)\n• British Museum: London, England (Over 8 million historic artifacts)\n• National Museum of Natural History: Washington D.C., USA (Smithsonian institution)\n• National Museum: New Delhi, India"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-9-4",
+          "entries": [
+            {
+              "id": "a-9-4-1",
+              "question": "(1) Sthalakosh:",
+              "answer": "(1) Definition: Encyclopaedias dedicated to historical geography, ancient place names, and geographic sites are called Sthalakosh.\n(2) Mahanubhava Text: In the 14th century C.E., Muni Vyas of the Mahanubhava sect composed 'Sthanapothi', documenting every place visited by Chakradhar Swami.\n(3) Research Value: It gives precious insights into medieval Maharashtra, ancient village settlements, roads, dialects, and social customs.\n(4) Modern Works: Siddheshwarshastri Chitrav published 'Prachin Bharatiya Sthalakosh' giving geographic details from Vedic literature, epics, and Buddhist texts.",
+              "questionTag": "March '24 - '25"
+            },
+            {
+              "id": "a-9-4-2",
+              "question": "(2) Vishwakosh (Marathi Vishwakosh):",
+              "answer": "(1) State Initiative: First Chief Minister Yashwantrao Chavan established Maharashtra Rajya Marathi Vishwakosh Mandal for compiling a comprehensive universal encyclopaedia in Marathi.\n(2) Leadership: Tarkateertha Laxmanshastri Joshi led the monumental project as chief editor.\n(3) Scope: Covers knowledge across arts, humanities, social sciences, history, technology, and pure sciences in comprehensive volumes.\n(4) Significance: Democratizes modern world knowledge in the Marathi language and sets scholarly terminology standards."
+            },
+            {
+              "id": "a-9-4-3",
+              "question": "(3) Louvre Museum:",
+              "answer": "(1) Establishment: The Louvre Museum in Paris, France was established in the late 18th century C.E. inside a former royal palace.\n(2) Prized Collections: Houses the royal collections of French monarchs and rare antiquities brought back by Napoleon Bonaparte from his conquests.\n(3) Masterpiece: The world-famous portrait 'Mona Lisa' painted by Leonardo-da-Vinci is its most celebrated exhibit.\n(4) Scale: Today, the Louvre preserves over 380,000 antiquities spanning ancient civilizations to the modern era, making it the most visited museum in the world.",
+              "questionTag": "March '22"
+            },
+            {
+              "id": "a-9-4-4",
+              "question": "(4) Bharatiya Samskruti Kosh:",
+              "answer": "(1) Editor: Compiled in 10 monumental volumes under the chief editorship of Pandit Mahadevshastri Joshi.\n(2) Content: Documents Indian culture, social customs, religious sects, festivals, rituals, holy places, and art traditions across regions.\n(3) Inclusiveness: Covers ethnography, folklore, and cultural practices of diverse communities, tribes, and religious denominations in India.\n(4) Reference Value: It serves as an indispensable reference authority for historians, anthropologists, and cultural researchers."
+            },
+            {
+              "id": "a-9-4-5",
+              "question": "(5) Saraswati Mahal Granthalay (Thanjavur):",
+              "answer": "(1) Royal Foundation: Established during the reign of the Nayak dynasty in the 16th–17th centuries at Thanjavur, Tamil Nadu.\n(2) Maratha Patronage: Maharaja Serfoji II of the Thanjavur Maratha dynasty greatly expanded the library in the early 19th century, collecting thousands of rare palm-leaf manuscripts and books.\n(3) Rare Manuscripts: Contains over 49,000 rare manuscripts in Sanskrit, Tamil, Marathi, Telugu, and Persian, spanning literature, medicine, astronomy, and Vedic arts.\n(4) Cultural Treasure: It is recognized as one of the most historic and precious medieval manuscript libraries in Asia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Explain the Following Statements with Reasons",
+      "answerGroups": [
+        {
+          "id": "g-9-5",
+          "entries": [
+            {
+              "id": "a-9-5-1",
+              "question": "(1) Archives and libraries publish research journals, informative pamphlets, leaflets, and posters.",
+              "answer": "(1) Knowledge Sharing: Libraries and archives must make their preserved treasures accessible beyond academic specialists to common citizens and students.\n(2) Public Awareness: Publishing pamphlets, booklets, and leaflets educates visitors about historical conservation and archival importance.\n(3) Research Stimulation: Scholarly journals encourage researchers to publish original findings, stimulating new historical inquiries.\n(4) Heritage Preservation: Displaying posters and conducting exhibitions connects communities with their historical heritage, preventing neglect and decay.",
+              "questionTag": "Board Activity Reference"
+            },
+            {
+              "id": "a-9-5-2",
+              "question": "(2) Encyclopaedias are looked upon as outstanding achievements of a society.",
+              "answer": "(1) Collective Intellect: An encyclopaedia synthesizes the collective knowledge, creativity, and intellectual rigor accumulated by a society over centuries.\n(2) Democratic Accessibility: It makes specialized scientific, historical, and cultural knowledge readily accessible to every curious citizen in their mother tongue.\n(3) Ideological Maturity: The objectivity, scientific methodology, and ethical ideals reflected in an encyclopaedia showcase the maturity of a civilization.\n(4) Cultural Pride: A society capable of compiling monumental reference works demonstrates intellectual independence and advanced cultural vitality.",
+              "questionTag": "Board Textual Reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Read the Passage and Answer the Questions",
+      "answerGroups": [
+        {
+          "id": "g-9-6",
+          "entries": [
+            {
+              "id": "a-9-6-1",
+              "question": "Read the extract on 'Encyclopaedia and Society' and answer the following questions:\n\nExtract: Encyclopaedias and history share fundamental characteristics of objectivity and authenticity. National policies, ethical ideals, philosophical inquiries, and intellectual traditions profoundly influence an encyclopaedia. Encyclopaedias are compiled to systematize knowledge and make it accessible to everyone. They reflect the collective wisdom, creativity, and scientific temper of a society, inspiring pride in national progress.\n\nQuestions:\n(1) Which factors influence an encyclopaedia?\n(2) What are the common factors between history and an encyclopaedia?\n(3) Explain the statement: 'Encyclopaedias are looked upon as outstanding achievements of a society'.",
+              "answer": "(1) Factors influencing encyclopaedias: National policies, ethical values and ideals, philosophical traditions, and contemporary intellectual currents.\n\n(2) Common factors: Objectivity, empirical authenticity, and systematic scientific methodology are common to both history and encyclopaedias.\n\n(3) Explanation:\n• Encyclopaedias democratize knowledge across all spheres of life, making it freely accessible to every section of society.\n• They manifest the collective intellectual capacity, scientific achievements, and creative brilliance of a nation.\n• Studying them fosters cultural pride, rational enlightenment, and self-confidence in societal progress.\n• Therefore, compiling a comprehensive encyclopaedia is universally celebrated as a pinnacle achievement of civilized society."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-9-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Answer the Following in Detail",
+      "answerGroups": [
+        {
+          "id": "g-9-7",
+          "entries": [
+            {
+              "id": "a-9-7-1",
+              "question": "(1) Why is library management important?",
+              "answer": "(1) Quick Retrieval: Systematic classification (e.g., Dewey Decimal system) and digital cataloging allow readers and librarians to locate books within minutes.\n(2) Preservation & Conservation: Proper library management prevents physical deterioration caused by humidity, termites, dust, and acidic paper aging.\n(3) Balanced Acquisition: Professional librarians curate a diverse and comprehensive collection catering to students, researchers, children, and competitive exam aspirants.\n(4) Modern Digital Services: Implements e-library portals, audiobooks, institutional repositories, and inter-library loan facilities.\n(5) Community Engagement: Dynamic management organizes book exhibitions, literary meets, author interactions, and seasonal reading camps to cultivate reading habits.",
+              "questionTag": "March '19 - '24; Sept. '21; July '22"
+            },
+            {
+              "id": "a-9-7-2",
+              "question": "(2) Which tasks are important in archives management?",
+              "answer": "(1) Safeguarding Authenticity: Preserving delicate historical documents, royal treaties, firmans, and maps in their pristine original form.\n(2) Environmental Controls: Maintaining temperature-controlled, moisture-regulated, and fumigated storage to shield manuscripts from fungi, pests, and light damage.\n(3) Indexing & Cataloging: Creating meticulous indices, accession registers, and searchable metadata systems for rapid document retrieval.\n(4) Digitization & Microfilming: Scanning fragile paper records and old newsreels into high-resolution digital formats to protect originals from repeated handling.\n(5) Confidentiality & Security: Regulating access to classified state papers and ensuring rigorous security protocols.\n(6) Establishing Regional Archives: Decentralizing archival centers to district and municipal levels to preserve local heritage.",
+              "questionTag": "Nov. '20; March '23"
+            },
+            {
+              "id": "a-9-7-3",
+              "question": "(3) What kind of training is required to study written sources?",
+              "answer": "(1) Epigraphy & Paleography: Mastery of ancient scripts (Brahmi, Kharosthi, Modi, Persian, Arabic) and their historical evolution over centuries.\n(2) Linguistic Command: Proficiency in archaic languages (Sanskrit, Prakrit, Pali, Persian, Ardhamagadhi, Old Marathi).\n(3) Codicology & Material Science: Knowledge of ancient writing materials (papyrus, palm-leaf, birch bark, handmade paper, ink chemistry, royal seal wax).\n(4) Historical Context: Understanding dynastic lineages, political administrations, socio-cultural customs, and genealogical traditions of the relevant period.\n(5) Conservation Chemistry: Hands-on expertise in chemical cleaning, deacidification, and restorative lamination of fragile manuscripts.",
+              "questionTag": "March '20"
+            },
+            {
+              "id": "a-9-7-4",
+              "question": "(4) What methods should be followed while studying material sources?",
+              "answer": "(1) Collection and Accessioning: Carefully excavating, salvaging, and registering physical artifacts with accurate provenance data.\n(2) Scientific Classification: Categorizing artifacts chronologically and typologically (coins, pottery, stone tools, weapons, ornaments) and preparing illustrated inventories.\n(3) Chemical Cleaning & Preservation: Performing specialized mechanical and chemical conservation treatments to arrest corrosion, mold, and weathering.\n(4) Scientific Dating: Employing scientific dating techniques like Carbon-14 (C-14), thermoluminescence, and stratigraphical analysis.\n(5) Exhibition & Publication: Curating public museum displays, creating authentic replicas, and publishing peer-reviewed research monographs.",
+              "questionTag": "July '19"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What are the two types of heritage?",
+      "back": "Natural Heritage and Cultural Heritage",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "What does UNESCO stand for?",
+      "back": "United Nations Educational, Scientific and Cultural Organization",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "Name a natural heritage site in India.",
+      "back": "Western Ghats, Sundarbans, or Kaziranga National Park",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "Name a cultural heritage site in India.",
+      "back": "Taj Mahal, Ajanta Caves, or Khajuraho Temples",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "What is INTACH?",
+      "back": "Indian National Trust for Art and Cultural Heritage",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "What is the role of ASI?",
+      "back": "Archaeological research and conservation of historical monuments in India",
+      "order": 6
+    },
+    {
+      "id": "fc-9-1",
+      "front": "Which celebrated Renaissance painting is preserved in the Louvre Museum?",
+      "back": "Mona Lisa painted by Leonardo-da-Vinci.",
+      "order": 1
+    },
+    {
+      "id": "fc-9-2",
+      "front": "Where is the National Museum of India located?",
+      "back": "New Delhi (established in 1949).",
+      "order": 2
+    },
+    {
+      "id": "fc-9-3",
+      "front": "What is Rajavyavaharkosh?",
+      "back": "An administrative encyclopaedia compiled during the reign of Shivaji Maharaj by Raghunath Hanmante.",
+      "order": 3
+    },
+    {
+      "id": "fc-9-4",
+      "front": "Who was appointed chief editor of the Marathi Vishwakosh?",
+      "back": "Tarkateertha Laxmanshastri Joshi.",
+      "order": 4
+    },
+    {
+      "id": "fc-9-5",
+      "front": "What is a Sthalakosh?",
+      "back": "An encyclopaedia documenting historical places, geography, and ancient settlements.",
+      "order": 5
+    },
+    {
+      "id": "fc-9-6",
+      "front": "What was 'Sthanapothi'?",
+      "back": "A 14th-century Mahanubhava text composed by Muni Vyas documenting places visited by Chakradhar Swami.",
+      "order": 6
+    },
+    {
+      "id": "fc-9-7",
+      "front": "Who compiled the 10-volume 'Bharatiya Samskruti Kosh'?",
+      "back": "Pandit Mahadevshastri Joshi.",
+      "order": 7
+    },
+    {
+      "id": "fc-9-8",
+      "front": "Which Thanjavur library preserves over 49,000 rare manuscripts?",
+      "back": "Saraswati Mahal Granthalay (expanded by Maharaja Serfoji II).",
+      "order": 8
+    },
+    {
+      "id": "fc-9-9",
+      "front": "Where is the National Archives of India situated?",
+      "back": "New Delhi (largest archival repository in Asia).",
+      "order": 9
+    },
+    {
+      "id": "fc-9-10",
+      "front": "What scripts must a researcher master to study medieval written sources in Maharashtra?",
+      "back": "Modi script and Persian script.",
+      "order": 10
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "Heritage can be classified into ______ types.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Heritage is classified into Natural Heritage and Cultural Heritage.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "______ is an example of natural heritage.",
+      "options": [
+        "Taj Mahal",
+        "Western Ghats",
+        "Ajanta Caves",
+        "Red Fort"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Western Ghats is a natural heritage site.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "UNESCO stands for ______.",
+      "options": [
+        "United Nations Educational, Scientific and Cultural Organization",
+        "United Nations Environmental and Scientific Organization",
+        "United Nations Educational and Social Organization",
+        "None of the above"
+      ],
+      "correctAnswer": 0,
+      "explanation": "UNESCO stands for United Nations Educational, Scientific and Cultural Organization.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "______ is a cultural heritage site in India.",
+      "options": [
+        "Kaziranga National Park",
+        "Sundarbans",
+        "Taj Mahal",
+        "Western Ghats"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Taj Mahal is a cultural heritage site.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "The main aim of heritage management is ______.",
+      "options": [
+        "To destroy heritage",
+        "To preserve and protect heritage",
+        "To sell heritage",
+        "To ignore heritage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Heritage management aims to preserve and protect heritage.",
+      "order": 5
+    },
+    {
+      "id": "quiz-9-1",
+      "qType": "mcq",
+      "question": "The famous portrait of 'Mona Lisa' by Leonardo-da-Vinci is preserved in which museum?",
+      "options": [
+        "British Museum",
+        "Louvre Museum",
+        "National Museum",
+        "Metropolitan Museum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Louvre Museum in Paris houses the world-famous painting of Mona Lisa.",
+      "order": 1
+    },
+    {
+      "id": "quiz-9-2",
+      "qType": "mcq",
+      "question": "Who was the chief editor of the Marathi Vishwakosh compilation?",
+      "options": [
+        "Tarkateertha Laxmanshastri Joshi",
+        "Mahadevshastri Joshi",
+        "S. V. Ketkar",
+        "R. B. Godbole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tarkateertha Laxmanshastri Joshi was appointed chairman and chief editor of Marathi Vishwakosh.",
+      "order": 2
+    },
+    {
+      "id": "quiz-9-3",
+      "qType": "true_false",
+      "question": "Rajavyavaharkosh was prepared during the reign of Akbar.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rajavyavaharkosh was prepared during the reign of Chhatrapati Shivaji Maharaj.",
+      "order": 3
+    },
+    {
+      "id": "quiz-9-4",
+      "qType": "fill_blank",
+      "question": "The National Archives of India, the largest in Asia, is situated in ____.",
+      "options": [
+        "Mumbai",
+        "Kolkata",
+        "New Delhi",
+        "Chennai"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The National Archives of India is located in New Delhi.",
+      "order": 4
+    },
+    {
+      "id": "quiz-9-5",
+      "qType": "mcq",
+      "question": "An encyclopaedia specifically describing historical locations, ancient settlements, and geography is called a ______.",
+      "options": [
+        "Charitrakosh",
+        "Sthalakosh",
+        "Vishwakosh",
+        "Shabdakosh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A Sthalakosh is a geographical encyclopaedia recording historical places.",
+      "order": 5
+    },
+    {
+      "id": "quiz-9-6",
+      "qType": "mcq",
+      "question": "The historic Saraswati Mahal Granthalay is located at which city in Tamil Nadu?",
+      "options": [
+        "Madurai",
+        "Thanjavur",
+        "Chennai",
+        "Coimbatore"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Saraswati Mahal Library is at Thanjavur, enriched under Maharaja Serfoji II.",
+      "order": 6
+    }
+  ],
+  "part": 3,
+  "section": "History"
+}

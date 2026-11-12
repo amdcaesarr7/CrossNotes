@@ -1,0 +1,682 @@
+{
+  "id": "ch2",
+  "num": 2,
+  "title": "Life Processes in Living Organisms : Part 1",
+  "emoji": "🔋",
+  "kind": "chapter",
+  "overview": {
+    "summary": "Living organisms obtain energy by oxidising food. One gram of lipid gives 9 kcal and one gram of protein gives 4 kcal. In aerobic respiration glucose is oxidised in three steps - glycolysis, the Krebs (TCA) cycle and the electron transfer chain - giving 38 ATP, while anaerobic respiration and fermentation give only 2 ATP. Cells also divide by mitosis, which has karyokinesis and cytokinesis.",
+    "youWillLearn": [
+      "State the roles of proteins, lipids, vitamins and fibres",
+      "Describe the three steps of aerobic respiration and ATP yield",
+      "Distinguish aerobic from anaerobic respiration",
+      "Explain fermentation",
+      "Describe the phases of mitosis"
+    ]
+  },
+  "notes": [
+    {
+      "id": "fig-2-respiration",
+      "type": "figure",
+      "title": "Aerobic and anaerobic respiration",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgMzMwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjMzMCI+PGRlZnM+PG1hcmtlciBpZD0iYWgiIG1hcmtlcldpZHRoPSI4IiBtYXJrZXJIZWlnaHQ9IjgiIHJlZlg9IjciIHJlZlk9IjQiIG9yaWVudD0iYXV0byI+PHBhdGggZD0iTTAsMCBMOCw0IEwwLDggeiIgZmlsbD0iIzMzNDE1NSIvPjwvbWFya2VyPjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjMzMCIgZmlsbD0iI2ZmZmZmZiIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIyMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q2VsbHVsYXIgcmVzcGlyYXRpb24gb2YgZ2x1Y29zZTwvdGV4dD48cmVjdCB4PSIzMCIgeT0iMTIwIiB3aWR0aD0iMTEwIiBoZWlnaHQ9IjU2IiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9Ijg1LjAiIHk9IjE1MyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+R2x1Y29zZTwvdGV4dD48bGluZSB4MT0iMTQwIiB5MT0iMTQ4IiB4Mj0iMjAwIiB5Mj0iMTQ4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxyZWN0IHg9IjIwMCIgeT0iMTIwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjU2IiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjI3NS4wIiB5PSIxMzkiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+R2x5Y29seXNpczwvdGV4dD48dGV4dCB4PSIyNzUuMCIgeT0iMTUyIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPmN5dG9wbGFzbTwvdGV4dD48dGV4dCB4PSIyNzUuMCIgeT0iMTY1IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPjIgcHlydXZpYyBhY2lkPC90ZXh0PjxsaW5lIHgxPSIzNTAiIHkxPSIxNDgiIHgyPSI0MjAiIHkyPSIxMDAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjgiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjM1MCIgeTE9IjE0OCIgeDI9IjQyMCIgeTI9IjIyMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuOCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48cmVjdCB4PSI0MjAiIHk9IjYwIiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjgwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjUwNS4wIiB5PSI5MSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5BZXJvYmljOiBLcmVicyBjeWNsZTwvdGV4dD48dGV4dCB4PSI1MDUuMCIgeT0iMTA0IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihtaXRvY2hvbmRyaWEpPC90ZXh0Pjx0ZXh0IHg9IjUwNS4wIiB5PSIxMTciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KyBlbGVjdHJvbiB0cmFuc2ZlciBjaGFpbjwvdGV4dD48bGluZSB4MT0iNTkwIiB5MT0iMTAwIiB4Mj0iNjUwIiB5Mj0iMTAwIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxyZWN0IHg9IjY1MCIgeT0iNzAiIHdpZHRoPSIxMjAiIGhlaWdodD0iNjAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNzEwLjAiIHk9Ijk3IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5DTzIgKyBIMk88L3RleHQ+PHRleHQgeD0iNzEwLjAiIHk9IjExMSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+MzggQVRQPC90ZXh0PjxyZWN0IHg9IjQyMCIgeT0iMTkwIiB3aWR0aD0iMTcwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjUwNS4wIiB5PSIyMTciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QW5hZXJvYmljOiBmZXJtZW50YXRpb248L3RleHQ+PHRleHQgeD0iNTA1LjAiIHk9IjIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oY3l0b3BsYXNtKTwvdGV4dD48bGluZSB4MT0iNTkwIiB5MT0iMjIwIiB4Mj0iNjUwIiB5Mj0iMjIwIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS44IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxyZWN0IHg9IjY1MCIgeT0iMTkwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjYwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjcxMC4wIiB5PSIyMTciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkV0aGFub2wvbGFjdGljIGFjaWQ8L3RleHQ+PHRleHQgeD0iNzEwLjAiIHk9IjIzMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+KyBDTzIsIDIgQVRQPC90ZXh0Pjwvc3ZnPg==",
+      "figureAlt": "Steps of cellular respiration",
+      "figureCaption": "Aerobic and anaerobic respiration"
+    },
+    {
+      "id": "answers-2-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Multiple Choice Questions Based on Textbook",
+      "answerGroups": [
+        {
+          "id": "g-2-1",
+          "entries": [
+            {
+              "id": "a-1-2-1",
+              "question": "(1) We get of energy from one gram of lipid. (A) 9 cal (B) 4 kcal (C) 4 cal (D) 9 kcal (July ’23)",
+              "answer": "Alcohol, Vinegar, Pyruvic acid, Lactic acid.",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-1-2-2",
+              "question": "(2) A molecule of glucose is completely oxidised in aerobic respiration and molecules of H2O and are produced along with energy. (A) CO2 (B) O2 (C) NaOH (D) HNO3 (March ’25)",
+              "answer": "Actin, Ossein, Myosin, Aldosterone. (July ’22)",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-1-2-3",
+              "question": "(3) Glycolysis and are two steps of anaerobic respiration. (A) Krebs cycle (B) Electron transfer chain reaction (C) Fermentation (D) Reduction (July ’22)",
+              "answer": "Progesterone, Estrogen, Melanin, Testosterone. (Sept. ’21)",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-1-2-4",
+              "question": "(4) Bones contain amino acids. (A) Melanin (B) Haemoglobin (C) Ossein (D) Insulin (March ’22)",
+              "answer": "Vitamin A, Vitamin B, Vitamin D, Vitamin K.",
+              "questionTag": "March ’22"
+            },
+            {
+              "id": "a-1-2-5",
+              "question": "(5) After complete oxidation of a glucose molecule, number of ATP molecules are formed. (A) 14 (B) 28 (C) 29 (D) 38",
+              "answer": "(D),"
+            },
+            {
+              "id": "a-1-2-6",
+              "question": "(6) Which of the following vitamins is necessary for synthesis of NADH2? (A) Vitamin B1 (B) Vitamin B3 (C) Vitamin C (D) Vitamin K",
+              "answer": "(B),"
+            },
+            {
+              "id": "a-1-2-7",
+              "question": "(7) Somatic and stem cells undergo division. (A) meiosis (B) mitosis (C) budding (D) cloning (March ’19)",
+              "answer": "(B),",
+              "questionTag": "March ’19"
+            },
+            {
+              "id": "a-1-2-8",
+              "question": "(8) In mitotic division, nuclear membrane completely disappears in phase. (A) telophase (B) prophase (C) metaphase (D) anaphase (Nov. ’20)",
+              "answer": "(C),",
+              "questionTag": "Nov. ’20"
+            },
+            {
+              "id": "a-1-2-9",
+              "question": "(9) All chromosomes are arranged parallel to equatorial plane of cell in phase of mitosis. (A) prophase (B) metaphase (C) anaphase (D) telophase (Sept. ’21)",
+              "answer": "(B),",
+              "questionTag": "Sept. ’21"
+            },
+            {
+              "id": "a-1-2-10",
+              "question": "(10) The spindle fibres start appearing from stage of karyokinesis. (A) prophase (B) metaphase (C) anaphase (D) telophase (March ’20)",
+              "answer": "(B).",
+              "questionTag": "March ’20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Find the Odd One Out",
+      "answerGroups": [
+        {
+          "id": "g-2-2",
+          "entries": [
+            {
+              "id": "a-2-2-1",
+              "question": "(1) Skin : Melanin : : Pancreas : . (March ’24)",
+              "answer": "Insulin or trypsin",
+              "questionTag": "March ’24"
+            },
+            {
+              "id": "a-2-2-2",
+              "question": "(2) Breakdown of glucose molecule : Glycolysis : : Formation of glucose from proteins : .",
+              "answer": "Gluconeogenesis"
+            },
+            {
+              "id": "a-2-2-3",
+              "question": "(3) Condensation of chromosomes : Prophase : : Formation of spindle fibres : .",
+              "answer": "Metaphase"
+            },
+            {
+              "id": "a-2-2-4",
+              "question": "(4) Division of nucleus : Karyokinesis : : Division of cytoplasm : .",
+              "answer": "Cytokinesis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Match the Columns",
+      "answerGroups": [
+        {
+          "id": "g-2-4",
+          "entries": [
+            {
+              "id": "a-4-2-1",
+              "question": "(1) Protein Part of the body (July ’19)\n\n(1) Haemoglobin (a) skin",
+              "answer": "In aerobic respiration, glucose is oxidised in three steps.",
+              "questionTag": "July ’19"
+            },
+            {
+              "id": "a-4-2-2",
+              "question": "(2) Ossein (b) bones (c) blood (d) muscles",
+              "answer": "Oxidation of proteins is carried out in aerobic respiration. (March ’22)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : True/False",
+      "answerGroups": [
+        {
+          "id": "g-2-5",
+          "entries": [
+            {
+              "id": "a-5-2-1",
+              "question": "(1) Steps of anaerobic respiration.",
+              "answer": "Glycolysis and fermentation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Name the Following / Give the Examples / Functions",
+      "answerGroups": [
+        {
+          "id": "g-2-6",
+          "entries": [
+            {
+              "id": "a-6-2-1",
+              "question": "(1) Mitochondria.",
+              "answer": "Mitochondria participates in cellular respiration. It helps to complete electron transfer chain reaction."
+            },
+            {
+              "id": "a-6-2-2",
+              "question": "(2) Cell division.",
+              "answer": "A new organism is formed from pre-existing one. Growth is possible due to cell division. Repair and restoration of emaciated body is done through cell division."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set8",
+      "type": "answer_sets",
+      "title": "Q. Set 8 : Rules, Theories, Laws, Definitions and Principles",
+      "answerGroups": [
+        {
+          "id": "g-2-8",
+          "entries": [
+            {
+              "id": "a-8-2-1",
+              "question": "Proteins",
+              "answer": "Protein is a macromolecule which is formed by many amino acids which are joined by peptide bonds."
+            },
+            {
+              "id": "a-8-2-2",
+              "question": "Vitamins",
+              "answer": "Vitamins are a group of heterogeneous compounds essential for proper functioning of the body."
+            },
+            {
+              "id": "a-8-2-3",
+              "question": "Cellular respiration",
+              "answer": "Oxidation of glucose and other food components which takes place inside the cell in presence or absence of oxygen, is known as cellular respiration."
+            },
+            {
+              "id": "a-8-2-4",
+              "question": "Fermentation",
+              "answer": "Conversion of pyruvic acid produced in the process of glycolysis into other organic acids or alcohol with the help of some enzymes is called fermentation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set9",
+      "type": "answer_sets",
+      "title": "Q. Set 9 : Distinguish Between the Following",
+      "answerGroups": [
+        {
+          "id": "g-2-9",
+          "entries": [
+            {
+              "id": "a-9-2-1",
+              "question": "Glycolysis and TCA cycle",
+              "answer": "Glycolysis: 1. The process of glycolysis occurs in the cytoplasm of the cell. 2. In glycolysis, one molecule of glucose is oxidised step-by- step to produce two molecules each of pyruvic acid, ATP, NADH2 and water. 3. Glycolysis can take place in both aerobic and anaerobic respiration. 4. The first step in cellular respiration is glycolysis where glucose is converted into pyruvate. 5. Two molecules of pyruvate are obtained in glycolysis. Glycolysis 6. Two molecules of ATP are 6. ATP m used up in glycolysis. up in 7. Four molecules of ATP are 7. Two m produced in glycolysis. produ 8. CO2 is not produced during 8. CO2 i glycolysis.  |  TCA cycle: 1. TCA cycle takes place in mitochondria. 2. In TCA cycle, molecule of Acetyl Co-A is completely oxidised and in the process CO2, H2O, NADH2, FADH2 and ATP is produced. 3. TCA cycle takes place only during aerobic respiration. 4. The second step in cellular respiration is TCA cycle. 5. Pyruvate is converted into CO2 and H2O during TCA cycle. TCA cycle olecules are not used TCA cycle. olecules of ATP are ced in TCA cycle. s produced in TCA cycle."
+            },
+            {
+              "id": "a-9-2-2",
+              "question": "Aerobic and Anaerobic respiration",
+              "answer": "(Nov. ’20) (2 marks) Aerobic respiration Anaerobic respiration 1. Oxygen is required for aerobic 1. Oxygen is not required for respiration. anaerobic respiration. 2. Aerobic respiration takes 2. Anaerobic respiration occurs place in nucleus as well as in only in the cytoplasm. cytoplasm. 3. At the end of aerobic 3. At the end of anaerobic respiration, CO2 and H2O is respiration, CO2 and C2H5OH formed. are formed. 4. Energy is produced in large 4. Energy is produced in amount in aerobic respiration. lesser amount in anaerobic respiration. 5. Glucose is completely oxidised 5. Glucose is incompletely in aerobic respiration. oxidised in anaerobic respiration. 6. 38 molecules of ATP are formed 6. 2 molecules of ATP are formed during aerobic respiration. during anaerobic respiration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set10",
+      "type": "answer_sets",
+      "title": "Q. Set 10 : Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-2-10",
+          "entries": [
+            {
+              "id": "a-10-2-1",
+              "question": "• Explain the Krebs cycle with reaction. (2 marks)",
+              "answer": "(1) Krebs cycle was proposed by Sir Hans Kreb. This cycle is named after him. It is also called tricarboxylic acid cycle or citric acid cycle.\n\n(2) The acetyl coenzyme-A molecules enter the mitochondria located in the cytoplasm.\n\n(3) They participate in the chemical reactions taking place in Krebs cycle.\n\n(4) In the cyclic chemical reactions, acetyl coenzyme-A is completely oxidised.\n\n(5) It yields molecules of CO2, H2O, NADH2, FADH2 and ATP upon complete oxidation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set11",
+      "type": "answer_sets",
+      "title": "Q. Set 11 : Explanations and Concepts",
+      "answerGroups": [
+        {
+          "id": "g-2-11",
+          "entries": [
+            {
+              "id": "a-11-2-1",
+              "question": "(1) Oral rehydration solution (Salt-sugar-water) is frequently given to persons experiencing loose motions.",
+              "answer": "(1) Loose motions cause lot of loss of water from the body.\n\n(2) This may result in dehydration. This can be lethal if ignored.\n\n(3) Especially in case of young children this is a very serious fatal problem.\n\n(4) Thus, to bring back the normal proportion of water and electrolytes, oral rehydration solution or ORS is given to the patient who suffers from loose motions."
+            },
+            {
+              "id": "a-11-2-2",
+              "question": "(2) After complete oxidation of a glucose molecules, 38 number of ATP molecules are formed.",
+              "answer": "III. Glycolysis : No. of ATP molecules formed = 4 No. of ATP molecules used = 2 III. Krebs cycle : No. of ATP molecules formed = 2 III. ETC Reaction : NADH2 : 10 NAD2 × 3 ATP = 30 ATP FADH2 : 2 FADH2 × 2 ATP = 4 ATP ATP Total ATP molecules produced = (4 + 2 + 34) = 40 ATP ATP molecules used = 2 ATP Therefore, total ATP molecules = 38 ATP"
+            },
+            {
+              "id": "a-11-2-3",
+              "question": "(3) Excess of carbohydrates are stored in liver and muscles in the form of glycogen.",
+              "answer": "The carbohydrates which are not used to produce energy cannot be stored in the body in the form of glucose. This glucose is therefore converted into complex compound called glycogen. Glycogen is stored in muscles and liver."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set13",
+      "type": "answer_sets",
+      "title": "Q. Set 13 : Diagram-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-2-13",
+          "entries": [
+            {
+              "id": "a-13-2-1",
+              "question": "(1) Sketch and label the diagram to show ATP – the energy currency of the cell. (2 marks)",
+              "answer": "Adenosine Triphosphate Adenosine Diphosphate Adenine Adenine Phosphate bonds Inorganic with more energy Phosphate Ribose Ribose Energy released ATP – the Energy Currency"
+            },
+            {
+              "id": "a-13-2-2",
+              "question": "(2) With the help of given diagram, answer the following questions : (2 marks) Pyruvic acid Fatty acids Acetyl-Co-A Krebs cycle Outer Mitochondrial membrane Inner membrane matter Mitochondria and Tri-carboxylic acid cycle (a) Which co-enzymes are shown in the diagram? (b) Which chemical reaction takes place in the mitochondria? Which molecules are produced in this reaction ? OR Sketch and label mitochondria showing TCA cycle.",
+              "answer": "(a) The co-enzymes NADH2 and FADH2 are shown in the above diagram. (b) The chemical reaction that takes place in the mitochondria is called Electronic Transport Chain reaction. The molecules of H2O, carbon dioxide and energy in the form of ATP are produced in this reaction."
+            },
+            {
+              "id": "a-13-2-3",
+              "question": "(3) Draw a neat and labelled diagram of mitochondria and tri-carboxylic acid cycle. (July ’23) (2 marks)",
+              "answer": "Draw a mitochondrion and show the tricarboxylic acid (TCA/Krebs) cycle in its matrix. Label the outer membrane, inner membrane, cristae and matrix. In the cycle, show acetyl-CoA combining with oxaloacetic acid to form citric acid; the reactions release carbon dioxide and produce NADH₂, FADH₂ and ATP, while regenerating oxaloacetic acid.",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-13-2-4",
+              "question": "(4) Label the diagram below. Which phase of cell division is seen in the diagram given below? (3 marks)",
+              "answer": "(Answers are given directly in bold.) Centriole Chromosome of daughter cell Nuclear membrane Nucleolus The diagram given above shows Telophase-II of Meiosis-II."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set14",
+      "type": "answer_sets",
+      "title": "Q. Set 14 : Concept Diagrams, Tables and Chart-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-2-14",
+          "entries": [
+            {
+              "id": "a-14-2-1",
+              "question": "(1) Complete the given chart : (July ’23) (3 marks)",
+              "answer": "(Answers are directly given and underlined.) Sr. No. Body Constituents Proteins/Amino acids 1. Blood Haemoglobin/Antibodies 2. Bones Ossein 3. Skin Melanin/Keratin 4. Pancreas Insulin 5. Muscle Actin/Myosin 6. Cell Various proteins of cell membrane",
+              "questionTag": "July ’23"
+            },
+            {
+              "id": "a-14-2-2",
+              "question": "(2) Complete the chart : (March ’23) (3 marks)",
+              "answer": "(Answers are directly given and underlined.) Sr. No. Proteins Name of the organs 1. Melanin, Keratin Skin 2. Insulin, Trypsin Pancreas 3. Haemoglobin, antibodies Blood",
+              "questionTag": "March ’23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set15",
+      "type": "answer_sets",
+      "title": "Q. Set 15 : Complete the Paragraph",
+      "answerGroups": [
+        {
+          "id": "g-2-15",
+          "entries": [
+            {
+              "id": "a-15-2-1",
+              "question": "Q. (gamete, crossing over, haploid, Meiosis-II, meiosis-I, diploid) is just like mitosis. In this stage, the two haploid daughter cells formed in undergo division by separation of recombined sister chromatids and four daughter cells are formed. Process of production and spore formation occurs by meiosis. In this type of cell division, four haploid (n) daughter cells are formed from one cell. During this cell division, occurs between the homologous chromosomes.",
+              "answer": "Meiosis-II is just like mitosis. In this stage, the two haploid daughter cells formed in meiosis-I undergo division by separation of recombined sister chromatids and four haploid daughter cells are formed. Process of gamete production and spore formation occurs by meiosis. In this type of cell division, four haploid (n) daughter cells are formed from one diploid cell. During this cell division, crossing over occurs between the homologous chromosomes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set16",
+      "type": "answer_sets",
+      "title": "Q. Set 16 : Paragraph-Based Questions",
+      "answerGroups": [
+        {
+          "id": "g-2-16",
+          "entries": [
+            {
+              "id": "a-16-2-1",
+              "question": "(1) Which food items provide rich fibre content?",
+              "answer": "Fruits, vegetables, whole grains and legumes give rich amount of dietary fibre."
+            },
+            {
+              "id": "a-16-2-2",
+              "question": "(2) Enlist the advantages of fibres in diet.",
+              "answer": "Fibres help to relieve constipation and help in maintaining a healthy weight and lowering risk of diabetes, heart disease and some types of cancer."
+            },
+            {
+              "id": "a-16-2-3",
+              "question": "(3) What is a roughage?",
+              "answer": "Roughage is the fibre content of the food which consists of plant matter which cannot be digested by the human enzymes, hence form undigested bulk matter in the faeces."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set18",
+      "type": "answer_sets",
+      "title": "Q. Set 18 : Answer the Questions – 1",
+      "answerGroups": [
+        {
+          "id": "g-2-18",
+          "entries": [
+            {
+              "id": "a-18-2-1",
+              "question": "(1) Many players are seen consuming some food stuffs during breaks of the game. Why may be the players consuming these food stuffs?",
+              "answer": "(1) Players require energy in greater amount.\n\n(2) They perspire heavily at the time of game or sport which results in the loss of water and electrolytes from their body.\n\n(3) This may affect their performance in sport. To prevent such unfavourable effect, they are given juices or drinks.\n\n(4) This helps them to restore the balance of water and electrolytes in their body. It also gives enhanced energy required for the performance."
+            },
+            {
+              "id": "a-18-2-2",
+              "question": "(2) Write the forms to which the following food materials are converted after digestion : (a) Milk (b) Potato (c) Oil (d) Chapati.",
+              "answer": "(a) Milk : Proteins (caesin) are converted into amino acids. Lactose sugar is converted into glucose. Lipids are converted into fatty acids and glycerol. (b) Potato : Carbohydrates (starch) are converted into glucose. (c) Oil : Lipids are converted into fatty acids and glycerol. (d) Chapati : Carbohydrates (starch) are converted into glucose."
+            },
+            {
+              "id": "a-18-2-3",
+              "question": "(3) Which molecules are formed after whole oxidation of acetyl-co-enzyme A ?",
+              "answer": "By the process of Krebs cycle, acetyl-Co-A is oxidised forming CO2, H2O, NADH2, FADH2 and molecules of ATP."
+            },
+            {
+              "id": "a-18-2-4",
+              "question": "(4) Write uses of fatty acids.",
+              "answer": "(1) Fatty acids are very essential for the health.\n\n(2) After digestion, fatty acids are absorbed into the blood and transported to the cells.\n\n(3) Different types of cells produce their own substances from these fatty acids. e.g. (a) Plasma membrane is produced from phospholipids. (b) Hormones like testosterone, progesterone, estrogen, aldosterone are produced from fatty acids. (c) The axonal coverings around the neurons are also made from fatty acids."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-2-set19",
+      "type": "answer_sets",
+      "title": "Q. Set 19 : Answer the Questions – 2",
+      "answerGroups": [
+        {
+          "id": "g-2-19",
+          "entries": [
+            {
+              "id": "a-19-2-1",
+              "question": "(1) Write any four stages of mitosis and explain any two of them. (March ’25) (3 marks)",
+              "answer": "Four stages of mitosis are as follows :\n\n(1) Prophase\n\n(2) Metaphase\n\n(3) Anaphase\n\n(4) Telophase Explanation :\n\n(1) Prophase : During prophase, condensation of chromosomes starts. The thin and thread like chromosomes start thickening. They are seen with their pair of sister chromatids. In animal cells, the centrioles are seen to duplicate and move to opposite poles of the cell. Nuclear membrane and nucleolus disappear.\n\n(2) Metaphase : Chromosomes complete their condensation and each one is seen with its sister chromatids. The chromosomes are seen in equatorial plane of the cell. The spindle fibres are formed from polar region, where centrioles are present, and they attach themselves to the centromere of each chromosome. Nuclear membrane now disappears completely.\n\n(3) Anaphase : The centromeres of the chromosomes now divide forming two daughter chromosomes. The spindle fibres pull apart the chromosomes from equatorial region to the opposite poles. Chromosomes moving to the poles appear like bunch of bananas. One set of chromosomes reach each pole by the end of the anaphase.\n\n(4) Telophase : Telophase is reverse of events that occurred in prophase. The thickened chromosomes decondense. They again assume the thin and thread like appearance. Nuclear membrane and nucleolus appear again. The spindle fibres are completely lost. The cell looks as if it has two nuclei in one cytoplasm.",
+              "questionTag": "March ’25"
+            },
+            {
+              "id": "a-19-2-2",
+              "question": "(2) Explain the glycolysis in detail. (5 marks)",
+              "answer": "(1) Carbohydrates are converted to glucose after the process of digestion is completed. The oxidation of glucose for releasing energy is called glycolysis which takes place in cytoplasm.\n\n(2) Glycolysis can occur in presence of oxygen or without oxygen too. The first type of glycolysis takes place in aerobic respiration and the second type is in anaerobic respiration.\n\n(3) In aerobic respiration, there is step-wise oxidation of glucose molecule forming two molecules each of pyruvic acid, ATP, NADH2 and water.\n\n(4) Later the pyruvic acid formed in this process is converted into molecules of Acetyl-Coenzyme-A along with two molecules of NADH2 and two molecules of CO2.\n\n(5) During anaerobic respiration along with glycolysis there is fermentation too. This is incomplete oxidation of glucose and thus it results in formation of lesser energy.\n\n(6) The process of glycolysis was discovered by Gustav Embden, Otto Meyerhof and Jacob Parnas. Therefore, in their honour, glycolysis is also called as Embden-Meyerhof-Parnas pathway (EMP pathway). For the discovery they had performed experiments on muscles."
+            },
+            {
+              "id": "a-19-2-3",
+              "question": "(3) Answer the following questions : (July ’22) (3 marks) (a) Write two sources of lipids. (b) How much energy is obtained from lipids ? (c) What is produced after digestion of lipids ?",
+              "answer": "(a) Sources of lipids : Oil, butter, ghee. (b) 9 kcal/gm of lipid. (c) After digestion of lipid, fatty acid and glycerol are formed.",
+              "questionTag": "July ’22"
+            },
+            {
+              "id": "a-19-2-4",
+              "question": "(4) (a) What are vitamins? (March ’24) (3 marks) (b) Classify them according to their solubility. (c) Give one example of each type as per above classification.",
+              "answer": "(a) Vitamins are a group of heterogeneous compounds essential for proper functioning of the body. (b) Fat soluble vitamins and water soluble vitamins. (c) Fat soluble vitamins : A, D, E, K. Water soluble Vitamin : B and C.",
+              "questionTag": "March ’24"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-2-1",
+      "front": "Energy from one gram of lipid",
+      "back": "9 kcal.",
+      "order": 1
+    },
+    {
+      "id": "fc-2-2",
+      "front": "Energy from one gram of protein",
+      "back": "4 kcal.",
+      "order": 2
+    },
+    {
+      "id": "fc-2-3",
+      "front": "Cellular respiration",
+      "back": "Oxidation of glucose and other food components inside the cell, in presence or absence of oxygen.",
+      "order": 3
+    },
+    {
+      "id": "fc-2-4",
+      "front": "Where does glycolysis take place and what does it produce?",
+      "back": "In the cytoplasm; one glucose gives two pyruvic acid molecules, ATP and NADH2 (2 ATP used, 4 produced).",
+      "order": 4
+    },
+    {
+      "id": "fc-2-5",
+      "front": "Krebs (TCA) cycle",
+      "back": "Takes place in mitochondria; Acetyl Co-A is completely oxidised to CO2, H2O, NADH2, FADH2 and ATP.",
+      "order": 5
+    },
+    {
+      "id": "fc-2-6",
+      "front": "ATP from the electron transfer chain",
+      "back": "3 ATP from each NADH2 and 2 ATP from each FADH2.",
+      "order": 6
+    },
+    {
+      "id": "fc-2-7",
+      "front": "Total ATP from complete oxidation of one glucose molecule",
+      "back": "38 ATP (aerobic respiration).",
+      "order": 7
+    },
+    {
+      "id": "fc-2-8",
+      "front": "Fermentation",
+      "back": "Conversion of pyruvic acid formed in glycolysis into other organic acids or alcohol with the help of enzymes.",
+      "order": 8
+    },
+    {
+      "id": "fc-2-9",
+      "front": "End products of anaerobic respiration in yeast",
+      "back": "CO2 and ethanol (C2H5OH), with only 2 ATP.",
+      "order": 9
+    },
+    {
+      "id": "fc-2-10",
+      "front": "Which vitamin is needed to make NADH2?",
+      "back": "Vitamin B3.",
+      "order": 10
+    },
+    {
+      "id": "fc-2-11",
+      "front": "Why are fibres important in the diet?",
+      "back": "They are indigestible, help egestion and aid digestion of other substances (green leafy vegetables, fruits, cereals).",
+      "order": 11
+    },
+    {
+      "id": "fc-2-12",
+      "front": "Karyokinesis and cytokinesis",
+      "back": "Karyokinesis is division of the nucleus; cytokinesis is division of the cytoplasm.",
+      "order": 12
+    }
+  ],
+  "quiz": [
+    {
+      "id": "quiz-2-1",
+      "qType": "mcq",
+      "question": "We get ____ of energy from one gram of lipid.",
+      "options": [
+        "9 cal",
+        "4 kcal",
+        "4 cal",
+        "9 kcal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Lipids give 9 kcal per gram.",
+      "order": 1
+    },
+    {
+      "id": "quiz-2-2",
+      "qType": "mcq",
+      "question": "How many ATP molecules are formed after complete oxidation of one glucose molecule?",
+      "options": [
+        "14",
+        "28",
+        "29",
+        "38"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Aerobic respiration yields 38 ATP.",
+      "order": 2
+    },
+    {
+      "id": "quiz-2-3",
+      "qType": "mcq",
+      "question": "Which vitamin is necessary for the synthesis of NADH2?",
+      "options": [
+        "Vitamin B1",
+        "Vitamin B3",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NADH2 is formed with the help of Vitamin B3.",
+      "order": 3
+    },
+    {
+      "id": "quiz-2-4",
+      "qType": "mcq",
+      "question": "Bones contain which protein?",
+      "options": [
+        "Melanin",
+        "Haemoglobin",
+        "Ossein",
+        "Insulin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ossein is the protein of bones.",
+      "order": 4
+    },
+    {
+      "id": "quiz-2-5",
+      "qType": "mcq",
+      "question": "Glycolysis and ____ are two steps of anaerobic respiration.",
+      "options": [
+        "Krebs cycle",
+        "Electron transfer chain",
+        "Fermentation",
+        "Reduction"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Anaerobic respiration = glycolysis + fermentation.",
+      "order": 5
+    },
+    {
+      "id": "quiz-2-6",
+      "qType": "mcq",
+      "question": "In mitosis, chromosomes line up on the equatorial plane in which phase?",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Metaphase is the phase of alignment.",
+      "order": 6
+    },
+    {
+      "id": "quiz-2-7",
+      "qType": "true_false",
+      "question": "True or False?",
+      "statement": "In aerobic respiration, glucose is oxidised in three steps.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycolysis, TCA cycle and electron transfer chain.",
+      "order": 7
+    },
+    {
+      "id": "quiz-2-8",
+      "qType": "fill_blank",
+      "question": "Fill in the blank.",
+      "sentence": "Division of the cytoplasm is called ____.",
+      "wordBank": [
+        "cytokinesis",
+        "karyokinesis",
+        "fermentation",
+        "glycolysis"
+      ],
+      "correctWord": "cytokinesis",
+      "options": [
+        "cytokinesis",
+        "karyokinesis",
+        "fermentation",
+        "glycolysis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Karyokinesis divides the nucleus; cytokinesis divides the cytoplasm.",
+      "order": 8
+    },
+    {
+      "id": "quiz-2-9",
+      "qType": "match",
+      "question": "Match the process with its site.",
+      "left": [
+        "Glycolysis",
+        "Krebs cycle",
+        "Anaerobic respiration"
+      ],
+      "right": [
+        "Mitochondria",
+        "Only in cytoplasm",
+        "Cytoplasm"
+      ],
+      "answerKey": [
+        2,
+        0,
+        1
+      ],
+      "options": [
+        "Mitochondria",
+        "Only in cytoplasm",
+        "Cytoplasm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycolysis occurs in the cytoplasm and the TCA cycle in mitochondria.",
+      "order": 9
+    }
+  ]
+}

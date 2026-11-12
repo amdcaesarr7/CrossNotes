@@ -1,0 +1,704 @@
+{
+  "id": "ch6",
+  "num": 6,
+  "title": "Entertainment and History",
+  "emoji": "🎭",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter examines human entertainment through the lens of history, underscoring its role in emotional rejuvenation and cultural expression. It studies Maharashtra's folk theatrical and musical heritage — Bhajan, Keertan, Lalit, Bharud, Tamasha, Powada, and Dashavatara — alongside the evolution of modern Marathi drama and Indian cinema, highlighting lucrative professional careers for historians in entertainment media.",
+    "youWillLearn": [
+      "Understand the psychological and social necessity of entertainment in human history",
+      "Explore folk devotional and narrative arts: Keertan, Bhajan, Bharud, and Powada",
+      "Trace the evolution of folk theatre: Dashavatara, Tamasha, and Lalit in Maharashtra",
+      "Learn about the birth of modern Marathi drama from Vishnudas Bhave to Sangeet Natak",
+      "Discover career opportunities for historians in theatre, scriptwriting, and cinema art direction"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "The first Indian feature film was ______.\n(A) Raja Harishchandra (B) Alam Ara (C) Mother India (D) Sholay",
+      "qnaAnswer": "Correct Answer: (A) Raja Harishchandra"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "The first Indian talkie film was ______.\n(A) Raja Harishchandra (B) Alam Ara (C) Mother India (D) Sholay",
+      "qnaAnswer": "Correct Answer: (B) Alam Ara"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "Dadasaheb Phalke is known as the father of ______.\n(A) Indian cinema (B) Indian theatre (C) Indian music (D) Indian dance",
+      "qnaAnswer": "Correct Answer: (A) Indian cinema"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "'Tamasha' is a traditional form of entertainment from ______.\n(A) Maharashtra (B) Gujarat (C) Rajasthan (D) Bengal",
+      "qnaAnswer": "Correct Answer: (A) Maharashtra"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "______ is a traditional form of folk theatre from Maharashtra.\n(A) Tamasha (B) Yakshagana (C) Kathakali (D) Bhavai",
+      "qnaAnswer": "Correct Answer: (A) Tamasha"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Item",
+        "Description",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "Raja Harishchandra",
+          "First Indian feature film",
+          "Correct"
+        ],
+        [
+          "Alam Ara",
+          "First Indian talkie film",
+          "Correct"
+        ],
+        [
+          "Dadasaheb Phalke",
+          "Father of Indian cinema",
+          "Correct"
+        ],
+        [
+          "Tamasha",
+          "Folk theatre of Maharashtra",
+          "Correct"
+        ],
+        [
+          "Yakshagana",
+          "Folk theatre of Tamil Nadu",
+          "WRONG — Yakshagana is from Karnataka."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Entertainment Forms",
+      "content": "Entertainment Forms → Folk Theatre → Cinema → Music → Dance → Television → Digital Media",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Indian Cinema",
+      "question": "Explain the following concept: Indian Cinema",
+      "qnaAnswer": "\n1. Indian cinema is one of the largest film industries in the world.\n2. The first Indian feature film was 'Raja Harishchandra' (1913), directed by Dadasaheb Phalke.\n3. The first Indian talkie film was 'Alam Ara' (1931).\n4. Indian cinema has played an important role in shaping cultural and social values.\n5. It has produced many internationally acclaimed filmmakers and actors.",
+      "important": true
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Folk Theatre",
+      "question": "Explain the following concept: Folk Theatre",
+      "qnaAnswer": "\n1. Folk theatre is a traditional form of entertainment that has been passed down through generations.\n2. It is closely linked to the cultural and social life of a region.\n3. Examples: Tamasha (Maharashtra), Yakshagana (Karnataka), Bhavai (Gujarat), Kathakali (Kerala).\n4. Folk theatre often combines music, dance, and drama.\n5. It is an important part of India's cultural heritage.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Tamasha",
+      "question": "Explain the following concept: Tamasha",
+      "qnaAnswer": "\n1. Tamasha is a traditional form of folk theatre from Maharashtra.\n2. It combines music, dance, and drama.\n3. It is performed by a group of artists known as 'Tamasha Mandal'.\n4. It is known for its energetic performances and humorous content.\n5. It has been an important part of Maharashtra's cultural heritage.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n16",
+      "type": "qna",
+      "title": "Short Note: Dadasaheb Phalke",
+      "question": "Write a short note on: Dadasaheb Phalke",
+      "qnaAnswer": "\n1. Dadasaheb Phalke (1870-1944) is known as the father of Indian cinema.\n2. He directed the first Indian feature film 'Raja Harishchandra' in 1913.\n3. He was a pioneer of the Indian film industry.\n4. He made over 90 films in his career.\n5. The Dadasaheb Phalke Award, India's highest award in cinema, is named after him.",
+      "important": true
+    },
+    {
+      "id": "n17",
+      "type": "qna",
+      "title": "Short Note: Alam Ara",
+      "question": "Write a short note on: Alam Ara",
+      "qnaAnswer": "\n1. 'Alam Ara' was the first Indian talkie film.\n2. It was released in 1931.\n3. It was directed by Ardeshir Irani.\n4. It marked the beginning of the talkie era in Indian cinema.\n5. It was a major commercial success and revolutionized the Indian film industry.",
+      "important": true
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Folk Theatre of India",
+      "question": "Write a short note on: Folk Theatre of India",
+      "qnaAnswer": "\n1. Folk theatre is a traditional form of entertainment in India.\n2. It is closely linked to the cultural and social life of a region.\n3. Examples: Tamasha (Maharashtra), Yakshagana (Karnataka), Bhavai (Gujarat), Kathakali (Kerala).\n4. Folk theatre often combines music, dance, and drama.\n5. It is an important part of India's cultural heritage.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Indian Television",
+      "question": "Write a short note on: Indian Television",
+      "qnaAnswer": "\n1. Television is a popular medium of entertainment in India.\n2. Doordarshan was established in 1959.\n3. Colour television was introduced in 1982.\n4. Today, India has one of the largest television markets in the world.\n5. Television has played an important role in shaping popular culture and social values.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "History of Indian Cinema",
+      "question": "Explain the history of Indian cinema.",
+      "qnaAnswer": "\n1. The first Indian feature film 'Raja Harishchandra' was made in 1913 by Dadasaheb Phalke.\n2. The first Indian talkie film 'Alam Ara' was released in 1931.\n3. The 1950s and 1960s are considered the golden age of Indian cinema.\n4. Indian cinema has produced many internationally acclaimed filmmakers like Satyajit Ray, Ritwik Ghatak, and Mrinal Sen.\n5. Today, India has one of the largest film industries in the world."
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "Relationship Between Entertainment and History",
+      "question": "Explain the relationship between entertainment and history.",
+      "qnaAnswer": "\n1. Entertainment forms reflect the cultural and social values of their time.\n2. They serve as a mirror of society and can be used to understand historical periods.\n3. Historical events and personalities are often depicted in films, plays, and television shows.\n4. Entertainment also shapes public opinion and historical narratives.\n5. It is an important source of historical information."
+    },
+    {
+      "id": "n23",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n24",
+      "type": "qna",
+      "title": "[IMPORTANT] Types of Entertainment",
+      "question": "Describe the various types of entertainment in India.",
+      "qnaAnswer": "\n1. Folk Theatre: Tamasha (Maharashtra), Yakshagana (Karnataka), Bhavai (Gujarat).\n2. Cinema: Bollywood, regional cinema, art cinema.\n3. Music: Classical (Hindustani and Carnatic), folk, film music.\n4. Dance: Classical (Bharatanatyam, Kathakali, etc.) and folk dances.\n5. Television: Serials, reality shows, news, sports.\n6. Digital Media: Social media, streaming platforms, online games.",
+      "important": true
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "[IMPORTANT] Dadasaheb Phalke's Contribution",
+      "question": "What was Dadasaheb Phalke's contribution to Indian cinema?",
+      "qnaAnswer": "\n1. Dadasaheb Phalke directed the first Indian feature film 'Raja Harishchandra' in 1913.\n2. He is known as the father of Indian cinema.\n3. He made over 90 films in his career.\n4. He was a pioneer in the use of special effects and animation in Indian cinema.\n5. The Dadasaheb Phalke Award is named after him.",
+      "important": true
+    },
+    {
+      "id": "fig-6-bhajan_tradition",
+      "type": "figure",
+      "title": "Saints Who Popularised Bhajan Traditions Across India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+U2FpbnRzIFdobyBQb3B1bGFyaXNlZCBCaGFqYW5zIGluIEluZGlhPC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjY0Ny4zIiB5Mj0iMTgzLjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI1NTIuOCIgeTI9IjMzNC4yIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMjQ3LjIiIHkyPSIzMzQuMiIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE1Mi43IiB5Mj0iMTgzLjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI1Ny4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI3OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk1haGFyYXNodHJhPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSI5NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNhbnQgVHVrZG9qaSBNYWhhcmFqIChLaGFuamlyaSBCaGFqYW4pPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TYW50IE5hbWRldiAmIFR1a2FyYW08L3RleHQ+PHJlY3QgeD0iNTU3LjMiIHk9IjE1MC4zIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY0Ny4zIiB5PSIxNzIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5HdWphcmF0PC90ZXh0Pjx0ZXh0IHg9IjY0Ny4zIiB5PSIxODcuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TYW50IE5hcnNpIE1laHRhPC90ZXh0Pjx0ZXh0IHg9IjY0Ny4zIiB5PSIyMDIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oVmFpc2huYXZhIEphbiBUbyk8L3RleHQ+PHJlY3QgeD0iNDYyLjgiIHk9IjMwMS4yIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjU1Mi44IiB5PSIzMjMuMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5LYXJuYXRha2E8L3RleHQ+PHRleHQgeD0iNTUyLjgiIHk9IjMzOC4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNhbnQgUHVyYW5kYXJkYXMgJjwvdGV4dD48dGV4dCB4PSI1NTIuOCIgeT0iMzUzLjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+S2FuYWthZGFzPC90ZXh0PjxyZWN0IHg9IjE1Ny4yIiB5PSIzMDEuMiIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyNDcuMiIgeT0iMzIzLjIiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Tm9ydGggSW5kaWE8L3RleHQ+PHRleHQgeD0iMjQ3LjIiIHk9IjMzOC4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNhbnQgVHVsc2lkYXMsIFN1cmRhcyw8L3RleHQ+PHRleHQgeD0iMjQ3LjIiIHk9IjM1My4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkthYmlyICYgTWlyYWJhaTwvdGV4dD48cmVjdCB4PSI2Mi43IiB5PSIxNTAuMyIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNTIuNyIgeT0iMTcyLjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+VGFtaWwgTmFkdTwvdGV4dD48dGV4dCB4PSIxNTIuNyIgeT0iMTg3LjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QWx2YXJzICYgTmF5YW5hcnM8L3RleHQ+PHRleHQgeD0iMTUyLjciIHk9IjIwMi4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihCaGFrdGkgRGV2b3Rpb24pPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5CaGFqYW48L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5UcmFkaXRpb248L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of saints who popularized bhajans across Indian states",
+      "figureCaption": "Bhakti movement saints who democratized devotion and music through congregational bhajans"
+    },
+    {
+      "id": "fig-6-marathi_plays",
+      "type": "figure",
+      "title": "Pioneering Marathi Musical Plays and Playwrights",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+RmFtb3VzIE1hcmF0aGkgTXVzaWNhbCBQbGF5cyAmIFdyaXRlcnM8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjQ3LjMiIHkyPSIxODMuMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjU1Mi44IiB5Mj0iMzM0LjIiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIyNDcuMiIgeTI9IjMzNC4yIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTUyLjciIHkyPSIxODMuMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz4KPHJlY3QgeD0iMzEwLjAiIHk9IjY1LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijg2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U2FuZ2VldCBTaGFrdW50YWw8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjEwMS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkFubmFzYWhlYiBLaXJsb3NrYXI8L3RleHQ+PHJlY3QgeD0iNTU3LjMiIHk9IjE1MC4zIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjY0Ny4zIiB5PSIxNzIuMyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5TYW5nZWV0IFNoYXJhZGE8L3RleHQ+PHRleHQgeD0iNjQ3LjMiIHk9IjE4Ny4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkdvdmluZCBCYWxsYWwgRGV2YWw8L3RleHQ+PHRleHQgeD0iNjQ3LjMiIHk9IjIwMi4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihDaGlsZCBtYXJyaWFnZSBpc3N1ZSk8L3RleHQ+PHJlY3QgeD0iNDYyLjgiIHk9IjMwMS4yIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjU1Mi44IiB5PSIzMjMuMiIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Nb29rbmF5YWs8L3RleHQ+PHRleHQgeD0iNTUyLjgiIHk9IjMzOC4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNocmlwYWQgS3Jpc2huYSBLb2xoYXRrYXI8L3RleHQ+PHRleHQgeD0iNTUyLjgiIHk9IjM1My4yIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihTb2NpYWwgcmVmb3JtICYgc2F0aXJlKTwvdGV4dD48cmVjdCB4PSIxNTcuMiIgeT0iMzA5LjIiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmVmOWMzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMjQ3LjIiIHk9IjMzMC43IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlNhbmdlZXQgTWFuYXBhbWFuPC90ZXh0Pjx0ZXh0IHg9IjI0Ny4yIiB5PSIzNDUuNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5LcmlzaG5hamkgUHJhYmhha2FyIEtoYWRpbGthcjwvdGV4dD48cmVjdCB4PSI2Mi43IiB5PSIxNTAuMyIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmY2U3ZjMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNTIuNyIgeT0iMTcyLjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RWthY2ggUHlhbGE8L3RleHQ+PHRleHQgeD0iMTUyLjciIHk9IjE4Ny4zIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlJhbSBHYW5lc2ggR2Fka2FyaTwvdGV4dD48dGV4dCB4PSIxNTIuNyIgeT0iMjAyLjMiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEV2aWxzIG9mIGFsY29ob2xpc20pPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5NYXJhdGhpPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+VGhlYXRyZTwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of landmark Marathi musical plays and dramatists",
+      "figureCaption": "Classical musical dramas (Sangeet Natak) that shaped Maharashtrian cultural consciousness"
+    },
+    {
+      "id": "fig-6-folk_theatre",
+      "type": "figure",
+      "title": "Traditional Folk Performing Arts of Maharashtra",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Rm9sayBQZXJmb3JtaW5nIEFydHMgb2YgTWFoYXJhc2h0cmE8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjM2MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI2NS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkRhc2hhdmF0YXJhPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oS29ua2FuICYgR29hIHJpdHVhbCBkcmFtYSBvbiBWaXNobnUgYXZhdGFycyk8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5UYW1hc2hhPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oU2FuZ2VldCBCYXJpICYgRGhvbGFraWNoYSBQaGFkIC8gVmFnKTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPktlZXJ0YW48L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihOYXJhYWRpeWEgJiBWYXJrYXJpIHNlcm1vbiBzdG9yeXRlbGxpbmcpPC90ZXh0PjxyZWN0IHg9IjMxMC4wIiB5PSIzMzUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iMzU2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QmhhcnVkPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNzEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oQWxsZWdvcmljYWwgc3Bpcml0dWFsIGF3YWtlbmluZyBieSBTYW50IEVrbmF0aCk8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlBvd2FkYTwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMzA0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEluc3BpcmF0aW9uYWwgYmFsbGFkcyBjZWxlYnJhdGluZyB3YXJyaW9yIHZhbG9yKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TGFsaXQ8L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihUaGVhdHJpY2FsIGludm9jYXRpb24gb2YgZGVpdHkgZHVyaW5nIGZlc3RpdmFscyk8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPk1haGFyYXNodHJhPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Rm9sayBUaGVhdHJlPC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of folk theatre forms in Maharashtra",
+      "figureCaption": "Rich diversity of dramatic, musical, and narrative folk traditions in Maharashtra"
+    },
+    {
+      "id": "answers-6-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-6-1",
+          "entries": [
+            {
+              "id": "a-6-1-1",
+              "question": "(1) Baburao Painter made the movie ______.\n(a) Pundalik\n(b) Raja Harishchandra\n(c) Sairandhri\n(d) Bajirao Mastani",
+              "answer": "Sairandhri. (Produced in 1920, it was hailed for its pioneering historical realism and art direction.)"
+            },
+            {
+              "id": "a-6-1-2",
+              "question": "(2) In the 18th century, ______ started a Phad of Dashavatara artists which used to perform all over Maharashtra.\n(a) Saint Gadge Maharaj\n(b) Adnyandas\n(c) Tulsidas\n(d) Shyamji Naik Kale",
+              "answer": "Shyamji Naik Kale. (He formed a roving troupe bringing the folk theatre of Konkan to inland Maharashtra.)"
+            },
+            {
+              "id": "a-6-1-3",
+              "question": "(3) Traditionally, ______ is supposed to be the founder of keertan tradition.\n(a) Saint Namdev\n(b) Saint Eknath\n(c) Naradmuni\n(d) Saint Gadge Maharaj",
+              "answer": "Naradmuni. (Sage Narada is mythologically regarded as the originator, while Saint Namdev institutionalized it in Maharashtra.)"
+            },
+            {
+              "id": "a-6-1-4",
+              "question": "(4) ______ is known as the 'Father of Marathi theatre'.\n(a) V. J. Kirtane\n(b) Dattopant Patwardhan\n(c) Vishnudas Bhave\n(d) Annasaheb Kirloskar",
+              "answer": "Vishnudas Bhave. (Staged 'Seeta Swayamvar' in 1843 under the patronage of the Raja of Sangli, launching modern Marathi drama.)"
+            },
+            {
+              "id": "a-6-1-5",
+              "question": "(5) The Government of India created a special division for making documentaries named as ______.\n(a) National Film Archive\n(b) Films Division\n(c) National Film and Library\n(d) National Filmistan",
+              "answer": "Films Division. (Established in 1948 to produce documentaries, educational shorts, and newsreels.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Identify and Write the Wrong Pair in the Following Sets",
+      "answerGroups": [
+        {
+          "id": "g-6-2",
+          "entries": [
+            {
+              "id": "a-6-2-1",
+              "question": "[Play — Playwright]\n(1) Keechakvadh — Krishnaji Prabhakar Khadilkar\n(2) Ekach Pyala — Ram Ganesh Gadkari\n(3) Ithe Oshalala Mrutyu — Vasant Kanetkar\n(4) Natasamrat — Vijay Tendulkar",
+              "answer": "Wrong pair: Natasamrat — Vijay Tendulkar. (Natasamrat was written by Kusumagraj / Vishnu Vaman Shirwadkar, whereas Vijay Tendulkar wrote 'Ghashiram Kotwal'.)",
+              "questionTag": "March '19"
+            },
+            {
+              "id": "a-6-2-2",
+              "question": "[Musical Play — Playwright]\n(1) Thorale Madhavrao Peshwe — V. J. Kirtane\n(2) Sangeet Shakuntal — Annasaheb Kirloskar\n(3) Sharada — Shripad Krishna Kolhatkar\n(4) Sangeet Manapaman — Krishnaji Prabhakar Khadilkar",
+              "answer": "Wrong pair: Sharada — Shripad Krishna Kolhatkar. (Sangeet Sharada was written by Govind Ballal Deval to highlight the evil of child marriage.)"
+            },
+            {
+              "id": "a-6-2-3",
+              "question": "[Performing Form — Personality]\n(1) Dashavatara — Tyagraj\n(2) Khanjiri Bhajan — Rashtrasant Tukdoji Maharaj\n(3) Keertan — Saint Namdev\n(4) Bharud — Saint Eknath",
+              "answer": "Wrong pair: Dashavatara — Tyagraj. (Tyagaraja was a legendary Carnatic musical composer, whereas Dashavatara is a folk theatrical tradition of Konkan.)",
+              "questionTag": "March '24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Do as Directed (Concept Maps & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-6-3",
+          "entries": [
+            {
+              "id": "a-6-3-1",
+              "question": "Complete the concept map: Saints who popularised Bhajans across different regions of India.",
+              "answer": "• Maharashtra: Sant Tukdoji Maharaj (Khanjiri Bhajan), Sant Namdev, Sant Tukaram.\n• Gujarat: Sant Narsi Mehta.\n• Karnataka: Sant Purandardas and Sant Kanakadas.\n• North India: Sant Tulsidas, Sant Surdas, Sant Kabir, and Mirabai."
+            },
+            {
+              "id": "a-6-3-2",
+              "question": "Complete the table: Famous Marathi Musical Plays and their Writers.",
+              "answer": "\n1. Sangeet Shakuntal: Annasaheb Kirloskar\n\n2. Sangeet Sharada: Govind Ballal Deval\n\n3. Mooknayak: Shripad Krishna Kolhatkar\n\n4. Sangeet Manapaman: Krishnaji Prabhakar Khadilkar"
+            },
+            {
+              "id": "a-6-3-3",
+              "question": "Complete the table comparing Keertan and Lalit:",
+              "answer": "• Keertan:\n  - Characteristics: Involves singing, oratory, moral preaching, and musical accompaniment (cymbals, harmonium). Divided into Poorvarang (theological thesis) and Uttarrang (illustrative moral narrative).\n  - Examples: Naraadiya Keertan, Varkari Keertan, Rashtriya Keertan, Satyashodhak Keertan.\n• Lalit:\n  - Characteristics: Traditional theatrical performance popular in Goa and Konkan. Staged during religious festivities where village deities are invoked to fulfill wishes; stories of Rama and Krishna are presented dramatically.\n  - Examples: Lalit performances during Gokulashtami and Shimga (Holi).",
+              "questionTag": "March '24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-6-4",
+          "entries": [
+            {
+              "id": "a-6-4-1",
+              "question": "(1) Need of Entertainment:",
+              "answer": "(1) Mental Relaxation: Healthy entertainment rejuvenates the mind, relieves tension, anxiety, and fatigue accumulated from daily mundane labor.\n(2) Physical and Emotional Well-being: Engaging in creative hobbies, sports, games, and drama elevates mood, infuses enthusiasm, and maintains vigor.\n(3) Personality Development: Performing arts sharpen focus, stimulate imaginative curiosity, and cultivate refined aesthetic taste.\n(4) Social Harmony: Community festivals, theatrical performances, and musical gatherings foster mutual affection, bonding, and cultural solidarity.",
+              "questionTag": "March '20"
+            },
+            {
+              "id": "a-6-4-2",
+              "question": "(2) Marathi Theatre:",
+              "answer": "(1) Origin: Modern Marathi theatre took root in 1843 when Vishnudas Bhave presented 'Seeta Swayamvar' at Sangli.\n(2) Historical Drama: Playwrights like V. J. Kirtane introduced historical themes with 'Thorale Madhavrao Peshwe' (1861).\n(3) Musical Plays (Sangeet Natak): Annasaheb Kirloskar popularized musical drama through 'Sangeet Shakuntal'. Govind Ballal Deval's 'Sharada' and Khadilkar's 'Keechakvadh' tackled urgent social and anti-colonial issues.\n(4) Modern Era: The post-independence era witnessed brilliant experimental dramatists like Acharya Atre, Vasant Kanetkar, Vijay Tendulkar, and P. L. Deshpande.",
+              "questionTag": "March '23"
+            },
+            {
+              "id": "a-6-4-3",
+              "question": "(3) Entertainment and Professional Opportunities:",
+              "answer": "(1) The theatre and film sectors generate massive employment for writers, directors, actors, cinematographers, sound technicians, and lighting experts.\n(2) Art directors and costume designers specializing in historical drama recreate period sets, architecture, vintage weapons, and historic hairstyles.\n(3) Scholars of history are engaged as expert consultants to verify script accuracy, authentic language dialects, and socio-cultural rituals.\n(4) Music arrangers, classical vocalists, instrumentalists, makeup artists, and choreographers find diverse opportunities in films, television shows, and theatrical troupes."
+            },
+            {
+              "id": "a-6-4-4",
+              "question": "(4) Tamasha (Folk theatre):",
+              "answer": "(1) Etymology & Evolution: Derived from a Persian word meaning 'pleasing spectacle', Tamasha emerged as a dominant folk theatre form in 18th-century Maharashtra during the Peshwa period.\n(2) Classification: Divided into two traditional forms — 'Sangeet Bari' (focused predominantly on dance and music) and 'Dholakicha Phad' (combining drama, humor, and dance).\n(3) Dramatic Structure: A full-fledged Tamasha begins with Gana (prayer to Lord Ganesha), followed by Gavalan (Krishna-Gopi episode), and culminates in the Vag (full-length dramatic narrative).\n(4) Modern Plays: Modern satirical folk dramas like 'Vichha Mazi Puri Kara' by Vasant Sabnis and 'Gadhavache Lagna' demonstrated Tamasha's enduring socio-political appeal.",
+              "questionTag": "Nov. '20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Explain the Following Statements with Reasons",
+      "answerGroups": [
+        {
+          "id": "g-6-5",
+          "entries": [
+            {
+              "id": "a-6-5-1",
+              "question": "(1) Expertise in history is important in the film industry.",
+              "answer": "(1) Historical movies and television serials require meticulous reconstruction of bygone eras.\n(2) Art directors need historical blueprints to recreate authentic palaces, battle camps, forts, and urban landscapes.\n(3) Dialogue writers and language experts must know the precise idioms, archaic vocabulary, and linguistic etiquette spoken during that historical period.\n(4) Costume and makeup stylists must design dresses, jewelry, turbans, and weaponry faithful to historical sources, making historical advisors indispensable.",
+              "questionTag": "March '25"
+            },
+            {
+              "id": "a-6-5-2",
+              "question": "(2) Bharuds composed by Saint Eknath are popular in Maharashtra.",
+              "answer": "(1) Saint Eknath composed Bharuds with the primary objective of instructing the common masses on moral ethics, spiritual wisdom, and righteous conduct.\n(2) His Bharuds encompass diverse human characters (astrologer, snake charmer, wandering mendicant, housewife), using lively rhythmic poetry.\n(3) The performance combines theatrical enactment, catchy rhythm, dramatic monologue, and witty humor.\n(4) By sugar-coating profound philosophical lessons in everyday humor and music, Eknath's Bharuds achieved perennial popularity across urban and rural Maharashtra.",
+              "questionTag": "March '19 - '23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Read the Passage and Answer the Questions",
+      "answerGroups": [
+        {
+          "id": "g-6-6",
+          "entries": [
+            {
+              "id": "a-6-6-1",
+              "question": "Read the extract on 'Dashavatara Theatre' and answer the following questions:\n\nExtract: Dashavatara is a traditional folk theatre form in the state of Maharashtra. Dashavatara shows are presented in the regions of Konkan and Goa after the agricultural harvesting season. The stories dramatized in Dashavatara are based on the ten divine incarnations of Lord Vishnu: Matsya, Kurma, Varaha, Narasimha, Vamana, Parashurama, Rama, Krishna, Buddha, and Kalki. At the start of the performance, the Sutradhara invokes Lord Ganesha. Characters representing deities wear ornate wooden masks. The show features spontaneous rhyming dialogues, musical accompaniment, and concludes with the breaking of a Dahihandi followed by Aarti.\n\nQuestions:\n(1) Dashavatara is part of which state's folk theatre?\n(2) Whom does the narrator invoke at the beginning of the show?\n(3) Explain the form and features of Dashavatara folk theatre.",
+              "answer": "(1) Dashavatara is an integral folk theatrical form of Maharashtra (specifically Konkan and Goa).\n\n(2) The Sutradhara (narrator) invokes Lord Ganesha at the beginning of the performance.\n\n(3) Features of Dashavatara folk theatre:\n• Based on the ten incarnations of Lord Vishnu presented through stylized makeup, wooden masks, and vibrant costumes.\n• The acting is highly musical and punctuated by spontaneous humorous dialogues.\n• The show concludes with the traditional ritual of breaking a Dahihandi accompanied by singing the deity's Aarti.",
+              "questionTag": "March '20; Nov. '20; March '24"
+            },
+            {
+              "id": "a-6-6-2",
+              "question": "Read the extract on 'Keertan Tradition' and answer the following questions:\n\nQuestions:\n(1) Who plays an important supportive role along with the Keertankar?\n(2) Which are the two main traditions of Keertan in Maharashtra?\n(3) Sant Gadge Maharaj's keertan closely resembled which style of keertan and threw light on which issues?",
+              "answer": "(1) The cymbal players (Taalkari) and harmonium/mridangam accompanists play an essential supportive role alongside the Keertankar.\n\n(2) The two primary traditions of Keertan in Maharashtra are Naraadiya (or Haridasi) Keertan and Varkari Keertan.\n\n(3) Sant Gadge Maharaj's keertan closely resembled the Satyashodhak style of keertan, using simple colloquial language to advocate the eradication of caste discrimination, public sanitation, promotion of education, and de-addiction from liquor.",
+              "questionTag": "July '23"
+            },
+            {
+              "id": "a-6-6-3",
+              "question": "Read the extract on 'Tamasha' and answer the following questions:\n\nQuestions:\n(1) From which language is the word 'Tamasha' derived?\n(2) What are the two traditional types of Tamasha?\n(3) Explain the modern presentation form of Tamasha.",
+              "answer": "(1) The word 'Tamasha' is derived from Persian, meaning 'a pleasing spectacle or sight'.\n\n(2) The two traditional types are Sangeet Bari (musical-dance concert) and Dholakicha Phad (comprehensive dramatic troupe).\n\n(3) The modern Tamasha performance begins with Gana (invocation to Ganesha), followed by Gavalan (song-and-dance dialogue between Krishna, cowherds, and milkmaids), and reaches its climax in the Vag (a full-length satirical, humorous, or political play).",
+              "questionTag": "Nov. '20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-6-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Answer the Following in Detail",
+      "answerGroups": [
+        {
+          "id": "g-6-7",
+          "entries": [
+            {
+              "id": "a-6-7-1",
+              "question": "(1) What is Powada? Explain its historical background and socio-political role.",
+              "answer": "(1) Definition: Powada is a dramatic poetic ballad that alternates between stirring musical verses and sharp prose dialogues, reciting heroic deeds in an inspiring, forceful style.\n(2) Historical Origin: The earliest celebrated Powadas were composed during the reign of Chhatrapati Shivaji Maharaj — poet Adnyandas composed a vivid Powada on the slaying of Afzal Khan (1659), and Tulsidas composed the heroic saga of Tanaji Malusare at Sinhagad.\n(3) Freedom Movement: In the British period, Shahirs composed Powadas on freedom fighters like Umaji Naik, the Chapekar Brothers, and Mahatma Gandhi.\n(4) Samyukta Maharashtra Movement: Shahir Amar Sheikh, Shahir Annabhau Sathe, and Shahir Gavankar used Powadas as explosive tools of mass awakening to mobilize public support for a unified Maharashtra.",
+              "questionTag": "March '25"
+            },
+            {
+              "id": "a-6-7-2",
+              "question": "(2) Explain the nature, structure, and tradition of Keertan in Maharashtra.",
+              "answer": "(1) Multidisciplinary Nature: Keertan is a composite devotional performing art combining oratory (public speaking), vocal music, dramatic acting, instrumental rhythm, and moral storytelling.\n(2) Founder: Sage Narada is traditionally considered the patron founder, while Saint Namdev institutionalized Keertan in Maharashtra, declaring: 'Naachu Keertanache Rangi, Dnyan Deep Laavu Jagi' (We shall dance to the rhythm of Keertan and light the lamp of knowledge across the world).\n(3) Two Structural Halves: In Naraadiya Keertan, the performance is structured into:\n• Poorvarang: Comprising Naman (invocation), Nirupanacha Abhang (theological poetic verse), and detailed spiritual exposition.\n• Uttarrang: A captivating mythological or biographical story told to illustrate the theological message of the Poorvarang.\n(4) Modern Traditions: Over time, new reformist traditions developed — Rashtriya Keertan (fostering patriotism during the independence movement) and Satyashodhak Keertan (educating the masses on social equality and rationality).",
+              "questionTag": "March '20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What was the first Indian feature film?",
+      "back": "Raja Harishchandra (1913)",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "What was the first Indian talkie film?",
+      "back": "Alam Ara (1931)",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "Who is the father of Indian cinema?",
+      "back": "Dadasaheb Phalke",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "What is Tamasha?",
+      "back": "A traditional folk theatre form from Maharashtra",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "Which is the folk theatre form of Karnataka?",
+      "back": "Yakshagana",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "When was Doordarshan established?",
+      "back": "1959",
+      "order": 6
+    },
+    {
+      "id": "fc-6-1",
+      "front": "Who is known as the Father of Marathi Theatre?",
+      "back": "Vishnudas Bhave (staged 'Seeta Swayamvar' in 1843).",
+      "order": 1
+    },
+    {
+      "id": "fc-6-2",
+      "front": "What is the traditional beginning of a Tamasha performance called?",
+      "back": "Gana (devotional invocation praising Lord Ganesha).",
+      "order": 2
+    },
+    {
+      "id": "fc-6-3",
+      "front": "What are the two structural parts of Naraadiya Keertan?",
+      "back": "Poorvarang (theological thesis) and Uttarrang (illustrative moral story).",
+      "order": 3
+    },
+    {
+      "id": "fc-6-4",
+      "front": "Who composed the historic Powada on Afzal Khan's encounter with Shivaji Maharaj?",
+      "back": "Shahir Adnyandas (1659).",
+      "order": 4
+    },
+    {
+      "id": "fc-6-5",
+      "front": "What social evil was dramatized in Govind Ballal Deval's play 'Sangeet Sharada'?",
+      "back": "The tragic consequences of child marriage and elderly grooms.",
+      "order": 5
+    },
+    {
+      "id": "fc-6-6",
+      "front": "Who composed Bharuds to educate masses about morality through humor?",
+      "back": "Saint Eknath.",
+      "order": 6
+    },
+    {
+      "id": "fc-6-7",
+      "front": "What are the ten avatars portrayed in Dashavatara folk theatre?",
+      "back": "Matsya, Kurma, Varaha, Narasimha, Vamana, Parashurama, Rama, Krishna, Buddha, Kalki.",
+      "order": 7
+    },
+    {
+      "id": "fc-6-8",
+      "front": "Which government body was founded in 1948 to produce documentary films in India?",
+      "back": "Films Division.",
+      "order": 8
+    },
+    {
+      "id": "fc-6-9",
+      "front": "Which prominent shahirs mobilized masses during the Samyukta Maharashtra Movement?",
+      "back": "Shahir Annabhau Sathe, Shahir Amar Sheikh, and Shahir D. N. Gavankar.",
+      "order": 9
+    },
+    {
+      "id": "fc-6-10",
+      "front": "What is 'Vag' in a Tamasha performance?",
+      "back": "The full-length dramatic script / play presented in the second half of a Tamasha.",
+      "order": 10
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The first Indian feature film was ______.",
+      "options": [
+        "Raja Harishchandra",
+        "Alam Ara",
+        "Mother India",
+        "Sholay"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Raja Harishchandra was the first Indian feature film.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "The first Indian talkie film was ______.",
+      "options": [
+        "Raja Harishchandra",
+        "Alam Ara",
+        "Mother India",
+        "Sholay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alam Ara was the first Indian talkie film.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "Dadasaheb Phalke is known as the father of ______.",
+      "options": [
+        "Indian cinema",
+        "Indian theatre",
+        "Indian music",
+        "Indian dance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dadasaheb Phalke is known as the father of Indian cinema.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "'Tamasha' is a traditional form of entertainment from ______.",
+      "options": [
+        "Maharashtra",
+        "Gujarat",
+        "Rajasthan",
+        "Bengal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tamasha is from Maharashtra.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "______ is a traditional form of folk theatre from Maharashtra.",
+      "options": [
+        "Tamasha",
+        "Yakshagana",
+        "Kathakali",
+        "Bhavai"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tamasha is a folk theatre form from Maharashtra.",
+      "order": 5
+    },
+    {
+      "id": "quiz-6-1",
+      "qType": "mcq",
+      "question": "Who is revered as the 'Father of Marathi Theatre'?",
+      "options": [
+        "Annasaheb Kirloskar",
+        "Vishnudas Bhave",
+        "Acharya Atre",
+        "Vasant Kanetkar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vishnudas Bhave staged Seeta Swayamvar in 1843, marking the birth of modern Marathi drama.",
+      "order": 1
+    },
+    {
+      "id": "quiz-6-2",
+      "qType": "mcq",
+      "question": "Which musical play was authored by Annasaheb Kirloskar?",
+      "options": [
+        "Sangeet Shakuntal",
+        "Sangeet Sharada",
+        "Keechakvadh",
+        "Ekach Pyala"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Annasaheb Kirloskar wrote the historic musical drama Sangeet Shakuntal.",
+      "order": 2
+    },
+    {
+      "id": "quiz-6-3",
+      "qType": "true_false",
+      "question": "Dashavatara shows in Maharashtra are primarily held in the Konkan and Goa regions.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Dashavatara is a quintessential folk theatrical tradition of Konkan and Goa presented after harvesting.",
+      "order": 3
+    },
+    {
+      "id": "quiz-6-4",
+      "qType": "fill_blank",
+      "question": "The opening prayer to Lord Ganesha in a traditional Tamasha performance is called ____.",
+      "options": [
+        "Gana",
+        "Gavalan",
+        "Vag",
+        "Lavani"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A Tamasha performance formally opens with Gana invoking Lord Ganesha.",
+      "order": 4
+    },
+    {
+      "id": "quiz-6-5",
+      "qType": "mcq",
+      "question": "Which saint is famous for composing didactic, humorous spiritual songs known as 'Bharuds'?",
+      "options": [
+        "Saint Namdev",
+        "Saint Dnyaneshwar",
+        "Saint Eknath",
+        "Saint Tukaram"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Saint Eknath composed popular Bharuds using humor and allegory to educate society.",
+      "order": 5
+    },
+    {
+      "id": "quiz-6-6",
+      "qType": "mcq",
+      "question": "The movie 'Sairandhri' (1920) was made by which pioneering Indian filmmaker?",
+      "options": [
+        "Dadasaheb Phalke",
+        "Baburao Painter",
+        "V. Shantaram",
+        "Dhirendranath Ganguly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Baburao Painter directed the silent historical film Sairandhri in 1920.",
+      "order": 6
+    }
+  ],
+  "part": 2,
+  "section": "History"
+}

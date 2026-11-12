@@ -1,0 +1,722 @@
+{
+  "id": "ch5",
+  "num": 5,
+  "title": "Mass Media and History",
+  "emoji": "📰",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter covers the historical journey and socio-political role of mass media. It begins with ancient communications (Acta Diurna, royal edicts), progresses through the rise of print journalism in colonial India (Bengal Gazette, Darpan, Prabhakar, Dnyanoday, Kesari, Deenbandhu), explores Akashvani's radio broadcast history, traces Doordarshan's growth into modern television, and emphasizes the critical need to evaluate mass media sources objectively.",
+    "youWillLearn": [
+      "Understand pre-print historical modes of mass communication across the globe",
+      "Trace the pioneers of Indian and Marathi journalism (Hickey, Jambhekar, Lokhitvadi, Tilak)",
+      "Follow the institutional evolution of radio broadcasting into All India Radio (Akashvani)",
+      "Examine the development of Indian television (Doordarshan) and historical docuseries",
+      "Appreciate why mass media reports must be evaluated with critical historical scrutiny"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "The first English newspaper in India was ______.\n(A) The Bengal Gazette (B) The Bombay Samachar (C) The Hindu (D) The Times of India",
+      "qnaAnswer": "Correct Answer: (A) The Bengal Gazette"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "______ was the first Indian to publish a newspaper.\n(A) Raja Ram Mohan Roy (B) Bal Gangadhar Tilak (C) James Augustus Hickey (D) Mahatma Gandhi",
+      "qnaAnswer": "Correct Answer: (C) James Augustus Hickey"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "The first radio broadcast in India was made in ______.\n(A) 1927 (B) 1936 (C) 1947 (D) 1950",
+      "qnaAnswer": "Correct Answer: (A) 1927"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "Doordarshan, the national television network of India, was established in ______.\n(A) 1959 (B) 1965 (C) 1972 (D) 1982",
+      "qnaAnswer": "Correct Answer: (A) 1959"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "The newspaper 'Kesari' was started by ______.\n(A) Mahatma Gandhi (B) Bal Gangadhar Tilak (C) Gopal Krishna Gokhale (D) Raja Ram Mohan Roy",
+      "qnaAnswer": "Correct Answer: (B) Bal Gangadhar Tilak"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Item",
+        "Description",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "The Bengal Gazette",
+          "First English newspaper in India",
+          "Correct"
+        ],
+        [
+          "Kesari",
+          "Started by Bal Gangadhar Tilak",
+          "Correct"
+        ],
+        [
+          "Doordarshan",
+          "Established in 1959",
+          "Correct"
+        ],
+        [
+          "All India Radio",
+          "Established in 1936",
+          "Correct"
+        ],
+        [
+          "The Hindu",
+          "Started by Mahatma Gandhi",
+          "WRONG — The Hindu was started by G. Subramania Iyer in \n1878. Mahatma Gandhi started 'Harijan' and 'Young India'."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Mass Media",
+      "content": "Mass Media → Newspapers → Radio → Television → Internet",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Mass Media",
+      "question": "Explain the following concept: Mass Media",
+      "qnaAnswer": "\n1. Mass media refers to the various means of communication that reach a large audience.\n2. It includes newspapers, radio, television, and the internet.\n3. Mass media plays an important role in shaping public opinion and disseminating information.\n4. It also serves as a source of historical information.\n5. It has evolved significantly over time, from print to digital media.",
+      "important": true
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Newspapers in India",
+      "question": "Explain the following concept: Newspapers in India",
+      "qnaAnswer": "\n1. The first English newspaper in India was 'The Bengal Gazette', started by James Augustus Hickey in 1780.\n2. The first Indian language newspaper was 'Bombay Samachar', started in 1822.\n3. Newspapers played an important role in the Indian freedom struggle.\n4. Leaders like Bal Gangadhar Tilak, Mahatma Gandhi, and Gopal Krishna Gokhale used newspapers to spread their ideas.\n5. Today, India has one of the largest newspaper markets in the world.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Role of Radio in History",
+      "question": "Explain the following concept: Role of Radio in History",
+      "qnaAnswer": "\n1. Radio is an important medium of mass communication.\n2. The first radio broadcast in India was made in 1927.\n3. All India Radio (AIR) was established in 1936.\n4. Radio played an important role in the Indian freedom struggle and in post-independence nation-building.\n5. It continues to be an important source of news, entertainment, and education, especially in rural areas.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Role of Television in History",
+      "question": "Explain the following concept: Role of Television in History",
+      "qnaAnswer": "\n1. Television is a powerful medium of mass communication.\n2. Doordarshan, the national television network of India, was established in 1959.\n3. Television has played an important role in documenting historical events.\n4. It has also been used for educational purposes, especially in rural areas.\n5. Today, television is one of the most popular sources of news and entertainment in India.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n17",
+      "type": "qna",
+      "title": "Short Note: The Bengal Gazette",
+      "question": "Write a short note on: The Bengal Gazette",
+      "qnaAnswer": "\n1. 'The Bengal Gazette' was the first English newspaper in India.\n2. It was started by James Augustus Hickey in 1780.\n3. It was published from Calcutta (now Kolkata).\n4. It was a weekly newspaper.\n5. It played an important role in the early development of journalism in India.",
+      "important": true
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Kesari",
+      "question": "Write a short note on: Kesari",
+      "qnaAnswer": "\n1. 'Kesari' was a Marathi newspaper started by Bal Gangadhar Tilak in 1881.\n2. It played an important role in the Indian freedom struggle.\n3. It was used to spread nationalist ideas and mobilize public opinion against British rule.\n4. Tilak used 'Kesari' to criticize British policies and promote Indian culture.\n5. It was one of the most influential newspapers of its time.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: All India Radio (AIR)",
+      "question": "Write a short note on: All India Radio (AIR)",
+      "qnaAnswer": "\n1. All India Radio (AIR) was established in 1936.\n2. It is the national public radio broadcaster of India.\n3. It was initially known as the Indian Broadcasting Company.\n4. It played an important role in the Indian freedom struggle and in post-independence nation-building.\n5. It continues to be an important source of news, entertainment, and education, especially in rural areas.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "qna",
+      "title": "Short Note: Doordarshan",
+      "question": "Write a short note on: Doordarshan",
+      "qnaAnswer": "\n1. Doordarshan is the national television network of India.\n2. It was established in 1959.\n3. It is one of the largest broadcasting organizations in the world.\n4. It has played an important role in documenting historical events and in nation-building.\n5. It has been used for educational purposes, especially in rural areas.",
+      "important": true
+    },
+    {
+      "id": "n21",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n22",
+      "type": "qna",
+      "title": "Role of Mass Media in History",
+      "question": "Explain the role of mass media in history.",
+      "qnaAnswer": "\n1. Mass media serves as a source of historical information.\n2. It documents current events that become historical records.\n3. It shapes public opinion and historical narratives.\n4. It provides a platform for diverse perspectives.\n5. It helps in preserving cultural heritage and promoting historical awareness."
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Evolution of Mass Media in India",
+      "question": "Trace the evolution of mass media in India.",
+      "qnaAnswer": "\n1. Newspapers: The first English newspaper 'The Bengal Gazette' was started in \n1780. The first Indian language newspaper 'Bombay Samachar' was started in 1822.\n2. Radio: The first radio broadcast in India was made in \n1927. All India Radio was established in 1936.\n3. Television: Doordarshan was established in \n1959. Colour television was introduced in 1982.\n4. Internet: The internet was introduced in India in \n1995. It has revolutionized mass communication.\n5. Social Media: Platforms like Facebook, Twitter, and Instagram have emerged as powerful tools of mass communication."
+    },
+    {
+      "id": "n24",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n25",
+      "type": "qna",
+      "title": "[IMPORTANT] Role of Newspapers in Freedom Struggle",
+      "question": "Explain the role of newspapers in the Indian freedom struggle.",
+      "qnaAnswer": "\n1. Newspapers played a crucial role in the Indian freedom struggle.\n2. Leaders like Bal Gangadhar Tilak, Mahatma Gandhi, and Gopal Krishna Gokhale used newspapers to spread nationalist ideas.\n3. 'Kesari' (Tilak), 'Harijan' and 'Young India' (Gandhi), and 'Sudharak' (Gokhale) were important nationalist newspapers.\n4. These newspapers mobilized public opinion against British rule.\n5. They also served as a platform for discussing social reforms and political issues.",
+      "important": true
+    },
+    {
+      "id": "n26",
+      "type": "qna",
+      "title": "[IMPORTANT] First Indian Newspaper",
+      "question": "Name the first Indian newspaper and its founder.",
+      "qnaAnswer": "The first Indian newspaper was 'The Bengal Gazette' (also known as 'Calcutta General Advertiser'). It was started by James Augustus Hickey in 1780.",
+      "important": true
+    },
+    {
+      "id": "fig-5-mass_media",
+      "type": "figure",
+      "title": "Classification of Indian Mass Media",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q2xhc3NpZmljYXRpb24gb2YgSW5kaWFuIE1hc3MgTWVkaWE8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjYwLjAiIHkyPSIyMjUuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNDAuMCIgeTI9IjIyNS4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNjUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iODYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5QcmludCBNZWRpYTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTAxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KE5ld3NwYXBlcnMgJiBNYWdhemluZXMpPC90ZXh0PjxyZWN0IHg9IjU3MC4wIiB5PSIyMDAuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkY2ZjZTciIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2NjAuMCIgeT0iMjIxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+QXVkaW8gTWVkaWE8L3RleHQ+PHRleHQgeD0iNjYwLjAiIHk9IjIzNi41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihBa2FzaHZhbmkgLyBSYWRpbyk8L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMzNS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5BdWRpby1WaXN1YWwgTWVkaWE8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM3MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihEb29yZGFyc2hhbiAvIFRlbGV2aXNpb24pPC90ZXh0PjxyZWN0IHg9IjUwLjAiIHk9IjIwMC4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE0MC4wIiB5PSIyMjEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5EaWdpdGFsICYgRWxlY3Ryb25pYyBKb3VybmFsaXNtPC90ZXh0Pjx0ZXh0IHg9IjE0MC4wIiB5PSIyMzYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oV2ViIFBvcnRhbHMsIFNvY2lhbCBNZWRpYSwgT1RUKTwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SW5kaWFuPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIyMzguMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TWFzcyBNZWRpYTwvdGV4dD4KPC9zdmc+",
+      "figureAlt": "Concept map of mass media categories in India",
+      "figureCaption": "Evolution of mass media from pre-Independence print journalism to modern digital platforms"
+    },
+    {
+      "id": "fig-5-pre_independence_newspapers",
+      "type": "figure",
+      "title": "Prominent Pre-Independence Nationalist Newspapers in Maharashtra",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+UHJlLUluZGVwZW5kZW5jZSBOZXdzcGFwZXJzIGluIE1haGFyYXNodHJhPC90ZXh0Pgo8bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iOTAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSIzNjAuMCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNjUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iODYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5EYXJwYW4gKDE4MzIpPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5CYWxzaGFzdHJpIEphbWJoZWthcjwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMTMyLjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjE1NC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPlByYWJoYWthciAoMTg0MSk8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkJoYXUgTWFoYWphbiAoU2hhdHBhdHJlKTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkRueWFub2RheSAoMTg0Mik8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkZpcnN0IHByaW50ZWQgbWFwICYgaWxsdXN0cmF0aW9uPC90ZXh0PjxyZWN0IHg9IjMxMC4wIiB5PSIzMzUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iMzU2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+SW5kdXByYWthc2ggKDE4NjIpPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNzEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5DaGFtcGlvbmVkIHdpZG93IHJlbWFycmlhZ2U8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkRlZW5iYW5kaHUgKDE4NzcpPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMDQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5LcmlzaG5hcmFvIEJoYWxla2FyIChCYWh1amFuIFNhbWFqKTwvdGV4dD48cmVjdCB4PSI4NC44IiB5PSIxMzIuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNjY2ZiZjEiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIxNzQuOCIgeT0iMTU0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+S2VzYXJpICYgTWFyYXRoYSAoMTg4MSk8L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjE2OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkxva21hbnlhIFRpbGFrICYgQWdhcmthcjwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TmF0aW9uYWxpc3Q8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5OZXdzcGFwZXJzPC90ZXh0Pgo8L3N2Zz4=",
+      "figureAlt": "Concept map of pre-independence Indian newspapers",
+      "figureCaption": "Historic newspapers that spurred public awareness and national consciousness in Maharashtra"
+    },
+    {
+      "id": "fig-5-bharat_ek_khoj",
+      "type": "figure",
+      "title": "Historical Eras Depicted in the Serial 'Bharat Ek Khoj'",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+SGlzdG9yaWNhbCBFcG9jaHMgaW4gQmhhcmF0IEVrIEtob2o8L3RleHQ+CjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNDAwLjAiIHkyPSI5MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjYyNS4yIiB5Mj0iMjkyLjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjM2MC4wIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjE3NC44IiB5Mj0iMTU3LjUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+CjxyZWN0IHg9IjMxMC4wIiB5PSI2NS4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RiZWFmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSI4Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkhhcmFwcGFuIENpdmlsaXphdGlvbiAmPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5WZWRpYyBQZXJpb2Q8L3RleHQ+PHJlY3QgeD0iNTM1LjIiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2RjZmNlNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjYyNS4yIiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5SYW1heWFuYSwgTWFoYWJoYXJhdGEgJjwvdGV4dD48dGV4dCB4PSI2MjUuMiIgeT0iMTY5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+VXBhbmlzaGFkaWMgUGhpbG9zb3BoeTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMjY3LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZmZlZGQ1IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjI4OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPk1hdXJ5YW4gRW1waXJlICY8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjMwNC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkVtcGVyb3IgQXNob2thPC90ZXh0PjxyZWN0IHg9IjMxMC4wIiB5PSIzMzUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iMzU2LjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+TXVnaGFsIEVyYSAmPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNzEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5FbXBlcm9yIEFrYmFyPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjI2Ny41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIyODkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5CaGFrdGkgTW92ZW1lbnQgJjwvdGV4dD48dGV4dCB4PSIxNzQuOCIgeT0iMzA0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Q2hoYXRyYXBhdGkgU2hpdmFqaSBNYWhhcmFqPC90ZXh0PjxyZWN0IHg9Ijg0LjgiIHk9IjEzMi41IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2NjZmJmMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE3NC44IiB5PSIxNTQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Nb2Rlcm4gRnJlZWRvbSBTdHJ1Z2dsZSAmPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIxNjkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Bd2FrZW5pbmc8L3RleHQ+CjxlbGxpcHNlIGN4PSI0MDAuMCIgY3k9IjIyNS4wIiByeD0iOTAiIHJ5PSIzOCIgZmlsbD0iI2VkZTlmZSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNiIvPgo8dGV4dCB4PSI0MDAuMCIgeT0iMjIyLjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkJoYXJhdDwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkVrIEtob2o8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of historical epochs depicted in Bharat Ek Khoj",
+      "figureCaption": "Key periods of Indian history dramatized in Shyam Benegal's television masterpiece based on Nehru's book"
+    },
+    {
+      "id": "answers-5-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-5-1",
+          "entries": [
+            {
+              "id": "a-5-1-1",
+              "question": "(1) 'Bengal Gazette', the first English newspaper in India was started by ______.\n(a) James Augustus Hickey\n(b) Sir John Marshall\n(c) Allen Hume\n(d) Mountstuart Elphinstone",
+              "answer": "James Augustus Hickey. (Started on 29th January 1780, it was also known as 'Hicky's Bengal Gazette' or the 'Calcutta General Advertiser'.)",
+              "questionTag": "March '19 - '22"
+            },
+            {
+              "id": "a-5-1-2",
+              "question": "(2) Television is an ______ medium.\n(a) visual\n(b) audio\n(c) audio-visual\n(d) printed",
+              "answer": "audio-visual. (Television combines moving visual images with synchronized sound.)"
+            },
+            {
+              "id": "a-5-1-3",
+              "question": "(3) ______ is the first newspaper in Marathi started by Balshastri Jambhekar.\n(a) Deenbandhu\n(b) Prabhakar\n(c) Darpan\n(d) Kesari",
+              "answer": "Darpan. (Published on 6th January 1832 in Mumbai, marking the dawn of Marathi journalism.)"
+            },
+            {
+              "id": "a-5-1-4",
+              "question": "(4) 6th January is celebrated as ______ in Maharashtra.\n(a) Periodical Day\n(b) Newspaper Day\n(c) Printing Day\n(d) Journalist Day",
+              "answer": "Journalist Day. (Celebrated in honor of Balshastri Jambhekar, father of Marathi journalism.)"
+            },
+            {
+              "id": "a-5-1-5",
+              "question": "(5) The letters 'Shatpatre' published in Prabhakar were written by ______.\n(a) Lokmanya Tilak\n(b) Lokhitvadi\n(c) Mahatma Gandhi\n(d) Justice Ranade",
+              "answer": "Lokhitvadi. (Gopal Hari Deshmukh 'Lokhitvadi' penned 100 letters critiquing social orthodoxies and promoting modern scientific outlook.)"
+            },
+            {
+              "id": "a-5-1-6",
+              "question": "(6) Balshastri Jambhekar started the first monthly magazine in Marathi named ______.\n(a) Digdarshan\n(b) Prabhakar\n(c) Darpan\n(d) Dnyanoday",
+              "answer": "Digdarshan. (Started in 1840, it published articles on history, geography, science, and nature.)"
+            },
+            {
+              "id": "a-5-1-7",
+              "question": "(7) ______ wrote the book 'Discovery of India'.\n(a) Sardar Vallabhbhai Patel\n(b) Mahatma Gandhi\n(c) Pandit Jawaharlal Nehru\n(d) Dr. Rajendra Prasad",
+              "answer": "Pandit Jawaharlal Nehru. (Written during his imprisonment at Ahmednagar Fort between 1942 and 1946.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : Identify and Write the Wrong Pair in the Following Sets",
+      "answerGroups": [
+        {
+          "id": "g-5-2",
+          "entries": [
+            {
+              "id": "a-5-2-1",
+              "question": "[Newspaper — Editor]\n(1) Prabhakar — Acharya P. K. Atre\n(2) Darpan — Balshastri Jambhekar\n(3) Deenbandhu — Krishnarao Bhalekar\n(4) Kesari — Bal Gangadhar Tilak",
+              "answer": "Wrong pair: Prabhakar — Acharya P. K. Atre. (Prabhakar was started and edited by Bhau Mahajan, whereas Acharya Atre was associated with 'Maratha'.)",
+              "questionTag": "July '19 - '22; March '20 - '22 - '25; Nov. '20; Sept. '21"
+            },
+            {
+              "id": "a-5-2-2",
+              "question": "[Type of Magazine — Duration]\n(1) Weekly — Published every seven days\n(2) Bimonthly — Published every fifteen days\n(3) Monthly — Published every one month\n(4) Quarterly — Published every two months",
+              "answer": "Wrong pair: Quarterly — Published every two months. (A quarterly periodical is published once every three months, not two months.)",
+              "questionTag": "March '23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Do as Directed (Concept Maps, Flowcharts & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-5-3",
+          "entries": [
+            {
+              "id": "a-5-3-1",
+              "question": "Complete the concept map: Indian Mass Media.",
+              "answer": "\n1. Print Media: Newspapers, periodicals, journals, and books.\n\n2. Audio Media: Akashvani (All India Radio) and community radio stations.\n\n3. Audio-Visual Media: Doordarshan, private satellite channels, and documentary films.\n\n4. Digital / Electronic Journalism: Online news portals, mobile applications, and web magazines.",
+              "questionTag": "Sept. '21"
+            },
+            {
+              "id": "a-5-3-2",
+              "question": "Complete the concept map: Important Newspapers during pre-Independence period.",
+              "answer": "Important pre-Independence newspapers in Maharashtra:\n• Darpan: Edited by Balshastri Jambhekar (first Marathi paper, 1832).\n• Prabhakar: Edited by Bhau Mahajan (published Lokhitvadi's Shatpatre).\n• Dnyanoday: Printed first map of Asia (1842) and European map (1851).\n• Induprakash: Dedicated to social reforms and widow remarriage.\n• Deenbandhu: Represented the Bahujan Samaj / working masses.\n• Kesari & Maratha: Founded by Tilak and Agarkar for national struggle.",
+              "questionTag": "Sept. '21; March '23; July '23"
+            },
+            {
+              "id": "a-5-3-3",
+              "question": "Complete the concept map: Aspects of Indian History portrayed through the serial 'Bharat Ek Khoj'.",
+              "answer": "\n1. Harappan Civilization and Vedic Period.\n\n2. Mauryan Empire, Ashoka, and Chanakya's Arthashastra.\n\n3. Bhakti movement, saints, and works of Chhatrapati Shivaji Maharaj.\n\n4. Delhi Sultanate, Mughal era (Akbar), and modern Indian freedom struggle.",
+              "questionTag": "March '25"
+            },
+            {
+              "id": "a-5-3-4",
+              "question": "Complete the table regarding Newspapers/Magazines and Editors:",
+              "answer": "• Started first monthly magazine in Marathi 'Digdarshan': Balshastri Jambhekar\n• Bengal Gazette (First English newspaper in India): James Augustus Hickey\n• Wrote 'Shatpatre' in Prabhakar: Gopal Hari Deshmukh (Lokhitvadi)\n• Pragati (Historical research weekly): Tryambak Shankar Shejwalkar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-5-4",
+          "entries": [
+            {
+              "id": "a-5-4-1",
+              "question": "(1) Kesari and Maratha:",
+              "answer": "(1) Lokmanya Bal Gangadhar Tilak and Gopal Ganesh Agarkar founded the newspapers 'Kesari' (in Marathi) and 'Maratha' (in English) in 1881 at Pune.\n(2) These newspapers acted as fearless catalyst instruments for the Indian freedom struggle and articulated political demands against British colonial oppression.\n(3) They discussed contemporary social and political problems, national education, and published reviews of books in Indian languages.\n(4) Kesari and Maratha carried news about international struggles for freedom and instilled fearless patriotism among Indian masses.",
+              "questionTag": "July '22"
+            },
+            {
+              "id": "a-5-4-2",
+              "question": "(2) Objectives of Newspapers:",
+              "answer": "(1) Dissemination of News: Provide accurate and unbiased reports of local, national, and international events to the general public.\n(2) Social Education & Awakening: Create awareness on social issues, human rights, civic duties, and scientific temper.\n(3) Public Forum: Serve as a democratic platform where citizens express their grievances, opinions, and critiques of public policies.\n(4) Guarding Democracy: Act as the 'Fourth Pillar' of democracy by scrutinizing government policies and highlighting administrative corruption.",
+              "questionTag": "Textual Board Reference"
+            },
+            {
+              "id": "a-5-4-3",
+              "question": "(3) Akashvani (All India Radio):",
+              "answer": "(1) Indian Broadcasting Company (IBC), a private radio channel started in 1927, was taken over by the British government and renamed the Indian State Broadcasting Service (ISBS).\n(2) On 8th June 1936, it was renamed 'All India Radio' (AIR). After independence, it became an integral department of the Ministry of Information and Broadcasting.\n(3) On the creative suggestion of renowned poet Pandit Narendra Sharma, AIR was officially named 'Akashvani'.\n(4) Akashvani broadcasts news, educational programs, agricultural guidelines, classical and light music in 24 languages and 146 dialects across India."
+            },
+            {
+              "id": "a-5-4-4",
+              "question": "(4) Bharat Ek Khoj:",
+              "answer": "(1) 'Bharat Ek Khoj' was a landmark historical television serial directed by eminent filmmaker Shyam Benegal, broadcast on Doordarshan.\n(2) It was based on Pandit Jawaharlal Nehru's seminal book 'Discovery of India'.\n(3) Veteran actor Roshan Seth portrayed Pandit Nehru, serving as the dramatic narrator introducing each historical chapter.\n(4) It presented a panoramic overview of Indian civilization from Harappan and Vedic times through the Mughal period, Bhakti era, and the freedom movement with rigorous historical research."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Explain the Following Statements with Reasons",
+      "answerGroups": [
+        {
+          "id": "g-5-5",
+          "entries": [
+            {
+              "id": "a-5-5-1",
+              "question": "(1) Any information received through mass media needs to be reviewed critically.",
+              "answer": "(1) Media outlets may present biased, incomplete, or sensationalized reports influenced by political affiliations, corporate interests, or government censorship.\n(2) What is published as facts might be editorial opinion or motivated propaganda aimed at shaping public opinion.\n(3) A classic historical example occurred when the German weekly magazine 'Stern' bought and published supposed handwritten diaries of Adolf Hitler, which later forensic investigation proved were completely forged.\n(4) Hence, readers and viewers must critically examine authenticity, source reliability, and potential prejudices before accepting media reports as historical truth.",
+              "questionTag": "Sept. '21"
+            },
+            {
+              "id": "a-5-5-2",
+              "question": "(2) Television is the most popular medium.",
+              "answer": "(1) Television is an audio-visual medium that overcomes the limitations of print media (illiteracy barrier) and radio (lack of visuals) by broadcasting live sights and sounds simultaneously.\n(2) Viewers can witness global events, natural disasters, sporting tournaments, and historical occurrences in real time within their living rooms.\n(3) The introduction of satellite transmission and the post-1991 liberalization policy allowed international channels (Discovery, National Geographic, History TV) to telecast 24-hour infotainment.\n(4) Its rich diversity of news, drama, films, and sports makes television universally appealing to people of all age groups and backgrounds.",
+              "questionTag": "March '19 - '23; July '19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set6",
+      "type": "answer_sets",
+      "title": "Q. Set 6 : Read the Passage and Answer the Questions",
+      "answerGroups": [
+        {
+          "id": "g-5-6",
+          "entries": [
+            {
+              "id": "a-5-6-1",
+              "question": "Read the extract on 'Radio & Akashvani' and answer the following questions:\n\nExtract: The Indian Broadcasting Company (IBC), a private radio company, was the first to broadcast daily programs in India. Later, the British government took over IBC and renamed it ISBS (Indian State Broadcasting Service). On 8th June 1936, it was renamed 'All India Radio' (AIR). After independence, AIR became an integral part of the Ministry of Information and Broadcasting, Government of India. It was named 'Akashvani' upon the recommendation of the famous poet Pandit Narendra Sharma. Akashvani broadcasts a variety of programs covering educational, agricultural, literary, scientific, and cultural themes.\n\nQuestions:\n(1) What was the new name given to IBC after government takeover?\n(2) On whose suggestion was AIR named 'Akashvani'?\n(3) Which types of programs are broadcasted by Akashvani?",
+              "answer": "(1) IBC was taken over by the British Government and named Indian State Broadcasting Service (ISBS). On 8th June 1936, it was renamed 'All India Radio' (AIR).\n\n(2) All India Radio was named 'Akashvani' on the poetic suggestion of the renowned poet Pandit Narendra Sharma.\n\n(3) Programs broadcasted by Akashvani:\n• Government policies, national development schemes, and daily news bulletins.\n• Literary, musical, and theatrical performances showcasing folk and classical art.\n• Specialized educational programs targeted at farmers, industrial workers, youth, and women.\n• Educational broadcasts on science, health, environmental protection, and agriculture."
+            },
+            {
+              "id": "a-5-5-2-pass",
+              "question": "Read the extract on 'Bharat Ek Khoj' and answer the following questions:\n\nQuestions:\n(1) On which book is the serial 'Bharat Ek Khoj' based?\n(2) Who directed the serial 'Bharat Ek Khoj'?\n(3) Which factors/aspects, according to you, made the serial 'Bharat Ek Khoj' popular?",
+              "answer": "(1) 'Bharat Ek Khoj' is based on the book 'Discovery of India' written by Pandit Jawaharlal Nehru.\n\n(2) The serial was directed by eminent Indian director Shyam Benegal.\n\n(3) Factors that made the serial popular:\n• Rigorous historical research combined with magnificent artistic dramaturgy across ancient, medieval, and modern eras.\n• Brilliant enactment and narration by Roshan Seth playing Pandit Jawaharlal Nehru.\n• Vivid visual reconstruction of social, philosophical, and political transitions across Indian history.\n• Powerful music, authentic period costumes, and engaging dialogue delivery."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-5-set7",
+      "type": "answer_sets",
+      "title": "Q. Set 7 : Answer the Following in Detail",
+      "answerGroups": [
+        {
+          "id": "g-5-7",
+          "entries": [
+            {
+              "id": "a-5-7-1",
+              "question": "(1) What were the different means of communication known around the world before the advent of newspapers?",
+              "answer": "(1) Royal Inscriptions: In ancient Egypt and Ashokan India, royal edicts and decrees were engraved on massive rock surfaces and stone pillars placed at prominent public crossroads.\n(2) Roman Acta Diurna: During the reign of Julius Caesar, hand-written sheets titled 'Acta Diurna' (Daily Doings) recording imperial decrees and Senate decisions were posted publicly in Rome.\n(3) Chinese Royal Gazettes: In 7th century C.E. China, government bulletins were hand-copied and distributed among public officials and common folk.\n(4) Town Criers and Drummers: State heralds traveled from town to town beating drums and shouting announcements to gather crowds.\n(5) English Handouts: In pre-modern England, printed leaflets narrating victories in wars or royal events were circulated periodically.\n(6) Travelers and Royal Couriers: Wandering bards, merchants, and ambassadors sent diplomatic intelligence and shared vivid accounts of faraway lands.",
+              "questionTag": "March '20; July '22"
+            },
+            {
+              "id": "a-5-7-2",
+              "question": "(2) Write detailed information on Periodicals based on their definitions, types, and classification.",
+              "answer": "(A) Definition: Magazines, journals, and publications that are issued at predetermined, regular intervals are termed 'Periodicals'.\n(B) Types based on periodicity:\n• Weekly: Published once every 7 days.\n• Bi-weekly / Fortnightly: Published every 15 days.\n• Monthly: Published once a month.\n• Bi-monthly: Published once every two months.\n• Quarterly: Published once every three months.\n• Six-monthly (Biannual): Published twice a year.\n• Annual: Published once every year (Yearbooks/Diwali issues).\n(C) Classification by readership:\n• Scholarly Journals: Academic research publications containing peer-reviewed articles written by historians and scientists (e.g., 'Bharatiya Itihas ani Sanskriti').\n• Popular Magazines: Consumer publications covering sports, cinema, literature, current events, and fashion.",
+              "questionTag": "Nov. '20"
+            },
+            {
+              "id": "a-5-7-3",
+              "question": "(3) Give a short account of the development of Indian Television (Doordarshan).",
+              "answer": "(1) Inception: Television service commenced experimentally in India on 15th September \n1959. Dr. Rajendra Prasad, India's first President, inaugurated the Delhi Doordarshan Kendra.\n(2) Expansion to Mumbai: On 2nd October 1972, the Mumbai Doordarshan Kendra began broadcasting in Maharashtra.\n(3) Color Transmission: Color television broadcasts were introduced on 15th August 1982 during the Asian Games in Delhi.\n(4) National & Regional Networks: In 1983, a unified National Network was launched, followed by specialized educational and regional linguistic channels (DD Sahyadri, DD Sports).\n(5) Satellite Revolution & Deregulation: Following the 1991 economic reforms, private international satellite networks were permitted, transforming Indian television into a multi-hundred-channel infotainment industry.",
+              "questionTag": "Sept. '21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "What was the first English newspaper in India?",
+      "back": "The Bengal Gazette (1780)",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "Who started 'Kesari'?",
+      "back": "Bal Gangadhar Tilak",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "When was All India Radio established?",
+      "back": "1936",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "When was Doordarshan established?",
+      "back": "1959",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "What is mass media?",
+      "back": "Means of communication that reach a large audience (newspapers, radio, TV, internet)",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "Who started 'Harijan' and 'Young India'?",
+      "back": "Mahatma Gandhi",
+      "order": 6
+    },
+    {
+      "id": "fc-5-1",
+      "front": "What was the first English newspaper in India?",
+      "back": "Bengal Gazette (started by James Augustus Hickey on 29 January 1780).",
+      "order": 1
+    },
+    {
+      "id": "fc-5-2",
+      "front": "Which was the first Marathi newspaper, and who edited it?",
+      "back": "Darpan, started by Balshastri Jambhekar on 6th January 1832.",
+      "order": 2
+    },
+    {
+      "id": "fc-5-3",
+      "front": "Why is 6th January celebrated as Journalist Day in Maharashtra?",
+      "back": "In commemoration of Balshastri Jambhekar launching the first Marathi newspaper, Darpan.",
+      "order": 3
+    },
+    {
+      "id": "fc-5-4",
+      "front": "Who wrote 'Shatpatre' and in which newspaper were they published?",
+      "back": "Gopal Hari Deshmukh (Lokhitvadi) in the weekly newspaper 'Prabhakar'.",
+      "order": 4
+    },
+    {
+      "id": "fc-5-5",
+      "front": "Which newspaper printed the first map in an Indian publication?",
+      "back": "Dnyanoday (printed map of Asia in 1842 and Europe in 1851).",
+      "order": 5
+    },
+    {
+      "id": "fc-5-6",
+      "front": "Who founded Kesari and Maratha in 1881?",
+      "back": "Lokmanya Bal Gangadhar Tilak and Gopal Ganesh Agarkar.",
+      "order": 6
+    },
+    {
+      "id": "fc-5-7",
+      "front": "What was 'Acta Diurna'?",
+      "back": "Daily public notice boards recording government decrees in ancient Rome under Julius Caesar.",
+      "order": 7
+    },
+    {
+      "id": "fc-5-8",
+      "front": "On whose suggestion was All India Radio named 'Akashvani'?",
+      "back": "Renowned poet Pandit Narendra Sharma.",
+      "order": 8
+    },
+    {
+      "id": "fc-5-9",
+      "front": "When was color television introduced in India?",
+      "back": "15th August 1982.",
+      "order": 9
+    },
+    {
+      "id": "fc-5-10",
+      "front": "Who directed the Doordarshan serial 'Bharat Ek Khoj'?",
+      "back": "Shyam Benegal (based on Nehru's 'Discovery of India').",
+      "order": 10
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "The first English newspaper in India was ______.",
+      "options": [
+        "The Bengal Gazette",
+        "The Bombay Samachar",
+        "The Hindu",
+        "The Times of India"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Bengal Gazette was the first English newspaper in India.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "The first radio broadcast in India was made in ______.",
+      "options": [
+        "1927",
+        "1936",
+        "1947",
+        "1950"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first radio broadcast in India was made in 1927.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "Doordarshan, the national television network of India, was established in ______.",
+      "options": [
+        "1959",
+        "1965",
+        "1972",
+        "1982"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Doordarshan was established in 1959.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "The newspaper 'Kesari' was started by ______.",
+      "options": [
+        "Mahatma Gandhi",
+        "Bal Gangadhar Tilak",
+        "Gopal Krishna Gokhale",
+        "Raja Ram Mohan Roy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Kesari was started by Bal Gangadhar Tilak.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "All India Radio was established in ______.",
+      "options": [
+        "1927",
+        "1936",
+        "1947",
+        "1959"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All India Radio was established in 1936.",
+      "order": 5
+    },
+    {
+      "id": "quiz-5-1",
+      "qType": "mcq",
+      "question": "The first newspaper in Marathi language was ______.",
+      "options": [
+        "Prabhakar",
+        "Deenbandhu",
+        "Darpan",
+        "Kesari"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Darpan was started on 6 January 1832 by Balshastri Jambhekar in Mumbai.",
+      "order": 1
+    },
+    {
+      "id": "quiz-5-2",
+      "qType": "mcq",
+      "question": "Which newspaper published the historic reformist letters known as 'Shatpatre'?",
+      "options": [
+        "Darpan",
+        "Prabhakar",
+        "Dnyanoday",
+        "Kesari"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lokhitvadi's 100 letters (Shatpatre) were published in Bhau Mahajan's Prabhakar.",
+      "order": 2
+    },
+    {
+      "id": "quiz-5-3",
+      "qType": "true_false",
+      "question": "Television is classified strictly as an audio medium of communication.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Television is an audio-visual medium because it transmits both picture and sound.",
+      "order": 3
+    },
+    {
+      "id": "quiz-5-4",
+      "qType": "fill_blank",
+      "question": "The television serial 'Bharat Ek Khoj' was based on the book 'Discovery of India' written by ____.",
+      "options": [
+        "Mahatma Gandhi",
+        "Pandit Jawaharlal Nehru",
+        "Dr. B. R. Ambedkar",
+        "Rabindranath Tagore"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nehru wrote Discovery of India during his imprisonment at Ahmednagar Fort.",
+      "order": 4
+    },
+    {
+      "id": "quiz-5-5",
+      "qType": "mcq",
+      "question": "When was the first color television broadcast introduced in India?",
+      "options": [
+        "26 January 1950",
+        "15 August 1982",
+        "2 October 1972",
+        "1 January 1991"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Color transmission in India was officially inaugurated on 15 August 1982.",
+      "order": 5
+    },
+    {
+      "id": "quiz-5-6",
+      "qType": "mcq",
+      "question": "Who started 'Bengal Gazette', India's first English newspaper?",
+      "options": [
+        "James Augustus Hickey",
+        "William Jones",
+        "James Mill",
+        "Lord Macaulay"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hickey launched the Bengal Gazette on 29 January 1780 in Kolkata.",
+      "order": 6
+    }
+  ],
+  "part": 2,
+  "section": "History"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "eng-ch7",
+  "num": 7,
+  "title": "Writing Skills: Information Transfer",
+  "emoji": "📊",
+  "notes": [
+    {
+      "id": "eng7-n1",
+      "title": "Verbal to Non-verbal",
+      "content": "Convert a given paragraph into a tree diagram, flowchart, table, pie chart, etc.\n- Read carefully and pick out main points.\n- Do not add your own points.\n- Give a suitable title.\n\n**Marking Scheme:**\nTitle (1), Covering all points (2), Appropriate graphic/layout (1), Overall presentation (1).",
+      "important": true
+    },
+    {
+      "id": "eng7-n2",
+      "title": "Non-verbal to Verbal",
+      "content": "Write a paragraph based on a given chart, web, graph, etc.\n- Cover all points given.\n- Give a suitable title.\n\n**Marking Scheme:**\nTitle (1), Use of given points (2), Grammar (1), Appropriate language and conclusion (1).",
+      "important": true
+    },
+    {
+      "id": "eng7-n3",
+      "title": "Example Tree Diagram: Economic System of a Country",
+      "content": "<svg width='600' height='250' xmlns='http://www.w3.org/2000/svg'><rect x='200' y='10' width='200' height='40' fill='#e2e8f0' stroke='#4a5568'/><text x='300' y='35' font-family='Arial' font-size='14' text-anchor='middle' font-weight='bold'>Economic System of a Country</text><line x1='300' y1='50' x2='300' y2='80' stroke='black'/><line x1='150' y1='80' x2='450' y2='80' stroke='black'/><line x1='150' y1='80' x2='150' y2='110' stroke='black'/><line x1='450' y1='80' x2='450' y2='110' stroke='black'/><rect x='50' y='110' width='200' height='40' fill='#e2e8f0' stroke='#4a5568'/><text x='150' y='135' font-family='Arial' font-size='12' text-anchor='middle'>According to ownership of means of production</text><rect x='350' y='110' width='200' height='40' fill='#e2e8f0' stroke='#4a5568'/><text x='450' y='135' font-family='Arial' font-size='12' text-anchor='middle'>According to stage of economic development</text><line x1='100' y1='150' x2='100' y2='180' stroke='black'/><line x1='200' y1='150' x2='200' y2='180' stroke='black'/><line x1='400' y1='150' x2='400' y2='180' stroke='black'/><line x1='500' y1='150' x2='500' y2='180' stroke='black'/><rect x='50' y='180' width='100' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='100' y='200' font-family='Arial' font-size='12' text-anchor='middle'>Capitalist</text><rect x='150' y='180' width='100' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='200' y='200' font-family='Arial' font-size='12' text-anchor='middle'>Socialist</text><rect x='350' y='180' width='100' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='400' y='200' font-family='Arial' font-size='12' text-anchor='middle'>Developed</text><rect x='450' y='180' width='100' height='30' fill='#e2e8f0' stroke='#4a5568'/><text x='500' y='200' font-family='Arial' font-size='12' text-anchor='middle'>Developing</text></svg>",
+      "important": true
+    },
+    {
+      "id": "eng7-n4",
+      "title": "Example Non-verbal to Verbal: Barriers to Effective Communication",
+      "content": "**Barriers to Effective Communication**\nGood communication is very important for the well-being of society. However, there are many barriers to effective communication. Difference in language and a lack of interest in the topic are two major ones. If the communicators cannot understand each others' language, or if they are not interested in the topic under discussion, then communication will be affected negatively. This is also the case if there is any form of discomfort with the topic being discussed. Noise in the vicinity hinders communication just as distance between the communicators does. And last but not the least, any type of distraction for the communicators will prove to be an effective barrier. One must get rid of these barriers if one wants good communication.",
+      "important": true
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "eng7-f1",
+      "front": "What is the marking scheme for Verbal to Non-verbal?",
+      "back": "Title (1), Covering all points (2), Appropriate graphic/layout (1), Overall presentation (1).",
+      "order": 1
+    },
+    {
+      "id": "eng7-f2",
+      "front": "What is the marking scheme for Non-verbal to Verbal?",
+      "back": "Title (1), Use of given points (2), Grammar (1), Appropriate language and conclusion (1).",
+      "order": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "eng7-q1",
+      "question": "When converting Verbal to Non-verbal, what is the most important thing to remember?",
+      "options": [
+        "Add your own opinions",
+        "Use long sentences",
+        "Do not add your own points and cover all given points",
+        "Make it as colorful as possible"
+      ],
+      "correctAnswer": 2,
+      "explanation": "You must only use the points provided in the text and present them in the requested format.",
+      "order": 1
+    }
+  ]
+}

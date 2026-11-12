@@ -1,0 +1,632 @@
+{
+  "id": "ch13",
+  "num": 13,
+  "title": "Challenges Faced by Indian Democracy",
+  "emoji": "🇮🇳",
+  "kind": "chapter",
+  "overview": {
+    "summary": "This chapter explores people's collective power channeled through social and political movements. It demonstrates why grassroots movements are vital to democratic accountability, examines the historical trajectory of the Farmers' Movement (Shetkari Sanghatana, Swaminathan Commission), analyzes the Workers' Movement from AITUC to globalization, studies tribal struggles for forest rights (Birsa Munda), spotlights Dr. Rajendra Singh's Water Revolution, and explains the Consumer Protection Movement.",
+    "youWillLearn": [
+      "Understand the meaning, structure, and democratic necessity of people's movements",
+      "Trace the evolution and economic demands of the Farmers' Movement in India",
+      "Study the milestones and modern challenges of the Workers' Trade Union Movement (AITUC)",
+      "Examine tribal uprisings and ongoing struggles for constitutional forest rights",
+      "Discover ecological triumphs including Dr. Rajendra Singh's Water Revolution and consumer rights"
+    ]
+  },
+  "notes": [
+    {
+      "id": "n1",
+      "type": "heading",
+      "content": "Multiple Choice Questions"
+    },
+    {
+      "id": "n2",
+      "type": "qna",
+      "title": "MCQ 1",
+      "question": "______ is a major challenge faced by Indian democracy.\n(A) Corruption (B) Communalism (C) Casteism (D) All of the above",
+      "qnaAnswer": "Correct Answer: (D) All of the above"
+    },
+    {
+      "id": "n3",
+      "type": "qna",
+      "title": "MCQ 2",
+      "question": "Communalism is based on ______.\n(A) Religion (B) Caste (C) Region (D) Language",
+      "qnaAnswer": "Correct Answer: (A) Religion"
+    },
+    {
+      "id": "n4",
+      "type": "qna",
+      "title": "MCQ 3",
+      "question": "Casteism is a challenge because it ______.\n(A) Promotes inequality (B) Divides society (C) Affects politics (D) All of the above",
+      "qnaAnswer": "Correct Answer: (D) All of the above"
+    },
+    {
+      "id": "n5",
+      "type": "qna",
+      "title": "MCQ 4",
+      "question": "Poverty is a challenge because it ______.\n(A) Affects human development (B) Leads to social unrest (C) Affects democracy (D) All of the above",
+      "qnaAnswer": "Correct Answer: (D) All of the above"
+    },
+    {
+      "id": "n6",
+      "type": "qna",
+      "title": "MCQ 5",
+      "question": "Illiteracy is a challenge because it ______.\n(A) Affects political participation (B) Affects economic development (C) Affects social development (D) All of the above",
+      "qnaAnswer": "Correct Answer: (D) All of the above"
+    },
+    {
+      "id": "n7",
+      "type": "heading",
+      "content": "Identify the Wrong Pair and Correct It"
+    },
+    {
+      "id": "n8",
+      "type": "table",
+      "title": "Wrong Pair Exercise",
+      "headers": [
+        "Challenge",
+        "Description",
+        "Corrected Pair"
+      ],
+      "rows": [
+        [
+          "Corruption",
+          "Misuse of public office",
+          "Correct"
+        ],
+        [
+          "Communalism",
+          "Division based on religion",
+          "Correct"
+        ],
+        [
+          "Casteism",
+          "Division based on caste",
+          "Correct"
+        ],
+        [
+          "Regionalism",
+          "Loyalty to a region over the nation",
+          "Correct"
+        ],
+        [
+          "Poverty",
+          "Only an economic issue",
+          "WRONG — Poverty is a multi-dimensional issue affecting social, political, and economic aspects."
+        ]
+      ]
+    },
+    {
+      "id": "n9",
+      "type": "heading",
+      "content": "Complete the Concept Charts"
+    },
+    {
+      "id": "n10",
+      "type": "paragraph",
+      "title": "Concept Chart — Challenges to Indian Democracy",
+      "content": "Challenges to Indian Democracy → Corruption → Communalism → Casteism → Regionalism → Poverty → Illiteracy → Terrorism → Naxalism",
+      "important": true
+    },
+    {
+      "id": "n11",
+      "type": "heading",
+      "content": "Explain the Following Concepts (Any Two)"
+    },
+    {
+      "id": "n12",
+      "type": "qna",
+      "title": "Corruption",
+      "question": "Explain the following concept: Corruption",
+      "qnaAnswer": "\n1. Corruption is the misuse of public office for private gain.\n2. It is a major challenge to Indian democracy.\n3. It affects the efficiency of the government and erodes public trust.\n4. It leads to loss of revenue and poor quality of public services.\n5. Measures to combat corruption include the Right to Information Act, the Lokpal and Lokayuktas Act, and the Central Vigilance Commission.",
+      "important": true
+    },
+    {
+      "id": "n13",
+      "type": "qna",
+      "title": "Communalism",
+      "question": "Explain the following concept: Communalism",
+      "qnaAnswer": "\n1. Communalism is the belief that people belonging to the same religion share common interests and that these interests are different from those of other religions.\n2. It is a major challenge to Indian democracy.\n3. It leads to division of society on religious lines and can cause violence and conflict.\n4. It undermines the secular fabric of the nation.\n5. Measures to combat communalism include promoting secular values, inter-faith dialogue, and strict action against communal violence.",
+      "important": true
+    },
+    {
+      "id": "n14",
+      "type": "qna",
+      "title": "Casteism",
+      "question": "Explain the following concept: Casteism",
+      "qnaAnswer": "\n1. Casteism is the discrimination based on caste.\n2. It is a major challenge to Indian democracy.\n3. It leads to social inequality and division of society.\n4. It affects politics, education, and employment.\n5. Measures to combat casteism include affirmative action, education, and social reform.",
+      "important": true
+    },
+    {
+      "id": "n15",
+      "type": "qna",
+      "title": "Regionalism",
+      "question": "Explain the following concept: Regionalism",
+      "qnaAnswer": "\n1. Regionalism is the loyalty to a particular region over the nation.\n2. It is a major challenge to Indian democracy.\n3. It can lead to demands for separate states or even secession.\n4. It can cause conflict between different regions.\n5. Measures to combat regionalism include balanced regional development and promoting national integration.",
+      "important": true
+    },
+    {
+      "id": "n16",
+      "type": "qna",
+      "title": "Poverty",
+      "question": "Explain the following concept: Poverty",
+      "qnaAnswer": "\n1. Poverty is the lack of basic necessities like food, clothing, and shelter.\n2. It is a major challenge to Indian democracy.\n3. It affects human development and leads to social unrest.\n4. It affects political participation and can undermine democracy.\n5. Measures to combat poverty include economic development, education, and social welfare schemes.",
+      "important": true
+    },
+    {
+      "id": "n17",
+      "type": "heading",
+      "content": "Write Short Notes"
+    },
+    {
+      "id": "n18",
+      "type": "qna",
+      "title": "Short Note: Corruption in India",
+      "question": "Write a short note on: Corruption in India",
+      "qnaAnswer": "\n1. Corruption is the misuse of public office for private gain.\n2. It is a major challenge to Indian democracy.\n3. It affects the efficiency of the government and erodes public trust.\n4. It leads to loss of revenue and poor quality of public services.\n5. Measures to combat corruption include the Right to Information Act, the Lokpal and Lokayuktas Act, and the Central Vigilance Commission.",
+      "important": true
+    },
+    {
+      "id": "n19",
+      "type": "qna",
+      "title": "Short Note: Communalism in India",
+      "question": "Write a short note on: Communalism in India",
+      "qnaAnswer": "\n1. Communalism is the belief that people belonging to the same religion share common interests.\n2. It is a major challenge to Indian democracy.\n3. It leads to division of society on religious lines.\n4. It can cause violence and conflict.\n5. Measures to combat communalism include promoting secular values and inter-faith dialogue.",
+      "important": true
+    },
+    {
+      "id": "n20",
+      "type": "qna",
+      "title": "Short Note: Casteism in India",
+      "question": "Write a short note on: Casteism in India",
+      "qnaAnswer": "\n1. Casteism is discrimination based on caste.\n2. It is a major challenge to Indian democracy.\n3. It leads to social inequality and division of society.\n4. It affects politics, education, and employment.\n5. Measures to combat casteism include affirmative action, education, and social reform.",
+      "important": true
+    },
+    {
+      "id": "n21",
+      "type": "qna",
+      "title": "Short Note: Role of Citizens in Democracy",
+      "question": "Write a short note on: Role of Citizens in Democracy",
+      "qnaAnswer": "\n1. Citizens play an important role in a democracy.\n2. They participate in elections and choose their representatives.\n3. They hold the government accountable.\n4. They participate in social movements and civil society organizations.\n5. They promote democratic values and respect the rule of law.",
+      "important": true
+    },
+    {
+      "id": "n22",
+      "type": "heading",
+      "content": "Answer in Brief"
+    },
+    {
+      "id": "n23",
+      "type": "qna",
+      "title": "Major Challenges to Indian Democracy",
+      "question": "Explain the major challenges faced by Indian democracy.",
+      "qnaAnswer": "\n1. Corruption: Misuse of public office for private gain.\n2. Communalism: Division of society on religious lines.\n3. Casteism: Discrimination based on caste.\n4. Regionalism: Loyalty to a region over the nation.\n5. Poverty: Lack of basic necessities.\n6. Illiteracy: Lack of education.\n7. Terrorism: Use of violence for political purposes.\n8. Naxalism: Armed rebellion against the state."
+    },
+    {
+      "id": "n24",
+      "type": "qna",
+      "title": "Measures to Strengthen Indian Democracy",
+      "question": "Suggest measures to strengthen Indian democracy.",
+      "qnaAnswer": "\n1. Promoting transparency and accountability in governance.\n2. Strengthening institutions like the Election Commission and the judiciary.\n3. Promoting education and awareness among citizens.\n4. Encouraging participation of marginalized groups.\n5. Combating corruption, communalism, and casteism.\n6. Promoting secular values and national integration.\n7. Ensuring free and fair elections."
+    },
+    {
+      "id": "n25",
+      "type": "heading",
+      "content": "Additional Important Questions"
+    },
+    {
+      "id": "n26",
+      "type": "qna",
+      "title": "[IMPORTANT] Challenges to Democracy",
+      "question": "What are the major challenges faced by Indian democracy?",
+      "qnaAnswer": "\n1. Corruption\n\n2. Communalism\n\n3. Casteism\n\n4. Regionalism\n\n5. Poverty\n\n6. Illiteracy\n\n7. Terrorism\n\n8. Naxalism\n\n9. Gender inequality\n\n10. Environmental degradation",
+      "important": true
+    },
+    {
+      "id": "n27",
+      "type": "qna",
+      "title": "[IMPORTANT] Role of Citizens",
+      "question": "Explain the role of citizens in a democracy.",
+      "qnaAnswer": "\n1. Citizens participate in elections and choose their representatives.\n2. They hold the government accountable.\n3. They participate in social movements and civil society organizations.\n4. They promote democratic values and respect the rule of law.\n5. They contribute to the development of society.",
+      "important": true
+    },
+    {
+      "id": "fig-13-social_movements",
+      "type": "figure",
+      "title": "Major Social and Political Movements in Modern India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+TWFqb3IgU29jaWFsICYgUG9saXRpY2FsIE1vdmVtZW50czwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2MjUuMiIgeTI9IjE1Ny41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNjI1LjIiIHkyPSIyOTIuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjQwMC4wIiB5Mj0iMzYwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNzQuOCIgeTI9IjI5Mi41IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iMTc0LjgiIHkyPSIxNTcuNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz4KPHJlY3QgeD0iMzEwLjAiIHk9IjU3LjAiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZGJlYWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNDAwLjAiIHk9Ijc5LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+RmFybWVycycgTW92ZW1lbnQ8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9Ijk0LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+KEZhaXIgY3JvcCBwcmljZXMsIGxvYW4gd2FpdmVycyAmPC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIxMDkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Td2FtaW5hdGhhbiBDb21taXNzaW9uKTwvdGV4dD48cmVjdCB4PSI1MzUuMiIgeT0iMTI0LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjI1LjIiIHk9IjE0Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPldvcmtlcnMnIC8gVHJhZGUgVW5pb24gTW92ZW1lbnQ8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE2MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihBSVRVQywgam9iIHNlY3VyaXR5LCBtaW5pbXVtIHdhZ2VzICY8L3RleHQ+PHRleHQgeD0iNjI1LjIiIHk9IjE3Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPndlbGZhcmUgYmVuZWZpdHMpPC90ZXh0PjxyZWN0IHg9IjUzNS4yIiB5PSIyNTkuNSIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI2NiIgcng9IjkiIGZpbGw9IiNmZmVkZDUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI2MjUuMiIgeT0iMjgxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+VHJpYmFsIE1vdmVtZW50PC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIyOTYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oRm9yZXN0IGxhbmQgcmlnaHRzLCByaWdodCB0byBmb3Jlc3QgcHJvZHVjZSAmPC90ZXh0Pjx0ZXh0IHg9IjYyNS4yIiB5PSIzMTEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5wcmV2ZW50aW5nIGRpc3BsYWNlbWVudCk8L3RleHQ+PHJlY3QgeD0iMzEwLjAiIHk9IjMyNy4wIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjY2IiByeD0iOSIgZmlsbD0iI2ZlZjljMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjQwMC4wIiB5PSIzNDkuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5Xb21lbidzIE1vdmVtZW50PC90ZXh0Pjx0ZXh0IHg9IjQwMC4wIiB5PSIzNjQuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oR2VuZGVyIGVxdWFsaXR5LCBhbnRpLWRvd3J5LCBhbnRpLXZpb2xlbmNlICY8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjM3OS4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPnBvbGl0aWNhbCByZXNlcnZhdGlvbik8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMjU5LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjZmNlN2YzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjI4MS41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkVudmlyb25tZW50YWwgTW92ZW1lbnQ8L3RleHQ+PHRleHQgeD0iMTc0LjgiIHk9IjI5Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPihXYXRlciBjb25zZXJ2YXRpb24gLyBEci4gUmFqZW5kcmEgU2luZ2gsPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIzMTEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5DaGlwa28gJiBOYXJtYWRhIEJhY2hhbyk8L3RleHQ+PHJlY3QgeD0iODQuOCIgeT0iMTI0LjUiIHdpZHRoPSIxODAiIGhlaWdodD0iNjYiIHJ4PSI5IiBmaWxsPSIjY2NmYmYxIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iMTc0LjgiIHk9IjE0Ni41IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkNvbnN1bWVyIE1vdmVtZW50PC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIxNjEuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj4oQ29uc3VtZXIgUHJvdGVjdGlvbiBBY3QgMTk4NiAmPC90ZXh0Pjx0ZXh0IHg9IjE3NC44IiB5PSIxNzYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5jdXJiaW5nIGFkdWx0ZXJhdGlvbiAmIGZyYXVkKTwvdGV4dD4KPGVsbGlwc2UgY3g9IjQwMC4wIiBjeT0iMjI1LjAiIHJ4PSI5MCIgcnk9IjM4IiBmaWxsPSIjZWRlOWZlIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS42Ii8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyMjIuMCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+UGVvcGxlJ3M8L3RleHQ+PHRleHQgeD0iNDAwLjAiIHk9IjIzOC4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5Nb3ZlbWVudHM8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of social and political movements in India",
+      "figureCaption": "Grassroots civil society movements mobilizing citizens on agrarian, labor, tribal, and ecological rights"
+    },
+    {
+      "id": "fig-13-farmers_demands",
+      "type": "figure",
+      "title": "Key Demands of the Farmers' Movement in India",
+      "figureSrc": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjQyMCI+CjxkZWZzPjxtYXJrZXIgaWQ9ImFoIiBtYXJrZXJXaWR0aD0iOCIgbWFya2VySGVpZ2h0PSI4IiByZWZYPSI3IiByZWZZPSI0IiBvcmllbnQ9ImF1dG8iPjxwYXRoIGQ9Ik0wLDAgTDgsNCBMMCw4IHoiIGZpbGw9IiMzMzQxNTUiLz48L21hcmtlcj48L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNDIwIiBmaWxsPSIjZmZmZmZmIi8+Cjx0ZXh0IHg9IjQwMC4wIiB5PSIyNCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIiBmb250LXdlaWdodD0iYm9sZCI+Q29yZSBEZW1hbmRzIG9mIHRoZSBGYXJtZXJzJyBNb3ZlbWVudDwvdGV4dD4KPGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI0MDAuMCIgeTI9IjkwLjAiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSI2NDcuMyIgeTI9IjE4My4zIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPjxsaW5lIHgxPSI0MDAuMCIgeTE9IjIyNS4wIiB4Mj0iNTUyLjgiIHkyPSIzMzQuMiIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIgbWFya2VyLWVuZD0idXJsKCNhaCkiLz48bGluZSB4MT0iNDAwLjAiIHkxPSIyMjUuMCIgeDI9IjI0Ny4yIiB5Mj0iMzM0LjIiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiIG1hcmtlci1lbmQ9InVybCgjYWgpIi8+PGxpbmUgeDE9IjQwMC4wIiB5MT0iMjI1LjAiIHgyPSIxNTIuNyIgeTI9IjE4My4zIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40IiBtYXJrZXItZW5kPSJ1cmwoI2FoKSIvPgo8cmVjdCB4PSIzMTAuMCIgeT0iNjUuMCIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNkYmVhZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSI0MDAuMCIgeT0iODYuNSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5HdWFyYW50ZWVkIE1pbmltdW0gU3VwcG9ydCBQcmljZSAoTVNQKTwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMTAxLjUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Zm9yIGFsbCBhZ3JpY3VsdHVyYWwgcHJvZHVjZTwvdGV4dD48cmVjdCB4PSI1NTcuMyIgeT0iMTU4LjMiIHdpZHRoPSIxODAiIGhlaWdodD0iNTAiIHJ4PSI5IiBmaWxsPSIjZGNmY2U3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMS40Ii8+PHRleHQgeD0iNjQ3LjMiIHk9IjE3OS44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPkltcGxlbWVudGF0aW9uIG9mIFN3YW1pbmF0aGFuIENvbW1pc3Npb248L3RleHQ+PHRleHQgeD0iNjQ3LjMiIHk9IjE5NC44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPnJlY29tbWVuZGF0aW9ucyAoY29zdCArIDUwJSk8L3RleHQ+PHJlY3QgeD0iNDYyLjgiIHk9IjMwOS4yIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZmZWRkNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjU1Mi44IiB5PSIzMzAuNyIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5EZWJ0IFJlbGllZiAmIFRvdGFsIExvYW4gV2FpdmVyczwvdGV4dD48dGV4dCB4PSI1NTIuOCIgeT0iMzQ1LjciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+Zm9yIGRpc3RyZXNzLWhpdCBmYXJtZXJzPC90ZXh0PjxyZWN0IHg9IjE1Ny4yIiB5PSIzMDkuMiIgd2lkdGg9IjE4MCIgaGVpZ2h0PSI1MCIgcng9IjkiIGZpbGw9IiNmZWY5YzMiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48dGV4dCB4PSIyNDcuMiIgeT0iMzMwLjciIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSI+U3Vic2lkaXplZCBFbGVjdHJpY2l0eSwgV2F0ZXI8L3RleHQ+PHRleHQgeD0iMjQ3LjIiIHk9IjM0NS43IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPiYgRmVydGlsaXplcnMgZm9yIGFncmljdWx0dXJlPC90ZXh0PjxyZWN0IHg9IjYyLjciIHk9IjE1OC4zIiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjUwIiByeD0iOSIgZmlsbD0iI2ZjZTdmMyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEuNCIvPjx0ZXh0IHg9IjE1Mi43IiB5PSIxNzkuOCIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMGYxNzJhIj5QZW5zaW9uICYgU29jaWFsIFNlY3VyaXR5IGZvciBlbGRlcmx5IGZhcm1lcnM8L3RleHQ+PHRleHQgeD0iMTUyLjciIHk9IjE5NC44IiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiPmFuZCBjb21wcmVoZW5zaXZlIGNyb3AgaW5zdXJhbmNlPC90ZXh0Pgo8ZWxsaXBzZSBjeD0iNDAwLjAiIGN5PSIyMjUuMCIgcng9IjkwIiByeT0iMzgiIGZpbGw9IiNlZGU5ZmUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxLjYiLz4KPHRleHQgeD0iNDAwLjAiIHk9IjIyMi4wIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMwZjE3MmEiIGZvbnQtd2VpZ2h0PSJib2xkIj5GYXJtZXJzJzwvdGV4dD48dGV4dCB4PSI0MDAuMCIgeT0iMjM4LjAiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzBmMTcyYSIgZm9udC13ZWlnaHQ9ImJvbGQiPkRlbWFuZHM8L3RleHQ+Cjwvc3ZnPg==",
+      "figureAlt": "Concept map of key demands raised by Indian farmers' movements",
+      "figureCaption": "Central economic and structural demands articulated by agrarian organizations across India"
+    },
+    {
+      "id": "answers-13-set1",
+      "type": "answer_sets",
+      "title": "Q. Set 1 : Choose the Correct Option from Given Options and Complete the Statements",
+      "answerGroups": [
+        {
+          "id": "g-13-1",
+          "entries": [
+            {
+              "id": "a-13-1-1",
+              "question": "(1) ______ is the main demand of the farmers' movement.\n(a) Right to cultivate on forest land\n(b) To get the right price for agricultural produce (MSP)\n(c) Protection of consumer rights\n(d) Building of dams",
+              "answer": "To get the right price for agricultural produce (MSP). (Ensuring remunerative prices covering production costs.)",
+              "questionTag": "March '19 - '20; July '23"
+            },
+            {
+              "id": "a-13-1-2",
+              "question": "(2) In 1899–1900, the tribal community of Chota Nagpur under the leadership of ______ revolted against the British.\n(a) Umaji Naik\n(b) Tantya Bhil\n(c) Birsa Munda\n(d) Dr. Rajendra Singh",
+              "answer": "Birsa Munda. (Led the historic Ulgulan revolt against British exploitation and forest laws.)"
+            },
+            {
+              "id": "a-13-1-3",
+              "question": "(3) Dr. Rajendra Singh of Rajasthan is known as the '______ of India'.\n(a) Forest Man\n(b) Waterman\n(c) Mountain Man\n(d) Metro Man",
+              "answer": "Waterman. (Revived rivers and harvested rainwater by building over 11,000 Johads.)"
+            },
+            {
+              "id": "a-13-1-4",
+              "question": "(4) The All India Trade Union Congress (AITUC) was established in the year ______.\n(a) 1920\n(b) 1947\n(c) 1950\n(d) 1885",
+              "answer": "\n1920. (First national federation of labor unions in India, presided by Lala Lajpat Rai.)"
+            },
+            {
+              "id": "a-13-1-5",
+              "question": "(5) The Consumer Protection Act was passed by the Indian Parliament in the year ______.\n(a) 1975\n(b) 1986\n(c) 2005\n(d) 1991",
+              "answer": "\n1986. (Set up three-tier consumer dispute redressal forums.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-13-set2",
+      "type": "answer_sets",
+      "title": "Q. Set 2 : State Whether the Following Statements are True or False, Giving Reasons",
+      "answerGroups": [
+        {
+          "id": "g-13-2",
+          "entries": [
+            {
+              "id": "a-13-2-1",
+              "question": "(1) Movements are important in a democracy.",
+              "answer": "The statement is True.\nReasons:\n(1) Movements allow citizens and civil society to organize collectively and present issues that political parties may overlook.\n(2) Activists provide crucial field information and research to administrators to formulate responsive policies.\n(3) Peaceful public protest is a constitutionally recognized right in a democracy, ensuring governance reflects public interest.",
+              "questionTag": "Sept. '21"
+            },
+            {
+              "id": "a-13-2-2",
+              "question": "(2) The Consumer movement came into existence.",
+              "answer": "The statement is True.\nReasons:\n(1) Post-industrial market systems exposed consumers to adulteration, misleading advertising, defective goods, and price gouging.\n(2) Individual consumers lacked bargaining power to fight large manufacturers and corporate retailers.\n(3) The Consumer Protection Movement emerged to educate buyers, demand statutory rights, and secure the Consumer Protection Act of 1986.",
+              "questionTag": "March '22 - '24; Sept. '21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-13-set3",
+      "type": "answer_sets",
+      "title": "Q. Set 3 : Explain the Concepts / Write Short Notes",
+      "answerGroups": [
+        {
+          "id": "g-13-3",
+          "entries": [
+            {
+              "id": "a-13-3-1",
+              "question": "(1) Tribal Movement:",
+              "answer": "(1) British Exploitation: The colonial British forest acts snatched traditional rights of tribals over forest timber, produce, and hunting, sparking armed revolts by Santhal, Koli, Bhil, Gond, and Munda tribes.\n(2) Post-Independence Grievances: Even after 1947, large-scale mining, dam construction, and commercial logging displaced tribal communities from ancestral habitats.\n(3) Key Demands: Tribals demand constitutional recognition of forest land rights (Forest Rights Act 2006), preservation of indigenous culture, and prevention of industrial exploitation.",
+              "questionTag": "July '19"
+            },
+            {
+              "id": "a-13-3-2",
+              "question": "(2) Worker / Labour Movement:",
+              "answer": "(1) Origin: The emergence of cotton textile mills, jute factories, and railways in the late 19th century gave birth to the Indian working class.\n(2) Foundation of AITUC: In 1920, All India Trade Union Congress was formed to unify industrial workers.\n(3) Golden Era: From the 1960s to 1980s, militant trade unions won critical benefits like fixed working hours, provident funds, medical insurance, and festival bonuses.\n(4) Modern Challenges: Post-1991 globalization, contractualization, and privatization dismantled union bargaining strength.",
+              "questionTag": "March '25"
+            },
+            {
+              "id": "a-13-3-3",
+              "question": "(3) Water Revolution (Dr. Rajendra Singh):",
+              "answer": "(1) In arid Rajasthan, Dr. Rajendra Singh revived five dried-up seasonal rivers (including Ruparel, Sarsa, and Arvari) through traditional water harvesting.\n(2) He founded the organization 'Tarun Bharat Sangh', which built over 11,000 traditional earthen check-dams ('Johads').\n(3) His 31 years of selfless ecological service recharged groundwater tables, rejuvenated forests, and reversed desertification.\n(4) He was awarded the prestigious Ramon Magsaysay Award and Stockholm Water Prize, earning the title 'Waterman of India'.",
+              "questionTag": "March '19 - '22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-13-set4",
+      "type": "answer_sets",
+      "title": "Q. Set 4 : Do as Directed (Concept Maps & Tables)",
+      "answerGroups": [
+        {
+          "id": "g-13-4",
+          "entries": [
+            {
+              "id": "a-13-4-1",
+              "question": "Complete the concept map: Important Movements in India.",
+              "answer": "\n1. Farmers' Movement (Shetkari Sanghatana / BKU)\n\n2. Workers' / Trade Union Movement (AITUC, INTUC, BMS)\n\n3. Women's Movement (Stree Mukti Sanghatana)\n\n4. Tribal Movement (Birsa Munda / Adivasi Rights)\n\n5. Environmental Movement (Chipko / Narmada Bachao / Tarun Bharat Sangh)\n\n6. Consumer Protection Movement",
+              "questionTag": "Sept. '21; July '22"
+            },
+            {
+              "id": "a-13-4-2",
+              "question": "Complete the concept map: Demands of the Farmers' Movement.",
+              "answer": "• Guaranteed Minimum Support Price (MSP) for agricultural goods\n• Total debt waiver and relief from unpayable farm loans\n• Implementation of M. S. Swaminathan Commission recommendations\n• Subsidized irrigation, uninterrupted power supply, and cheap fertilizers\n• Comprehensive crop damage insurance coverage against droughts and floods"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "answers-13-set5",
+      "type": "answer_sets",
+      "title": "Q. Set 5 : Answer the Following in Brief",
+      "answerGroups": [
+        {
+          "id": "g-13-5",
+          "entries": [
+            {
+              "id": "a-13-5-1",
+              "question": "(1) Explain the nature of the farmers' movement in India.",
+              "answer": "(1) Pre-Independence Struggle: Mahatma Gandhi led historic peasant satyagrahas in Champaran (indigo farmers), Kheda, and Bardoli against exorbitant colonial land revenue taxes.\n(2) Impact of Green Revolution: The Green Revolution increased food production but created severe regional economic disparities, leaving small and marginal farmers debt-ridden.\n(3) Modern Agrarian Unions: Organizations like Shetkari Sanghatana in Maharashtra (led by Sharad Joshi) and Bharatiya Kisan Union in North India (led by Mahendra Singh Tikait) mobilized millions for remunerative crop prices.\n(4) Contemporary Phase: Farmers fight against corporatization, demand statutory MSP guarantees, fair compensation for acquired farmland, and climate resilience support.",
+              "questionTag": "Board Textual Reference"
+            },
+            {
+              "id": "a-13-5-2",
+              "question": "(2) What are the demands of the Trade Union Movement in modern India?",
+              "answer": "(1) Fair Living Wages: Demanding statutory revision of minimum wages keeping pace with rising inflation and cost of living.\n(2) Social Security: Demanding guaranteed pensions, maternity benefits, medical insurance, and provident funds for unorganized and gig workers.\n(3) Ending Contractualization: Demanding regularization of temporary, contractual, and outsourced employees into permanent payrolls.\n(4) Workplace Safety: Enforcing strict occupational safety and health standards across manufacturing units, mines, and construction sites.",
+              "questionTag": "Board Textual Reference"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f1",
+      "front": "Name any three challenges to Indian democracy.",
+      "back": "Corruption, communalism, casteism",
+      "order": 1
+    },
+    {
+      "id": "f2",
+      "front": "What is communalism?",
+      "back": "Division of society based on religion",
+      "order": 2
+    },
+    {
+      "id": "f3",
+      "front": "What is casteism?",
+      "back": "Discrimination based on caste",
+      "order": 3
+    },
+    {
+      "id": "f4",
+      "front": "What is corruption?",
+      "back": "Misuse of public office for private gain",
+      "order": 4
+    },
+    {
+      "id": "f5",
+      "front": "What is the role of citizens in a democracy?",
+      "back": "Participating in elections, holding government accountable, promoting democratic values",
+      "order": 5
+    },
+    {
+      "id": "f6",
+      "front": "Name one measure to combat corruption.",
+      "back": "Right to Information Act, Lokpal, Central Vigilance Commission",
+      "order": 6
+    },
+    {
+      "id": "fc-13-1",
+      "front": "What is the primary demand of the farmers' movement in India?",
+      "back": "Guaranteed remunerative prices (MSP) for agricultural produce.",
+      "order": 1
+    },
+    {
+      "id": "fc-13-2",
+      "front": "Who is known as the 'Waterman of India'?",
+      "back": "Dr. Rajendra Singh (built 11,000 Johads in Rajasthan with Tarun Bharat Sangh).",
+      "order": 2
+    },
+    {
+      "id": "fc-13-3",
+      "front": "Which tribal leader led the famous 'Ulgulan' revolt against British forest exploitation?",
+      "back": "Birsa Munda (1899–1900 in Chota Nagpur).",
+      "order": 3
+    },
+    {
+      "id": "fc-13-4",
+      "front": "When was the All India Trade Union Congress (AITUC) established?",
+      "back": "1920 (first president: Lala Lajpat Rai).",
+      "order": 4
+    },
+    {
+      "id": "fc-13-5",
+      "front": "When was the landmark Consumer Protection Act passed in India?",
+      "back": "1986.",
+      "order": 5
+    },
+    {
+      "id": "fc-13-6",
+      "front": "Which commission recommended setting MSP at cost plus 50% for farmers?",
+      "back": "National Commission on Farmers (M. S. Swaminathan Commission).",
+      "order": 6
+    },
+    {
+      "id": "fc-13-7",
+      "front": "What is a 'Johad'?",
+      "back": "A traditional earthen check-dam used for harvesting rainwater in Rajasthan.",
+      "order": 7
+    },
+    {
+      "id": "fc-13-8",
+      "front": "Who founded Shetkari Sanghatana in Maharashtra?",
+      "back": "Sharad Joshi.",
+      "order": 8
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "qType": "mcq",
+      "question": "______ is a major challenge faced by Indian democracy.",
+      "options": [
+        "Corruption",
+        "Communalism",
+        "Casteism",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "All of these are challenges to Indian democracy.",
+      "order": 1
+    },
+    {
+      "id": "q2",
+      "qType": "mcq",
+      "question": "Communalism is based on ______.",
+      "options": [
+        "Religion",
+        "Caste",
+        "Region",
+        "Language"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Communalism is based on religion.",
+      "order": 2
+    },
+    {
+      "id": "q3",
+      "qType": "mcq",
+      "question": "Casteism is a challenge because it ______.",
+      "options": [
+        "Promotes inequality",
+        "Divides society",
+        "Affects politics",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Casteism affects all aspects of society.",
+      "order": 3
+    },
+    {
+      "id": "q4",
+      "qType": "mcq",
+      "question": "Poverty is a challenge because it ______.",
+      "options": [
+        "Affects human development",
+        "Leads to social unrest",
+        "Affects democracy",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Poverty affects all aspects of life.",
+      "order": 4
+    },
+    {
+      "id": "q5",
+      "qType": "mcq",
+      "question": "Illiteracy is a challenge because it ______.",
+      "options": [
+        "Affects political participation",
+        "Affects economic development",
+        "Affects social development",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Illiteracy affects all aspects of development.",
+      "order": 5
+    },
+    {
+      "id": "quiz-13-1",
+      "qType": "mcq",
+      "question": "What is the primary demand of the Indian farmers' movement?",
+      "options": [
+        "Right to forest land",
+        "Fair Minimum Support Price (MSP)",
+        "Free food rations",
+        "Building large dams"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Securing remunerative MSP for agricultural produce is the core demand of farmers.",
+      "order": 1
+    },
+    {
+      "id": "quiz-13-2",
+      "qType": "mcq",
+      "question": "Who is famously revered as the 'Waterman of India' for reviving Rajasthan's rivers?",
+      "options": [
+        "Sunderlal Bahuguna",
+        "Dr. Rajendra Singh",
+        "Birsa Munda",
+        "Medha Patkar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Dr. Rajendra Singh pioneered rainwater harvesting with Tarun Bharat Sangh.",
+      "order": 2
+    },
+    {
+      "id": "quiz-13-3",
+      "qType": "true_false",
+      "question": "Social and political movements have no legitimate place in a democratic system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Movements are essential democratic tools that convey citizens' collective grievances to the state.",
+      "order": 3
+    },
+    {
+      "id": "quiz-13-4",
+      "qType": "fill_blank",
+      "question": "The All India Trade Union Congress (AITUC) was formed in the year ____.",
+      "options": [
+        "1905",
+        "1920",
+        "1947",
+        "1986"
+      ],
+      "correctAnswer": 1,
+      "explanation": "AITUC was formed in 1920 to represent Indian industrial workers.",
+      "order": 4
+    },
+    {
+      "id": "quiz-13-5",
+      "qType": "mcq",
+      "question": "The Consumer Protection Act was passed by the Indian Parliament in ______.",
+      "options": [
+        "1950",
+        "1975",
+        "1986",
+        "2005"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Consumer Protection Act was enacted in 1986.",
+      "order": 5
+    },
+    {
+      "id": "quiz-13-6",
+      "qType": "mcq",
+      "question": "Birsa Munda led the historic tribal uprising in which region?",
+      "options": [
+        "Chota Nagpur",
+        "Konkan",
+        "Malabar",
+        "Garhwal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Birsa Munda led the Munda rebellion in Chota Nagpur.",
+      "order": 6
+    }
+  ],
+  "part": 3,
+  "section": "Political Science"
+}

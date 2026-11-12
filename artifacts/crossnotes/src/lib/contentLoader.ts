@@ -32,6 +32,7 @@ export interface ManifestChapterMeta {
   updatedAt: string;
   tags: string[];
   noteCount: number;
+  solutionCount: number;
   flashcardCount: number;
   quizCount: number;
 }

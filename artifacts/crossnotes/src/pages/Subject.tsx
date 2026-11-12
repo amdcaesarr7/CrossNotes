@@ -112,9 +112,7 @@ function ChapterRow({ chapter, slug, uid }: { chapter: ManifestChapterMeta; slug
   const { progress } = useUserProgress(uid, chapter.id);
   const status = chapterStatus(progress);
   const hasContent = chapter.noteCount > 0 || chapter.flashcardCount > 0 || chapter.quizCount > 0;
-  // The manifest carries note tags, so the list can identify Maths solution
-  // chapters without downloading every note just to render the subject page.
-  const solutionCount = chapter.tags.includes('markdown') ? chapter.noteCount : 0;
+  const solutionCount = chapter.solutionCount;
   const hasFlashcards = chapter.flashcardCount > 0;
   const hasQuiz = chapter.quizCount > 0;
   const [showOverview, setShowOverview] = useState(false);
@@ -257,7 +255,7 @@ export default function Subject() {
 
   const colorKey = subject.color || 'violet';
   const solutionSetCount = chapters.reduce(
-    (count, chapter) => count + (chapter.tags.includes('markdown') ? chapter.noteCount : 0),
+    (count, chapter) => count + chapter.solutionCount,
     0,
   );
 

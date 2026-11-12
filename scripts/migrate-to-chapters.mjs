@@ -47,6 +47,17 @@ function uniqueNoteTags(chapter) {
   return Array.from(types).sort();
 }
 
+// Keep this in sync with src/lib/importedSolutions.ts. The subject index uses
+// this manifest count so it does not need to fetch every chapter just to show
+// the number of worked solution sets.
+function isImportedSolution(note) {
+  if (note.type === 'markdown') return true;
+  if (/^p[12]-c\d+-(?:set|problem)-\d+$/i.test(note.id)) return true;
+  const title = note.title?.trim() ?? '';
+  return /^(?:Practice Set|Problem Set)\s/i.test(title)
+    && /(?:Maths|Geometry|Algebra|Class 10|10th)/i.test(title);
+}
+
 async function readJSON(filePath) {
   const raw = await readFile(filePath, 'utf8');
   return JSON.parse(raw);
@@ -153,6 +164,7 @@ async function main() {
         updatedAt: generatedAt,
         tags: uniqueNoteTags(chapter),
         noteCount,
+        solutionCount: (chapter.notes || []).filter(isImportedSolution).length,
         flashcardCount,
         quizCount,
       });
